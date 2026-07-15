@@ -1,0 +1,3000 @@
+﻿
+--- WINDOW  2026/07/15 14:00:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:00:28  [Discord.exe] Friends - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:00:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:00:36  [Antigravity IDE.exe] Antigravity IDE
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:00:40  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Initial greeting convers…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:01:05  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:01:15  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Claude Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:01:31  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  DmitryNexai — 10:01 AM
+  I’ve looked at the code, the work is excellent overall
+  One question: PriceOracle is inherited in NexaiCore but deposit/redeem only use static weights from updateBasket, no live price reads. Is oracle integration coming in a later phase, or was that intentional here?
+  Regarding the frontend demo version:ratios are exactly right.
+  Good work again)
+  
+  Also noticed the UI still requires separate WETH + USDC approvals before minting — so the zapper for one-click USDC deposits isn't built yet, correct? 
+  DmitryNexai — 10:10 AM
+  Overall, I like everything:3
+  MENDEZ [MAVN],  — 10:12 AM
+  Thanks! On the oracle question, intentional, not missing. Deposit/redeem deliberately use static weights from updateBasket, not live prices, so the fund-holding contract's math stays simple and can't be manipulated by a stale or wrong price feed, nothing risky ever touches the mint/redeem path. PriceOracle is inherited because RedStone's price data has to be read in the same transaction it was attached to, but nothing calls getPrice() in the core flow right now , it's there for future valuation/display features. Rebalancing (when weights actually change) is the piece that will need live prices, still a later phase.
+  On the zapper, correct, not built yet. This trial focused on proving the core in-kind mechanism first (lowest risk, matches Reserve's actual audited pattern), with the zapper for one-click single-token deposits planned as the next layer on top, same reasoning we talked through before.
+  MENDEZ [MAVN],  — 10:13 AM
+  Glad it's landing well, appreciate you digging into the code, makes this feel like a real partnership already.
+  MENDEZ [MAVN],  — 10:24 AM
+  Given the core deliverable's done and tested, what would be most useful to spend the remaining trial time on the zapper (single-token deposits, since you asked), expanding the basket size, or something else you're thinking about like the project marketing site?
+  DmitryNexai — 10:27 AM
+  Zapper, no question-that's the piece that actually delivers on nexai core promise (single-token, one-click deposits). 
+  Basket size expansion isn't urgent since we've confirmed the architecture already supports it. Site can wait for later or a separate person.
+  MENDEZ [MAVN],  — 10:27 AM
+  I'll get started on it sire
+  
+  [LMB]
+
+--- WINDOW  2026/07/15 14:01:42  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Claude Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v\\\[Bk][Bk][Bk][ENTER]
+  [ENTER]
+  [ENTER]
+  do you undert[Bk]stand his conersation/[ENTER]
+
+--- WINDOW  2026/07/15 14:01:54  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DmitryNexai — 10:01 AM I…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:01:56  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:02:03  [Antigravity IDE.exe] NEXAI - Antigravity IDE - constants.ts
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:02:09  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:02:14  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:02:15  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:02:21  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:02:22  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  do 
+  [LMB]
+  do you thn[Bk]ink we can get started o [Bk]n that/[ENTER]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:03:13  [Antigravity IDE.exe] NEXAI - Antigravity IDE
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:03:20  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  i thini [Bk][Bk]k  [Bk]i should wait an[Bk][Bk]to get reply from client[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:06:29  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]/
+  [LMB]
+  [LMB]
+  [Ctrl]/
+  [LMB]
+  [LMB]
+  //[Bk][Bk][Bk]/[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:06:47  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  also i want as we're buid[Bk]ding you'llhelp me execut e[Bk][Bk][Bk][Bk][Bk][Bk][Bk]explain wah[Bk][Bk]hat was done so i ean[Bk][Bk][Bk]lean[Bk]rn too please[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:08:28  [Antigravity IDE.exe] NEXAI - Antigravity IDE - constants.ts
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:08:29  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:08:37  [Antigravity IDE.exe] NEXAI - Antigravity IDE
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:08:39  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Untitled-1
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:08:41  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Claude Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:08:55  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:09:00  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Claude Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:09:01  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Initial greeting convers…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:09:03  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Claude Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:09:05  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Initial greeting convers…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:10:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:10:52  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:11:21  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Initial greeting convers…
+----------------------------------------------------------------------------
+  h[Bk][Bk][Bk][Bk][Bk][Bk]tere[Bk][Bk][Bk][Bk][Bk]here' ar[Bk]r[Bk]k.i dint buuld tioit in phasesibera them hases so t everyhting matche[ENTER]
+  doknowif you in[Bk][Bk]understad e
+
+--- WINDOW  2026/07/15 14:12:13  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:12:15  [brave.exe] Sign in - Google Accounts - Brave
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:12:30  [brave.exe] accounts.google.com/signin/oauth/id?authuser=0&part=AJi8hAO2JZtvqxZukC88BmpcnLOQNf72c-o38Slk6n9xuR3kJ8Xv3Eex2VtJ8Ko_Rf3qhIbfbeueg6DMmkkdgsiiTMy7F3SgMieqCP2BRNlPtmul5bBY2P8-qQv_mYGBmccjYRigl61328fivAi3dJpZsK60Nq_XQRkJfADH70pvMtJ24_wuYhoC0ttgR6qu06svUWD3UdlnyXp4zp6tGu24rj6Cg9wym8qw8RNHdQUk1fgJ-0_eVF5CEx-8ee8oPS9nZm1IrNYkb1ERURt32SFeJokaiRo5Kvw7p7swYH4IoVYsNosswq_5Kz_fYnp1lUW8YFDu56S131uTBCBsotto5kLDx2mvab4kEEG9D8WYCPqJlQnvnzqt4OWKg19pRZO8RlvwfN42zG4jiKealFtj3R19T61ZrVCKYeV9lvIvyyZeq9suRl0M7RLMvowjft_JbQAbisN
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:12:31  [brave.exe] Sign in - Google Accounts - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:12:34  [brave.exe] claude.ai/login/popup-google-auth?state=desktop%3A4d29e6b666353210386f6be358fbe2359fbcc4f6eb4e1630b643fc77e5e9ee20&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AXEQxIDqz5WKyfdWJaLx8P-rnDiFbbun9X_8mciy7AUrv4-GBH5CXj-UFR2pSksoHpwWBg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:12:37  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:12:49  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:13:05  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:13:08  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Clipboard]
+  # Life OS — Product & System Design
+  
+  Personal RPG-style life management system. Real actions → XP, levels, ranks, stats, streaks — delivered as a true native "System"-style app with full-screen quest alerts, like Solo Leveling.
+  
+  ---
+  
+  ## 1. Product Architecture
+  
+  **Pattern:** React Native (Expo) native app + Supabase backend. No website — this is a phone-first app you install, with real OS-level push notifications and full-screen in-app "System" alert overlays.
+  
+  ```
+  ┌─────────────────────────────────────────────┐
+  │  Expo App (React Native, iOS + Android)      │
+  │  ├─ app/(auth)/            → login/signup    │
+  │  ├─ app/(tabs)/                              │
+  │  │   ├─ dashboard/         → HUD overview    │
+  │  │   ├─ quests/daily/      → daily quests    │
+  │  │   ├─ quests/main/       → main quests     │
+  │  │   ├─ stats/             → stat breakdown  │
+  │  │   └─ analytics/         → charts/history  │
+  │  ├─ components/                              │
+  │  │   ├─ hud/               → HUD widgets     │
+  │  │   └─ system-alert/      → full-screen     │
+  │  │        "[System]" popup overlay           │
+  │  ├─ lib/xp-engine/         → XP/level/rank   │
+  │  │                            logic (pure)    │
+  │  ├─ lib/notifications/     → Expo push        │
+  │  │                            registration    │
+  │  └─ lib/supabase/          → client helpers   │
+  └─────────────────────────────────────────────┘
+                │
+                ▼
+  ┌─────────────────────────────────────────────┐
+  │  Supabase                                    │
+  │  ├─ Postgres (schema below)                  │
+  │  ├─ Row Level Security (per user_id)         │
+  │  ├─ Auth (email/password or magic link)      │
+  │  ├─ Edge Functions:                          │
+  │  │   • daily streak rollover / quest reset   │
+  │  │   • scheduled quest reminder pushes       │
+  │  │   • level-up / milestone push triggers    │
+  │  └─ Realtime (optional): live XP sync if you │
+  │      ever add a second device                │
+  └─────────────────────────────────────────────┘
+                │
+                ▼
+  ┌─────────────────────────────────────────────┐
+  │  Expo Push Notification Service              │
+  │  → delivers native OS push notifications     │
+  │    which the app intercepts and can render   │
+  │    as a full-screen "System" alert on open   │
+  └─────────────────────────────────────────────┘
+  ```
+  
+  **Deployment:** EAS Build (Expo Application Services) compiles the native iOS/Android binaries. EAS Submit pushes to TestFlight / Play internal testing — you don't need to publish publicly, this can stay a personal app on your own devices via TestFlight/internal track indefinitely. Since you're Android-first, you can skip the Apple Developer Program ($99/yr) entirely for now — Android builds can be side-loaded or distributed via Play internal testing for free, and you can add iOS later only if you need it.
+  
+  **Key architectural decision:** all XP/level/rank math lives in a pure, framework-agnostic `lib/xp-engine` module — no DB calls inside it. The DB stores raw events (task completions), and the engine derives level/rank/stats from those events. This means you can recompute everything if you change the formula later, and it's trivially testable.
+  
+  **State flow:** Task completion → insert row in `quest_completions` → recalculates total XP, stat totals, streak → updates `profiles` cache columns → UI reflects new state optimistically, then confirms. Certain events (level-up, main quest completion, missed daily quest by evening) also fire a push notification via an Edge Function.
+  
+  ---
+  
+  ## 2. Database Schema (Supabase/Postgres)
+  
+  ```sql
+  -- Core identity
+  profiles (
+    id                uuid primary key references auth.users,
+    username          text,
+    avatar_url        text,
+    total_xp          int default 0,        -- cached, derived from xp_log
+    current_level     int default 1,        -- cached
+    gcoin_balance     int default 0,
+    current_streak    int default 0,
+    best_streak       int default 0,
+    active_title_id   uuid,                 -- references titles(id), nullable
+    last_active_date  date,
+    created_at        timestamptz default now()
+  )
+  
+  -- Stat totals (one row per stat per user)
+  stats (
+    id           uuid primary key default gen_random_uuid(),
+    user_id      uuid references profiles(id),
+    stat_name    text check (stat_name in
+                  ('health','wealth','knowledge','discipline','network')),
+    points       int default 0,
+    unique(user_id, stat_name)
+  )
+  
+  -- Daily Quest definitions (recurring habit templates)
+  daily_quests (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    title         text not null,
+    description   text,
+    quest_rank    text check (quest_rank in ('E','D','C','B','A','S','SS')) not null,
+    xp_reward     int not null,       -- derived from quest_rank, editable
+    gcoin_reward  int not null,       -- derived from quest_rank, editable
+    stat_target   text,          -- which stat this feeds
+    stat_amount   int default 1,
+    verification_type text check (verification_type in
+                  ('self_report','photo','link','timer','integration','location')) default 'self_report',
+    verification_config jsonb,   -- e.g. { min_minutes: 20 } for timer,
+                                  -- { lat, lng, radius_m } for location,
+                                  -- { source: 'health_connect', metric: 'exercise_minutes', min: 20 } for integration
+    active        boolean default true,
+    sort_order    int default 0,
+    created_at    timestamptz default now()
+  )
+  
+  -- Daily Quest completion log (one row per day completed)
+  quest_completions (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    quest_id      uuid references daily_quests(id),
+    completed_on  date not null,
+    xp_awarded    int not null,
+    gcoin_awarded int not null default 0,
+    verification_type text check (verification_type in
+                  ('self_report','photo','link','timer','integration','location')) default 'self_report',
+    proof_url     text,              -- photo/screenshot storage path or link
+    verified      boolean default false,  -- true once proof/integration check passes
+    verified_at   timestamptz,
+    unique(quest_id, completed_on)   -- prevents double-completion same day
+  )
+  
+  -- Main Quests (long-term goals)
+  main_quests (
+    id              uuid primary key default gen_random_uuid(),
+    user_id         uuid references profiles(id),
+    title           text not null,
+    description     text,
+    quest_rank      text check (quest_rank in ('S','SS')) default 'S',
+    xp_reward       int not null,       -- awarded on full completion
+    status          text check (status in ('active','completed','abandoned')) default 'active',
+    progress_pct    numeric default 0,  -- 0-100, derived from milestones
+    created_at      timestamptz default now(),
+    completed_at    timestamptz
+  )
+  
+  -- Milestones within a Main Quest
+  milestones (
+    id              uuid primary key default gen_random_uuid(),
+    main_quest_id   uuid references main_quests(id),
+    title           text not null,
+    xp_reward       int default 0,
+    completed       boolean default false,
+    completed_at    timestamptz,
+    sort_order      int default 0
+  )
+  
+  -- Immutable XP transaction log (source of truth)
+  xp_log (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    source_type   text check (source_type in ('daily_quest','milestone','main_quest')),
+    source_id     uuid,             -- FK to quest/milestone (soft ref)
+    amount        int not null,
+    created_at    timestamptz default now()
+  )
+  
+  -- Streak history (per calendar day, did they complete ≥1 quest)
+  streak_days (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    day           date not null,
+    quests_done   int default 0,
+    unique(user_id, day)
+  )
+  
+  -- Trait definitions (permanent passive achievements)
+  traits (
+    id              uuid primary key default gen_random_uuid(),
+    name            text not null,           -- e.g. "Iron Body"
+    description     text,
+    rarity          text check (rarity in ('common','uncommon','rare','epic','legendary')),
+    unlock_condition jsonb,                  -- e.g. { type: 'quest_count', quest_tag: 'workout', count: 100 }
+    passive_bonus   jsonb                    -- e.g. { stat: 'health', flat_bonus: 5 }
+  )
+  
+  user_traits (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    trait_id      uuid references traits(id),
+    unlocked_at   timestamptz default now(),
+    unique(user_id, trait_id)
+  )
+  
+  -- Title definitions (accomplishment-based, cosmetic display)
+  titles (
+    id              uuid primary key default gen_random_uuid(),
+    name            text not null,           -- e.g. "Empire Architect"
+    unlock_condition jsonb
+  )
+  
+  user_titles (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    title_id      uuid references titles(id),
+    unlocked_at   timestamptz default now(),
+    unique(user_id, title_id)
+  )
+  -- profiles.active_title_id points at the one currently displayed
+  
+  -- Achievement definitions, including hidden ones
+  achievements (
+    id              uuid primary key default gen_random_uuid(),
+    name            text not null,
+    description     text,
+    hidden          boolean default false,   -- true = not shown until unlocked
+    unlock_condition jsonb,                  -- e.g. { type: 'streak', days: 30, before_hour: 6 }
+    xp_reward       int default 0,
+    gcoin_reward    int default 0,
+    title_reward_id uuid references titles(id)  -- optional: unlocking it also grants a title
+  )
+  
+  user_achievements (
+    id              uuid primary key default gen_random_uuid(),
+    user_id         uuid references profiles(id),
+    achievement_id  uuid references achievements(id),
+    unlocked_at     timestamptz default now(),
+    unique(user_id, achievement_id)
+  )
+  ```
+  
+  **Why an immutable `xp_log`:** `profiles.total_xp` is a cache for fast reads, but `xp_log` is the ground truth. Analytics ("XP this week," "most improved stat") just query/aggregate this table — no separate analytics tables needed.
+  
+  ---
+  
+  ## 3. User Flow
+  
+  ```
+  Sign up / log in
+        │
+        ▼
+  Onboarding (first login only)
+    → set username
+    → pick 3-6 starter Daily Quests from templates (or custom)
+    → set 1-3 starter Main Quests
+        │
+        ▼
+  Dashboard (home base)
+    → see Level, XP bar, Rank, Streak, Stat radar
+        │
+        ├──► Daily Quests tab
+        │     → tap quest → mark complete → XP toast + stat tick
+        │     → animated level-up modal if threshold crossed
+        │
+        ├──► Main Quests tab
+        │     → open quest → view milestones → check one off
+        │     → progress bar fills → big XP reward on 100%
+        │
+        ├──► Stats tab
+        │     → radar/bar chart of 5 stats
+        │     → tap a stat → see which quests feed it
+        │
+        └──► Analytics tab
+              → weekly XP graph, monthly completions,
+                best streak, most-improved stat
+  ```
+  
+  Daily reset: at local midnight, quest "completed" checkboxes clear for the new day (completion history stays in `quest_completions`). A cron/edge function updates `streak_days`, and increments/resets `current_streak`.
+  
+  ---
+  
+  ## 4. XP System Design
+  
+  Every action funnels into one function: `awardXP(userId, amount, source)`. This:
+  1. Inserts into `xp_log`
+  2. Increments `profiles.total_xp`
+  3. Recomputes `current_level` from `total_xp` (see §5)
+  4. Updates relevant `stats` row(s)
+  5. Updates `streak_days` for today
+  
+  **Quest Rank system:** replaces the earlier simple "difficulty" concept — every quest (Daily or Main) has a rank from E to SS, and rank is what drives XP, G-coin, and stat growth together, not just XP alone:
+  
+  | Rank | XP | G-Coin | Stat Growth | Example |
+  |---|---|---|---|---|
+  | E | 10 | 2 | +1 | Make bed, drink water |
+  | D | 25 | 5 | +1 | Morning prayer, read 10 pages |
+  | C | 50 | 10 | +2 | Workout, journal entry |
+  | B | 100 | 20 | +3 | Trading study session, content creation |
+  | A | 250 | 50 | +5 | Build a product feature, major project task |
+  | S | 500 | 100 | +8 | Pass prop firm challenge, secure new income source |
+  | SS | 1000 | 200 | +12 | Major life achievement, relocation milestone |
+  
+  The G-coin and stat-growth columns are a suggested starting ratio (roughly 1/5 of XP for G-coin) — tune freely once you see how fast the shop economy moves in practice.
+  
+  **Main Quest milestones:** typically 50–200 XP each; the final completion of the whole Main Quest awards a large bonus (e.g. 500–2000 XP) on top of milestone totals — this makes big goals feel disproportionately rewarding, matching real-life stakes.
+  
+  **Buffs / XP Modifiers:** all bonus-XP mechanics (streak bonus, quest-triggered boosts, shop-bought boosts) run through one system instead of separate hacks. `awardXP` looks up your active buffs, sums their multipliers (capped, see below), and applies the total to the base XP before logging.
+  
+  ```sql
+  buffs (
+    id             uuid primary key default gen_random_uuid(),
+    user_id        uuid references profiles(id),
+    name           text not null,           -- e.g. "Focused Mind", "Streak Momentum"
+    xp_multiplier  numeric not null,        -- 0.05 = +5%
+    source_type    text check (source_type in ('quest_completion','streak','shop_purchase')),
+    source_id      uuid,                    -- which quest/item granted it
+    granted_at     timestamptz default now(),
+    expires_at     timestamptz,             -- null = permanent
+    active         boolean default true
+  )
+  ```
+  
+  Examples of how each source grants a buff:
+  - **Quest-triggered:** a specific quest (e.g. an Epic-difficulty or Main Quest milestone) grants a named buff like *"[System] Buff acquired: Focused Mind (+5% XP, 24h)"* on completion — set `expires_at` for temporary, leave null for a permanent unlock (e.g. finishing a Main Quest could permanently buff quests tied to the same stat).
+  - **Streak:** the existing streak bonus becomes just another row, recalculated daily: `+1% per streak day, capped at +30%`.
+  - **Shop-bought:** a G-coin shop item ("Mana Elixir — +10% XP, 12h") inserts a temporary buff on purchase — a genuinely useful thing to spend G-coin on besides cosmetics.
+  
+  **Stacking rule:** sum all active multipliers, but cap the total (e.g. +50% max) so buffs stay a nice bonus rather than letting XP snowball out of control. `finalXP = baseXP * (1 + min(sum(activeMultipliers), 0.5))`.
+  
+  ---
+  
+  ## 5. Level Progression System
+  
+  Use an escalating curve so early levels feel fast (dopamine hook) and later levels feel earned.
+  
+  **Formula (XP required to go from level `n` to `n+1`):**
+  
+  ```
+  xpForLevel(n) = round(100 * n^1.5)
+  ```
+  
+  | Level | XP for this level | Cumulative XP |
+  |---|---|---|
+  | 1→2 | 100 | 100 |
+  | 2→3 | 283 | 383 |
+  | 3→4 | 520 | 903 |
+  | 5→6 | 1,118 | ~2,850 |
+  | 10→11 | 3,162 | ~11,600 |
+  | 20→21 | 8,944 | ~57,900 |
+  
+  **Deriving current level from `total_xp`:** precompute a cumulative-XP lookup table (or invert the formula) in `lib/xp-engine/level.ts`. Since it's a pure function of `total_xp`, level is always derivable — never stored as the source of truth, only cached.
+  
+  ```ts
+  function getLevel(totalXp: number): { level: number; xpIntoLevel: number; xpForNext: number } {
+    let level = 1;
+    let cumulative = 0;
+    while (true) {
+      const need = Math.round(100 * Math.pow(level, 1.5));
+      if (cumulative + need > totalXp) {
+        return { level, xpIntoLevel: totalXp - cumulative, xpForNext: need };
+      }
+      cumulative += need;
+      level++;
+    }
+  }
+  ```
+  
+  This is cheap enough to run on every render for realistic level ranges (under a few hundred).
+  
+  ---
+  
+  ## 6. Rank System
+  
+  Ranks are level-range bands — cosmetic titles layered on top of levels for extra flavor.
+  
+  | Rank | Level Range |
+  |---|---|
+  | Novice | 1–4 |
+  | Apprentice | 5–9 |
+  | Scout | 10–14 |
+  | Warrior | 15–24 |
+  | Elite | 25–34 |
+  | Empire Builder | 35–49 |
+  | Legend | 50+ |
+  
+  Store as a static config array `[{ name, minLevel }]` — derive rank the same way as level, no DB table needed unless you want per-rank unlockable perks/badges later.
+  
+  ---
+  
+  ## 7. Streak System
+  
+  Three tracked windows, all derived from `streak_days`:
+  
+  - **Daily streak:** consecutive calendar days with ≥1 quest completed. Breaks reset to 0 (with a "streak freeze" grace item as a nice-to-have later).
+  - **Weekly streak:** consecutive weeks where ≥N quests completed (define N, e.g. 5) — good for forgiving the occasional missed day.
+  - **Monthly streak:** consecutive months hitting a completion-rate threshold (e.g. 70% of days active).
+  
+  `best_streak` on `profiles` is just `max(current_streak)` ever seen — update it whenever `current_streak` increases.
+  
+  ---
+  
+  ## 8. Quest Verification System
+  
+  Self-report ("just tap complete") is fine for low-stakes habits, but for anything you're likely to fudge when unmotivated, the quest itself should carry a verification method — this is what makes the XP feel earned instead of arbitrary.
+  
+  **Verification tiers** (weakest to strongest, stored per-quest as `verification_type`):
+  
+  | Tier | How it works | Best for |
+  |---|---|---|
+  | `self_report` | Tap complete, no proof | Prayer, meditation, low-stakes habits |
+  | `photo` | Attach a photo on completion, stored in Supabase Storage | Workout (gym pic), reading (progress photo) |
+  | `link` | Paste a URL/screenshot as proof | Posted content, job application confirmation |
+  | `timer` | Must run an in-app timer for a minimum duration before "complete" unlocks | Study sessions, focused trading study |
+  | `integration` | Pulled automatically from a connected data source | Workout minutes/steps via Android Health Connect, screen-time via device usage APIs |
+  | `location` | Must be within a saved GPS radius | Gym check-in, library/study spot |
+  
+  **Suggested mapping for your example quests:**
+  
+  - Workout → `integration` (Health Connect exercise minutes) or `photo` if you'd rather not connect health data
+  - Morning prayer → `self_report` (some things don't need policing)
+  - Study trading → `timer` (minimum focused minutes)
+  - Post content → `link` (paste the post URL)
+  - Read a book → `photo` (progress shot) or `timer`
+  - Apply for jobs → `link` or `photo` (confirmation email/screenshot)
+  
+  **How it plugs into the schema:** `daily_quests.verification_type` + `verification_config` (jsonb) define the requirement when you create the quest (e.g. `{ min_minutes: 20 }` for timer, `{ lat, lng, radius_m }` for location). `quest_completions.proof_url` / `verified` / `verified_at` capture what was actually submitted. XP is awarded immediately for `self_report`, but for the stronger tiers the completion can be marked `verified: false` until the proof/integration check passes — so the XP toast still feels instant, while the "[System]" alert log can honestly show which completions were verified vs. self-reported if you ever want to see your own integrity stats.
+  
+  **Recommendation:** don't verify everything on day one — start most quests as `self_report` in Phase 1, then upgrade your highest-stakes quests (workout, study) to `photo`/`timer`/`integration` once the core loop is working. This is naturally a Phase 3–4 addition, not a blocker for MVP.
+  
+  ---
+  
+  ## 9. Stats System
+  
+  Each Daily/Main Quest optionally tags a `stat_target` + `stat_amount`. On completion, that stat's `points` increments. Stats have no cap and no separate "level" — they're a lifetime accumulation, visualized as a radar chart on the dashboard so you can see which parts of life are getting neglected at a glance.
+  
+  Optional future layer: derive a per-stat "level" the same way you derive character level, using a smaller XP curve, so stats feel more RPG-like individually (e.g. "Discipline Lv. 7").
+  
+  ---
+  
+  ## 10. UI/UX Structure
+  
+  **Visual language:** black (#0a0a0a background), gold (#d4af37 / #f0c14b accents), high-contrast white text, subtle glow/gradient on progress bars — think game HUD, not spreadsheet.
+  
+  **Status Window (Character Sheet) — accessible anytime, own tab/screen:** this is your identity screen, pulling from `profiles`, `stats`, `buffs`, and `streak_days` — no new data beyond what's already modeled, just a dedicated always-available display:
+  
+  ```
+  [ SYSTEM ]
+  
+  PLAYER: MENDEZ
+  LEVEL: 12          RANK: SCOUT
+  XP: 2450 / 3000
+  
+  HEALTH: 43    WEALTH: 27    KNOWLEDGE: 51
+  DISCIPLINE: 38    NETWORK: 16
+  
+  ACTIVE BUFFS:
+  +10% XP Gain
+  +5% Discipline Growth
+  
+  STREAK: 17 Day Daily Streak
+  TITLE: Empire Architect
+  ```
+  
+  Rendered as a monospace/HUD-styled panel matching the "[System]" alert aesthetic — this screen and the full-screen alert overlay should share the same visual language so the whole app feels like one continuous System, not a dashboard with a gimmick popup bolted on.
+  
+  **Dashboard (home):**
+  - Top: avatar, username, Rank title, Level badge
+  - XP bar: current/next with animated fill
+  - Streak counter with flame icon
+  - 5-stat radar chart (compact)
+  - "Today's Quests" quick-list with checkboxes
+  - Active Main Quests progress bars
+  
+  **Daily Quests screen:**
+  - Card list, grouped by rank (E–SS) or custom order
+  - Tap-to-complete with satisfying animation (checkmark burst, XP number flies to top bar)
+  - Locked/completed state greyed with strikethrough
+  
+  **Main Quests screen:**
+  - Card per quest, expandable to show milestone checklist
+  - Big radial or bar progress %
+  - Confetti/glow on 100% completion
+  
+  **Stats screen:** radar chart + per-stat breakdown of which quests contribute
+  
+  **Traits & Titles screen:** grid of unlocked traits (rarity-colored borders), list of earned titles with a tap-to-equip control for the one active title
+  
+  **Analytics screen:** line chart (XP/week), bar chart (tasks/month), best streak callout, "most improved stat" badge
+  
+  **Mobile-first specifics:** bottom tab nav (Status / Quests / Main Quests / Traits / Analytics), large tap targets, haptic-style micro-animations on completion, XP bar pinned near top at all times.
+  
+  ---
+  
+  ## 11. AI Quest Master (Goal Planner) — Designed for Later Upgrade
+  
+  **Role clarity, since this changes how the whole app should feel:** the AI Quest Master isn't a side feature bolted onto an otherwise static app — it *is* the System. You're the **Architect** (you design the goals, own the app, ultimately decide what gets accepted) and the **Player** (you're the one out in the real world executing quests). The System is the third role — the admin — and once the AI Quest Master exists, it should be the single voice behind every "[System]" alert (§12), not just the goal-planning screen. That means:
+  
+  - Level-up, rank-up, and quest-issued alerts should eventually be phrased *by* the AI in-character as the System, not pulled from a static template
+  - Missed-quest/punishment alerts get their bite from the same voice — consistent, a little cold, always addressing you as the Player
+  - The Quest Master's goal-breakdown feature (below) is just the most functional expression of that same admin role — the System doesn't just talk strict, it actually plans and enforces
+  
+  Practically, this means Phase 1's static alert templates can ship first (so the core loop works without needing an LLM call on every event), and Phase 6 doesn't just add a planning screen — it upgrades the *voice* of every existing alert to route through the AI instead of a template, once the Quest Master exists.
+  
+  Fully feasible, and it slots in cleanly without touching the core schema — it just becomes another way rows get created in `main_quests`, `milestones`, and `daily_quests`.
+  
+  **How it works:**
+  
+  ```
+  You type/speak a goal
+    ("I want to pass a prop firm challenge")
+          │
+          ▼
+  Edge Function calls an LLM (e.g. Claude via
+  the Anthropic API) with the goal + your
+  current stats/quest list as context, and a
+  strict instruction to return ONLY structured
+  JSON matching your schema:
+    {
+      main_quest: { title, description, xp_reward },
+      milestones: [ { title, xp_reward }, ... ],
+      suggested_daily_quests: [
+        { title, xp_reward, difficulty, stat_target }, ...
+      ]
+    }
+          │
+          ▼
+  App shows you the proposed plan as a review
+  screen — edit/remove/accept items individually
+          │
+          ▼
+  On accept, rows are inserted into main_quests /
+  milestones / daily_quests exactly like if you'd
+  created them by hand
+  ```
+  
+  **Why this design works well for you specifically:**
+  - The AI never writes directly to your DB — it proposes, you approve. Keeps you in control and avoids junk quests polluting your list.
+  - The API call happens server-side (Supabase Edge Function), so your API key never sits in the mobile app bundle.
+  - Because it outputs the *same shape* your manual quest-creation forms already produce, this is an additive feature — nothing in Phases 0–5 needs to change to support it later. You can genuinely ship the manual version first and bolt this on afterward.
+  - Optional nice extension once this exists: a periodic "Quest Master check-in" push notification — the AI reviews your recent completions/stats and proposes a new quest, rather than you always having to initiate it.
+  
+  **What it needs when you build it:** an LLM API key (Anthropic API works well for this — strong at structured JSON output and reasoning about multi-step plans), one Edge Function endpoint, and a review/accept UI screen. No schema changes required.
+  
+  ---
+  
+  ## 12. "System" Alert / Notification Design
+  
+  This is the signature feel of the app — the mechanic that makes it feel alive instead of like a checklist.
+  
+  **Two layers:**
+  
+  1. **OS push notifications** (via Expo Notifications + Supabase Edge Function cron): fire even when the app is closed. Examples:
+     - Morning: *"[System] Daily Quests have been issued."*
+     - Evening, quest still incomplete: *"[System] Warning: 'Workout' quest incomplete. Time remaining: 3h."*
+     - Streak at risk: *"[System] Your streak will end in 2 hours."*
+  2. **In-app full-screen "System" overlay** (rendered from `components/system-alert/`): triggered when the app is opened after a push, or immediately after a significant in-app event. Mimics the Solo Leveling blue-panel "System" window — dark translucent overlay, gold/white monospace-ish text, typewriter reveal animation, single "Accept" tap to dismiss. Used for:
+     - New daily quests issued (start of day)
+     - Level up ("[System] You have reached Level 12.")
+     - Rank up ("[System] Rank promoted: Scout → Warrior.")
+     - Main Quest milestone or full completion
+     - Missed quest / streak broken (a harsher, red-tinted variant — this is the "consequence" beat that makes it feel real)
+  
+  **Why the split:** push notifications are what make it feel like a system is watching your life even when the phone's locked; the full-screen overlay is what makes the moment of opening the app feel like a cutscene, not a status check.
+  
+  **Tech notes:** Expo Notifications handles device push tokens and OS-level delivery; a Supabase Edge Function on a cron schedule checks each user's incomplete quests/streak status daily and calls the Expo Push API. In-app overlays are just local state driven by a queue — any XP-engine event (level up, quest complete, streak broken) pushes an alert object onto the queue, and the overlay component renders the next one in line.
+  
+  ---
+  
+  ## 13. Smart Glasses Integration (Future) — Feasibility
+  
+  Realistic, and it splits into two tiers depending on how deep you want to go — worth knowing both now so the notification system (§11) is built in a way that doesn't block either path later.
+  
+  **Tier 1 — Notification mirroring (easy, works with most Android-compatible glasses today):**
+  Most current Android smart glasses (e.g. Even Realities G1, Meta Ray-Ban Display, various Android XR-based glasses) work by mirroring your phone's notifications to a small HUD via Bluetooth, using a companion app. Since your app already fires real Android push/local notifications for "[System]" alerts, quest-issued messages, and level-ups, those notifications would **already show up on this class of glasses automatically** — no extra integration work needed, as long as the glasses' companion app is configured to mirror app notifications. This tier is essentially "free" once Phase 3 (notifications) is done.
+  
+  **Tier 2 — Native glasses app / custom HUD (harder, hardware-dependent):**
+  Some platforms (notably Android XR, Google's glasses/headset platform announced for 2025–2026 devices, and vendor-specific SDKs like Even Realities' own SDK) let you build a dedicated glasses-side app or display card — e.g. a persistent mini-HUD showing your XP bar, current quest, or streak directly on the lens, not just a notification popup. This requires:
+  - Picking a specific glasses platform/SDK once you own the hardware (SDKs vary a lot and aren't interchangeable)
+  - A lightweight "glanceable" UI package separate from the phone app, reading the same Supabase backend
+  - No changes to the core schema or XP engine — this tier is purely a new display client on top of what you're already building
+  
+  **Recommendation:** don't design for a specific glasses SDK now — hardware and SDKs in this space are still shifting fast. Just make sure (as already planned) that meaningful events flow through real device notifications, and treat glasses as a future "second client" reading the same backend, the same way the AI Quest Master is a future add-on.
+  
+  ---
+  
+  ## 14. Avatar System
+  
+  **Onboarding:** you enter height/weight/body metrics manually (a photo alone can't measure these accurately — no reference scale to calibrate against). You also upload a full-body photo purely for art generation, and set your calisthenics goal.
+  
+  **Avatar generation:** an Edge Function sends your photo to an image-generation API (img2img/style-transfer) with a fantasy-system art style prompt, producing one stylized base avatar. This becomes your permanent character art — not regenerated from scratch later, since repeated AI regeneration drifts and won't look like "the same character" level to level.
+  
+  **Progression:** instead of regenerating the whole avatar, progress is shown through **layered overlays** on the same base art — armor pieces, an aura/glow effect, and shading changes — unlocked at level/stat thresholds (e.g. Discipline/Health stat milestones tied to your calisthenics goal). This is cheap, fast, and visually consistent, and mirrors exactly how manhwa "system" characters visibly level up without becoming a different person each panel.
+  
+  **Schema:**
+  ```sql
+  avatars (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    source_photo_url  text,      -- original upload, private storage
+    base_avatar_url   text,      -- generated stylized art
+    height_cm     numeric,
+    weight_kg     numeric,
+    goal_type     text,          -- e.g. 'calisthenics'
+    current_tier  int default 1, -- drives which overlays render
+    updated_at    timestamptz default now()
+  )
+  
+  avatar_overlays (
+    id            uuid primary key default gen_random_uuid(),
+    tier          int not null,           -- unlock threshold
+    overlay_type  text,                   -- 'armor' | 'aura' | 'shading'
+    asset_url     text
+  )
+  ```
+  
+  ---
+  
+  ## 15. G-Coin Economy & Shop
+  
+  A second currency alongside XP — XP drives level/rank (long-term progression), G-coin is spendable pocket money for the shop (short-term reward loop). Earned as a side-effect of quest completion (e.g. `gcoin_reward` alongside `xp_reward` on each quest).
+  
+  **Schema:**
+  ```sql
+  -- add to profiles: gcoin_balance int default 0
+  
+  gcoin_log (               -- immutable ledger, same pattern as xp_log
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    amount        int not null,           -- positive (earn) or negative (spend)
+    source_type   text,
+    source_id     uuid,
+    created_at    timestamptz default now()
+  )
+  
+  shop_items (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),   -- you define your own shop
+    title         text not null,
+    description   text,
+    cost_gcoin    int not null,
+    item_type     text check (item_type in ('cosmetic','real_world_reward','consumable')),
+    active        boolean default true
+  )
+  
+  purchases (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    item_id       uuid references shop_items(id),
+    cost_paid     int not null,
+    purchased_at  timestamptz default now()
+  )
+  ```
+  
+  Since it's your own personal system, you define the shop items yourself — cosmetic ones (avatar overlays, HUD themes/titles) and real-world ones (e.g. "300 G-coin = guilt-free takeout night," "1000 G-coin = new game"). The AI Quest Master (§11) could later auto-suggest reward items scaled to a goal's difficulty, but that's an easy bolt-on, not needed for MVP.
+  
+  ---
+  
+  ## 16. "Mana Liquid" Consumable Log
+  
+  A flavor layer over a simple food/water/supplement log — no new mechanic, just reskinned copy and an optional generated description.
+  
+  ```sql
+  consumables_log (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    logged_at     timestamptz default now(),
+    category      text check (category in ('meal','water','supplement')),
+    item_name     text,           -- what you actually ate/drank/took
+    flavor_text   text,           -- generated "mana potion" description
+    stat_target   text,           -- optional: ties nutrition to a stat, e.g. Health
+    stat_amount   int default 0
+  )
+  ```
+  
+  Flavor text can be generated the same way as the AI Quest Master — a small Edge Function call that turns "chicken breast and rice" into something like *"[System] Mana Potion consumed: +Strength Essence. Vitality restored."* Purely cosmetic, no gameplay logic depends on the wording.
+  
+  ---
+  
+  ## 17. Workout & Supplement Guidance
+  
+  A content library, not a diagnostic engine — general, widely-known fitness/nutrition information (standard calisthenics progressions, common protein-per-bodyweight guidance, typical creatine dosing) surfaced contextually based on your calisthenics goal and current stats. This is educational content, not a personalized medical or nutrition plan — worth treating any supplement guidance as "common practice" info and checking with a doctor if you have any health conditions or take medication, same as you'd want for any fitness app.
+  
+  Practically: a `workout_programs` / `guidance_content` table you (or the AI Quest Master later) populate, surfaced on the dashboard or as suggested Daily Quests tied to your goal.
+  
+  ---
+  
+  ## 18. Punishment / Discipline System
+  
+  Two real implementation paths on Android — worth being upfront about the tradeoff:
+  
+  | Approach | What it can actually do | Setup cost | Risk |
+  |---|---|---|---|
+  | **Accessibility-Service app blocker** (recommended) | Hard-blocks specific apps (social media, games, whatever you name) until a quest is completed. Emergency calling/essentials always stay accessible. | Just a permission grant, no special provisioning | Low — worst case you disable the permission |
+  | **Device Owner mode** (full lockout) | Full-device lock, like enterprise MDM/parental controls | Must be provisioned via ADB *before* first Google sign-in on the device | High — misconfigure it and you may need a full factory reset to regain access |
+  
+  **Recommendation:** build the Accessibility-Service blocker. It's genuinely strict (you cannot open the blocked apps, no workaround from inside them) without carrying the risk of locking yourself out of your own phone over a missed habit.
+  
+  **Punishment tiers (config, not schema — logic lives in the Edge Function that runs the daily rollover):**
+  - Missed 1 daily quest → blocked apps (your choice list) until first quest of the next day is completed
+  - Broken streak → longer block window + G-coin penalty + a stat "decay" tick
+  - Missed Main Quest milestone deadline (if you set one) → System sends a harsher red-tinted alert, no XP penalty by default (main quests are long-term, punishing missed deadlines too hard tends to just make people quit instead of restart)
+  
+  ```sql
+  punishment_rules (
+    id             uuid primary key default gen_random_uuid(),
+    user_id        uuid references profiles(id),
+    trigger_type   text check (trigger_type in ('missed_quest','broken_streak','missed_milestone')),
+    blocked_apps   text[],       -- package names to block
+    block_duration_hours int,
+    gcoin_penalty  int default 0,
+    active         boolean default true
+  )
+  ```
+  
+  ---
+  
+  ## 19. Trait System
+  
+  Permanent passive achievements earned through *consistent* behavior over time — distinct from single quest completions, and the mechanism that rewards showing up repeatedly rather than any one good day.
+  
+  Traits are defined once (`traits` table, §2) with an `unlock_condition` (e.g. "100 quests tagged workout completed"), a rarity tier (common → legendary), and an optional `passive_bonus` (a small permanent stat or XP effect — e.g. "Iron Body" could grant +5 Health permanently). A daily/nightly Edge Function job checks unlock conditions against your completion history and inserts into `user_traits` when met, firing a "[System] Trait Unlocked" alert.
+  
+  Example progression:
+  - 100 Workouts → **Iron Body** (uncommon)
+  - 100 Trading Sessions → **Market Student** (uncommon)
+  - 30 Consecutive Days Posting Content → **Consistent Creator** (rare)
+  - 365 Days Active → **Unbroken Will** (legendary)
+  
+  Traits are visible on the Traits & Titles screen (§10) — this is the "long-term identity" layer that Level/Rank alone doesn't capture, since a level resets in feel every time you level up again, but a Trait, once earned, is permanent proof of who you've become.
+  
+  ---
+  
+  ## 20. Titles System
+  
+  Titles are separate from Rank: **Rank measures how far you've progressed overall; Titles represent specific things you've accomplished.** You can only display one at a time, so equipping one is itself a small identity statement.
+  
+  Defined in `titles`, unlocked into `user_titles` the same way traits are — either standalone (via an `unlock_condition`) or as a reward attached to a Hidden Achievement (§21). `profiles.active_title_id` holds the currently equipped one, shown right under Rank on the Status Window:
+  
+  ```
+  Rank: Elite
+  Title: Empire Architect
+  ```
+  
+  Example titles: **The Disciplined**, **The Builder**, **The Scholar**, **The Trader**, **The Survivor**, **Empire Architect** — you can define your own set matching your actual goals (trading, relocation, building this app itself) rather than generic RPG flavor.
+  
+  ---
+  
+  ## 21. Hidden Achievements System
+  
+  Achievements with `hidden: true` (§2 schema) simply aren't rendered anywhere in the UI — not in a locked/silhouette state, not listed at all — until their `unlock_condition` is met. This is what makes unlocking one feel like a genuine surprise rather than a checklist you were quietly grinding toward.
+  
+  Checked by the same nightly Edge Function job as Traits, against whatever data the condition needs (streaks, cumulative quest counts, specific stat thresholds, even something like "logged before 6 AM for 30 days" pulled from `quest_completions.completed_on` timestamps). On unlock: a distinct, more dramatic "[System]" alert variant (longer reveal animation, unique sound) plus XP/G-coin/title rewards as configured on the achievement row.
+  
+  Example hidden achievements: Wake before 6AM for 30 days, complete 100 total quests, earn your first $100 online, run 100km total, reach Level 50 — a mix of behavioral consistency and milestone thresholds.
+  
+  ---
+  
+  ## 22. Progression Philosophy
+  
+  Worth stating explicitly since it should guide every feature decision going forward: **this app is not a checklist — it's identity transformation.** You're not tracking tasks, you're becoming a different version of yourself through repetition, and every system above exists to make that legible:
+  
+  ```
+  Action → Quest Completion → XP Gain → Level Increase
+         → Stat Growth → Traits Unlocked → Titles Earned
+         → Identity Evolution
+  ```
+  
+  When evaluating any future feature (including whatever comes after Phase 7), the test is: does this reinforce that loop, or is it just another number on a screen? XP/Level answer "how much have I done." Stats answer "in what direction." Traits and Titles answer "who have I become." All three matter; none of them replace the others.
+  
+  ---
+  
+  ## 23. Development Roadmap
+  
+  **Phase 0 — Foundation (setup)**
+  - Expo (React Native + TypeScript) project scaffold, EAS configured
+  - Supabase project, auth, schema migration
+  - Design tokens (colors, spacing, type scale) for the dark/gold theme
+  - Push notification permissions + token registration flow
+  - Onboarding: manual height/weight/goal entry + photo upload for avatar
+  
+  **Phase 1 — Core Loop (MVP)**
+  - Auth + onboarding flow
+  - Daily Quests CRUD + completion → XP/G-coin award by quest rank (all quests `self_report` for now)
+  - XP engine (level/rank derivation)
+  - Status Window (character sheet) + Dashboard with live Level/XP/Rank/Streak
+  - Daily reset logic (Edge Function cron)
+  - Basic "System" full-screen overlay for level-up + quest-issued events
+  - Base avatar generation (one-time img2img call at onboarding)
+  
+  **Phase 2 — Main Quests, G-Coin & Buffs**
+  - Main Quest + milestone CRUD (S/SS rank)
+  - Progress % calculation
+  - Completion rewards + celebration overlay variant
+  - G-coin earning + basic shop (cosmetic items only to start)
+  - Buffs system (streak bonus, quest-triggered, shop-bought), shown on Status Window
+  
+  **Phase 3 — Notifications, Streaks & Discipline**
+  - Scheduled push notifications (quest issued, quest at risk, streak warning)
+  - Weekly/monthly streak logic
+  - Best streak tracking
+  - Missed-quest "consequence" alert variant
+  - Photo/link/timer verification tiers (Supabase Storage for photo uploads, in-app timer component)
+  - Accessibility-Service app blocker + punishment rules engine
+  
+  **Phase 4 — Stats, Analytics & Avatar Progression**
+  - Stat tagging on quests, radar chart
+  - Weekly XP chart, monthly completions
+  - Most-improved-stat calculation
+  - `integration` verification tier: Android Health Connect for workout quests
+  - Avatar overlay system (armor/aura tiers tied to stat milestones)
+  - Workout/supplement guidance content library
+  - "Mana liquid" consumable log
+  
+  **Phase 5 — Traits, Titles & Hidden Achievements**
+  - Nightly Edge Function job checking trait/achievement unlock conditions
+  - Traits & Titles screen, title equip control
+  - Hidden achievement reveal alert variant (dramatic, distinct from standard level-up)
+  
+  **Phase 6 — Polish**
+  - Full alert animation pass (typewriter text, sound effects, haptics)
+  - App icon, splash screen, TestFlight/Play internal build
+  - Streak-freeze / grace mechanics
+  
+  **Phase 7 — AI Quest Master (upgrade)**
+  - Edge Function calling an LLM API with structured JSON output
+  - Goal input screen + AI-proposed plan review/accept UI
+  - Migrate System alert copy (level-up, punishment, quest-issued) to be authored by the AI instead of static templates
+  - (Optional) periodic AI check-in push notifications
+  - (Optional) AI-suggested shop rewards scaled to goal difficulty
+  
+  **Phase 8 — Smart Glasses (upgrade, hardware-dependent)**
+  - Tier 1: verify/configure notification mirroring with your glasses' companion app (little to no code)
+  - Tier 2 (if desired): build a minimal glasses-side HUD client on the chosen platform's SDK, reading the same Supabase backend
+  
+  Recommend building Phase 1 fully end-to-end (even ugly) before touching Phase 2 — the core "complete task → see number go up and feel good" loop is what proves the concept.
+  
+  ---
+  
+  ## Open Decisions for You
+  
+  - Do you want a streak-freeze/grace mechanic from day one, or add later?
+  - Should stats have their own mini-levels, or stay as raw point totals?
+  - Any daily quest cap (e.g. max 5-8 active at once to avoid burnout/list bloat)?
+
+--- WINDOW  2026/07/15 14:13:10  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Initial greeting convers…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:13:12  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:13:35  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Initial greeting convers…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:13:36  [Antigravity IDE.exe] Open Folder
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+  md[Bk][Bk]ma[Bk]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:13:54  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  what should se [Bk][Bk]hi[Bk]oud wecall this[ENTER]
+
+--- WINDOW  2026/07/15 14:14:34  [Antigravity IDE.exe] Open Folder
+----------------------------------------------------------------------------
+  \[Bk][Bk]t[Bk]the syse[Bk]tem
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  the system
+  [LMB]
+
+--- WINDOW  2026/07/15 14:15:05  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Initial greeting convers…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:15:06  [Antigravity IDE.exe] Antigravity IDE
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:15:09  [Antigravity IDE.exe] The System - Antigravity IDE
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:15:47  [Antigravity IDE.exe] The System - Antigravity IDE - Untitled-1
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:15:48  [Antigravity IDE.exe] The System - Antigravity IDE - Claude Code
+----------------------------------------------------------------------------
+  we'll be starting a projet[Bk]ct called the system
+  [LMB]
+
+--- WINDOW  2026/07/15 14:16:04  [claude.exe] Claude
+----------------------------------------------------------------------------
+  the syste [Bk]m it is[ENTER]
+  send me to md[ENTER]
+  so si[Bk][Bk]i cann se[Bk][Bk][Bk][Bk] send the full s[Bk]di[Bk]c[Bk][Bk]spec to alude code[ENTER]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  # THE SYSTEM — Product & Technical Specification
+  
+  Personal RPG-style life management system. Real actions → XP, levels, ranks, stats, streaks — delivered as a true native "System"-style app with full-screen quest alerts, like Solo Leveling.
+  
+  **Codebase note:** this document is the full spec for handoff to an implementation agent (Antigravity/Claude Code). §2 (schema) and stat/rank decisions in §4–6 are load-bearing — get these right before writing code. Everything from §14 onward (Avatar, G-Coin, Traits, Titles, AI Quest Master, Smart Glasses) is designed to be additive: safe to scaffold as empty schema now, safe to leave unbuilt until later phases per §23.
+  
+  ---
+  
+  ## 1. Product Architecture
+  
+  **Pattern:** React Native (Expo) native app + Supabase backend. No website — this is a phone-first app you install, with real OS-level push notifications and full-screen in-app "System" alert overlays.
+  
+  ```
+  ┌─────────────────────────────────────────────┐
+  │  Expo App (React Native, iOS + Android)      │
+  │  ├─ app/(auth)/            → login/signup    │
+  │  ├─ app/(tabs)/                              │
+  │  │   ├─ dashboard/         → HUD overview    │
+  │  │   ├─ quests/daily/      → daily quests    │
+  │  │   ├─ quests/main/       → main quests     │
+  │  │   ├─ stats/             → stat breakdown  │
+  │  │   └─ analytics/         → charts/history  │
+  │  ├─ components/                              │
+  │  │   ├─ hud/               → HUD widgets     │
+  │  │   └─ system-alert/      → full-screen     │
+  │  │        "[System]" popup overlay           │
+  │  ├─ lib/xp-engine/         → XP/level/rank   │
+  │  │                            logic (pure)    │
+  │  ├─ lib/notifications/     → Expo push        │
+  │  │                            registration    │
+  │  └─ lib/supabase/          → client helpers   │
+  └─────────────────────────────────────────────┘
+                │
+                ▼
+  ┌─────────────────────────────────────────────┐
+  │  Supabase                                    │
+  │  ├─ Postgres (schema below)                  │
+  │  ├─ Row Level Security (per user_id)         │
+  │  ├─ Auth (email/password or magic link)      │
+  │  ├─ Edge Functions:                          │
+  │  │   • daily streak rollover / quest reset   │
+  │  │   • scheduled quest reminder pushes       │
+  │  │   • level-up / milestone push triggers    │
+  │  └─ Realtime (optional): live XP sync if you │
+  │      ever add a second device                │
+  └─────────────────────────────────────────────┘
+                │
+                ▼
+  ┌─────────────────────────────────────────────┐
+  │  Expo Push Notification Service              │
+  │  → delivers native OS push notifications     │
+  │    which the app intercepts and can render   │
+  │    as a full-screen "System" alert on open   │
+  └─────────────────────────────────────────────┘
+  ```
+  
+  **Deployment:** EAS Build (Expo Application Services) compiles the native iOS/Android binaries. EAS Submit pushes to TestFlight / Play internal testing — you don't need to publish publicly, this can stay a personal app on your own devices via TestFlight/internal track indefinitely. Since you're Android-first, you can skip the Apple Developer Program ($99/yr) entirely for now — Android builds can be side-loaded or distributed via Play internal testing for free, and you can add iOS later only if you need it.
+  
+  **Key architectural decision:** all XP/level/rank math lives in a pure, framework-agnostic `lib/xp-engine` module — no DB calls inside it. The DB stores raw events (task completions), and the engine derives level/rank/stats from those events. This means you can recompute everything if you change the formula later, and it's trivially testable.
+  
+  **State flow:** Task completion → insert row in `quest_completions` → recalculates total XP, stat totals, streak → updates `profiles` cache columns → UI reflects new state optimistically, then confirms. Certain events (level-up, main quest completion, missed daily quest by evening) also fire a push notification via an Edge Function.
+  
+  ---
+  
+  ## 2. Database Schema (Supabase/Postgres)
+  
+  ```sql
+  -- Core identity
+  profiles (
+    id                uuid primary key references auth.users,
+    username          text,
+    avatar_url        text,
+    total_xp          int default 0,        -- cached, derived from xp_log
+    current_level     int default 1,        -- cached
+    gcoin_balance     int default 0,
+    current_streak    int default 0,
+    best_streak       int default 0,
+    active_title_id   uuid,                 -- references titles(id), nullable
+    last_active_date  date,
+    created_at        timestamptz default now()
+  )
+  
+  -- Stat totals (one row per stat per user)
+  stats (
+    id           uuid primary key default gen_random_uuid(),
+    user_id      uuid references profiles(id),
+    stat_name    text check (stat_name in
+                  ('health','wealth','knowledge','discipline','network')),
+    points       int default 0,
+    unique(user_id, stat_name)
+  )
+  
+  -- Daily Quest definitions (recurring habit templates)
+  daily_quests (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    title         text not null,
+    description   text,
+    quest_rank    text check (quest_rank in ('E','D','C','B','A','S','SS')) not null,
+    xp_reward     int not null,       -- derived from quest_rank, editable
+    gcoin_reward  int not null,       -- derived from quest_rank, editable
+    stat_target   text,          -- which stat this feeds
+    stat_amount   int default 1,
+    verification_type text check (verification_type in
+                  ('self_report','photo','link','timer','integration','location')) default 'self_report',
+    verification_config jsonb,   -- e.g. { min_minutes: 20 } for timer,
+                                  -- { lat, lng, radius_m } for location,
+                                  -- { source: 'health_connect', metric: 'exercise_minutes', min: 20 } for integration
+    active        boolean default true,
+    sort_order    int default 0,
+    created_at    timestamptz default now()
+  )
+  
+  -- Daily Quest completion log (one row per day completed)
+  quest_completions (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    quest_id      uuid references daily_quests(id),
+    completed_on  date not null,
+    xp_awarded    int not null,
+    gcoin_awarded int not null default 0,
+    verification_type text check (verification_type in
+                  ('self_report','photo','link','timer','integration','location')) default 'self_report',
+    proof_url     text,              -- photo/screenshot storage path or link
+    verified      boolean default false,  -- true once proof/integration check passes
+    verified_at   timestamptz,
+    unique(quest_id, completed_on)   -- prevents double-completion same day
+  )
+  
+  -- Main Quests (long-term goals)
+  main_quests (
+    id              uuid primary key default gen_random_uuid(),
+    user_id         uuid references profiles(id),
+    title           text not null,
+    description     text,
+    quest_rank      text check (quest_rank in ('S','SS')) default 'S',
+    xp_reward       int not null,       -- awarded on full completion
+    status          text check (status in ('active','completed','abandoned')) default 'active',
+    progress_pct    numeric default 0,  -- 0-100, derived from milestones
+    created_at      timestamptz default now(),
+    completed_at    timestamptz
+  )
+  
+  -- Milestones within a Main Quest
+  milestones (
+    id              uuid primary key default gen_random_uuid(),
+    main_quest_id   uuid references main_quests(id),
+    title           text not null,
+    xp_reward       int default 0,
+    completed       boolean default false,
+    completed_at    timestamptz,
+    sort_order      int default 0
+  )
+  
+  -- Immutable XP transaction log (source of truth)
+  xp_log (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    source_type   text check (source_type in ('daily_quest','milestone','main_quest')),
+    source_id     uuid,             -- FK to quest/milestone (soft ref)
+    amount        int not null,
+    created_at    timestamptz default now()
+  )
+  
+  -- Streak history (per calendar day, did they complete ≥1 quest)
+  streak_days (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    day           date not null,
+    quests_done   int default 0,
+    unique(user_id, day)
+  )
+  
+  -- Trait definitions (permanent passive achievements)
+  traits (
+    id              uuid primary key default gen_random_uuid(),
+    name            text not null,           -- e.g. "Iron Body"
+    description     text,
+    rarity          text check (rarity in ('common','uncommon','rare','epic','legendary')),
+    unlock_condition jsonb,                  -- e.g. { type: 'quest_count', quest_tag: 'workout', count: 100 }
+    passive_bonus   jsonb                    -- e.g. { stat: 'health', flat_bonus: 5 }
+  )
+  
+  user_traits (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    trait_id      uuid references traits(id),
+    unlocked_at   timestamptz default now(),
+    unique(user_id, trait_id)
+  )
+  
+  -- Title definitions (accomplishment-based, cosmetic display)
+  titles (
+    id              uuid primary key default gen_random_uuid(),
+    name            text not null,           -- e.g. "Empire Architect"
+    unlock_condition jsonb
+  )
+  
+  user_titles (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    title_id      uuid references titles(id),
+    unlocked_at   timestamptz default now(),
+    unique(user_id, title_id)
+  )
+  -- profiles.active_title_id points at the one currently displayed
+  
+  -- Achievement definitions, including hidden ones
+  achievements (
+    id              uuid primary key default gen_random_uuid(),
+    name            text not null,
+    description     text,
+    hidden          boolean default false,   -- true = not shown until unlocked
+    unlock_condition jsonb,                  -- e.g. { type: 'streak', days: 30, before_hour: 6 }
+    xp_reward       int default 0,
+    gcoin_reward    int default 0,
+    title_reward_id uuid references titles(id)  -- optional: unlocking it also grants a title
+  )
+  
+  user_achievements (
+    id              uuid primary key default gen_random_uuid(),
+    user_id         uuid references profiles(id),
+    achievement_id  uuid references achievements(id),
+    unlocked_at     timestamptz default now(),
+    unique(user_id, achievement_id)
+  )
+  ```
+  
+  **Why an immutable `xp_log`:** `profiles.total_xp` is a cache for fast reads, but `xp_log` is the ground truth. Analytics ("XP this week," "most improved stat") just query/aggregate this table — no separate analytics tables needed.
+  
+  ---
+  
+  ## 3. User Flow
+  
+  ```
+  Sign up / log in
+        │
+        ▼
+  Onboarding (first login only)
+    → set username
+    → pick 3-6 starter Daily Quests from templates (or custom)
+    → set 1-3 starter Main Quests
+        │
+        ▼
+  Dashboard (home base)
+    → see Level, XP bar, Rank, Streak, Stat radar
+        │
+        ├──► Daily Quests tab
+        │     → tap quest → mark complete → XP toast + stat tick
+        │     → animated level-up modal if threshold crossed
+        │
+        ├──► Main Quests tab
+        │     → open quest → view milestones → check one off
+        │     → progress bar fills → big XP reward on 100%
+        │
+        ├──► Stats tab
+        │     → radar/bar chart of 5 stats
+        │     → tap a stat → see which quests feed it
+        │
+        └──► Analytics tab
+              → weekly XP graph, monthly completions,
+                best streak, most-improved stat
+  ```
+  
+  Daily reset: at local midnight, quest "completed" checkboxes clear for the new day (completion history stays in `quest_completions`). A cron/edge function updates `streak_days`, and increments/resets `current_streak`.
+  
+  ---
+  
+  ## 4. XP System Design
+  
+  Every action funnels into one function: `awardXP(userId, amount, source)`. This:
+  1. Inserts into `xp_log`
+  2. Increments `profiles.total_xp`
+  3. Recomputes `current_level` from `total_xp` (see §5)
+  4. Updates relevant `stats` row(s)
+  5. Updates `streak_days` for today
+  
+  **Quest Rank system:** replaces the earlier simple "difficulty" concept — every quest (Daily or Main) has a rank from E to SS, and rank is what drives XP, G-coin, and stat growth together, not just XP alone:
+  
+  | Rank | XP | G-Coin | Stat Growth | Example |
+  |---|---|---|---|---|
+  | E | 10 | 2 | +1 | Make bed, drink water |
+  | D | 25 | 5 | +1 | Morning prayer, read 10 pages |
+  | C | 50 | 10 | +2 | Workout, journal entry |
+  | B | 100 | 20 | +3 | Trading study session, content creation |
+  | A | 250 | 50 | +5 | Build a product feature, major project task |
+  | S | 500 | 100 | +8 | Pass prop firm challenge, secure new income source |
+  | SS | 1000 | 200 | +12 | Major life achievement, relocation milestone |
+  
+  The G-coin and stat-growth columns are a suggested starting ratio (roughly 1/5 of XP for G-coin) — tune freely once you see how fast the shop economy moves in practice.
+  
+  **Main Quest milestones:** typically 50–200 XP each; the final completion of the whole Main Quest awards a large bonus (e.g. 500–2000 XP) on top of milestone totals — this makes big goals feel disproportionately rewarding, matching real-life stakes.
+  
+  **Buffs / XP Modifiers:** all bonus-XP mechanics (streak bonus, quest-triggered boosts, shop-bought boosts) run through one system instead of separate hacks. `awardXP` looks up your active buffs, sums their multipliers (capped, see below), and applies the total to the base XP before logging.
+  
+  ```sql
+  buffs (
+    id             uuid primary key default gen_random_uuid(),
+    user_id        uuid references profiles(id),
+    name           text not null,           -- e.g. "Focused Mind", "Streak Momentum"
+    xp_multiplier  numeric not null,        -- 0.05 = +5%
+    source_type    text check (source_type in ('quest_completion','streak','shop_purchase')),
+    source_id      uuid,                    -- which quest/item granted it
+    granted_at     timestamptz default now(),
+    expires_at     timestamptz,             -- null = permanent
+    active         boolean default true
+  )
+  ```
+  
+  Examples of how each source grants a buff:
+  - **Quest-triggered:** a specific quest (e.g. an Epic-difficulty or Main Quest milestone) grants a named buff like *"[System] Buff acquired: Focused Mind (+5% XP, 24h)"* on completion — set `expires_at` for temporary, leave null for a permanent unlock (e.g. finishing a Main Quest could permanently buff quests tied to the same stat).
+  - **Streak:** the existing streak bonus becomes just another row, recalculated daily: `+1% per streak day, capped at +30%`.
+  - **Shop-bought:** a G-coin shop item ("Mana Elixir — +10% XP, 12h") inserts a temporary buff on purchase — a genuinely useful thing to spend G-coin on besides cosmetics.
+  
+  **Stacking rule:** sum all active multipliers, but cap the total (e.g. +50% max) so buffs stay a nice bonus rather than letting XP snowball out of control. `finalXP = baseXP * (1 + min(sum(activeMultipliers), 0.5))`.
+  
+  ---
+  
+  ## 5. Level Progression System
+  
+  Use an escalating curve so early levels feel fast (dopamine hook) and later levels feel earned.
+  
+  **Formula (XP required to go from level `n` to `n+1`):**
+  
+  ```
+  xpForLevel(n) = round(100 * n^1.5)
+  ```
+  
+  | Level | XP for this level | Cumulative XP |
+  |---|---|---|
+  | 1→2 | 100 | 100 |
+  | 2→3 | 283 | 383 |
+  | 3→4 | 520 | 903 |
+  | 5→6 | 1,118 | ~2,850 |
+  | 10→11 | 3,162 | ~11,600 |
+  | 20→21 | 8,944 | ~57,900 |
+  
+  **Deriving current level from `total_xp`:** precompute a cumulative-XP lookup table (or invert the formula) in `lib/xp-engine/level.ts`. Since it's a pure function of `total_xp`, level is always derivable — never stored as the source of truth, only cached.
+  
+  ```ts
+  function getLevel(totalXp: number): { level: number; xpIntoLevel: number; xpForNext: number } {
+    let level = 1;
+    let cumulative = 0;
+    while (true) {
+      const need = Math.round(100 * Math.pow(level, 1.5));
+      if (cumulative + need > totalXp) {
+        return { level, xpIntoLevel: totalXp - cumulative, xpForNext: need };
+      }
+      cumulative += need;
+      level++;
+    }
+  }
+  ```
+  
+  This is cheap enough to run on every render for realistic level ranges (under a few hundred).
+  
+  ---
+  
+  ## 6. Rank System
+  
+  Ranks are level-range bands — cosmetic titles layered on top of levels for extra flavor.
+  
+  | Rank | Level Range |
+  |---|---|
+  | Novice | 1–4 |
+  | Apprentice | 5–9 |
+  | Scout | 10–14 |
+  | Warrior | 15–24 |
+  | Elite | 25–34 |
+  | Empire Builder | 35–49 |
+  | Legend | 50+ |
+  
+  Store as a static config array `[{ name, minLevel }]` — derive rank the same way as level, no DB table needed unless you want per-rank unlockable perks/badges later.
+  
+  ---
+  
+  ## 7. Streak System
+  
+  Three tracked windows, all derived from `streak_days`:
+  
+  - **Daily streak:** consecutive calendar days with ≥1 quest completed. Breaks reset to 0 (with a "streak freeze" grace item as a nice-to-have later).
+  - **Weekly streak:** consecutive weeks where ≥N quests completed (define N, e.g. 5) — good for forgiving the occasional missed day.
+  - **Monthly streak:** consecutive months hitting a completion-rate threshold (e.g. 70% of days active).
+  
+  `best_streak` on `profiles` is just `max(current_streak)` ever seen — update it whenever `current_streak` increases.
+  
+  ---
+  
+  ## 8. Quest Verification System
+  
+  Self-report ("just tap complete") is fine for low-stakes habits, but for anything you're likely to fudge when unmotivated, the quest itself should carry a verification method — this is what makes the XP feel earned instead of arbitrary.
+  
+  **Verification tiers** (weakest to strongest, stored per-quest as `verification_type`):
+  
+  | Tier | How it works | Best for |
+  |---|---|---|
+  | `self_report` | Tap complete, no proof | Prayer, meditation, low-stakes habits |
+  | `photo` | Attach a photo on completion, stored in Supabase Storage | Workout (gym pic), reading (progress photo) |
+  | `link` | Paste a URL/screenshot as proof | Posted content, job application confirmation |
+  | `timer` | Must run an in-app timer for a minimum duration before "complete" unlocks | Study sessions, focused trading study |
+  | `integration` | Pulled automatically from a connected data source | Workout minutes/steps via Android Health Connect, screen-time via device usage APIs |
+  | `location` | Must be within a saved GPS radius | Gym check-in, library/study spot |
+  
+  **Suggested mapping for your example quests:**
+  
+  - Workout → `integration` (Health Connect exercise minutes) or `photo` if you'd rather not connect health data
+  - Morning prayer → `self_report` (some things don't need policing)
+  - Study trading → `timer` (minimum focused minutes)
+  - Post content → `link` (paste the post URL)
+  - Read a book → `photo` (progress shot) or `timer`
+  - Apply for jobs → `link` or `photo` (confirmation email/screenshot)
+  
+  **How it plugs into the schema:** `daily_quests.verification_type` + `verification_config` (jsonb) define the requirement when you create the quest (e.g. `{ min_minutes: 20 }` for timer, `{ lat, lng, radius_m }` for location). `quest_completions.proof_url` / `verified` / `verified_at` capture what was actually submitted. XP is awarded immediately for `self_report`, but for the stronger tiers the completion can be marked `verified: false` until the proof/integration check passes — so the XP toast still feels instant, while the "[System]" alert log can honestly show which completions were verified vs. self-reported if you ever want to see your own integrity stats.
+  
+  **Recommendation:** don't verify everything on day one — start most quests as `self_report` in Phase 1, then upgrade your highest-stakes quests (workout, study) to `photo`/`timer`/`integration` once the core loop is working. This is naturally a Phase 3–4 addition, not a blocker for MVP.
+  
+  ---
+  
+  ## 9. Stats System
+  
+  Each Daily/Main Quest optionally tags a `stat_target` + `stat_amount`. On completion, that stat's `points` increments. Stats have no cap and no separate "level" — they're a lifetime accumulation, visualized as a radar chart on the dashboard so you can see which parts of life are getting neglected at a glance.
+  
+  Optional future layer: derive a per-stat "level" the same way you derive character level, using a smaller XP curve, so stats feel more RPG-like individually (e.g. "Discipline Lv. 7").
+  
+  ---
+  
+  ## 10. UI/UX Structure
+  
+  **Visual language:** black (#0a0a0a background), gold (#d4af37 / #f0c14b accents), high-contrast white text, subtle glow/gradient on progress bars — think game HUD, not spreadsheet.
+  
+  **Status Window (Character Sheet) — accessible anytime, own tab/screen:** this is your identity screen, pulling from `profiles`, `stats`, `buffs`, and `streak_days` — no new data beyond what's already modeled, just a dedicated always-available display:
+  
+  ```
+  [ SYSTEM ]
+  
+  PLAYER: MENDEZ
+  LEVEL: 12          RANK: SCOUT
+  XP: 2450 / 3000
+  
+  HEALTH: 43    WEALTH: 27    KNOWLEDGE: 51
+  DISCIPLINE: 38    NETWORK: 16
+  
+  ACTIVE BUFFS:
+  +10% XP Gain
+  +5% Discipline Growth
+  
+  STREAK: 17 Day Daily Streak
+  TITLE: Empire Architect
+  ```
+  
+  Rendered as a monospace/HUD-styled panel matching the "[System]" alert aesthetic — this screen and the full-screen alert overlay should share the same visual language so the whole app feels like one continuous System, not a dashboard with a gimmick popup bolted on.
+  
+  **Dashboard (home):**
+  - Top: avatar, username, Rank title, Level badge
+  - XP bar: current/next with animated fill
+  - Streak counter with flame icon
+  - 5-stat radar chart (compact)
+  - "Today's Quests" quick-list with checkboxes
+  - Active Main Quests progress bars
+  
+  **Daily Quests screen:**
+  - Card list, grouped by rank (E–SS) or custom order
+  - Tap-to-complete with satisfying animation (checkmark burst, XP number flies to top bar)
+  - Locked/completed state greyed with strikethrough
+  
+  **Main Quests screen:**
+  - Card per quest, expandable to show milestone checklist
+  - Big radial or bar progress %
+  - Confetti/glow on 100% completion
+  
+  **Stats screen:** radar chart + per-stat breakdown of which quests contribute
+  
+  **Traits & Titles screen:** grid of unlocked traits (rarity-colored borders), list of earned titles with a tap-to-equip control for the one active title
+  
+  **Analytics screen:** line chart (XP/week), bar chart (tasks/month), best streak callout, "most improved stat" badge
+  
+  **Mobile-first specifics:** bottom tab nav (Status / Quests / Main Quests / Traits / Analytics), large tap targets, haptic-style micro-animations on completion, XP bar pinned near top at all times.
+  
+  ---
+  
+  ## 11. AI Quest Master (Goal Planner) — Designed for Later Upgrade
+  
+  **Role clarity, since this changes how the whole app should feel:** the AI Quest Master isn't a side feature bolted onto an otherwise static app — it *is* the System. You're the **Architect** (you design the goals, own the app, ultimately decide what gets accepted) and the **Player** (you're the one out in the real world executing quests). The System is the third role — the admin — and once the AI Quest Master exists, it should be the single voice behind every "[System]" alert (§12), not just the goal-planning screen. That means:
+  
+  - Level-up, rank-up, and quest-issued alerts should eventually be phrased *by* the AI in-character as the System, not pulled from a static template
+  - Missed-quest/punishment alerts get their bite from the same voice — consistent, a little cold, always addressing you as the Player
+  - The Quest Master's goal-breakdown feature (below) is just the most functional expression of that same admin role — the System doesn't just talk strict, it actually plans and enforces
+  
+  Practically, this means Phase 1's static alert templates can ship first (so the core loop works without needing an LLM call on every event), and Phase 6 doesn't just add a planning screen — it upgrades the *voice* of every existing alert to route through the AI instead of a template, once the Quest Master exists.
+  
+  Fully feasible, and it slots in cleanly without touching the core schema — it just becomes another way rows get created in `main_quests`, `milestones`, and `daily_quests`.
+  
+  **How it works:**
+  
+  ```
+  You type/speak a goal
+    ("I want to pass a prop firm challenge")
+          │
+          ▼
+  Edge Function calls an LLM (e.g. Claude via
+  the Anthropic API) with the goal + your
+  current stats/quest list as context, and a
+  strict instruction to return ONLY structured
+  JSON matching your schema:
+    {
+      main_quest: { title, description, xp_reward },
+      milestones: [ { title, xp_reward }, ... ],
+      suggested_daily_quests: [
+        { title, xp_reward, difficulty, stat_target }, ...
+      ]
+    }
+          │
+          ▼
+  App shows you the proposed plan as a review
+  screen — edit/remove/accept items individually
+          │
+          ▼
+  On accept, rows are inserted into main_quests /
+  milestones / daily_quests exactly like if you'd
+  created them by hand
+  ```
+  
+  **Why this design works well for you specifically:**
+  - The AI never writes directly to your DB — it proposes, you approve. Keeps you in control and avoids junk quests polluting your list.
+  - The API call happens server-side (Supabase Edge Function), so your API key never sits in the mobile app bundle.
+  - Because it outputs the *same shape* your manual quest-creation forms already produce, this is an additive feature — nothing in Phases 0–5 needs to change to support it later. You can genuinely ship the manual version first and bolt this on afterward.
+  - Optional nice extension once this exists: a periodic "Quest Master check-in" push notification — the AI reviews your recent completions/stats and proposes a new quest, rather than you always having to initiate it.
+  
+  **What it needs when you build it:** an LLM API key (Anthropic API works well for this — strong at structured JSON output and reasoning about multi-step plans), one Edge Function endpoint, and a review/accept UI screen. No schema changes required.
+  
+  ---
+  
+  ## 12. "System" Alert / Notification Design
+  
+  This is the signature feel of the app — the mechanic that makes it feel alive instead of like a checklist.
+  
+  **Two layers:**
+  
+  1. **OS push notifications** (via Expo Notifications + Supabase Edge Function cron): fire even when the app is closed. Examples:
+     - Morning: *"[System] Daily Quests have been issued."*
+     - Evening, quest still incomplete: *"[System] Warning: 'Workout' quest incomplete. Time remaining: 3h."*
+     - Streak at risk: *"[System] Your streak will end in 2 hours."*
+  2. **In-app full-screen "System" overlay** (rendered from `components/system-alert/`): triggered when the app is opened after a push, or immediately after a significant in-app event. Mimics the Solo Leveling blue-panel "System" window — dark translucent overlay, gold/white monospace-ish text, typewriter reveal animation, single "Accept" tap to dismiss. Used for:
+     - New daily quests issued (start of day)
+     - Level up ("[System] You have reached Level 12.")
+     - Rank up ("[System] Rank promoted: Scout → Warrior.")
+     - Main Quest milestone or full completion
+     - Missed quest / streak broken (a harsher, red-tinted variant — this is the "consequence" beat that makes it feel real)
+  
+  **Why the split:** push notifications are what make it feel like a system is watching your life even when the phone's locked; the full-screen overlay is what makes the moment of opening the app feel like a cutscene, not a status check.
+  
+  **Tech notes:** Expo Notifications handles device push tokens and OS-level delivery; a Supabase Edge Function on a cron schedule checks each user's incomplete quests/streak status daily and calls the Expo Push API. In-app overlays are just local state driven by a queue — any XP-engine event (level up, quest complete, streak broken) pushes an alert object onto the queue, and the overlay component renders the next one in line.
+  
+  ---
+  
+  ## 13. Smart Glasses Integration (Future) — Feasibility
+  
+  Realistic, and it splits into two tiers depending on how deep you want to go — worth knowing both now so the notification system (§11) is built in a way that doesn't block either path later.
+  
+  **Tier 1 — Notification mirroring (easy, works with most Android-compatible glasses today):**
+  Most current Android smart glasses (e.g. Even Realities G1, Meta Ray-Ban Display, various Android XR-based glasses) work by mirroring your phone's notifications to a small HUD via Bluetooth, using a companion app. Since your app already fires real Android push/local notifications for "[System]" alerts, quest-issued messages, and level-ups, those notifications would **already show up on this class of glasses automatically** — no extra integration work needed, as long as the glasses' companion app is configured to mirror app notifications. This tier is essentially "free" once Phase 3 (notifications) is done.
+  
+  **Tier 2 — Native glasses app / custom HUD (harder, hardware-dependent):**
+  Some platforms (notably Android XR, Google's glasses/headset platform announced for 2025–2026 devices, and vendor-specific SDKs like Even Realities' own SDK) let you build a dedicated glasses-side app or display card — e.g. a persistent mini-HUD showing your XP bar, current quest, or streak directly on the lens, not just a notification popup. This requires:
+  - Picking a specific glasses platform/SDK once you own the hardware (SDKs vary a lot and aren't interchangeable)
+  - A lightweight "glanceable" UI package separate from the phone app, reading the same Supabase backend
+  - No changes to the core schema or XP engine — this tier is purely a new display client on top of what you're already building
+  
+  **Recommendation:** don't design for a specific glasses SDK now — hardware and SDKs in this space are still shifting fast. Just make sure (as already planned) that meaningful events flow through real device notifications, and treat glasses as a future "second client" reading the same backend, the same way the AI Quest Master is a future add-on.
+  
+  ---
+  
+  ## 14. Avatar System
+  
+  **Onboarding:** you enter height/weight/body metrics manually (a photo alone can't measure these accurately — no reference scale to calibrate against). You also upload a full-body photo purely for art generation, and set your calisthenics goal.
+  
+  **Avatar generation:** an Edge Function sends your photo to an image-generation API (img2img/style-transfer) with a fantasy-system art style prompt, producing one stylized base avatar. This becomes your permanent character art — not regenerated from scratch later, since repeated AI regeneration drifts and won't look like "the same character" level to level.
+  
+  **Progression:** instead of regenerating the whole avatar, progress is shown through **layered overlays** on the same base art — armor pieces, an aura/glow effect, and shading changes — unlocked at level/stat thresholds (e.g. Discipline/Health stat milestones tied to your calisthenics goal). This is cheap, fast, and visually consistent, and mirrors exactly how manhwa "system" characters visibly level up without becoming a different person each panel.
+  
+  **Schema:**
+  ```sql
+  avatars (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    source_photo_url  text,      -- original upload, private storage
+    base_avatar_url   text,      -- generated stylized art
+    height_cm     numeric,
+    weight_kg     numeric,
+    goal_type     text,          -- e.g. 'calisthenics'
+    current_tier  int default 1, -- drives which overlays render
+    updated_at    timestamptz default now()
+  )
+  
+  avatar_overlays (
+    id            uuid primary key default gen_random_uuid(),
+    tier          int not null,           -- unlock threshold
+    overlay_type  text,                   -- 'armor' | 'aura' | 'shading'
+    asset_url     text
+  )
+  ```
+  
+  ---
+  
+  ## 15. G-Coin Economy & Shop
+  
+  A second currency alongside XP — XP drives level/rank (long-term progression), G-coin is spendable pocket money for the shop (short-term reward loop). Earned as a side-effect of quest completion (e.g. `gcoin_reward` alongside `xp_reward` on each quest).
+  
+  **Schema:**
+  ```sql
+  -- add to profiles: gcoin_balance int default 0
+  
+  gcoin_log (               -- immutable ledger, same pattern as xp_log
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    amount        int not null,           -- positive (earn) or negative (spend)
+    source_type   text,
+    source_id     uuid,
+    created_at    timestamptz default now()
+  )
+  
+  shop_items (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),   -- you define your own shop
+    title         text not null,
+    description   text,
+    cost_gcoin    int not null,
+    item_type     text check (item_type in ('cosmetic','real_world_reward','consumable')),
+    active        boolean default true
+  )
+  
+  purchases (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    item_id       uuid references shop_items(id),
+    cost_paid     int not null,
+    purchased_at  timestamptz default now()
+  )
+  ```
+  
+  Since it's your own personal system, you define the shop items yourself — cosmetic ones (avatar overlays, HUD themes/titles) and real-world ones (e.g. "300 G-coin = guilt-free takeout night," "1000 G-coin = new game"). The AI Quest Master (§11) could later auto-suggest reward items scaled to a goal's difficulty, but that's an easy bolt-on, not needed for MVP.
+  
+  ---
+  
+  ## 16. "Mana Liquid" Consumable Log
+  
+  A flavor layer over a simple food/water/supplement log — no new mechanic, just reskinned copy and an optional generated description.
+  
+  ```sql
+  consumables_log (
+    id            uuid primary key default gen_random_uuid(),
+    user_id       uuid references profiles(id),
+    logged_at     timestamptz default now(),
+    category      text check (category in ('meal','water','supplement')),
+    item_name     text,           -- what you actually ate/drank/took
+    flavor_text   text,           -- generated "mana potion" description
+    stat_target   text,           -- optional: ties nutrition to a stat, e.g. Health
+    stat_amount   int default 0
+  )
+  ```
+  
+  Flavor text can be generated the same way as the AI Quest Master — a small Edge Function call that turns "chicken breast and rice" into something like *"[System] Mana Potion consumed: +Strength Essence. Vitality restored."* Purely cosmetic, no gameplay logic depends on the wording.
+  
+  ---
+  
+  ## 17. Workout & Supplement Guidance
+  
+  A content library, not a diagnostic engine — general, widely-known fitness/nutrition information (standard calisthenics progressions, common protein-per-bodyweight guidance, typical creatine dosing) surfaced contextually based on your calisthenics goal and current stats. This is educational content, not a personalized medical or nutrition plan — worth treating any supplement guidance as "common practice" info and checking with a doctor if you have any health conditions or take medication, same as you'd want for any fitness app.
+  
+  Practically: a `workout_programs` / `guidance_content` table you (or the AI Quest Master later) populate, surfaced on the dashboard or as suggested Daily Quests tied to your goal.
+  
+  ---
+  
+  ## 18. Punishment / Discipline System
+  
+  Two real implementation paths on Android — worth being upfront about the tradeoff:
+  
+  | Approach | What it can actually do | Setup cost | Risk |
+  |---|---|---|---|
+  | **Accessibility-Service app blocker** (recommended) | Hard-blocks specific apps (social media, games, whatever you name) until a quest is completed. Emergency calling/essentials always stay accessible. | Just a permission grant, no special provisioning | Low — worst case you disable the permission |
+  | **Device Owner mode** (full lockout) | Full-device lock, like enterprise MDM/parental controls | Must be provisioned via ADB *before* first Google sign-in on the device | High — misconfigure it and you may need a full factory reset to regain access |
+  
+  **Recommendation:** build the Accessibility-Service blocker. It's genuinely strict (you cannot open the blocked apps, no workaround from inside them) without carrying the risk of locking yourself out of your own phone over a missed habit.
+  
+  **Punishment tiers (config, not schema — logic lives in the Edge Function that runs the daily rollover):**
+  - Missed 1 daily quest → blocked apps (your choice list) until first quest of the next day is completed
+  - Broken streak → longer block window + G-coin penalty + a stat "decay" tick
+  - Missed Main Quest milestone deadline (if you set one) → System sends a harsher red-tinted alert, no XP penalty by default (main quests are long-term, punishing missed deadlines too hard tends to just make people quit instead of restart)
+  
+  ```sql
+  punishment_rules (
+    id             uuid primary key default gen_random_uuid(),
+    user_id        uuid references profiles(id),
+    trigger_type   text check (trigger_type in ('missed_quest','broken_streak','missed_milestone')),
+    blocked_apps   text[],       -- package names to block
+    block_duration_hours int,
+    gcoin_penalty  int default 0,
+    active         boolean default true
+  )
+  ```
+  
+  ---
+  
+  ## 19. Trait System
+  
+  Permanent passive achievements earned through *consistent* behavior over time — distinct from single quest completions, and the mechanism that rewards showing up repeatedly rather than any one good day.
+  
+  Traits are defined once (`traits` table, §2) with an `unlock_condition` (e.g. "100 quests tagged workout completed"), a rarity tier (common → legendary), and an optional `passive_bonus` (a small permanent stat or XP effect — e.g. "Iron Body" could grant +5 Health permanently). A daily/nightly Edge Function job checks unlock conditions against your completion history and inserts into `user_traits` when met, firing a "[System] Trait Unlocked" alert.
+  
+  Example progression:
+  - 100 Workouts → **Iron Body** (uncommon)
+  - 100 Trading Sessions → **Market Student** (uncommon)
+  - 30 Consecutive Days Posting Content → **Consistent Creator** (rare)
+  - 365 Days Active → **Unbroken Will** (legendary)
+  
+  Traits are visible on the Traits & Titles screen (§10) — this is the "long-term identity" layer that Level/Rank alone doesn't capture, since a level resets in feel every time you level up again, but a Trait, once earned, is permanent proof of who you've become.
+  
+  ---
+  
+  ## 20. Titles System
+  
+  Titles are separate from Rank: **Rank measures how far you've progressed overall; Titles represent specific things you've accomplished.** You can only display one at a time, so equipping one is itself a small identity statement.
+  
+  Defined in `titles`, unlocked into `user_titles` the same way traits are — either standalone (via an `unlock_condition`) or as a reward attached to a Hidden Achievement (§21). `profiles.active_title_id` holds the currently equipped one, shown right under Rank on the Status Window:
+  
+  ```
+  Rank: Elite
+  Title: Empire Architect
+  ```
+  
+  Example titles: **The Disciplined**, **The Builder**, **The Scholar**, **The Trader**, **The Survivor**, **Empire Architect** — you can define your own set matching your actual goals (trading, relocation, building this app itself) rather than generic RPG flavor.
+  
+  ---
+  
+  ## 21. Hidden Achievements System
+  
+  Achievements with `hidden: true` (§2 schema) simply aren't rendered anywhere in the UI — not in a locked/silhouette state, not listed at all — until their `unlock_condition` is met. This is what makes unlocking one feel like a genuine surprise rather than a checklist you were quietly grinding toward.
+  
+  Checked by the same nightly Edge Function job as Traits, against whatever data the condition needs (streaks, cumulative quest counts, specific stat thresholds, even something like "logged before 6 AM for 30 days" pulled from `quest_completions.completed_on` timestamps). On unlock: a distinct, more dramatic "[System]" alert variant (longer reveal animation, unique sound) plus XP/G-coin/title rewards as configured on the achievement row.
+  
+  Example hidden achievements: Wake before 6AM for 30 days, complete 100 total quests, earn your first $100 online, run 100km total, reach Level 50 — a mix of behavioral consistency and milestone thresholds.
+  
+  ---
+  
+  ## 22. Progression Philosophy
+  
+  Worth stating explicitly since it should guide every feature decision going forward: **this app is not a checklist — it's identity transformation.** You're not tracking tasks, you're becoming a different version of yourself through repetition, and every system above exists to make that legible:
+  
+  ```
+  Action → Quest Completion → XP Gain → Level Increase
+         → Stat Growth → Traits Unlocked → Titles Earned
+         → Identity Evolution
+  ```
+  
+  When evaluating any future feature (including whatever comes after Phase 7), the test is: does this reinforce that loop, or is it just another number on a screen? XP/Level answer "how much have I done." Stats answer "in what direction." Traits and Titles answer "who have I become." All three matter; none of them replace the others.
+  
+  ---
+  
+  ## 23. Development Roadmap
+  
+  **Phase 0 — Foundation (setup)**
+  - Expo (React Native + TypeScript) project scaffold, EAS configured
+  - Supabase project, auth, schema migration
+  - Design tokens (colors, spacing, type scale) for the dark/gold theme
+  - Push notification permissions + token registration flow
+  - Onboarding: manual height/weight/goal entry + photo upload for avatar
+  
+  **Phase 1 — Core Loop (MVP)**
+  - Auth + onboarding flow
+  - Daily Quests CRUD + completion → XP/G-coin award by quest rank (all quests `self_report` for now)
+  - XP engine (level/rank derivation)
+  - Status Window (character sheet) + Dashboard with live Level/XP/Rank/Streak
+  - Daily reset logic (Edge Function cron)
+  - Basic "System" full-screen overlay for level-up + quest-issued events
+  - Base avatar generation (one-time img2img call at onboarding)
+  
+  **Phase 2 — Main Quests, G-Coin & Buffs**
+  - Main Quest + milestone CRUD (S/SS rank)
+  - Progress % calculation
+  - Completion rewards + celebration overlay variant
+  - G-coin earning + basic shop (cosmetic items only to start)
+  - Buffs system (streak bonus, quest-triggered, shop-bought), shown on Status Window
+  
+  **Phase 3 — Notifications, Streaks & Discipline**
+  - Scheduled push notifications (quest issued, quest at risk, streak warning)
+  - Weekly/monthly streak logic
+  - Best streak tracking
+  - Missed-quest "consequence" alert variant
+  - Photo/link/timer verification tiers (Supabase Storage for photo uploads, in-app timer component)
+  - Accessibility-Service app blocker + punishment rules engine
+  
+  **Phase 4 — Stats, Analytics & Avatar Progression**
+  - Stat tagging on quests, radar chart
+  - Weekly XP chart, monthly completions
+  - Most-improved-stat calculation
+  - `integration` verification tier: Android Health Connect for workout quests
+  - Avatar overlay system (armor/aura tiers tied to stat milestones)
+  - Workout/supplement guidance content library
+  - "Mana liquid" consumable log
+  
+  **Phase 5 — Traits, Titles & Hidden Achievements**
+  - Nightly Edge Function job checking trait/achievement unlock conditions
+  - Traits & Titles screen, title equip control
+  - Hidden achievement reveal alert variant (dramatic, distinct from standard level-up)
+  
+  **Phase 6 — Polish**
+  - Full alert animation pass (typewriter text, sound effects, haptics)
+  - App icon, splash screen, TestFlight/Play internal build
+  - Streak-freeze / grace mechanics
+  
+  **Phase 7 — AI Quest Master (upgrade)**
+  - Edge Function calling an LLM API with structured JSON output
+  - Goal input screen + AI-proposed plan review/accept UI
+  - Migrate System alert copy (level-up, punishment, quest-issued) to be authored by the AI instead of static templates
+  - (Optional) periodic AI check-in push notifications
+  - (Optional) AI-suggested shop rewards scaled to goal difficulty
+  
+  **Phase 8 — Smart Glasses (upgrade, hardware-dependent)**
+  - Tier 1: verify/configure notification mirroring with your glasses' companion app (little to no code)
+  - Tier 2 (if desired): build a minimal glasses-side HUD client on the chosen platform's SDK, reading the same Supabase backend
+  
+  Recommend building Phase 1 fully end-to-end (even ugly) before touching Phase 2 — the core "complete task → see number go up and feel good" loop is what proves the concept.
+  
+  ---
+  
+  ## Open Decisions for You
+  
+  - Do you want a streak-freeze/grace mechanic from day one, or add later?
+  - Should stats have their own mini-levels, or stay as raw point totals?
+  - Any daily quest cap (e.g. max 5-8 active at once to avoid burnout/list bloat)?
+  [LMB]
+
+--- WINDOW  2026/07/15 14:17:01  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:17:03  [Antigravity IDE.exe] The System - Antigravity IDE - Claude Code
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+  [Ctrl]v
+
+--- WINDOW  2026/07/15 14:17:06  [Antigravity IDE.exe] The System - Antigravity IDE - We'll be starting a proj…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:17:10  [Antigravity IDE.exe] The System - Antigravity IDE - Build The System RPG lif…
+----------------------------------------------------------------------------
+  [LMB]
+  what do you suggest[ENTER]
+  [LMB]
+  [LMB]
+  create implementation plan[ENTER]
+  [LMB]
+  just implements[Bk]ation pa[Bk]lan will answer once before you proceed[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:21:43  [Antigravity IDE.exe] The System - Antigravity IDE - The System — Phase 0 (Foundation) Implementation Plan
+----------------------------------------------------------------------------
+  [Ctrl]c
+  [Clipboard]
+  The System — Phase 0 (Foundation) Implementation Plan
+  Context
+  This is a brand-new project (C:\Users\USER\Desktop\The System is empty, no git repo). The user supplied a complete product/technical spec for a personal RPG-style life-management app (React Native/Expo + Supabase). The spec itself is the design authority — this plan translates its Phase 0 checklist (§23) into concrete scaffolding steps, resolves the three "Open Decisions" the spec flagged, and sets up the project so Phase 1 (core loop) can start immediately after.
+  
+  Decisions locked in with the user before this plan:
+  
+  Streak-freeze/grace mechanic: deferred — build in Phase 6 (Polish) as the spec's roadmap already places it. Reason: prove the strict streak/consequence loop works first; adding forgiveness before you know how harsh it feels in practice is premature.
+  Stats: raw point totals for MVP, no per-stat mini-levels (matches §9 as written). Per-stat levels reuse the same xpForLevel curve and are flagged as an easy Phase 4+ addition if wanted later — no schema impact either way.
+  Daily quest cap: 6 active daily quests max, enforced in the app layer (not a DB constraint, so it can be tuned later).
+  Node v22.20.0, npm 10.9.3, and git 2.52 are confirmed available on this machine.
+  
+  What Phase 0 delivers
+  A running (installable) Expo app shell + a Supabase schema migration, with no game logic yet beyond the pure XP-engine math and onboarding capture. Avatar generation, quest completion, and the real "System" alert triggers are Phase 1+ — not built here.
+  
+  Steps
+  Git init. git init in the project root, add a .gitignore (node_modules, .env, .expo, ios/android build artifacts).
+  
+  Expo scaffold. npx create-expo-app@latest . --template default (TypeScript template) run directly in the existing empty folder. Configure expo-router (file-based routing matches the spec's app/(auth), app/(tabs) layout exactly).
+  
+  Folder structure (per spec §1), created as route groups / modules with placeholder screens:
+  
+  app/(auth)/login.tsx, signup.tsx, onboarding.tsx
+  app/(tabs)/_layout.tsx
+  app/(tabs)/dashboard/index.tsx
+  app/(tabs)/quests/daily/index.tsx
+  app/(tabs)/quests/main/index.tsx
+  app/(tabs)/stats/index.tsx
+  app/(tabs)/analytics/index.tsx
+  components/hud/
+  components/system-alert/SystemAlert.tsx   (visual shell only, per §12)
+  lib/xp-engine/level.ts, rank.ts, index.ts
+  lib/notifications/register.ts
+  lib/supabase/client.ts
+  constants/theme.ts   (design tokens: #0a0a0a bg, #d4af37/#f0c14b gold, type scale, spacing)
+  Dependencies to install: expo-router, @supabase/supabase-js, expo-notifications, expo-image-picker, expo-secure-store (for session persistence), @react-native-async-storage/async-storage, react-native-url-polyfill (required by supabase-js on RN).
+  
+  lib/xp-engine — pure, framework-agnostic, unit-testable:
+  
+  level.ts: implements xpForLevel(n) = round(100 * n^1.5) and getLevel(totalXp) exactly as specced in §5.
+  rank.ts: static config array of the 7 rank bands (§6) + getRank(level).
+  No DB calls in this module, per the spec's explicit architectural decision.
+  lib/supabase/client.ts — Supabase JS client initialized from expo-constants extra config, reading SUPABASE_URL/SUPABASE_ANON_KEY from a local .env (gitignored). I will NOT have real project credentials — see "Manual steps for you" below.
+  
+  Supabase schema migration — supabase/migrations/0001_init.sql containing the full schema from spec §2, plus later-phase tables from §14–21 (avatars, avatar_overlays, gcoin_log, shop_items, purchases, buffs, consumables_log, punishment_rules, traits/user_traits, titles/user_titles, achievements/user_achievements) scaffolded now as empty tables per the spec's explicit note that these are "safe to scaffold as empty schema now." Includes:
+  
+  One necessary deviation from the spec as written: profiles needs a push_token text column (not in §2) to support Expo push registration in §12/Phase 3 — will call this out inline as a SQL comment.
+  Row Level Security enabled on every user-scoped table, policy using (auth.uid() = user_id) (or = id for profiles).
+  supabase init run locally to generate supabase/config.toml for CLI-based migration management.
+  Design tokens (constants/theme.ts): colors, spacing scale, type scale per §10's visual language, shared by both the Dashboard and the SystemAlert overlay so they read as one visual system as the spec requires.
+  
+  Push notification scaffold (lib/notifications/register.ts): requests permission, retrieves Expo push token, ready to persist to profiles.push_token — registration flow only, no actual scheduled pushes yet (that's Phase 3).
+  
+  Onboarding screens (capture only, no AI/generation yet): username, height/weight (manual entry, per §14's note that photos alone can't calibrate measurements), calisthenics goal text field, and a photo picker that uploads to Supabase Storage — writes avatars.source_photo_url + avatars.height_cm/weight_kg/goal_type. Actual img2img avatar generation is explicitly Phase 1, not built here.
+  
+  EAS config: eas.json with a development and preview (Android-only) build profile — no iOS profile yet, matching the spec's Android-first, no-Apple-Developer-Program-needed guidance.
+  
+  Manual steps for you (cannot be done from here)
+  Create a Supabase project (or point me at an existing one) and run supabase login / supabase link — this is an interactive browser auth step.
+  Give me the project's SUPABASE_URL and anon key to drop into .env.
+  eas login (Expo account) before any real EAS build — I can write eas.json but can't authenticate.
+  A Google Play developer account ($25 one-time) is only needed later for Play internal-testing distribution — not required to run/test the app locally via a dev build or side-loaded APK.
+  Verification
+  npx tsc --noEmit passes (TypeScript scaffold is clean).
+  lib/xp-engine/level.ts gets a quick unit test (e.g. via node --test or a minimal Jest setup) checking the table in §5 (level 1→2 = 100 XP, cumulative to level 3 ≈ 383, etc.) matches getLevel() output.
+  npx expo start boots the app in Expo Go/dev client without red-screen errors, and the placeholder tab screens (Dashboard/Quests/Stats/Analytics) are reachable via the bottom tab nav.
+  Supabase migration applies cleanly with supabase db reset (local) once the user has Supabase CLI/Docker available, or via the linked project once credentials are supplied.
+
+--- WINDOW  2026/07/15 14:21:49  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:21:50  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]vehat do you think[ENTER]
+  [LMB]
+  send me p[Bk][Bk]ar[Bk]prr[Bk][Bk]proal rel[Bk]ply[ENTER]
+  [LMB]
+  [Clipboard]
+  Approved — proceed with Phase 0 as outlined.
+  
+  Before you start writing code, please confirm/resolve these three 
+  items and report back:
+  
+  1. RLS on system-written tables (traits, achievements, buffs, and 
+     any other table meant to be written by a scheduled Edge Function 
+     rather than the client): confirm these either use the service 
+     role key for writes, or have a policy that doesn't rely solely 
+     on auth.uid() = user_id for inserts. Client-only RLS will silently 
+     break the nightly unlock-check job later.
+  
+  2. Verification step for push notifications: expo-notifications has 
+     limited functionality in Expo Go — confirm the Phase 0 
+     verification checklist uses a dev client build (eas build 
+     --profile development) to actually validate token registration, 
+     not just npx expo start in Expo Go, which may pass without 
+     proving anything.
+  
+  3. Confirm supabase/migrations/0001_init.sql is built from the 
+     final spec version — specifically daily_quests using 
+     quest_rank/gcoin_reward (E–SS ranks), not an earlier 
+     difficulty-based version.
+  
+  Once those three are confirmed, go ahead and scaffold. I'll do the 
+  manual steps on my end (Supabase project creation + credentials, 
+  eas login) and hand those back to you when ready.
+  [LMB]
+
+--- WINDOW  2026/07/15 14:23:33  [Antigravity IDE.exe] The System - Antigravity IDE - The System — Phase 0 (Foundation) Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:23:34  [Antigravity IDE.exe] The System - Antigravity IDE - Build The System RPG lif…
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:23:44  [Antigravity IDE.exe] The System - Antigravity IDE - The System — Phase 0 (Foundation) Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:25:14  [Antigravity IDE.exe] The System - Antigravity IDE - Build The System RPG lif…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:28:20  [Antigravity IDE.exe] The System - Antigravity IDE - settings.local.json
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:32:15  [Antigravity IDE.exe] The System - Antigravity IDE - Build The System RPG lif…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:51:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:51:41  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:51:46  [explorer.exe] This PC
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:52:05  [explorer.exe] Mendez PC (C:)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:52:11  [explorer.exe] Desktop
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Del]
+
+--- WINDOW  2026/07/15 14:52:20  [explorer.exe] Progress
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:21  [explorer.exe] Discovered 1,206 items (12.5 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:22  [explorer.exe] Discovered 1,465 items (13.1 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:22  [explorer.exe] Discovered 1,850 items (16.3 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:22  [explorer.exe] Discovered 2,272 items (17.8 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:23  [explorer.exe] Discovered 2,715 items (19.0 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:23  [explorer.exe] Discovered 3,160 items (21.4 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:23  [explorer.exe] Discovered 3,499 items (230 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:23  [explorer.exe] Discovered 3,992 items (231 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:24  [explorer.exe] Discovered 4,448 items (231 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:24  [explorer.exe] Discovered 4,802 items (246 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:24  [explorer.exe] Discovered 5,316 items (249 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:25  [explorer.exe] Discovered 5,901 items (252 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:25  [explorer.exe] Discovered 6,530 items (262 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:25  [explorer.exe] Discovered 7,024 items (266 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:26  [explorer.exe] Discovered 7,553 items (267 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:26  [explorer.exe] Discovered 8,219 items (270 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:26  [explorer.exe] Discovered 8,696 items (274 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:26  [explorer.exe] Discovered 9,118 items (275 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:27  [explorer.exe] Discovered 9,554 items (276 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:27  [explorer.exe] Discovered 10,183 items (289 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:27  [explorer.exe] Discovered 10,807 items (299 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:28  [explorer.exe] Discovered 11,290 items (300 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:28  [explorer.exe] Discovered 12,277 items (307 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:29  [explorer.exe] Discovered 12,786 items (310 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:29  [explorer.exe] Discovered 13,404 items (313 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:29  [explorer.exe] Discovered 14,031 items (315 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:30  [explorer.exe] Discovered 14,545 items (316 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:30  [explorer.exe] Discovered 15,040 items (321 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:30  [explorer.exe] Discovered 15,975 items (322 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:31  [explorer.exe] Discovered 16,747 items (326 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:31  [explorer.exe] Discovered 17,488 items (332 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:31  [explorer.exe] Discovered 17,975 items (344 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:31  [explorer.exe] Discovered 18,501 items (346 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:32  [explorer.exe] Discovered 18,884 items (349 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:32  [explorer.exe] Discovered 19,403 items (364 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:32  [explorer.exe] Discovered 19,922 items (367 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:33  [explorer.exe] Discovered 20,521 items (371 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:33  [explorer.exe] Discovered 21,176 items (396 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:33  [explorer.exe] Discovered 21,710 items (398 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:33  [explorer.exe] 0% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:34  [explorer.exe] 1% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:39  [explorer.exe] 54% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:40  [explorer.exe] 94% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:40  [explorer.exe] Desktop
+----------------------------------------------------------------------------
+  [LMB]
+  [Del]
+
+--- WINDOW  2026/07/15 14:52:49  [explorer.exe] Discovered 1,947 items (110 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:50  [explorer.exe] Discovered 2,262 items (111 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:50  [explorer.exe] Discovered 2,589 items (111 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:50  [explorer.exe] Discovered 2,952 items (112 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:50  [explorer.exe] Discovered 3,354 items (112 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:51  [explorer.exe] Discovered 3,677 items (112 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:51  [explorer.exe] Discovered 3,960 items (113 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:51  [explorer.exe] Discovered 4,378 items (114 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:52  [explorer.exe] Discovered 4,683 items (128 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:52  [explorer.exe] Discovered 5,184 items (134 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:52  [explorer.exe] Discovered 5,615 items (135 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:52  [explorer.exe] Discovered 5,874 items (136 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:53  [explorer.exe] Discovered 6,039 items (136 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:53  [explorer.exe] Discovered 6,232 items (136 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:53  [explorer.exe] Discovered 6,651 items (137 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:54  [explorer.exe] Discovered 6,746 items (137 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:55  [explorer.exe] Discovered 7,471 items (137 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:56  [explorer.exe] Discovered 8,819 items (138 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:56  [explorer.exe] Discovered 9,461 items (138 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:56  [explorer.exe] Discovered 10,320 items (139 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:57  [explorer.exe] Discovered 11,193 items (140 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:57  [explorer.exe] Discovered 12,081 items (140 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:57  [explorer.exe] Discovered 12,748 items (140 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:58  [explorer.exe] Discovered 13,671 items (141 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:58  [explorer.exe] Discovered 14,620 items (141 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:58  [explorer.exe] Discovered 15,592 items (141 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:59  [explorer.exe] Discovered 16,552 items (144 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:59  [explorer.exe] Discovered 17,520 items (145 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:52:59  [explorer.exe] Discovered 18,213 items (145 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:00  [explorer.exe] Discovered 19,108 items (145 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:00  [explorer.exe] Discovered 19,839 items (146 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:00  [explorer.exe] Discovered 20,808 items (146 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:00  [explorer.exe] Discovered 21,769 items (146 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:01  [explorer.exe] Discovered 22,695 items (147 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:01  [explorer.exe] Discovered 23,410 items (147 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:01  [explorer.exe] Discovered 24,199 items (148 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:02  [explorer.exe] Discovered 25,131 items (148 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:02  [explorer.exe] Discovered 26,061 items (148 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:02  [explorer.exe] Discovered 26,889 items (149 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:02  [explorer.exe] Discovered 27,632 items (149 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:03  [explorer.exe] Discovered 27,976 items (149 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:03  [explorer.exe] Discovered 28,303 items (149 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:03  [explorer.exe] Discovered 29,095 items (150 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:04  [explorer.exe] Discovered 29,908 items (150 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:04  [explorer.exe] Discovered 30,782 items (150 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:04  [explorer.exe] Discovered 31,644 items (151 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:05  [explorer.exe] Discovered 32,287 items (151 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:05  [explorer.exe] Discovered 33,238 items (152 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:05  [explorer.exe] Discovered 34,170 items (153 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:06  [explorer.exe] Discovered 34,932 items (153 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:06  [explorer.exe] Discovered 35,818 items (153 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:06  [explorer.exe] Discovered 36,689 items (154 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:06  [explorer.exe] Discovered 37,607 items (154 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:07  [explorer.exe] Discovered 38,574 items (155 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:07  [explorer.exe] Discovered 39,033 items (156 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:07  [explorer.exe] Discovered 39,442 items (157 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:08  [explorer.exe] Discovered 39,770 items (158 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:08  [explorer.exe] Discovered 40,162 items (159 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:08  [explorer.exe] Discovered 40,550 items (160 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:09  [explorer.exe] Discovered 40,961 items (161 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:09  [explorer.exe] Discovered 41,362 items (162 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:09  [explorer.exe] Discovered 41,711 items (163 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:10  [explorer.exe] Discovered 42,000 items (163 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:10  [explorer.exe] Discovered 42,328 items (163 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:10  [explorer.exe] Discovered 42,818 items (167 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:10  [explorer.exe] Discovered 43,178 items (168 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:11  [explorer.exe] Discovered 43,512 items (169 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:11  [explorer.exe] Discovered 43,910 items (170 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:11  [explorer.exe] Discovered 44,320 items (172 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:12  [explorer.exe] Discovered 44,663 items (172 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:12  [explorer.exe] Discovered 45,024 items (172 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:12  [explorer.exe] Discovered 45,319 items (172 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:13  [explorer.exe] Discovered 45,719 items (173 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:13  [explorer.exe] Discovered 46,261 items (174 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:13  [explorer.exe] Discovered 46,659 items (175 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:13  [explorer.exe] Discovered 47,182 items (176 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:14  [explorer.exe] Discovered 47,665 items (177 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:14  [explorer.exe] Discovered 48,089 items (179 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:14  [explorer.exe] Discovered 48,416 items (179 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:15  [explorer.exe] Discovered 48,854 items (180 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:15  [explorer.exe] Discovered 49,352 items (181 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:15  [explorer.exe] Discovered 49,834 items (182 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:16  [explorer.exe] Discovered 50,299 items (184 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:16  [explorer.exe] Discovered 50,633 items (184 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:16  [explorer.exe] Discovered 51,012 items (184 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:17  [explorer.exe] Discovered 51,586 items (186 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:17  [explorer.exe] Discovered 52,099 items (196 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:17  [explorer.exe] Discovered 52,673 items (212 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:18  [explorer.exe] Discovered 53,371 items (212 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:18  [explorer.exe] Discovered 54,063 items (215 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:18  [explorer.exe] Discovered 54,930 items (218 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:18  [explorer.exe] Discovered 55,616 items (219 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:19  [explorer.exe] Discovered 56,446 items (219 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:19  [explorer.exe] Discovered 57,343 items (220 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:19  [explorer.exe] Discovered 58,059 items (220 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:20  [explorer.exe] Discovered 58,849 items (221 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:20  [explorer.exe] Discovered 59,743 items (221 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:20  [explorer.exe] Discovered 60,633 items (221 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:21  [explorer.exe] Discovered 60,944 items (221 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:21  [explorer.exe] Discovered 61,244 items (221 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:21  [explorer.exe] Discovered 61,556 items (221 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:22  [explorer.exe] Discovered 61,863 items (221 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:22  [explorer.exe] Discovered 62,184 items (221 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:22  [explorer.exe] Discovered 62,479 items (221 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:23  [explorer.exe] Discovered 62,966 items (222 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:23  [explorer.exe] Discovered 63,385 items (224 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:23  [explorer.exe] Discovered 64,132 items (227 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:24  [explorer.exe] Discovered 64,598 items (230 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:24  [explorer.exe] Discovered 65,053 items (234 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:24  [explorer.exe] Discovered 65,995 items (235 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:24  [explorer.exe] Discovered 66,793 items (235 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:25  [explorer.exe] Discovered 67,525 items (238 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:25  [explorer.exe] Discovered 68,385 items (241 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:25  [explorer.exe] Discovered 68,901 items (241 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:26  [explorer.exe] Discovered 69,405 items (241 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:26  [explorer.exe] Discovered 70,083 items (241 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:26  [explorer.exe] Discovered 70,748 items (241 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:27  [explorer.exe] Discovered 71,644 items (242 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:27  [explorer.exe] Discovered 72,428 items (242 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:27  [explorer.exe] Discovered 73,020 items (246 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:28  [explorer.exe] Discovered 73,509 items (247 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:28  [explorer.exe] Discovered 73,948 items (247 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:28  [explorer.exe] Discovered 74,423 items (247 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:28  [explorer.exe] Discovered 74,888 items (248 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:29  [explorer.exe] Discovered 75,236 items (248 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:29  [explorer.exe] Discovered 75,664 items (248 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:29  [explorer.exe] Discovered 76,000 items (248 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:30  [explorer.exe] Discovered 76,335 items (248 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:30  [explorer.exe] Discovered 76,668 items (249 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:30  [explorer.exe] Discovered 77,038 items (249 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:31  [explorer.exe] Discovered 77,497 items (249 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:31  [explorer.exe] Discovered 77,967 items (250 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:31  [explorer.exe] Discovered 78,432 items (250 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:32  [explorer.exe] Discovered 78,935 items (250 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:32  [explorer.exe] Discovered 79,322 items (251 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:32  [explorer.exe] Discovered 79,656 items (251 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:33  [explorer.exe] Discovered 80,021 items (251 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:33  [explorer.exe] Discovered 80,358 items (251 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:33  [explorer.exe] Discovered 80,724 items (252 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:33  [explorer.exe] Discovered 81,257 items (252 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:34  [explorer.exe] Discovered 81,821 items (253 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:34  [explorer.exe] Discovered 82,485 items (255 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:34  [explorer.exe] Discovered 83,406 items (256 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:35  [explorer.exe] Discovered 84,248 items (257 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:35  [explorer.exe] Discovered 85,062 items (258 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:35  [explorer.exe] Discovered 85,708 items (262 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:36  [explorer.exe] Discovered 86,354 items (263 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:36  [explorer.exe] Discovered 86,761 items (266 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:36  [explorer.exe] Discovered 87,521 items (267 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:37  [explorer.exe] Discovered 88,162 items (274 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:37  [explorer.exe] Discovered 88,664 items (276 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:37  [explorer.exe] Discovered 89,220 items (279 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:37  [explorer.exe] Discovered 89,668 items (289 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:38  [explorer.exe] Discovered 90,231 items (292 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:38  [explorer.exe] Discovered 90,843 items (295 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:38  [explorer.exe] Discovered 91,400 items (311 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:39  [explorer.exe] Discovered 92,464 items (312 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:39  [explorer.exe] Discovered 93,301 items (317 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:39  [explorer.exe] Discovered 94,063 items (325 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:40  [explorer.exe] Discovered 94,719 items (354 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:40  [explorer.exe] Discovered 95,331 items (373 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:40  [explorer.exe] Discovered 95,813 items (375 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:41  [explorer.exe] Discovered 96,330 items (377 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:41  [explorer.exe] Discovered 97,102 items (384 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:41  [explorer.exe] Discovered 98,081 items (387 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:42  [explorer.exe] Discovered 98,851 items (403 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:42  [explorer.exe] Discovered 99,397 items (474 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:42  [explorer.exe] Discovered 99,949 items (475 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:42  [explorer.exe] Discovered 100,373 items (478 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:43  [explorer.exe] Discovered 100,972 items (480 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:43  [explorer.exe] Discovered 101,386 items (484 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:43  [explorer.exe] Discovered 101,892 items (488 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:44  [explorer.exe] Discovered 102,512 items (489 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:44  [explorer.exe] Discovered 103,045 items (490 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:44  [explorer.exe] Discovered 103,439 items (505 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:45  [explorer.exe] Discovered 104,070 items (506 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:45  [explorer.exe] Discovered 104,718 items (507 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:45  [explorer.exe] Discovered 105,086 items (508 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:45  [explorer.exe] Discovered 105,564 items (510 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:46  [explorer.exe] Discovered 105,938 items (510 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:46  [explorer.exe] Discovered 106,460 items (522 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:46  [explorer.exe] Discovered 106,898 items (523 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:47  [explorer.exe] Discovered 107,615 items (528 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:47  [explorer.exe] Discovered 108,366 items (534 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:47  [explorer.exe] Discovered 108,849 items (537 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:48  [explorer.exe] Discovered 109,451 items (541 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:48  [explorer.exe] Discovered 109,903 items (545 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:48  [explorer.exe] Discovered 110,329 items (553 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:48  [explorer.exe] Discovered 110,855 items (629 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:49  [explorer.exe] Discovered 111,329 items (634 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:49  [explorer.exe] Discovered 111,661 items (635 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:49  [explorer.exe] Discovered 112,087 items (640 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:50  [explorer.exe] Discovered 112,508 items (641 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:50  [explorer.exe] Discovered 112,870 items (642 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:50  [explorer.exe] Discovered 113,338 items (643 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:51  [explorer.exe] Discovered 113,842 items (646 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:51  [explorer.exe] Discovered 114,540 items (651 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:51  [explorer.exe] Discovered 115,117 items (655 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:51  [explorer.exe] Discovered 115,592 items (659 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:52  [explorer.exe] Discovered 116,107 items (661 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:52  [explorer.exe] Discovered 116,683 items (668 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:52  [explorer.exe] Discovered 117,296 items (671 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:53:52  [explorer.exe] 0% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:54:21  [explorer.exe] 22% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:54:21  [explorer.exe] 77% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:54:22  [explorer.exe] Desktop
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:54:26  [explorer.exe] This PC
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:54:31  [Antigravity IDE.exe] The System - Antigravity IDE - Build The System RPG lif…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:54:36  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:54:37  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:54:39  [(unknown)] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/15 14:54:41  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  okay before proceeding on thzapper[ENTER]
+  i wanted to know if you'll allow me use th euniswap dex and already existing weth and usdc testnt [Bk][Bk]et fr[Bk]or ths[Bk]i [Bk]s phase[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:55:38  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:56:59  [Antigravity IDE.exe] The System - Antigravity IDE - Build The System RPG lif…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:57:06  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/15 14:57:08  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  i got someone who can do that[ENTER]
+  and trust worthy[ENTER]
+  if it's to =[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]you can just do a trial wit hher and see if it fits your goal..remember you can alwas[Bk]ys try different peopel[Bk][Bk]le.[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/15 14:58:42  [Antigravity IDE.exe] The System - Antigravity IDE - Build The System RPG lif…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/15 15:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
