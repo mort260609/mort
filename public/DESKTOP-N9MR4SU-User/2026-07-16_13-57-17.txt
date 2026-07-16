@@ -1,0 +1,161 @@
+﻿
+--- WINDOW  2026/07/16 12:57:18  [firefox.exe] WhatsApp — Mozilla Firefox
+----------------------------------------------------------------------------
+  [Ctrl]t
+
+--- WINDOW  2026/07/16 12:58:02  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+  you[ENTER]
+
+--- WINDOW  2026/07/16 12:58:06  [firefox.exe] YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 12:58:10  [firefox.exe] (3) YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 12:58:30  [firefox.exe] (3) Stateside Scramble - Episode 5 - YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+  [X1]
+
+--- WINDOW  2026/07/16 12:58:31  [firefox.exe] (3) YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 12:58:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 12:58:37  [firefox.exe] (3) Night Swimming - Live at Bam Bam Studios (Full Session) - YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 12:58:40  [firefox.exe] Stateside Scramble - Episode 5 - YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+  [MMB]
+   f[<-][<-]
+  [LMB]
+   [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]t
+
+--- WINDOW  2026/07/16 13:15:42  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+  y cracolandia silvio santos[ENTER]
+
+--- WINDOW  2026/07/16 13:15:51  [firefox.exe] cracolandia silvio santos - YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 13:15:54  [firefox.exe] (3) cracolandia silvio santos - YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 13:16:02  [firefox.exe] (3) YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 13:16:04  [firefox.exe] (3) Silvio Santos diz que vai levar cracolândia para terreno que disputa em São Paulo | Observ - YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+  [X1]
+  [LMB]
+
+--- WINDOW  2026/07/16 13:16:14  [firefox.exe] (3) 'Vou transferir a cracolândia pra lá', diz Silvio Santos a Zé Celso sobre Teatro Oficina - YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]w
+
+--- WINDOW  2026/07/16 13:17:43  [firefox.exe] Stateside Scramble - Episode 5 - YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+   
+  [RMB]
+  [LMB]
+  f  [<-]c   [Ctrl]t
+
+--- WINDOW  2026/07/16 13:33:44  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+  maior lago[ENTER]
+
+--- WINDOW  2026/07/16 13:33:48  [firefox.exe] maior lago at DuckDuckGo — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Paratethys
+  [LMB]
+  [Ctrl]t
+
+--- WINDOW  2026/07/16 13:34:04  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+  v[ENTER]
+
+--- WINDOW  2026/07/16 13:34:05  [firefox.exe] Paratethys at DuckDuckGo — Mozilla Firefox
+----------------------------------------------------------------------------
+  [Ctrl]w
+
+--- WINDOW  2026/07/16 13:34:09  [firefox.exe] maior lago at DuckDuckGo — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]aarea do estado do acre[ENTER]
+
+--- WINDOW  2026/07/16 13:34:29  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 13:34:29  [firefox.exe] area do estado do acre at DuckDuckGo — Mozilla Firefox
+----------------------------------------------------------------------------
+  [MMB]
+
+--- WINDOW  2026/07/16 13:34:45  [firefox.exe] (3) Night Swimming - Live at Bam Bam Studios (Full Session) - YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 13:34:48  [firefox.exe] Stateside Scramble - Episode 5 - YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]t
+
+--- WINDOW  2026/07/16 13:35:06  [firefox.exe] area do estado do acre at DuckDuckGo — Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 13:35:07  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 13:35:07  [firefox.exe] area do estado do acre at DuckDuckGo — Mozilla Firefox
+----------------------------------------------------------------------------
+  [X1]
+
+--- WINDOW  2026/07/16 13:35:09  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 13:35:09  [firefox.exe] maior lago at DuckDuckGo — Mozilla Firefox
+----------------------------------------------------------------------------
+  [Ctrl]w
+
+--- WINDOW  2026/07/16 13:35:23  [firefox.exe] (3) Night Swimming - Live at Bam Bam Studios (Full Session) - YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+  [Ctrl]w
+
+--- WINDOW  2026/07/16 13:35:26  [firefox.exe] (3) YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+  [Ctrl]w
+
+--- WINDOW  2026/07/16 13:35:27  [firefox.exe] Stateside Scramble - Episode 5 - YouTube — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [<-][<-][<-][<-][<-][<-][<-][<-] [<-][<-]   [<-]  [<-][<-][<-][<-][<-][<-][<-]        [<-][<-]  [<-]  [<-][<-][->]  
+
+--- WINDOW  2026/07/16 13:57:16  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
