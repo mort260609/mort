@@ -1,0 +1,3757 @@
+﻿
+--- WINDOW  2026/07/16 15:47:59  [LockApp.exe] Windows Default Lock Screen
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/07/16 15:48:01  [explorer.exe] UnlockingWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:48:01  [WINWORD.exe] New DOCX Document - Word
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:48:03  [chrome.exe] 1 notification - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:48:07  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  ghbdsn[ENTER]
+  vb[ENTER]
+  vb ; vf'vj d;t[ENTER]
+  d ghjgjeptks vfqcnjeyb[ENTER]
+  nfv dct d;t '[ENTER]
+  ofc z nj,s crbye[ENTER]
+  ntrcnjv[ENTER]
+  s nb qjve crbyti[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 15:48:58  [chrome.exe] (5) Lead Generator Onboarding — VibeStyle | Notion - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:49:01  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 15:49:14  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:49:16  [chrome.exe] (5) Lead Generator Onboarding — VibeStyle | Notion - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:49:22  [chrome.exe] (5) Proposals for clients | Notion - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Hi Matthew,
+  
+  Thank you again for your reply and for being open to considering alternative technologies.
+  
+  After reviewing the approved designs together with our development team, we've taken the time to evaluate not only the implementation effort, but also the long-term technical strategy for the project.
+  
+  Rather than simply recommending a CMS, our goal was to identify the architecture that would provide the best balance of performance, maintainability, scalability, and overall business value over the coming years.
+  
+  Based on our review, we believe a modern headless architecture is the strongest fit for this project.
+  
+  ---
+  
+  # Our Recommendation
+  
+  After evaluating multiple implementation approaches, we recommend building the website using **Strapi** as the headless CMS together with a modern frontend framework.
+  
+  From our perspective, this provides significant advantages over a traditional CMS implementation while giving you complete ownership of your infrastructure and data.
+  
+  We've evaluated two approaches that we believe are the strongest candidates.
+  
+  ---
+  
+  # Option 1 – Astro + Strapi
+  
+  Based on the current project scope, this is our recommended solution.
+  
+  Your website is primarily a corporate marketing website focused on:
+  
+  - content presentation;
+  - SEO;
+  - performance;
+  - user experience;
+  - long-term maintainability.
+  
+  Rather than a highly interactive web application.
+  
+  Astro is specifically designed for this type of project.
+  
+  Combined with Strapi it provides:
+  
+  - Self-hosted CMS with full ownership of your infrastructure and data.
+  - Outstanding SEO performance.
+  - Extremely fast page loading.
+  - Minimal JavaScript delivered to the browser.
+  - Modern, clean architecture.
+  - Reusable page templates and structured content models.
+  - Excellent scalability.
+  - Easier future integrations.
+  - Lower long-term maintenance costs.
+  
+  Because Astro renders static pages while loading JavaScript only where required, it delivers exceptional performance for corporate websites.
+  
+  ---
+  
+  # Option 2 – Nuxt + Strapi
+  
+  Nuxt is another excellent option.
+  
+  We would recommend Nuxt if you expect the website to evolve significantly over time.
+  
+  Examples include:
+  
+  - advanced interactive modules;
+  - client portals;
+  - dashboards;
+  - complex search & filtering;
+  - application-like frontend functionality;
+  - additional products connected to the website.
+  
+  Nuxt offers greater frontend flexibility while still providing excellent SEO and performance.
+  
+  ---
+  
+  # Why We Recommend This Architecture
+  
+  Compared to a traditional CMS implementation, this approach provides:
+  
+  - Better website performance.
+  - Faster page transitions.
+  - Better Core Web Vitals.
+  - Cleaner architecture.
+  - Greater scalability.
+  - Easier future integrations.
+  - Full ownership of your data.
+  - Modern development workflow.
+  - Lower long-term maintenance costs.
+  
+  Overall, we believe this architecture better matches both the current scope of the project and its potential future evolution.
+  
+  ---
+  
+  # Development Scope
+  
+  ## Phase 1 – Project Foundation
+  
+  - Project architecture
+  - Astro (recommended) or Nuxt project setup
+  - Strapi installation & configuration
+  - Database configuration
+  - Initial server configuration
+  - Git repository
+  - Development environment
+  - Global styling system
+  - Typography
+  - Design tokens
+  - Reusable UI component library
+  - Header
+  - Footer
+  - Navigation
+  - Buttons
+  - Forms
+  - Global layouts
+  
+  ---
+  
+  ## Phase 2 – Website Development
+  
+  Implementation of all approved Figma designs, including:
+  
+  - Homepage
+  - About
+  - How We Work
+  - Supporting
+  - Contact
+  - Services Overview
+  - Dynamic Service template
+  - Expertise Overview
+  - Dynamic Expertise template
+  - Industries Overview
+  - Dynamic Industry template
+  - Case Studies
+  - Dynamic Case Study template
+  - Legal Pages
+  
+  ---
+  
+  ## Phase 3 – CMS Integration
+  
+  Configuration of Strapi content models for:
+  
+  - Pages
+  - Services
+  - Expertise
+  - Industries
+  - Case Studies
+  - SEO fields
+  - Images
+  - CTA sections
+  - Navigation
+  - Footer
+  - Reusable content blocks
+  
+  ---
+  
+  ## Phase 4 – Responsive Development
+  
+  Responsive implementation for:
+  
+  - Desktop
+  - Mobile
+  https://www.figma.com/design/wE6QElaLBBLdPYsoR6JnAD/Matthew-Adler---Sentendia?node-id=77-570&p=f&t=KVqNEsx7428fzHJB-0
+  
+  (Mobile designs will be incorporated once finalized.)
+  
+  ---
+  
+  ## Phase 5 – Forms & Integrations
+  
+  Including:
+  
+  - Contact Form
+  - Validation
+  - Email Notifications
+  - CAPTCHA (if required)
+  - Analytics integration
+  
+  ---
+  
+  ## Phase 6 – Technical SEO
+  
+  Including:
+  
+  - Meta Titles
+  - Meta Descriptions
+  - Open Graph
+  - XML Sitemap
+  - robots.txt
+  - SEO-friendly URLs
+  
+  ---
+  
+  ## Phase 7 – Performance Optimization
+  
+  Including:
+  
+  - Image optimization
+  - Lazy loading
+  - Core Web Vitals optimization
+  - Frontend optimization
+  
+  ---
+  
+  ## Phase 8 – QA & Deployment
+  
+  Including:
+  
+  - Cross-browser testing
+  - Responsive testing
+  - CMS testing
+  - Bug fixing
+  - Production deployment
+  
+  ---
+  
+  # Fixed Price Proposal
+  
+  **Estimated Timeline:** **11-14 weeks**
+  
+  The estimate includes the complete implementation of the website described above, including frontend development, Strapi CMS integration, responsive development, technical SEO, QA, deployment, and production launch.
+  
+  ---
+  
+  # Milestone 1 – Project Foundation, Homepage & Services
+  
+  **Amount:** **$5,560**
+  
+  This milestone establishes the technical foundation of the entire website. It includes the project architecture, CMS setup, reusable frontend components, and implementation of the Homepage and Services section.
+  
+  ### Included
+  
+  #### Project Setup
+  
+  - Astro (recommended) or Nuxt project setup
+  - Strapi CMS installation & configuration
+  - Database configuration
+  - Git repository
+  - Development environment
+  - Initial server configuration
+  
+  #### Frontend Foundation
+  
+  - Global styling system
+  - Typography
+  - Design tokens
+  - Reusable UI components
+  - Header
+  - Footer
+  - Navigation
+  - Buttons
+  - Forms
+  - Global layouts
+  
+  #### Website Development
+  
+  - Homepage
+  - Services Hub
+  - Agentic AI Systems
+  - Workflow Automation
+  - Smartshoring
+  - Remote Workforce Management
+  - Digital Claims Automation
+  - Trust & Safety Management
+  
+  #### CMS Integration
+  
+  - Services content model
+  - Dynamic Service template
+  - Content integration with Strapi
+  
+  #### Responsive
+  
+  - Desktop
+  - Tablet
+  - Mobile
+  
+  #### Technical
+  
+  - Basic SEO implementation
+  - Performance optimization
+  - Internal navigation
+  - Initial QA
+  
+  ### Deliverable
+  
+  A fully functional Homepage and Services section connected to Strapi CMS and deployed to the staging environment.
+  
+  ### Acceptance Criteria
+  
+  - Homepage and Services section fully implemented.
+  - Responsive layouts completed.
+  - CMS functionality operational.
+  - Internal navigation working correctly.
+  - Ready for client review and approval.
+  
+  ---
+  
+  # Milestone 2 – Expertise Section
+  
+  **Amount:** **$2,820**
+  
+  This milestone focuses on implementing the Expertise section using reusable templates established during the first milestone.
+  
+  ### Included
+  
+  #### Website Development
+  
+  - Expertise Hub
+  - Customer Experience
+  - Anti-Money Laundering
+  - Risk Management
+  - Document Management
+  - Order Processing
+  
+  #### CMS Integration
+  
+  - Expertise content model
+  - Dynamic Expertise template
+  - Strapi integration
+  
+  #### Responsive
+  
+  - Desktop
+  - Tablet
+  - Mobile
+  
+  #### Technical
+  
+  - Cross-navigation
+  - SEO implementation
+  - QA
+  - Performance optimization
+  
+  ### Deliverable
+  
+  Complete Expertise section implemented, responsive, connected to Strapi CMS and deployed to the staging environment.
+  
+  ### Acceptance Criteria
+  
+  - All Expertise pages implemented.
+  - Responsive layouts completed.
+  - CMS content fully editable.
+  - Navigation and links verified.
+  - Ready for client review.
+  
+  ---
+  
+  # Milestone 3 – Industries Section
+  
+  **Amount:** **$2,980**
+  
+  This milestone delivers the Industries section, including reusable templates and CMS integration.
+  
+  ### Included
+  
+  #### Website Development
+  
+  - Industries Hub
+  - Banking & Finance
+  - Retail & E-commerce
+  - Insurance
+  - Gaming & Hospitality
+  - Healthcare
+  - Technology
+  
+  #### CMS Integration
+  
+  - Industry content model
+  - Dynamic Industry template
+  - Content integration
+  
+  #### Responsive
+  
+  - Desktop
+  - Tablet
+  - Mobile
+  
+  #### Technical
+  
+  - Cross-linking with Services & Expertise
+  - SEO implementation
+  - QA
+  - Performance optimization
+  
+  ### Deliverable
+  
+  Complete Industries section implemented, responsive, connected to Strapi CMS and deployed to the staging environment.
+  
+  ### Acceptance Criteria
+  
+  - All Industry pages completed.
+  - Responsive layouts completed.
+  - CMS functionality operational.
+  - Cross-navigation verified.
+  - Ready for client review.
+  
+  # Milestone 4 – Supporting Pages, Contact & Case Studies
+  
+  **Amount:** **$2,840**
+  
+  This milestone completes all remaining public-facing pages together with the contact functionality and reusable Case Study templates.
+  
+  ### Included
+  
+  #### Website Development
+  
+  - About Us
+  - How We Work
+  - Contact Us
+  - Client Stories / Case Studies
+  - Dynamic Case Study Template
+  - Privacy Policy
+  - Terms of Service
+  - Cookie Policy
+  - Accessibility Statement
+  
+  #### Forms & Integrations
+  
+  - Contact Form
+  - Client-side & server-side validation
+  - Email notifications
+  - CAPTCHA (if required)
+  
+  #### CMS Integration
+  
+  - Case Study content model
+  - Legal page template
+  - Supporting pages integration
+  
+  #### Responsive Development
+  
+  - Desktop
+  - Tablet
+  - Mobile
+  
+  #### Technical
+  
+  - SEO implementation
+  - QA
+  - Performance optimization
+  
+  ### Deliverable
+  
+  All remaining website pages completed, responsive, connected to Strapi CMS, and deployed to the staging environment.
+  
+  ### Acceptance Criteria
+  
+  - All supporting pages implemented.
+  - Contact form fully operational.
+  - CMS integration completed.
+  - Responsive layouts completed.
+  - Ready for client review and approval.
+  
+  ---
+  
+  # Milestone 5 – Final Optimization, QA & Production Launch
+  
+  **Amount:** **$1,660**
+  
+  The final milestone focuses on preparing the website for production by completing optimization, testing, deployment, and launch activities.
+  
+  ### Included
+  
+  #### Technical SEO
+  
+  - Meta titles
+  - Meta descriptions
+  - Open Graph
+  - XML Sitemap
+  - robots.txt
+  - SEO-friendly URLs
+  - Canonical URLs
+  
+  #### Performance Optimization
+  
+  - Image optimization
+  - Lazy loading
+  - Core Web Vitals optimization
+  - Final frontend optimization
+  
+  #### Analytics & Tracking
+  
+  - Amplitude integration
+  - Analytics configuration
+  
+  #### Quality Assurance
+  
+  - Cross-browser testing
+  - Responsive testing
+  - CMS testing
+  - Forms testing
+  - Bug fixing
+  
+  #### Production
+  
+  - Production deployment
+  - Final server configuration
+  - Final verification
+  - Launch support
+  
+  ### Deliverable
+  
+  A fully deployed production-ready website with Strapi CMS, technical SEO implementation, analytics integration, optimized performance, and completed quality assurance.
+  
+  ### Acceptance Criteria
+  
+  - Production deployment completed.
+  - QA completed successfully.
+  - SEO implementation verified.
+  - Analytics connected.
+  - Website ready for public launch.
+  
+  ---
+  
+  # Payment Summary
+  
+  | Milestone | Amount |
+  | --- | --- |
+  | Milestone 1 – Project Foundation, Homepage & Services | **$5,560** |
+  | Milestone 2 – Expertise Section | **$2,820** |
+  | Milestone 3 – Industries Section | **$2,980** |
+  | Milestone 4 – Supporting Pages, Contact & Case Studies | **$2,840** |
+  | Milestone 5 – Final Optimization, QA & Production Launch | **$1,660** |
+  | **Total Fixed Price** | **$15,860** |
+  
+  ---
+  
+  # Review Process
+  
+  Each milestone includes **up to two review cycles**.
+  
+  This allows us to review the completed work together, collect your feedback, and make refinements before moving to the next milestone.
+  
+  Additional revisions or requests that introduce new functionality or design changes outside the agreed scope can be estimated separately.
+  
+  ---
+  
+  # Change Requests
+  
+  This proposal is based on the agreed scope described above.
+  
+  If additional pages, functionality, integrations, or significant design changes are requested after development has started, we'll review them together and, where necessary, prepare a separate estimate before implementation.
+  
+  This ensures complete transparency throughout the project and helps us avoid unexpected costs or delays.
+  
+  ---
+  
+  # Project Assumptions
+  
+  This proposal is based on the currently approved Figma designs and the project requirements discussed to date.
+  
+  The fixed price includes only the scope described in this proposal.
+  
+  The following assumptions apply:
+  
+  - Development is based on the approved Figma designs.
+  - Mobile designs will follow the approved desktop design direction. Significant structural changes introduced during the mobile design phase may require a revised estimate.
+  - Repeated Service, Expertise, Industry, Case Study and Legal pages will be implemented using reusable templates managed through Strapi CMS.
+  - Content, copy, images, and other assets will be provided by the client unless otherwise agreed.
+  - The proposal assumes a single-language website.
+  - Existing sitemap and content hierarchy remain substantially unchanged.
+  - The project includes implementation of the agreed functionality only.
+  - Minor visual refinements and bug fixes related to the approved scope are included.
+  - Third-party services are limited to those specifically described in this proposal.
+  - Client feedback and approvals are assumed to be provided in a timely manner.
+  - Deployment includes one production environment provided by the client.
+  - Browser support includes the latest stable versions of Chrome, Edge, Firefox, and Safari.
+  
+  ---
+  
+  # Out of Scope
+  
+  Unless agreed separately, the following items are not included:
+  
+  - Additional pages beyond the approved sitemap.
+  - New CMS collections or content types.
+  - New functionality requested after development begins.
+  - Major UX/UI redesigns.
+  - Structural layout changes.
+  - Copywriting or content creation.
+  - Translations.
+  - Custom illustrations.
+  - 3D assets.
+  - Video production.
+  - Motion graphics beyond the approved designs.
+  - Advanced GSAP animations not included in the approved Figma files.
+  - Authentication or user accounts.
+  - Client portals.
+  - Dashboards.
+  - E-commerce functionality.
+  - Payment gateways.
+  - CRM integrations beyond those agreed.
+  - Ongoing website maintenance.
+  - Hosting management.
+  - Security updates after launch.
+  - Content administration after launch.
+  - SEO strategy, keyword research, or content optimization (technical SEO implementation only is included).
+  
+  ---
+  
+  # Warranty
+  
+  We provide a **60-day warranty** after production launch.
+  
+  Any defects directly related to the implemented scope reported during this period will be corrected at no additional cost.
+  
+  ---
+  
+  # Relevant Projects
+  
+  Just to give you a better feel for the technologies we've recommended, here are a few examples of our websites built with **Astro** and **Nuxt**. They showcase the level of performance, user experience, and visual quality these frameworks are capable of delivering.
+  
+  ### Nuxt:
+  
+  https://pushsecurity.com/
+  
+  !image.png
+  
+  ### Astro:
+  
+  https://haysto.com/
+  
+  !image.png
+  
+  **Munte:**
+  https://www.munte-realestate.de/
+  
+  !Screenshot 2026-07-10 at 15.53.14.png
+  
+  **Le Collectionist:**
+  
+  https://www.lecollectionist.com/en
+  
+  !image.png
+  
+  This proposal clearly demonstrates both our technical approach and our commitment to building a scalable, future-proof solution for Sentendia. Rather than simply implementing the approved designs, our goal is to help you choose the architecture that will continue to serve your business efficiently for years to come.
+  
+  If everything aligns with your expectations, we'd be excited to move forward and begin the implementation.
+  
+  Thank you again for the opportunity, and we look forward to working together.
+  
+  Best regards, Violetta
+  
+  **P.S.** *We genuinely enjoyed working on the design phase of Sentendia 
+  and appreciate the opportunity to continue with the implementation.*
+  
+  *Our goal is not simply to build the website, but to deliver a modern platform that 
+  will remain fast, maintainable, and scalable as your business grows.*
+  
+  *We look forward to bringing the approved designs to life*
+
+--- WINDOW  2026/07/16 15:50:08  [chrome.exe] ДРІБЛ ЗАЯВКИ - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:50:15  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  s nfr
+
+--- WINDOW  2026/07/16 15:50:17  [chrome.exe] Matthew Adler - Google Chrome
+----------------------------------------------------------------------------
+   vtn. db,hfd jgws. 2 p wmjuj ghjgjeptk [ENTER]
+  [ENTER]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  nb y tgjyzd vtm[Bk]n. d;t db,hfd jgws. 2[ENTER]
+  [LMB]
+  s jcm o jdd[Bk]sy yfgbcfd
+  [LMB]
+
+--- WINDOW  2026/07/16 15:51:16  [chrome.exe] (5) Proposals for clients | Notion - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:51:17  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  s
+
+--- WINDOW  2026/07/16 15:51:33  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:51:35  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:51:36  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:51:39  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:51:39  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:51:39  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  lf y tythdeqnt rks'ynsd nfrbv00[ENTER]
+  [Ctrl]v[ENTER]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  nfr z fys gbcfd i jwt xsge[f000[ENTER]
+  [LMB]
+  nf [Bk]v sydjqcf lhs,kf [dfnfnb vf'[ENTER]
+  ds yyf gjine ghb[jlbnm[ENTER]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  d ghjwtcs[ENTER]
+  yt ufys kfibl'w[Bk]q000
+  [LMB]
+  [LMB]
+  [LMB]
+  ytvf fkt ' i jvjk nelf c.lf[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  y[Bk]lf wt y tnt yj ys[n jdghzufnbcm y t,elt[ENTER]
+  v bzr zye yfgbcfkb wt dsy s ghjgfd[ENTER]
+  cfdgfl'ys'[ENTER]
+  yt levf.[ENTER]
+  [LMB]
+  [LMB]
+  ye djn[ENTER]
+  s dsnhjv pk[Bk]lekj[ENTER]
+  s gsldbck jgjntywsqyj 45 nbc pt p ybv it[ENTER]
+  pf nj ' lfys0[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 15:54:49  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:54:54  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:54:59  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:55:03  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:55:07  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Matthew Adler
+  6:42 PM
+  Hi Violetta, we would prefer to move forward with Option 2 / Strapi / NUXT
+  
+  One clarification - we will make a linux node available (Debian) for deployment of Strapi. Will your team install Node.js, strapi, etc. on that as part of your project? Or would you like us to do that? How many linux servers would be requied
+  
+  Also
+  
+  We feel the warranty period is far too short, and would like to see this at 60 days, instead of 2 weeks.
+  
+  Since the warranty only applies to the implemented scope, we dont think this should be an issue.
+  
+  Violetta Yevtushenko
+  6:47 PM
+  I’ve already addressed this question to our developer, I’ll be back with an answer shortly.
+  
+  Matthew Adler
+  Jul 15, 2026 | 6:44 PM
+  One clarification - we will make a linux node available (Debian) for deployment of Strapi. Will your team install Node.js, strapi, etc. on that as part of your project? Or would you like us to do that? How many linux servers would be requied
+  
+  Show more
+  Sure, agree with you. We will edit the proposal correspondingly, and of course will provide you with a 60 day warranty period!
+  
+  Matthew Adler
+  Jul 15, 2026 | 6:44 PM
+  We feel the warranty period is far too short, and would like to see this at 60 days, instead of 2 weeks.
+  
+  Violetta Yevtushenko
+  6:56 PM
+  Also, whenever you have some time, could you please take a final look through the design? If everything looks good, we'd appreciate it if you could approve the final design milestone and close the current design contract.
+  
+  
+  
+  If you were happy with our work together, we would also be very grateful if you could leave ⭐⭐⭐⭐⭐ feedback. We will definitely leave positive and respectful feedback for you, as we genuinely love working with you. If there were anything in the process that could have been improved, we’d also appreciate your honest thoughts.
+  
+  
+  
+  After that, we can move on to the development phase. Either you can create a new contract, or we can send you a proposal - whichever is more convenient for you. We'll then set up the first milestone according to the development proposal.
+  
+  
+  
+  Once we've aligned on any remaining technical details, we'll be happy to get started whenever the timing works best for you.
+  
+  Violetta Yevtushenko
+  7:12 PM
+  Violetta Yevtushenko
+  Jul 15, 2026 | 6:56 PM
+  Also, whenever you have some time, could you please take a final look through the design? If everything looks good, we'd appreciate it if you could approve the final design milestone and close the current design contract.
+  
+  
+  
+  If you were happy with our work together, we would also be very grateful if you could leave ⭐⭐⭐⭐⭐ feedback. We will definitely leave positive and respectful feedback for you, as we genuinely love working with you. If there were anything in the process that could have been improved, we’d also appreciate your honest thoughts.
+  
+  
+  
+  After that, we can move on to the development phase. Either you can create a new contract, or we can send you a proposal - whichever is more convenient for you. We'll then set up the first milestone according to the development proposal.
+  
+  
+  
+  Once we've aligned on any remaining technical details, we'll be happy to get started whenever the timing works best for you.
+  
+  Show more
+  Upwork_feedback_guide_(1) (1).pdf 
+  Upwork_feedback_guide_(1) (1).pdf
+  2 MB
+  Violetta Yevtushenko
+  7:45 PM
+  Yes, our team will handle the full setup - Node.js, Strapi, and PostgreSQL.
+  We only require one Linux (Debian) server.
+  
+  
+  
+  Recommended server specifications:
+  4 vCPUs (2 minimum)
+  8 GB RAM (4 GB minimum)
+  SSD storage
+  
+  
+  
+  We'll just need the necessary server access (SSH) and any required credentials to complete the setup.
+  
+  Matthew Adler
+  Jul 15, 2026 | 6:44 PM
+  One clarification - we will make a linux node available (Debian) for deployment of Strapi. Will your team install Node.js, strapi, etc. on that as part of your project? Or would you like us to do that? How many linux servers would be requied
+  
+  Show more
+  Thursday, Jul 16
+  Matthew Adler
+  3:36 PM
+  This sounds good. Would you like to send me a proposal, including milestones for this work? Or would you like for me to create the milestones on the existing contract?
+  
+  
+  
+  
+
+--- WINDOW  2026/07/16 15:55:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:55:19  [chrome.exe] Matthew Adler - Google Chrome
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+  [Ctrl]v[ENTER]
+  f vj;t z ghjcn jrjhjnrj dct qjve yfgbc[Bk]ie cfvt ntrcnjv yf gdjhre ,tp ljevtynsd7[Bk][Bk][Bk]sd d yjeibys8[Bk]7[ENTER]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  Hi Matthew,
+  
+  That sounds great - thank you!
+  
+  A new development contract would probably be the cleanest approach, as it keeps the completed design phase and the development phase separate, each with its own milestones, deliverables, and warranty period.
+  
+  Based on everything we've discussed, we'll proceed with Nuxt + Strapi as the implementation architecture.
+  
+  Here's how we'd propose structuring the project:
+  
+  Milestone 1 - $5,560
+  Project foundation, Nuxt & Strapi setup, reusable frontend architecture, Homepage, Services section, CMS integration, responsive implementation, and initial QA.
+  
+  Milestone 2 - $2,820
+  Complete Expertise section, reusable templates, CMS integration, responsive implementation, SEO, and QA.
+  
+  Milestone 3 - $2,980
+  Complete Industries section, CMS integration, responsive implementation, cross-linking, SEO, and QA.
+  
+  Milestone 4 - $2,840
+  About, How We Work, Contact, Case Studies, Legal pages, contact form, CMS integration, responsive implementation, SEO, and QA.
+  
+  Milestone 5 - $1,660
+  Final optimization, technical SEO, Amplitude integration, QA, production deployment, and launch support.
+  
+  Total Fixed Price: $15,860
+  
+  Estimated Timeline: 11-14 weeks
+  
+  As discussed, we'll also:
+  
+  Handle the complete server setup on your Debian instance (Node.js, Nuxt, Strapi, PostgreSQL, and deployment).
+  Require only one Linux server.
+  Provide a 60-day warranty covering the implemented scope.
+  
+  If this structure looks good to you, I think the easiest next step would be for us to create a new fixed-price development contract with these milestones. Once it's in place, we can begin with Milestone 1 and start preparing the development environment.
+  
+  We're really excited to continue working together and bring Sentendia to life!
+
+--- WINDOW  2026/07/16 15:56:40  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:56:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:56:41  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:56:43  [chrome.exe] 1 notification - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:56:43  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/16 15:56:53  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 15:56:58  [chrome.exe] 1 notification - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:56:59  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  we[Bk][Bk]we prepared everythink[Bk]g.
+  [LMB]
+  [Bk][Bk][Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  you to
+  [LMB]
+  [Bk].
+  [LMB]
+  [LMB]
+  ;us[Bk][Bk][Bk][Bk][Bk]levf. gbib ghjcnj nen wt yf fgdjhre qjve[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 15:59:24  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:59:29  [chrome.exe] 2 notifications - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:59:29  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:59:31  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 15:59:37  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:59:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:59:40  [WINWORD.exe] New DOCX Document - Word
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:59:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:59:43  [chrome.exe] 🍾 Presentation VibeStyle - Design👋 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:59:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:59:44  [chrome.exe] Matthew Adler - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:59:45  [chrome.exe] Roman - Google Документы - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  gslujnedfd vtctl; lkz v[Bk]vtn. p vfqcnjey[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]yf fgdjhre
+  [LMB]
+
+--- WINDOW  2026/07/16 16:00:08  [chrome.exe] 🍾 Presentation VibeStyle - Design👋 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:09  [chrome.exe] Roman - Google Документы - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:10  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:00:10  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  lf z gh jrks'ynsd levf.00[ENTER]
+  yfi jvtys ,eufknthsz0[ENTER]
+  wmjuj ys[nj hj,bnb y t,elt [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]yt ,elt nfr yfghzufnbcm[ENTER]
+  jlbybws[ENTER]
+  s nj p yfghzujv[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  ye f,j ghjcn jljlfcnm yjds vfqcnjeyb[ENTER]
+  wt cgbnfq d ymju jzr qjve rhfot[ENTER]
+  d [Bk][Bk][Bk],j [Bk][Bk][Bk][Bk]ye njls f,j v bf, jdsy cndjhbnm[ENTER]
+  zr nfv vb hjbvj[ENTER]
+  nj, dblysit[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:02:17  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:02:46  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:02:52  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  It has to meet the terms and conditions of Dribble.
+  [LMB]
+
+--- WINDOW  2026/07/16 16:03:05  [chrome.exe] Як прибрати червоне підкреслення - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  gthtrkflb - [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:03:17  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:03:23  [chrome.exe] 1 notification - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:23  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[Bk] - rks'yn cevysdf'nmcz oj nt o jvb ghjcbvj dslgjdslf. [Bk][Bk]' evjdfv lhs,kf999[ENTER]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  ye djn[Bk][Bk][Bk][Bk][Bk][Bk]lf ,j dfgit ys nen ghjktnbvj[ENTER]
+  ,elt dfgit yt rfvskmaj[ENTER]
+  [s[Bk][Bk][Bk]lf djyf levf' vb dbxbckz'vj icj mnfv[ENTER]
+  rf;e nfrt hj,bnb yt dfhnj [ENTER]
+  [LMB]
+  [LMB]
+  njls nht,f ierfnb syie c[tve[ENTER]
+  vj;t gbcfn bd cegjhn lhs,kf[ENTER]
+  i j dsy vj;t phj,bn bs zr gjvjunb[ENTER]
+  ,j rks'ynf o[Bk]nj;t gfyznm yflf[ENTER]
+  ds yyf [fhsnjyf[[ENTER]
+  d qmj[Bk][Bk][Bk][Bk][Bk][Bk]dsl wmju j[Bk][Bk];bnnz snfr s nen vb ot p nfrbv pfgbnjv0[ENTER]
+  [RMB]
+  [LMB]
+  [LMB]
+  z vj;e xthrfyenm d cegjhn[ENTER]
+  cgbnfn bzr lsznb d nfrb[ cbnefwsz[[ENTER]
+  f,j [fq fyz xthrfyt[ENTER]
+  [nj nfv pf cnfhiju jgj njve gbnfyys[ENTER]
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:07:51  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:08:08  [chrome.exe] 8 notifications - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:08:09  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+  wt jlyt p yfqjgnbvfkmysib[ hsitym[ENTER]
+  gsckz edfkmytysz dkflsrf rfy'iyj0[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  ktcz yfgbib ot ]q i jddtxths phj,bvj yjdbq rjynhfrn[ENTER]
+  yf fvfpjyb[ENTER]
+  'cks djyf y tghjnsd[ENTER]
+  nfr kfqnjrj[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]lf gspysit[ENTER]
+  yt ofc[ENTER]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:09:24  [chrome.exe] Входящие (7) - romanvizu@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:09:32  [chrome.exe] Входящие (2) - romanvizu@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:09:34  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  2[Bk]2
+  [LMB]
+  lj,fd [Bk][Bk][Bk][Bk][Bk][Bk]lj,fd relcm vfhbye - ,j d 10 ujlbys jy,jhlbyu gj gkfye0 ij, djyf yt cgfkf f dbqikf yf cdzpnm[Bk][Bk]m[ENTER]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:12:24  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:12:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:12:24  [WINWORD.exe] New DOCX Document - Word
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:12:49  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:12:49  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:12:49  [chrome.exe] Roman - Google Документы - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:12:50  [WINWORD.exe] New DOCX Document - Word
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:12:51  [chrome.exe] Roman - Google Документы - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:12:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:12:53  [chrome.exe] 1 notification - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:12:53  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+  afhslf[ENTER]
+  [tkje[ENTER]
+  cjywt yfit0[ENTER]
+  zr nb70[ENTER]
+  [RMB]
+  [LMB]
+  [LMB]
+  ,fxe afhsle d xfns hfls.[ENTER]
+  htfkmyj[ENTER]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  nb y t;bdti rjktrnbdjv[ENTER]
+  dkflsr nj;t yt ;bd[ENTER]
+  ,fx zr pfrsyxbd7999[ENTER]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  ye lf999[ENTER]
+  yt drehcs[ENTER]
+  i jd yfc yjdbq ksl uty[ENTER]
+  xjve[ENTER]
+  nb jlyf p jklsd nen[ENTER]
+  ye djn[ENTER]
+  cnfhj;bkb[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:15:48  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:15:50  [chrome.exe] dribbble.com/messages - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:51  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:15:52  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:16:06  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:16:23  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:16:50  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:19:51  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:19:55  [LockApp.exe] Windows Default Lock Screen
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/07/16 16:22:04  [explorer.exe] UnlockingWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:22:04  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:22:06  [chrome.exe] 3 notifications - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:22:06  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:22:37  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:25:26  [chrome.exe] 3 notifications - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:25:26  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:25:54  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:25:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:25:55  [WINWORD.exe] New DOCX Document - Word
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:26:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:26:25  [chrome.exe] 3 notifications - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:26:25  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:26:27  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:26:28  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:26:33  [chrome.exe] Roman - Google Документы - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:26:35  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:26:35  [WINWORD.exe] New DOCX Document - Word
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:27:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:27:16  [chrome.exe] Roman - Google Документы - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:27:17  [chrome.exe] Matthew Adler - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:27:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:27:20  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  Призначення платежу: (у мене КВЕДи тільки під дизайн, тому призначення платежу важливе) 
+  Створення дизайн-макетів сайту
+  [LMB]
+  [LMB]
+  nfv ot y.fyc gj ljujdjhe oj pfhfp ds ydybpe gs[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]y gsl nt,t [ENTER]
+  [ENTER]
+  zroj ]v gslsqlt erh ajg sytcb nj rsytwm ifgre rsywtde nht,f ,elt gththj,bnb z ]v nj ghjgbie nfrj;[ENTER]
+  fkt jcyjdyt wt nt oj [Ctrl]v
+  [LMB]
+  sytcb
+  [LMB]
+  [LMB]
+  jcm p wbv xb djyb gjujlnm[Bk][Bk]znmcz [p[ENTER]
+  nb ij rf;ti ]v wt d;t gbcfnb7[ENTER]
+  xb ghjcn jghbnhbvf'vj[ENTER]
+  f gjns vzroj dct htinf jr wt nht, ,elt hsibn bzrjcm'[ENTER]
+  jr njls wt nfrj; ljlfv dc. w,[Bk]. syae[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:29:57  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:30:01  [chrome.exe] 6 notifications - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:30:01  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:30:26  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:30:29  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:30:31  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:30:40  [chrome.exe] Browse Client Project Briefs & Freelance Work | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:30:52  [chrome.exe] Premium 3D Geometric Web Design | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  Premium 3D Geometric Web Design
+  New
+  Project Budget
+  $7,300
+  Timeline
+  Within the next few weeks
+  |
+  Posted 35 minutes ago
+  
+  Respond to brief
+  Design a premium, minimalist website with UI/UX focus for a modern architecture and technology brand, incorporating realistic 3D elements, geometric compositions, and immersive digital experiences.
+  
+  Deliverables include a complete UI design with 8–12 high‑fidelity desktop screens, responsive mobile adaptations, a custom 3D hero section, interactive components, a design system, and an interactive prototype in Figma. The project spans 6–8 weeks, has a fixed budget of $9,800, and requires development support.
+
+--- WINDOW  2026/07/16 16:30:57  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:30:57  [chrome.exe] Matthew Adler - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:31:00  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/16 16:31:06  [chrome.exe] ДРІБЛ ЗАЯВКИ - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Hi there,
+  
+  This is exactly the kind of project we enjoy working on - combining premium UI, immersive 3D, and modern digital experiences into a cohesive product.
+  
+  We've worked on similar projects where the goal wasn't simply to design beautiful screens, but to create a memorable premium experience through strong composition, cinematic layouts, refined typography, and carefully integrated 3D elements.
+  
+  For your project, we'd approach it as:
+  • creating a premium visual direction built around geometry, depth, and whitespace
+  • designing a custom 3D hero experience that immediately communicates the brand's innovation
+  • developing a consistent UI system across all 8-12 desktop screens and responsive mobile layouts
+  • designing interactive components and subtle micro-interactions that enhance the experience without overwhelming it
+  • building a scalable Figma design system with reusable components and variants
+  • preparing a polished interactive prototype and supporting development throughout implementation
+  
+  The goal is to create a website that feels architectural, immersive, and premium, where every interaction reinforces the quality of the brand.
+  
+  If helpful, we'd be happy to:
+  • discuss the visual direction and 3D approach before production starts
+  • suggest interaction concepts for the hero and key sections
+  • outline a clear roadmap for design and development across the full project
+  
+  Feel free to reach out - let's connect and go through your project together.
+  
+  Best,
+  Klym
+  VibeStyle
+  [LMB]
+
+--- WINDOW  2026/07/16 16:31:26  [chrome.exe] Premium 3D Geometric Web Design | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  10000
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:31:46  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:31:47  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:31:47  [chrome.exe] ДРІБЛ ЗАЯВКИ - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Hello, here is the example of our work.
+  
+  https://journey.xyz/
+  https://active-theory.com/
+  https://makemepulse.com/
+  
+  Thank you, let's connect and we can help you with the project. Have a great day, waiting for your reply.
+  [LMB]
+
+--- WINDOW  2026/07/16 16:31:52  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+   maro
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:32:06  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:09  [chrome.exe] Verification - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:11  [chrome.exe] Redirecting... - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:15  [chrome.exe] AliExpress - Online Shopping for Popular Electronics, Fashion, Home & Garden, Toys & Sports, Automobiles and More. - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:32:20  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:32:22  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:23  [chrome.exe] journey.xyz - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:25  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:26  [chrome.exe] journey.xyz - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:27  [chrome.exe] journey.xyz/?tr_uuid=20260716-2332-2213-8fb7-bc7e0b077945&fp=-7 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:32:29  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:32:31  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:32  [chrome.exe] makemepulse — Global Creative Studio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:33  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:34  [chrome.exe] makemepulse — Global Creative Studio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:32:35  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:32:37  [chrome.exe] 1 notification - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:38  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:33:33  [chrome.exe] Premium 3D Geometric Web Design | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:33:34  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:33:35  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:33:46  [chrome.exe] Premium 3D Geometric Web Design | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:33:47  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:33:48  [chrome.exe] 5 notifications - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:33:49  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:33:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:33:51  [WINWORD.exe] New DOCX Document - Word
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:34:05  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:34:05  [wps.exe] Договір_VibeStyle & Arsenal (Insurance) v2 (1).docx - WPS Office
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:34:18  [WINWORD.exe] New DOCX Document - Word
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:34:20  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:34:20  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:34:20  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:34:22  [WINWORD.exe] New DOCX Document - Word
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  july
+  [LMB]
+  [Bk]16
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:34:54  [WINWORD.exe] Word
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:34:55  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:34:55  [wps.exe] Договір_VibeStyle & Arsenal (Insurance) v2 (1).docx - WPS Office
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:34:57  [wps.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:34:58  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:34:58  [chrome.exe] 🍾 Presentation VibeStyle - Design👋 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:34:59  [explorer.exe] Downloads - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:35:02  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/16 16:35:03  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:35:06  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  arsenal-ljujdsh-kbgtym-2026
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:35:27  [wps.exe] WPS Office
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:35:27  [wps.exe] Arsenal_Договір_Липень_2026.docx - WPS Office
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:35:29  [wps.exe] Default IME
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:35:29  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:35:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/16 16:35:31  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:35:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:35:34  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:35:34  [WINWORD.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:35:35  [WINWORD.exe] Opening - Word
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:35:36  [WINWORD.exe] Arsenal_Договір_Липень_2026 - Word
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:35:41  [WINWORD.exe] Word
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:35:42  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:35:43  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:35:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:35:44  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:35:44  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:36:02  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:36:03  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:36:13  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:36:13  [chrome.exe] ДРІБЛ ЗАЯВКИ - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:36:18  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  nfr j
+
+--- WINDOW  2026/07/16 16:36:20  [chrome.exe] ПрАТ СК «Арсенал» - Google Chrome
+----------------------------------------------------------------------------
+  cm asyfkmyf xfncbyf ljujdjhe p ][ dcsvf ghfdrfvb d;t dytctyf 
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:36:34  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:36:38  [chrome.exe] ПрАТ СК «Арсенал» - Google Chrome
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+  gjnhsyj dytcnb yfcnegyt [Bk][Bk]s xfcnby bs ljujdsh ,elt ujndjbv l jdslghfdrb [ENTER]
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026/07/16 16:36:58  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:36:59  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  Це виглядатиме набагато сильніше.
+  
+  1. Визначення "раунду правок"
+  
+  Додати в розділ про правки:
+  
+  Раунд правок — це один консолідований перелік коментарів та зауважень, який Замовник надає після демонстрації результату відповідного етапу або шаблону сторінки. Усі зауваження в межах одного раунду повинні бути надані одночасно. Додаткові коментарі, надіслані після передачі консолідованого списку, можуть вважатися наступним раундом правок або додатковими роботами.
+  
+  2. Погоджений шаблон вважається завершеним
+  
+  Додати:
+  
+  Після письмового погодження Замовником відповідного шаблону сторінки або етапу робіт такий результат вважається прийнятим. Подальші зміни до вже погодженого результату не входять до погодженого Scope та виконуються лише за окремим письмовим погодженням Сторін як Change Request із можливим переглядом строків та вартості робіт.
+  3. Передача майнових прав
+  
+  Додати окремий пункт:
+  
+  Майнові права інтелектуальної власності на результати робіт переходять до Замовника виключно після повної оплати відповідного етапу робіт (або всього проєкту, якщо це прямо погоджено Сторонами). До моменту повної оплати всі майнові права залишаються за Виконавцем.
+  
+  4. Обмеження відповідальності
+  
+  Додати в розділ "Відповідальність сторін":
+  
+  Загальна відповідальність Виконавця за будь-якими вимогами, що виникають у зв'язку з виконанням цього Договору, незалежно від підстав їх виникнення, обмежується сумою коштів, фактично сплаченою Замовником Виконавцю за цим Договором. Виконавець не несе відповідальності за непрямі збитки, втрачений прибуток або інші опосередковані втрати Замовника.
+  
+  Ще одна правка, яку я б додав (№5)
+  
+  Її майже всі забувають, але вона дуже допомагає.
+  
+  Усі побажання, що змінюють погоджену структуру, логіку, функціонал, дизайн або обсяг робіт після погодження відповідного етапу, вважаються новими вимогами та виконуються окремо як додаткові роботи (Change Request).
+  
+  Цей пункт дуже добре захищає від ситуації, коли через два місяці клієнт каже: "Ми тут ще трохи подумали..." і починається безкоштовне перепроєктування.
+  
+  На мою думку, саме ці 5 пунктів дадуть найбільший юридичний і практичний захист, не роблячи договір "важким" або конфліктним для клієнта.
+
+--- WINDOW  2026/07/16 16:37:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:37:17  [chrome.exe] ПрАТ СК «Арсенал» - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/16 16:37:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:37:53  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:37:56  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:38:32  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:38:35  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:38:35  [chrome.exe] ПрАТ СК «Арсенал» - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:43:37  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:45:37  [LockApp.exe] Windows Default Lock Screen
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:45:37  [explorer.exe] UnlockingWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:45:38  [chrome.exe] ПрАТ СК «Арсенал» - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:45:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:45:41  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:45:49  [chrome.exe] Входящие (3) - romanvizu@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:45:51  [chrome.exe] Приглашение: Maryna + Roma - пт, 17 июль 2026 11AM - 12PM (GMT+3) (romanvizu@gmail.com) - romanvizu@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:45:55  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:45:55  [chrome.exe] Redirecting - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:45:58  [chrome.exe] fellow.app/auth/login/?failed=1&next=/meetings/0crflv39mdclmlqcg4ml8n67bb/%3Futm_source%3Dfellow_integrations%26utm_medium%3Dgoogle_calendar%26utm_content%3Devent_description - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:45:59  [chrome.exe] Fellow - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:46:02  [chrome.exe] Login | Fellow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:46:04  [chrome.exe] Приглашение: Maryna + Roma - пт, 17 июль 2026 11AM - 12PM (GMT+3) (romanvizu@gmail.com) - romanvizu@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:46:12  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:46:13  [chrome.exe] Google Календарь - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:46:13  [chrome.exe] calendar.google.com/calendar/u/0/r/proposetime/MGNyZmx2MzltZGNsbWxxY2c0bWw4bjY3YmIgcm9tYW52aXp1QG0?ctok=cm9tYW52aXp1QGdtYWlsLmNvbQ - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:46:13  [chrome.exe] Google Календарь - Предложите другое время - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:46:14  [chrome.exe] calendar.google.com wants to
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:46:15  [chrome.exe] Google Календарь - Предложите другое время - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:46:18  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:46:40  [chrome.exe] Як прибрати червоне підкреслення - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:46:41  [chrome.exe] Клієнти VibeStyle (LinkedIn) - Google Таблицы - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:46:42  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:46:49  [chrome.exe] Приглашение: Maryna + Roma - пт, 17 июль 2026 11AM - 12PM (GMT+3) (romanvizu@gmail.com) - romanvizu@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:46:52  [chrome.exe] Входящие (2) - romanvizu@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:46:55  [chrome.exe] Приглашение: Maryna + Roma - пт, 17 июль 2026 11AM - 12PM (GMT+3) (romanvizu@gmail.com) - romanvizu@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:47:01  [chrome.exe] Входящие (2) - romanvizu@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:47:16  [chrome.exe] Входящие (3) - romanvizu@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:47:17  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:47:24  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:47:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:47:24  [chrome.exe] ПрАТ СК «Арсенал» - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  nb vj;ti dblskbn bdct oj nb ljlfd syibv rjkmjhjv yfghbrkfl ;jdnbv7[ENTER]
+  [LMB]
+  nfr lfdfq[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:48:28  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:48:32  [chrome.exe] ПрАТ СК «Арсенал» - Google Chrome
+----------------------------------------------------------------------------
+  wt ljujdsh [ENTER]
+  [ENTER]
+  f wt nt oj nht,f ljlfnb s ghfdbkmyt vscwt s dblskbn brjkmjhjv ;jdnbv
+
+--- WINDOW  2026/07/16 16:48:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:48:53  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+
+--- WINDOW  2026/07/16 16:49:08  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:49:10  [chrome.exe] ПрАТ СК «Арсенал» - Google Chrome
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/16 16:49:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:49:27  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:49:29  [chrome.exe] ПрАТ СК «Арсенал» - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:49:31  [chrome.exe] Roman - Google Документы - Google Chrome
+----------------------------------------------------------------------------
+  ljhj,bd fhctyfke ljujdsh = yfgcbfd vtctl;
+  [LMB]
+  [->][Bk]=
+
+--- WINDOW  2026/07/16 16:49:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:49:52  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:54:52  (no active window)
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/07/16 16:57:31  [LockApp.exe] Windows Default Lock Screen
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:57:32  [explorer.exe] UnlockingWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:57:32  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  ys0[ENTER]
+  kbcnf lj gslnhbvrb lhs,kf zr rhfot ,[Bk]d nfrsq cbnefws] zr d yfc lsznb - rjkb nht,f lfyys rks'ynsd x bdjyb[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]/ oj djyb crf;enm gh jwt0[Bk][Bk][Bk][Bk][Bk]j wt0[ENTER]
+  [RMB]
+  [LMB]
+  [LMB]
+  ngge[Bk][Bk][Bk]bge pfqlb plfktre ijv[Bk] yfv nht,f lkz ,e[ufkths] nelbv c[Bk].lbv[ENTER]
+  y[Bk][Bk][Bk][Bk]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  lf ijc mnbge njuj0[ENTER]
+  vjk g[Bk]ljgjvj;sn mhjps,hfnbcm o jgjhflbnt s nl ng[ENTER]
+  ij, djyb gjyzkb ij vb ghjcbvj ljgjvjub ,j njytvj0[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:02  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:06  [chrome.exe] upwork.com/ab/messages/rooms/ - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:01:06  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:01:12  [chrome.exe] 10 notifications - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:12  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  pyjde dfy ne dfy ijks0[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:31  [chrome.exe] Growth Product Designer - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:01:32  [chrome.exe] 1 notification - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:32  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:34  [chrome.exe] Parik S, Hiry - GROWTH PRODUCT DESIGNER ⚪️ Client — ❓ N/A N/A N/A 17% 5 Int на доске Leads | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:36  [chrome.exe] Leads | Trello - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:01:36  [chrome.exe] Ahmed Abdelrazek - UI/UX DESIGNER NEEDED (LANDING PAGE REDESIGN) — 🟠 Client — ⭐ 4.90 $33K $6.24/hr 64% 31 Int на доске Leads | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:37  [chrome.exe] Leads | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:39  [chrome.exe] Growth Product Designer - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:45  [chrome.exe] 1 notification - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:01:45  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:47  [chrome.exe] Leads | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:49  [chrome.exe] Growth Product Designer - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:49  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:51  [chrome.exe] Growth Product Designer - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:53  [chrome.exe] Chats - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:55  [chrome.exe] Shopify Theme Design - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:01:55  [chrome.exe] Gigradar.io - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:01:56  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:02:11  [chrome.exe] Shopify Theme Design - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:02:13  [chrome.exe] Chats - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:02:14  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:02:21  [chrome.exe] Vite App - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:02:21  [chrome.exe] VibeStyle - Creative design meets smart development. - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:02:23  [chrome.exe] Luckas Aarts - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:02:33  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:02:36  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:02:36  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:03:07  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:03:09  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:03:13  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:03:15  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  Maximilian Lanaro
+  [LMB]
+
+--- WINDOW  2026/07/16 17:03:20  [chrome.exe] Vite App - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:03:31  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:03:36  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:03:38  [chrome.exe] Proposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:03:38  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  https://www.upwork.com/ab/messages/rooms/room_a8afa7b0a00fc571ffa169c3d349b1a9?sidebar=true
+  [LMB]
+
+--- WINDOW  2026/07/16 17:03:42  [chrome.exe] Vite App - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:03:55  [chrome.exe] Proposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:03:57  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:03:59  [chrome.exe] Vite App - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  i[Bk]italy
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:04:12  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:04:19  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:04:20  [chrome.exe] Proposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:04:21  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:04:22  [chrome.exe] Proposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:04:24  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:04:24  [chrome.exe] Challenge - Upwork - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:04:24  [chrome.exe] Трохи зачекайте… - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:04:24  [chrome.exe] Proposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:04:25  [chrome.exe] Трохи зачекайте… - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:04:35  [chrome.exe] UI/UX Designer for Dashboard Redesign (Design Only – No Development) - Web & Mobile Design - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  UI/UX Designer for Dashboard Redesign (Design Only – No Development)
+  Posted 1 hour ago
+  Worldwide
+  
+  Summary
+  We are looking for a talented UI/UX designer to redesign the visual appearance of our SaaS dashboard.
+  
+  The goal is to modernize the interface and improve usability while keeping the existing structure and layout unchanged.
+  
+  Scope of Work:
+  - We will provide screenshots of the current dashboard (a sample is attached).
+  - Based on these, you will propose improved visual designs.
+  - Focus on creating a modern, clean, and highly usable interface.
+  - Design icons to use in the menu.
+  - The page number is elevated (approx 60) but the main elements are always the same.
+  
+  Important Constraints:
+  - This is a design-only project.
+  - No frontend development is required (no HTML/CSS/JS).
+  - The final output must be delivered as design files (e.g., Figma, Sketch, or similar).
+  - Element positions must remain the same: do not change layout structure, flows, or component placement.
+  - Only visual improvements are required, such as:
+  - Typography
+  - Colors and palette
+  - Spacing and alignment refinement
+  - Component styling (cards, tables, buttons, charts, etc.)
+  - Overall visual consistency and hierarchy
+  
+  Deliverables:
+  - Redesigned versions of the provided screens
+  - Source design files (Figma preferred)
+  - A style guideline
+  - Optional: design system or style guidelines (colors, typography, components)
+  
+  What We’re Looking For:
+  - Strong experience in SaaS dashboard design
+  - Ability to improve UX without changing layout structure
+  - Clean, modern, and data-friendly design style
+  - Attention to detail and consistency
+  
+  To Apply, please include:
+  - Portfolio with relevant dashboard/UI work
+  - A brief explanation of your design approach
+  - (Optional but appreciated) Example of a dashboard redesign you’ve done
+  
+  We’re looking for someone who can quickly elevate the visual quality of our product while respecting existing constraints.
+  We are especially looking for designers with proven experience in SaaS dashboards and data-heavy interfaces.
+  Please do not apply if your experience is mainly in websites or marketing pages.
+  
+  $800.00
+  
+  Fixed-price
+  Intermediate
+  I am looking for a mix of experience and value
+  Attachment
+  untitled folder.zip (2.8 MB)
+  Project Type:Ongoing project
+  Skills and Expertise
+  Mandatory skills
+  Figma
+  Graphic Design
+  Visual Design
+  Data Visualization
+  Activity on this job
+  Proposals:
+  50+
+  Last viewed by client:
+  4 minutes ago
+  Interviewing:
+  6
+  Invites sent:
+  0
+  Unanswered invites:
+  0
+  Bid range - High $1,000.00 | Avg $776.94 | Low $5.00
+  Send a proposal for: 21 Connects
+  Available Connects: 58
+  About the client
+  Payment method verified
+  Rating is 5.0 out of 5.
+  5.0
+  4.95 of 6 reviews
+  Italy
+  Carpi4:04 PM
+  10 jobs posted
+  100% hire rate, 2 open jobs
+  $7.8K total spent
+  14 hires, 3 active
+  $24.08 /hr avg hourly rate paid
+  221 hours
+  Mid-sized company (10-99 people)
+  Member since Apr 19, 2019
+  Job link
+  https://www.upwork.com/jobs/~022077726849354597716
+  Copy link
+  Client's recent history (11)
+  
+  Jobs in progress
+  UI/UX design for 3 pages of SaaS dashboard
+  Rating is 4.9 out of 5.
+  4.9
+  Good Job
+  To freelancer: Juliya P.No feedback given
+  Jun 2022 - Jan 2023
+  21 hrs @ $40.00/hr
+  Billed: $861.00
+  Develop a Chrome/Firefox extension able to open a URL received from REST API (only extension needed)
+  Rating is 5.0 out of 5.
+  5.0
+  I liked working with Max and hope to have the opportunity to work with him again.
+  To freelancer: Qang T.No feedback given
+  Mar 2021 - Sep 2021
+  Fixed-price $162.50
+  Enhance UI design for SaaS admin panel and modify the vue.js CSS code
+  Rating is 5.0 out of 5.
+  5.0
+  My task was to take an existing Vue project, collaborate with a 3rd party designer and, following her directions, add CSS overrides for the Quasar lib…more
+  To freelancer: Ivaylo G.No feedback given
+  Apr 2021 - Jul 2021
+  5 hrs @ $38.60/hr
+  Billed: $199.44
+  Web scraping in Node.js configuring our script
+  Rating is 5.0 out of 5.
+  5.0
+  Excellent client. Hope we will work again together soon!
+  To freelancer: Michail G.
+  Rating is 5.0 out of 5.
+  5.0
+  Very appreciated job from him. I'm very satisfied
+  Jun 2021 - Jul 2021
+  128 hrs @ $25.00/hr
+  Billed: $3,208.33
+  Web scraping in Node.js configuring our script
+  No feedback given
+  To freelancer: Gurjant S.
+  Rating is 5.0 out of 5.
+  5.0
+  Gurjant has good skills and completed the job successfully
+  Jun 2021 - Jun 2021
+  41 hrs @ $15.00/hr
+  Billed: $615.00
+  Create crawlers using and enhancing our Scrapy version
+  Rating is 5.0 out of 5.
+  5.0
+  .
+  To freelancer: ASMA M.
+  Rating is 5.0 out of 5.
+  5.0
+  Excellent worker, I'm very satisfied.
+  Apr 2021 - Jun 2021
+  Fixed-price $600.00
+  ElasticSearch cluster optimization
+  No feedback given
+  To freelancer: Serj G.
+  Rating is 5.0 out of 5.
+  5.0
+  Jun 2019 - Apr 2021
+  Fixed-price $188.00
+  Complete the design of a Web application
+  Rating is 4.3 out of 5.
+  4.3
+  Good employer, but not good technical requirements.
+  To freelancer: Nazar V.
+  Rating is 4.8 out of 5.
+  4.8
+  Very nice person to work with. Very fast and responsive.
+  Apr 2021 - Apr 2021
+  9 hrs @ $25.00/hr
+  Billed: $216.67
+  Enhance UI design for SaaS admin panel and modify the vue.js CSS code
+  No feedback given
+  To freelancer: Ivaylo G.No feedback given
+  Mar 2021 - Mar 2021
+  Fixed-price $500.00
+  Other open jobs by this Client (1)
+  Developer Analyst for Sales/Pricing Simulation SystemFixed-price
+
+--- WINDOW  2026/07/16 17:04:45  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:04:45  [chrome.exe] Roman - Google Документы - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:04:46  [chrome.exe] ПрАТ СК «Арсенал» - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:04:51  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+
+--- WINDOW  2026/07/16 17:04:53  [chrome.exe] Leads картка trello - Leeds картка Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:04:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:05:00  [chrome.exe] UI/UX Designer for Dashboard Redesign (Design Only – No Development) - Web & Mobile Design - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:05:01  [chrome.exe] Leads | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:05:04  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [Clipboard]
+  Maximilian Lanaro
+  [LMB]
+
+--- WINDOW  2026/07/16 17:05:06  [chrome.exe] Leads | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:05:13  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:05:13  [chrome.exe] Leads картка trello - Leeds картка Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  UI/UX DESIGNER FOR DASHBOARD REDESIGN — ВІДГУКИ / ВИТРАТИ / СЕРЕДНЯ СТАВКА / HIRE RATE / ІНТЕРВ’Ю
+  🟢 Client — ⭐ 4.95 $7.8K $24.08/hr 100% 6 Int
+  
+  ## 👤 ПРОФІЛЬ КЛІЄНТА
+  - **Ім’я клієнта:** N/A
+  - **Локація:** Carpi, Italy
+  - **Статус:** 🟢 GREEN
+  - **Репутація:** ⭐ 4.95 (6 відгуків)
+  - **Досвід:** $7.8K витрачено, 10 проєктів, 14 наймів.
+  - **Hire Rate:** 100%
+  - **Активність:** 6 інтерв'ю на даний момент.
+  
+  ## 💰 БЮДЖЕТ ТА СТРАТЕГІЯ ЦІНОУТВОРЕННЯ
+  - **Середня ставка:** $24.08/год
+  - **Діапазон ставок:** Fixed Price $800 (Bid Avg $776.94)
+  - **Комфортна зона (Fixed Price):** $700–1,000
+  - **Поведінка:** Регулярно наймає UI/UX спеціалістів, працює з SaaS-продуктами, цінує якісний дизайн та довгострокову співпрацю.
+  
+  ## 📱 ОГЛЯД ПРОЄКТУ: SaaS Dashboard Visual Redesign
+  - **Тип продукту:** SaaS Dashboard / Enterprise Platform
+  - **Поточний статус:** Продукт уже працює, потрібне повне візуальне оновлення.
+  - **Цільова аудиторія:** Користувачі SaaS-платформи та корпоративні клієнти.
+  - **Основна проблема:** Осучаснити інтерфейс без зміни існуючої архітектури та логіки продукту.
+  
+  ## 🎯 ОБСЯГ РОБІТ (SCOPE)
+  
+  ### 🆕 Нова розробка:
+  - Visual Dashboard Redesign
+  - 60+ Screens
+  - Design System
+  - Style Guide
+  - Icon Set
+  - Figma Components
+  - Developer-ready Files
+  
+  ### ✏️ UX/UI Покращення:
+  - Typography
+  - Color System
+  - Visual Hierarchy
+  - Cards
+  - Tables
+  - Charts
+  - Buttons
+  - Forms
+  - Data Visualization
+  - Consistent Spacing
+  - Design Tokens
+  
+  ## 🚫 ПОЗА МЕЖАМИ ПРОЄКТУ (OUT OF SCOPE)
+  - HTML/CSS/JS
+  - Frontend Development
+  - Layout Changes
+  - User Flow Changes
+  - Backend Development
+  
+  ## 🚀 СТРАТЕГІЯ ПРОДАЖУ ТА ПОЗИЦІОНУВАННЯ
+  - **Головний меседж:** Допомагаємо SaaS-продуктам отримати сучасний enterprise-рівень дизайну без ризику для існуючої логіки інтерфейсу.
+  - **Подача цінності:** Показати досвід у створенні складних dashboard-систем, дизайн-систем, компонентного підходу та роботи з data-heavy інтерфейсами.
+  - **Портрет клієнта:** Технічна компанія, яка добре розуміє продукт і шукає дизайнера з сильним UX-мисленням, а не лише гарною візуальною подачею.
+  
+  ## 📊 КРИТЕРІЇ УСПІХУ (KPIs)
+  - Сучасний SaaS UI
+  - Єдина дизайн-система
+  - Pixel-perfect Figma
+  - Візуальна консистентність
+  - Developer-ready компоненти
+  - Покращена читабельність даних
+  
+  ## ⚠️ РИЗИКИ ТА ОБМЕЖЕННЯ
+  - **Технічні:** Заборонено змінювати структуру та розташування елементів.
+  - **Фінансові:** Бюджет адекватний масштабу задачі.
+  - **Процес:** Велика кількість екранів (~60), хоча більшість використовують однакові компоненти.
+  - **Конкуренція:** 50+ пропозицій, але лише 6 інтерв'ю — клієнт ретельно відбирає кандидатів.
+  
+  ## 🛠 РЕЗУЛЬТАТИ (DELIVERABLES)
+  - High-Fidelity Figma Files
+  - Dashboard Redesign
+  - Design System
+  - Style Guide
+  - Icon Library
+  - UI Components
+  - Developer-ready Assets
+  
+  ## 🧠 ВНУТРІШНЯ РЕКОМЕНДАЦІЯ
+  - **Модель оплати:** Fixed Price.
+  - **Тон спілкування:** Професійний та експертний. Основний акцент зробити на досвіді роботи із SaaS dashboard, enterprise UI, Figma Design Systems та data visualization. Обов'язково показати релевантні dashboard-кейси.
+  
+  ## ⭐ FIT ДЛЯ VIBESTYLE
+  **9.8/10**
+  
+  Дуже сильний клієнт із відмінною історією наймів, 100% Hire Rate та досвідом роботи саме з SaaS UI. Проєкт практично ідеально відповідає спеціалізації VibeStyle: dashboard UX/UI, Figma, дизайн-системи та enterprise-продукти. Один із найкращих варіантів для подачі.
+
+--- WINDOW  2026/07/16 17:05:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:05:17  [chrome.exe] Leads | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:05:18  [chrome.exe] Maximilian Lanaro на доске Leads | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  UI/UX DESIGNER FOR DASHBOARD REDESIGN
+  🟢 Client — ⭐ 4.95 $7.8K $24.08/hr 100% 6 Int
+  c
+  [LMB]
+   - [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/16 17:05:35  [chrome.exe] Maximilian Lanaro - UI/UX DESIGNER FOR DASHBOARD REDESIGN 🟢 Client — ⭐ 4.95 $7.8K $24.08/hr 100% 6 Int на доске Leads | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [Bk]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:05:36  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.upwork.com/ab/messages/rooms/room_a8afa7b0a00fc571ffa169c3d349b1a9?pageTitle=Maximilian%20Lanaro,%20Dispell%20Magic%20srl&companyReference=1678772194043408384
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 17:05:41  [chrome.exe] UI/UX Designer for Dashboard Redesign (Design Only – No Development) - Web & Mobile Design - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:05:44  [chrome.exe] Luckas Aarts - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:05:45  [chrome.exe] UI/UX Designer for Dashboard Redesign (Design Only – No Development) - Web & Mobile Design - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:05:52  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:06:05  [chrome.exe] Maximilian Lanaro - UI/UX DESIGNER FOR DASHBOARD REDESIGN 🟢 Client — ⭐ 4.95 $7.8K $24.08/hr 100% 6 Int на доске Leads | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:06:08  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:06:12  [chrome.exe] Maximilian Lanaro - UI/UX DESIGNER FOR DASHBOARD REDESIGN 🟢 Client — ⭐ 4.95 $7.8K $24.08/hr 100% 6 Int на доске Leads | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:06:20  [chrome.exe] Leads | Trello - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:06:21  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:06:25  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:06:31  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:06:34  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:06:37  [chrome.exe] UI/UX Designer for Dashboard Redesign (Design Only – No Development) - Web & Mobile Design - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  UI/UX Designer for Dashboard Redesign (Design Only – No Development)
+  Posted 1 hour ago
+  Worldwide
+  
+  Summary
+  We are looking for a talented UI/UX designer to redesign the visual appearance of our SaaS dashboard.
+  
+  The goal is to modernize the interface and improve usability while keeping the existing structure and layout unchanged.
+  
+  Scope of Work:
+  - We will provide screenshots of the current dashboard (a sample is attached).
+  - Based on these, you will propose improved visual designs.
+  - Focus on creating a modern, clean, and highly usable interface.
+  - Design icons to use in the menu.
+  - The page number is elevated (approx 60) but the main elements are always the same.
+  
+  Important Constraints:
+  - This is a design-only project.
+  - No frontend development is required (no HTML/CSS/JS).
+  - The final output must be delivered as design files (e.g., Figma, Sketch, or similar).
+  - Element positions must remain the same: do not change layout structure, flows, or component placement.
+  - Only visual improvements are required, such as:
+  - Typography
+  - Colors and palette
+  - Spacing and alignment refinement
+  - Component styling (cards, tables, buttons, charts, etc.)
+  - Overall visual consistency and hierarchy
+  
+  Deliverables:
+  - Redesigned versions of the provided screens
+  - Source design files (Figma preferred)
+  - A style guideline
+  - Optional: design system or style guidelines (colors, typography, components)
+  
+  What We’re Looking For:
+  - Strong experience in SaaS dashboard design
+  - Ability to improve UX without changing layout structure
+  - Clean, modern, and data-friendly design style
+  - Attention to detail and consistency
+  
+  To Apply, please include:
+  - Portfolio with relevant dashboard/UI work
+  - A brief explanation of your design approach
+  - (Optional but appreciated) Example of a dashboard redesign you’ve done
+  
+  We’re looking for someone who can quickly elevate the visual quality of our product while respecting existing constraints.
+  We are especially looking for designers with proven experience in SaaS dashboards and data-heavy interfaces.
+  Please do not apply if your experience is mainly in websites or marketing pages.
+  [LMB]
+
+--- WINDOW  2026/07/16 17:06:47  [chrome.exe] Leads картка trello - Leeds картка Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:06:49  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]' [Bk][Bk]' nfrbq pfgbn rksynf [ENTER]
+  [ENTER]
+  [Ctrl]v
+
+--- WINDOW  2026/07/16 17:07:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:07:01  [chrome.exe] UI/UX Designer for Dashboard Redesign (Design Only – No Development) - Web & Mobile Design - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:07:03  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Klym Yevtushenko
+  4:57 PM
+  Hey, I've worked on several CRM, SaaS and analytics dashboards similar to yours. Examples:
+  
+  
+  
+  CRM Dashboard UI/UX Design for SaaS Platform
+  https://www.upwork.com/freelancers/klyme?p=1785035318305091584
+  
+  
+  
+  CRP CRM System - SaaS / Dashboard UI/UX
+  https://www.upwork.com/freelancers/~0100f7782ea28c120d?p=1803451656331034624
+  
+  
+  
+  EFT Insider - Investment Dashboard, SaaS, Finance, Web3
+  https://www.upwork.com/fl/klyme?p=1857079071160291328
+  
+  
+  
+  ▶️Here’s a brief video introduction of myself:
+  https://www.loom.com/share/145f54439c1c4c5f9509be276913e6e9
+  
+  
+  
+  15+ years in UI/UX. Expert-Vetted Top 1%, 99% JSS, 5,234+ Upwork hours. Founder of VibeStyle.
+  Recent work: Tableau, Power BI, Domino's Pizza, Meta PCs, AirAdvisor, MDFinance.
+  
+  
+  
+  Open to a quick call?
+  
+  
+  
+  - Klym
+  
+  View details
+  
+  ML
+  Maximilian Lanaro
+  4:57 PM
+  Hi Klym,
+  what are the first things you typically improve in a dashboard like ours?
+  what would you deliver exactly?
+  when can you start?
+  how much time does it usually take to complete this kind of project?
+
+--- WINDOW  2026/07/16 17:07:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:07:17  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+  s nfrf p ybv gthtgbcrf [ENTER]
+  [ENTER]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/16 17:07:31  [chrome.exe] UI/UX Dashboard Redesign Query - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:07:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:07:33  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  Maximilian Lanaro
+
+--- WINDOW  2026/07/16 17:07:36  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:07:36  [chrome.exe] UI/UX Dashboard Redesign Approach - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Bk][Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/16 17:07:41  [chrome.exe] Maximilian Lanaro - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  lfdfq n bgthit vtys ghjtrn gjzcyb[ENTER]
+  [LMB]
+  zr qjve dslgjdscnb yf qjuj gbnfyyz [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  f rjke ne triy zrbqcm ljlfn bdrsyws7[ENTER]
+  [LMB]
+  [Clipboard]
+  Hi Maximilian,
+  
+  Thank you for your questions.
+  
+  Based on your description, I understand that the goal is to modernize the product visually while keeping the existing structure, workflows and component placement unchanged. That's actually a type of project we've worked on quite a few times with SaaS products.
+  
+  **The first things I typically improve are:**
+  
+  • Establish a much stronger visual hierarchy so users can scan information more easily.
+  • Refine typography, spacing and alignment to improve readability.
+  • Modernize the color palette and improve contrast.
+  • Redesign recurring UI components such as cards, tables, buttons, forms, filters and charts while preserving their existing positions.
+  • Create a consistent icon system for the navigation.
+  • Standardize all repeated components into a unified design language so the entire product feels cohesive.
+  
+  Since you mentioned there are around 60 screens but many of them share the same patterns, I would first identify the core templates and reusable components, establish the visual system, and then apply it consistently across the rest of the product.
+  
+  **My deliverables would include:**
+  
+  • High-fidelity Figma designs for all redesigned screens
+  • A reusable UI component library
+  • Color, typography and spacing guidelines
+  • Navigation icon set
+  • Well-organized Figma file ready for developers
+  • A lightweight design system to ensure consistency across all screens
+  
+  **When can I start?**
+  
+  I can start this week.
+  
+  **How long would it take?**
+  
+  I'd first like to review all the screenshots before giving a fixed estimate, as the timeline mainly depends on the number of unique page templates rather than the total number of screens.
+  
+  If most of the 60 screens are based on the same components, projects like this are typically in the **50-80 hour** range. Once I review the existing dashboard, I'll be able to provide a much more accurate estimate.
+  
+  I'd also recommend starting with 2-3 representative screens. Once we align on the visual direction, we can efficiently roll the same design system out across the remaining pages.
+  
+
+--- WINDOW  2026/07/16 17:10:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:10:26  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:10:29  [chrome.exe] Як прибрати червоне підкреслення - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:10:30  [chrome.exe] Luckas Aarts - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:10:33  [chrome.exe] Chats - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:10:34  [chrome.exe] UI/UX Designer for Dashboard Redesign (Design Only – No Development) - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+   t[Bk]today oe tommorow.
+  [LMB]
+  [->][Bk]r
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:12:01  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:12:03  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:12:03  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:12:03  [chrome.exe] Maximilian Lanaro - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  If you'd like, send me a few representative screens from the dashboard. I'll quickly review them and outline what I would improve first, identify the reusable UI patterns, and provide a more accurate estimate before we start.
+  [LMB]
+
+--- WINDOW  2026/07/16 17:12:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:12:24  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:12:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:12:25  [chrome.exe] Maximilian Lanaro - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:12:27  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:12:28  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:12:29  [chrome.exe] UI/UX Designer for Dashboard Redesign (Design Only – No Development) - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+  [Ctrl]v[ENTER]
+  [ENTER]
+  waiting for your reply/[Bk].
+  [LMB]
+  [ENTER]
+  [ENTER]
+  best,[ENTER]
+  klym
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  Maximilian Lanaro
+
+--- WINDOW  2026/07/16 17:13:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:13:17  [chrome.exe] Maximilian Lanaro - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:13:18  [chrome.exe] Roman - Google Документы - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [ENTER]
+  jghfw.dfd kslf [Ctrl]v
+  [LMB]
+  [Bk]jgh[Bk][Bk][Bk]k[Bk]jghfw.dfd kslf 
+  [LMB]
+  s [Bk] dslgbcfd qjve 
+
+--- WINDOW  2026/07/16 17:13:43  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:13:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:13:44  [chrome.exe] UI/UX Designer for Dashboard Redesign (Design Only – No Development) - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:13:45  [chrome.exe] Chats - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:13:47  [chrome.exe] Landing Page for AI Consulting Service - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:13:50  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  
+  David Lemmer
+  5:12 PM
+  Hello Klym
+  
+  
+  
+  thanks for getting back to me! We've reviewed your offer and had a very great impression. For this particular project, we've now decided to give it a try with a differen provider. As we'll have similar projects coming up shortly, we'd love to work with you on one of those. I've bookmarked your contact and will get back to you as soon as we're ready to go.
+  
+  
+  
+  I hope this is fine for you!
+  
+  
+  
+  Thanks a lot and talk to you soon,
+  
+  David
+  [LMB]
+
+--- WINDOW  2026/07/16 17:14:30  [chrome.exe] Як прибрати червоне підкреслення - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:14:32  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  gthtrkflb -
+
+--- WINDOW  2026/07/16 17:14:35  [chrome.exe] Фолоу-ап для клієнта - Google Chrome
+----------------------------------------------------------------------------
+   [Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  dslgbib [ENTER]
+  [LMB]
+  [Clipboard]
+  Hi David,
+  
+  Thank you so much for letting me know, and I really appreciate your kind words.
+  
+  Of course, I completely understand, and I wish you and your team the very best with this project. I genuinely hope it goes well.
+  
+  I'm also very happy to hear that you'd like to keep in touch for future opportunities. We'd love the chance to collaborate when the next project comes up, and we'll be ready to jump in whenever you are.
+  
+  Thanks again for your time throughout the process. Looking forward to staying in touch, and I hope we'll have the opportunity to work together soon.
+  
+  Best,
+  Klym
+  
+  [LMB]
+
+--- WINDOW  2026/07/16 17:15:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:15:19  [chrome.exe] Фолоу-ап для клієнта - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:15:20  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:15:22  [chrome.exe] Landing Page for AI Consulting Service - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk][Bk].[Bk][Bk]/
+  [LMB]
+  [LMB]
+  [Bk][->][->][<-][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  David Lemmer
+
+--- WINDOW  2026/07/16 17:16:14  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:16:14  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:16:14  [chrome.exe] Roman - Google Документы - Google Chrome
+----------------------------------------------------------------------------
+  [ENTER]
+  dslgbcfd [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/16 17:16:21  [chrome.exe] Landing Page for AI Consulting Service - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:16:22  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:16:23  [chrome.exe] UI/UX Designer for Dashboard Redesign (Design Only – No Development) - Web & Mobile Design - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:16:24  [chrome.exe] Клієнти VibeStyle (LinkedIn) - Google Таблицы - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:16:25  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:16:40  [chrome.exe] Vite App - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  s
+
+--- WINDOW  2026/07/16 17:16:55  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:16:57  [chrome.exe] Vite App - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:16:58  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:17:00  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:17:00  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:17:01  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  nen nht,f rjkjyre rtyctk ghjl;trn[ENTER]
+  ljlfnb[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:17:22  [chrome.exe] Roman - Google Документы - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:17:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:17:25  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  oj, dbgflfkf nfrj;[ENTER]
+  d cgbcre ,ekf[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:17:39  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:17:42  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:17:44  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:17:47  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:17:48  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:17:51  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:17:56  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:17:59  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:18:02  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:18:03  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:18:03  [chrome.exe] Roman - Google Документы - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:18:04  [chrome.exe] Maximilian Lanaro - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:18:06  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:18:09  [chrome.exe] ПрАТ СК «Арсенал» - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:18:51  [chrome.exe] Recent download history
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:18:53  [wps.exe] WPS Office
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:18:53  [wps.exe] Arsenal_Договір_Липень_2026_з_виділеними_правками.docx - WPS Office
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:18:54  [wpscloudsvr.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:18:54  [wps.exe] Arsenal_Договір_Липень_2026_з_виділеними_правками.docx - WPS Office
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:19:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:19:10  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:24:29  (no active window)
+----------------------------------------------------------------------------
+    
+
+--- WINDOW  2026/07/16 17:30:52  [LockApp.exe] Windows Default Lock Screen
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:30:53  [explorer.exe] UnlockingWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:30:53  [chrome.exe] 4 notifications - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:30:53  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:30:59  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:31:19  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:31:20  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:32:19  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:32:30  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:32:37  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:32:39  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:32:39  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:32:39  [explorer.exe] Home - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:32:41  [explorer.exe] Documents - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:32:42  [explorer.exe] Downloads - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:32:44  [explorer.exe] screen inviati a upwork - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:32:47  [explorer.exe] Desktop - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:32:47  [explorer.exe] Downloads - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:32:49  [explorer.exe] screen inviati a upwork - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:32:50  [explorer.exe] __MACOSX - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:32:51  [explorer.exe] untitled folder - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:32:53  [photolaunch.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:32:53  [photolaunch.exe] WPS Photos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:32:53  [photolaunch.exe] ._GPC filtraggio GPC Variation.png  WPS Photos
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:01  [photolaunch.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:33:01  [photolaunch.exe] ._GPC filtraggio GPC Variation.png  WPS Photos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:33:01  [explorer.exe] untitled folder - File Explorer
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:04  [photolaunch.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:33:04  [photolaunch.exe] ._guide in page.png  WPS Photos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:07  [photolaunch.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:33:07  [photolaunch.exe] ._guide in page.png  WPS Photos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:33:07  [explorer.exe] untitled folder - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:09  [explorer.exe] __MACOSX - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:10  [explorer.exe] screen inviati a upwork - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:11  [explorer.exe] untitled folder - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:13  [photolaunch.exe] GPC filtraggio GPC Variation.png  WPS Photos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:15  [photolaunch.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:33:15  [photolaunch.exe] GPC filtraggio GPC Variation.png  WPS Photos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:33:15  [explorer.exe] untitled folder - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:16  [photolaunch.exe] WPS Photos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:33:16  [photolaunch.exe] guide in page.png  WPS Photos
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:19  [photolaunch.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:33:19  [explorer.exe] untitled folder - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:21  [explorer.exe] screen inviati a upwork - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:22  [explorer.exe] Downloads - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:24  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:26  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:30  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:49  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:52  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:33:55  [chrome.exe] Vite App - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:34:08  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:34:09  [chrome.exe] Landing Page for AI Consulting Service - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:34:10  [chrome.exe] Leads | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:34:11  [chrome.exe] Landing Page for AI Consulting Service - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:34:13  [chrome.exe] Клієнти VibeStyle (LinkedIn) - Google Таблицы - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:34:14  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:34:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:34:18  [chrome.exe] ПрАТ СК «Арсенал» - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:34:20  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:34:20  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:34:21  [chrome.exe] ПрАТ СК «Арсенал» - Google Chrome
+----------------------------------------------------------------------------
