@@ -1,0 +1,3397 @@
+﻿  [LMB]
+  [Ctrl][Esc]
+
+--- WINDOW  2026/07/16 15:57:23  [Taskmgr.exe] Gerenciador de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:57:43  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:57:46  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:57:46  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:57:47  [Taskmgr.exe] Gerenciador de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:57:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:57:47  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 15:57:47  [explorer.exe] local
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 15:57:48  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 15:57:49  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:57:52  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:57:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:57:54  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  find factory -maxdepth 2
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 15:58:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:58:18  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:58:18  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:58:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:58:18  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:58:19  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+   e[Bk]and adb ones also din[Bk]d not outp[Bk]put 9or upt[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][ENTER]
+  bonus;[ENTER]
+  [Ctrl]vz
+
+--- WINDOW  2026/07/16 15:58:49  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:58:49  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:58:49  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 15:58:52  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:58:53  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [Clipboard]
+  find . -name "*ssh*"                                                                                                                                                                                                   ✔  1161  15:46:43
+  ./usr/local/etc/ssh_config
+  ./usr/local/etc/ssh_host_ecdsa_key
+  ./usr/local/etc/ssh_host_dsa_key
+  ./usr/local/etc/sshd_config
+  ./usr/local/etc/ssh_host_ed25519_key
+  ./usr/local/etc/ssh_host_rsa_key
+  ./usr/local/libexec/ssh-keygen
+  ./usr/local/libexec/ssh-keysign
+  ./usr/local/sbin/sshd
+  ./usr/local/bin/ssh
+  ./usr/local/bin/ssh-keygen
+  ./usr/local/bin/ssh-agent
+  ./usr/local/bin/ssh-add
+  ./usr/local/bin/ssh-keyscan
+  ./usr/bin/ssh
+  ./usr/bin/sshd_keys
+  ./usr/bin/sshd
+  [RMB]
+
+--- WINDOW  2026/07/16 15:58:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:58:53  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:58:53  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/07/16 15:58:55  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:58:55  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:58:55  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:59:04  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:59:05  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 15:59:05  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [ENTER]
+  [Bk]there might be a ssh server running on it already .
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [ENTER]
+  [ENTER]
+  [LMB]
+   9assuming t[Bk]it [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]min[Bk][Bk]y device is newer than this a[Bk]updates[Bk], so it migth not as well0[v][v][v]
+
+--- WINDOW  2026/07/16 16:00:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:10  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:10  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:11  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:11  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:11  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:11  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:11  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:12  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:13  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:13  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:00:13  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [Bk][Bk][ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:01:19  [firefox.exe] Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:01:19  [firefox.exe] mt85xx at DuckDuckGo — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   soc[ENTER]
+
+--- WINDOW  2026/07/16 16:01:29  [firefox.exe] Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:01:29  [firefox.exe] mt85xx soc at DuckDuckGo — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+   1gimg[ENTER]
+
+--- WINDOW  2026/07/16 16:01:34  [firefox.exe] Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:01:35  [firefox.exe] mt85xx soc - Pesquisa Google — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:01:40  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  MediaTek multimedia SoC
+  [LMB]
+
+--- WINDOW  2026/07/16 16:01:43  [firefox.exe] mt85xx soc - Pesquisa Google — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]a[Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/16 16:01:45  [firefox.exe] MediaTek multimedia SoC - Pesquisa Google — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [Ctrl]w
+
+--- WINDOW  2026/07/16 16:01:53  [firefox.exe] Harman/JBL Soundbar Update Formats - Google Gemini — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:01:56  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  grep -R "sshd" .
+  grep -R "/usr/bin/sshd" .
+  grep -R "/usr/local/sbin/sshd" .
+  c
+
+--- WINDOW  2026/07/16 16:02:27  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:27  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:27  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/16 16:02:28  [wsl.exe] grep
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:28  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:28  [wsl.exe] grep
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:29  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:30  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:02:31  [explorer.exe] local
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:02:31  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:32  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/16 16:02:32  [wsl.exe] grep
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:32  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:33  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:33  [explorer.exe] local
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:02:34  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:02:34  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  grep -R "ssh" etc/init.d
+
+--- WINDOW  2026/07/16 16:02:36  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:36  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:37  [explorer.exe] local
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:02:37  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:37  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:38  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:02:38  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:02:45  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [Clipboard]
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  find . -name adbd                                                                                                                                                                                                      ✔  1162  15:56:24
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  find . -name adb                                                                                                                                                                                                       ✔  1163  15:57:03
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "adbd" .                                                                                                                                                                                                       ✔  1164  15:57:04
+  grep: ./res/bd_font.ttf: binary file matches
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+  grep: ./usr/local/bin/bdpprog: binary file matches
+  grep: ./usr/lib/gconv/GBK.so: binary file matches
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "sshd" .                                                                                                                                                                                                     2 ↵  1165  15:57:07
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+  ./etc/group:system:x:100:system,sshd
+  ./etc/group:sshd:x:22:sshd
+  ./etc/passwd:sshd:$1$FHWtlL/V$SMffvrcU1vMOxHza6XLq60:22:22:Privilege-separated SSH:/var/local/misc/sshd:/bin/login
+  ./etc/init.d/rc5:mkdir -p /var/local/misc/sshd
+  ./etc/init.d/rc5:#/usr/local/sbin/sshd -p 22 &
+  ./usr/local/etc/sshd_config:#   $OpenBSD: sshd_config,v 1.101 2017/03/14 07:19:07 djm Exp $
+  ./usr/local/etc/sshd_config:# This is the sshd server system-wide configuration file.  See
+  ./usr/local/etc/sshd_config:# sshd_config(5) for more information.
+  ./usr/local/etc/sshd_config:# This sshd was compiled with PATH=/usr/bin:/bin:/usr/sbin:/sbin
+  ./usr/local/etc/sshd_config:# The strategy used for options in the default sshd_config shipped with
+  ./usr/local/etc/sshd_config:AuthorizedKeysFile  /var/local/misc/sshd/authorized_keys
+  ./usr/local/etc/sshd_config:#PidFile /var/run/sshd.pid
+  grep: ./usr/local/sbin/sshd: binary file matches
+  grep: ./usr/local/bin/bdpprog: binary file matches
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "/usr/bin/sshd" .                                                                                                                                                                                            2 ↵  1166  16:02:28
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "/usr/local/sbin/sshd" .                                                                                                                                                                                     2 ↵  1167  16:02:29
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+  ./etc/init.d/rc5:#/usr/local/sbin/sshd -p 22 &
+  grep: ./usr/local/bin/bdpprog: binary file matches
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "ssh" etc/init.d                                                                                                                                                                                             2 ↵  1168  16:02:32
+  etc/init.d/rc5:#start ssh
+  etc/init.d/rc5:mkdir -p /var/local/misc/sshd
+  etc/init.d/rc5:#/usr/local/sbin/sshd -p 22 &
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root 
+  [RMB]
+
+--- WINDOW  2026/07/16 16:02:47  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:48  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:02:49  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:02:50  [Code.exe] repl.calva-repl - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]n
+
+--- WINDOW  2026/07/16 16:02:53  [Code.exe] Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]v
+
+--- WINDOW  2026/07/16 16:02:54  [Code.exe] ● diana@DESKTOP-N9MR4SU  ~/bin/harman/_JB • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]ddddddddddddddddddddddd
+
+--- WINDOW  2026/07/16 16:03:00  [Code.exe] ● diana@d  ~/bin/harman/_JBL_BAR_9_1.bin. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  i
+
+--- WINDOW  2026/07/16 16:03:00  [Code.exe] ● diana@di  ~/bin/harman/_JBL_BAR_9_1.bin • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  a
+
+--- WINDOW  2026/07/16 16:03:00  [Code.exe] ● diana@dia  ~/bin/harman/_JBL_BAR_9_1.bi • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  n
+
+--- WINDOW  2026/07/16 16:03:00  [Code.exe] ● diana@dian  ~/bin/harman/_JBL_BAR_9_1.b • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  a
+
+--- WINDOW  2026/07/16 16:03:00  [Code.exe] ● diana@diana  ~/bin/harman/_JBL_BAR_9_1. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]ac
+  [Clipboard]
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  find . -name adbd                                                                                                                                                                                                      ✔  1162  15:56:24
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  find . -name adb                                                                                                                                                                                                       ✔  1163  15:57:03
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "adbd" .                                                                                                                                                                                                       ✔  1164  15:57:04
+  grep: ./res/bd_font.ttf: binary file matches
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+  grep: ./usr/local/bin/bdpprog: binary file matches
+  grep: ./usr/lib/gconv/GBK.so: binary file matches
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "sshd" .                                                                                                                                                                                                     2 ↵  1165  15:57:07
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+  ./etc/group:system:x:100:system,sshd
+  ./etc/group:sshd:x:22:sshd
+  ./etc/passwd:sshd:$1$FHWtlL/V$SMffvrcU1vMOxHza6XLq60:22:22:Privilege-separated SSH:/var/local/misc/sshd:/bin/login
+  ./etc/init.d/rc5:mkdir -p /var/local/misc/sshd
+  ./etc/init.d/rc5:#/usr/local/sbin/sshd -p 22 &
+  ./usr/local/etc/sshd_config:#   $OpenBSD: sshd_config,v 1.101 2017/03/14 07:19:07 djm Exp $
+  ./usr/local/etc/sshd_config:# This is the sshd server system-wide configuration file.  See
+  ./usr/local/etc/sshd_config:# sshd_config(5) for more information.
+  ./usr/local/etc/sshd_config:# This sshd was compiled with PATH=/usr/bin:/bin:/usr/sbin:/sbin
+  ./usr/local/etc/sshd_config:# The strategy used for options in the default sshd_config shipped with
+  ./usr/local/etc/sshd_config:AuthorizedKeysFile  /var/local/misc/sshd/authorized_keys
+  ./usr/local/etc/sshd_config:#PidFile /var/run/sshd.pid
+  grep: ./usr/local/sbin/sshd: binary file matches
+  grep: ./usr/local/bin/bdpprog: binary file matches
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "/usr/bin/sshd" .                                                                                                                                                                                            2 ↵  1166  16:02:28
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "/usr/local/sbin/sshd" .                                                                                                                                                                                     2 ↵  1167  16:02:29
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+  ./etc/init.d/rc5:#/usr/local/sbin/sshd -p 22 &
+  grep: ./usr/local/bin/bdpprog: binary file matches
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "ssh" etc/init.d                                                                                                                                                                                             2 ↵  1168  16:02:32
+  etc/init.d/rc5:#start ssh
+  etc/init.d/rc5:mkdir -p /var/local/misc/sshd
+  etc/init.d/rc5:#/usr/local/sbin/sshd -p 22 &
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root 
+
+--- WINDOW  2026/07/16 16:03:03  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:03  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:03  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [Ctrl]v
+
+--- WINDOW  2026/07/16 16:03:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:06  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:03:07  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:07  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  cat etc/inetd.conf
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 16:03:20  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:20  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:20  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:20  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:03:20  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [RMB]
+  [Ctrl]v[Bk][Bk]
+
+--- WINDOW  2026/07/16 16:03:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:23  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:23  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:03:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:25  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/07/16 16:03:27  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:27  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:27  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  grep -R "ssh" etc/init.d
+
+--- WINDOW  2026/07/16 16:03:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:30  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:30  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:48  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:03:48  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:04:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:04:06  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:04:06  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:04:07  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+
+--- WINDOW  2026/07/16 16:04:08  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:04:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:04:09  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:04:09  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  unzip -l etc/security/otacerts.zip
+
+--- WINDOW  2026/07/16 16:04:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:04:10  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:04:10  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/07/16 16:04:15  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:04:16  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:04:16  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  abou the sound,[<-][Ctrl][<-][<-][<-]t[End] it was the bt connect sound, i found a[Bk]the file and i think changing it to a 1ms silient .wav[<-][<-][<-][<-][<-]
+  [RMB]
+  [LMB]
+  [LMB]
+   is es[Bk]asier [Bk][ENTER]
+  [ENTER]
+
+--- WINDOW  2026/07/16 16:05:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:05:38  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:05:38  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:05:47  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  testkey.x509.pem
+  [RMB]
+
+--- WINDOW  2026/07/16 16:05:49  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [^][^][^][^][^][^][^][^][^][^][<-][Bk][Bk][Bk][Bk][Bk]
+  [RMB]
+  [ENTER]
+  [^][<-][<-][<-][<-][<-][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]*[ENTER]
+
+--- WINDOW  2026/07/16 16:06:34  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "sshd" .                                                                                                                                                                                                     2 ↵  1165  15:57:07
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+  ./etc/group:system:x:100:system,sshd
+  ./etc/group:sshd:x:22:sshd
+  ./etc/passwd:sshd:$1$FHWtlL/V$SMffvrcU1vMOxHza6XLq60:22:22:Privilege-separated SSH:/var/local/misc/sshd:/bin/login
+  ./etc/init.d/rc5:mkdir -p /var/local/misc/sshd
+  ./etc/init.d/rc5:#/usr/local/sbin/sshd -p 22 &
+  ./usr/local/etc/sshd_config:#   $OpenBSD: sshd_config,v 1.101 2017/03/14 07:19:07 djm Exp $
+  ./usr/local/etc/sshd_config:# This is the sshd server system-wide configuration file.  See
+  ./usr/local/etc/sshd_config:# sshd_config(5) for more information.
+  ./usr/local/etc/sshd_config:# This sshd was compiled with PATH=/usr/bin:/bin:/usr/sbin:/sbin
+  ./usr/local/etc/sshd_config:# The strategy used for options in the default sshd_config shipped with
+  ./usr/local/etc/sshd_config:AuthorizedKeysFile  /var/local/misc/sshd/authorized_keys
+  ./usr/local/etc/sshd_config:#PidFile /var/run/sshd.pid
+  grep: ./usr/local/sbin/sshd: binary file matches
+  grep: ./usr/local/bin/bdpprog: binary file matches
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "/usr/bin/sshd" .                                                                                                                                                                                            2 ↵  1166  16:02:28
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "/usr/local/sbin/sshd" .                                                                                                                                                                                     2 ↵  1167  16:02:29
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+  ./etc/init.d/rc5:#/usr/local/sbin/sshd -p 22 &
+  grep: ./usr/local/bin/bdpprog: binary file matches
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "ssh" etc/init.d                                                                                                                                                                                             2 ↵  1168  16:02:32
+  etc/init.d/rc5:#start ssh
+  etc/init.d/rc5:mkdir -p /var/local/misc/sshd
+  etc/init.d/rc5:#/usr/local/sbin/sshd -p 22 &
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  cat etc/inetd.conf                                                                                                                                                                                                     ✔  1169  16:02:39
+  telnet  stream  tcp     nowait  root   /usr/sbin/telnetd telnetd
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  unzip -l etc/security/otacerts.zip                                                                                                                                                                                     ✔  1170  16:03:26
+  Archive:  etc/security/otacerts.zip
+    Length      Date    Time    Name
+  ---------  ---------- -----   ----
+       1675  2020-02-12 03:55   testkey.x509.pem
+  ---------                     -------
+       1675                     1 file
+
+--- WINDOW  2026/07/16 16:06:43  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/16 16:06:43  [wsl.exe] diana@DESKTOP-N9MR4SU
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:06:44  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:06:44  [wsl.exe] grep:
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:06:44  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:06:44  [wsl.exe] grep:
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:06:44  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/07/16 16:06:48  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/16 16:06:56  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:06:57  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:06:57  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:06:57  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:06:58  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:06:58  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:06:59  [Code.exe] ● diana@diana  ~/bin/harman/_JBL_BAR_9_1. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]av
+
+--- WINDOW  2026/07/16 16:06:59  [Code.exe] ● diana@DESKTOP-N9MR4SU  ~/bin/harman/_JB • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]ddddddddddddddddddddddddddddd
+
+--- WINDOW  2026/07/16 16:07:04  [Code.exe] ● diana@d  ~/bin/harman/_JBL_BAR_9_1.bin. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  i
+
+--- WINDOW  2026/07/16 16:07:04  [Code.exe] ● diana@di  ~/bin/harman/_JBL_BAR_9_1.bin • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  a
+
+--- WINDOW  2026/07/16 16:07:04  [Code.exe] ● diana@dia  ~/bin/harman/_JBL_BAR_9_1.bi • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  n
+
+--- WINDOW  2026/07/16 16:07:04  [Code.exe] ● diana@dian  ~/bin/harman/_JBL_BAR_9_1.b • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  a
+
+--- WINDOW  2026/07/16 16:07:04  [Code.exe] ● diana@diana  ~/bin/harman/_JBL_BAR_9_1. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]a
+  [Clipboard]
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "sshd" .                                                                                                                                                                                                     2 ↵  1165  15:57:07
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+  ./etc/group:system:x:100:system,sshd
+  ./etc/group:sshd:x:22:sshd
+  ./etc/passwd:sshd:$1$FHWtlL/V$SMffvrcU1vMOxHza6XLq60:22:22:Privilege-separated SSH:/var/local/misc/sshd:/bin/login
+  ./etc/init.d/rc5:mkdir -p /var/local/misc/sshd
+  ./etc/init.d/rc5:#/usr/local/sbin/sshd -p 22 &
+  ./usr/local/etc/sshd_config:#   $OpenBSD: sshd_config,v 1.101 2017/03/14 07:19:07 djm Exp $
+  ./usr/local/etc/sshd_config:# This is the sshd server system-wide configuration file.  See
+  ./usr/local/etc/sshd_config:# sshd_config(5) for more information.
+  ./usr/local/etc/sshd_config:# This sshd was compiled with PATH=/usr/bin:/bin:/usr/sbin:/sbin
+  ./usr/local/etc/sshd_config:# The strategy used for options in the default sshd_config shipped with
+  ./usr/local/etc/sshd_config:AuthorizedKeysFile  /var/local/misc/sshd/authorized_keys
+  ./usr/local/etc/sshd_config:#PidFile /var/run/sshd.pid
+  grep: ./usr/local/sbin/sshd: binary file matches
+  grep: ./usr/local/bin/bdpprog: binary file matches
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "/usr/bin/sshd" .                                                                                                                                                                                            2 ↵  1166  16:02:28
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "/usr/local/sbin/sshd" .                                                                                                                                                                                     2 ↵  1167  16:02:29
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+  ./etc/init.d/rc5:#/usr/local/sbin/sshd -p 22 &
+  grep: ./usr/local/bin/bdpprog: binary file matches
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "ssh" etc/init.d                                                                                                                                                                                             2 ↵  1168  16:02:32
+  etc/init.d/rc5:#start ssh
+  etc/init.d/rc5:mkdir -p /var/local/misc/sshd
+  etc/init.d/rc5:#/usr/local/sbin/sshd -p 22 &
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  cat etc/inetd.conf                                                                                                                                                                                                     ✔  1169  16:02:39
+  telnet  stream  tcp     nowait  root   /usr/sbin/telnetd telnetd
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  unzip -l etc/security/otacerts.zip                                                                                                                                                                                     ✔  1170  16:03:26
+  Archive:  etc/security/otacerts.zip
+    Length      Date    Time    Name
+  ---------  ---------- -----   ----
+       1675  2020-02-12 03:55   testkey.x509.pem
+  ---------                     -------
+       1675                     1 file
+  c
+
+--- WINDOW  2026/07/16 16:07:07  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:07:07  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:07:07  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [^][^][v][v][^][^][End] 9provided we[Bk][Bk]i [Bk]i can patch the update fiel[Bk][Bk]le and up[Bk][Bk]install it0[ENTER]
+  [ENTER]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [ENTER]
+  [^][ENTER]
+  now fo t[Bk][Bk]r the ins[Bk]teresting [Bk][Ctrl][<-][<-][->]ost [End] part;[v][v][v][v][v][v][v][v][v][^][^][^][v][v][v][v][v][v][v][^][^][^][v][v][v][v][v][v]
+
+--- WINDOW  2026/07/16 16:08:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:08:22  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:08:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:08:22  [Code.exe] ● diana@diana  ~/bin/harman/_JBL_BAR_9_1. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:08:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:08:24  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:08:24  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:08:25  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  etc/init.d/rc5
+  [RMB]
+
+--- WINDOW  2026/07/16 16:08:57  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:09:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:09:01  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:09:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:09:01  [Code.exe] ● diana@diana  ~/bin/harman/_JBL_BAR_9_1. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:09:02  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:09:02  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:09:04  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  their team a[Bk]was cleaar[Bk][Bk]rly on a rush with tho[Bk]is update, byt[Bk][Bk]ut t[Bk][Bk]unfortunatly they didn [Bk]'t fort[Bk][Ctrl][Bk][Bk][Bk][Bk]comment the lines that start ssh from [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  grep -R "inetd" etc/init.d
+  grep -R "telnetd" .
+  [LMB]
+  [LMB]
+  brazilian legislation does not forb[Bk]ide [Bk][Bk] me to acessing a di[Bk]evice i own 9its not hacking0[<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-]c[End][Ctrl][<-][<-][<-][End][<-][Ctrl][<-][Ctrl][->][<-] by the law[Bk][Bk]aw[End][->][v][Home][Ctrl][->]local [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][Ctrl][<-][->][<-] here[Ctrl][->][ENTER]
+  [Ctrl]v[^][^][v][Home][ENTER]
+  [^]heres [v][v][v][v][Bk][Ctrl][Bk]
+
+--- WINDOW  2026/07/16 16:12:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:12:48  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:12:49  [Code.exe] ● diana@diana  ~/bin/harman/_JBL_BAR_9_1. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:12:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:12:52  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:12:52  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:12:53  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  g
+
+--- WINDOW  2026/07/16 16:12:55  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  rep [Ctrl]v[Bk][Bk][Bk][Bk][Bk][Bk][Ctrl]v[Bk][Bk][Bk]
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/07/16 16:13:03  [wsl.exe] grep
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:13:03  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [^][^][ENTER]
+  [^][^][ENTER]
+
+--- WINDOW  2026/07/16 16:13:08  [wsl.exe] grep
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:13:08  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:13:15  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "inetd" etc/init.d                                                                                                                                                                                           2 ↵  1184  16:13:04
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "telnetd" .                                                                                                                                                                                                  1 ↵  1185  16:13:06
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+  ./etc/init.d/upg_4.sh:#PIDS=`ps|grep -v [[] | grep -v "init" | grep -v "kthreadd" | grep -v "ksoftirqd/0"| grep -v "events/0" | grep -v "khelper" | grep -v "async/mgr" | grep -v "pm" | grep -v "sync_supers" | grep -v "bdi-default" | grep -v "kblockd/0" | grep -v "kseriod" | grep -v "kswapd0" | grep -v "aio/0" | grep -v "crypto/0" | grep -v "mtdblock." | grep -v "mtdblock.." | grep -v "kpsmoused" | grep -v "Uart2TxThread" | grep -v "MPV." | grep -v "SR." | grep -v "CECTask Thread" | grep -v "HDMITask Thread" | grep -v "AVDTask Thread" | grep -v "PostTask Thread" | grep -v "VetTask0" | grep -v "VdpRz._Inst" | grep -v "VdpBufResz" | grep -v "NR_Inst" | grep -v "ImgdmaInst." | grep -v "VSYNC" | grep -v "RleThrea00" | grep -v "GfxThrea00" | grep -v "ImgResz._thread" | grep -v "PngInst0" | grep -v "IRRC Thread" | grep -v "OsdThread0" | grep -v "ubi_bgt0d" | grep -v "ubifs_bgt0_0" | grep -v "ADSPTask Thread" | grep -v "AudDrv" | grep -v "AudEff" | grep -v "AudEsm" | grep -v "DMX._TH" | grep -v "DMX_QUEUE_TH" | grep -v "JdecInst." | grep -v "GifInst0" | grep -v "EseInst." | grep -v "EsnInst." | grep -v "VFD Thread" | grep -v "ata_aux" | grep -v "ata_sff/0" | grep -v "sata_mt85xx_0/0" | grep -v "scsi_eh_0" | grep -v "khubd" | grep -v "scsi_eh_1" | grep -v "usb_storage" | grep -v "flush-8:0" | grep -v upg_. | grep -v PID | grep -v "Unknown" | grep -v "telnetd" | grep -v "ps" | grep -v "grep" | grep -v "awk" | awk '{print $1}'`
+  ./etc/inetd.conf:telnet  stream  tcp     nowait  root   /usr/sbin/telnetd telnetd
+  grep: ./usr/local/bin/bdpprog: binary file matches
+  grep: ./usr/sbin/telnetd: binary file matches
+
+--- WINDOW  2026/07/16 16:13:18  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:13:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:13:19  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:13:20  [Code.exe] ● diana@diana  ~/bin/harman/_JBL_BAR_9_1. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+  [Ctrl]av
+
+--- WINDOW  2026/07/16 16:13:22  [Code.exe] ● diana@DESKTOP-N9MR4SU  ~/bin/harman/_JB • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]ddd
+
+--- WINDOW  2026/07/16 16:13:25  [Code.exe] ● diana@d  ~/bin/harman/_JBL_BAR_9_1.bin. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  i
+
+--- WINDOW  2026/07/16 16:13:26  [Code.exe] ● diana@di  ~/bin/harman/_JBL_BAR_9_1.bin • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  a
+
+--- WINDOW  2026/07/16 16:13:26  [Code.exe] ● diana@dia  ~/bin/harman/_JBL_BAR_9_1.bi • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  n
+
+--- WINDOW  2026/07/16 16:13:26  [Code.exe] ● diana@dian  ~/bin/harman/_JBL_BAR_9_1.b • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  a
+
+--- WINDOW  2026/07/16 16:13:26  [Code.exe] ● diana@diana  ~/bin/harman/_JBL_BAR_9_1. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [Esc]
+  [LMB]
+  [Ctrl]ac
+  [Clipboard]
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "inetd" etc/init.d                                                                                                                                                                                           2 ↵  1184  16:13:04
+   diana@diana  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep -R "telnetd" .                                                                                                                                                                                                  1 ↵  1185  16:13:06
+  grep: ./bdplib/libiconv.so: No such file or directory
+  grep: ./bdplib/libiconv.so.2: No such file or directory
+  ./etc/init.d/upg_4.sh:#PIDS=`ps|grep -v [[] | grep -v "init" | grep -v "kthreadd" | grep -v "ksoftirqd/0"| grep -v "events/0" | grep -v "khelper" | grep -v "async/mgr" | grep -v "pm" | grep -v "sync_supers" | grep -v "bdi-default" | grep -v "kblockd/0" | grep -v "kseriod" | grep -v "kswapd0" | grep -v "aio/0" | grep -v "crypto/0" | grep -v "mtdblock." | grep -v "mtdblock.." | grep -v "kpsmoused" | grep -v "Uart2TxThread" | grep -v "MPV." | grep -v "SR." | grep -v "CECTask Thread" | grep -v "HDMITask Thread" | grep -v "AVDTask Thread" | grep -v "PostTask Thread" | grep -v "VetTask0" | grep -v "VdpRz._Inst" | grep -v "VdpBufResz" | grep -v "NR_Inst" | grep -v "ImgdmaInst." | grep -v "VSYNC" | grep -v "RleThrea00" | grep -v "GfxThrea00" | grep -v "ImgResz._thread" | grep -v "PngInst0" | grep -v "IRRC Thread" | grep -v "OsdThread0" | grep -v "ubi_bgt0d" | grep -v "ubifs_bgt0_0" | grep -v "ADSPTask Thread" | grep -v "AudDrv" | grep -v "AudEff" | grep -v "AudEsm" | grep -v "DMX._TH" | grep -v "DMX_QUEUE_TH" | grep -v "JdecInst." | grep -v "GifInst0" | grep -v "EseInst." | grep -v "EsnInst." | grep -v "VFD Thread" | grep -v "ata_aux" | grep -v "ata_sff/0" | grep -v "sata_mt85xx_0/0" | grep -v "scsi_eh_0" | grep -v "khubd" | grep -v "scsi_eh_1" | grep -v "usb_storage" | grep -v "flush-8:0" | grep -v upg_. | grep -v PID | grep -v "Unknown" | grep -v "telnetd" | grep -v "ps" | grep -v "grep" | grep -v "awk" | awk '{print $1}'`
+  ./etc/inetd.conf:telnet  stream  tcp     nowait  root   /usr/sbin/telnetd telnetd
+  grep: ./usr/local/bin/bdpprog: binary file matches
+  grep: ./usr/sbin/telnetd: binary file matches
+
+--- WINDOW  2026/07/16 16:13:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:13:28  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:13:28  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:13:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:13:29  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:13:29  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [ENTER]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [ENTER]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  grep "^root" etc/passwd
+
+--- WINDOW  2026/07/16 16:13:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:13:53  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:13:55  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/07/16 16:14:04  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:05  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:05  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  grep "^root" etc/shadow
+
+--- WINDOW  2026/07/16 16:14:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:09  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:09  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/07/16 16:14:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:12  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:12  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 16:14:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:19  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:19  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [RMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+
+--- WINDOW  2026/07/16 16:14:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:23  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:23  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  strings usr/local/bin/bdpprog | grep ssh
+
+--- WINDOW  2026/07/16 16:14:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:25  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:25  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/16 16:14:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:31  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:34  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:34  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+
+--- WINDOW  2026/07/16 16:14:36  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:36  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:14:36  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Clipboard]
+  strings -a usr/local/bin/bdpprog | grep -Ei \
+  "ssh|telnet|debug|factory|engineer|diag|shell|port|22|23"
+  [LMB]
+
+--- WINDOW  2026/07/16 16:15:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:01  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:01  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/07/16 16:15:03  [wsl.exe] strings
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:03  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [^][->][->][End][<-][Bk][Bk][Bk][Bk][Bk][Bk][ENTER]
+
+--- WINDOW  2026/07/16 16:15:16  [wsl.exe] strings
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:16  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [LMB]
+  [^][^][^][^][^][^][^][^][^]
+
+--- WINDOW  2026/07/16 16:15:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:37  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:37  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:40  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:15:41  [Code.exe] ● diana@diana  ~/bin/harman/_JBL_BAR_9_1. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:15:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:48  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:49  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:53  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:53  [Code.exe] ● diana@diana  ~/bin/harman/_JBL_BAR_9_1. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:15:54  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:15:55  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][^][^][^][^][^][^][v][v][^][v][ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:16:04  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [Ctrl]
+  [Clipboard]
+   diana@DESKTOP-N9MR4SU  ~/bin/harman/_JBL_BAR_9_1.bin.extracted/squashfs-root  grep "^root" etc/passwd                                                                                                                                                                                                ✔  1190  16:15:16
+  root::0:0:root,,,:/root:/bin/sh
+  c
+
+--- WINDOW  2026/07/16 16:16:06  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:16:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:16:06  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:16:06  [Code.exe] ● diana@diana  ~/bin/harman/_JBL_BAR_9_1. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [ENTER]
+  [Ctrl]v[^][Home][->][Ctrl][->][->][<-][->][->]da[Bk]iana[End][Home][End][End][v][Home]
+
+--- WINDOW  2026/07/16 16:16:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:16:22  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:16:23  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:16:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:16:23  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:16:24  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  strings -a usr/local/bin/bdpprog | grep -Ei \
+  "ssh|telnet|debug|factory|engineer|diag|shell
+  [LMB]
+  [LMB]
+  [^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][^][^][^][^][^][v][v][v][v][v][v][v][v][v]
+
+--- WINDOW  2026/07/16 16:18:08  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:18:08  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:18:08  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [^][^][^][^][^][v][v][v][v][v]
+
+--- WINDOW  2026/07/16 16:18:16  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:18:17  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [Clipboard]
+   grep "^root" etc/passwd                                                                                                                                                                                                ✔  1190  16:15:16
+  root::0:0:root,,,:/root:/bin/sh
+  [RMB]
+
+--- WINDOW  2026/07/16 16:18:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:18:17  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:18:17  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [ENTER]
+
+--- WINDOW  2026/07/16 16:18:21  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:18:21  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:18:21  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:18:22  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:18:22  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [^][^][^][^][^][^][v][v][ENTER]
+
+--- WINDOW  2026/07/16 16:18:29  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+
+--- WINDOW  2026/07/16 16:18:30  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [Clipboard]
+   grep "^root" etc/shadow                                                                                                                                                                                                ✔  1191  16:16:02
+  grep: etc/shadow: No such file or directory
+  c
+
+--- WINDOW  2026/07/16 16:18:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:18:30  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:18:31  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [ENTER]
+
+--- WINDOW  2026/07/16 16:18:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:18:34  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:18:34  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [^][^][^][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][<-][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]h[Home][Bk][Bk][ENTER]
+
+--- WINDOW  2026/07/16 16:18:46  [wsl.exe] strings
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:18:46  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [^][<-][->][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]k[Bk]lss[ENTER]
+
+--- WINDOW  2026/07/16 16:19:29  [wsl.exe] strings
+----------------------------------------------------------------------------
+  [v][^]/ssh[ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  /[ENTER]
+  /[ENTER]
+  /[ENTER]
+
+--- WINDOW  2026/07/16 16:20:27  [wsl.exe] Selecionar strings
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  /ssh_service_restart.txt
+
+--- WINDOW  2026/07/16 16:20:29  [wsl.exe] strings
+----------------------------------------------------------------------------
+  /[ENTER]
+  /[ENTER]
+  /[ENTER]
+  /[ENTER]
+  /[ENTER]
+  /[ENTER]
+  /[ENTER]
+  /[ENTER]
+  /[ENTER]
+  /[ENTER]
+  [Home]/[ENTER]
+  /[ENTER]
+  /[ENTER]
+  /[ENTER]
+  /[ENTER]
+  /[ENTER]
+  /[ENTER]
+
+--- WINDOW  2026/07/16 16:21:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:21:26  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:21:26  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:21:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:21:29  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:21:29  [wsl.exe] strings
+----------------------------------------------------------------------------
+  q
+
+--- WINDOW  2026/07/16 16:21:30  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [^][^][^][v]
+
+--- WINDOW  2026/07/16 16:21:32  [wsl.exe] strings
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/16 16:21:32  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:21:41  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [Clipboard]
+  strings -a usr/local/bin/bdpprog | grep -Ei "ssh"                                                                                                                                                                      ✔  1194  16:21:30
+  20CPBSSHOUTCASTCommand
+  24CPBSShiftSubTitleCommand
+  ~CPBSShiftSubTitleCommand
+  CPBSShiftSubTitleCommand: XOffset: %d, YOffset = %d, Type: %d, Plane: %d
+  u1StreamIsDTSHDMA ==> u2essHdrSize = 0x%x
+  glsShow       = 0x%.8X )
+  [MW][AUD][SE][Help] LoudnessShape Cmd Fmt:
+  >> mw.se.lns on /[off]: LoudnessShape on/off
+  ssh block file exist!!!
+  killall sshd
+  ssh block file not exist!!!
+  rm block file, restart ssh service!!!!
+  rm /mnt/ubi_boot/ssh_service_block.txt
+  /ssh_service_restart.txt
+  <tonly>%s!!!,ssh_path:%s!
+  ssh_work_file_exist
+  [MTKCFG][INFO] %s. u4VidIndex=%d, fgIsShow=%d
+  cat /res/pp/id_rsa.pub >> /var/local/misc/sshd/authorized_keys
+  /usr/local/sbin/sshd -p 22 &
+  touch /mnt/ubi_boot/ssh_service_block.txt
+  get_ssh_key_callback trigger!!!
+  cat %s >> /var/local/misc/sshd/authorized_keys
+  get_ssh_key_callback END!!!
+  Start h_ats_get_ssh_key_timer failed, error code = %d
+
+--- WINDOW  2026/07/16 16:21:44  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:21:58  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:21:58  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:21:58  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]only boringh[Bk] sfu[Bk][Bk]tuff w[Bk]here[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  usr/local/etc/sshd_config
+  c
+
+--- WINDOW  2026/07/16 16:23:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:23:22  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:23:22  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [RMB]
+  [Home]car[Bk][Bk][Bk]less [Bk][Bk][Bk][Bk][Bk][Bk]cat [End] \ less[ENTER]
+
+--- WINDOW  2026/07/16 16:23:33  [wsl.exe] cat
+----------------------------------------------------------------------------
+  [v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v]q
+
+--- WINDOW  2026/07/16 16:24:21  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [^][Bk][Bk][Bk][Bk][Bk][Bk][Bk][ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:24:25  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+  [Clipboard]
+  #       $OpenBSD: sshd_config,v 1.101 2017/03/14 07:19:07 djm Exp $
+  
+  # This is the sshd server system-wide configuration file.  See
+  # sshd_config(5) for more information.
+  
+  # This sshd was compiled with PATH=/usr/bin:/bin:/usr/sbin:/sbin
+  
+  # The strategy used for options in the default sshd_config shipped with
+  # OpenSSH is to specify options with their default value where
+  # possible, but leave them commented.  Uncommented options override the
+  # default value.
+  
+  #Port 22
+  #AddressFamily any
+  #ListenAddress 0.0.0.0
+  #ListenAddress ::
+  
+  #HostKey /etc/ssh/ssh_host_rsa_key
+  #HostKey /etc/ssh/ssh_host_dsa_key
+  #HostKey /etc/ssh/ssh_host_ecdsa_key
+  #HostKey /etc/ssh/ssh_host_ed25519_key
+  HostKey /usr/local/etc/ssh_host_rsa_key
+  HostKey /usr/local/etc/ssh_host_dsa_key
+  HostKey /usr/local/etc/ssh_host_ecdsa_key
+  HostKey /usr/local/etc/ssh_host_ed25519_key
+  
+  # Ciphers and keying
+  #RekeyLimit default none
+  
+  # Logging
+  SyslogFacility AUTH
+  LogLevel INFO
+  
+  # Authentication:
+  
+  #LoginGraceTime 2m
+  PermitRootLogin yes
+  StrictModes no
+  #MaxAuthTries 6
+  #MaxSessions 10
+  
+  PubkeyAuthentication yes
+  
+  # The default is to check both .ssh/authorized_keys and .ssh/authorized_keys2
+  # but this is overridden so installations will only check .ssh/authorized_keys
+  AuthorizedKeysFile      /var/local/misc/sshd/authorized_keys
+  
+  #AuthorizedPrincipalsFile none
+  
+  #AuthorizedKeysCommand none
+  #AuthorizedKeysCommandUser nobody
+  
+  # For this to work you will also need host keys in /etc/ssh/ssh_known_hosts
+  #HostbasedAuthentication no
+  # Change to yes if you don't trust ~/.ssh/known_hosts for
+  # HostbasedAuthentication
+  #IgnoreUserKnownHosts no
+  # Don't read the user's ~/.rhosts and ~/.shosts files
+  #IgnoreRhosts yes
+  
+  # To disable tunneled clear text passwords, change to no here!
+  PasswordAuthentication yes
+  PermitEmptyPasswords yes
+  
+  # Change to no to disable s/key passwords
+  #ChallengeResponseAuthentication yes
+  
+  # Kerberos options
+  #KerberosAuthentication no
+  #KerberosOrLocalPasswd yes
+  #KerberosTicketCleanup yes
+  #KerberosGetAFSToken no
+  
+  # GSSAPI options
+  #GSSAPIAuthentication no
+  #GSSAPICleanupCredentials yes
+  
+  # Set this to 'yes' to enable PAM authentication, account processing,
+  # and session processing. If this is enabled, PAM authentication will
+  # be allowed through the ChallengeResponseAuthentication and
+  # PasswordAuthentication.  Depending on your PAM configuration,
+  # PAM authentication via ChallengeResponseAuthentication may bypass
+  # the setting of "PermitRootLogin without-password".
+  # If you just want the PAM account and session checks to run without
+  # PAM authentication, then enable this but set PasswordAuthentication
+  # and ChallengeResponseAuthentication to 'no'.
+  #UsePAM no
+  
+  #AllowAgentForwarding yes
+  #AllowTcpForwarding yes
+  #GatewayPorts no
+  #X11Forwarding no
+  #X11DisplayOffset 10
+  #X11UseLocalhost yes
+  #PermitTTY yes
+  #PrintMotd yes
+  #PrintLastLog yes
+  #TCPKeepAlive yes
+  #UseLogin no
+  #PermitUserEnvironment no
+  #Compression delayed
+  #ClientAliveInterval 0
+  #ClientAliveCountMax 3
+  #UseDNS no
+  #PidFile /var/run/sshd.pid
+  #MaxStartups 10:30:100
+  #PermitTunnel no
+  #ChrootDirectory none
+  #VersionAddendum none
+  
+  # no default banner path
+  #Banner none
+  
+  # override default of no subsystems
+  Subsystem       sftp    /usr/libexec/sftp-server
+  
+  # Example of overriding settings on a per-user basis
+  #Match User anoncvs
+  #       X11Forwarding no
+  #       AllowTcpForwarding no
+  #       PermitTTY no
+  #       ForceCommand cvs server
+
+--- WINDOW  2026/07/16 16:24:29  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:24:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:24:29  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:24:29  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v[Home][Home][Home][Home][Home][Home][Home][Home][Home][Home][Home][Home][Home][Home][ENTER]
+  note about this ap[Bk]pute[Bk][Bk][Bk][Bk][Bk]update; [Ctrl]
+
+--- WINDOW  2026/07/16 16:26:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:26:37  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab][Tab][Tab][Tab][Tab]
+
+--- WINDOW  2026/07/16 16:26:40  [firefox.exe] Instructions | Reverse-engineering JBL flip 4 | Hackaday.io — Mozilla Firefox
+----------------------------------------------------------------------------
+  '
+
+--- WINDOW  2026/07/16 16:26:46  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:26:46  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:26:49  [firefox.exe] PCM/MP3/WAV 音频播放器 — Mozilla Firefox
+----------------------------------------------------------------------------
+  [MMB]
+
+--- WINDOW  2026/07/16 16:26:51  [firefox.exe] Harman Customer FAQ [Bar 9.1 TWS_v1.2] OTA5.docx - Google Docs — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:26:53  [firefox.exe] JBL Bar 9.1 v21.23.11.80 Firmware Update (June 2022) Link and Details: Soundbars — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://harman.widen.net/s/rkmbjjfrzg/firmware_update-jbl_bar_9.1_tws_version_22.01.31.80
+  ct
+
+--- WINDOW  2026/07/16 16:27:19  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+  v[ENTER]
+
+--- WINDOW  2026/07/16 16:27:22  [firefox.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:27:22  [firefox.exe] Abrir “Firmware_update-JBL_Bar_9.1_TWS_Version_21.23.11.80.zip”
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:27:23  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  [<-]/ [ENTER]
+
+--- WINDOW  2026/07/16 16:27:26  [firefox.exe] harman.widen.net/s/rkmbjjfrzg/firmware_update-jbl_bar_9.1_tws_version_22.01.31.80 at DuckDuckGo — Mozilla Firefox
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:27:35  [firefox.exe] Firmware Update JBL Bar 9.1 TWS version 22.01.31.80.pdf — Mozilla Firefox
+----------------------------------------------------------------------------
+  [MMB]
+
+--- WINDOW  2026/07/16 16:27:38  [firefox.exe] harman.widen.net/s/rkmbjjfrzg/firmware_update-jbl_bar_9.1_tws_version_22.01.31.80 at DuckDuckGo — Mozilla Firefox
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:27:47  [firefox.exe] JBL Professional Firmware Updates & Upgrades | JBL Professional | English — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk][ENTER]
+
+--- WINDOW  2026/07/16 16:28:03  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:28:05  [firefox.exe] Sites-MULTI-US-Site — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  site;jbl firmware[ENTER]
+
+--- WINDOW  2026/07/16 16:28:13  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:28:14  [firefox.exe] site:jbl firmware at DuckDuckGo — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+   1g[ENTER]
+
+--- WINDOW  2026/07/16 16:28:17  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:28:18  [firefox.exe] site:jbl firmware - Pesquisa Google — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  update[ENTER]
+
+--- WINDOW  2026/07/16 16:28:22  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:28:22  [firefox.exe] site:jbl update - Pesquisa Google — Mozilla Firefox
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  .com[ENTER]
+
+--- WINDOW  2026/07/16 16:28:27  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:28:27  [firefox.exe] site:jbl.com update - Pesquisa Google — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  firma[Bk]ware update[ENTER]
+
+--- WINDOW  2026/07/16 16:28:40  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:28:40  [firefox.exe] site:jbl.com firmware update - Pesquisa Google — Mozilla Firefox
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+   bar 9.1[ENTER]
+
+--- WINDOW  2026/07/16 16:28:58  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:28:58  [firefox.exe] site:jbl.com firmware update bar 9.1 - Pesquisa Google — Mozilla Firefox
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:29:14  [firefox.exe] Firmware_update_JBL_Bar_9.1_TWS_version_23.06.41.80.pdf — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:29:21  [firefox.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:21  [firefox.exe] Abrir “Firmware_update-JBL_Bar_9.1_TWS_Version_23.06.41.80.zip”
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:29:23  [firefox.exe] Firmware_update_JBL_Bar_9.1_TWS_version_23.06.41.80.pdf — Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:25  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:25  [explorer.exe] local
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:29:27  [explorer.exe] Explorador de Arquivos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:28  [explorer.exe] Firmware_update-JBL_Bar_9.1_TWS_Version_23.06.41.80.zip
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:29:29  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:29  [explorer.exe] local
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:30  [explorer.exe] harman
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  newest[ENTER]
+  [ENTER]
+
+--- WINDOW  2026/07/16 16:29:37  [explorer.exe] newest
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:29:38  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:38  [explorer.exe] Firmware_update-JBL_Bar_9.1_TWS_Version_23.06.41.80.zip
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:29:41  [explorer.exe] Firmware_update-JBL_Bar_9.1_TWS_Version_23.06.41.80
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:29:45  [explorer.exe] newest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:46  [explorer.exe] 12% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:47  [explorer.exe] 17% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:47  [explorer.exe] 21% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:47  [explorer.exe] 25% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:47  [explorer.exe] 29% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:48  [explorer.exe] 33% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:48  [explorer.exe] 38% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:48  [explorer.exe] 42% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:49  [explorer.exe] 46% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:49  [explorer.exe] 51% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:49  [explorer.exe] 56% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:50  [explorer.exe] 61% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:50  [explorer.exe] 65% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:50  [explorer.exe] 70% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:51  [explorer.exe] 74% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:51  [explorer.exe] 78% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:51  [explorer.exe] 83% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:51  [explorer.exe] 88% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:52  [explorer.exe] 93% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:52  [explorer.exe] 99% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:52  [explorer.exe] 100% concluído
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:29:53  [explorer.exe] newest
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:30:00  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:30:00  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:30:00  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:30:00  [explorer.exe] newest
+----------------------------------------------------------------------------
+  [Ctrl]r
+  [LMB]
+  [LMB]
+  [Del]
+
+--- WINDOW  2026/07/16 16:30:04  [explorer.exe] Excluir Arquivo
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:30:04  [explorer.exe] newest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:30:06  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:30:06  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:30:07  [wsl.exe] Selecionar ..squashfs-root
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:30:07  [wsl.exe] ..squashfs-root
+----------------------------------------------------------------------------
+  cd ..[ENTER]
+
+--- WINDOW  2026/07/16 16:30:09  [wsl.exe] ..bin.extracted
+----------------------------------------------------------------------------
+  cd ..[ENTER]
+
+--- WINDOW  2026/07/16 16:30:11  [wsl.exe] ~/bin/harman
+----------------------------------------------------------------------------
+  s[Bk]cd bn[Bk][Bk]be[Bk][Bk]new[Tab][ENTER]
+
+--- WINDOW  2026/07/16 16:30:18  [wsl.exe] ..harman/newest
+----------------------------------------------------------------------------
+  [Ctrl]lf[Bk]
+
+--- WINDOW  2026/07/16 16:30:27  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:30:27  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:30:27  [explorer.exe] newest
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:30:28  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab][Tab][Tab][Tab]
+
+--- WINDOW  2026/07/16 16:30:29  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [Ctrl]aa[Bk]quick side qus[Bk]est; i found a new firmware update [Bk], in the same fgo[Bk][Bk]ormat, please[Ctrl][Bk][Bk][Bk].[ENTER]
+  please make a sh [Bk][Bk][Bk]bash script for quick inspection of aw[Bk][Bk]what mn[Bk][Bk][Ctrl][Bk][Bk]if[Bk][Bk]if its d[Bk]has the same interesting parts[ENTER]
+  [LMB]
+  [Clipboard]
+  #!/usr/bin/env bash
+  
+  ROOT="${1:-squashfs-root}"
+  
+  if [[ ! -d "$ROOT" ]]; then
+      echo "Usage: $0 <squashfs-root>"
+      exit 1
+  fi
+  
+  green='\033[1;32m'
+  yellow='\033[1;33m'
+  red='\033[1;31m'
+  reset='\033[0m'
+  
+  ok()   { echo -e "${green}[+]${reset} $*"; }
+  warn() { echo -e "${yellow}[!]${reset} $*"; }
+  bad()  { echo -e "${red}[-]${reset} $*"; }
+  
+  echo "==== Firmware inspection ===="
+  echo
+  
+  ########################################
+  echo "== build.prop =="
+  
+  if [[ -f "$ROOT/build.prop" ]]; then
+      grep -E \
+          'ro.build.tags|ro.board.platform|ro.product.device|ro.product.model|ro.build.version.release|ro.build.display.id' \
+          "$ROOT/build.prop"
+  
+      grep -q 'test-keys' "$ROOT/build.prop" && ok "Built with test-keys"
+  else
+      bad "build.prop not found"
+  fi
+  
+  echo
+  
+  ########################################
+  echo "== SSH =="
+  
+  if [[ -f "$ROOT/usr/local/sbin/sshd" || -f "$ROOT/usr/bin/sshd" ]]; then
+      ok "OpenSSH server present"
+  else
+      bad "No sshd binary"
+  fi
+  
+  CFG="$ROOT/usr/local/etc/sshd_config"
+  
+  if [[ -f "$CFG" ]]; then
+      grep -E \
+          'PermitRootLogin|PermitEmptyPasswords|PasswordAuthentication|AuthorizedKeysFile|HostKey' \
+          "$CFG"
+  else
+      warn "No sshd_config"
+  fi
+  
+  echo
+  
+  ########################################
+  echo "== passwd =="
+  
+  if [[ -f "$ROOT/etc/passwd" ]]; then
+      grep '^root:' "$ROOT/etc/passwd"
+      grep '^sshd:' "$ROOT/etc/passwd"
+  
+      if grep -q '^root::' "$ROOT/etc/passwd"; then
+          ok "Root has empty password field"
+      fi
+  fi
+  
+  echo
+  
+  ########################################
+  echo "== rc5 =="
+  
+  if [[ -f "$ROOT/etc/init.d/rc5" ]]; then
+      grep -nE 'ssh|telnet' "$ROOT/etc/init.d/rc5"
+  fi
+  
+  echo
+  
+  ########################################
+  echo "== inetd =="
+  
+  if [[ -f "$ROOT/etc/inetd.conf" ]]; then
+      cat "$ROOT/etc/inetd.conf"
+  fi
+  
+  echo
+  
+  ########################################
+  echo "== OTA certificates =="
+  
+  if [[ -f "$ROOT/etc/security/otacerts.zip" ]]; then
+      unzip -l "$ROOT/etc/security/otacerts.zip"
+  fi
+  
+  echo
+  
+  ########################################
+  echo "== Interesting binaries =="
+  
+  for f in \
+      usr/local/bin/bdpprog \
+      usr/local/sbin/sshd \
+      usr/bin/sshd \
+      usr/sbin/telnetd \
+      etc/init.d/upg_prog
+  do
+      if [[ -e "$ROOT/$f" ]]; then
+          ok "$f"
+      fi
+  done
+  
+  echo
+  
+  ########################################
+  echo "== bdpprog strings =="
+  
+  if [[ -f "$ROOT/usr/local/bin/bdpprog" ]]; then
+      strings "$ROOT/usr/local/bin/bdpprog" \
+          | grep -Ei 'ssh|telnet|debug|factory|engineer|diag|shell|root|login|dropbear' \
+          | sort -u
+  fi
+  
+  echo
+  
+  ########################################
+  echo "== update binary =="
+  
+  if [[ -f "$ROOT/etc/init.d/upg_prog" ]]; then
+      strings "$ROOT/etc/init.d/upg_prog" \
+          | grep -Ei 'rsa|sha|crc|verify|cert|signature|openssl|x509'
+  fi
+  
+  echo
+  
+  ########################################
+  echo "== Executables =="
+  
+  find "$ROOT"/{bin,sbin,usr/bin,usr/sbin,usr/local/bin,usr/local/sbin} \
+      -type f -perm -111 2>/dev/null \
+      | sed "s|$ROOT||" \
+      | sort
+  
+  echo
+  echo "Done."
+
+--- WINDOW  2026/07/16 16:32:05  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:05  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:05  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:05  [explorer.exe] newest
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:32:06  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:32:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:09  [wsl.exe] ..harman/newest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:10  [wsl.exe] Selecionar ..harman/newest
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:32:12  [wsl.exe] ..harman/newest
+----------------------------------------------------------------------------
+  [Tab][Bk]l[ENTER]
+  bin[Tab][Tab][Tab][Tab][Tab][Tab][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Ctrl]rbinw[ENTER]
+
+--- WINDOW  2026/07/16 16:32:26  [wsl.exe] binwalk
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:33  [wsl.exe] ..harman/newest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:38  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:32:39  [explorer.exe] newest
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+  a[End][Home]diagnostics.sh[ENTER]
+
+--- WINDOW  2026/07/16 16:32:50  [explorer.exe] Renomear
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:32:52  [explorer.exe] newest
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:32:55  [Code.exe] Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:56  [Code.exe] diagnostics.sh - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:57  [Code.exe] ● diagnostics.sh - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:32:57  [Code.exe] Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:32:59  [Code.exe] ● diagnostics.sh - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:59  [Code.exe] diagnostics.sh - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:59  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:32:59  [explorer.exe] newest
+----------------------------------------------------------------------------
+  [LMB]
+  [Tab]
+
+--- WINDOW  2026/07/16 16:33:00  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab]
+
+--- WINDOW  2026/07/16 16:33:05  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:33:05  [Code.exe] ● diana@diana  ~/bin/harman/_JBL_BAR_9_1. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:33:06  [Code.exe] diagnostics.sh - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/07/16 16:33:07  [Code.exe] ● diagnostics.sh - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]s
+
+--- WINDOW  2026/07/16 16:33:11  [Code.exe] diagnostics.sh - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:33:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:33:25  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:33:25  [explorer.exe] newest
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:33:26  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:33:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:33:27  [wsl.exe] ..harman/newest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:33:27  [wsl.exe] Selecionar ..harman/newest
+----------------------------------------------------------------------------
+  [LMB]
+  d
+
+--- WINDOW  2026/07/16 16:33:30  [wsl.exe] ..harman/newest
+----------------------------------------------------------------------------
+  i[Tab]a[Tab]no[Tab][Ctrl][<-]./[Tab][End][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]l[ENTER]
+
+--- WINDOW  2026/07/16 16:33:38  [wsl.exe] l
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:33:38  [wsl.exe] ..harman/newest
+----------------------------------------------------------------------------
+  chmod +x dis[Tab][Bk]a[Tab][ENTER]
+  [^][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk];/[Bk][Bk][Bk]./d[Tab][Tab][Tab][Tab][ENTER]
+  [Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][ENTER]
+  [ENTER]
+
+--- WINDOW  2026/07/16 16:34:11  [wsl.exe] ./diagnostics.sh
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:34:11  [wsl.exe] ..harman/newest
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:34:54  [wsl.exe] Selecionar ..harman/newest
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/16 16:35:42  [wsl.exe] ..harman/newest
+----------------------------------------------------------------------------
+  [Clipboard]
+  ==== Firmware inspection ====
+  
+  == build.prop ==
+  ro.build.display.id=OPENMASTER.user.mtk07926.20190704.204139
+  ro.build.version.release=1.29
+  ro.build.tags=test-keys
+  ro.product.model=JBL Bar 9.1
+  ro.product.device=wutang
+  ro.board.platform=mt85xx
+  # ro.build.product is obsolete; use ro.product.device
+  [+] Built with test-keys
+  
+  == SSH ==
+  [+] OpenSSH server present
+  #HostKey /etc/ssh/ssh_host_rsa_key
+  #HostKey /etc/ssh/ssh_host_dsa_key
+  #HostKey /etc/ssh/ssh_host_ecdsa_key
+  #HostKey /etc/ssh/ssh_host_ed25519_key
+  HostKey /usr/local/etc/ssh_host_rsa_key
+  HostKey /usr/local/etc/ssh_host_dsa_key
+  HostKey /usr/local/etc/ssh_host_ecdsa_key
+  HostKey /usr/local/etc/ssh_host_ed25519_key
+  PermitRootLogin yes
+  AuthorizedKeysFile      /var/local/misc/sshd/authorized_keys
+  PasswordAuthentication yes
+  PermitEmptyPasswords yes
+  # PasswordAuthentication.  Depending on your PAM configuration,
+  # the setting of "PermitRootLogin without-password".
+  # PAM authentication, then enable this but set PasswordAuthentication
+  
+  == passwd ==
+  root::0:0:root,,,:/root:/bin/sh
+  sshd:$1$FHWtlL/V$SMffvrcU1vMOxHza6XLq60:22:22:Privilege-separated SSH:/var/local/misc/sshd:/bin/login
+  [+] Root has empty password field
+  
+  == rc5 ==
+  55:#start ssh
+  57:mkdir -p /var/local/misc/sshd
+  58:#/usr/local/sbin/sshd -p 22 &
+  
+  == inetd ==
+  telnet  stream  tcp     nowait  root   /usr/sbin/telnetd telnetd
+  
+  == OTA certificates ==
+  Archive:  _JBL_BAR_9_1.bin.extracted/squashfs-root/etc/security/otacerts.zip
+    Length      Date    Time    Name
+  ---------  ---------- -----   ----
+       1675  2020-12-17 01:44   testkey.x509.pem
+  ---------                     -------
+       1675                     1 file
+  
+  == Interesting binaries ==
+  [+] usr/local/bin/bdpprog
+  [+] usr/local/sbin/sshd
+  [+] usr/bin/sshd
+  [+] usr/sbin/telnetd
+  [+] etc/init.d/upg_prog
+  
+  == bdpprog strings ==
+                  h_root_lable = %d
+          Diag right
+          LogInfo                         = 6
+          LogInterface            = 1
+                        a = individual component's debug level in mgr's debug level is used.
+                        a = the AND result of mgr's and individual component's debug level is used.
+                        b = both mgr's and individual component's debug levels are used.
+                        b = the OR result of mgr's and individual component's debug levels are used.
+                        m = mgr's debug level is used for all widget components
+                        s = individual component's debug level is used.
+   0 : Open debuging log
+   M3U Debug Level  : DBG_LEVEL_API
+   M3U Debug Level : DBG_LEVEL_ALL
+   M3U Debug Level : DBG_LEVEL_ERROR
+   M3U Debug Level : DBG_LEVEL_INFO
+   M3U Debug Level : DBG_LEVEL_NONE
+   PB Debug Level  : DBG_LEVEL_API
+   PB Debug Level : DBG_LEVEL_ALL
+   PB Debug Level : DBG_LEVEL_ERROR
+   PB Debug Level : DBG_LEVEL_INFO
+   PB Debug Level : DBG_LEVEL_NONE
+   PB Debug Level : PB_DBG_LEVEL_DEFAULT
+   SPS Debug Level  : DBG_LEVEL_API
+   SPS Debug Level : DBG_LEVEL_ALL
+   SPS Debug Level : DBG_LEVEL_API + DBG_LEVEL_ERROR
+   SPS Debug Level : DBG_LEVEL_ERROR
+   SPS Debug Level : DBG_LEVEL_INFO
+   SPS Debug Level : DBG_LEVEL_INFO + DBG_LEVEL_API
+   SPS Debug Level : DBG_LEVEL_INFO + DBG_LEVEL_ERROR
+   SPS Debug Level : DBG_LEVEL_NONE
+   n : Close MVR NV packet debuging log
+   n : Open MVR NV packet debuging log
+   s : Close MVR SR debuging log
+   s : Open MVR SR debuging log
+   the root hub can't be hotplugged
+  %s %d pt_dev_desc->pt_root_dev NULL.
+  %s , b_is_factory_reseting = %d
+  %s , factory reseting , do nothing and return derictly
+  %s : _DEBUG_ParseMaps Error
+  %s set rcs a arg type instance preset as factory defaults
+  %s::upnp:rootdevice
+  &lt;PresetNameList val=&quot;FactoryDefault&quot;/&gt;
+  ***********glibc debug function result*************
+  ***********glibc debug function started*************
+  /data/factory/serial.txt
+  /root/mt8530_demo_dbg_image.bin
+  /root/ota.zip
+  /root/ota_id_file_8531.bin
+  /ssh_service_restart.txt
+  /tmp/start_content_shell
+  /usr/local/sbin/sshd -p 22 &
+  20CPBSSHOUTCASTCommand
+  24CPBSShiftSubTitleCommand
+  <ACFG>%s,Create file /factory/serial.txt failed!
+  <ACFG>/data/factory/serial.txt exist, return
+  <AM> ERR: auto-resume root application failed = %d
+  <AM> ERR: set debug level failed=%d
+  <AM> ERR: start root application failed = %d
+  <AMB> ERR: set debug level failed=%d
+  <Audio CLI>: _hCurDevRoot =: %d
+  <BT_APP>Current debug level is: %s
+  <DEBUG>break broadcast message to:%s
+  <DEBUG>broadcast message to:%s
+  <DEBUG>error:%d
+  <FA>ERR: Create ID_FRAME_ROOT Failed
+  <HOMEMENU> ERR: Create id_frame_root Failed
+  <HOMEMENU> ERR: Create id_text_se_factorypage Failed
+  <HOMEMENU> ERR: Init id_text_se_factorypage Failed
+  <HOMEMENU_SHARE> set factory reseting flag as TRUE
+  <IDS>x_fm_get_part_ns h_dev_root_lbl=  0x%x
+  <IW>ERR: Create ID_FRAME_ROOT Failed
+  <MEDIACENTER> ERR: file = %s, line = %d,pc_root_path is too long.
+  <MEDIACENTER>ERR: Create ID_FRAME_ROOT Failed
+  <MEDIACENTER>mtk15012->PLB_NOTIF_ROOT_FOLDER_PARSED_OVER
+  <MFS> Allocate pt_mgr->pt_root_xentry failed
+  <MFS> Create MFS MGR Root list failed
+  <MFS> Create MFS MGR Root list sucess
+  <MFS> Create MFS manager root path failed for [%s]
+  <MFS> Current section mfs mgr root path error
+  <MFS> Enter %s ps_root_path: %s, sema_handle %x
+  <MFS> Enter %s ps_root_path:%s
+  <MFS> Invaild mount root path name
+  <MFS> cur mgr root[%s]
+  <MFS> free the root hdl list sector
+  <MFS> path match root
+  <MFS> path not match root
+  <MFS> remove the root mfs mgr list
+  <MFS> root path [%s]
+  <MISC>ERR: Create ID_FRAME_ROOT Failed
+  <NW_ENTRY>ERR: Create ID_FRAME_ROOT Failed
+  <PLAYBACK>ERR: Create ID_FRAME_ROOT_CDRIP Failed
+  <PLAYBACK_DEBUG> PLAY STATE IS %d
+  <PLAYBACK_DEBUG> PLAY u1PBCSubStt IS %d
+  <PLAYBACK_DEBUG> msg type is %d
+  <PLAYBACK_DEBUG> reasion is %d
+  <PLAYBACK_DEBUG>Notify come
+  <PLAYBACK_DEBUG>_playback_app_process_msg_fct type:%d
+  <PLB>ERR: %s rootfolder[%ld],__FUNCTION__ at L%d
+  <PLB>ERR: _plb_notify_root_folder_parsed_over failed[%ld], at L%d
+  <PLB>ERR: plb_device_add_root_folder failed[%ld]
+  <PLB>ERR: plb_device_add_root_folder failed[%ld], at L%d
+  <SCRN_SVR>ERR: Create id_frame_root Failed
+  <SCRN_SVR>ERR: Init id_frame_root Failed
+  <UPG> _upg_c4a_run_shell 00: SEND POWER KEY @LINE%d!
+  <UPG> _upg_c4a_run_shell 05: SEND POWER KEY @LINE%d!
+  <UPG>ERR: Create ID_FRAME_ROOT Failed
+  <UPG_MSG> _upg_c4a_run_shell 01 Run. @Line: %d!
+  <UPG_MSG> _upg_c4a_run_shell Run 03. @Line: %d!
+  <playback_center>API: %s(),PLB_NOTIF_ROOT_FOLDER_PARSED_OVER,pb_cd_pic_plb_notify is %d
+  <playback_share>API: %s(),PLB_NOTIF_ROOT_FOLDER_PARSED_OVER
+  <tonly>%s!!!,ssh_path:%s!
+  >> 7. Set serial ICE debug mode                                           : epp ice
+  >> mw.se.lns on /[off]: LoudnessShape on/off
+  Adaptor debug cli
+  Alloc root fail in gl_save_surface_history
+  BROWSER DMS root folder entry.
+  BROWSER DMS root folder success.
+  CPBSShiftSubTitleCommand: XOffset: %d, YOffset = %d, Type: %d, Plane: %d
+  Call Linux shell
+  Clear all marlin content key debug information
+  Current wifi_setting debug level is: %s
+  DEBUG: ret 0x%x set as OK when E_PB_FP_FILE_PARSER_OVER/E_PB_FP_FILE_READ_EOF
+  DTS-HD MA Debug CLI
+  Debug Level = (%d)
+  Debug level =
+  Debug mode =
+  Diag
+  Diag mode
+  Disable dlna dmp debug log
+  Disable dlna dmr debug log
+  Disable dlna http client debug log
+  Dram Address: %x, Data Size: %x, Debug Flag: %x
+  Enable dlna dmp debug log
+  Enable dlna dmr debug log
+  Enable dlna http client debug log
+  Enter %s @%d,pc_root_path is %s
+  Error, glibc debug not stated yet or memory alloc fail!
+  F:%s Line=%d b_is_manual_debug = %d
+  Factory
+  FactoryDefault
+  FactoryDefaults
+  FactoryDefaults,InstallationDefaults,Vendor defined,silent,normal,loud
+  Failed to start glibcdebug thread
+  Get ASF debug level, 0 : debuging log;
+  Get Daud debug level, 0 : debuging log;
+  Get Debug Config Info1:
+  Get Debug Config Info1: Command Fail!
+  Get Debug Config Info2:
+  Get Debug Config Info2: Command Fail!
+  Get MP4 debug level, 0 : debuging log;
+  Get PB debug level
+  Get Pvr debug level, 0 : debuging log;
+  Get SMB debug level at Server
+  Get Widget-Sets Basic Functions debug level
+  Get Widget-Sets debug mode
+  Get debug level
+  Get debug level (e=error, a=api, i=info, n=none)
+  Get m3u debug level
+  Get pbmgls debug level
+  Invalid SPS debug level
+  LOGIN ERR
+  MPC_STR_DEBUG_: switch[%d], needRstScom[%d], TranType[%d], 3DSourceType[%d], 3DMWSetting[%d]
+  Menu: R=Root menu, other:
+  Menu: T=Title, R=Root, S=Sub-pic, A=Audio, G=Angle, P=Ptt
+  MixerOutput debug cli
+  PB Debug Level = 0x%x
+  Print DIAG_RETURN_CLI_ENABLED
+  RISC decoder set debug level
+  ROOT
+  ROOTFS
+  Root
+  SPS Debug Level = 0x%x
+  Set ASF debug level, 0 : debuging log;
+  Set Daud debug level, 0 : debuging log;
+  Set MP4 debug level, 0 : debuging log;
+  Set MPC Debug level : 0(none)
+  Set MPC Debug level : 1(Error)
+  Set MPC Debug level : 2(Error and Msg)
+  Set MPC Debug level : all
+  Set MPC Debug level : all
+  Set MPC Debug level : none
+  Set PB debug level, 0 : NONE; 1 : ERROR; 2 : API; 4 : INFO; 8: DEFAULT, a: ALL
+  Set Pvr debug level, 0 : debuging log;
+  Set SMB debug level at Server
+  Set Subtitle debug level, 0 : debuging log; 1 : TxData log; a: ALL
+  Set USB KB debug log on/off
+  Set WLAN debug level failed!
+  Set Widget-Sets Basic Functions debug level
+  Set Widget-Sets debug mode
+  Set debug level
+  Set debug level (e=error, a=api, i=info, n=none)
+  Set m3u debug level
+  Set pbmgls debug level
+  Start h_ats_get_ssh_key_timer failed, error code = %d
+  Taggle network debugging information
+  Time stamp   Thread       Debug code   Data
+  USBKB debug_log = OFF
+  USBKB debug_log = ON
+  Unknown debug level
+  Usage : Get UPG debug level 0 : NONE; 1 : ERROR; 2 : API; 4 : INFO; 8: DEFAULT; a: ALL
+  Usage : Set LS FM debug level 0 : NONE; 1 : ERROR; 2 : API; 4 : INFO; a: ALL
+  Usage : Set PB debug level 0 : NONE; 1 : ERROR; 2 : API; 4 : INFO; 8: DEFAULT; a: ALL
+  Usage : Set SMB debug level 0 : NONE; 1 : ERROR; 2 : API; 4 : INFO; 8: DEFAULT; a: ALL
+  Usage : Set SPS debug level ---> 0 : NONE; 1 : ERROR; 2 : API; 4 : INFO; a/f: ALL
+  Usage : Set UPG debug level 0 : NONE; 1 : ERROR; 2 : API; 4 : INFO; 8: DEFAULT; a: ALL
+  Usage : Set UPG debug level 0 : NONE; 1 : ERROR; 2 : API; 4 : INFO; 8: DEFAULT; a: ALL
+  Usage: set identify debug level
+  You are not root! This may not work...
+  [APP]%s:SIF_SW ioctl debuglog set fail
+  [APP]%s:SIF_SW ioctl debuglog set succ
+  [AUDIO_CTRL], Debug Info =========>
+  [AUD_MGR]mrPrintStatus, debug Info =========>!
+  [AutoTest] ##AutoTest#ROOTMENU##.
+  [CB]Device root directory:%s
+  [CB]Device root directory:ERROR
+  [CB]Device's root directory:%s
+  [CB]Device's root directory:ERROR
+  [CFA ASF] Debug : ON
+  [CFA MP4] Debug : ON
+  [CL] set debug level %s
+  [CPSM_CLI] Get CPSM Debug Log Level
+  [CPSM_CLI] Set CPSM Debug Log Level
+  [DEBUG] arp address illegal !
+  [DEBUG] dlna send arp for address : %s
+  [DEV_INF]Device's root device availability:%d
+  [DEV_INF]Device's root device handle:%d
+  [DEV_INF]Device's root device socket number:%d
+  [DEV_INF]Device's root device type:%s
+  [DEV_INF]Device's root device unit id:%d
+  [DEV_INF]Device's root hardware type:%s
+  [DIAG]: Checksum Error, Received checksum =
+  [DIAG]: Checksum OK, checksum =
+  [DIAG]: Get "abort" Command
+  [DIAG]: Get "end" Command
+  [DIAG]: Get invalid cmd, and discard this command
+  [DIAG]: The key data is not valid!!!
+  [DIAG]: data pointer =
+  [DIAG]: exist a such subkey already!
+  [DIAG]: exit key installing state
+  [DIAG]: invalid data pointer!
+  [DIAG]: invalid subkey command
+  [DIAG]: key data length =
+  [DIAG]: key type: %d
+  [DIAG]: mem alloc fail
+  [DIAG]: memory alloc error!!!
+  [DIAG]: push subkey data to buffer error!
+  [DIAG]: subkey type:
+  [DMH]ROOT HUB DEVICE
+  [DMH]dmh_reg_root_nfy_fct %10s(%d):
+  [DMH]root id is %d
+  [DMH]ui4_root_dev_id is %d
+  [DM] %s %d pt_dev_desc->pt_root_dev->ui4_unit_id=%u
+  [DRV_INIT_PROG] start_content_shell!
+  [FM] %s: #%d: get iso9660 disc root dir's file number t_info.ui4_file_num= %d, t_info.ui4_dir_num=%d
+  [FM] %s: #%d: ui4_root_dir_sec: %u
+  [IMG] set debug level %s
+  [LPE DAUD]  1~6 : Open debuging log
+  [LPE DAUD] Debug : OFF
+  [LPE DAUD] Debug : ON
+  [LPE DAUD] Set debug level--[0x%lx]
+  [LPE PVR]  1~6 : Open debuging log
+  [LPE PVR] Debug : OFF
+  [LPE PVR] Debug : ON
+  [LPE PVR] Set debug level--[0x%lx]
+  [LPE][AUD][FILE INFO Notify]File Type no need add debug info
+  [MTKCFG][INFO] %s. u4VidIndex=%d, fgIsShow=%d
+  [MW][AUD][SE][Help] LoudnessShape Cmd Fmt:
+  [MW_AUD_CLI] RISC Decoder set debug level %s
+  [ODD]<DiagFunc>(Error) Byte 3~6 : 0x%x 0x%x 0x%x 0x%x, BufLen:0x%x (0x%x,0x%x,0x%x)
+  [SMB] %s(%d):ps_smb_root=%s cmd=%s!.
+  [Subtitle] set debug level %s
+  [TCM_CLI] set debug level %d
+  [i4NFBWrite_Oppo_Rootfs]u4DevId = %d, u8Offset = 0x%x, u4MemPtr = 0x%x, u4MemLen = 0x%x
+  [mdb] After modify,root folder, %s!
+  [mdb] Android folder in ROOT ,ignore
+  [mdb] Root folder is empty
+  [mdb] Root folder is empty when init
+  [mdb] This root folder, %s is exist!
+  [mdb] add root folder %s
+  [mdb] find1 root folder %s
+  [mdb] root folder Not found
+  [tm] open root .
+  _DEBUG_ParseMaps filePath is NULL
+  _DEBUG_ParseMaps filePath=%s
+  _mdb_collector_add_root_folder
+  _mediacenter_handle_root_folder_parse_over
+  _plb_get_root_by_filepath
+  _plb_just_add_root_folder_to_device
+  _plb_notify_root_folder_parsed_over
+  _sm_cc_hdlr_manual_debug
+  _u4Debug_Lv is %ld
+  _u4Debug_Lv is %ld, error!
+  a_c4a_factory_data_reset
+  a_c4a_factory_data_reset_used_by_wfs
+  a_mtkapi_bt_bluetooth_factory_reset
+  a_tcl_factory_reset_time_cb
+  act_pb_root
+  add root folder
+  airplay_bct for debug
+  at_secm_root_cmd_tbl
+  c_net_wlan_get_debug_level
+  c_net_wlan_set_debug_level
+  cat %s >> /var/local/misc/sshd/authorized_keys
+  cat /res/pp/id_rsa.pub >> /var/local/misc/sshd/authorized_keys
+  cba_user debug level
+  chmod 777 /root
+  debug switch
+  debug=
+  debugPrintShift
+  diag
+  disc identify   Usage:Cmd discType sessionId hDev devRootLbl devName mntPath
+  dmh_reg_root_nfy_fct
+  dzy add debug here for none vp9 full stop
+  dzy add debug here for vp9 full stop
+  enter _cli_cmd_diag_set_option
+  enter _cli_cmd_diag_set_option return -10
+  external ST debug commands
+  factory
+  factory.
+  factory.macw
+  factory.macw
+  factory.macw %s
+  factory.pl
+  factory.rsw
+  factory.wsw
+  factory1
+  factory2
+  factory3
+  factory4
+  factory5
+  factory6
+  factory7
+  factory8
+  get debug level
+  get_ssh_key_callback END!!!
+  get_ssh_key_callback trigger!!!
+  glibc debug function start
+  glibc debug function stop
+  glibcdebug
+  glibcdebugstart
+  glibcdebugstop
+  glsShow       = 0x%.8X )
+  h_dev = [%d],h_dev_root_lbl = [%d], device name = [%s], device type = [%d]
+  h_dev_root_lbl = %ld
+  i4NFBWrite_Denon_Rootfs
+  i4UpgWrite_Denon_Rootfs
+  ids debug commands
+  ifconfig | awk '/Bcast/ {print $2"."$4}' |sed 's/addr://' |sed 's/Mask://' | awk 'NR==1||($1 ~ /^telnet/)'
+  insmod /mnt/rootfs_normal/lib/modules/2.6.35/BDP/mt7601/rtsta.ko
+  insmod /mnt/rootfs_normal/lib/modules/2.6.35/BDP/mt7610/rtsta.ko
+  insmod /mnt/rootfs_normal/lib/modules/2.6.35/BDP/mt7662u_sta.ko
+  insmod /mnt/rootfs_normal/lib/modules/2.6.35/BDP/rt5572sta.ko
+  insmod /mnt/rootfs_normal/lib/modules/2.6.35/BDP/rtnet5572sta.ko
+  insmod /mnt/rootfs_normal/lib/modules/2.6.35/BDP/rtutil5572sta.ko
+  invoke_telnetd
+  killall sshd
+  linux_upg_run_shell
+  login
+  lpch_open_ts_dmx() : x_tm_open_root open fail
+  lupeng debug bitrate = %ld, samplerate = %ld, channels = %d, e_bitsPerSample = %d
+  mdb module query root: [-n &] [-o &]
+  mdb query root fail: %d
+  mdb set root directory error: %d
+  mediacenter_get_root_path_name_for_edit
+  mediacenter_set_root_path_name_for_edit
+  mengwc <VFDMG> VFDMG_LVLN3_FACTORY_RESET VFDMG_COMMON_TIMEOUT
+  mixer debug cli
+  mixer debug: taskdbg!
+  mw debug print on-off
+  mw.wifi.mrvl_mwlandebug
+  pb ab repeat debug commands
+  pb bookmark debug commands
+  pb common debug commands
+  pb database debug commands
+  pb engine debug commands
+  pb file debug commands
+  pb item debug commands
+  pb mode ctrl debug commands
+  pb mode ctrl disc debug commands
+  pb mode ctrl file debug commands
+  pb normal debug commands
+  pb setup debug commands
+  pb stream debug commands
+  pb trick debug commands
+  pt_dev_desc->pt_root_dev != NULL
+  pt_dev_desc->pt_root_dev == pt_cb_dev->pt_root_dev
+  pt_dev_desc->pt_root_dev == pt_tmp_dev->pt_root_dev
+  pt_dev_desc->pt_root_dev->b_avail == TRUE
+  pt_mgr->ps_root_path!=NULL
+  pt_mgr->ps_root_path==NULL
+  pt_root_xent!=NULL
+  queue debug commands
+  rm -r /data/cache /data/chrome /data/property     /data/share /data/sntpd /data/watchdog /data/wifi     /data/factory/client.crt /data/factory/client.key.bin
+  rm -rf /sbin/dropbearmulti
+  rm /mnt/ubi_boot/ssh_service_block.txt
+  rm /root/JBL_BAR_9_1.bin
+  rm block file, restart ssh service!!!!
+  root dir :%s
+  root_menu
+  set MPC debug log for stc
+  src/mediamw/mpc/common/mpc_factory.c
+  src/mw/tbl_mngr/tm_root.c
+  ssh block file exist!!!
+  ssh block file not exist!!!
+  ssh_work_file_exist
+  start to set debug output device for output!
+  start to set debug output device for output, remeber to stop if you don't want to debug!
+  surround_24v_enable for debug
+  switch MPC debug log
+  switch dmp debug
+  switch dmr debug
+  switch http fm debug
+  tcm set debug level
+  telnetd invoked failed
+  telnetd invoked ok
+  time debug
+  time_debug
+  tonly_factory_reset_cfg_value
+  touch /mnt/ubi_boot/ssh_service_block.txt
+  u1StreamIsDTSHDMA ==> u2essHdrSize = 0x%x
+  upg_anycase for debug
+  upg_boot for debug
+  upg_module for debug
+  upg_stop for debug
+  x_net_smb_set_root
+  x_sema_lock(_prMPCFactoryMutex, X_SEMA_OPTION_WAIT) == ((INT32) 0)
+  x_sema_unlock(_prMPCFactoryMutex) == ((INT32) 0)
+  {LPCH_TSINFO} Could not delete root (%d, res=%d)
+  {LPCH_TSINFO} Deleting table root %d (%d)
+  {PBMG} Resume ROOT/TITLE menu of DVD disc!
+  {PLB}API: _plb_just_add_root_folder_to_device!
+  {PLB}ERROR: OVERFLOW in %s!ui2_dir is %d, ui2_root_buf_len is %d!    FAILED
+  {PLB}INFO: The root is %s
+  {PLB}INFO:%s:%d:add root folder: %s
+  {PLB}INFO:_plb_notify_root_folder_parsed_over notify ok
+  {PLB}INFO:root folder
+  {TM} x_tm_find_root: ps_name %s
+  {TM} x_tm_open_root: ps_name %s e_src_type %d     pv_src_info 0x%x pv_nfy_tag 0x%x pf_nfy 0x%x ph_root %d pe_cond 0x%x
+  {TM}free root ctrl
+  ~CPBSShiftSubTitleCommand
+  
+  == update binary ==
+  <UPG_PROG>[VERIFY] wait verify result timeout.
+  <UPG_PROG>[VERIFY]bin verify fail,do not update pit and active_id_list@Line %d
+  /usr/share/locale
+  Can not access a needed shared library
+  Accessing a corrupted shared library
+  Attempting to link in too many shared libraries
+  Cannot exec a shared library directly
+  Universal
+  /usr/share/zoneinfo
+  cannot stat shared object
+  cannot create shared object descriptor
+  shared object cannot be dlopen()ed
+  cannot enable executable stack as shared object requires
+  failed to map segment from shared object
+  cannot open shared object file
+  %s: Symbol `%s' has different size in shared object, consider re-linking
+  error while loading shared libraries
+  shared object not open
+  
+  == Executables ==
+  /bin/alsactl
+  /bin/amixer
+  /bin/aplay
+  /bin/bluetooth-cli
+  /bin/bluetoothtbd
+  /bin/bt_debug_enable
+  /bin/busybox
+  /bin/cast_installer
+  /bin/cast_receiver.sh
+  /bin/clear_crash_counter
+  /bin/cli
+  /bin/curl
+  /bin/dhcpcd
+  /bin/dnsmasq
+  /bin/flash_bootloader
+  /bin/flash_image
+  /bin/flock
+  /bin/gunzip
+  /bin/gzip
+  /bin/hostapd
+  /bin/hostapd_cli
+  /bin/logcat
+  /bin/logcatd
+  /bin/logd
+  /bin/logwrapper
+  /bin/make_ext4fs
+  /bin/metrics_client
+  /bin/mtkwrapper
+  /bin/net_mgr
+  /bin/net_mgr_util
+  /bin/netcfg
+  /bin/perf
+  /bin/ping
+  /bin/process_monitor
+  /bin/rm
+  /bin/secure-script
+  /bin/service
+  /bin/servicemanager
+  /bin/sh.wrapper
+  /bin/simg2img
+  /bin/sockcat
+  /bin/toolbox
+  /bin/toolbox_root
+  /bin/toybox
+  /bin/watchdog
+  /bin/wpa_cli
+  /bin/wpa_supplicant
+  /sbin/agetty
+  /sbin/arping
+  /sbin/dhcpc.script
+  /sbin/dhcpv6.script
+  /sbin/dibbler-client
+  /sbin/dns.script
+  /sbin/e2fsck
+  /sbin/fdisk
+  /sbin/flash_erase
+  /sbin/flash_eraseall
+  /sbin/fsck.ext4
+  /sbin/halt
+  /sbin/hostname
+  /sbin/ifconfig
+  /sbin/ifconfig.script
+  /sbin/init
+  /sbin/insmod
+  /sbin/insmod_r
+  /sbin/ipcd
+  /sbin/losetup
+  /sbin/lsmod
+  /sbin/mke2fs
+  /sbin/mkfs.ext4
+  /sbin/netinfd
+  /sbin/notify
+  /sbin/pppoe.script
+  /sbin/rdnss
+  /sbin/resize2fs
+  /sbin/rmmod
+  /sbin/rmmod_r
+  /sbin/route
+  /sbin/shutdown
+  /sbin/tcpdump
+  /sbin/traceroute6
+  /sbin/ubidetach
+  /sbin/ubiformat
+  /sbin/ubinfo
+  /sbin/ubinize
+  /sbin/ubirmvol
+  /sbin/udhcpc
+  /usr/bin/[
+  /usr/bin/aconnect
+  /usr/bin/alsaloop
+  /usr/bin/alsaucm
+  /usr/bin/amidi
+  /usr/bin/amixer
+  /usr/bin/aplay
+  /usr/bin/aplaymidi
+  /usr/bin/arecordmidi
+  /usr/bin/aseqdump
+  /usr/bin/aseqnet
+  /usr/bin/aserver
+  /usr/bin/bdpprog.sh
+  /usr/bin/btservice.sh
+  /usr/bin/c4a_adpater_server
+  /usr/bin/c4a_adpater_server.sh
+  /usr/bin/cast_installer.sh
+  /usr/bin/chrt
+  /usr/bin/curl
+  /usr/bin/dhcpd
+  /usr/bin/dhcpd.conf
+  /usr/bin/dhcpd_sony.conf
+  /usr/bin/dlna_dmr
+  /usr/bin/dlna_dmr_cli
+  /usr/bin/du
+  /usr/bin/expr
+  /usr/bin/find
+  /usr/bin/head
+  /usr/bin/hexdump
+  /usr/bin/hostapd
+  /usr/bin/id
+  /usr/bin/iecset
+  /usr/bin/killall
+  /usr/bin/lirc_monitor
+  /usr/bin/lircd_simulator
+  /usr/bin/md5sum
+  /usr/bin/mtkwrapper
+  /usr/bin/ntpdate
+  /usr/bin/openssl
+  /usr/bin/pkill
+  /usr/bin/process.json
+  /usr/bin/speaker-test
+  /usr/bin/syncwait.sh
+  /usr/bin/tclmusic
+  /usr/bin/tee
+  /usr/bin/test
+  /usr/bin/tftp
+  /usr/bin/top
+  /usr/bin/tr
+  /usr/bin/umount1
+  /usr/bin/wc
+  /usr/bin/xargs
+  /usr/local/bin/ated
+  /usr/local/bin/bdpprog
+  /usr/local/bin/brctl
+  /usr/local/bin/cast_auth_test
+  /usr/local/bin/dialserver
+  /usr/local/bin/dmctest
+  /usr/local/bin/drop_cache
+  /usr/local/bin/eprun.sh
+  /usr/local/bin/hlstest
+  /usr/local/bin/ifrename
+  /usr/local/bin/intr_check
+  /usr/local/bin/iperf_1.7.0
+  /usr/local/bin/iperf_2.0.4
+  /usr/local/bin/iwconfig
+  /usr/local/bin/iwevent
+  /usr/local/bin/iwgetid
+  /usr/local/bin/iwlist
+  /usr/local/bin/iwpriv
+  /usr/local/bin/iwspy
+  /usr/local/bin/ixchariot/ixchariot-v6.4/ixchariot/endpoint
+  /usr/local/bin/network_entry/BBC_CATAL.png
+  /usr/local/bin/network_entry/BBC_News.png
+  /usr/local/bin/network_entry/BBC_Sport.png
+  /usr/local/bin/network_entry/Network_AccuWeather_HTML5.png
+  /usr/local/bin/network_entry/Network_AlphaLine.png
+  /usr/local/bin/network_entry/Network_BestBuy.png
+  /usr/local/bin/network_entry/Network_BestBuy_V1.png
+  /usr/local/bin/network_entry/Network_BlockBuster.png
+  /usr/local/bin/network_entry/Network_Browser.png
+  /usr/local/bin/network_entry/Network_CN_HTML5.png
+  /usr/local/bin/network_entry/Network_Chumby.png
+  /usr/local/bin/network_entry/Network_Cinemanow.png
+  /usr/local/bin/network_entry/Network_Deezer.png
+  /usr/local/bin/network_entry/Network_FilmFresh.png
+  /usr/local/bin/network_entry/Network_Flingo.png
+  /usr/local/bin/network_entry/Network_Huluplus.png
+  /usr/local/bin/network_entry/Network_Leanback.png
+  /usr/local/bin/network_entry/Network_Napster.png
+  /usr/local/bin/network_entry/Network_Netflix.png
+  /usr/local/bin/network_entry/Network_OperaTVstore.png
+  /usr/local/bin/network_entry/Network_Pandora.png
+  /usr/local/bin/network_entry/Network_Picasa.png
+  /usr/local/bin/network_entry/Network_Real3D.png
+  /usr/local/bin/network_entry/Network_Rhapsody.png
+  /usr/local/bin/network_entry/Network_TargetTicket.png
+  /usr/local/bin/network_entry/Network_ThinkingScreen.png
+  /usr/local/bin/network_entry/Network_Vizio.png
+  /usr/local/bin/network_entry/Network_Vudu.png
+  /usr/local/bin/network_entry/Network_Vudu1.png
+  /usr/local/bin/network_entry/Network_Weather.png
+  /usr/local/bin/network_entry/Network_YouTubeV4.png
+  /usr/local/bin/network_entry/Network_acTVila.png
+  /usr/local/bin/network_entry/Network_bws_bbc.png
+  /usr/local/bin/network_entry/Network_huluHtml5.png
+  /usr/local/bin/network_entry/Network_skype.png
+  /usr/local/bin/network_entry/Network_spotify.png
+  /usr/local/bin/network_entry/Network_vTuner.png
+  /usr/local/bin/network_entry/Network_vTunerhtml5.png
+  /usr/local/bin/network_entry/Network_wifiDisplay.png
+  /usr/local/bin/network_entry/Network_yupptv.png
+  /usr/local/bin/network_entry/Pandora_html5.png
+  /usr/local/bin/network_entry/dropbox.png
+  /usr/local/bin/network_entry/html5_test.png
+  /usr/local/bin/network_entry/net_config.ini
+  /usr/local/bin/run_dialserver.sh
+  /usr/local/bin/sata_daemon
+  /usr/local/bin/scp
+  /usr/local/bin/sftp
+  /usr/local/bin/ssh
+  /usr/local/bin/ssh-add
+  /usr/local/bin/ssh-agent
+  /usr/local/bin/ssh-keygen
+  /usr/local/bin/ssh-keyscan
+  /usr/local/bin/upgprog
+  /usr/local/bin/wifitest
+  /usr/local/sbin/sshd
+  /usr/sbin/WACServer
+  /usr/sbin/airplaydemo
+  /usr/sbin/boots
+  /usr/sbin/boots_srv
+  /usr/sbin/bt-dbg
+  /usr/sbin/btmw-rpc-test
+  /usr/sbin/btmw-test
+  /usr/sbin/btservice
+  /usr/sbin/btut
+  /usr/sbin/chroot
+  /usr/sbin/inetd
+  /usr/sbin/mdnsd
+  /usr/sbin/picus
+  /usr/sbin/start_airplay2.sh
+  /usr/sbin/start_mdnsd.sh
+  /usr/sbin/start_wacserver.sh
+  /usr/sbin/telnetd
+  
+  Done.
+
+--- WINDOW  2026/07/16 16:35:44  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:35:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:35:45  [firefox.exe] Instructions | Reverse-engineering JBL flip 4 | Hackaday.io — Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:35:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:35:47  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab][Tab][Tab]
+
+--- WINDOW  2026/07/16 16:35:49  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]ok seems that not mucj [Bk][Bk]h change between m[Bk]versions;[ENTER]
+  [ENTER]
+  [Ctrl][Ctrl][^][v][Ctrl][^][^][Ctrl][->]f[Bk]to me it s[Bk][Bk] [v][v][Bk][Bk][Bk], but here 
+
+--- WINDOW  2026/07/16 16:36:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:36:19  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab][Tab][Tab]
+
+--- WINDOW  2026/07/16 16:36:22  [Code.exe] diagnostics.sh - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]a
+  [LMB]
+
+--- WINDOW  2026/07/16 16:36:24  [Code.exe] ● diana@diana  ~/bin/harman/_JBL_BAR_9_1. • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]av
+
+--- WINDOW  2026/07/16 16:36:25  [Code.exe] ● ==== Firmware inspection ==== • Untitled-3 - vaccancies-fetcher [WSL: Ubuntu] - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]ac
+
+--- WINDOW  2026/07/16 16:36:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:36:34  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:36:35  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  s[Bk][Bk]s the full output anyway[ENTER]
+  [ENTER]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:38:45  [firefox.exe] Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:38:45  [firefox.exe] bdpprog at DuckDuckGo — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+   1g[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:39:06  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:39:10  [firefox.exe] bdpprog at DuckDuckGo — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:39:12  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:40:17  [firefox.exe] bin update package - Pesquisa Google — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:40:19  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:40:20  [firefox.exe] bdpprog - Pesquisa Google — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:40:21  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:40:23  [firefox.exe] bdpprog - Pesquisa Google — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]a
+  [Clipboard]
+  bdpprog
+  c[Ctrl]w
+
+--- WINDOW  2026/07/16 16:40:32  [firefox.exe] Harman/JBL Soundbar Update Formats - Google Gemini — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:40:38  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  i woundt be surpreside [Bk][Bk][Bk][Bk]ed [Ctrl]a[Bk]i would perfer not toucht[Bk]ing the firmware
+  [RMB]
+  [LMB]
+  [LMB]
+   as th[Bk]hs[Bk][Ctrl][Bk][Bk][Bk], a bircked device is
+  [LMB]
+  [Bk][<-]r[End] far from the goal[<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][->] anyway[End][ENTER]
+  i iw[Bk][Bk]will try to connect it the [Bk][Bk][Bk][Bk]to t[Bk]sa[Bk][Bk][Bk] my netwok[Bk]rk and see w[Bk]which ports are open [Bk][Ctrl][<-][<-][End][ENTER]
+
+--- WINDOW  2026/07/16 16:42:45  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:42:45  [wsl.exe] ..harman/newest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:42:45  [wsl.exe] Selecionar ..harman/newest
+----------------------------------------------------------------------------
+  [LMB]
+  s
+
+--- WINDOW  2026/07/16 16:42:47  [wsl.exe] ..harman/newest
+----------------------------------------------------------------------------
+  udo apt install nmap
+
+--- WINDOW  2026/07/16 16:42:50  [wsl.exe] apt
+----------------------------------------------------------------------------
+  [ENTER]
+  ilus7137[ENTER]
+  y[ENTER]
+
+--- WINDOW  2026/07/16 16:43:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:43:01  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:43:01  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:44:35  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:44:36  [wsl.exe] ..harman/newest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:44:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:44:37  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:44:37  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:45:07  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:45:07  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:45:08  [firefox.exe] GitHub - dakrone/cheshire: Clojure JSON and JSON SMILE (binary json format) encoding/decoding · GitHub — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:45:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:45:10  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab][Tab][Tab]
+
+--- WINDOW  2026/07/16 16:45:11  [firefox.exe] Instructions | Reverse-engineering JBL flip 4 | Hackaday.io — Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:45:17  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:45:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:45:18  [firefox.exe] Firmware_update_JBL_Bar_9.1_TWS_version_23.06.41.80.pdf — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:45:20  [firefox.exe] Silver Rock | Ironwood RPG — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:49:13  [firefox.exe] Firmware_update_JBL_Bar_9.1_TWS_version_23.06.41.80.pdf — Mozilla Firefox
+----------------------------------------------------------------------------
+  [MMB]
+
+--- WINDOW  2026/07/16 16:49:15  [firefox.exe] Atualização de software do seu produto — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:49:16  [firefox.exe] BAR 9.1: Observações do lançamento de atualização de software — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:49:17  [firefox.exe] Soundbar Bar 9.1 True Wireless Surround Dolby Atmos® | JBL Brasil — Mozilla Firefox
+----------------------------------------------------------------------------
+  [MMB]
+
+--- WINDOW  2026/07/16 16:49:18  [firefox.exe] JBL_SB_Bar-9.1_3D_SURROUND_Owner's-Manual_PT-BR.pdf — Mozilla Firefox
+----------------------------------------------------------------------------
+  [MMB]
+  [Ctrl]h
+  [LMB]
+  manual
+  [MMB]
+
+--- WINDOW  2026/07/16 16:49:35  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:49:36  [firefox.exe] PDF.js viewer — Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:49:36  [firefox.exe] JBL_SB_Bar-9.1_3D_SURROUND_Owner's-Manual_PT-BR.pdf — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]fwi-fi
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:50:24  [firefox.exe] WhatsApp — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  theus[ENTER]
+  tem um cabo ethernet a´i/[ENTER]
+
+--- WINDOW  2026/07/16 16:50:56  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:50:56  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 16:50:58  [firefox.exe] GitHub - dakrone/cheshire: Clojure JSON and JSON SMILE (binary json format) encoding/decoding · GitHub — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:51:02  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:51:02  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:51:04  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  notei que[Bk][Ctrl]a[Bk]notice the device has an ethernet port, can i run the tests us[Bk][Bk]connecting it directly yo m[Bk][Bk][Bk]to[Bk][Bk][Bk]to my desktop/[ENTER]
+  [LMB]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:52:07  [firefox.exe] Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:52:08  [firefox.exe] NICs at DuckDuckGo — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [MMB]
+
+--- WINDOW  2026/07/16 16:52:11  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  NICs
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:52:20  [firefox.exe] Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:52:20  [firefox.exe] NICs at DuckDuckGo — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:52:21  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  MDI-X
+  [LMB]
+
+--- WINDOW  2026/07/16 16:52:23  [firefox.exe] NICs at DuckDuckGo — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+   [Ctrl]v[Ctrl][<-][<-]with [ENTER]
+
+--- WINDOW  2026/07/16 16:52:28  [firefox.exe] NIC with MDI-X at DuckDuckGo — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [Del][Del]y [ENTER]
+
+--- WINDOW  2026/07/16 16:52:48  [firefox.exe] Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 16:52:53  [firefox.exe] MDI-X - YouTube — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:53:09  [firefox.exe] NÃO IMPORTA SE VOCÊ USA CABO DIRETO ou CROSSOVER (mdi x mdix - cabeamento estruturado) - YouTube — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 16:54:24  [firefox.exe] MDI-X - YouTube — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 16:54:44  [firefox.exe] NÃO IMPORTA SE VOCÊ USA CABO DIRETO ou CROSSOVER (mdi x mdix - cabeamento estruturado) - YouTube — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [->][->][->][->][->][->][<-][->][->][->][->][<-][->][->][<-][<-]
+
+--- WINDOW  2026/07/16 16:57:16  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
