@@ -1,0 +1,753 @@
+﻿
+--- WINDOW  2026/07/16 17:57:18  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:57:32  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:57:32  [Taskmgr.exe] Gerenciador de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:57:34  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:57:34  [explorer.exe] Conexões de Rede
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:57:38  [dllhost.exe] Propriedades de Conexão de Rede Bluetooth 2
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:57:40  [explorer.exe] Conexões de Rede
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:57:41  [explorer.exe] Explorador de Arquivos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:57:41  [explorer.exe] Dispositivos e Impressoras
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:57:44  [explorer.exe] Conexões de Rede
+----------------------------------------------------------------------------
+  [RMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:57:56  [explorer.exe] Status de Wi-Fi
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:57:58  [explorer.exe] Detalhes da Conexão de Rede
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:57:59  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:57:59  [explorer.exe] Conexões de Rede
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:57:59  [explorer.exe] Status de vEthernet (WSL)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:58:01  [explorer.exe] Detalhes da Conexão de Rede
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:58:07  [explorer.exe] Status de vEthernet (WSL)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:58:08  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:58:08  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:58:08  [explorer.exe] Conexões de Rede
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:58:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:58:09  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab][Tab][Tab]
+
+--- WINDOW  2026/07/16 17:58:10  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:58:12  [powershell.exe] Selecionar Windows PowerShell
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:58:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:58:23  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:58:29  [firefox.exe] Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [MMB]
+
+--- WINDOW  2026/07/16 17:58:30  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:58:37  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:58:37  [Taskmgr.exe] Gerenciador de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:58:39  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:58:39  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:58:40  [explorer.exe] Status de vEthernet (WSL)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:58:42  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:58:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:58:43  [explorer.exe] Conexões de Rede
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:58:46  [explorer.exe] Status de Wi-Fi
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:58:47  [explorer.exe] Detalhes da Conexão de Rede
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:58:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:58:48  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:58:49  [powershell.exe] Selecionar Windows PowerShell
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:59:00  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:59:01  [powershell.exe] Selecionar Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:59:04  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:59:04  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:59:07  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  nmap 
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 17:59:24  [firefox.exe] Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/16 17:59:26  [firefox.exe] nmap at DuckDuckGo — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:59:28  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:59:28  [wsl.exe] ..harman/newest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:59:29  [wsl.exe] Selecionar ..harman/newest
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:59:29  [wsl.exe] ..harman/newest
+----------------------------------------------------------------------------
+  sudo apt remove nmap[ENTER]
+
+--- WINDOW  2026/07/16 17:59:34  [wsl.exe] apt
+----------------------------------------------------------------------------
+  ilus7137[ENTER]
+
+--- WINDOW  2026/07/16 17:59:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:59:38  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:59:38  [firefox.exe] nmap at DuckDuckGo — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:59:52  [firefox.exe] Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 17:59:52  [firefox.exe] Nmap: the Network Mapper - Free Security Scanner — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 17:59:57  [firefox.exe] Download the Free Nmap Security Scanner for Linux/Mac/Windows — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 18:00:30  [firefox.exe] Nmap/Old Windows Releases - SecWiki — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [Ctrl]w
+
+--- WINDOW  2026/07/16 18:00:32  [firefox.exe] Download the Free Nmap Security Scanner for Linux/Mac/Windows — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:00:47  [firefox.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:00:47  [firefox.exe] Abrir “nmap-7.99-setup.exe”
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:00:48  [firefox.exe] Download the Free Nmap Security Scanner for Linux/Mac/Windows — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:00:49  [firefox.exe] Salvar arquivo como
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 18:00:56  [firefox.exe] Download the Free Nmap Security Scanner for Linux/Mac/Windows — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 18:01:03  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:01:03  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:01:04  [explorer.exe] newest
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 18:01:08  [explorer.exe] Propriedades de Disco Local (C:)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:01:14  [explorer.exe] newest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:01:15  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:01:15  [explorer.exe] newest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:01:15  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:01:16  [explorer.exe] newest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:01:17  [nmap-7.99-setup.exe] Nmap Setup
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:01:51  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:01:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:01:51  [powershell.exe] Selecionar Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:01:57  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:01:57  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:01:59  [firefox.exe] GitHub - dakrone/cheshire: Clojure JSON and JSON SMILE (binary json format) encoding/decoding · GitHub — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:02:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:02:01  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:02:02  [powershell.exe] Selecionar Windows PowerShell
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:02:05  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  man arp[ENTER]
+
+--- WINDOW  2026/07/16 18:02:17  [firefox.exe] GitHub - dakrone/cheshire: Clojure JSON and JSON SMILE (binary json format) encoding/decoding · GitHub — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:02:19  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:02:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:02:21  [firefox.exe] Download the Free Nmap Security Scanner for Linux/Mac/Windows — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:02:21  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:02:23  [npcap-1.87.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:02:23  [npcap-1.87.exe] Npcap 1.87 Setup
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:03:05  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://chatgpt.com/
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 18:03:10  [firefox.exe] Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/16 18:03:11  [firefox.exe] ChatGPT — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  windows arp tabb[Bk]le[Bk][Bk][Bk][Bk][Bk][Ctrl][Bk][Bk]a tabela [Bk][Bk] [Bk]a art[Bk]p do windows usa[Ctrl][Bk]guarda timespatmp[Bk][Bk][Bk][Bk][Bk]tamps/[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Get-NetNeighbor
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 18:04:10  [firefox.exe] Download the Free Nmap Security Scanner for Linux/Mac/Windows — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:04:11  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:04:11  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:04:12  [powershell.exe] Selecionar Windows PowerShell
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:04:12  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/16 18:04:13  [powershell.exe] Selecionar Windows PowerShell
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/07/16 18:04:13  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+  [RMB]
+  getn[Tab][Bk][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab]
+
+--- WINDOW  2026/07/16 18:04:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:04:43  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:04:45  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][Tab][ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 18:05:14  [powershell.exe] Selecionar Windows PowerShell
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:05:16  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [^][ENTER]
+
+--- WINDOW  2026/07/16 18:05:33  [powershell.exe] Selecionar Windows PowerShell
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 18:05:55  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [^][^][^][ENTER]
+
+--- WINDOW  2026/07/16 18:06:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:06:19  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:06:19  [firefox.exe] Download the Free Nmap Security Scanner for Linux/Mac/Windows — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:07:59  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:07:59  [npcap-1.87.exe] Npcap 1.87 Setup
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:08:02  [firefox.exe] Download the Free Nmap Security Scanner for Linux/Mac/Windows — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:08:03  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:08:03  [nmap-7.99-setup.exe] Nmap Setup
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:08:15  [firefox.exe] Download the Free Nmap Security Scanner for Linux/Mac/Windows — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:08:17  [SearchApp.exe] Pesquisar
+----------------------------------------------------------------------------
+  na[Bk][Bk]a[Bk]m[ENTER]
+
+--- WINDOW  2026/07/16 18:08:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:08:41  [pythonw.exe] Zenmap
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 18:10:45  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:10:45  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/16 18:10:46  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:10:48  [powershell.exe] Selecionar Windows PowerShell
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:10:49  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [Clipboard]
+  192.168.1.12
+  [RMB]
+
+--- WINDOW  2026/07/16 18:10:49  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:10:49  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:10:49  [pythonw.exe] Zenmap
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  .29[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 18:13:02  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:13:02  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:13:02  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:19:07  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:19:07  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:19:07  [pythonw.exe] Zenmap
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 18:21:25  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:21:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:21:27  [firefox.exe] jbl 9.1 ethernet - Google Search — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:21:28  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+  chrome ga[Bk][Bk]cast fifef[Bk][Bk][Bk]refox[ENTER]
+
+--- WINDOW  2026/07/16 18:21:37  [firefox.exe] chrome cast firefox at DuckDuckGo — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+   1g[ENTER]
+
+--- WINDOW  2026/07/16 18:21:46  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:21:47  [firefox.exe] chrome cast firefox - Pesquisa Google — Mozilla Firefox
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  browser.casting
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 18:22:01  [firefox.exe] How do I cast to a chromecast from Firefox | Fórum de Apoio de Firefox | Apoio da Mozilla — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:22:22  [firefox.exe] Mozilla Firefox
+----------------------------------------------------------------------------
+  about;config[ENTER]
+
+--- WINDOW  2026/07/16 18:22:25  [firefox.exe] Preferências avançadas — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [MMB]
+
+--- WINDOW  2026/07/16 18:22:37  [firefox.exe] How do I cast to a chromecast from Firefox | Fórum de Apoio de Firefox | Apoio da Mozilla — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+  [MMB]
+
+--- WINDOW  2026/07/16 18:23:49  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:23:49  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:23:50  [powershell.exe] Selecionar Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:23:50  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [^][^][^][^][^][^][v][v][ENTER]
+  [^][ENTER]
+
+--- WINDOW  2026/07/16 18:26:16  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:26:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:26:19  [pythonw.exe] Zenmap
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 18:26:59  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [^][^][ENTER]
+
+--- WINDOW  2026/07/16 18:28:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:28:54  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:28:54  [pythonw.exe] Zenmap
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:28:56  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:28:56  [explorer.exe] Alternância de Tarefas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:28:57  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:29:16  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:29:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:29:18  [firefox.exe] GitHub - dakrone/cheshire: Clojure JSON and JSON SMILE (binary json format) encoding/decoding · GitHub — Mozilla Firefox — navegação privativa
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:29:19  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:29:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:29:21  [firefox.exe] JBL_SB_Bar-9.1_3D_SURROUND_Owner's-Manual_PT-BR.pdf — Mozilla Firefox
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 18:29:22  [firefox.exe] WhatsApp — Mozilla Firefox
+----------------------------------------------------------------------------
+  theus a gente ta usando um roteador ou ´e direto o da flin[Ctrl][<-][<-][<-][<-][<-][<-]nosso [End]/[ENTER]
+
+--- WINDOW  2026/07/16 18:30:37  [firefox.exe] (1) WhatsApp — Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:30:37  [firefox.exe] WhatsApp — Mozilla Firefox
+----------------------------------------------------------------------------
+  a gente tem um/[ENTER]
+  ou o login do da zen[ENTER]
+  queria descop[Bk][Bk]obrir o ip da soundabar quando ela conecta na rede[ENTER]
+
+--- WINDOW  2026/07/16 18:31:40  [firefox.exe] (1) WhatsApp — Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:31:41  [firefox.exe] WhatsApp — Mozilla Firefox
+----------------------------------------------------------------------------
+  vou ai[ENTER]
+  livre/[ENTER]
+
+--- WINDOW  2026/07/16 18:32:18  [firefox.exe] (1) WhatsApp — Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:32:19  [firefox.exe] WhatsApp — Mozilla Firefox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 18:57:16  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
