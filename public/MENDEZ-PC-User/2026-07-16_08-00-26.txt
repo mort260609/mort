@@ -1,0 +1,3098 @@
+﻿  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ forge build && forge test --match-contract NexaiZapperTest -vvv
+  [⠃] Compiling...
+  [⠘] Compiling 5 files with Solc 0.8.35
+  [⠒] Solc 0.8.35 finished in 10.82s
+  Compiler run successful!
+  warning[unsafe-typecast]: typecasts that can truncate values should be checked
+     ╭▸ test/PriceOracle.t.sol:73:37
+     │
+  73 │     bytes32 public redstoneFeedId = bytes32("ETH");
+     │                                     ━━━━━━━━━━━━━━
+     │
+     ├ note: consider disabling this lint if you're certain the cast is safe
+     │
+     │       // casting to 'bytes32' is safe because [explain why]
+     │       // forge-lint: disable-next-line(unsafe-typecast)
+     │
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+  
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/PriceOracle.sol:82:17
+     │
+  82 │         require(block.timestamp - updatedAt < 1 hours, "Chainlink price stale");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  [⠢] Compiling...
+  No files changed, compilation skipped
+  
+  Ran 4 tests for test/NexaiZapper.t.sol:NexaiZapperTest
+  [PASS] test_RevertsOnExcessSlippage() (gas: 110306)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc() (gas: 1211710)
+  [PASS] test_RevertsWhenMaxUsdcInTooLowForDirectLeg() (gas: 60827)
+  [PASS] test_ZapDepositUsdc_Correctness() (gas: 355555)
+  Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 11.98ms (6.38ms CPU time)
+  
+  Ran 1 test suite in 369.79ms (11.98ms CPU time): 4 tests passed, 0 failed, 0 skipped (4 total tests)
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:01:13  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:01:27  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.t.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:01:33  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:01:36  [Antigravity IDE.exe] NEXAI - Antigravity IDE - constants.ts
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:01:38  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]a
+  [Clipboard]
+  // SPDX-License-Identifier: MIT
+  pragma solidity ^0.8.20;
+  
+  import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+  import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+  import {ReentrancyGuard} from "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+  import {NexaiCore} from "./NexaiCore.sol";
+  
+  /// @dev Minimal slice of Uniswap SwapRouter02's ABI (`IV3SwapRouter`) - only the
+  /// exact-output single-hop swap this zapper needs. Note SwapRouter02 omits the
+  /// `deadline` field the original SwapRouter has; callers rely on the tx itself
+  /// landing or failing rather than a per-call deadline.
+  interface ISwapRouter02 {
+      struct ExactOutputSingleParams {
+          address tokenIn;
+          address tokenOut;
+          uint24 fee;
+          address recipient;
+          uint256 amountOut;
+          uint256 amountInMaximum;
+          uint160 sqrtPriceLimitX96;
+      }
+  
+      function exactOutputSingle(ExactOutputSingleParams calldata params) external payable returns (uint256 amountIn);
+  }
+  
+  /**
+   * @title NexaiZapper
+   * @dev One-click single-token (USDC) deposit into NexaiCore. Swaps the portion of the
+   * deposit needed to cover the basket's WETH leg via Uniswap V3, keeps the rest as the
+   * direct USDC leg, then deposits and forwards the minted NEXAI to the caller - all in
+   * one transaction. Scoped to the current two-token (WETH/USDC) basket; does not
+   * generalize to arbitrary baskets. Holds no funds or state between transactions.
+   */
+  contract NexaiZapper is ReentrancyGuard {
+      using SafeERC20 for IERC20;
+  
+      ISwapRouter02 public immutable swapRouter;
+      NexaiCore public immutable core;
+      IERC20 public immutable weth;
+      IERC20 public immutable usdc;
+      uint24 public immutable swapFee;
+  
+      event ZappedDeposit(address indexed user, uint256 nexaiAmount, uint256 usdcSpent);
+  
+      constructor(address _swapRouter, address _core, address _weth, address _usdc, uint24 _swapFee) {
+          require(_swapRouter != address(0), "Invalid swap router address");
+          require(_core != address(0), "Invalid core address");
+          require(_weth != address(0), "Invalid WETH address");
+          require(_usdc != address(0), "Invalid USDC address");
+  
+          swapRouter = ISwapRouter02(_swapRouter);
+          core = NexaiCore(_core);
+          weth = IERC20(_weth);
+          usdc = IERC20(_usdc);
+          swapFee = _swapFee;
+      }
+  
+      /**
+       * @dev Deposits USDC only and mints NEXAI to the caller.
+       * @param nexaiAmount Amount of NEXAI to mint (18 decimals).
+       * @param maxUsdcIn Upper bound on total USDC spent (direct leg + swap leg combined).
+       * Acts as the slippage guard - reverts if the swap would need more than this covers.
+       * @return usdcSpent The actual total USDC spent across both legs.
+       */
+      function zapDepositUsdc(uint256 nexaiAmount, uint256 maxUsdcIn) external nonReentrant returns (uint256 usdcSpent) {
+          require(nexaiAmount > 0, "Amount must be greater than zero");
+  
+          uint256 wethWeight = core.basketWeights(address(weth));
+          uint256 usdcWeight = core.basketWeights(address(usdc));
+          require(wethWeight > 0 && usdcWeight > 0, "Basket is not WETH/USDC");
+  
+          // Mirrors NexaiCore.deposit()'s own round-up formula so the amounts approved
+          // below match exactly what deposit() will pull - see NexaiCore.sol.
+          uint256 requiredWeth = (nexaiAmount * wethWeight + 1e18 - 1) / 1e18;
+          uint256 requiredUsdc = (nexaiAmount * usdcWeight + 1e18 - 1) / 1e18;
+          require(maxUsdcIn > requiredUsdc, "maxUsdcIn too low to cover direct USDC leg");
+  
+          usdc.safeTransferFrom(msg.sender, address(this), maxUsdcIn);
+  
+          uint256 usdcBudgetForSwap = maxUsdcIn - requiredUsdc;
+          usdc.forceApprove(address(swapRouter), usdcBudgetForSwap);
+          uint256 usdcSpentOnSwap = swapRouter.exactOutputSingle(
+              ISwapRouter02.ExactOutputSingleParams({
+                  tokenIn: address(usdc),
+                  tokenOut: address(weth),
+                  fee: swapFee,
+                  recipient: address(this),
+                  amountOut: requiredWeth,
+                  amountInMaximum: usdcBudgetForSwap,
+                  sqrtPriceLimitX96: 0
+              })
+          );
+          usdc.forceApprove(address(swapRouter), 0);
+  
+          weth.forceApprove(address(core), requiredWeth);
+          usdc.forceApprove(address(core), requiredUsdc);
+          core.deposit(nexaiAmount);
+          weth.forceApprove(address(core), 0);
+          usdc.forceApprove(address(core), 0);
+  
+          // core.deposit() minted NEXAI to address(this) (the Zapper is msg.sender from
+          // Core's point of view) - forward it on to the actual depositor.
+          IERC20(address(core.indexToken())).safeTransfer(msg.sender, nexaiAmount);
+  
+          usdcSpent = requiredUsdc + usdcSpentOnSwap;
+          uint256 refund = maxUsdcIn - usdcSpent;
+          if (refund > 0) usdc.safeTransfer(msg.sender, refund);
+  
+          emit ZappedDeposit(msg.sender, nexaiAmount, usdcSpent);
+      }
+  }
+  
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:01:46  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]vhere[ENTER]
+
+--- WINDOW  2026/07/16 07:02:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 07:02:06  [explorer.exe] Task View
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:02:08  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  test_RevertsWhenBasketIsNotWethUsdc()
+  c
+  [LMB]
+  [Ctrl]v[ENTER]
+  where can i see this[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:03:33  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:03:39  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiIndexToken.t.sol
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 07:03:41  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:03:42  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiIndexToken.t.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:03:46  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.t.sol
+----------------------------------------------------------------------------
+  [Ctrl]ac
+  [Clipboard]
+  // SPDX-License-Identifier: MIT
+  pragma solidity ^0.8.20;
+  
+  import {Test} from "forge-std/Test.sol";
+  import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+  import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+  import {NexaiCore} from "../src/NexaiCore.sol";
+  import {NexaiIndexToken} from "../src/NexaiIndexToken.sol";
+  import {NexaiZapper, ISwapRouter02} from "../src/NexaiZapper.sol";
+  import {MockERC20} from "../src/mocks/MockERC20.sol";
+  
+  /// @dev Stands in for Uniswap's SwapRouter02 in unit tests: swaps at a fixed,
+  /// configurable USDC-per-WETH rate instead of doing real AMM math, so these tests
+  /// exercise the Zapper's own accounting (not Uniswap's), deterministically and
+  /// without needing a fork.
+  contract MockSwapRouter is ISwapRouter02 {
+      using SafeERC20 for IERC20;
+  
+      uint256 public usdcPerWeth; // USDC (6dp) required per 1e18 WETH out
+  
+      constructor(uint256 _usdcPerWeth) {
+          usdcPerWeth = _usdcPerWeth;
+      }
+  
+      function exactOutputSingle(ExactOutputSingleParams calldata params)
+          external
+          payable
+          override
+          returns (uint256 amountIn)
+      {
+          amountIn = (params.amountOut * usdcPerWeth) / 1e18;
+          require(amountIn <= params.amountInMaximum, "Too much requested");
+  
+          IERC20(params.tokenIn).safeTransferFrom(msg.sender, address(this), amountIn);
+          IERC20(params.tokenOut).safeTransfer(params.recipient, params.amountOut);
+      }
+  }
+  
+  contract NexaiZapperTest is Test {
+      NexaiIndexToken public indexToken;
+      NexaiCore public core;
+      NexaiZapper public zapper;
+      MockSwapRouter public router;
+  
+      MockERC20 public weth;
+      MockERC20 public usdc;
+  
+      address public alice = address(0x111);
+  
+      uint256 public constant WETH_WEIGHT = 0.5 ether; // 0.5 WETH per 1e18 NEXAI
+      uint256 public constant USDC_WEIGHT = 1000 * 10 ** 6; // 1000 USDC per 1e18 NEXAI
+      uint256 public constant USDC_PER_WETH = 2000 * 10 ** 6; // swap price: 2000 USDC per 1 WETH
+  
+      function setUp() public {
+          indexToken = new NexaiIndexToken();
+          core = new NexaiCore(address(indexToken));
+          indexToken.grantRole(indexToken.CORE_ROLE(), address(core));
+  
+          weth = new MockERC20("Wrapped Ether", "WETH", 18);
+          usdc = new MockERC20("USD Coin", "USDC", 6);
+  
+          address[] memory tokens = new address[](2);
+          tokens[0] = address(weth);
+          tokens[1] = address(usdc);
+          uint256[] memory weights = new uint256[](2);
+          weights[0] = WETH_WEIGHT;
+          weights[1] = USDC_WEIGHT;
+          core.updateBasket(tokens, weights);
+  
+          router = new MockSwapRouter(USDC_PER_WETH);
+          // Fund the router with WETH liquidity so it can pay out swaps.
+          weth.mint(address(router), 1_000 ether);
+  
+          zapper = new NexaiZapper(address(router), address(core), address(weth), address(usdc), 3000);
+  
+          usdc.mint(alice, 10_000 * 10 ** 6);
+      }
+  
+      function test_ZapDepositUsdc_Correctness() public {
+          uint256 nexaiAmount = 2 ether; // mint 2 NEXAI
+          uint256 requiredWeth = 1 ether; // 2 * 0.5
+          uint256 requiredUsdc = 2000 * 10 ** 6; // 2 * 1000
+          uint256 swapCost = 2000 * 10 ** 6; // 1 WETH at 2000 USDC/WETH
+          uint256 maxUsdcIn = 4_500 * 10 ** 6; // includes a 500 USDC buffer for refund
+  
+          vm.startPrank(alice);
+          usdc.approve(address(zapper), maxUsdcIn);
+          uint256 usdcSpent = zapper.zapDepositUsdc(nexaiAmount, maxUsdcIn);
+          vm.stopPrank();
+  
+          assertEq(usdcSpent, requiredUsdc + swapCost, "usdcSpent mismatch");
+          assertEq(indexToken.balanceOf(alice), nexaiAmount, "NEXAI not forwarded to depositor");
+          assertEq(usdc.balanceOf(alice), 10_000 * 10 ** 6 - usdcSpent, "alice USDC balance wrong (bad refund?)");
+  
+          assertEq(weth.balanceOf(address(core)), requiredWeth, "core WETH balance wrong");
+          assertEq(usdc.balanceOf(address(core)), requiredUsdc, "core USDC balance wrong");
+  
+          // Zapper must be left holding nothing - no custody between transactions.
+          assertEq(weth.balanceOf(address(zapper)), 0, "zapper left holding WETH");
+          assertEq(usdc.balanceOf(address(zapper)), 0, "zapper left holding USDC");
+      }
+  
+      function test_RevertsWhenMaxUsdcInTooLowForDirectLeg() public {
+          uint256 nexaiAmount = 2 ether;
+          uint256 requiredUsdc = 2000 * 10 ** 6;
+  
+          vm.startPrank(alice);
+          usdc.approve(address(zapper), requiredUsdc);
+          vm.expectRevert("maxUsdcIn too low to cover direct USDC leg");
+          zapper.zapDepositUsdc(nexaiAmount, requiredUsdc);
+          vm.stopPrank();
+      }
+  
+      function test_RevertsOnExcessSlippage() public {
+          uint256 nexaiAmount = 2 ether;
+          uint256 requiredUsdc = 2000 * 10 ** 6;
+          // Only 1 USDC of budget left for a swap leg that actually costs 2000 USDC.
+          uint256 maxUsdcIn = requiredUsdc + 1 * 10 ** 6;
+  
+          vm.startPrank(alice);
+          usdc.approve(address(zapper), maxUsdcIn);
+          vm.expectRevert("Too much requested");
+          zapper.zapDepositUsdc(nexaiAmount, maxUsdcIn);
+          vm.stopPrank();
+      }
+  
+      function test_RevertsWhenBasketIsNotWethUsdc() public {
+          // Reconfigure the basket to a single unrelated token.
+          MockERC20 other = new MockERC20("Other", "OTH", 18);
+          address[] memory tokens = new address[](1);
+          tokens[0] = address(other);
+          uint256[] memory weights = new uint256[](1);
+          weights[0] = 1 ether;
+          core.updateBasket(tokens, weights);
+  
+          vm.startPrank(alice);
+          usdc.approve(address(zapper), 10_000 * 10 ** 6);
+          vm.expectRevert("Basket is not WETH/USDC");
+          zapper.zapDepositUsdc(2 ether, 10_000 * 10 ** 6);
+          vm.stopPrank();
+      }
+  }
+  
+  [LMB]
+
+--- WINDOW  2026/07/16 07:03:49  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  here[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+
+--- WINDOW  2026/07/16 07:06:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 07:06:02  [ShellExperienceHost.exe] Control Center
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:06:47  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  cat test/NexaiZapper.t.sol
+  [LMB]
+
+--- WINDOW  2026/07/16 07:07:02  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.t.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+  [Ctrl][Ctrl]v[Ctrl]z[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ cat test/NexaiZapper.t.sol
+  // SPDX-License-Identifier: MIT
+  pragma solidity ^0.8.20;
+  
+  import {Test} from "forge-std/Test.sol";
+  import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+  import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+  import {NexaiCore} from "../src/NexaiCore.sol";
+  import {NexaiIndexToken} from "../src/NexaiIndexToken.sol";
+  import {NexaiZapper, ISwapRouter02} from "../src/NexaiZapper.sol";
+  import {MockERC20} from "../src/mocks/MockERC20.sol";
+  
+  /// @dev Stands in for Uniswap's SwapRouter02 in unit tests: swaps at a fixed,
+  /// configurable USDC-per-WETH rate instead of doing real AMM math, so these tests
+  /// exercise the Zapper's own accounting (not Uniswap's), deterministically and
+  /// without needing a fork.
+  contract MockSwapRouter is ISwapRouter02 {
+      using SafeERC20 for IERC20;
+  
+      uint256 public usdcPerWeth; // USDC (6dp) required per 1e18 WETH out
+  
+      constructor(uint256 _usdcPerWeth) {
+          usdcPerWeth = _usdcPerWeth;
+      }
+  
+      function exactOutputSingle(ExactOutputSingleParams calldata params)
+          external
+          payable
+          override
+          returns (uint256 amountIn)
+      {
+          amountIn = (params.amountOut * usdcPerWeth) / 1e18;
+          require(amountIn <= params.amountInMaximum, "Too much requested");
+  
+          IERC20(params.tokenIn).safeTransferFrom(msg.sender, address(this), amountIn);
+          IERC20(params.tokenOut).safeTransfer(params.recipient, params.amountOut);
+      }
+  }
+  
+  contract NexaiZapperTest is Test {
+      NexaiIndexToken public indexToken;
+      NexaiCore public core;
+      NexaiZapper public zapper;
+      MockSwapRouter public router;
+  
+      MockERC20 public weth;
+      MockERC20 public usdc;
+  
+      address public alice = address(0x111);
+  
+      uint256 public constant WETH_WEIGHT = 0.5 ether; // 0.5 WETH per 1e18 NEXAI
+      uint256 public constant USDC_WEIGHT = 1000 * 10 ** 6; // 1000 USDC per 1e18 NEXAI
+      uint256 public constant USDC_PER_WETH = 2000 * 10 ** 6; // swap price: 2000 USDC per 1 WETH
+  
+      function setUp() public {
+          indexToken = new NexaiIndexToken();
+          core = new NexaiCore(address(indexToken));
+          indexToken.grantRole(indexToken.CORE_ROLE(), address(core));
+  
+          weth = new MockERC20("Wrapped Ether", "WETH", 18);
+          usdc = new MockERC20("USD Coin", "USDC", 6);
+  
+          address[] memory tokens = new address[](2);
+          tokens[0] = address(weth);
+          tokens[1] = address(usdc);
+          uint256[] memory weights = new uint256[](2);
+          weights[0] = WETH_WEIGHT;
+          weights[1] = USDC_WEIGHT;
+          core.updateBasket(tokens, weights);
+  
+          router = new MockSwapRouter(USDC_PER_WETH);
+          // Fund the router with WETH liquidity so it can pay out swaps.
+          weth.mint(address(router), 1_000 ether);
+  
+          zapper = new NexaiZapper(address(router), address(core), address(weth), address(usdc), 3000);
+  
+          usdc.mint(alice, 10_000 * 10 ** 6);
+      }
+  
+      function test_ZapDepositUsdc_Correctness() public {
+          uint256 nexaiAmount = 2 ether; // mint 2 NEXAI
+          uint256 requiredWeth = 1 ether; // 2 * 0.5
+          uint256 requiredUsdc = 2000 * 10 ** 6; // 2 * 1000
+          uint256 swapCost = 2000 * 10 ** 6; // 1 WETH at 2000 USDC/WETH
+          uint256 maxUsdcIn = 4_500 * 10 ** 6; // includes a 500 USDC buffer for refund
+  
+          vm.startPrank(alice);
+          usdc.approve(address(zapper), maxUsdcIn);
+          uint256 usdcSpent = zapper.zapDepositUsdc(nexaiAmount, maxUsdcIn);
+          vm.stopPrank();
+  
+          assertEq(usdcSpent, requiredUsdc + swapCost, "usdcSpent mismatch");
+          assertEq(indexToken.balanceOf(alice), nexaiAmount, "NEXAI not forwarded to depositor");
+          assertEq(usdc.balanceOf(alice), 10_000 * 10 ** 6 - usdcSpent, "alice USDC balance wrong (bad refund?)");
+  
+          assertEq(weth.balanceOf(address(core)), requiredWeth, "core WETH balance wrong");
+          assertEq(usdc.balanceOf(address(core)), requiredUsdc, "core USDC balance wrong");
+  
+          // Zapper must be left holding nothing - no custody between transactions.
+          assertEq(weth.balanceOf(address(zapper)), 0, "zapper left holding WETH");
+          assertEq(usdc.balanceOf(address(zapper)), 0, "zapper left holding USDC");
+      }
+  
+      function test_RevertsWhenMaxUsdcInTooLowForDirectLeg() public {
+          uint256 nexaiAmount = 2 ether;
+          uint256 requiredUsdc = 2000 * 10 ** 6;
+  
+          vm.startPrank(alice);
+          usdc.approve(address(zapper), requiredUsdc);
+          vm.expectRevert("maxUsdcIn too low to cover direct USDC leg");
+          zapper.zapDepositUsdc(nexaiAmount, requiredUsdc);
+          vm.stopPrank();
+      }
+  
+      function test_RevertsOnExcessSlippage() public {
+          uint256 nexaiAmount = 2 ether;
+          uint256 requiredUsdc = 2000 * 10 ** 6;
+          // Only 1 USDC of budget left for a swap leg that actually costs 2000 USDC.
+          uint256 maxUsdcIn = requiredUsdc + 1 * 10 ** 6;
+  
+          vm.startPrank(alice);
+          usdc.approve(address(zapper), maxUsdcIn);
+          vm.expectRevert("Too much requested");
+          zapper.zapDepositUsdc(nexaiAmount, maxUsdcIn);
+          vm.stopPrank();
+      }
+  
+      function test_RevertsWhenBasketIsNotWethUsdc() public {
+          // Reconfigure the basket to a single unrelated token.
+          MockERC20 other = new MockERC20("Other", "OTH", 18);
+          address[] memory tokens = new address[](1);
+          tokens[0] = address(other);
+          uint256[] memory weights = new uint256[](1);
+          weights[0] = 1 ether;
+          core.updateBasket(tokens, weights);
+  
+          vm.startPrank(alice);
+          usdc.approve(address(zapper), 10_000 * 10 ** 6);
+          vm.expectRevert("Basket is not WETH/USDC");
+          zapper.zapDepositUsdc(2 ether, 10_000 * 10 ** 6);
+          vm.stopPrank();
+      }
+  }
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:07:44  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Good coverage overall, but test_RevertsWhenBasketIsNotWethUsdc only tests a basket swapped to an unrelated token — it doesn't test the more relevant future scenario where the basket is expanded to include a third token alongside WETH/USDC (e.g. moving toward the 20-token basket later). In that case, wethWeight > 0 && usdcWeight > 0 still passes, but core.deposit() would try pulling the third token, which the Zapper never approved — causing a confusing raw revert instead of a clear error. Fix: change the check to also verify the basket length is exactly 2 (e.g. compare core.basketTokens.length or similar accessor), and add a test covering a 3-token basket that still includes WETH/USDC to confirm it now reverts with a clear message instead of a raw one
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:08:14  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.t.sol
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 07:08:16  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Fix applied. To recap why this mattered: without the length check, wethWeight > 0 && usdcWeight > 0 is necessary but not sufficient — it confirms WETH/USDC are in the basket with correct weights, but says nothing about whether something else got added alongside them. A future 3-token basket would sail past that check, then fail deep inside core.deposit() with a bare panic instead of a message pointing at the actual problem.
+  
+  Since basketTokens has no length getter (public array auto-getters are index-only), _basketIsExactlyTwoTokens() probes core.basketTokens(2) and reads the array's own out-of-bounds revert as the length signal — succeeds (a 3rd token exists) → reject; reverts (only 2 slots) → the two weight checks already guarantee those two are WETH/USDC. Added test_RevertsWhenBasketHasThirdToken to lock this in. Still flagged for you to forge test locally since I can't compile here.
+  [LMB]
+
+--- WINDOW  2026/07/16 07:09:42  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [LMB]
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:10:15  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:10:16  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.t.sol
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]f[Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/16 07:10:23  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:10:26  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.t.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:10:42  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:10:44  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.t.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]ac
+  [Clipboard]
+  // SPDX-License-Identifier: MIT
+  pragma solidity ^0.8.20;
+  
+  import {Test} from "forge-std/Test.sol";
+  import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+  import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+  import {NexaiCore} from "../src/NexaiCore.sol";
+  import {NexaiIndexToken} from "../src/NexaiIndexToken.sol";
+  import {NexaiZapper, ISwapRouter02} from "../src/NexaiZapper.sol";
+  import {MockERC20} from "../src/mocks/MockERC20.sol";
+  
+  /// @dev Stands in for Uniswap's SwapRouter02 in unit tests: swaps at a fixed,
+  /// configurable USDC-per-WETH rate instead of doing real AMM math, so these tests
+  /// exercise the Zapper's own accounting (not Uniswap's), deterministically and
+  /// without needing a fork.
+  contract MockSwapRouter is ISwapRouter02 {
+      using SafeERC20 for IERC20;
+  
+      uint256 public usdcPerWeth; // USDC (6dp) required per 1e18 WETH out
+  
+      constructor(uint256 _usdcPerWeth) {
+          usdcPerWeth = _usdcPerWeth;
+      }
+  
+      function exactOutputSingle(ExactOutputSingleParams calldata params)
+          external
+          payable
+          override
+          returns (uint256 amountIn)
+      {
+          amountIn = (params.amountOut * usdcPerWeth) / 1e18;
+          require(amountIn <= params.amountInMaximum, "Too much requested");
+  
+          IERC20(params.tokenIn).safeTransferFrom(msg.sender, address(this), amountIn);
+          IERC20(params.tokenOut).safeTransfer(params.recipient, params.amountOut);
+      }
+  }
+  
+  contract NexaiZapperTest is Test {
+      NexaiIndexToken public indexToken;
+      NexaiCore public core;
+      NexaiZapper public zapper;
+      MockSwapRouter public router;
+  
+      MockERC20 public weth;
+      MockERC20 public usdc;
+  
+      address public alice = address(0x111);
+  
+      uint256 public constant WETH_WEIGHT = 0.5 ether; // 0.5 WETH per 1e18 NEXAI
+      uint256 public constant USDC_WEIGHT = 1000 * 10 ** 6; // 1000 USDC per 1e18 NEXAI
+      uint256 public constant USDC_PER_WETH = 2000 * 10 ** 6; // swap price: 2000 USDC per 1 WETH
+  
+      function setUp() public {
+          indexToken = new NexaiIndexToken();
+          core = new NexaiCore(address(indexToken));
+          indexToken.grantRole(indexToken.CORE_ROLE(), address(core));
+  
+          weth = new MockERC20("Wrapped Ether", "WETH", 18);
+          usdc = new MockERC20("USD Coin", "USDC", 6);
+  
+          address[] memory tokens = new address[](2);
+          tokens[0] = address(weth);
+          tokens[1] = address(usdc);
+          uint256[] memory weights = new uint256[](2);
+          weights[0] = WETH_WEIGHT;
+          weights[1] = USDC_WEIGHT;
+          core.updateBasket(tokens, weights);
+  
+          router = new MockSwapRouter(USDC_PER_WETH);
+          // Fund the router with WETH liquidity so it can pay out swaps.
+          weth.mint(address(router), 1_000 ether);
+  
+          zapper = new NexaiZapper(address(router), address(core), address(weth), address(usdc), 3000);
+  
+          usdc.mint(alice, 10_000 * 10 ** 6);
+      }
+  
+      function test_ZapDepositUsdc_Correctness() public {
+          uint256 nexaiAmount = 2 ether; // mint 2 NEXAI
+          uint256 requiredWeth = 1 ether; // 2 * 0.5
+          uint256 requiredUsdc = 2000 * 10 ** 6; // 2 * 1000
+          uint256 swapCost = 2000 * 10 ** 6; // 1 WETH at 2000 USDC/WETH
+          uint256 maxUsdcIn = 4_500 * 10 ** 6; // includes a 500 USDC buffer for refund
+  
+          vm.startPrank(alice);
+          usdc.approve(address(zapper), maxUsdcIn);
+          uint256 usdcSpent = zapper.zapDepositUsdc(nexaiAmount, maxUsdcIn);
+          vm.stopPrank();
+  
+          assertEq(usdcSpent, requiredUsdc + swapCost, "usdcSpent mismatch");
+          assertEq(indexToken.balanceOf(alice), nexaiAmount, "NEXAI not forwarded to depositor");
+          assertEq(usdc.balanceOf(alice), 10_000 * 10 ** 6 - usdcSpent, "alice USDC balance wrong (bad refund?)");
+  
+          assertEq(weth.balanceOf(address(core)), requiredWeth, "core WETH balance wrong");
+          assertEq(usdc.balanceOf(address(core)), requiredUsdc, "core USDC balance wrong");
+  
+          // Zapper must be left holding nothing - no custody between transactions.
+          assertEq(weth.balanceOf(address(zapper)), 0, "zapper left holding WETH");
+          assertEq(usdc.balanceOf(address(zapper)), 0, "zapper left holding USDC");
+      }
+  
+      function test_RevertsWhenMaxUsdcInTooLowForDirectLeg() public {
+          uint256 nexaiAmount = 2 ether;
+          uint256 requiredUsdc = 2000 * 10 ** 6;
+  
+          vm.startPrank(alice);
+          usdc.approve(address(zapper), requiredUsdc);
+          vm.expectRevert("maxUsdcIn too low to cover direct USDC leg");
+          zapper.zapDepositUsdc(nexaiAmount, requiredUsdc);
+          vm.stopPrank();
+      }
+  
+      function test_RevertsOnExcessSlippage() public {
+          uint256 nexaiAmount = 2 ether;
+          uint256 requiredUsdc = 2000 * 10 ** 6;
+          // Only 1 USDC of budget left for a swap leg that actually costs 2000 USDC.
+          uint256 maxUsdcIn = requiredUsdc + 1 * 10 ** 6;
+  
+          vm.startPrank(alice);
+          usdc.approve(address(zapper), maxUsdcIn);
+          vm.expectRevert("Too much requested");
+          zapper.zapDepositUsdc(nexaiAmount, maxUsdcIn);
+          vm.stopPrank();
+      }
+  
+      function test_RevertsWhenBasketIsNotWethUsdc() public {
+          // Reconfigure the basket to a single unrelated token.
+          MockERC20 other = new MockERC20("Other", "OTH", 18);
+          address[] memory tokens = new address[](1);
+          tokens[0] = address(other);
+          uint256[] memory weights = new uint256[](1);
+          weights[0] = 1 ether;
+          core.updateBasket(tokens, weights);
+  
+          vm.startPrank(alice);
+          usdc.approve(address(zapper), 10_000 * 10 ** 6);
+          vm.expectRevert("Basket is not WETH/USDC");
+          zapper.zapDepositUsdc(2 ether, 10_000 * 10 ** 6);
+          vm.stopPrank();
+      }
+  
+      function test_RevertsWhenBasketHasThirdToken() public {
+          // Basket still contains WETH and USDC (both with correct weights) but a third
+          // token has been added alongside them - simulates a future basket expansion.
+          MockERC20 third = new MockERC20("Third Asset", "TRD", 18);
+          address[] memory tokens = new address[](3);
+          tokens[0] = address(weth);
+          tokens[1] = address(usdc);
+          tokens[2] = address(third);
+          uint256[] memory weights = new uint256[](3);
+          weights[0] = WETH_WEIGHT;
+          weights[1] = USDC_WEIGHT;
+          weights[2] = 1 ether;
+          core.updateBasket(tokens, weights);
+  
+          vm.startPrank(alice);
+          usdc.approve(address(zapper), 10_000 * 10 ** 6);
+          vm.expectRevert("Basket is not WETH/USDC");
+          zapper.zapDepositUsdc(2 ether, 10_000 * 10 ** 6);
+          vm.stopPrank();
+      }
+  }
+  
+  [LMB]
+
+--- WINDOW  2026/07/16 07:10:54  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:11:26  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.t.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:11:28  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  // SPDX-License-Identifier: MIT
+  pragma solidity ^0.8.20;
+  
+  import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+  import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+  import {ReentrancyGuard} from "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+  import {NexaiCore} from "./NexaiCore.sol";
+  
+  /// @dev Minimal slice of Uniswap SwapRouter02's ABI (`IV3SwapRouter`) - only the
+  /// exact-output single-hop swap this zapper needs. Note SwapRouter02 omits the
+  /// `deadline` field the original SwapRouter has; callers rely on the tx itself
+  /// landing or failing rather than a per-call deadline.
+  interface ISwapRouter02 {
+      struct ExactOutputSingleParams {
+          address tokenIn;
+          address tokenOut;
+          uint24 fee;
+          address recipient;
+          uint256 amountOut;
+          uint256 amountInMaximum;
+          uint160 sqrtPriceLimitX96;
+      }
+  
+      function exactOutputSingle(ExactOutputSingleParams calldata params) external payable returns (uint256 amountIn);
+  }
+  
+  /**
+   * @title NexaiZapper
+   * @dev One-click single-token (USDC) deposit into NexaiCore. Swaps the portion of the
+   * deposit needed to cover the basket's WETH leg via Uniswap V3, keeps the rest as the
+   * direct USDC leg, then deposits and forwards the minted NEXAI to the caller - all in
+   * one transaction. Scoped to the current two-token (WETH/USDC) basket; does not
+   * generalize to arbitrary baskets. Holds no funds or state between transactions.
+   */
+  contract NexaiZapper is ReentrancyGuard {
+      using SafeERC20 for IERC20;
+  
+      ISwapRouter02 public immutable swapRouter;
+      NexaiCore public immutable core;
+      IERC20 public immutable weth;
+      IERC20 public immutable usdc;
+      uint24 public immutable swapFee;
+  
+      event ZappedDeposit(address indexed user, uint256 nexaiAmount, uint256 usdcSpent);
+  
+      constructor(address _swapRouter, address _core, address _weth, address _usdc, uint24 _swapFee) {
+          require(_swapRouter != address(0), "Invalid swap router address");
+          require(_core != address(0), "Invalid core address");
+          require(_weth != address(0), "Invalid WETH address");
+          require(_usdc != address(0), "Invalid USDC address");
+  
+          swapRouter = ISwapRouter02(_swapRouter);
+          core = NexaiCore(_core);
+          weth = IERC20(_weth);
+          usdc = IERC20(_usdc);
+          swapFee = _swapFee;
+      }
+  
+      /**
+       * @dev Deposits USDC only and mints NEXAI to the caller.
+       * @param nexaiAmount Amount of NEXAI to mint (18 decimals).
+       * @param maxUsdcIn Upper bound on total USDC spent (direct leg + swap leg combined).
+       * Acts as the slippage guard - reverts if the swap would need more than this covers.
+       * @return usdcSpent The actual total USDC spent across both legs.
+       */
+      function zapDepositUsdc(uint256 nexaiAmount, uint256 maxUsdcIn) external nonReentrant returns (uint256 usdcSpent) {
+          require(nexaiAmount > 0, "Amount must be greater than zero");
+  
+          uint256 wethWeight = core.basketWeights(address(weth));
+          uint256 usdcWeight = core.basketWeights(address(usdc));
+          require(
+              wethWeight > 0 && usdcWeight > 0 && _basketIsExactlyTwoTokens(), "Basket is not WETH/USDC"
+          );
+  
+          // Mirrors NexaiCore.deposit()'s own round-up formula so the amounts approved
+          // below match exactly what deposit() will pull - see NexaiCore.sol.
+          uint256 requiredWeth = (nexaiAmount * wethWeight + 1e18 - 1) / 1e18;
+          uint256 requiredUsdc = (nexaiAmount * usdcWeight + 1e18 - 1) / 1e18;
+          require(maxUsdcIn > requiredUsdc, "maxUsdcIn too low to cover direct USDC leg");
+  
+          usdc.safeTransferFrom(msg.sender, address(this), maxUsdcIn);
+  
+          uint256 usdcBudgetForSwap = maxUsdcIn - requiredUsdc;
+          usdc.forceApprove(address(swapRouter), usdcBudgetForSwap);
+          uint256 usdcSpentOnSwap = swapRouter.exactOutputSingle(
+              ISwapRouter02.ExactOutputSingleParams({
+                  tokenIn: address(usdc),
+                  tokenOut: address(weth),
+                  fee: swapFee,
+                  recipient: address(this),
+                  amountOut: requiredWeth,
+                  amountInMaximum: usdcBudgetForSwap,
+                  sqrtPriceLimitX96: 0
+              })
+          );
+          usdc.forceApprove(address(swapRouter), 0);
+  
+          weth.forceApprove(address(core), requiredWeth);
+          usdc.forceApprove(address(core), requiredUsdc);
+          core.deposit(nexaiAmount);
+          weth.forceApprove(address(core), 0);
+          usdc.forceApprove(address(core), 0);
+  
+          // core.deposit() minted NEXAI to address(this) (the Zapper is msg.sender from
+          // Core's point of view) - forward it on to the actual depositor.
+          IERC20(address(core.indexToken())).safeTransfer(msg.sender, nexaiAmount);
+  
+          usdcSpent = requiredUsdc + usdcSpentOnSwap;
+          uint256 refund = maxUsdcIn - usdcSpent;
+          if (refund > 0) usdc.safeTransfer(msg.sender, refund);
+  
+          emit ZappedDeposit(msg.sender, nexaiAmount, usdcSpent);
+  
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:11:31  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  forge test --match-contract NexaiZapperTest -vvv
+  [LMB]
+
+--- WINDOW  2026/07/16 07:11:37  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/16 07:11:47  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:11:59  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]a
+  [Clipboard]
+  // SPDX-License-Identifier: MIT
+  pragma solidity ^0.8.20;
+  
+  import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+  import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+  import {ReentrancyGuard} from "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+  import {NexaiCore} from "./NexaiCore.sol";
+  
+  /// @dev Minimal slice of Uniswap SwapRouter02's ABI (`IV3SwapRouter`) - only the
+  /// exact-output single-hop swap this zapper needs. Note SwapRouter02 omits the
+  /// `deadline` field the original SwapRouter has; callers rely on the tx itself
+  /// landing or failing rather than a per-call deadline.
+  interface ISwapRouter02 {
+      struct ExactOutputSingleParams {
+          address tokenIn;
+          address tokenOut;
+          uint24 fee;
+          address recipient;
+          uint256 amountOut;
+          uint256 amountInMaximum;
+          uint160 sqrtPriceLimitX96;
+      }
+  
+      function exactOutputSingle(ExactOutputSingleParams calldata params) external payable returns (uint256 amountIn);
+  }
+  
+  /**
+   * @title NexaiZapper
+   * @dev One-click single-token (USDC) deposit into NexaiCore. Swaps the portion of the
+   * deposit needed to cover the basket's WETH leg via Uniswap V3, keeps the rest as the
+   * direct USDC leg, then deposits and forwards the minted NEXAI to the caller - all in
+   * one transaction. Scoped to the current two-token (WETH/USDC) basket; does not
+   * generalize to arbitrary baskets. Holds no funds or state between transactions.
+   */
+  contract NexaiZapper is ReentrancyGuard {
+      using SafeERC20 for IERC20;
+  
+      ISwapRouter02 public immutable swapRouter;
+      NexaiCore public immutable core;
+      IERC20 public immutable weth;
+      IERC20 public immutable usdc;
+      uint24 public immutable swapFee;
+  
+      event ZappedDeposit(address indexed user, uint256 nexaiAmount, uint256 usdcSpent);
+  
+      constructor(address _swapRouter, address _core, address _weth, address _usdc, uint24 _swapFee) {
+          require(_swapRouter != address(0), "Invalid swap router address");
+          require(_core != address(0), "Invalid core address");
+          require(_weth != address(0), "Invalid WETH address");
+          require(_usdc != address(0), "Invalid USDC address");
+  
+          swapRouter = ISwapRouter02(_swapRouter);
+          core = NexaiCore(_core);
+          weth = IERC20(_weth);
+          usdc = IERC20(_usdc);
+          swapFee = _swapFee;
+      }
+  
+      /**
+       * @dev Deposits USDC only and mints NEXAI to the caller.
+       * @param nexaiAmount Amount of NEXAI to mint (18 decimals).
+       * @param maxUsdcIn Upper bound on total USDC spent (direct leg + swap leg combined).
+       * Acts as the slippage guard - reverts if the swap would need more than this covers.
+       * @return usdcSpent The actual total USDC spent across both legs.
+       */
+      function zapDepositUsdc(uint256 nexaiAmount, uint256 maxUsdcIn) external nonReentrant returns (uint256 usdcSpent) {
+          require(nexaiAmount > 0, "Amount must be greater than zero");
+  
+          uint256 wethWeight = core.basketWeights(address(weth));
+          uint256 usdcWeight = core.basketWeights(address(usdc));
+          require(
+              wethWeight > 0 && usdcWeight > 0 && _basketIsExactlyTwoTokens(), "Basket is not WETH/USDC"
+          );
+  
+          // Mirrors NexaiCore.deposit()'s own round-up formula so the amounts approved
+          // below match exactly what deposit() will pull - see NexaiCore.sol.
+          uint256 requiredWeth = (nexaiAmount * wethWeight + 1e18 - 1) / 1e18;
+          uint256 requiredUsdc = (nexaiAmount * usdcWeight + 1e18 - 1) / 1e18;
+          require(maxUsdcIn > requiredUsdc, "maxUsdcIn too low to cover direct USDC leg");
+  
+          usdc.safeTransferFrom(msg.sender, address(this), maxUsdcIn);
+  
+          uint256 usdcBudgetForSwap = maxUsdcIn - requiredUsdc;
+          usdc.forceApprove(address(swapRouter), usdcBudgetForSwap);
+          uint256 usdcSpentOnSwap = swapRouter.exactOutputSingle(
+              ISwapRouter02.ExactOutputSingleParams({
+                  tokenIn: address(usdc),
+                  tokenOut: address(weth),
+                  fee: swapFee,
+                  recipient: address(this),
+                  amountOut: requiredWeth,
+                  amountInMaximum: usdcBudgetForSwap,
+                  sqrtPriceLimitX96: 0
+              })
+          );
+          usdc.forceApprove(address(swapRouter), 0);
+  
+          weth.forceApprove(address(core), requiredWeth);
+          usdc.forceApprove(address(core), requiredUsdc);
+          core.deposit(nexaiAmount);
+          weth.forceApprove(address(core), 0);
+          usdc.forceApprove(address(core), 0);
+  
+          // core.deposit() minted NEXAI to address(this) (the Zapper is msg.sender from
+          // Core's point of view) - forward it on to the actual depositor.
+          IERC20(address(core.indexToken())).safeTransfer(msg.sender, nexaiAmount);
+  
+          usdcSpent = requiredUsdc + usdcSpentOnSwap;
+          uint256 refund = maxUsdcIn - usdcSpent;
+          if (refund > 0) usdc.safeTransfer(msg.sender, refund);
+  
+          emit ZappedDeposit(msg.sender, nexaiAmount, usdcSpent);
+      }
+  
+      /// @dev NexaiCore's `basketTokens` is a public array with no length getter (only
+      /// indexed access is auto-generated), so we detect a third basket token by probing
+      /// index 2: it reverts with an out-of-bounds panic if the basket has at most two
+      /// tokens, and succeeds if a third one exists. Without this, a basket expanded to
+      /// WETH + USDC + anything else would still pass the weight checks above, then fail
+      /// deep inside core.deposit() with a confusing raw revert instead of a clear one.
+      function _basketIsExactlyTwoTokens() private view returns (bool) {
+          try core.basketTokens(2) returns (address) {
+              return false;
+          } catch {
+              return true;
+          }
+      }
+  }
+  
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:12:07  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:12:28  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ forge test --match-contract NexaiZapperTest -vvv
+  [⠆] Compiling...
+  [⠔] Compiling 2 files with Solc 0.8.35
+  [⠒] Solc 0.8.35 finished in 3.02s
+  Compiler run successful!
+  
+  Ran 5 tests for test/NexaiZapper.t.sol:NexaiZapperTest
+  [PASS] test_RevertsOnExcessSlippage() (gas: 113477)
+  [PASS] test_RevertsWhenBasketHasThirdToken() (gas: 1248638)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc() (gas: 1211730)
+  [PASS] test_RevertsWhenMaxUsdcInTooLowForDirectLeg() (gas: 63998)
+  [PASS] test_ZapDepositUsdc_Correctness() (gas: 358092)
+  Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in 15.03ms (3.67ms CPU time)
+  
+  Ran 1 test suite in 400.68ms (15.03ms CPU time): 5 tests passed, 0 failed, 0 skipped (5 total tests)
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:12:36  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/16 07:12:51  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:13:05  [Antigravity IDE.exe] NEXAI - Antigravity IDE - SeedPool.s.sol
+----------------------------------------------------------------------------
+  [Ctrl]a
+  [LMB]
+
+--- WINDOW  2026/07/16 07:13:10  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:13:14  [Antigravity IDE.exe] NEXAI - Antigravity IDE - SeedPool.s.sol
+----------------------------------------------------------------------------
+  [Ctrl]
+  [Clipboard]
+  // SPDX-License-Identifier: MIT
+  pragma solidity ^0.8.20;
+  
+  import {Script, console} from "forge-std/Script.sol";
+  import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+  import {Math} from "@openzeppelin/contracts/utils/math/Math.sol";
+  import {MockERC20} from "../src/mocks/MockERC20.sol";
+  
+  /// @dev Minimal slice of Uniswap V3's NonfungiblePositionManager ABI - only what
+  /// this script needs (pool creation/initialization + minting a full-range position).
+  interface INonfungiblePositionManager {
+      struct MintParams {
+          address token0;
+          address token1;
+          uint24 fee;
+          int24 tickLower;
+          int24 tickUpper;
+          uint256 amount0Desired;
+          uint256 amount1Desired;
+          uint256 amount0Min;
+          uint256 amount1Min;
+          address recipient;
+          uint256 deadline;
+      }
+  
+      function createAndInitializePoolIfNecessary(address token0, address token1, uint24 fee, uint160 sqrtPriceX96)
+          external
+          payable
+          returns (address pool);
+  
+      function mint(MintParams calldata params)
+          external
+          payable
+          returns (uint256 tokenId, uint128 liquidity, uint256 amount0, uint256 amount1);
+  }
+  
+  /**
+   * @title SeedPool
+   * @dev Creates and seeds a Uniswap V3 pool for the mock WETH/USDC pair on Base Sepolia,
+   * so NexaiZapper has real liquidity to swap against. Testnet-only.
+   */
+  contract SeedPoolScript is Script {
+      address constant POSITION_MANAGER = 0x27F971cb582BF9E50F397e4d29a5C7A34f11faA2;
+  
+      address constant WETH = 0x5dAa95Cc547e98B3CEf227eD1D612CDd3d9E30a6;
+      address constant USDC = 0x1a0e689b2b55c4E92571b37e0DA2C3b0EeE30B4a;
+  
+      uint24 constant FEE = 3000; // 0.3%, standard tier for a non-stablecoin pair
+  
+      // Full-range ticks for the 0.3% tier (tick spacing 60): floor(887272 / 60) * 60
+      int24 constant TICK_LOWER = -887220;
+      int24 constant TICK_UPPER = 887220;
+  
+      // Seed liquidity at the same 0.5 WETH : 1000 USDC ratio used by the basket weights,
+      // scaled up 40x so the pool has enough depth for realistic zapper test swaps.
+      uint256 constant WETH_SEED_AMOUNT = 20 * 10 ** 18;
+      uint256 constant USDC_SEED_AMOUNT = 40_000 * 10 ** 6;
+  
+      function run() external {
+          uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
+          address deployer = vm.addr(deployerPrivateKey);
+          vm.startBroadcast(deployerPrivateKey);
+  
+          // Mint the seed liquidity to the deployer (mock tokens, so this is free on testnet).
+          MockERC20(WETH).mint(deployer, WETH_SEED_AMOUNT);
+          MockERC20(USDC).mint(deployer, USDC_SEED_AMOUNT);
+  
+          // Uniswap V3 pools are keyed by the numerically-sorted token pair, and price is
+          // always expressed as token1 per token0 - so we sort first and assign reserves
+          // to whichever slot each token actually lands in, rather than assuming an order.
+          (address token0, address token1) = WETH < USDC ? (WETH, USDC) : (USDC, WETH);
+          (uint256 reserve0, uint256 reserve1) =
+              token0 == WETH ? (WETH_SEED_AMOUNT, USDC_SEED_AMOUNT) : (USDC_SEED_AMOUNT, WETH_SEED_AMOUNT);
+  
+          // sqrtPriceX96 = sqrt(price) * 2^96, and price = reserve1/reserve0 in raw token
+          // units. Computing it as sqrt(reserve1 * 2^192 / reserve0) via Math.mulDiv keeps
+          // the intermediate product inside a 512-bit accumulator so it can't overflow
+          // uint256, even though reserve1 * 2^192 alone would.
+          uint160 sqrtPriceX96 = uint160(Math.sqrt(Math.mulDiv(reserve1, uint256(1) << 192, reserve0)));
+  
+          INonfungiblePositionManager positionManager = INonfungiblePositionManager(POSITION_MANAGER);
+  
+          address pool = positionManager.createAndInitializePoolIfNecessary(token0, token1, FEE, sqrtPriceX96);
+          console.log("Pool created/initialized at:", pool);
+  
+          IERC20(token0).approve(POSITION_MANAGER, reserve0);
+          IERC20(token1).approve(POSITION_MANAGER, reserve1);
+  
+          (uint256 tokenId, uint128 liquidity, uint256 amount0, uint256 amount1) = positionManager.mint(
+              INonfungiblePositionManager.MintParams({
+                  token0: token0,
+                  token1: token1,
+                  fee: FEE,
+                  tickLower: TICK_LOWER,
+                  tickUpper: TICK_UPPER,
+                  amount0Desired: reserve0,
+                  amount1Desired: reserve1,
+                  amount0Min: 0,
+                  amount1Min: 0,
+                  recipient: deployer,
+                  deadline: block.timestamp + 15 minutes
+              })
+          );
+  
+          console.log("Position NFT minted, tokenId:", tokenId);
+          console.log("Liquidity:", uint256(liquidity));
+          console.log("Amount0 used:", amount0);
+          console.log("Amount1 used:", amount1);
+  
+          vm.stopBroadcast();
+      }
+  }
+  
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:13:17  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  forge script script/SeedPool.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  [LMB]
+
+--- WINDOW  2026/07/16 07:14:23  [Antigravity IDE.exe] NEXAI - Antigravity IDE - SeedPool.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ forge script script/SeedPool.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  error: a value is required for '--rpc-url <URL>' but none was supplied
+  
+  For more information, try '--help'.
+  [Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:14:33  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  source .env
+  [LMB]
+
+--- WINDOW  2026/07/16 07:14:44  [Antigravity IDE.exe] NEXAI - Antigravity IDE - SeedPool.s.sol
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:14:56  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:14:58  [Antigravity IDE.exe] NEXAI - Antigravity IDE - SeedPool.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:14:59  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  forge script script/SeedPool.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  [LMB]
+
+--- WINDOW  2026/07/16 07:15:02  [Antigravity IDE.exe] NEXAI - Antigravity IDE - SeedPool.s.sol
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ source .env
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ forge script script/SeedPool.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  [⠢] Compiling...
+  No files changed, compilation skipped
+  Script ran successfully.
+  
+  == Logs ==
+    Pool created/initialized at: 0x0cCb13693fD561be33bC0f29CebeDF8575536394
+    Position NFT minted, tokenId: 81386
+    Liquidity: 894427190999915
+    Amount0 used: 40000000000
+    Amount1 used: 19999999999999980355
+  
+  ## Setting up 1 EVM.
+  
+  ==========================
+  
+  Chain 84532
+  
+  Estimated gas price: 0.011 gwei
+  
+  Estimated total gas used for script: 7841559
+  
+  Estimated amount required: 0.000086257149 ETH
+  
+  ==========================
+  
+  SIMULATION COMPLETE. To broadcast these transactions, add --broadcast and wallet configuration(s) to the previous command. See forge script --help for more.
+  
+  Transactions saved to: /mnt/c/Users/USER/Desktop/NEXAI/contracts/broadcast/SeedPool.s.sol/84532/dry-run/run-latest.json
+  
+  Sensitive values saved to: /mnt/c/Users/USER/Desktop/NEXAI/contracts/cache/SeedPool.s.sol/84532/dry-run/run-latest.json
+  [Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:15:35  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  forge script script/SeedPool.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast
+  [LMB]
+
+--- WINDOW  2026/07/16 07:16:12  [Antigravity IDE.exe] NEXAI - Antigravity IDE - SeedPool.s.sol
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ forge script script/SeedPool.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast
+  [⠢] Compiling...
+  No files changed, compilation skipped
+  Script ran successfully.
+  
+  == Logs ==
+    Pool created/initialized at: 0x0cCb13693fD561be33bC0f29CebeDF8575536394
+    Position NFT minted, tokenId: 81386
+    Liquidity: 894427190999915
+    Amount0 used: 40000000000
+    Amount1 used: 19999999999999980355
+  
+  ## Setting up 1 EVM.
+  
+  ==========================
+  
+  Chain 84532
+  
+  Estimated gas price: 0.011 gwei
+  
+  Estimated total gas used for script: 7841559
+  
+  Estimated amount required: 0.000086257149 ETH
+  
+  ==========================
+  
+  Transactions saved to: /mnt/c/Users/USER/Desktop/NEXAI/contracts/broadcast/SeedPool.s.sol/84532/run-latest.json
+  
+  Sensitive values saved to: /mnt/c/Users/USER/Desktop/NEXAI/contracts/cache/SeedPool.s.sol/84532/run-latest.json
+  
+  Error: Failed to send transaction after 4 attempts Err(server returned an error response: error code -32000: in-flight transaction limit reached for delegated accounts)
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:16:58  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:17:10  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:17:17  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  forge script script/SeedPool.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast --slow
+  [LMB]
+
+--- WINDOW  2026/07/16 07:17:52  [Antigravity IDE.exe] NEXAI - Antigravity IDE - SeedPool.s.sol
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+  v[ENTER]
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:18:57  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[Ctrl]z
+  [LMB]
+
+--- WINDOW  2026/07/16 07:19:03  [Antigravity IDE.exe] NEXAI - Antigravity IDE - SeedPool.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ forge script script/SeedPool.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast --slow
+  [⠒] Compiling...
+  No files changed, compilation skipped
+  Script ran successfully.
+  
+  == Logs ==
+    Pool created/initialized at: 0x0cCb13693fD561be33bC0f29CebeDF8575536394
+    Position NFT minted, tokenId: 81386
+    Liquidity: 894427190999915
+    Amount0 used: 40000000000
+    Amount1 used: 19999999999999980355
+  
+  ## Setting up 1 EVM.
+  
+  ==========================
+  
+  Chain 84532
+  
+  Estimated gas price: 0.011 gwei
+  
+  Estimated total gas used for script: 1045617
+  
+  Estimated amount required: 0.000011501787 ETH
+  
+  ==========================
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0xec171bf44965d690e27b13c8bd185269ef4b78c6de52028438e07175f1d654f9
+  Function: mint(address,uint256)
+  Block: 44207213
+  Paid: 0.000000208152 ETH (34692 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x5b4a7c9f341a9828e49b5d148616f1b6df98ae780bf51e012aa28a73e91a6514
+  Function: mint(address,uint256)
+  Block: 44207214
+  Paid: 0.000000207936 ETH (34656 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x7f644f2e63e3faefbe403c7053bcd8d9b0312598bd56a1967ed81f63610612e1
+  Function: createAndInitializePoolIfNecessary(address,address,uint24,uint160)
+  Block: 44207215
+  Paid: 0.00000020628 ETH (34380 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x45e167233330c2b3e2b3bdd2d210a669b1e4c2ebd0623e48953a3a55f1c6e324
+  Function: approve(address,uint256)
+  Block: 44207216
+  Paid: 0.00000016164 ETH (26940 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x25780ecb0a8bfe9c5601d7f0a71207443fff0f15d2fe8f80219eb3b7f43df718
+  Function: approve(address,uint256)
+  Block: 44207217
+  Paid: 0.000000161856 ETH (26976 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0xe23e7e4a3589eabee51fc00ace10ab9276f4b757fccd5936f2d6a0059a16937e
+  Function: mint((address,address,uint24,int24,int24,uint256,uint256,uint256,uint256,address,uint256))
+  Block: 44207218
+  Paid: 0.000003596208 ETH (599368 gas * 0.006 gwei)
+  
+  ✅ Sequence #1 on base-sepolia | Total Paid: 0.000004542072 ETH (757012 gas * avg 0.006 gwei)                                                                                                              
+                                                                                                                                                                                                             
+                                                                                                                                                                                                             
+  ==========================
+  
+  ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+  
+  Transactions saved to: /mnt/c/Users/USER/Desktop/NEXAI/contracts/broadcast/SeedPool.s.sol/84532/run-latest.json
+  
+  Sensitive values saved to: /mnt/c/Users/USER/Desktop/NEXAI/contracts/cache/SeedPool.s.sol/84532/run-latest.json
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:19:17  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  honst[Bk][Bk]estly am confude [ENTER]
+  i dont know what we've done[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  woah[ENTER]
+  just tht and i was confused lmaoo[ENTER]
+  thanks budd[ENTER]
+  let;[Bk]'s continue[ENTER]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  # Deploy NexaiZapper to Base Sepolia
+  
+  The liquidity pool is now live and seeded. Write `script/DeployZapper.s.sol`
+  to deploy `NexaiZapper`, following the same pattern as `Deploy.s.sol` and
+  `SeedPool.s.sol` (Foundry script, uses `vm.envUint("PRIVATE_KEY")`,
+  `vm.startBroadcast`/`vm.stopBroadcast`).
+  
+  ## Constructor arguments
+  
+  ```
+  _swapRouter: 0x94cC0AaC535CCDB3C01d6787D6413C739ae12bc4  (SwapRouter02)
+  _core:       0xB324A0B49dD60f5c1e783DCffbF71ABB368B0c19  (NexaiCore)
+  _weth:       0x5dAa95Cc547e98B3CEf227eD1D612CDd3d9E30a6  (Mock WETH)
+  _usdc:       0x1a0e689b2b55c4E92571b37e0DA2C3b0EeE30B4a  (Mock USDC)
+  _swapFee:    3000                                         (0.3%, matches
+                                                               the seeded pool)
+  ```
+  
+  ## Requirements
+  
+  - Log the deployed `NexaiZapper` address clearly via `console.log`, same
+    as the other deployment scripts, so it can be plugged into the
+    frontend's `.env`
+  - No role grants needed — `NexaiZapper` doesn't need `CORE_ROLE` or any
+    special permission on `NexaiCore`; it just calls the public `deposit()`
+    function like any other user would
+  - Should be a plain, minimal script — this is a single contract deploy
+    with fixed constructor args, no additional setup steps required
+
+--- WINDOW  2026/07/16 07:23:01  [Antigravity IDE.exe] NEXAI - Antigravity IDE - SeedPool.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:23:02  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Done — DeployZapper.s.sol is a straightforward deploy: no role grants (as you noted, deposit() on Core is open to any caller, so the Zapper needs no special permission), just the constructor wired up with the five addresses/fee tier and a console.log of the deployed address for wiring into the frontend .env.
+  
+  Two things still open: the local forge build/forge test verification (blocked here, needs to run on your end), and the frontend change to collapse the two-approval deposit flow into a single USDC approval calling zapDepositUsdc. Want me to go ahead on the frontend piece next?
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:23:29  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:23:41  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:23:42  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:23:43  [Antigravity IDE.exe] NEXAI - Antigravity IDE - SeedPool.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:23:45  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]a
+  [Clipboard]
+  // SPDX-License-Identifier: MIT
+  pragma solidity ^0.8.20;
+  
+  import {Script, console} from "forge-std/Script.sol";
+  import {NexaiZapper} from "../src/NexaiZapper.sol";
+  
+  contract DeployZapperScript is Script {
+      address constant SWAP_ROUTER = 0x94cC0AaC535CCDB3C01d6787D6413C739ae12bc4;
+      address constant CORE = 0xB324A0B49dD60f5c1e783DCffbF71ABB368B0c19;
+      address constant WETH = 0x5dAa95Cc547e98B3CEf227eD1D612CDd3d9E30a6;
+      address constant USDC = 0x1a0e689b2b55c4E92571b37e0DA2C3b0EeE30B4a;
+      uint24 constant SWAP_FEE = 3000; // 0.3%, matches the seeded pool
+  
+      function run() external {
+          uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
+          vm.startBroadcast(deployerPrivateKey);
+  
+          NexaiZapper zapper = new NexaiZapper(SWAP_ROUTER, CORE, WETH, USDC, SWAP_FEE);
+          console.log("NexaiZapper deployed at:", address(zapper));
+  
+          vm.stopBroadcast();
+      }
+  }
+  
+  c
+
+--- WINDOW  2026/07/16 07:23:49  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  forge build && forge test
+  [LMB]
+
+--- WINDOW  2026/07/16 07:24:03  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/16 07:24:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:24:30  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ forge build && forge test
+  [⠆] Compiling...
+  [⠑] Compiling 1 files with Solc 0.8.35
+  [⠃] Solc 0.8.35 finished in 1.37s
+  Compiler run successful!
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/PriceOracle.sol:82:17
+     │
+  82 │         require(block.timestamp - updatedAt < 1 hours, "Chainlink price stale");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  warning[unsafe-typecast]: typecasts that can truncate values should be checked
+     ╭▸ test/PriceOracle.t.sol:73:37
+     │
+  73 │     bytes32 public redstoneFeedId = bytes32("ETH");
+     │                                     ━━━━━━━━━━━━━━
+     │
+     ├ note: consider disabling this lint if you're certain the cast is safe
+     │
+     │       // casting to 'bytes32' is safe because [explain why]
+     │       // forge-lint: disable-next-line(unsafe-typecast)
+     │
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+  
+  [⠢] Compiling...
+  No files changed, compilation skipped
+  
+  Ran 6 tests for test/PriceOracle.t.sol:PriceOracleTest
+  [PASS] test_GetChainlinkPrice_Reverts_NegativePrice() (gas: 61353)
+  [PASS] test_GetChainlinkPrice_Reverts_StaleData() (gas: 57957)
+  [PASS] test_GetChainlinkPrice_Reverts_ZeroPrice() (gas: 56509)
+  [PASS] test_GetChainlinkPrice_Success() (gas: 54256)
+  [PASS] test_GetRedstonePrice_Stub() (gas: 82317)
+  [PASS] test_SetTokenConfig() (gas: 61506)
+  Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 2.21ms (1.15ms CPU time)
+  
+  Ran 4 tests for test/NexaiIndexToken.t.sol:NexaiIndexTokenTest
+  [PASS] test_Burn_Reverts_When_NotCore() (gas: 103253)
+  [PASS] test_Burn_Succeeds_When_Core() (gas: 70311)
+  [PASS] test_Mint_Reverts_When_NotCore() (gas: 49776)
+  [PASS] test_Mint_Succeeds_When_Core() (gas: 64612)
+  Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 1.54ms (1.09ms CPU time)
+  
+  Ran 5 tests for test/NexaiZapper.t.sol:NexaiZapperTest
+  [PASS] test_RevertsOnExcessSlippage() (gas: 113477)
+  [PASS] test_RevertsWhenBasketHasThirdToken() (gas: 1248638)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc() (gas: 1211730)
+  [PASS] test_RevertsWhenMaxUsdcInTooLowForDirectLeg() (gas: 63998)
+  [PASS] test_ZapDepositUsdc_Correctness() (gas: 358092)
+  Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in 6.20ms (2.38ms CPU time)
+  
+  Ran 3 tests for test/NexaiCore.t.sol:NexaiCoreTest
+  [PASS] testFuzz_Solvency(uint256,uint256,uint256,uint256) (runs: 256, μ: 240109, ~: 241703)
+  [PASS] test_Deposit_Correctness() (gas: 181282)
+  [PASS] test_Redeem_Correctness() (gas: 202841)
+  Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 136.16ms (134.11ms CPU time)
+  
+  Ran 4 test suites in 149.86ms (146.11ms CPU time): 18 tests passed, 0 failed, 0 skipped (18 total tests)
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:24:42  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  forge script script/DeployZapper.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:24:56  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ forge script script/DeployZapper.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  [⠢] Compiling...
+  No files changed, compilation skipped
+  Script ran successfully.
+  
+  == Logs ==
+    NexaiZapper deployed at: 0xAE8645F73CB2dC48c5D531b5df62eC301bD54038
+  
+  ## Setting up 1 EVM.
+  
+  ==========================
+  
+  Chain 84532
+  
+  Estimated gas price: 0.011 gwei
+  
+  Estimated total gas used for script: 2184795
+  
+  Estimated amount required: 0.000024032745 ETH
+  
+  ==========================
+  
+  SIMULATION COMPLETE. To broadcast these transactions, add --broadcast and wallet configuration(s) to the previous command. See forge script --help for more.
+  
+  Transactions saved to: /mnt/c/Users/USER/Desktop/NEXAI/contracts/broadcast/DeployZapper.s.sol/84532/dry-run/run-latest.json
+  
+  Sensitive values saved to: /mnt/c/Users/USER/Desktop/NEXAI/contracts/cache/DeployZapper.s.sol/84532/dry-run/run-latest.json
+  
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:25:28  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  forge script script/DeployZapper.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast --slow
+  [LMB]
+
+--- WINDOW  2026/07/16 07:25:56  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/16 07:25:59  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:26:01  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ forge script script/DeployZapper.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  [⠢] Compiling...
+  No files changed, compilation skipped
+  Script ran successfully.
+  
+  == Logs ==
+    NexaiZapper deployed at: 0xAE8645F73CB2dC48c5D531b5df62eC301bD54038
+  
+  ## Setting up 1 EVM.
+  
+  ==========================
+  
+  Chain 84532
+  
+  Estimated gas price: 0.011 gwei
+  
+  Estimated total gas used for script: 2184795
+  
+  Estimated amount required: 0.000024032745 ETH
+  
+  ==========================
+  
+  SIMULATION COMPLETE. To broadcast these transactions, add --broadcast and wallet configuration(s) to the previous command. See forge script --help for more.
+  
+  Transactions saved to: /mnt/c/Users/USER/Desktop/NEXAI/contracts/broadcast/DeployZapper.s.sol/84532/dry-run/run-latest.json
+  
+  Sensitive values saved to: /mnt/c/Users/USER/Desktop/NEXAI/contracts/cache/DeployZapper.s.sol/84532/dry-run/run-latest.json
+  
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ forge script script/DeployZapper.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast --slow
+  [⠑] Compiling...
+  No files changed, compilation skipped
+  Script ran successfully.
+  
+  == Logs ==
+    NexaiZapper deployed at: 0xAE8645F73CB2dC48c5D531b5df62eC301bD54038
+  
+  ## Setting up 1 EVM.
+  
+  ==========================
+  
+  Chain 84532
+  
+  Estimated gas price: 0.011 gwei
+  
+  Estimated total gas used for script: 2184795
+  
+  Estimated amount required: 0.000024032745 ETH
+  
+  ==========================
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0xc2ecac81f3a32df54c5a9ac57930481410899e60ed88ef86431e1c592b9c61a0
+  Contract: NexaiZapper
+  Contract Address: 0xAE8645F73CB2dC48c5D531b5df62eC301bD54038
+  Block: 44207448
+  Paid: 0.000010083672 ETH (1680612 gas * 0.006 gwei)
+  
+  ✅ Sequence #1 on base-sepolia | Total Paid: 0.000010083672 ETH (1680612 gas * avg 0.006 gwei)
+  
+  
+  ==========================
+  
+  ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+  
+  Transactions saved to: /mnt/c/Users/USER/Desktop/NEXAI/contracts/broadcast/DeployZapper.s.sol/84532/run-latest.json
+  
+  Sensitive values saved to: /mnt/c/Users/USER/Desktop/NEXAI/contracts/cache/DeployZapper.s.sol/84532/run-latest.json
+  
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:26:23  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  i stil have usdc and eth tho[Bk][Bk][Bk][Bk][Bk][Bk][Bk]weth tho[ENTER]
+  o[Bk]do i need a new one[ENTER]
+  [LMB]
+  bu tit displays on the frontend[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:27:25  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:27:26  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:27:39  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 07:27:39  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:27:40  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  wait how is th [Bk]e frotne[Bk][Bk][Bk]ntend supposed to behave no[ENTER]
+  so i know what am testing/[Bk]/[ENTER]
+  [Clipboard]
+  cast send 0x1a0e689b2b55c4E92571b37e0DA2C3b0EeE30B4a "approve(address,uint256)" 0xAE8645F73CB2dC48c5D531b5df62eC301bD54038 3000000000 --rpc-url https://sepolia.base.org --private-key $PRIVATE_KEY
+  [LMB]
+
+--- WINDOW  2026/07/16 07:28:48  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:28:56  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:29:02  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  cast send 0xAE8645F73CB2dC48c5D531b5df62eC301bD54038 "zapDepositUsdc(uint256,uint256)" 1000000000000000000 3000000000 --rpc-url https://sepolia.base.org --private-key $PRIVATE_KEY
+  [LMB]
+
+--- WINDOW  2026/07/16 07:29:05  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ cast send 0x1a0e689b2b55c4E92571b37e0DA2C3b0EeE30B4a "approve(address,uint256)" 0xAE8645F73CB2dC48c5D531b5df62eC301bD54038 3000000000 --rpc-url https://sepolia.base.org --private-key $PRIVATE_KEY
+  
+  blockHash            0x0000000000000000000000000000000000000000000000000000000000000000
+  blockNumber          44207528
+  contractAddress
+  cumulativeGasUsed    145693
+  effectiveGasPrice    6000000
+  from                 0x87da12e65F2d853B2E573779eBb37E2fdD6E6752
+  gasUsed              46828
+  logs                 [{"address":"0x1a0e689b2b55c4e92571b37e0da2c3b0eee30b4a","topics":["0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925","0x00000000000000000000000087da12e65f2d853b2e573779ebb37e2fdd6e6752","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038"],"data":"0x00000000000000000000000000000000000000000000000000000000b2d05e00","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28da8","blockTimestamp":"0x6a587a30","transactionHash":"0xe044c6ba4e4bc2145e706be87da37ae2fcead6989a006df8356e39d35c0ef721","transactionIndex":"0x2","logIndex":"0x1","removed":false}]
+  logsBloom            0x08000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000080100000000000000000000000000000000000000000000000000000000000000000000000020000000000010000000000000020000000000000000000000000000000400000000000000000000000010000000000000000000000000000000000000000000010000000000008000000000000000000000000000000000000000000000000
+  root
+  status               1 (success)
+  transactionHash      0xe044c6ba4e4bc2145e706be87da37ae2fcead6989a006df8356e39d35c0ef721
+  transactionIndex     2
+  type                 2
+  blobGasPrice
+  blobGasUsed          44600
+  to                   0x1a0e689b2b55c4E92571b37e0DA2C3b0EeE30B4a
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ cast send 0xAE8645F73CB2dC48c5D531b5df62eC301bD54038 "zapDepositUsdc(uint256,uint256)" 1000000000000000000 3000000000 --rpc-url https://sepolia.base.org --private-key $PRIVATE_KEY
+  
+  blockHash            0x0000000000000000000000000000000000000000000000000000000000000000
+  blockNumber          44207536
+  contractAddress
+  cumulativeGasUsed    2062043
+  effectiveGasPrice    6000000
+  from                 0x87da12e65F2d853B2E573779eBb37E2fdD6E6752
+  gasUsed              321726
+  logs                 [{"address":"0x1a0e689b2b55c4e92571b37e0da2c3b0eee30b4a","topics":["0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925","0x00000000000000000000000087da12e65f2d853b2e573779ebb37e2fdd6e6752","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038"],"data":"0x0000000000000000000000000000000000000000000000000000000000000000","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x47","removed":false},{"address":"0x1a0e689b2b55c4e92571b37e0da2c3b0eee30b4a","topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x00000000000000000000000087da12e65f2d853b2e573779ebb37e2fdd6e6752","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038"],"data":"0x00000000000000000000000000000000000000000000000000000000b2d05e00","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x48","removed":false},{"address":"0x1a0e689b2b55c4e92571b37e0da2c3b0eee30b4a","topics":["0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038","0x00000000000000000000000094cc0aac535ccdb3c01d6787d6413c739ae12bc4"],"data":"0x0000000000000000000000000000000000000000000000000000000077359400","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x49","removed":false},{"address":"0x5daa95cc547e98b3cef227ed1d612cdd3d9e30a6","topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x0000000000000000000000000ccb13693fd561be33bc0f29cebedf8575536394","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038"],"data":"0x00000000000000000000000000000000000000000000000006f05b59d3b20000","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x4a","removed":false},{"address":"0x1a0e689b2b55c4e92571b37e0da2c3b0eee30b4a","topics":["0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038","0x00000000000000000000000094cc0aac535ccdb3c01d6787d6413c739ae12bc4"],"data":"0x0000000000000000000000000000000000000000000000000000000039e47258","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x4b","removed":false},{"address":"0x1a0e689b2b55c4e92571b37e0da2c3b0eee30b4a","topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038","0x0000000000000000000000000ccb13693fd561be33bc0f29cebedf8575536394"],"data":"0x000000000000000000000000000000000000000000000000000000003d5121a8","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x4c","removed":false},{"address":"0x0ccb13693fd561be33bc0f29cebedf8575536394","topics":["0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67","0x00000000000000000000000094cc0aac535ccdb3c01d6787d6413c739ae12bc4","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038"],"data":"0x000000000000000000000000000000000000000000000000000000003d5121a8fffffffffffffffffffffffffffffffffffffffffffffffff90fa4a62c4e00000000000000000000000000000000000000005529a9abfdabfd09491aedf4080e00000000000000000000000000000000000000000000000000032d7a0eff3b6b0000000000000000000000000000000000000000000000000000000000030c7c","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x4d","removed":false},{"address":"0x1a0e689b2b55c4e92571b37e0da2c3b0eee30b4a","topics":["0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038","0x00000000000000000000000094cc0aac535ccdb3c01d6787d6413c739ae12bc4"],"data":"0x0000000000000000000000000000000000000000000000000000000000000000","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x4e","removed":false},{"address":"0x5daa95cc547e98b3cef227ed1d612cdd3d9e30a6","topics":["0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038","0x000000000000000000000000b324a0b49dd60f5c1e783dcffbf71abb368b0c19"],"data":"0x00000000000000000000000000000000000000000000000006f05b59d3b20000","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x4f","removed":false},{"address":"0x1a0e689b2b55c4e92571b37e0da2c3b0eee30b4a","topics":["0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038","0x000000000000000000000000b324a0b49dd60f5c1e783dcffbf71abb368b0c19"],"data":"0x000000000000000000000000000000000000000000000000000000003b9aca00","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x50","removed":false},{"address":"0x5daa95cc547e98b3cef227ed1d612cdd3d9e30a6","topics":["0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038","0x000000000000000000000000b324a0b49dd60f5c1e783dcffbf71abb368b0c19"],"data":"0x0000000000000000000000000000000000000000000000000000000000000000","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x51","removed":false},{"address":"0x5daa95cc547e98b3cef227ed1d612cdd3d9e30a6","topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038","0x000000000000000000000000b324a0b49dd60f5c1e783dcffbf71abb368b0c19"],"data":"0x00000000000000000000000000000000000000000000000006f05b59d3b20000","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x52","removed":false},{"address":"0x1a0e689b2b55c4e92571b37e0da2c3b0eee30b4a","topics":["0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038","0x000000000000000000000000b324a0b49dd60f5c1e783dcffbf71abb368b0c19"],"data":"0x0000000000000000000000000000000000000000000000000000000000000000","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x53","removed":false},{"address":"0x1a0e689b2b55c4e92571b37e0da2c3b0eee30b4a","topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038","0x000000000000000000000000b324a0b49dd60f5c1e783dcffbf71abb368b0c19"],"data":"0x000000000000000000000000000000000000000000000000000000003b9aca00","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x54","removed":false},{"address":"0x1c87f4647c0b946a28739725a7f67e94967bbd18","topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x0000000000000000000000000000000000000000000000000000000000000000","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038"],"data":"0x0000000000000000000000000000000000000000000000000de0b6b3a7640000","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x55","removed":false},{"address":"0xb324a0b49dd60f5c1e783dcffbf71abb368b0c19","topics":["0x2da466a7b24304f47e87fa2e1e5a81b9831ce54fec19055ce277ca2f39ba42c4","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038"],"data":"0x0000000000000000000000000000000000000000000000000de0b6b3a7640000","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x56","removed":false},{"address":"0x5daa95cc547e98b3cef227ed1d612cdd3d9e30a6","topics":["0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038","0x000000000000000000000000b324a0b49dd60f5c1e783dcffbf71abb368b0c19"],"data":"0x0000000000000000000000000000000000000000000000000000000000000000","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x57","removed":false},{"address":"0x1a0e689b2b55c4e92571b37e0da2c3b0eee30b4a","topics":["0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038","0x000000000000000000000000b324a0b49dd60f5c1e783dcffbf71abb368b0c19"],"data":"0x0000000000000000000000000000000000000000000000000000000000000000","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x58","removed":false},{"address":"0x1c87f4647c0b946a28739725a7f67e94967bbd18","topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038","0x00000000000000000000000087da12e65f2d853b2e573779ebb37e2fdd6e6752"],"data":"0x0000000000000000000000000000000000000000000000000de0b6b3a7640000","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x59","removed":false},{"address":"0x1a0e689b2b55c4e92571b37e0da2c3b0eee30b4a","topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x000000000000000000000000ae8645f73cb2dc48c5d531b5df62ec301bd54038","0x00000000000000000000000087da12e65f2d853b2e573779ebb37e2fdd6e6752"],"data":"0x0000000000000000000000000000000000000000000000000000000039e47258","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x5a","removed":false},{"address":"0xae8645f73cb2dc48c5d531b5df62ec301bd54038","topics":["0xc16f2b8ffb9e69b44bc44da6c863e70ff2729eef2a1f0094550f787b0166a026","0x00000000000000000000000087da12e65f2d853b2e573779ebb37e2fdd6e6752"],"data":"0x0000000000000000000000000000000000000000000000000de0b6b3a76400000000000000000000000000000000000000000000000000000000000078ebeba8","blockHash":"0x0000000000000000000000000000000000000000000000000000000000000000","blockNumber":"0x2a28db0","blockTimestamp":"0x6a587a40","transactionHash":"0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291","transactionIndex":"0xd","logIndex":"0x5b","removed":false}]
+  logsBloom            0x0800000000004000000000000000080000000000000000000000000000000000000000000000000000000000000000000000042000002000000000000020000040000000080000080000000a000000800000000000000000000808000000200000000000020000000000010000000800000000000000000000000090100a00000000000000000000000000000040004000000400000000000000800000000000020000000000010000008000000020008000000000000000000000000000400000000002000000000004010000020002000000001000000010000001000020002050000000000008000000000000000000400000080000400000000000000000
+  root
+  status               1 (success)
+  transactionHash      0x64cff2d2923e7df19987e8e71cc58a7e3b2b2dc0cfe5424f2a083cd46c1ea291
+  transactionIndex     13
+  type                 2
+  blobGasPrice
+  blobGasUsed          44600
+  to                   0xAE8645F73CB2dC48c5D531b5df62eC301bD54038
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:29:27  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:29:53  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:29:54  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:29:55  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:29:59  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:30:01  [Discord.exe] Friends - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:30:03  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  actuall i ha emor than hat but i went downalil t[Bk]bit[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:30:45  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:30:47  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 07:30:51  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  t[Bk]ys that/[Bk]'s cowxt[Bk][Bk][Bk][Bk]rect[ENTER]
+  yes[ENTER]
+  [LMB]
+  [Clipboard]
+  # Frontend: One-Click USDC Deposit via Zapper
+  
+  The zapper is now deployed and verified working on Base Sepolia:
+  `0xAE8645F73CB2dC48c5D531b5df62eC301bD54038`
+  
+  Update the Deposit tab so users can mint NEXAI with a single USDC
+  approval instead of separately approving WETH and USDC.
+  
+  ## Requirements
+  
+  - Add `VITE_NEXAI_ZAPPER=0xAE8645F73CB2dC48c5D531b5df62eC301bD54038` to
+    `.env` and wire it up alongside the other contract addresses
+  - On the Deposit tab, offer this as the primary/default path (it's the
+    actual "one-click" experience Dmitry asked for) — the existing
+    two-token direct deposit can stay available as a secondary/advanced
+    option, but shouldn't be the first thing users see
+  - Flow: user enters desired NEXAI amount → single "Approve USDC" step
+    → single "Deposit" step calling `zapDepositUsdc(nexaiAmount, maxUsdcIn)`
+  - **`maxUsdcIn` needs a slippage buffer**, not the exact calculated
+    cost — real Uniswap swaps have price movement between when the user
+    sees a quote and when the transaction executes. Suggest computing the
+    expected direct+swap cost (same math the zapper uses internally:
+    read `basketWeights` for the round-up formula, direct USDC leg is
+    fixed) and adding a buffer on top (e.g. 2-3%) for `maxUsdcIn`, so
+    minor price movement doesn't cause an unnecessary revert
+  - Live preview should still show the estimated USDC cost as the user
+    types an amount, same pattern as the existing basket breakdown
+    preview — just simplified to "approximately X USDC" instead of
+    showing both WETH and USDC lines, since the user only needs to know
+    what they're spending
+  - Standard transaction status feedback (pending/success/error), same
+    pattern as existing flows
+  - After a successful zap deposit, refresh balances (NEXAI up, USDC
+    down) — should work automatically if using the same live-updating
+    balance hooks as the rest of the UI
+  
+  ## Out of Scope
+  - Don't remove the existing direct WETH+USDC deposit flow — keep it as
+    a secondary option, just not the default
+  - No need to expose `maxUsdcIn` as a user-adjustable slippage setting
+    for this trial — a sensible hardcoded buffer is fine
+  [LMB]
+
+--- WINDOW  2026/07/16 07:31:48  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployZapper.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:31:51  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:34:07  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:34:17  [chrome.exe] _crx_nkbihfbeogaeaoehlefnkodbefgpgknn
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 07:34:17  [chrome.exe] MetaMask
+----------------------------------------------------------------------------
+  2mandela1[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:34:38  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:34:48  [chrome.exe] MetaMask
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  testner[Bk]t
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:35:55  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:36:15  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:36:18  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:37:03  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:37:18  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:37:27  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:37:31  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Frontend's done, typechecked and built clean. Here's the walkthrough:
+  
+  Wiring — added VITE_NEXAI_ZAPPER to frontend/.env, and ZAPPER_ABI (just the one function it needs) plus the address to constants.ts.
+  
+  The cost estimate — the interesting part. There's no live Uniswap quote wired up here (that'd mean adding a Quoter contract call), so instead the estimate leans on data already on the page: the basket weights. Since the pool was seeded at the same ratio the basket weights encode (0.5 WETH : 1000 USDC), I used that ratio as a stand-in price — estimatedSwapCostUsdc = requiredWeth * (usdcWeight / wethWeight). Worth knowing: this simplifies to almost exactly requiredUsdc again, so the estimate reads as "total ≈ 2× the direct USDC leg." It's a reasonable approximation because we control the seed price, but it will drift from the real swap cost as soon as the pool gets traded and its price moves away from that starting ratio — at that point this stops being a good estimate and would need a real quoter. Flagging that now since it's a simplification, not a permanent design.
+  
+  The 3% buffer sits on top of that estimate for maxUsdcIn — this is what's actually approved and passed to the contract, not the number shown to the user (the UI shows the plain estimate, "~X USDC," so it doesn't look inflated). Any unspent buffer gets refunded by the Zapper itself.
+  
+  UI structure — depositMode state defaults to 'zap'; the old two-approval flow still exists verbatim, just gated behind an "Advanced" text link, with a matching link back. Both modes share the same NEXAI-amount input. Balance refresh needed no new code — the existing useReadContracts poll (every 5s) already covers it.
+  
+  Still open: the actual forge test run for the zapper contract, still blocked in this sandbox — that one's on you locally.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:38:28  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:39:18  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:39:21  [Antigravity IDE.exe] NEXAI - Antigravity IDE - constants.ts
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]ac
+  [Clipboard]
+  export const CONTRACT_ADDRESSES = {
+    NexaiCore: import.meta.env.VITE_NEXAI_CORE as `0x${string}` || "0x1111111111111111111111111111111111111111",
+    NexaiIndexToken: import.meta.env.VITE_NEXAI_INDEX_TOKEN as `0x${string}` || "0x2222222222222222222222222222222222222222",
+    WETH: import.meta.env.VITE_WETH as `0x${string}` || "0x3333333333333333333333333333333333333333",
+    USDC: import.meta.env.VITE_USDC as `0x${string}` || "0x4444444444444444444444444444444444444444",
+    NexaiZapper: import.meta.env.VITE_NEXAI_ZAPPER as `0x${string}` || "0x5555555555555555555555555555555555555555",
+  } as const;
+  
+  export const ERC20_ABI = [
+    {
+      type: "function",
+      name: "balanceOf",
+      stateMutability: "view",
+      inputs: [{ name: "account", type: "address" }],
+      outputs: [{ type: "uint256" }],
+    },
+    {
+      type: "function",
+      name: "approve",
+      stateMutability: "nonpayable",
+      inputs: [
+        { name: "spender", type: "address" },
+        { name: "amount", type: "uint256" },
+      ],
+      outputs: [{ type: "bool" }],
+    },
+    {
+      type: "function",
+      name: "allowance",
+      stateMutability: "view",
+      inputs: [
+        { name: "owner", type: "address" },
+        { name: "spender", type: "address" },
+      ],
+      outputs: [{ type: "uint256" }],
+    },
+    {
+      type: "function",
+      name: "mint",
+      stateMutability: "nonpayable",
+      inputs: [
+        { name: "to", type: "address" },
+        { name: "amount", type: "uint256" },
+      ],
+      outputs: [],
+    },
+  ] as const;
+  
+  export const NEXAI_CORE_ABI = [
+    {
+      type: "function",
+      name: "basketTokens",
+      stateMutability: "view",
+      inputs: [{ name: "index", type: "uint256" }],
+      outputs: [{ type: "address" }],
+    },
+    {
+      type: "function",
+      name: "basketWeights",
+      stateMutability: "view",
+      inputs: [{ name: "token", type: "address" }],
+      outputs: [{ type: "uint256" }],
+    },
+    {
+      type: "function",
+      name: "deposit",
+      stateMutability: "nonpayable",
+      inputs: [{ name: "nexaiAmount", type: "uint256" }],
+      outputs: [],
+    },
+    {
+      type: "function",
+      name: "redeem",
+      stateMutability: "nonpayable",
+      inputs: [{ name: "nexaiAmount", type: "uint256" }],
+      outputs: [],
+    },
+  ] as const;
+  
+  export const ZAPPER_ABI = [
+    {
+      type: "function",
+      name: "zapDepositUsdc",
+      stateMutability: "nonpayable",
+      inputs: [
+        { name: "nexaiAmount", type: "uint256" },
+        { name: "maxUsdcIn", type: "uint256" },
+      ],
+      outputs: [{ name: "usdcSpent", type: "uint256" }],
+    },
+  ] as const;
+  
+  [LMB]
+
+--- WINDOW  2026/07/16 07:39:25  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  where can is [Bk][Bk] see that[ENTER]
+  [LMB]
+  [Clipboard]
+  cd /mnt/c/Users/USER/Desktop/NEXAI/frontend
+  grep -rl "zapDepositUsdc" src/
+  [LMB]
+
+--- WINDOW  2026/07/16 07:40:02  [Antigravity IDE.exe] NEXAI - Antigravity IDE - constants.ts
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ cd /mnt/c/Users/USER/Desktop/NEXAI/frontend
+  grep -rl "zapDepositUsdc" src/
+  src/App.tsx
+  src/constants.ts
+  [Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:40:16  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:40:25  [Antigravity IDE.exe] NEXAI - Antigravity IDE - constants.ts
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:40:32  [Antigravity IDE.exe] NEXAI - Antigravity IDE - App.tsx
+----------------------------------------------------------------------------
+  [Ctrl]a
+  [Clipboard]
+  import { useState, useMemo, useCallback, useEffect } from 'react'
+  import { useAccount, useConnect, useDisconnect, useReadContracts, useWriteContract, useWaitForTransactionReceipt } from 'wagmi'
+  import { parseUnits, formatUnits } from 'viem'
+  import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+  import { Button } from '@/components/ui/button'
+  import { Input } from '@/components/ui/input'
+  import { Label } from '@/components/ui/label'
+  import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
+  import { CONTRACT_ADDRESSES, ERC20_ABI, NEXAI_CORE_ABI, ZAPPER_ABI } from './constants'
+  
+  export default function App() {
+    const { address, isConnected } = useAccount()
+    const { connectors, connect } = useConnect()
+    const { disconnect } = useDisconnect()
+  
+    const [depositAmount, setDepositAmount] = useState('')
+    const [redeemAmount, setRedeemAmount] = useState('')
+    const [depositMode, setDepositMode] = useState<'zap' | 'advanced'>('zap')
+  
+    // Batch read contracts
+    const { data: reads } = useReadContracts({
+      contracts: [
+        // Weights
+        { address: CONTRACT_ADDRESSES.NexaiCore, abi: NEXAI_CORE_ABI, functionName: 'basketWeights', args: [CONTRACT_ADDRESSES.WETH] },
+        { address: CONTRACT_ADDRESSES.NexaiCore, abi: NEXAI_CORE_ABI, functionName: 'basketWeights', args: [CONTRACT_ADDRESSES.USDC] },
+        // Balances
+        { address: CONTRACT_ADDRESSES.WETH, abi: ERC20_ABI, functionName: 'balanceOf', args: [address || '0x0000000000000000000000000000000000000000'] },
+        { address: CONTRACT_ADDRESSES.USDC, abi: ERC20_ABI, functionName: 'balanceOf', args: [address || '0x0000000000000000000000000000000000000000'] },
+        { address: CONTRACT_ADDRESSES.NexaiIndexToken, abi: ERC20_ABI, functionName: 'balanceOf', args: [address || '0x0000000000000000000000000000000000000000'] },
+        // Allowances
+        { address: CONTRACT_ADDRESSES.WETH, abi: ERC20_ABI, functionName: 'allowance', args: [address || '0x0000000000000000000000000000000000000000', CONTRACT_ADDRESSES.NexaiCore] },
+        { address: CONTRACT_ADDRESSES.USDC, abi: ERC20_ABI, functionName: 'allowance', args: [address || '0x0000000000000000000000000000000000000000', CONTRACT_ADDRESSES.NexaiCore] },
+        { address: CONTRACT_ADDRESSES.USDC, abi: ERC20_ABI, functionName: 'allowance', args: [address || '0x0000000000000000000000000000000000000000', CONTRACT_ADDRESSES.NexaiZapper] },
+      ],
+      query: {
+        enabled: isConnected,
+        refetchInterval: 5000,
+      }
+    })
+  
+    const wethWeight = (reads?.[0]?.result as bigint) || 0n
+    const usdcWeight = (reads?.[1]?.result as bigint) || 0n
+    const wethBal = (reads?.[2]?.result as bigint) || 0n
+    const usdcBal = (reads?.[3]?.result as bigint) || 0n
+    const nexaiBal = (reads?.[4]?.result as bigint) || 0n
+    const wethAllowance = (reads?.[5]?.result as bigint) || 0n
+    const usdcAllowance = (reads?.[6]?.result as bigint) || 0n
+    const usdcZapperAllowance = (reads?.[7]?.result as bigint) || 0n
+  
+    const { writeContract, data: txHash, isPending: isWriting } = useWriteContract()
+    const { isLoading: isWaiting, isSuccess } = useWaitForTransactionReceipt({ hash: txHash })
+  
+    // Faucet — two separate write hooks so we can chain WETH → USDC
+    const { writeContract: faucetWrite, data: faucetHash, isPending: isFaucetWriting } = useWriteContract()
+    const [faucetStep, setFaucetStep] = useState<'idle' | 'weth' | 'usdc' | 'done' | 'error'>('idle')
+    const { isLoading: isFaucetWaiting, isSuccess: isFaucetTxSuccess } = useWaitForTransactionReceipt({ hash: faucetHash })
+  
+    // Chain WETH → USDC mint using an effect so we never mutate state during render
+    useEffect(() => {
+      if (faucetStep === 'weth' && isFaucetTxSuccess && address) {
+        setFaucetStep('usdc')
+        faucetWrite({
+          address: CONTRACT_ADDRESSES.USDC,
+          abi: ERC20_ABI,
+          functionName: 'mint',
+          args: [address, 200000n * 10n ** 6n],
+        })
+      }
+      if (faucetStep === 'usdc' && isFaucetTxSuccess) {
+        setFaucetStep('done')
+      }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [isFaucetTxSuccess])
+  
+    const handleFaucet = useCallback(() => {
+      if (!address) return
+      setFaucetStep('weth')
+      faucetWrite({
+        address: CONTRACT_ADDRESSES.WETH,
+        abi: ERC20_ABI,
+        functionName: 'mint',
+        args: [address, 100n * 10n ** 18n],
+      })
+    }, [address, faucetWrite])
+  
+    const isFaucetBusy = isFaucetWriting || isFaucetWaiting
+    // Soft-disable once wallet already has ≥10 WETH (discourages spam but doesn't block)
+    const alreadyFunded = wethBal >= 10n * 10n ** 18n
+  
+    const faucetStatus =
+      faucetStep === 'weth' && (isFaucetWriting || isFaucetWaiting) ? '⏳ Minting WETH…' :
+      faucetStep === 'usdc' && (isFaucetWriting || isFaucetWaiting) ? '⏳ Minting USDC…' :
+      faucetStep === 'done' ? '✅ Tokens sent! Check balances above.' :
+      faucetStep === 'error' ? '❌ Something went wrong. Try again.' : ''
+    
+    // Calculate Deposit Requirements
+    const parsedDeposit = useMemo(() => {
+      try {
+        return parseUnits(depositAmount, 18)
+      } catch {
+        return 0n
+      }
+    }, [depositAmount])
+  
+    const requiredWeth = useMemo(() => {
+      return parsedDeposit > 0n ? (parsedDeposit * wethWeight + 10n**18n - 1n) / (10n**18n) : 0n
+    }, [parsedDeposit, wethWeight])
+  
+    const requiredUsdc = useMemo(() => {
+      return parsedDeposit > 0n ? (parsedDeposit * usdcWeight + 10n**18n - 1n) / (10n**18n) : 0n
+    }, [parsedDeposit, usdcWeight])
+  
+    // The zapper buys 100% of requiredWeth via swap. We don't have a live quote (no
+    // Uniswap Quoter wired up), so we approximate its USDC cost using the basket's own
+    // weight ratio as an implied price - self-consistent since the pool was seeded at
+    // that same ratio. This cancels out to roughly requiredUsdc when weth/usdc weights
+    // stay proportional, i.e. total cost is "about 2x the direct USDC leg".
+    const estimatedSwapCostUsdc = useMemo(() => {
+      return requiredWeth > 0n && wethWeight > 0n ? (requiredWeth * usdcWeight) / wethWeight : 0n
+    }, [requiredWeth, usdcWeight, wethWeight])
+  
+    const estimatedTotalUsdc = useMemo(() => requiredUsdc + estimatedSwapCostUsdc, [requiredUsdc, estimatedSwapCostUsdc])
+  
+    // 3% buffer on top of the estimate so minor price movement between quote and
+    // execution doesn't cause an unnecessary revert. This is what actually gets
+    // approved/pulled - the zapper refunds whatever it doesn't spend.
+    const maxUsdcIn = useMemo(() => (estimatedTotalUsdc * 103n) / 100n, [estimatedTotalUsdc])
+  
+    // Calculate Redeem Previews
+    const parsedRedeem = useMemo(() => {
+      try {
+        return parseUnits(redeemAmount, 18)
+      } catch {
+        return 0n
+      }
+    }, [redeemAmount])
+  
+    const returnWeth = useMemo(() => {
+      return parsedRedeem > 0n ? (parsedRedeem * wethWeight) / (10n**18n) : 0n
+    }, [parsedRedeem, wethWeight])
+  
+    const returnUsdc = useMemo(() => {
+      return parsedRedeem > 0n ? (parsedRedeem * usdcWeight) / (10n**18n) : 0n
+    }, [parsedRedeem, usdcWeight])
+  
+    const needsWethApprove = requiredWeth > wethAllowance
+    const needsUsdcApprove = requiredUsdc > usdcAllowance
+    const needsUsdcApproveForZap = maxUsdcIn > usdcZapperAllowance
+  
+    const handleApproveWeth = () => {
+      writeContract({ address: CONTRACT_ADDRESSES.WETH, abi: ERC20_ABI, functionName: 'approve', args: [CONTRACT_ADDRESSES.NexaiCore, requiredWeth] })
+    }
+    const handleApproveUsdc = () => {
+      writeContract({ address: CONTRACT_ADDRESSES.USDC, abi: ERC20_ABI, functionName: 'approve', args: [CONTRACT_ADDRESSES.NexaiCore, requiredUsdc] })
+    }
+    const handleDeposit = () => {
+      writeContract({ address: CONTRACT_ADDRESSES.NexaiCore, abi: NEXAI_CORE_ABI, functionName: 'deposit', args: [parsedDeposit] })
+    }
+    const handleApproveUsdcForZap = () => {
+      writeContract({ address: CONTRACT_ADDRESSES.USDC, abi: ERC20_ABI, functionName: 'approve', args: [CONTRACT_ADDRESSES.NexaiZapper, maxUsdcIn] })
+    }
+    const handleZapDeposit = () => {
+      writeContract({ address: CONTRACT_ADDRESSES.NexaiZapper, abi: ZAPPER_ABI, functionName: 'zapDepositUsdc', args: [parsedDeposit, maxUsdcIn] })
+    }
+    const handleRedeem = () => {
+      writeContract({ address: CONTRACT_ADDRESSES.NexaiCore, abi: NEXAI_CORE_ABI, functionName: 'redeem', args: [parsedRedeem] })
+    }
+  
+    const txStatus = isWriting ? 'Confirming in wallet...' : isWaiting ? 'Mining transaction...' : isSuccess ? 'Success!' : ''
+  
+    return (
+      <div className="min-h-screen bg-slate-50 px-4 py-6 sm:p-8 font-sans">
+        <div className="max-w-4xl mx-auto space-y-6">
+          
+          {/* Header */}
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 bg-white p-4 rounded-xl shadow-sm border border-slate-100">
+            <h1 className="text-2xl font-bold text-slate-800 tracking-tight">NEXAI <span className="text-slate-400 font-normal">Vault</span></h1>
+            {isConnected ? (
+              <div className="flex items-center justify-between sm:justify-end gap-3">
+                <span className="text-xs sm:text-sm text-slate-500 font-mono bg-slate-100 px-3 py-1 rounded-full truncate max-w-[160px] sm:max-w-none">
+                  {address?.slice(0, 6)}...{address?.slice(-4)}
+                </span>
+                <Button variant="outline" size="sm" onClick={() => disconnect()}>Disconnect</Button>
+              </div>
+            ) : (
+              <Button className="w-full sm:w-auto" onClick={() => connect({ connector: connectors[0] })}>Connect Wallet</Button>
+            )}
+          </div>
+  
+          {isConnected && (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
+              
+              {/* Balances Panel */}
+              <div className="col-span-1 space-y-4">
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Your Balances</CardTitle>
+                    <CardDescription>Live wallet holdings</CardDescription>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <div className="flex justify-between items-center border-b pb-2">
+                      <span className="text-slate-500 font-medium">NEXAI</span>
+                      <span className="text-lg sm:text-xl font-bold truncate ml-2 max-w-[120px] sm:max-w-none text-right">{formatUnits(nexaiBal, 18)}</span>
+                    </div>
+                    <div className="flex justify-between items-center border-b pb-2">
+                      <span className="text-slate-500 font-medium">WETH</span>
+                      <span className="text-base sm:text-lg font-semibold truncate ml-2 max-w-[120px] sm:max-w-none text-right">{formatUnits(wethBal, 18)}</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-slate-500 font-medium">USDC</span>
+                      <span className="text-base sm:text-lg font-semibold truncate ml-2 max-w-[120px] sm:max-w-none text-right">{formatUnits(usdcBal, 6)}</span>
+                    </div>
+                  </CardContent>
+                </Card>
+  
+                {/* Faucet Card */}
+                <Card className="border-dashed border-slate-300">
+                  <CardHeader className="pb-3">
+                    <CardTitle className="text-base">🚰 Testnet Faucet</CardTitle>
+                    <CardDescription className="text-xs">
+                      Get 100 WETH + 200,000 USDC sent to your wallet instantly.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="space-y-3">
+                    {faucetStatus && (
+                      <div className={`text-xs font-medium p-2 rounded ${
+                        faucetStep === 'done' ? 'text-green-700 bg-green-50' :
+                        faucetStep === 'error' ? 'text-red-700 bg-red-50' :
+                        'text-blue-700 bg-blue-50'
+                      }`}>
+                        {faucetStatus}
+                      </div>
+                    )}
+                    <Button
+                      id="faucet-btn"
+                      variant="outline"
+                      className="w-full h-11 text-sm border-slate-300 hover:border-slate-400"
+                      onClick={handleFaucet}
+                      disabled={isFaucetBusy || alreadyFunded}
+                      title={alreadyFunded ? 'You already have test tokens' : 'Mint test tokens to your wallet'}
+                    >
+                      {isFaucetBusy ? '⏳ Minting…' : alreadyFunded ? '✅ Already funded' : '🚰 Get Test Tokens'}
+                    </Button>
+                    {alreadyFunded && (
+                      <p className="text-xs text-slate-400 text-center">Your wallet already holds ≥10 WETH.</p>
+                    )}
+                  </CardContent>
+                </Card>
+              </div>
+  
+              {/* Mint/Redeem Panel */}
+              <div className="col-span-2">
+                <Tabs defaultValue="deposit" className="w-full">
+                  <TabsList className="grid w-full grid-cols-2">
+                    <TabsTrigger value="deposit">Deposit & Mint</TabsTrigger>
+                    <TabsTrigger value="redeem">Redeem & Burn</TabsTrigger>
+                  </TabsList>
+                  
+                  <TabsContent value="deposit">
+                    <Card>
+                      <CardHeader>
+                        <CardTitle>Mint NEXAI</CardTitle>
+                        <CardDescription>
+                          {depositMode === 'zap'
+                            ? 'Deposit USDC only — the rest is swapped automatically to mint your NEXAI.'
+                            : 'Deposit exact underlying assets to mint index tokens.'}
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent className="space-y-5">
+                        <div className="space-y-2">
+                          <Label htmlFor="mint-amount">Amount of NEXAI to Mint</Label>
+                          <Input
+                            id="mint-amount"
+                            placeholder="0.0"
+                            inputMode="decimal"
+                            value={depositAmount}
+                            onChange={(e) => setDepositAmount(e.target.value)}
+                            className="h-12 text-base"
+                          />
+                        </div>
+  
+                        {depositMode === 'zap' ? (
+                          <>
+                            {/* Live Cost Estimate */}
+                            <div className="bg-slate-50 p-3 sm:p-4 rounded-lg border space-y-3">
+                              <Label className="text-xs text-slate-500 uppercase tracking-wider">Estimated Cost</Label>
+                              <div className="flex justify-between items-center">
+                                <span className="font-medium text-slate-700">USDC</span>
+                                <span className="font-mono text-sm sm:text-base truncate ml-2 max-w-[160px] text-right">~{formatUnits(estimatedTotalUsdc, 6)}</span>
+                              </div>
+                            </div>
+  
+                            {txStatus && <div className="text-sm font-medium text-blue-600 bg-blue-50 p-3 rounded">{txStatus}</div>}
+  
+                            <div className="flex gap-2">
+                              {needsUsdcApproveForZap ? (
+                                <Button className="w-full h-12 text-base" onClick={handleApproveUsdcForZap} disabled={isWriting || isWaiting || parsedDeposit === 0n}>
+                                  Approve USDC
+                                </Button>
+                              ) : (
+                                <Button className="w-full h-12 text-base" onClick={handleZapDeposit} disabled={isWriting || isWaiting || parsedDeposit === 0n}>
+                                  Deposit & Mint
+                                </Button>
+                              )}
+                            </div>
+  
+                            <button
+                              type="button"
+                              className="text-xs text-slate-400 hover:text-slate-600 underline w-full text-center"
+                              onClick={() => setDepositMode('advanced')}
+                            >
+                              Advanced: deposit exact WETH + USDC directly
+                            </button>
+                          </>
+                        ) : (
+                          <>
+                            {/* Live Basket Breakdown */}
+                            <div className="bg-slate-50 p-3 sm:p-4 rounded-lg border space-y-3">
+                              <Label className="text-xs text-slate-500 uppercase tracking-wider">Required Basket Deposit</Label>
+                              <div className="flex justify-between items-center">
+                                <span className="font-medium text-slate-700">WETH</span>
+                                <span className="font-mono text-sm sm:text-base truncate ml-2 max-w-[160px] text-right">{formatUnits(requiredWeth, 18)}</span>
+                              </div>
+                              <div className="flex justify-between items-center">
+                                <span className="font-medium text-slate-700">USDC</span>
+                                <span className="font-mono text-sm sm:text-base truncate ml-2 max-w-[160px] text-right">{formatUnits(requiredUsdc, 6)}</span>
+                              </div>
+                            </div>
+  
+                            {txStatus && <div className="text-sm font-medium text-blue-600 bg-blue-50 p-3 rounded">{txStatus}</div>}
+  
+                            <div className="flex gap-2">
+                              {needsWethApprove ? (
+                                <Button className="w-full h-12 text-base" onClick={handleApproveWeth} disabled={isWriting || isWaiting || parsedDeposit === 0n}>
+                                  Approve WETH
+                                </Button>
+                              ) : needsUsdcApprove ? (
+                                <Button className="w-full h-12 text-base" onClick={handleApproveUsdc} disabled={isWriting || isWaiting || parsedDeposit === 0n}>
+                                  Approve USDC
+                                </Button>
+                              ) : (
+                                <Button className="w-full h-12 text-base" onClick={handleDeposit} disabled={isWriting || isWaiting || parsedDeposit === 0n}>
+                                  Deposit & Mint
+                                </Button>
+                              )}
+                            </div>
+  
+                            <button
+                              type="button"
+                              className="text-xs text-slate-400 hover:text-slate-600 underline w-full text-center"
+                              onClick={() => setDepositMode('zap')}
+                            >
+                              Back to one-click USDC deposit
+                            </button>
+                          </>
+                        )}
+                      </CardContent>
+                    </Card>
+                  </TabsContent>
+  
+                  <TabsContent value="redeem">
+                    <Card>
+                      <CardHeader>
+                        <CardTitle>Redeem NEXAI</CardTitle>
+                        <CardDescription>Burn your NEXAI to receive the underlying basket.</CardDescription>
+                      </CardHeader>
+                      <CardContent className="space-y-5">
+                        <div className="space-y-2">
+                          <Label htmlFor="redeem-amount">Amount of NEXAI to Redeem</Label>
+                          <Input 
+                            id="redeem-amount" 
+                            placeholder="0.0"
+                            inputMode="decimal"
+                            value={redeemAmount}
+                            onChange={(e) => setRedeemAmount(e.target.value)}
+                            className="h-12 text-base"
+                          />
+                        </div>
+  
+                        {/* Live Return Breakdown */}
+                        <div className="bg-slate-50 p-3 sm:p-4 rounded-lg border space-y-3">
+                          <Label className="text-xs text-slate-500 uppercase tracking-wider">You Will Receive</Label>
+                          <div className="flex justify-between items-center">
+                            <span className="font-medium text-slate-700">WETH</span>
+                            <span className="font-mono text-sm sm:text-base text-green-600 truncate ml-2 max-w-[160px] text-right">+{formatUnits(returnWeth, 18)}</span>
+                          </div>
+                          <div className="flex justify-between items-center">
+                            <span className="font-medium text-slate-700">USDC</span>
+                            <span className="font-mono text-sm sm:text-base text-green-600 truncate ml-2 max-w-[160px] text-right">+{formatUnits(returnUsdc, 6)}</span>
+                          </div>
+                        </div>
+  
+                        {txStatus && <div className="text-sm font-medium text-blue-600 bg-blue-50 p-3 rounded">{txStatus}</div>}
+  
+                        <Button className="w-full h-12 text-base" onClick={handleRedeem} disabled={isWriting || isWaiting || parsedRedeem === 0n}>
+                          Redeem & Burn
+                        </Button>
+                      </CardContent>
+                    </Card>
+                  </TabsContent>
+                </Tabs>
+              </div>
+  
+            </div>
+          )}
+  
+        </div>
+      </div>
+    )
+  }
+  
+
+--- WINDOW  2026/07/16 07:40:36  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  this/[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:41:43  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  20
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:41:52  [chrome.exe] MetaMask
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:41:58  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:42:03  [chrome.exe] MetaMask
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:42:10  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:42:13  [chrome.exe] MetaMask
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:42:21  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:42:32  [chrome.exe] MetaMask
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:42:42  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:42:43  [Antigravity IDE.exe] NEXAI - Antigravity IDE - App.tsx
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:42:45  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  damn i din[Bk][Bk]on't realy have network fee to compete[Bk][Bk]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:43:01  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk]1
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:43:10  [chrome.exe] MetaMask
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:43:11  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:43:13  [chrome.exe] MetaMask
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:43:31  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  1
+  [LMB]
+
+--- WINDOW  2026/07/16 07:43:40  [chrome.exe] MetaMask
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 07:43:47  [claude.exe] Claude
+----------------------------------------------------------------------------
+  lete it[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:43:53  [chrome.exe] MetaMask
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:44:01  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  cast balance $(cast wallet address --private-key $PRIVATE_KEY) --rpc-url https://sepolia.base.org --ether
+  [LMB]
+
+--- WINDOW  2026/07/16 07:44:05  [Discord.exe] Friends - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:44:08  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 07:44:09  [Antigravity IDE.exe] NEXAI - Antigravity IDE - App.tsx
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/frontend$ cast balance $(cast wallet address --private-key $PRIVATE_KEY) --rpc-url https://sepolia.base.org --ether
+  0.005584082239425205
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:44:20  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  cast wallet address --private-key $PRIVATE_KEY
+  [LMB]
+
+--- WINDOW  2026/07/16 07:44:54  [Antigravity IDE.exe] NEXAI - Antigravity IDE - App.tsx
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/frontend$ cast wallet address --private-key $PRIVATE_KEY
+  0x87da12e65F2d853B2E573779eBb37E2fdD6E6752
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:45:02  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:45:08  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:45:13  [chrome.exe] MetaMask
+----------------------------------------------------------------------------
+  [LMB]
+  testnet
+  [LMB]
+
+--- WINDOW  2026/07/16 07:45:28  [Lightshot.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:45:31  [chrome.exe] MetaMask
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:45:33  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  er[Bk][Bk][Bk]er[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  cast call 0xB324A0B49dD60f5c1e783DCffbF71ABB368B0c19 "basketWeights(address)(uint256)" 0x5dAa95Cc547e98B3CEf227eD1D612CDd3d9E30a6 --rpc-url https://sepolia.base.org
+  [LMB]
+
+--- WINDOW  2026/07/16 07:46:27  [Antigravity IDE.exe] NEXAI - Antigravity IDE - App.tsx
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/frontend$ cast call 0xB324A0B49dD60f5c1e783DCffbF71ABB368B0c19 "basketWeights(address)(uint256)" 0x5dAa95Cc547e98B3CEf227eD1D612CDd3d9E30a6 --rpc-url https://sepolia.base.org
+  500000000000000000 [5e17]
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:46:35  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:46:53  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk]0.1
+  [LMB]
+
+--- WINDOW  2026/07/16 07:46:58  [chrome.exe] MetaMask
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:47:00  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:47:01  [chrome.exe] _crx_nkbihfbeogaeaoehlefnkodbefgpgknn
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 07:47:01  [chrome.exe] MetaMask
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:47:15  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:47:23  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  yeah 0/[Bk].1worked[ENTER]
+  [LMB]
+  y[Bk]how do i chane ne where i dont know where it is[ENTER]
+  [LMB]
+  [LMB]
+  just give prk[Bk]ompt for l[Bk]claude code to do it[ENTER]
+  [LMB]
+  ive [Bk][Bk][Bk][Bk][Bk]gie [Bk][Bk]v eprompt so caude [Bk][Bk][Bk][Bk][Bk]laude code can chage[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  In frontend/src/App.tsx, find this line:
+  typescriptconst maxUsdcIn = useMemo(() => (estimatedTotalUsdc * 103n) / 100n, [estimatedTotalUsdc])
+  Change 103n to 110n, so the buffer goes from 3% to 10%:
+  typescriptconst maxUsdcIn = useMemo(() => (estimatedTotalUsdc * 110n) / 100n, [estimatedTotalUsdc])
+  Reason: the seeded test pool's price has drifted slightly after real swaps executed against it, and 3% buffer is no longer enough headroom for larger deposit amounts at the current live price. No other changes needed — just this one number.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:49:38  [Antigravity IDE.exe] NEXAI - Antigravity IDE - App.tsx
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:49:41  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl][Ctrl]
+  [Clipboard]
+  Done — buffer's now 10% (comment updated to match). Worth flagging: this is a bandage on the estimate itself drifting stale, not just normal slippage — since the estimate is still derived from the fixed basket-weight ratio rather than the pool's live price, a bigger buffer papers over that gap but the estimate shown to users will keep under/over-shooting as the pool price moves further. If deposits keep growing or the price keeps drifting, wiring in a real Uniswap Quoter read for the estimate (rather than just widening the buffer) would be the more durable fix — happy to do that next if useful.
+  c[Ctrl]
+
+--- WINDOW  2026/07/16 07:50:21  [claude.exe] Claude
+----------------------------------------------------------------------------
+  v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  quick question[ENTER]
+  why does he frontedn only show usdc and not to be abet tosec[Bk][Bk][Bk] el[Bk][Bk]seel[Bk][Bk]lesct usdc or et[Bk][Bk]weth[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:54:26  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 07:54:27  [chrome.exe] NEXAI Vault - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+
+--- WINDOW  2026/07/16 07:54:38  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:54:39  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  wait so everything we want [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]ime e[Bk]we want to addsometi[Bk]hing[ENTER]
+  we re-code/[ENTER]
+  why can't we amke th e[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  but i thought ot be abl [Bk]e to choose which we a[Bk]want totrad eitll be already thee[ENTER]
+  just like other swap dec[Bk]x[ENTER]
+  [LMB]
+  yeah[ENTER]
+  accoriding to hmit was for usr[Bk]ers todeposit any ai token and gain nexai[ENTER]
+  it was on the doc i sent tho[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Quick one on the zapper — right now it only accepts USDC in (swaps the rest automatically). Wanted to check: do you want users to be able to choose either USDC or WETH as their entry token, or is USDC-only fine for now? Making it flexible is a reasonably small addition on top of what's built, just want your call before I build it
+  c
+  [LMB]
+
+--- WINDOW  2026/07/16 07:59:08  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:59:09  [Discord.exe] Friends - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:59:12  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk][Bk],[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/16 07:59:39  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 07:59:40  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  oh thats true you were[ENTER]
+  they deposit usdc and it buus [Bk][Bk]ys the underlying basket assets[ENTER]
+  so my question isn[ENTER]
+  when building th ere[Bk][Bk][Bk]e[Bk][Bk]e real t
+
+--- WINDOW  2026/07/16 08:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  hing
+
+--- WINDOW  2026/07/16 08:00:25  [claude.exe] Claude
+----------------------------------------------------------------------------
