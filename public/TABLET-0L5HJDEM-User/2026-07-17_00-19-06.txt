@@ -1,0 +1,199 @@
+﻿  [Clipboard]
+  Now I have what I need. Two important discoveries shape the design:
+  
+  
+  
+  schema.sql is stale — it lacks reset_token and trial_ends_at even though the code uses both, and nothing in the server applies it. So the DB is hand-managed, and a token table would need a migration you haven't asked for. I'll use stateless HMAC-signed tokens instead: no schema change, no DB write, and they survive restarts.
+  
+  
+  
+  Let me start with the server.
+  
+  
+  
+  
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 23:33:31  [msedge.exe] LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 23:33:32  [msedge.exe] (2) LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 23:33:32  [msedge.exe] (2) Dynamic Megasoft Limited: Overview | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 23:34:00  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 23:34:01  [msedge.exe] Samir Khan | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 23:34:07  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 23:34:14  [msedge.exe] Connections | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 23:34:17  [msedge.exe] (1) Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 23:34:17  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 23:34:26  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/16 23:36:05  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 23:36:08  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  Both changes are done and verified end-to-end against a synthetic multi-account fixture.
+  
+  
+  
+  The IDOR is closed
+  
+  The proof, from a live server running the real route:
+  
+  
+  
+  Request	Before	Now
+  
+  No token, ?email=alice@x.com	Alice's full history	401
+  
+  Mallory's valid token, ?email=alice@x.com	Alice's history	Mallory's own data
+  
+  Forged / expired / malformed token	—	401
+  
+  Identity now comes from req.auth.email (app.js:645-652); the email query param is ignored, so asking for someone else's data returns your own.
+  
+  
+  
+  New file auth.js — stateless HMAC tokens (payload + signature, 30-day expiry), issued at /login and /register. I chose stateless over a session table for two reasons: your schema.sql is stale (it lacks reset_token and trial_ends_at, which the code already uses) and nothing applies it, so a table would have meant a migration you didn't ask for; and unlike the admin panel's in-memory Map (api.js:17), these survive a restart, which mobile clients need. I unit-tested tampered payloads, tampered signatures, wrong-secret signing, expiry, and malformed headers — all rejected.
+  
+  
+  
+  Set AUTH_TOKEN_SECRET in .env before deploying. Without it the server signs with a random per-boot key and logs a warning; tokens then die on every restart. Clients recover silently, but it's needless churn.
+  
+  
+  
+  Clients send the account, and carry the token
+  
+  All three now pass currentAccount.login at both report call sites, and attach Authorization: Bearer … at their single HTTP choke point (api.ts:44, ApiClient.kt, APIClient.swift).
+  
+  
+  
+  Since tokens expire, each client now recovers from a 401 by re-issuing from its cached credentials and retrying once — Kotlin via an OkHttp Authenticator, Swift via an actor-gated refresh, web via a shared promise. All three de-duplicate parallel 401s into one login and give up rather than loop. This was necessary: none of the three had any 401 handling, and Swift discarded the URLResponse entirely, so an auth failure would have surfaced as a JSON decoding error.
+  
+  
+  
+  I also deleted LoginActivity.kt:122, which logged the user's password in plaintext to logcat.
+  
+  
+  
+  Three things to know
+  
+  This breaks already-installed apps. Any client that hasn't shipped these changes sends no token and will get a 401 on /report. That's inherent to closing an auth hole, but it means server and clients must ship together, or /report breaks for everyone on the old build.
+  
+  
+  
+  Kotlin and Swift are unverified. Your machine has JDK 8 and 11; the Android Gradle plugin needs 17, and there's no Swift toolchain on Windows. Only the server and web are actually compiled/typechecked. I used explicit anonymous objects instead of lambdas for OkHttp's Interceptor/Authenticator because I couldn't confirm from bytecode whether Authenticator is a lambda-compatible fun interface — the explicit form compiles either way. Both clients need a real build before shipping.
+  
+  
+  
+  Only /report is protected. /profile, /accounts, /trades, /signals, /referral and the rest still identify callers by an email param and remain wide open. requireAuth is reusable middleware, so extending it is mechanical — but each endpoint added is another break for un-upgraded clients, which is why I didn't do it unasked.
+  
+  
+  
+  Still open from the analysis: #3 hardcoded $, #4 fabricated deposits/starting balance, #5 truncation.
+  
+  
+  
+  
+  [LMB]
+
+--- WINDOW  2026/07/16 23:40:28  [msedge.exe] Connections | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  HOw are y
+  [LMB]
+
+--- WINDOW  2026/07/16 23:57:43  [msedge.exe] (1) Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/16 23:57:43  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/16 23:57:46  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  All REST APIs are now protected
+  
+  requireAuth went from "verify signature" to verify → resolve the user from the DB → overwrite email in both query and body with the authenticated one (auth.js:74-104).
+  
+  
+  
+  That last part matters more than it sounds. Every handler identifies users by an email param. Auditing ~25 handlers to trust req.auth instead would leave the hole open anywhere I missed one. Overwriting the param means a caller can only ever act as themselves, whatever they put on the wire — the old handlers keep working, unmodified, and are now safe.
+  
+  
+  
+  I also changed the token to carry uid instead of email. Otherwise a user who changes their email via /profile would hold a token naming an account that no longer exists — an instant lockout. Resolving from the DB also rejects tokens for deleted users.
+  
+  
+  
+  Verified against a live server: 22 endpoints guarded, 9 public, all correct.
+  
+  
+  
+  Attack	Result
+  
+  No token	401
+  
+  Valid token + ?email=alice@x.com	served the attacker's own data
+  
+  Valid token + {"email":"alice@x.com"} in body	served the attacker's own data
+  
+  Token for a deleted user	401
+  
+  new_email on /profile	preserved — email changes still work
+  
+  Deliberately public, each for a concrete reason (app.js:49-91): /login, /register, the password-reset flow (the caller can't authenticate yet), /billing/webhook (Stripe signature), /billing/return (a browser redirect carries no header), /api/* (own auth), / — and broker icons, which are loaded by <img> tags and Android's separate ImageLoader; neither can send an Authorization header, so guarding them would have broken every icon in the app.
+  
+  
+  
+  
+  [Clipboard]
+  bc148498032ff344130d299db357ccbd7acb26acbe1f24165a9e015ad743fdb3
+  [LMB]
+
+--- WINDOW  2026/07/17 00:19:05  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 00:19:05  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 00:19:05  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 00:19:05  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
