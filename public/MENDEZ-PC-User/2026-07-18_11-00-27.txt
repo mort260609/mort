@@ -1,0 +1,300 @@
+﻿
+--- WINDOW  2026/07/18 10:00:31  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  i don[Bk][Bk][Bk][Bk][Bk]the setings isn't okay[ENTER]
+  it 
+
+--- WINDOW  2026/07/18 10:03:52  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 10:03:57  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk][Bk][Bk]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk]nah it's cool leave it like that[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/18 10:06:33  [claude.exe] https://claude.ai/api/organizations/6671d566-e237-4ee2-a135-d7ae20d90a23/conversations/a30c4744-1e37-4086-b753-946827076568/wiggle/download-file?path=%2Fmnt%2Fuser-data%2Foutputs%2FNEXAI_Multisig_Timelock_Design.pdf
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 10:06:35  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 10:06:37  [Telegram.exe] ‎Дмитрий – (113706)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 10:06:40  [Telegram.exe] ‎Saved Messages – (113706)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 10:06:42  [Telegram.exe] Choose Files
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 10:06:45  [Telegram.exe] ‎Saved Messages – (113706)
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/18 10:06:50  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  back th e[Bk][Bk][Bk]o the third priotry[Bk][Bk]ty[ENTER]
+  [LMB]
+  [Clipboard]
+  # Harden Test Coverage — Realistic Edge Cases (Option 1)
+  
+  Per Dmitry: solid coverage of realistic edge cases we might actually
+  hit during normal use, not a full auditor-style adversarial pass (that
+  comes later, once multisig/timelock and M2 basket scaling are settled
+  — see the design doc already sent).
+  
+  ## Scope
+  
+  Add tests across the existing suite covering:
+  
+  ### 1. Small / dust amounts
+  - Minting NEXAI amounts small enough that `requiredWeth` or
+    `requiredUsdc` could round to a very small number (but still > 0)
+    — confirm the round-up formula still behaves correctly at the low
+    end, not just at "normal" amounts like 1-10 NEXAI
+  - Confirm the zapper's existing `require(requiredAmount > 0, ...)`-style
+    guards (already in `NexaiCore.deposit`) are actually exercised by a
+    dedicated test, not just implied by other passing tests
+  
+  ### 2. Repeated/sequential operations
+  - Multiple deposits and redeems in sequence from the same user,
+    confirming balances track correctly across many operations (not
+    just the single deposit-then-redeem pattern most existing tests use)
+  - Interleaved deposits from *different* users (not just Alice) to
+    confirm the system correctly handles multiple depositors without
+    cross-contamination of balances or accounting
+  
+  ### 3. Basket reconfiguration during normal operation
+  - Test that a `deposit()`/`zapDeposit*()` call correctly uses whatever
+    basket configuration is live *at the time of the call* — not a
+    cached/stale one — by changing the basket via `updateBasket()`
+    between two deposits and confirming the second deposit uses the new
+    weights
+  - Test that redeeming after a basket change correctly returns the
+    *current* basket assets (per the earlier discussion with Dmitry
+    about what "redeem" actually returns) — this is a good one to add
+    since it directly verifies a behavior we've explained to him but
+    never explicitly tested
+  
+  ### 4. Zapper-specific realistic cases
+  - A zap deposit immediately followed by a zap deposit of a *different*
+    entry token (e.g. USDC then WETH then USDT in sequence) — confirms
+    no state leaks between the three entry paths
+  - Slippage buffer edge case: a deposit where the actual swap cost
+    lands very close to (but under) `maxUsdcIn`/`maxWethIn`/`maxUsdtIn`
+    — confirms the refund math is exactly right at the boundary, not
+    just in the comfortable-margin cases existing tests use
+  
+  ## Out of Scope (Deferred to the Later Deep Pass)
+  - Extreme/adversarial fuzz ranges beyond what's already in
+    `testFuzz_Solvency`
+  - Access-control stress testing beyond what's already covered
+  - Multi-step attack scenario simulation
+  - Anything assuming the multisig/timelock or M2 basket structure,
+    since those aren't built yet
+  
+  ## Notes
+  - Add these to the existing test files (`NexaiCore.t.sol`,
+    `NexaiZapper.t.sol`) rather than creating new files, unless a
+    specific area genuinely warrants its own file
+  - Standard process: run `forge build && forge test` yourself before
+    reporting back — same as every round so far
+
+--- WINDOW  2026/07/18 10:08:01  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/18 10:08:04  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 10:08:06  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  ha [Bk][Bk][Bk]what do [Bk]es this test acta[Bk]ually do[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/18 10:13:03  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  14 new tests added — 7 in NexaiCore.t.sol, 7 in NexaiZapper.t.sol. Standard caveat first: forge still isn't available in this sandbox, so I hand-traced every new assertion's arithmetic against the contracts' actual formulas rather than running it — I'm confident in the numbers, but you should still run forge test before treating this as verified.
+  
+  Two things worth your attention beyond "tests added":
+  
+  A real gap I found while writing the reconfiguration tests, not just a test: test_Redeem_RevertsWhenBasketReconfiguredToNewUnfundedToken in NexaiCore.t.sol demonstrates that if updateBasket() ever introduces a token Core doesn't already hold (as opposed to just changing weights on the same two tokens), every existing depositor's redeem() call reverts — because updateBasket only rewrites the weight/token bookkeeping, it never actually moves tokens into Core. This directly touches the "redeem returns current basket" behavior you'd explained to Dmitry, and it's a real limitation worth surfacing to him: there's currently no migration path for basket composition changes (only for weight changes within the same token set), which will matter once real basket rebalancing gets built.
+  
+  Test-design note on the dust cases: for the zapper's dust test, I couldn't use a literal 1-wei NEXAI amount like I did for Core — the MockSwapRouter's linear pricing floors to zero for extremely small amountOut (an artifact of the mock's integer division, not a real AMM), so I used 1e12 wei instead, small enough to still be "dust" relative to the normal 1-10 NEXAI test amounts, but large enough to avoid that mock-only collapse. Noted in the test's own comment so it doesn't look arbitrary later.
+  
+  Everything else is straightforward coverage matching the ticket: sequential multi-op balance tracking, a second depositor (bob) to rule out cross-contamination, and boundary tests on all three zap paths confirming the refund is exact down to 1 wei rather than just "roughly right."
+  c
+
+--- WINDOW  2026/07/18 10:17:39  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 10:17:40  [Telegram.exe] ‎Saved Messages – (113710)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 10:17:41  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/18 10:33:52  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 10:33:54  [(unknown)] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 10:33:55  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  forge build && forge test
+  c
+
+--- WINDOW  2026/07/18 10:59:17  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/18 10:59:22  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 10:59:22  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 10:59:23  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  test_Redeem_RevertsWhenBasketReconfiguredToNewUnfundedToken
+  c
+  [LMB]
+  where can i se ethis
+  [LMB]
+
+--- WINDOW  2026/07/18 10:59:36  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/users/USER/Desktop/NEXAI/contracts$ forge build && forge test
+  [⠑] Compiling...
+  [⠒] Compiling 2 files with Solc 0.8.35
+  [⠘] Solc 0.8.35 finished in 11.86s
+  Compiler run successful!
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/PriceOracle.sol:82:17
+     │
+  82 │         require(block.timestamp - updatedAt < 1 hours, "Chainlink price stale");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  warning[unsafe-typecast]: typecasts that can truncate values should be checked
+     ╭▸ test/PriceOracle.t.sol:73:37
+     │
+  73 │     bytes32 public redstoneFeedId = bytes32("ETH");
+     │                                     ━━━━━━━━━━━━━━
+     │
+     ├ note: consider disabling this lint if you're certain the cast is safe
+     │
+     │       // casting to 'bytes32' is safe because [explain why]
+     │       // forge-lint: disable-next-line(unsafe-typecast)
+     │
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+  
+  [⠢] Compiling...
+  No files changed, compilation skipped
+  
+  Ran 4 tests for test/NexaiIndexToken.t.sol:NexaiIndexTokenTest
+  [PASS] test_Burn_Reverts_When_NotCore() (gas: 179160)
+  [PASS] test_Burn_Succeeds_When_Core() (gas: 80230)
+  [PASS] test_Mint_Reverts_When_NotCore() (gas: 121654)
+  [PASS] test_Mint_Succeeds_When_Core() (gas: 69978)
+  Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 4.09ms (2.43ms CPU time)
+  
+  Ran 6 tests for test/PriceOracle.t.sol:PriceOracleTest
+  [PASS] test_GetChainlinkPrice_Reverts_NegativePrice() (gas: 69371)
+  [PASS] test_GetChainlinkPrice_Reverts_StaleData() (gas: 66057)
+  [PASS] test_GetChainlinkPrice_Reverts_ZeroPrice() (gas: 64259)
+  [PASS] test_GetChainlinkPrice_Success() (gas: 61176)
+  [PASS] test_GetRedstonePrice_Stub() (gas: 88431)
+  [PASS] test_SetTokenConfig() (gas: 65761)
+  Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 1.51ms (824.70µs CPU time)
+  
+  Ran 20 tests for test/NexaiZapper.t.sol:NexaiZapperTest
+  [PASS] test_RevertsOnExcessSlippage() (gas: 134604)
+  [PASS] test_RevertsOnExcessSlippageUsdt_WethLeg() (gas: 135209)
+  [PASS] test_RevertsOnExcessSlippageWeth() (gas: 134859)
+  [PASS] test_RevertsWhenBasketHasThirdToken() (gas: 1199557)
+  [PASS] test_RevertsWhenBasketHasThirdToken_Usdt() (gas: 1201623)
+  [PASS] test_RevertsWhenBasketHasThirdToken_Weth() (gas: 1199421)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc() (gas: 1157231)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc_Usdt() (gas: 1156681)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc_Weth() (gas: 1156963)
+  [PASS] test_RevertsWhenBudgetCantCoverBothLegsCombined() (gas: 222304)
+  [PASS] test_RevertsWhenMaxUsdcInTooLowForDirectLeg() (gas: 72597)
+  [PASS] test_RevertsWhenMaxWethInTooLowForDirectLeg() (gas: 72464)
+  [PASS] test_SequentialZapDeposits_DifferentEntryTokens_NoStateLeak() (gas: 1060027)
+  [PASS] test_ZapDepositUsdc_Correctness() (gas: 417328)
+  [PASS] test_ZapDepositUsdc_DustAmount() (gas: 414079)
+  [PASS] test_ZapDepositUsdc_SlippageBoundary_ExactRefund() (gas: 403392)
+  [PASS] test_ZapDepositUsdt_Correctness() (gas: 488369)
+  [PASS] test_ZapDepositUsdt_SlippageBoundary_ExactRefund() (gas: 469240)
+  [PASS] test_ZapDepositWeth_Correctness() (gas: 417163)
+  [PASS] test_ZapDepositWeth_SlippageBoundary_ExactRefund() (gas: 403632)
+  Suite result: ok. 20 passed; 0 failed; 0 skipped; finished in 16.74ms (27.33ms CPU time)
+  
+  Ran 10 tests for test/NexaiCore.t.sol:NexaiCoreTest
+  [PASS] testFuzz_Solvency(uint256,uint256,uint256,uint256) (runs: 256, μ: 319819, ~: 322096)
+  [PASS] test_Deposit_Correctness() (gas: 210337)
+  [PASS] test_Deposit_DustAmount() (gas: 199793)
+  [PASS] test_Deposit_UsesLiveBasketWeightsAtCallTime() (gas: 271547)
+  [PASS] test_MultipleDepositors_NoCrossContamination() (gas: 512405)
+  [PASS] test_MultipleDepositsAndRedeems_SequentialBalanceTracking() (gas: 410684)
+  [PASS] test_Redeem_Correctness() (gas: 249662)
+  [PASS] test_Redeem_DustAmount() (gas: 240117)
+  [PASS] test_Redeem_RevertsWhenBasketReconfiguredToNewUnfundedToken() (gas: 1306139)
+  [PASS] test_Redeem_UsesLiveBasketWeightsAfterReconfiguration() (gas: 267019)
+  Suite result: ok. 10 passed; 0 failed; 0 skipped; finished in 193.26ms (199.57ms CPU time)
+  
+  Ran 4 test suites in 217.59ms (215.60ms CPU time): 40 tests passed, 0 failed, 0 skipped (40 total tests)
+  [LMB]
+
+--- WINDOW  2026/07/18 11:00:02  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 11:00:04  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/18 11:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
