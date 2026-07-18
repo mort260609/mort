@@ -1,0 +1,1494 @@
+﻿
+--- WINDOW  2026/07/17 20:00:38  [brave.exe] Spotify - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:00:46  [Telegram.exe] ‎Дмитрий – (117510)
+----------------------------------------------------------------------------
+  a
+  [LMB]
+
+--- WINDOW  2026/07/17 20:00:51  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  script/TopUpPools.s.sol is ready. A few things worth calling out:
+  
+  One deliberate deviation from the ticket's literal wording: for the USDT/WETH top-up, rather than re-deriving its ratio from the WETH/USDC pool's price (as the original SeedUsdtPools.s.sol did when the pool didn't exist yet), this reads the USDT/WETH pool's own slot0() directly. Reasoning: that pool has now had its own independent trading history (it's the one drained to 40%), so its actual current price may have diverged from what the WETH/USDC pool implies. Since adding liquidity never moves a pool's price (only swaps do), using its own live price just means the top-up amounts land close to the actual current ratio instead of leaving a chunk refunded as mismatched dust. I generalized the existing _readUsdcPerWethFromLivePool helper into _readStablePerWethFromLivePool(stableToken, fee) so both pools reuse the identical sort/price-math logic — same pattern, parameterized rather than copy-pasted twice.
+  
+  Also added: a liquidity() read on each pool after minting, logged as "pool total in-range liquidity now" — satisfies "log the resulting approximate new total liquidity" concretely rather than just logging the amounts I intended to add.
+  
+  Confirmed your no-op claim: createAndInitializePoolIfNecessary only calls initialize() the first time a pool is created (Uniswap's periphery just returns the existing pool address if one's already there, since a pool can't be re-initialized) — so reusing that call here is safe, matching what you said.
+  
+  Same caveat as every contracts change so far: unverified by forge build/forge test here — worth running before broadcasting, given real funds (mock, but real transactions/gas) are on the line for three pool top-ups in one script.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/17 20:01:02  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/17 20:01:25  [chrome.exe] namecheap - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:01:27  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/17 20:01:34  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  forge build && forge tes
+  [LMB]
+
+--- WINDOW  2026/07/17 20:01:48  [chrome.exe] namecheap - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:01:49  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ forge build && forge tes
+  [⠊] Compiling...
+  [⠑] Compiling 1 files with Solc 0.8.35
+  [⠒] Solc 0.8.35 finished in 3.65s
+  Compiler run successful!
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/PriceOracle.sol:82:17
+     │
+  82 │         require(block.timestamp - updatedAt < 1 hours, "Chainlink price stale");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  warning[unsafe-typecast]: typecasts that can truncate values should be checked
+     ╭▸ test/PriceOracle.t.sol:73:37
+     │
+  73 │     bytes32 public redstoneFeedId = bytes32("ETH");
+     │                                     ━━━━━━━━━━━━━━
+     │
+     ├ note: consider disabling this lint if you're certain the cast is safe
+     │
+     │       // casting to 'bytes32' is safe because [explain why]
+     │       // forge-lint: disable-next-line(unsafe-typecast)
+     │
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+  
+  error: unrecognized subcommand 'tes'
+  
+    tip: some similar subcommands exist: 'tree', 't', 'test'
+  
+  Usage: forge [OPTIONS] <COMMAND>
+  
+  For more information, try '--help'.
+  [LMB]
+
+--- WINDOW  2026/07/17 20:02:29  [brave.exe] Spotify - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:02:31  [chrome.exe] namecheap - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:02:32  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/17 20:02:46  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:02:46  [brave.exe] Spotify - Brave
+----------------------------------------------------------------------------
+  010238
+
+--- WINDOW  2026/07/17 20:02:52  [brave.exe] accounts.spotify.com/oauth2/v2/auth?client_id=65b708073fc0480ea92a077233ca87bd&response_type=code&redirect_uri=http%3A%2F%2F127.0.0.1%3A4381%2Flogin&scope=app-remote-control%2Cplaylist-modify%2Cplaylist-modify-private%2Cplaylist-modify-public%2Cplaylist-read%2Cplaylist-read-collaborative%2Cplaylist-read-private%2Cstreaming%2Ctransfer-auth-session%2Csts-content-management%2Cugc-image-upload%2Cuser-follow-modify%2Cuser-follow-read%2Cuser-library-modify%2Cuser-library-read%2Cuser-modify%2Cuser-modify-playback
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:02:55  [brave.exe] Authorize - Spotify - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:03:00  [Spotify.exe] Spotify
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:03:05  [Spotify.exe] Spotify Premium
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:03:53  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:03:56  [Spotify.exe] Spotify Premium
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/17 20:04:43  [Spotify.exe] Irokz - NANA - Slowed
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:04:54  [Spotify.exe] Kastra - Fool For You
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:04:56  [Spotify.exe] Irokz - NANA - Slowed
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/17 20:06:30  [Spotify.exe] Judah Earl - Sand Drawing
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/17 20:06:39  [Spotify.exe] Irokz - NANA - Slowed
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:07:32  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  forge build && forge test
+  [Ctrl]
+
+--- WINDOW  2026/07/17 20:07:41  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ forge build && forge test
+  [⠆] Compiling...
+  No files changed, compilation skipped
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/PriceOracle.sol:82:17
+     │
+  82 │         require(block.timestamp - updatedAt < 1 hours, "Chainlink price stale");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  warning[unsafe-typecast]: typecasts that can truncate values should be checked
+     ╭▸ test/PriceOracle.t.sol:73:37
+     │
+  73 │     bytes32 public redstoneFeedId = bytes32("ETH");
+     │                                     ━━━━━━━━━━━━━━
+     │
+     ├ note: consider disabling this lint if you're certain the cast is safe
+     │
+     │       // casting to 'bytes32' is safe because [explain why]
+     │       // forge-lint: disable-next-line(unsafe-typecast)
+     │
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+  
+  [⠰] Compiling...
+  No files changed, compilation skipped
+  
+  Ran 6 tests for test/PriceOracle.t.sol:PriceOracleTest
+  [PASS] test_GetChainlinkPrice_Reverts_NegativePrice() (gas: 69371)
+  [PASS] test_GetChainlinkPrice_Reverts_StaleData() (gas: 66057)
+  [PASS] test_GetChainlinkPrice_Reverts_ZeroPrice() (gas: 64259)
+  [PASS] test_GetChainlinkPrice_Success() (gas: 61176)
+  [PASS] test_GetRedstonePrice_Stub() (gas: 88431)
+  [PASS] test_SetTokenConfig() (gas: 65761)
+  Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 4.30ms (2.18ms CPU time)
+  
+  Ran 4 tests for test/NexaiIndexToken.t.sol:NexaiIndexTokenTest
+  [PASS] test_Burn_Reverts_When_NotCore() (gas: 179160)
+  [PASS] test_Burn_Succeeds_When_Core() (gas: 80230)
+  [PASS] test_Mint_Reverts_When_NotCore() (gas: 121654)
+  [PASS] test_Mint_Succeeds_When_Core() (gas: 69978)
+  Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 5.85ms (3.75ms CPU time)
+  
+  Ran 15 tests for test/NexaiZapper.t.sol:NexaiZapperTest
+  [PASS] test_RevertsOnExcessSlippage() (gas: 134538)
+  [PASS] test_RevertsOnExcessSlippageUsdt_WethLeg() (gas: 135121)
+  [PASS] test_RevertsOnExcessSlippageWeth() (gas: 134815)
+  [PASS] test_RevertsWhenBasketHasThirdToken() (gas: 1199491)
+  [PASS] test_RevertsWhenBasketHasThirdToken_Usdt() (gas: 1201557)
+  [PASS] test_RevertsWhenBasketHasThirdToken_Weth() (gas: 1199399)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc() (gas: 1157143)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc_Usdt() (gas: 1156659)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc_Weth() (gas: 1156897)
+  [PASS] test_RevertsWhenBudgetCantCoverBothLegsCombined() (gas: 222238)
+  [PASS] test_RevertsWhenMaxUsdcInTooLowForDirectLeg() (gas: 72509)
+  [PASS] test_RevertsWhenMaxWethInTooLowForDirectLeg() (gas: 72398)
+  [PASS] test_ZapDepositUsdc_Correctness() (gas: 417258)
+  [PASS] test_ZapDepositUsdt_Correctness() (gas: 488316)
+  [PASS] test_ZapDepositWeth_Correctness() (gas: 417145)
+  Suite result: ok. 15 passed; 0 failed; 0 skipped; finished in 19.99ms (33.03ms CPU time)
+  
+  Ran 3 tests for test/NexaiCore.t.sol:NexaiCoreTest
+  [PASS] testFuzz_Solvency(uint256,uint256,uint256,uint256) (runs: 256, μ: 319471, ~: 322131)
+  [PASS] test_Deposit_Correctness() (gas: 210337)
+  [PASS] test_Redeem_Correctness() (gas: 249618)
+  Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 506.85ms (504.49ms CPU time)
+  
+  Ran 4 test suites in 639.69ms (536.99ms CPU time): 28 tests passed, 0 failed, 0 skipped (28 total tests)
+  [LMB]
+
+--- WINDOW  2026/07/17 20:08:16  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/07/17 20:08:42  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:08:43  [Antigravity IDE.exe] NEXAI - Antigravity IDE - TopUpPools.s.sol
+----------------------------------------------------------------------------
+  [Ctrl]a
+  [Clipboard]
+  // SPDX-License-Identifier: MIT
+  pragma solidity ^0.8.20;
+  
+  import {Script, console} from "forge-std/Script.sol";
+  import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+  import {Math} from "@openzeppelin/contracts/utils/math/Math.sol";
+  import {MockERC20} from "../src/mocks/MockERC20.sol";
+  
+  /// @dev Minimal slice of Uniswap V3's NonfungiblePositionManager ABI - same subset
+  /// SeedPool.s.sol / SeedUsdtPools.s.sol use (pool creation/initialization + minting a
+  /// full-range position).
+  interface INonfungiblePositionManager {
+      struct MintParams {
+          address token0;
+          address token1;
+          uint24 fee;
+          int24 tickLower;
+          int24 tickUpper;
+          uint256 amount0Desired;
+          uint256 amount1Desired;
+          uint256 amount0Min;
+          uint256 amount1Min;
+          address recipient;
+          uint256 deadline;
+      }
+  
+      function createAndInitializePoolIfNecessary(address token0, address token1, uint24 fee, uint160 sqrtPriceX96)
+          external
+          payable
+          returns (address pool);
+  
+      function mint(MintParams calldata params)
+          external
+          payable
+          returns (uint256 tokenId, uint128 liquidity, uint256 amount0, uint256 amount1);
+  }
+  
+  interface IUniswapV3Factory {
+      function getPool(address tokenA, address tokenB, uint24 fee) external view returns (address pool);
+  }
+  
+  /// @dev Just enough of the pool's ABI to read its current price and total liquidity.
+  interface IUniswapV3PoolState {
+      function slot0()
+          external
+          view
+          returns (
+              uint160 sqrtPriceX96,
+              int24 tick,
+              uint16 observationIndex,
+              uint16 observationCardinality,
+              uint16 observationCardinalityNext,
+              uint8 feeProtocol,
+              bool unlocked
+          );
+  
+      function liquidity() external view returns (uint128);
+  }
+  
+  /**
+   * @title TopUpPools
+   * @dev Adds a fresh full-range liquidity position to each of the three existing zapper
+   * pools (WETH/USDC, USDT/WETH, USDT/USDC), all priced off each pool's own *live*
+   * slot0() rather than the original (now-drifted) seed ratios. Doesn't touch the
+   * original seed positions or their NFTs - purely additive.
+   * createAndInitializePoolIfNecessary is safe to call again here: Uniswap only calls
+   * initialize() the first time a pool is created, so on an already-initialized pool it's
+   * a no-op that just returns the existing pool address - the same helper below doubles
+   * as both "create" and "top up" logic. Testnet only.
+   */
+  contract TopUpPoolsScript is Script {
+      address constant FACTORY = 0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24;
+      address constant POSITION_MANAGER = 0x27F971cb582BF9E50F397e4d29a5C7A34f11faA2;
+  
+      address constant WETH = 0x5dAa95Cc547e98B3CEf227eD1D612CDd3d9E30a6;
+      address constant USDC = 0x1a0e689b2b55c4E92571b37e0DA2C3b0EeE30B4a;
+      address constant USDT = 0x6972023ed96b910BBD6172c21dd0F86375419202;
+  
+      uint24 constant WETH_USDC_FEE = 3000;
+      uint24 constant USDT_WETH_FEE = 3000;
+      uint24 constant USDT_USDC_FEE = 500;
+  
+      // Full-range ticks, tick spacing 60 (0.3% tier): floor(887272 / 60) * 60
+      int24 constant TICK_LOWER_3000 = -887220;
+      int24 constant TICK_UPPER_3000 = 887220;
+      // Full-range ticks, tick spacing 10 (0.05% tier): floor(887272 / 10) * 10
+      int24 constant TICK_LOWER_500 = -887270;
+      int24 constant TICK_UPPER_500 = 887270;
+  
+      // Top-up sizes: double each volatile pool's original seed depth. WETH/USDC was
+      // drained to 63% and USDT/WETH to 40% of seed depth, so USDT/WETH gets a larger
+      // top-up relative to its own original size. Stable pair gets a smaller, less
+      // urgent bump since it's less prone to severe price impact.
+      uint256 constant WETH_TOPUP_FOR_WETH_USDC_POOL = 40 * 10 ** 18; // 2x SeedPool.s.sol's original 20 WETH
+      uint256 constant WETH_TOPUP_FOR_USDT_WETH_POOL = 20 * 10 ** 18; // 2x SeedUsdtPools.s.sol's original 10 WETH
+      uint256 constant USDT_USDC_TOPUP = 50_000 * 10 ** 6; // equal amounts on both sides - 1:1
+  
+      function run() external {
+          uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
+          address deployer = vm.addr(deployerPrivateKey);
+          vm.startBroadcast(deployerPrivateKey);
+  
+          // --- WETH/USDC top-up ---
+          uint256 usdcPerWeth = _readStablePerWethFromLivePool(USDC, WETH_USDC_FEE);
+          uint256 usdcTopup = (WETH_TOPUP_FOR_WETH_USDC_POOL * usdcPerWeth) / 10 ** 18;
+          console.log("Live WETH/USDC price implies USDC per WETH:", usdcPerWeth);
+  
+          MockERC20(WETH).mint(deployer, WETH_TOPUP_FOR_WETH_USDC_POOL);
+          MockERC20(USDC).mint(deployer, usdcTopup);
+          console.log("Topping up WETH/USDC pool - WETH:", WETH_TOPUP_FOR_WETH_USDC_POOL);
+          console.log("Topping up WETH/USDC pool - USDC:", usdcTopup);
+          _addLiquidity(
+              WETH,
+              USDC,
+              WETH_USDC_FEE,
+              WETH_TOPUP_FOR_WETH_USDC_POOL,
+              usdcTopup,
+              TICK_LOWER_3000,
+              TICK_UPPER_3000,
+              deployer
+          );
+          _logPoolLiquidity("WETH/USDC", WETH, USDC, WETH_USDC_FEE);
+  
+          // --- USDT/WETH top-up. Priced off THIS pool's own live price, not derived from
+          // the WETH/USDC pool - it has its own independent trading history and may have
+          // drifted differently. ---
+          uint256 usdtPerWeth = _readStablePerWethFromLivePool(USDT, USDT_WETH_FEE);
+          uint256 usdtTopupForWethPool = (WETH_TOPUP_FOR_USDT_WETH_POOL * usdtPerWeth) / 10 ** 18;
+          console.log("Live USDT/WETH price implies USDT per WETH:", usdtPerWeth);
+  
+          MockERC20(WETH).mint(deployer, WETH_TOPUP_FOR_USDT_WETH_POOL);
+          MockERC20(USDT).mint(deployer, usdtTopupForWethPool);
+          console.log("Topping up USDT/WETH pool - WETH:", WETH_TOPUP_FOR_USDT_WETH_POOL);
+          console.log("Topping up USDT/WETH pool - USDT:", usdtTopupForWethPool);
+          _addLiquidity(
+              USDT,
+              WETH,
+              USDT_WETH_FEE,
+              usdtTopupForWethPool,
+              WETH_TOPUP_FOR_USDT_WETH_POOL,
+              TICK_LOWER_3000,
+              TICK_UPPER_3000,
+              deployer
+          );
+          _logPoolLiquidity("USDT/WETH", USDT, WETH, USDT_WETH_FEE);
+  
+          // --- USDT/USDC top-up. Stays 1:1. ---
+          MockERC20(USDT).mint(deployer, USDT_USDC_TOPUP);
+          MockERC20(USDC).mint(deployer, USDT_USDC_TOPUP);
+          console.log("Topping up USDT/USDC pool - USDT:", USDT_USDC_TOPUP);
+          console.log("Topping up USDT/USDC pool - USDC:", USDT_USDC_TOPUP);
+          _addLiquidity(
+              USDT, USDC, USDT_USDC_FEE, USDT_USDC_TOPUP, USDT_USDC_TOPUP, TICK_LOWER_500, TICK_UPPER_500, deployer
+          );
+          _logPoolLiquidity("USDT/USDC", USDT, USDC, USDT_USDC_FEE);
+  
+          vm.stopBroadcast();
+      }
+  
+      /// @dev Reads a WETH/stablecoin pool's current price and returns how much of the
+      /// stablecoin (6dp) is implied per 1 whole WETH right now. Shared by both the
+      /// WETH/USDC and USDT/WETH top-ups - each call reads that specific pool's own live
+      /// price rather than assuming one pool's price applies to the other.
+      function _readStablePerWethFromLivePool(address stableToken, uint24 fee) internal view returns (uint256) {
+          address pool = IUniswapV3Factory(FACTORY).getPool(WETH, stableToken, fee);
+          require(pool != address(0), "Pool not found - seed it first");
+  
+          (uint160 sqrtPriceX96,,,,,,) = IUniswapV3PoolState(pool).slot0();
+          uint256 priceX192 = uint256(sqrtPriceX96) * uint256(sqrtPriceX96); // (token1/token0) * 2^192
+  
+          (address token0,) = WETH < stableToken ? (WETH, stableToken) : (stableToken, WETH);
+  
+          if (token0 == stableToken) {
+              // priceX192 = WETH_wei per stable_wei * 2^192 -> invert for stable_wei per 1e18 WETH_wei
+              return Math.mulDiv(10 ** 18, uint256(1) << 192, priceX192);
+          } else {
+              // priceX192 = stable_wei per WETH_wei * 2^192 already
+              return Math.mulDiv(priceX192, 10 ** 18, uint256(1) << 192);
+          }
+      }
+  
+      /// @dev Same sort-then-assign-reserves-then-mint pattern as SeedPool.s.sol /
+      /// SeedUsdtPools.s.sol, generalized to any pair. Adds a brand new position on top
+      /// of whatever liquidity already exists - doesn't touch the original position.
+      function _addLiquidity(
+          address tokenA,
+          address tokenB,
+          uint24 fee,
+          uint256 amountA,
+          uint256 amountB,
+          int24 tickLower,
+          int24 tickUpper,
+          address recipient
+      ) internal {
+          (address token0, address token1) = tokenA < tokenB ? (tokenA, tokenB) : (tokenB, tokenA);
+          (uint256 reserve0, uint256 reserve1) = token0 == tokenA ? (amountA, amountB) : (amountB, amountA);
+  
+          uint160 sqrtPriceX96 = uint160(Math.sqrt(Math.mulDiv(reserve1, uint256(1) << 192, reserve0)));
+  
+          INonfungiblePositionManager positionManager = INonfungiblePositionManager(POSITION_MANAGER);
+          positionManager.createAndInitializePoolIfNecessary(token0, token1, fee, sqrtPriceX96);
+  
+          IERC20(token0).approve(POSITION_MANAGER, reserve0);
+          IERC20(token1).approve(POSITION_MANAGER, reserve1);
+  
+          (uint256 tokenId, uint128 liquidity, uint256 amount0, uint256 amount1) = positionManager.mint(
+              INonfungiblePositionManager.MintParams({
+                  token0: token0,
+                  token1: token1,
+                  fee: fee,
+                  tickLower: tickLower,
+                  tickUpper: tickUpper,
+                  amount0Desired: reserve0,
+                  amount1Desired: reserve1,
+                  amount0Min: 0,
+                  amount1Min: 0,
+                  recipient: recipient,
+                  deadline: block.timestamp + 15 minutes
+              })
+          );
+  
+          console.log("New position NFT minted, tokenId:", tokenId);
+          console.log("Liquidity added:", uint256(liquidity));
+          console.log("Amount0 used:", amount0);
+          console.log("Amount1 used:", amount1);
+      }
+  
+      function _logPoolLiquidity(string memory label, address tokenA, address tokenB, uint24 fee) internal view {
+          address pool = IUniswapV3Factory(FACTORY).getPool(tokenA, tokenB, fee);
+          uint128 totalLiquidity = IUniswapV3PoolState(pool).liquidity();
+          console.log(string.concat(label, " pool total in-range liquidity now:"), uint256(totalLiquidity));
+      }
+  }
+  
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/17 20:08:48  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+  [Ctrl][Ctrl]here
+
+--- WINDOW  2026/07/17 20:08:55  [Antigravity IDE.exe] NEXAI - Antigravity IDE - TopUpPools.s.sol
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:08:59  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:09:00  [Antigravity IDE.exe] NEXAI - Antigravity IDE - constants.ts
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:09:13  [Telegram.exe] ‎Дмитрий – (117521)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:09:14  [Telegram.exe] Media viewer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:09:15  [Telegram.exe] ‎Дмитрий – (117521)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:09:16  [Telegram.exe] Media viewer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:09:28  [Telegram.exe] ‎Дмитрий – (117521)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:09:29  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  forge script script/TopUpPools.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+
+--- WINDOW  2026/07/17 20:09:46  [Antigravity IDE.exe] NEXAI - Antigravity IDE - constants.ts
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ forge script script/TopUpPools.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  Error: error sending request for url (https://sepolia.base.org/)
+  
+  Context:
+  - Error #0: client error (Connect)
+  - Error #1: dns error
+  - Error #2: failed to lookup address information: Temporary failure in name resolution
+  [Ctrl]c
+
+--- WINDOW  2026/07/17 20:10:23  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl][ENTER]
+  [Clipboard]
+  forge script script/TopUpPools.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/17 20:10:37  [Antigravity IDE.exe] NEXAI - Antigravity IDE - constants.ts
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/17 20:11:16  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:11:19  [Antigravity IDE.exe] NEXAI - Antigravity IDE - constants.ts
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:11:25  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:14:17  [Spotify.exe] Hans Zimmer - Time
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:14:19  [Spotify.exe] Spotify Premium
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:26:31  [brave.exe] Spotify | Desktop - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:26:31  [Telegram.exe] ‎Дмитрий – (117521)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:26:34  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:26:35  [Antigravity IDE.exe] NEXAI - Antigravity IDE - constants.ts
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:26:38  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:26:41  [Antigravity IDE.exe] NEXAI - Antigravity IDE - constants.ts
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:26:42  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]r
+  [LMB]
+
+--- WINDOW  2026/07/17 20:27:03  [Antigravity IDE.exe] NEXAI - Antigravity IDE - constants.ts
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/17 20:29:13  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 20:33:53  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:34:17  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 20:57:43  [M365Copilot.exe] Microsoft 365 Copilot
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 21:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 21:00:27  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/17 21:03:52  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 21:04:17  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/17 21:32:03  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 21:32:06  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 21:33:53  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 21:34:16  [(unknown)] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 21:34:16  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 22:00:24  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 22:00:28  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 22:03:53  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 22:04:16  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 22:33:53  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 22:34:17  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 23:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 23:00:39  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 23:03:53  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 23:04:16  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/17 23:19:14  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/17 23:19:15  [StartMenuExperienceHost.exe] Start
+----------------------------------------------------------------------------
+  [LMB]
+
+
+================================================================================
+ SESSION START  2026/07/18 07:16:36
+================================================================================
+
+
+--- WINDOW  2026/07/18 07:16:36  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:17:25  [ShellExperienceHost.exe] Control Center
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:17:44  [Antigravity IDE.exe] Antigravity IDE
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:17:59  [Antigravity IDE.exe] NEXAI - Antigravity IDE - constants.ts
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:18:22  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:18:29  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:19:39  [Discord.exe] Friends - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:20:12  [Discord.exe] @MENDEZ - Discord
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  forge script script/TopUpPools.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  [LMB]
+
+--- WINDOW  2026/07/18 07:20:35  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:20:39  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  w
+  [LMB]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:21:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:21:22  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:21:29  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:21:47  [chrome.exe] 192.168.0.1/index.html - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:21:50  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:21:52  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  eia[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:22:01  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:22:06  [chrome.exe] Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:22:09  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:22:12  [chrome.exe] Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:22:24  [chrome.exe] google.com/search?q=nigeriA&oq=nigeriA&gs_lcrp=EgZjaHJvbWUyDwgAEEUYORjjAhixAxiABDIKCAEQLhixAxiABDIQCAIQABiDARixAxiABBiKBTIQCAMQABiDARixAxiABBiKBTINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDIHCAYQABiABDINCAcQLhjHARjRAxiABDIQCAgQABiDARixAxiABBiKBTIHCAkQABiABNIBCDIxODhqMGo3qAIAsAIA&sourceid=chrome&source=chrome.ob&ie=UTF-8&sei=lhtbarzDKoiohbIPuM-W0A4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:22:24  [chrome.exe] nigeriA - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:22:37  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:22:41  [chrome.exe] nigeriA - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:22:42  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:23:26  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:23:43  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:23:46  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]rc
+
+--- WINDOW  2026/07/18 07:23:55  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [Bk][Bk]cd/mb[Bk]nt/c/users/user/desktopneai/contracts[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:24:30  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:24:47  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:24:49  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:24:50  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:24:51  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:24:51  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:24:52  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/07/18 07:25:06  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:25:07  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:25:13  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:25:14  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:25:16  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/users/USER/Desktop/NEXAI/contracts$ forge script script/TopUpPools.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  error: a value is required for '--rpc-url <URL>' but none was supplied
+  
+  For more information, try '--help'.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/18 07:25:23  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  source .env
+  [LMB]
+
+--- WINDOW  2026/07/18 07:25:51  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:25:52  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:25:57  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:26:07  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Clipboard]
+  forge script script/TopUpPools.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:26:12  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:26:46  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  echo $BASE_SEPOLIA_RPC_URL
+  [LMB]
+
+--- WINDOW  2026/07/18 07:26:49  [Discord.exe] @MENDEZ - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:26:50  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/users/USER/Desktop/NEXAI/contracts$ source .env
+  mendez@Mendez-PC:/mnt/c/users/USER/Desktop/NEXAI/contracts$ forge script script/TopUpPools.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  [⠔] Compiling...
+  No files changed, compilation skipped
+  2026-07-18T06:26:42.650877Z ERROR sharedbackend: Failed to send/recv `basic` err=failed to get account for 0x1a0e689b2b55c4E92571b37e0DA2C3b0EeE30B4a: error sending request for url (https://sepolia.base.org/); client error (SendRequest); connection error; received fatal alert: BadRecordMac address=0x1a0e689b2b55c4E92571b37e0DA2C3b0EeE30B4a
+  Error: EVM error
+  
+  Context:
+  - database error: failed to get account for 0x1a0e689b2b55c4E92571b37e0DA2C3b0EeE30B4a: error sending request for url (https://sepolia.base.org/); client error (SendRequest); connection error; received fatal alert: BadRecordMac
+  mendez@Mendez-PC:/mnt/c/users/USER/Desktop/NEXAI/contracts$ echo $BASE_SEPOLIA_RPC_URL
+  https://sepolia.base.org
+  [LMB]
+
+--- WINDOW  2026/07/18 07:27:00  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][ENTER]
+  [LMB]
+  [Clipboard]
+  forge script script/TopUpPools.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:27:23  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/users/USER/Desktop/NEXAI/contracts$ forge script script/TopUpPools.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+  [⠘] Compiling...
+  No files changed, compilation skipped
+  Script ran successfully.
+  
+  == Logs ==
+    Live WETH/USDC price implies USDC per WETH: 5023256994
+    Topping up WETH/USDC pool - WETH: 40000000000000000000
+    Topping up WETH/USDC pool - USDC: 200930279760
+    New position NFT minted, tokenId: 81437
+    Liquidity added: 2834997564296809
+    Amount0 used: 200930279760
+    Amount1 used: 39999999995863417172
+    WETH/USDC pool total in-range liquidity now: 3729424755296724
+    Live USDT/WETH price implies USDT per WETH: 14941129787
+    Topping up USDT/WETH pool - WETH: 20000000000000000000
+    Topping up USDT/WETH pool - USDT: 298822595740
+    New position NFT minted, tokenId: 81438
+    Liquidity added: 2444678284478343
+    Amount0 used: 19999999999330618591
+    Amount1 used: 298822595740
+    USDT/WETH pool total in-range liquidity now: 2933613941390374
+    Topping up USDT/USDC pool - USDT: 50000000000
+    Topping up USDT/USDC pool - USDC: 50000000000
+    New position NFT minted, tokenId: 81439
+    Liquidity added: 37999999998
+    Amount0 used: 28879999998
+    Amount1 used: 50000000000
+    USDT/USDC pool total in-range liquidity now: 87999999998
+  
+  ## Setting up 1 EVM.
+  
+  ==========================
+  
+  Chain 84532
+  
+  Estimated gas price: 0.011 gwei
+  
+  Estimated total gas used for script: 2519828
+  
+  Estimated amount required: 0.000027718108 ETH
+  
+  ==========================
+  
+  SIMULATION COMPLETE. To broadcast these transactions, add --broadcast and wallet configuration(s) to the previous command. See forge script --help for more.
+  
+  Transactions saved to: /mnt/c/users/USER/Desktop/NEXAI/contracts/broadcast/TopUpPools.s.sol/84532/dry-run/run-latest.json
+  
+  Sensitive values saved to: /mnt/c/users/USER/Desktop/NEXAI/contracts/cache/TopUpPools.s.sol/84532/dry-run/run-latest.json
+  
+  c
+  [LMB]
+
+--- WINDOW  2026/07/18 07:29:05  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  forge script script/TopUpPools.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast --slow
+  [LMB]
+
+--- WINDOW  2026/07/18 07:30:31  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:30:33  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:30:34  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:31:42  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:31:44  [chrome.exe] 192.168.0.1/index.html - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:31:46  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:32:03  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:32:04  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:32:15  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:32:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:32:44  [ChatGPT Classic.exe] ChatGPT Classic
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:32:46  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:32:47  [Antigravity IDE.exe] NEXAI - Antigravity IDE - TopUpPools.s.sol (3xl6mk)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:32:51  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:32:52  [ChatGPT Classic.exe] ChatGPT Classic
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:32:53  [Telegram.exe] Telegram (14126)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:32:54  [ChatGPT Classic.exe] ChatGPT Classic
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:32:55  [Telegram.exe] Telegram (37653)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:32:59  [Telegram.exe] ‎Дмитрий – (37653)
+----------------------------------------------------------------------------
+  gm dmitry
+  [LMB]
+
+--- WINDOW  2026/07/18 07:33:07  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:33:08  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:33:10  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/users/USER/Desktop/NEXAI/contracts$ forge script script/TopUpPools.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast --slow
+  [⠃] Compiling...
+  No files changed, compilation skipped
+  Script ran successfully.
+  
+  == Logs ==
+    Live WETH/USDC price implies USDC per WETH: 5023256994
+    Topping up WETH/USDC pool - WETH: 40000000000000000000
+    Topping up WETH/USDC pool - USDC: 200930279760
+    New position NFT minted, tokenId: 81437
+    Liquidity added: 2834997564296809
+    Amount0 used: 200930279760
+    Amount1 used: 39999999995863417172
+    WETH/USDC pool total in-range liquidity now: 3729424755296724
+    Live USDT/WETH price implies USDT per WETH: 14941129787
+    Topping up USDT/WETH pool - WETH: 20000000000000000000
+    Topping up USDT/WETH pool - USDT: 298822595740
+    New position NFT minted, tokenId: 81438
+    Liquidity added: 2444678284478343
+    Amount0 used: 19999999999330618591
+    Amount1 used: 298822595740
+    USDT/WETH pool total in-range liquidity now: 2933613941390374
+    Topping up USDT/USDC pool - USDT: 50000000000
+    Topping up USDT/USDC pool - USDC: 50000000000
+    New position NFT minted, tokenId: 81439
+    Liquidity added: 37999999998
+    Amount0 used: 28879999998
+    Amount1 used: 50000000000
+    USDT/USDC pool total in-range liquidity now: 87999999998
+  
+  ## Setting up 1 EVM.
+  
+  ==========================
+  
+  Chain 84532
+  
+  Estimated gas price: 0.011 gwei
+  
+  Estimated total gas used for script: 2519828
+  
+  Estimated amount required: 0.000027718108 ETH
+  
+  ==========================
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x7ee6f82c432d444b5b49c4c3d1ac1061ae1597627651cd641f9734e727492f35
+  Function: mint(address,uint256)
+  Block: 44294030
+  Paid: 0.000000208152 ETH (34692 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x5224535a54ab4de1c7661184c91959c2094ce5df3a749c90ec3b01eaf1882a68
+  Function: mint(address,uint256)
+  Block: 44294031
+  Paid: 0.000000208008 ETH (34668 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x612a2a8abf13f303f8b922b459d2e022f8db06aa81ca7bc78cae3a2e7119f564
+  Function: createAndInitializePoolIfNecessary(address,address,uint24,uint160)
+  Block: 44294032
+  Paid: 0.00000020628 ETH (34380 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x85c0832a34966ce879ac05f2b8ae61c206157c8210b417c84c384b6e3a13db43
+  Function: approve(address,uint256)
+  Block: 44294033
+  Paid: 0.000000281112 ETH (46852 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x317331993e4269db9903c1753db58493f41db4bfcb4bb3a04edf24de8842e536
+  Function: approve(address,uint256)
+  Block: 44294035
+  Paid: 0.000000178656 ETH (29776 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x2fe3261b6b48a9fe5f516c255751bb8cd9999463359b50bd95bc22cecf35c44e
+  Function: mint((address,address,uint24,int24,int24,uint256,uint256,uint256,uint256,address,uint256))
+  Block: 44294037
+  Paid: 0.000002547036 ETH (424506 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0xb03f1ca30e53faf565af9602dbed3974ccb9993aa3b44a021310f7b53ed3a418
+  Function: mint(address,uint256)
+  Block: 44294039
+  Paid: 0.000000208152 ETH (34692 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0xf503af0cae873014f87e0efc533280d56ca042cd48b7ccfca77634ae4d9a5c09
+  Function: mint(address,uint256)
+  Block: 44294041
+  Paid: 0.000000220422 ETH (36737 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0xf6f60895fd7d5f9a2c53efabebda9d1d0d992058a35b542b26885068a039ab5f
+  Function: createAndInitializePoolIfNecessary(address,address,uint24,uint160)
+  Block: 44294042
+  Paid: 0.000000205992 ETH (34332 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0xaa92ac3d3783bf3a9ae848bccf3c079d85a1db46daab0bdaae41a72a5993e1a1
+  Function: approve(address,uint256)
+  Block: 44294045
+  Paid: 0.000000178656 ETH (29776 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x4b6d9177d5d4d161d2113b5c44d5dbb660068d481211b2be1e4ccc52db65d763
+  Function: approve(address,uint256)
+  Block: 44294046
+  Paid: 0.000000291186 ETH (48531 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0xb42bbec89f568cf1216936535f6edf45c04996b94ba222b08d9589869b23ac99
+  Function: mint((address,address,uint24,int24,int24,uint256,uint256,uint256,uint256,address,uint256))
+  Block: 44294047
+  Paid: 0.000002343426 ETH (390571 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x2a83a38bcc74b4f58bc6493302601877a2651cd0df60df1bb6424a8784499100
+  Function: mint(address,uint256)
+  Block: 44294048
+  Paid: 0.00000022035 ETH (36725 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0xed1971387eb213457e342880e0588d7d9b8db4f831a257ea591f7f505563516f
+  Function: mint(address,uint256)
+  Block: 44294049
+  Paid: 0.000000207936 ETH (34656 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x9aae59dd7f6b37b82869a6d31c0c05341a5ac50ff74e457ae36a258cbdcf859c
+  Function: createAndInitializePoolIfNecessary(address,address,uint24,uint160)
+  Block: 44294051
+  Paid: 0.000000205344 ETH (34224 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0xe58adbc806fba03edd7b30083914f8e18df0bfc2060ef11f3ff275cc3e8083c3
+  Function: approve(address,uint256)
+  Block: 44294063
+  Paid: 0.00000028104 ETH (46840 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x16823d1ac19b09486c26f98c692ea5f05485587f78607ff29cec041fd1655a20
+  Function: approve(address,uint256)
+  Block: 44294064
+  Paid: 0.000000291114 ETH (48519 gas * 0.006 gwei)
+  
+  
+  ##### base-sepolia
+  ✅  [Success] Hash: 0x42b4acc7962fc542039d72a4c53fbec4c2305a788ffff881c3caa59a43fc0ec7
+  Function: mint((address,address,uint24,int24,int24,uint256,uint256,uint256,uint256,address,uint256))
+  Block: 44294066
+  Paid: 0.00000234528 ETH (390880 gas * 0.006 gwei)
+  
+  ✅ Sequence #1 on base-sepolia | Total Paid: 0.000010628142 ETH (1771357 gas * avg 0.006 gwei)
+  
+  
+  ==========================
+  
+  ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+  
+  Transactions saved to: /mnt/c/users/USER/Desktop/NEXAI/contracts/broadcast/TopUpPools.s.sol/84532/run-latest.json
+  
+  Sensitive values saved to: /mnt/c/users/USER/Desktop/NEXAI/contracts/cache/TopUpPools.s.sol/84532/run-latest.json
+  
+  [LMB]
+
+--- WINDOW  2026/07/18 07:33:46  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl]vhere[ENTER]
+
+--- WINDOW  2026/07/18 07:33:56  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:33:58  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  n converational nner
+  [LMB]
+  [LMB]
+  s
+  [LMB]
+  manner[ENTER]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]c
+  [Clipboard]
+  "Topped up all three pools just now — pretty much doubled the depth in each, so we should have a lot more room before running into the same thing again. Confirmed both were exactly what we thought: no actual bug on the USDT side, just real price impact from a thin pool getting hit hard, and the STF errors were genuine liquidity running low. Both should be much less likely to show up now.
+  [LMB]
+
+--- WINDOW  2026/07/18 07:34:43  [Discord.exe] @MENDEZ - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:34:45  [Telegram.exe] ‎Дмитрий – (117730)
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [<-][Bk][Bk],
+  [LMB]
+  [LMB]
+  [Bk][ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:35:14  [claude.exe] Claude
+----------------------------------------------------------------------------
+  whatso what's next[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:35:47  [brave.exe] Untitled - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:35:54  [brave.exe] claude.ai/login/app-google-auth?open_in_browser=1 - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:36:00  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:36:12  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:36:14  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:36:17  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:36:34  [brave.exe] accounts.google.com/v3/signin/accountchooser?access_type=offline&client_id=1062961139910-l2m55cb9h51u5cuc9c56eb3fevouidh9.apps.googleusercontent.com&enable_granular_consent=true&gsiwebsdk=3&include_granted_scopes=true&prompt=consent&redirect_uri=https%3A%2F%2Fclaude.ai%2Flogin%2Fpopup-google-auth&response_type=code&scope=openid+profile+email&state=desktop%3A3f49f4fde3413d5e7d7fac75e1cac9bcecd234d6d1cba428e6e652dfd9117bb7&dsh=S-2127815851%3A1784356602378137&o2v=2&service=lso&flowName=GeneralOAuthFlow&oppara
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:36:36  [brave.exe] Sign in - Google Accounts - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:36:47  [brave.exe] accounts.google.com/signin/oauth/id?authuser=3&part=AJi8hAOecdkMs4Za5dowjylYw55zHnu1ZpV95dPWttmkj6wrfbNmc7uaGRoSvTS2ffXO1lZpAoWRu9JumRlvowfk7uUqGhBAY-Y39AgcOFgo4lnXayp3P1z0_z_qHFQstD0M7I80RZRsDEKAnx2idAasiRDP-ec9BubhjyYWWoXIKMh-9YM15xVSiVZBk_amYDNTRFL5xZLzma4YCTl-T1-mwYGGZkBWWwM_qLXVYFLhzJ9iK3OvpGVkEtWsktL3LKqJqOdzzCOLy9M0g0HcSXbJZDdvJ22PLBv2khaWMS3XlTxCvinMjvaB2KefAfT_FJ7lrQojEwxyU9CDIoU9K3cMM3h9GbmdEw9P_SRuUcKAP1Yb_dhrd6481LmdYCZ6a2Ia97EhGHLId54if5crwtCsqZ8dZxG3iv5RIZtQ3bH--hf2xbUOt1cuSHm19ckxISgE9vLZi2E
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:36:47  [brave.exe] Sign in - Google Accounts - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:36:56  [brave.exe] claude.ai/login/popup-google-auth?state=desktop%3A3f49f4fde3413d5e7d7fac75e1cac9bcecd234d6d1cba428e6e652dfd9117bb7&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AXEQxIBgKuAQIMZVLNkMowXIq_8DAXBR9M9Sr6UFDdoM33zE0TcVQmXtelRzecW0gjMY3w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=3&prompt=consent - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:37:00  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:37:14  [claude.exe] Claude
+----------------------------------------------------------------------------
+  sho[Bk][Bk]o ho ibirng it upto him[Bk][Bk]m
+
+--- WINDOW  2026/07/18 07:43:06  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:45:57  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:45:58  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:46:00  [Telegram.exe] ‎Дмитрий – (117731)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:46:02  [Telegram.exe] ‎MZ HUSTLE FORUM – (117731)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:46:04  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:46:07  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:46:08  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:46:23  [explorer.exe] Downloads
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:46:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 07:46:27  [Spotify.exe] Spotify Premium
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:46:35  [Code.exe] Welcome - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:46:37  [Spotify.exe] Spotify Premium
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 07:46:45  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 07:46:50  [explorer.exe] Downloads
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 08:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
