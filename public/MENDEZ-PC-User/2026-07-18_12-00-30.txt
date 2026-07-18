@@ -1,0 +1,212 @@
+﻿  [LMB]
+  [Clipboard]
+  grep -A 30 "function test_Redeem_RevertsWhenBasketReconfiguredToNewUnfundedToken" test/NexaiCore.t.sol
+
+--- WINDOW  2026/07/18 11:00:39  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/users/USER/Desktop/NEXAI/contracts$ grep -A 30 "function test_Redeem_RevertsWhenBasketReconfiguredToNewUnfundedToken" test/NexaiCore.t.sol
+      function test_Redeem_RevertsWhenBasketReconfiguredToNewUnfundedToken() public {
+          vm.prank(alice);
+          core.deposit(2 ether);
+  
+          // Swap USDC out of the basket for a brand-new token Core has never held any of.
+          MockERC20 dai = new MockERC20("Dai Stablecoin", "DAI", 18);
+          address[] memory tokens = new address[](2);
+          tokens[0] = address(weth);
+          tokens[1] = address(dai);
+          uint256[] memory weights = new uint256[](2);
+          weights[0] = WETH_WEIGHT;
+          weights[1] = 1000 * 10 ** 18;
+          core.updateBasket(tokens, weights);
+  
+          // Redeem now tries to pay out DAI per the new weights, but Core's DAI balance
+          // is zero - updateBasket only rewrites weight/token bookkeeping, it never moves
+          // any actual tokens. This is a real operational gap worth flagging to the
+          // client: reconfiguring the basket to include a token Core doesn't already
+          // hold silently bricks redemption for existing depositors until Core is somehow
+          // funded with it.
+          vm.prank(alice);
+          vm.expectRevert();
+          core.redeem(1 ether);
+      }
+  }
+  [LMB]
+
+--- WINDOW  2026/07/18 11:00:49  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl]v[ENTER]
+  do i send this first r the [Bk][Bk][Bk][Bk][Bk][Bk]or th edocument/[ENTER]
+  [LMB]
+  [LMB]
+  i don't want to send th edoc now ti 
+
+--- WINDOW  2026/07/18 11:03:52  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  evung
+
+--- WINDOW  2026/07/18 11:03:55  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]x
+  [Clipboard]
+  i don't want to send the doc now till 
+  [LMB]
+  [Ctrl]vevening time. sio [Bk][Bk][Bk]o shoud i send this n[ENTER]
+  [LMB]
+  [Ctrl][Ctrl]
+  [Clipboard]
+  Found something real while hardening the tests — worth flagging clearly since it affects both the multisig/timelock design and the eventual 20-token basket work. Right now, if updateBasket() ever introduces a brand-new token that Core doesn't already hold (not just adjusting weights on existing tokens), every existing depositor's redeem breaks — not lost funds, but redemption gets stuck until Core is somehow funded with that token. That's because updateBasket() only updates bookkeeping, it never actually moves tokens in. This means basket expansion (going from 2 to 20 tokens) needs a real funding/migration step built alongside it, not just a weight update — worth designing that properly before M2, not discovering it live
+  c[Ctrl]c
+
+--- WINDOW  2026/07/18 11:04:45  [Telegram.exe] ‎Saved Messages – (113730)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 11:04:46  [Telegram.exe] ‎Дмитрий – (113730)
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Bk][Bk],
+  [LMB]
+  [Bk][Bk],
+
+--- WINDOW  2026/07/18 11:04:57  [Telegram.exe] ‎Дмитрий – (113731)
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk][Bk],
+
+--- WINDOW  2026/07/18 11:05:05  [Telegram.exe] ‎Дмитрий – (113732)
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+
+--- WINDOW  2026/07/18 11:05:26  [Telegram.exe] ‎Дмитрий – (113733)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:06:05  [Telegram.exe] ‎Дмитрий – (113734)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:06:57  [Telegram.exe] ‎Дмитрий – (113735)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 11:06:59  [Telegram.exe] ‎MZ HUSTLE FORUM – (113735)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:09:02  [Telegram.exe] ‎MZ HUSTLE FORUM – (113736)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:09:43  [Telegram.exe] ‎MZ HUSTLE FORUM – (113737)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:10:03  [Telegram.exe] ‎MZ HUSTLE FORUM – (113736)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:10:04  [Telegram.exe] ‎MZ HUSTLE FORUM – (113740)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:10:25  [Telegram.exe] ‎MZ HUSTLE FORUM – (113741)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:12:28  [Telegram.exe] ‎MZ HUSTLE FORUM – (113618)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:13:06  [Spotify.exe] Spotify Premium
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/07/18 11:15:24  [Spotify.exe] Irokz - FUNK ESTRELAS - Slowed
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:17:11  [Spotify.exe] Justin Bieber - Beauty And A Beat
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:20:59  [Spotify.exe] DJ SKZ - COMO TU
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:22:44  [Spotify.exe] Killswitch Memories - Missing Pieces - Slowed
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:26:37  [Spotify.exe] Flawed Mangoes - Missing Pieces
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:29:59  [Spotify.exe] bxkq - QUIERA VOLVER - Slowed
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:30:06  [Spotify.exe] Spotify Premium
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:33:52  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:33:55  [(unknown)] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:33:55  [Spotify.exe] Spotify Premium
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:58:32  [Telegram.exe] ‎Дмитрий – (113651)
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/18 11:58:37  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Agreed, this needs a real funding/migration step designed alongside basket expansion, not just a weight update. Go ahead and fold this into the M2 basket scaling design work-it feels like it belongs in the same design pass as the multisig/timelock doc, not a separate afterthought.
+
+--- WINDOW  2026/07/18 11:58:38  [Telegram.exe] ‎Дмитрий – (113651)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 11:58:39  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/18 11:58:57  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 11:58:58  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Plan next phase: build z…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/18 11:59:01  [Discord.exe] @MENDEZ - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 11:59:02  [Telegram.exe] ‎Дмитрий – (113651)
+----------------------------------------------------------------------------
+  [LMB]
+  all right chu[Bk]ief[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 11:59:23  [claude.exe] Claude
+----------------------------------------------------------------------------
+  it[Bk] this[Bk]nk do[Bk]cs aso contain the m[Bk]4h priority on the list right/[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/18 12:00:17  [claude.exe] https://claude.ai/api/organizations/6671d566-e237-4ee2-a135-d7ae20d90a23/conversations/a30c4744-1e37-4086-b753-946827076568/wiggle/download-file?path=%2Fmnt%2Fuser-data%2Foutputs%2FNEXAI_Multisig_Timelock_Design.pdf
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/18 12:00:22  [claude.exe] Confirm Save As
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 12:00:24  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/18 12:00:28  [Telegram.exe] ‎Дмитрий – (113652)
+----------------------------------------------------------------------------
