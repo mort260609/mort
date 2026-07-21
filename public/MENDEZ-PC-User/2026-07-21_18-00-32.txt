@@ -1,0 +1,733 @@
+﻿  [RMB]
+
+--- WINDOW  2026/07/21 13:00:35  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  One thing before you move on-let's actually decide between PQV and veTokens before governance token dev starts, rather than leaving it open indefinitely. It doesn't need to be decided now, but just flag it to me when the multisig/timelock is far enough along that governance is next, so we make an actual call instead of letting it sit
+
+--- WINDOW  2026/07/21 13:00:39  [Telegram.exe] ‎Дмитрий – (118925)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 13:00:58  [claude.exe] Claude
+----------------------------------------------------------------------------
+  w shoudi plu[Bk]y[ENTER]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Sounds good, will flag it once we're there rather than let it sit
+
+--- WINDOW  2026/07/21 13:02:22  [chrome.exe] Gist - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 13:02:24  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 13:02:26  [Telegram.exe] ‎Дмитрий – (118926)
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [ENTER]
+
+--- WINDOW  2026/07/21 13:02:30  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 13:02:55  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 13:02:57  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 13:02:59  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 13:03:01  [Telegram.exe] ‎Дмитрий – (118928)
+----------------------------------------------------------------------------
+  ill be wai[Bk][Bk][Bk][Bk][Bk][Bk][Bk]m[Bk][Bk]m on the mulit[Bk][Bk]tigig[Bk][Bk][Bk]si imp[Bk][Bk][Bk][Bk]/timelock implemtn[Bk][Bk]entation nw[Bk]ow[ENTER]
+  [Bk]will be waiting  you on the other [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]r feedback on the other cal we disu[Bk]cussed earleir.
+  [LMB]
+
+--- WINDOW  2026/07/21 13:04:16  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 13:07:50  [claude.exe] Claude
+----------------------------------------------------------------------------
+  orking/[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 13:08:33  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  https://claude.ai/settings/usage
+  [LMB]
+
+--- WINDOW  2026/07/21 13:08:44  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/21 13:08:48  [chrome.exe] Gist - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 13:08:50  [chrome.exe] Smart KYC - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 13:08:52  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/07/21 13:08:53  [chrome.exe] Settings - Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 13:09:11  [chrome.exe] Upgrade - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 13:20:20  [chrome.exe] Smart KYC - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 13:20:24  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  These all look correct. Everything for Parts 1–4, the migration script, and the test suite is written. Here's a summary of what's in place and what I walked through building:
+  
+  What changed:
+  
+  contracts/src/NexaiCore.sol — added Pausable + GUARDIAN_ROLE; pause() needs the guardian (1-of-3, instant), unpause() needs ADMIN_ROLE (2-of-3 + 48h once migrated); deposit()/redeem() now revert while paused.
+  contracts/script/DeploySafes.s.sol — deploys two real Safe v1.4.1 wallets (verified canonical addresses on Base Sepolia) sharing 3 provisional owners: AdminSafe (2-of-3) and GuardianSafe (1-of-3). Two Safes because a single Safe has one threshold — there's no per-function sub-threshold in Safe's tooling.
+  contracts/script/DeployTimelock.s.sol — deploys OZ's TimelockController (48h delay, AdminSafe as proposer, permissionless executor, GuardianSafe as canceller).
+  contracts/script/MigrateAdminToTimelock.s.sol — the one-way step, kept separate as you asked. Ordered grant-then-revoke so the EOA can never lock itself out mid-migration.
+  contracts/test/NexaiCoreAdmin.t.sol — 6 new tests, all against real Safe contracts (added lib/safe-smart-account pinned to v1.4.1) signed with genuine ECDSA signatures, not a mock.
+  contracts/README.md — new "Admin & Governance" section.
+  Why two Safes was the key design call: your spec flagged this as something to watch for, and Safe genuinely has no built-in per-function threshold — deploying twice with the same owners is the standard way people solve this with unmodified Safe contracts.
+  
+  One thing I can't do here: forge/cast aren't on this machine's PATH (only reachable via your WSL setup), so I haven't compiled or run the suite. Please run:
+  
+  
+  forge build
+  forge test --match-path test/NexaiCoreAdmin.t.sol -vvv
+  forge test
+  and send me anything that fails — happy to fix. Nothing has been committed yet; let me know when you want that done.
+
+--- WINDOW  2026/07/21 13:21:46  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 13:21:49  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 13:22:13  [Telegram.exe] ‎Дмитрий – (118936)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 13:22:19  [Telegram.exe] ‎Mendez Forex Class – (118936)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 13:22:21  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 13:22:22  [chrome.exe] Smart KYC - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 13:22:23  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]r
+
+--- WINDOW  2026/07/21 13:23:01  [Telegram.exe] ‎Mendez Forex Class – (118937)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 13:23:05  [Telegram.exe] ‎Saved Messages – (118937)
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/21 13:23:10  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 13:23:26  [StartMenuExperienceHost.exe] Start
+----------------------------------------------------------------------------
+  [LMB]
+
+================================================================================
+ SESSION START  2026/07/21 17:14:19
+================================================================================
+
+
+--- WINDOW  2026/07/21 17:14:19  [SynTPEnh.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:14:41  [opera.exe] Opera | Update complete | Opera - Opera
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:15:05  [ms-teams.exe] Microsoft Teams
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:15:20  [dwm.exe] Opera | Update complete | Opera - Opera (Not Responding)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:15:26  [WhatsApp.Root.exe] WhatsApp Beta
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:15:27  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:15:27  [Discord.exe] Discord Updater
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:15:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:15:37  [ChatGPT Classic.exe] ChatGPT Classic
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:15:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:15:56  [ShellExperienceHost.exe] Control Center
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 17:19:20  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:19:31  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:19:33  [chrome.exe] 192.168.0.1/index.html - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:19:37  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 17:21:10  [chrome.exe] 192.168.0.1 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:21:11  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:21:12  [ShellExperienceHost.exe] Control Center
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 17:22:48  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:22:50  [StartMenuExperienceHost.exe] Start
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:22:52  (no active window)
+----------------------------------------------------------------------------
+
+================================================================================
+ SESSION START  2026/07/21 17:36:56
+================================================================================
+
+
+--- WINDOW  2026/07/21 17:36:56  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:37:09  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:37:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:37:11  [ShellExperienceHost.exe] Control Center
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 17:37:45  [Spotify.exe] Spotify Premium
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:38:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:38:13  [ShellExperienceHost.exe] Control Center
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 17:38:24  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:38:24  [Spotify.exe] Spotify Premium
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:38:26  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  wsl[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/21 17:38:38  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  cd /mnt/c/Users/USER/Desktop/NEXAI/contracts
+  forge build && forge test
+
+--- WINDOW  2026/07/21 17:38:49  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl][Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI$ cd /mnt/c/Users/USER/Desktop/NEXAI/contracts
+  forge build && forge test
+  [⠔] Compiling...
+  [⠘] Compiling 38 files with Solc 0.8.35
+  [⠃] Solc 0.8.35 finished in 5.22s
+  Error: Compiler run failed:
+  Error: Variable var_txHash is 1 too deep in the stack [ var_to RET var_txHash var_baseGas var_safeTxGas var_baseGas var_refundReceiver var_gasToken var_gasPrice var_operation var_data_41149_length var_value var_data_41149_offset var_safeTxGas var_to var_gasPrice var_gasToken var_signatures_41164_mpos var_txHashData_mpos ]
+  No memoryguard was present. Consider using memory-safe assembly only and annotating it via 'assembly ("memory-safe") { ... }'.
+  [Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/07/21 17:39:35  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/21 17:39:47  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:40:17  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  cat foundry.toml
+  [LMB]
+
+--- WINDOW  2026/07/21 17:40:27  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:40:27  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ cat foundry.toml
+  [profile.default]
+  src = "src"
+  test = "test"
+  libs = ["node_modules", "lib"]
+  via_ir = true
+  c
+  [LMB]
+
+--- WINDOW  2026/07/21 17:40:38  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [->]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Compile error: lib/safe-smart-account's inline assembly (used for signature verification) hits a stack-too-deep error under via_ir, not annotated as memory-safe. Fix: remove the full safe-smart-account dependency entirely — we don't need to compile Safe's contracts, since Safe publishes canonical, already-deployed singleton and factory addresses (confirmed: SafeProxyFactory v1.4.1 at 0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67 on Base Sepolia). Replace with a minimal interface file (ISafe.sol/ISafeProxyFactory.sol) declaring only the functions actually called (createProxyWithNonce, execTransaction, getThreshold, etc.), same pattern already used for ISwapRouter02 — deploy proxies against the canonical factory/singleton via interface calls, not compiled source. Update DeploySafes.s.sol and the test file to use the interface instead of the full library import.
+  [LMB]
+
+--- WINDOW  2026/07/21 17:41:28  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 17:43:04  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:43:29  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:45:11  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:45:14  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:45:22  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:45:29  [chrome.exe] 192.168.0.1/index.html - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:45:35  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 17:47:13  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:47:15  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:47:22  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 17:48:47  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:48:48  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 17:49:00  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:49:02  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:49:48  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:49:49  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Good, that's back to matching the original — no stray dependency left behind. The fix is complete:
+  
+  Removed the safe-smart-account submodule and its remapping entirely.
+  Added contracts/src/interfaces/ISafe.sol — minimal ISafe/ISafeProxyFactory interfaces (setup, execTransaction, getTransactionHash, nonce, getThreshold, createProxyWithNonce), verified each signature against Safe v1.4.1's actual source so selectors match exactly. operation is a plain uint8 instead of importing Safe's Enum type (enums ABI-encode as uint8 regardless, so this is selector-identical).
+  DeploySafes.s.sol now imports that shared interface instead of declaring its own.
+  NexaiCoreAdmin.t.sol now calls vm.createSelectFork(vm.envString("BASE_SEPOLIA_RPC_URL")) in setUp() and talks to Safe entirely through the interface — no compiled Safe source anywhere in the repo.
+  README updated: dropped the submodule-init note, and flagged that this one test file is the exception to an otherwise fully offline suite (needs BASE_SEPOLIA_RPC_URL), with the reasoning spelled out under "Admin & Governance."
+  Same caveat as before: I can't run forge build/forge test here. Please re-run:
+  
+  
+  forge build
+  forge test --match-path test/NexaiCoreAdmin.t.sol -vvv
+  forge test
+  Let me know what comes back.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/21 17:51:00  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:51:02  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  cd /mnt/c/Users/USER/Desktop/NEXAI/contracts
+  forge build
+  forge test --match-path test/NexaiCoreAdmin.t.sol -vvv
+  forge test
+
+--- WINDOW  2026/07/21 17:51:37  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:51:39  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ cd /mnt/c/Users/USER/Desktop/NEXAI/contracts
+  forge build
+  forge test --match-path test/NexaiCoreAdmin.t.sol -vvv
+  forge test
+  [⠰] Compiling...
+  [⠆] Compiling 15 files with Solc 0.8.35
+  [⠘] Solc 0.8.35 finished in 18.85s
+  Compiler run successful!
+  warning[unsafe-typecast]: typecasts that can truncate values should be checked
+     ╭▸ test/PriceOracle.t.sol:73:37
+     │
+  73 │     bytes32 public redstoneFeedId = bytes32("ETH");
+     │                                     ━━━━━━━━━━━━━━
+     │
+     ├ note: consider disabling this lint if you're certain the cast is safe
+     │
+     │       // casting to 'bytes32' is safe because [explain why]
+     │       // forge-lint: disable-next-line(unsafe-typecast)
+     │
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+  
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/PriceOracle.sol:82:17
+     │
+  82 │         require(block.timestamp - updatedAt < 1 hours, "Chainlink price stale");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  [⠃] Compiling...
+  No files changed, compilation skipped
+  
+  Ran 6 tests for test/NexaiCoreAdmin.t.sol:NexaiCoreAdminTest
+  [PASS] test_EOACannotCallAdminFunctionsAfterMigration() (gas: 126502)
+  [PASS] test_FullSafeToTimelockToExecute_UpdatesBasket() (gas: 216539)
+  [PASS] test_GuardianSafe_CanCancelQueuedProposal_WithoutPause() (gas: 211248)
+  [PASS] test_GuardianSafe_CanPauseInstantly() (gas: 116824)
+  [PASS] test_PauseDoesNotHaltQueuedProposal() (gas: 318380)
+  [PASS] test_Unpause_RequiresTimelock_Not1of3() (gas: 372385)
+  Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 9.79s (2.57s CPU time)
+  
+  Ran 1 test suite in 9.83s (9.79s CPU time): 6 tests passed, 0 failed, 0 skipped (6 total tests)
+  [⠊] Compiling...
+  No files changed, compilation skipped
+  
+  Ran 4 tests for test/NexaiIndexToken.t.sol:NexaiIndexTokenTest
+  [PASS] test_Burn_Reverts_When_NotCore() (gas: 179160)
+  [PASS] test_Burn_Succeeds_When_Core() (gas: 80230)
+  [PASS] test_Mint_Reverts_When_NotCore() (gas: 121654)
+  [PASS] test_Mint_Succeeds_When_Core() (gas: 69978)
+  Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 4.06ms (2.68ms CPU time)
+  
+  Ran 6 tests for test/PriceOracle.t.sol:PriceOracleTest
+  [PASS] test_GetChainlinkPrice_Reverts_NegativePrice() (gas: 69371)
+  [PASS] test_GetChainlinkPrice_Reverts_StaleData() (gas: 66057)
+  [PASS] test_GetChainlinkPrice_Reverts_ZeroPrice() (gas: 64259)
+  [PASS] test_GetChainlinkPrice_Success() (gas: 61176)
+  [PASS] test_GetRedstonePrice_Stub() (gas: 88431)
+  [PASS] test_SetTokenConfig() (gas: 65761)
+  Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 6.07ms (5.04ms CPU time)
+  
+  Ran 20 tests for test/NexaiZapper.t.sol:NexaiZapperTest
+  [PASS] test_RevertsOnExcessSlippage() (gas: 134692)
+  [PASS] test_RevertsOnExcessSlippageUsdt_WethLeg() (gas: 135297)
+  [PASS] test_RevertsOnExcessSlippageWeth() (gas: 134947)
+  [PASS] test_RevertsWhenBasketHasThirdToken() (gas: 1199689)
+  [PASS] test_RevertsWhenBasketHasThirdToken_Usdt() (gas: 1201755)
+  [PASS] test_RevertsWhenBasketHasThirdToken_Weth() (gas: 1199553)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc() (gas: 1157319)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc_Usdt() (gas: 1156769)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc_Weth() (gas: 1157051)
+  [PASS] test_RevertsWhenBudgetCantCoverBothLegsCombined() (gas: 222392)
+  [PASS] test_RevertsWhenMaxUsdcInTooLowForDirectLeg() (gas: 72685)
+  [PASS] test_RevertsWhenMaxWethInTooLowForDirectLeg() (gas: 72552)
+  [PASS] test_SequentialZapDeposits_DifferentEntryTokens_NoStateLeak() (gas: 1063252)
+  [PASS] test_ZapDepositUsdc_Correctness() (gas: 419470)
+  [PASS] test_ZapDepositUsdc_DustAmount() (gas: 416220)
+  [PASS] test_ZapDepositUsdc_SlippageBoundary_ExactRefund() (gas: 405534)
+  [PASS] test_ZapDepositUsdt_Correctness() (gas: 490511)
+  [PASS] test_ZapDepositUsdt_SlippageBoundary_ExactRefund() (gas: 471382)
+  [PASS] test_ZapDepositWeth_Correctness() (gas: 419304)
+  [PASS] test_ZapDepositWeth_SlippageBoundary_ExactRefund() (gas: 405773)
+  Suite result: ok. 20 passed; 0 failed; 0 skipped; finished in 68.69ms (66.84ms CPU time)
+  
+  Ran 10 tests for test/NexaiCore.t.sol:NexaiCoreTest
+  [PASS] testFuzz_Solvency(uint256,uint256,uint256,uint256) (runs: 256, μ: 324572, ~: 326100)
+  [PASS] test_Deposit_Correctness() (gas: 212838)
+  [PASS] test_Deposit_DustAmount() (gas: 202294)
+  [PASS] test_Deposit_UsesLiveBasketWeightsAtCallTime() (gas: 274593)
+  [PASS] test_MultipleDepositors_NoCrossContamination() (gas: 516409)
+  [PASS] test_MultipleDepositsAndRedeems_SequentialBalanceTracking() (gas: 415189)
+  [PASS] test_Redeem_Correctness() (gas: 252664)
+  [PASS] test_Redeem_DustAmount() (gas: 243119)
+  [PASS] test_Redeem_RevertsWhenBasketReconfiguredToNewUnfundedToken() (gas: 1309176)
+  [PASS] test_Redeem_UsesLiveBasketWeightsAfterReconfiguration() (gas: 270065)
+  Suite result: ok. 10 passed; 0 failed; 0 skipped; finished in 403.80ms (460.53ms CPU time)
+  
+  Ran 6 tests for test/NexaiCoreAdmin.t.sol:NexaiCoreAdminTest
+  [PASS] test_EOACannotCallAdminFunctionsAfterMigration() (gas: 126502)
+  [PASS] test_FullSafeToTimelockToExecute_UpdatesBasket() (gas: 216539)
+  [PASS] test_GuardianSafe_CanCancelQueuedProposal_WithoutPause() (gas: 211248)
+  [PASS] test_GuardianSafe_CanPauseInstantly() (gas: 116824)
+  [PASS] test_PauseDoesNotHaltQueuedProposal() (gas: 318380)
+  [PASS] test_Unpause_RequiresTimelock_Not1of3() (gas: 372385)
+  Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 8.00s (1.27s CPU time)
+  
+  Ran 5 test suites in 8.07s (8.48s CPU time): 46 tests passed, 0 failed, 0 skipped (46 total tests)
+  [LMB]
+
+--- WINDOW  2026/07/21 17:53:02  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  her ebuddy[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  wait explain wht[Bk]at we just did now in simple trr[Bk][Bk]erms [ENTER]
+  okay i nwws[Bk][Bk][Bk]eed  asimp[Bk][Bk][Bk][Bk] simple update to [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]reply to update now[Bk][Bk]ow[ENTER]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Update — multisig and timelock are built and tested. Two Safes, one needs 2 of 3 to approve real changes, one needs just 1 of 3 for the emergency pause. 48 hour delay on real changes, pause is instant but turning back on needs the full slow path. Moved control off my single wallet onto this setup. 46 tests passing total, including ones that specifically try to break each rule, old wallet can't sneak in, pause works, unpause needs the real process. Next real thing to settle is the PQV vs veTokens call for governance, since that's genuinely next now.
+  [LMB]
+
+--- WINDOW  2026/07/21 17:57:37  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:57:39  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:57:45  [Telegram.exe] Telegram
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:57:51  [Telegram.exe] Telegram (14716)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:57:52  [Telegram.exe] Telegram (38906)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:57:52  [Telegram.exe] Telegram (67984)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:57:53  [Telegram.exe] Telegram (83830)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 17:57:53  [Telegram.exe] ‎Дмитрий – (83830)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 17:57:54  [Telegram.exe] ‎Дмитрий – (119059)
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl]v
+  [LMB]
+  [LMB]
+  [Bk][Bk],
+
+--- WINDOW  2026/07/21 17:58:04  [Telegram.exe] ‎Дмитрий – (119061)
+----------------------------------------------------------------------------
+  [<-][<-][<-][<-][<-][<-][<-][<-][<-][<-]qyuc[Bk][Bk][Bk]uick [->][Bk]u[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/21 17:58:23  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  no need ot push to frontend or git right/[ENTER]
+  i'm actually confused[ENTER]
+
+--- WINDOW  2026/07/21 18:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
