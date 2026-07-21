@@ -1,0 +1,341 @@
+﻿  [LMB]
+
+--- WINDOW  2026/07/21 22:19:21  [msedge.exe] Mercor | Take Interview and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:19:21  [msedge.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:19:24  [msedge.exe] Mercor | Take Interview and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 22:19:24  [msedge.exe] Alignerr | Powered by Labelbox and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 22:19:39  [msedge.exe] Feed | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 22:19:57  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 22:20:01  [msedge.exe] Feed | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:20:01  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 22:23:16  [msedge.exe] (1) LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:23:16  [msedge.exe] Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  1. Identity & Access Management (IAM)Tenant-Scoped Authentication: Secure login flows where users belong to a specific tenant or organization.Role-Based Access Control (RBAC): Granular permissions so admins can restrict what users (e.g., Viewer vs. Editor vs. Admin) can do within their specific tenant environment.Single Sign-On (SSO): Integration with enterprise identity providers (like Okta, Google, or Microsoft Entra) via SAML or OIDC, which is crucial for B2B compliance.Multi-Factor Authentication (MFA): Enforced account security through authenticator apps or email.2. Data Isolation & SecurityTenant Scoping: Automatic filtering of database queries using a deterministic tenant_id so tenants can only see their own records (Shared Database/Shared Schema).Hard Isolation Options: For strict enterprise clients, the ability to provision separate schemas or dedicated databases for specific tenants.Tenant-Level Encryption: Support for encrypting sensitive data at rest using isolated encryption keys for different tenants.3. Subscription & Billing ManagementUsage-Based Metering: Tracking specific metrics (e.g., API calls, storage used, seats assigned) to automate billing.Plan Tiers: Support for tiered feature gating (e.g., Basic vs. Pro vs. Enterprise) so certain features are only unlocked based on a tenant's subscription.Self-Serve Portals: Embedded billing widgets (often powered by tools like Stripe Billing) where tenants can manage invoices, upgrade/downgrade plans, and update payment methods.4. Customization & IntegrationWhite-Labeling: Allowing tenants to map their own custom domains, upload their logos, and adjust the color scheme of the application interface.Webhooks & APIs: Mechanisms for tenants to send and receive data automatically from their own internal tools (e.g., Salesforce, Slack, Hubspot).5. Administration & MonitoringSuper Admin Dashboard: A central panel for the SaaS provider to oversee all tenant sign-ups, track overall platform health, and manage billing.Audit Logs: Immutable tracking of user actions (who changed what, and when) on a per-tenant basis, which is necessary for enterprise security compliance.Tenant Provisioning: Automated creation of new tenant workspaces or environments when a new customer signs up.
+  [LMB]
+
+--- WINDOW  2026/07/21 22:26:07  [msedge.exe] Feed | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:26:09  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 22:26:12  [msedge.exe] Feed | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:26:13  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 22:27:00  [msedge.exe] • Discord | @Phúc and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 22:41:52  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:41:56  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:41:56  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:41:56  [explorer.exe] Home - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 22:42:00  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 22:42:16  [msedge.exe] Feed | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:42:17  [msedge.exe] Radi Radichev | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  oh. i am sorry, sir.[ENTER]
+  [Ctrl]i was looking for full time remote job actively as software engineer.[ENTER]
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 22:49:47  [msedge.exe] Feed | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Look at the floating loss in MT5 and skywatch both . Same trade. Taken just now.
+  [LMB]
+
+--- WINDOW  2026/07/21 22:52:42  [msedge.exe] Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:52:42  [msedge.exe] (1) Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:52:43  [msedge.exe] (3) Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:52:43  [msedge.exe] Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 22:54:29  [msedge.exe] Feed | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:54:31  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 22:54:39  [msedge.exe] Feed | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 22:54:40  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  see in MT5 the value of current profit is showing 0.32 and Skywatch is showing 13USD
+  [LMB]
+
+--- WINDOW  2026/07/21 23:00:07  [msedge.exe] (3) Discord | @Phúc and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 23:00:10  [msedge.exe] • Discord | @Phoenix Whitmore and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  i am [Bk][Bk][Bk][Bk][Bk]n[Bk]i need to onboard usa and europe developers into some jobs.[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/21 23:05:31  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 23:07:07  [msedge.exe] (1) Discord | @Phoenix Whitmore and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:07:07  [msedge.exe] • Discord | @Phoenix Whitmore and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  okay. thank you.[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/21 23:07:36  [msedge.exe] • Discord | @Grace Morgan and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  hello, grace morgan. how are you/[ENTER]
+  i think that you are expert for marketing, right/[ENTER]
+  i would like to invite some europe or usa gu[Bk][Bk]developers into some patent usa company job for ai trading platform business.[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/21 23:10:52  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 23:11:47  [msedge.exe] Alignerr | Powered by Labelbox and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 23:11:53  [msedge.exe] paypal.com and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:11:55  [msedge.exe] Log in to your PayPal account and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 23:11:58  [msedge.exe] Alignerr | Powered by Labelbox and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:12:08  [msedge.exe] Log in to your PayPal account and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:12:11  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:12:12  [msedge.exe] Log in to your PayPal account and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+
+--- WINDOW  2026/07/21 23:12:18  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:12:19  [msedge.exe] Log in to your PayPal account and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:14:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:14:35  [msedge.exe] Log in to your PayPal account and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  2
+
+--- WINDOW  2026/07/21 23:15:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:15:49  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:15:49  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 23:15:49  [msedge.exe] Log in to your PayPal account and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:15:50  [msedge.exe] www.paypal.com and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:15:53  [msedge.exe] Alignerr | Powered by Labelbox - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:15:53  [explorer.exe] Home - File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:15:55  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:15:56  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:15:56  [chrome.exe] Tải Office 365 Full Crack Google Drive Mới Nhất Miễn Phí - Laptop Hải Nam - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:15:56  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:15:56  [chrome.exe] What's New - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:15:59  [chrome.exe] stake.bet - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:15:59  [chrome.exe] 404 Not Found - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:16:01  [chrome.exe] Figma - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:16:02  [explorer.exe] Home - File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:16:03  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:16:04  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:16:04  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:16:05  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:16:05  [ShellExperienceHost.exe] Windows Shell Experience Host
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:16:06  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:16:07  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:16:07  [StartMenuExperienceHost.exe] Start
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:16:42  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:16:42  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 23:16:44  [msedge.exe] Log in to your PayPal account and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:16:44  [msedge.exe] www.paypal.com and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 23:17:15  [msedge.exe] Alignerr | Powered by Labelbox and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 23:17:37  [msedge.exe] Log in to your PayPal account and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 23:17:44  [msedge.exe] PayPal and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]ama[Ctrl]a
+  [Clipboard]
+  ma
+  x
+  [Clipboard]
+  i don't lie my bed till now
+  [LMB]
+
+--- WINDOW  2026/07/21 23:18:15  [msedge.exe] (1) Bid Insights | Freelancer and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 23:18:22  [msedge.exe] Bid Insights | Freelancer and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 23:18:29  [msedge.exe] PayPal and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 23:18:33  [msedge.exe] Log in to your PayPal account and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 23:19:05  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:19:06  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 23:19:06  [msedge.exe] Log in to your PayPal account and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
