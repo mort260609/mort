@@ -1,0 +1,36 @@
+﻿  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Your Euroklimat cooling system is reverting from your target temperature because it is likely stuck in Auto Mode, executing a pre-programmed schedule, or triggering a built-in safety override. The 15-second delay typically indicates a software cycle or a sensor communication issue resetting the display.Quick Troubleshooting StepsDisable Auto Mode: Switch the operation mode from "Auto" to Manual Cool (indicated by a snowflake icon). Auto mode automatically adjusts settings based on factory targets.Clear Active Schedules: Check if a timer, eco mode, or daily schedule is overriding your manual 16°C input. Set the system to Permanent Hold if the option is available.Perform a Hard Reset: Power off the unit at the main breaker, wait 15 minutes to drain residual power from the inverter control board, and turn it back on.Inspect the Remote Control: If you are using a handheld remote with a built-in sensor ("Follow Me" feature), it may be overriding the system. Try changing your settings directly using the wall controller buttons.If the temperature continues to revert precisely every 15 seconds after a reset, the microprocessor is likely rejecting the 16°C input due to a faulty temperature thermistor or an unresponsive main control board.To isolate the issue further, could you check:Does the screen revert back to the ambient room temperature or to a different fixed factory temperature (like 20°C)?Are there any flashing lights, error codes, or beeping sounds when it changes?What is the exact model number of your Euroklimat unit or controller?
+  [LMB]
+  [Clipboard]
+  How to Unlock the KeypadTry these combination steps directly on your wall panel to remove the key symbol:The Arrow Hold: Press and hold both the Up and Down arrows simultaneously for 5 full seconds.The Dual-Button Override: Press and hold the SET button and the Method (or FN) button together for 3 to 5 seconds.The Mode/Power Reset: Press and hold the Method button and the Down arrow together for 5 seconds.You will know it worked when the key icon blinks and completely disappears.Once the key icon vanishes, the buttons will immediately unlock. You can then use the Up and Down arrows to adjust the target back to 16°C and press Method to clear out any remaining Sleep or ECO modes.If the key icon refuses to disappear, let me know:Did the screen flash or beep when you tried any of those button combinations?Is this controller installed in a hotel, office, or rented space where a central master thermostat might be enforcing a remote lock?
+  [Clipboard]
+  We aren't running your life Tran. Sleep when you want to.
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 03:13:32  [msedge.exe] Mercor | Settings and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 03:13:35  [msedge.exe] Untitled and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 03:13:36  [msedge.exe] Login | Mercor and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 03:13:39  [msedge.exe] Mercor | Find Remote Work Opportunities and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 03:13:43  [msedge.exe] work.mercor.com/interview/intr_1ead0414-d010-4ea4-8313-f0b79c2413f3?waitForAuth=1&returnPath=%2Fhome%3Ftab%3Dassessments&source=assessment and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 03:13:44  [msedge.exe] Mercor | Take Interview and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 03:14:49  [SearchHost.exe] Search
+----------------------------------------------------------------------------
