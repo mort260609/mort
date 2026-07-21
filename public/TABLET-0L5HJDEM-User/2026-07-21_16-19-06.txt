@@ -1,0 +1,364 @@
+﻿  [LMB]
+  [LMB]
+  [LMB]
+  yes.[ENTER]
+  [Ctrl]
+  [LMB]
+  i can work on your project as full time.[ENTER]
+  [Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/21 15:39:28  [msedge.exe] Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 15:39:29  [msedge.exe] (5) Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 15:39:29  [msedge.exe] Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 15:41:21  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 15:41:24  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 15:41:28  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/21 15:52:08  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 15:53:36  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  # Character Economy — Economic Model v0.2
+  
+  Scope: the numbers only. Asset design, faucets and sinks, pricing, production curves,
+  fee model, solvency. Architecture comes after these hold up.
+  
+  **Shape:** the system defines internal consumable assets required to upgrade and
+  maintain characters. Assets are produced only by player activity and traded on a
+  player-to-player market. Users earn by selling; the server takes a transaction fee.
+  Earnings are in-platform credit, withdrawable above a threshold with KYC.
+  
+  > Supersedes v0.1 (raked prize pool). The change is an improvement: in a prize pool
+  > the median participant is a net loser by construction. In a consumption market the
+  > money-side user receives an upgrade they wanted and the time-side user is paid for
+  > supplying it. Same net money flow, no manufactured losers, much better retention.
+  
+  ---
+  
+  ## 1. What actually makes this sustainable
+  
+  The failure mode of every "buy assets, sell them higher" economy is that asset demand
+  comes only from *new* participants. Then early holders are paid by later arrivals,
+  prices depend on continued growth, and the whole thing is a greater-fool structure
+  wearing a game costume. That is the thing to engineer against.
+  
+  Three rules prevent it:
+  
+  1. **Assets are consumed, not accumulated.** Every primary asset is burned on use.
+     A durable tradeable asset accumulates forever — supply only rises, so price either
+     collapses or detaches into pure speculation.
+  2. **Characters have recurring upkeep.** Every character burns assets per period just
+     to hold its level. This creates demand that is proportional to the *installed base*,
+     not to new signups. It is the single most important mechanism in this document —
+     without it, demand is growth-dependent and the economy is Ponzi-shaped.
+  3. **The server never sells assets into the market.** It only taxes transactions.
+     A server that mints and sells competes with its own users, caps the price ceiling,
+     and destroys the earning proposition it is advertising.
+  
+  Under those rules, aggregate solvency holds automatically: withdrawals ≤ deposits −
+  fees, because the only source of withdrawable credit is another user's purchase.
+  
+  ### The lesson worth internalizing
+  
+  Diablo 3's real-money auction house shipped in 2012 and was shut down in 2014. It
+  failed for exactly these reasons: items were durable so supply grew without bound,
+  the optimal strategy became trading rather than playing, and difficulty had been
+  balanced around auction-house access — so the market stopped being optional and
+  started being mandatory. Consumables, real sinks, and **keeping the market strictly
+  optional to progression** are the three corrections.
+  
+  ---
+  
+  ## 2. Asset classes
+  
+  | Asset | Type | Role | Produced by | Burned by |
+  |---|---|---|---|---|
+  | **Essence** | Consumable, high volume | The economy's wheat — upkeep and all minor upgrades | All active play | Upkeep, upgrades |
+  | **Core** | Consumable, scarce | Tier advancement only | High-skill contest results only | Tier-up |
+  | **Sigil** | Durable, supply-capped | Traits / cosmetics | Limited seasonal issuance | Never (resellable) |
+  
+  Sigils are the only durable class and the only speculative one. **Cap them at ≤20% of
+  market volume** and never make them functionally required. They exist to give the
+  market a collectible top end; they are not the economy.
+  
+  ---
+  
+  ## 3. Faucets — production
+  
+  **All assets originate from player activity. Nothing is minted to the server.**
+  
+  Weekly Essence production per character:
+  
+  ```
+  P = 100 × A × (1 + 0.02 × L)      A = activity ∈ [0,1], L = level
+  ```
+  
+  `A` is capped play — 10 sessions/week reaches A = 1.0, and more play adds nothing.
+  This is a gate, not a lever: it stops the game becoming a job and it collapses bot ROI
+  (§8).
+  
+  **Production requires active, skill-bearing play. There is no idle or passive
+  accrual.** That is deliberate on two axes: idle production is trivially farmable, and
+  passive yield on a purchased asset is precisely the fact pattern that turns a game
+  item into a security (§9).
+  
+  Cores drop only from contest performance at a rate of roughly 1 per 12 player-weeks
+  at median skill — scarce enough to carry a $5–15 price.
+  
+  ---
+  
+  ## 4. Sinks — consumption
+  
+  **Upkeep (recurring, the load-bearing sink):**
+  
+  ```
+  U = 20 + 2.5 × L      Essence per week, independent of activity
+  ```
+  
+  Upkeep scales with level; production scales with activity. That asymmetry is what
+  creates the two-sided market automatically:
+  
+  | Character | Production (A=1.0) | Upkeep | Break-even activity |
+  |---|---|---|---|
+  | L=1 | 102 | 22.5 | A = 0.22 |
+  | L=10 | 120 | 45 | A = 0.38 |
+  | L=20 | 140 | 70 | A = 0.50 |
+  | L=50 | 200 | 145 | A = 0.73 |
+  
+  A high-level, low-activity user is a **structural buyer**. A low-level, high-activity
+  user is a **structural seller**. Nobody is assigned a role; the curve sorts them.
+  Money-rich/time-poor pays time-rich/money-poor, and that transfer is the entire
+  earning engine. It is sustainable because it is a real exchange of value, not a
+  transfer of belief.
+  
+  **Secondary sinks:** upgrade costs (burned), tier-up Cores (burned), Sigil re-rolls.
+  
+  ---
+  
+  ## 5. Price target and earnings
+  
+  Target Essence price band: **$0.08 – $0.12**, defended by the governor in §6.
+  
+  At $0.10:
+  
+  | Player | Net Essence/wk | Weekly cash | Annual |
+  |---|---|---|---|
+  | L=10, A=1.0 (dedicated producer) | +75 | **+$7.50** | +$390 |
+  | L=20, A=1.0 | +70 | +$7.00 | +$364 |
+  | L=20, A=0.5 | 0 | $0 | $0 |
+  | L=50, A=0.1 (whale) | −125 | **−$12.50** | −$650 |
+  
+  Plus upgrade and tier-up costs on top for anyone actively progressing.
+  
+  Two things to be honest about in the UI and the terms:
+  
+  - **A dedicated player earns roughly $7–8/week, not a wage.** Any messaging that
+    implies otherwise is both false and a regulatory problem. Publish the realistic
+    distribution, not the top percentile.
+  - **Earnings are not guaranteed and vary with market price.** Never display a
+    projected return, an APY, or a payback period on an upgrade purchase.
+  
+  ---
+  
+  ## 6. The governor — managing inflation
+  
+  Faucet/sink imbalance is what kills these economies. Run it as a slow, published,
+  algorithmic rule rather than discretionary intervention:
+  
+  - Measure a volume-weighted Essence price index weekly.
+  - Price above band → increase global production coefficient. Below band → decrease.
+  - **Hard limit of ±5% adjustment per week**, so the rule is predictable and cannot be
+    manipulated by a short squeeze.
+  - Publish the current coefficient and the rule itself. An economy whose supply policy
+    is secret and discretionary will be assumed to be rigged, and will occasionally be
+    right.
+  
+  Aim to run **slightly deflationary** at steady state. Mild scarcity keeps producer
+  income healthy; the failure that actually destroys these economies is oversupply
+  (mudflation), and it is much harder to reverse than undersupply.
+  
+  Sanity check at 10,000 actives, mean L=20, mean A=0.45:
+  production 630k/wk vs upkeep 700k/wk → −70k/wk before upgrade burn. Deflationary,
+  price rises, activity becomes more rewarding, `A` rises, supply follows. Self-correcting.
+  
+  ---
+  
+  ## 7. Fees and unit economics
+  
+  | Fee | Rate | Notes |
+  |---|---|---|
+  | Market transaction | **8%** on sale proceeds | The core revenue line |
+  | Listing fee | Small, flat, non-refundable | Suppresses spam listings and order-book manipulation |
+  | Withdrawal | 5% or $2, whichever greater | Covers processing; not a profit centre |
+  
+  **At 10,000 MAU** — ~2,000 net buyers averaging $8/wk = $16,000/wk market volume:
+  
+  | Line | Weekly | Annual |
+  |---|---|---|
+  | Market fees @ 8% | $1,280 | $66,600 |
+  | Direct cash sales (characters, cosmetics, convenience) | $3,460 | $180,000 |
+  | Premium subscription (5% @ $10/mo) | $1,150 | $60,000 |
+  | **Gross revenue** | **$5,890** | **$306,600** |
+  
+  **Market fees are ~22% of revenue, not the business.** This is the most important
+  number here and it should shape priorities: the marketplace is the retention and
+  earning engine, and direct sales are what pays the bills. Do not raise the fee to
+  chase revenue — fee increases suppress volume, compress producer earnings, and
+  degrade the exact loop that makes the direct sales worth buying.
+  
+  **Viability floor: ~2,000 active traders.** Below that, order books are thin, spreads
+  blow out, price discovery fails, and the earning promise stops being real.
+  
+  ---
+  
+  ## 8. Bots are the existential threat — and the defense is economic
+  
+  Automated farming mints supply for free, crushes the price, and destroys every honest
+  producer's income. Detection alone never wins. The defense has to be arithmetic:
+  
+  **Make the capital cost of a producing account exceed its bot-run lifetime yield.**
+  
+  - Reaching meaningful production (L=10) costs ≈ **$45** in upgrades.
+  - Max net yield at L=10, A=1.0 = 75 Essence/wk ≈ $7.50, less 5% withdrawal ≈ **$7.13/wk**.
+  - Payback period: **6.3 weeks.**
+  - **Therefore: median bot detection must occur inside 4 weeks.** At that number, bot
+    farming is reliably −EV and no amount of scale fixes it.
+  
+  Track that ratio as a live operational metric. If upgrade costs fall or yields rise,
+  the payback window shrinks and bot farming flips positive — that is a P0 economic
+  regression, not a balance tweak.
+  
+  Supporting measures: hard per-account weekly production cap (so scaling requires
+  linear capital, not linear CPU), production gated on skill-bearing play, KYC-unique
+  identity at payout, behavioural detection, and trade-graph analysis for wash trading
+  and collusive price setting.
+  
+  ---
+  
+  ## 9. Withdrawal gate
+  
+  - Minimum withdrawal **$50**, KYC at first withdrawal, 18+.
+  - **7-day hold** on newly earned credit.
+  - Purchased balance is never withdrawable — **only proceeds from selling assets you
+    produced can be cashed out.** The buy-in → cash-out laundering path must not exist.
+  - Per-account monthly ceiling; above it, manual review.
+  - AML monitoring on deposit-to-withdrawal ratio per account and per payment instrument.
+  - Tax reporting obligations trigger for earners above statutory thresholds — build the
+    reporting pipeline before launch, not after the first tax year.
+  
+  ---
+  
+  ## 10. Legal exposure
+  
+  Weaker than v0.1's prize-pool structure, but not zero.
+  
+  **Securities risk (Howey).** Selling an upgrade that produces a tradeable, cashable
+  asset resembles an investment contract. Three facts in this design cut against that
+  and must be preserved:
+  
+  - Profit derives from **the user's own active effort**, not the efforts of others —
+    this is the strongest defense, and it is exactly why §3 forbids passive accrual.
+  - Assets are **consumables with genuine in-game utility**, not instruments.
+  - **No yield is promised, projected, or displayed.** Ever.
+  
+  If any of those three erode — idle production ships, or marketing starts quoting
+  returns — the characterization changes. Treat them as compliance invariants with
+  tests, not as product preferences.
+  
+  **Money transmission / marketplace facilitation.** Operating a market where users
+  convert value to cash is a licensed activity in many jurisdictions. This is likely
+  your longest-lead-time item; start it early.
+  
+  **Also required:** geofencing, terms that clearly state assets are licensed game
+  content with no guaranteed value, and no secondary market outside your own venue.
+  
+  **Get payments and gaming counsel before the market engine is written.** I can design
+  the mechanics; I can't clear them.
+  
+  ---
+  
+  ## 11. Tuning levers, in order of impact
+  
+  1. **Upkeep coefficient (2.5/level)** — sets total structural demand. The strongest
+     single lever on producer income.
+  2. **Production coefficient (100 base)** — supply side; owned by the §6 governor.
+  3. **Target price band** — sets absolute earnings, and therefore the bot-payback math in §8.
+  4. **Market fee (8%)** — revenue vs. volume. Raising it is usually a mistake (§7).
+  5. **Activity cap (10 sessions)** — do not raise. It is the anti-grind and anti-bot gate.
+  6. **Sigil issuance** — the speculation valve. Keep ≤20% of volume.
+  
+  ## 12. Validate before writing the market engine
+  
+  - [ ] Counsel sign-off on money transmission + securities in launch jurisdictions — blocks everything
+  - [ ] Agent-based simulation over 52 weeks: does the price index stay in band under
+        ±40% population shocks, or does the governor oscillate?
+  - [ ] Bot payback ratio (§8) under best-case adversarial play — is it still > 4 weeks?
+  - [ ] What fraction of players are net buyers vs. net sellers at steady state?
+        Target roughly 20/15 with the rest self-sufficient; if buyers fall below ~12%,
+        producer income collapses and the earning proposition is dead.
+  - [ ] Order book depth at the 2,000-trader floor — model the spread, not just volume
+  - [ ] Confirm the market stays fully optional to progression (the Diablo 3 test):
+        can a non-trading player reach max level purely by playing?
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 15:57:24  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 16:02:45  [msedge.exe] Alignerr | Powered by Labelbox and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 16:02:50  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 16:19:05  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 16:19:05  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 16:19:06  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 16:19:06  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
