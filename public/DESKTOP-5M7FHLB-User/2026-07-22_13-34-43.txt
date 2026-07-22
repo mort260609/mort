@@ -1,0 +1,860 @@
+﻿  [Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:45:28  [chrome.exe] super-hpi-company | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:45:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  l
+
+--- WINDOW  2026/07/22 07:45:34  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:45:35  [LockApp.exe] Windows Default Lock Screen
+----------------------------------------------------------------------------
+
+================================================================================
+ SESSION START  2026/07/22 12:29:33
+================================================================================
+
+
+--- WINDOW  2026/07/22 12:29:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:30:48  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 12:30:53  [chrome.exe] Restore pages?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 12:30:56  [chrome.exe] Factory Inventory Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 12:30:57  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 12:31:01  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:31:04  [chrome.exe] Restore pages?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 12:31:05  [chrome.exe] Freelancer dashboard - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:31:07  [chrome.exe] www.fiverr.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 12:31:12  [chrome.exe] Freelancer dashboard - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:31:13  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:31:17  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 12:35:07  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]ac
+  [Clipboard]
+  Recommended Architecture
+  
+  1. Super Admin Panel
+  
+  
+  
+  Ye sirf aap ke paas hoga.
+  
+  
+  
+  Isme features hon:
+  
+  
+  
+  ✅ Factory Create
+  
+  ✅ Factory Edit
+  
+  ✅ Factory Suspend / Activate
+  
+  ✅ Subscription Management
+  
+  ✅ Plan Management
+  
+  ✅ User Limits
+  
+  ✅ Storage Limits (future)
+  
+  ✅ Payment Status
+  
+  ✅ Login as Factory (optional)
+  
+  ✅ View Factory Statistics
+  
+  
+  
+  
+  [Bk]
+  [LMB]
+
+--- WINDOW  2026/07/22 12:35:21  [chrome.exe] chatgpt.com - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:35:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:35:25  [ShellHost.exe] Quick settings
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 12:35:28  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:35:49  [chrome.exe] Factory Inventory Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  # AI Prompt – Implement Super Admin Panel in Existing Factory Inventory Management System
+  
+  Implement a **Super Admin Panel** inside the existing Factory Inventory Management System.
+  
+  ## Important Instructions
+  
+  * **Do NOT redesign or rebuild the existing application.**
+  * **Follow the existing UI/UX design, layout, color scheme, components, spacing, typography, and coding patterns.**
+  * Maintain complete consistency with the current project.
+  * Reuse existing components wherever possible.
+  * Do not introduce a new design system.
+  * Do not modify existing business logic unless required for multi-tenant support.
+  
+  ---
+  
+  # Objective
+  
+  Convert the existing application into a **Multi-Tenant SaaS Platform** where one Super Admin can manage multiple factories, and each factory has its own isolated data.
+  
+  ---
+  
+  # Super Admin Panel
+  
+  Create a dedicated Super Admin Dashboard with the following modules.
+  
+  ---
+  
+  ## 1. Factory Management
+  
+  Allow the Super Admin to:
+  
+  * Create Factory
+  * Edit Factory
+  * Delete Factory (Soft Delete)
+  * Activate Factory
+  * Suspend Factory
+  * Search Factories
+  * Filter Factories
+  * View Factory Details
+  
+  Factory Information:
+  
+  * Factory Name
+  * Company Name
+  * Owner Name
+  * Email
+  * Phone Number
+  * Address
+  * Status (Active / Suspended)
+  * Created Date
+  
+  ---
+  
+  ## 2. Factory Account Creation
+  
+  When creating a factory:
+  
+  Automatically create:
+  
+  * Factory Admin Account
+  * Login Credentials
+  * Secure Password
+  * Factory ID (tenantId)
+  
+  Store all required information in MongoDB.
+  
+  ---
+  
+  ## 3. Subscription Management
+  
+  Create a Subscription module.
+  
+  Fields:
+  
+  * Plan Name
+  * Start Date
+  * Expiry Date
+  * Status
+  * Active / Expired
+  * Renewal Date
+  
+  Allow:
+  
+  * Update Subscription
+  * Renew Subscription
+  * Suspend Subscription
+  
+  ---
+  
+  ## 4. Plan Management
+  
+  Allow the Super Admin to create and manage plans.
+  
+  Example:
+  
+  * Basic
+  * Standard
+  * Premium
+  * Enterprise
+  
+  Each plan should support configurable limits.
+  
+  ---
+  
+  ## 5. User Limits
+  
+  Configure limits per factory.
+  
+  Examples:
+  
+  * Maximum Products
+  * Maximum Shops
+  * Maximum Users
+  * Maximum Monthly Invoices
+  * Maximum Storage
+  * Maximum Branches (Future)
+  
+  The system should validate these limits before allowing new records.
+  
+  ---
+  
+  ## 6. Storage Limits (Future Ready)
+  
+  Prepare the database structure for future storage management.
+  
+  Examples:
+  
+  * Used Storage
+  * Total Storage
+  * Remaining Storage
+  
+  No UI implementation is required unless needed by the existing design.
+  
+  ---
+  
+  ## 7. Payment Status
+  
+  Maintain payment information.
+  
+  Fields:
+  
+  * Paid
+  * Pending
+  * Overdue
+  * Last Payment Date
+  * Next Due Date
+  
+  ---
+  
+  ## 8. Login as Factory (Impersonation)
+  
+  Allow the Super Admin to securely log in as a Factory Admin for support and troubleshooting.
+  
+  Requirements:
+  
+  * Secure implementation
+  * Audit log entry
+  * Easy return to Super Admin session
+  
+  ---
+  
+  ## 9. Factory Statistics
+  
+  Display analytics cards.
+  
+  Examples:
+  
+  * Total Factories
+  * Active Factories
+  * Suspended Factories
+  * Expired Subscriptions
+  * Total Products
+  * Total Shops
+  * Total Invoices
+  
+  Charts should follow the existing dashboard design.
+  
+  ---
+  
+  # Multi-Tenant Architecture
+  
+  Implement proper multi-tenant architecture.
+  
+  Each factory must have:
+  
+  * Isolated Products
+  * Isolated Shops
+  * Isolated Stock
+  * Isolated Purchases
+  * Isolated Dispatches
+  * Isolated Invoices
+  * Isolated Reports
+  
+  Use a **tenantId (Factory ID)** in every business collection to ensure complete data isolation.
+  
+  Every API must automatically filter data using the authenticated user's **tenantId**.
+  
+  Factories must never be able to access each other's data.
+  
+  ---
+  
+  # Database
+  
+  Add a new **Factories** collection.
+  
+  Create proper Mongoose models.
+  
+  Use:
+  
+  * Validation
+  * Indexes
+  * References
+  * Timestamps
+  
+  Do not break the existing database structure.
+  
+  ---
+  
+  # APIs
+  
+  Create production-ready REST APIs for:
+  
+  * Factory CRUD
+  * Subscription Management
+  * Plan Management
+  * Payment Status
+  * Factory Statistics
+  * Factory Activation / Suspension
+  * Login as Factory
+  
+  All APIs must include:
+  
+  * Validation
+  * Error Handling
+  * Authentication
+  * Authorization
+  
+  ---
+  
+  # Authentication & Authorization
+  
+  Implement Role-Based Access Control (RBAC).
+  
+  Roles:
+  
+  * Super Admin
+  * Factory Admin
+  
+  The Super Admin can access all factories.
+  
+  Factory Admin can access only their own factory's data.
+  
+  ---
+  
+  # UI Requirements
+  
+  Reuse the existing:
+  
+  * Sidebar
+  * Header
+  * Cards
+  * Tables
+  * Forms
+  * Buttons
+  * Inputs
+  * Modals
+  * Pagination
+  * Search
+  * Filters
+  
+  Do not create a new UI.
+  
+  Everything must seamlessly match the existing project.
+  
+  ---
+  
+  # Code Quality
+  
+  * Follow the existing project architecture.
+  * Reuse existing components.
+  * Reuse existing API patterns.
+  * Reuse existing utility functions.
+  * Reuse existing state management.
+  * Keep the code modular and scalable.
+  * Maintain clean folder structure.
+  * Write production-ready code.
+  
+  ---
+  
+  # Important
+  
+  * Do **NOT** use mock data.
+  * Do **NOT** hardcode any values.
+  * Every feature must use real MongoDB data through REST APIs.
+  * Preserve all existing functionality.
+  * The new Super Admin module should integrate smoothly into the current project without affecting existing features or design.
+  
+  [LMB]
+
+--- WINDOW  2026/07/22 12:37:02  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 12:37:04  [chrome.exe] Restore pages?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 12:37:05  [chrome.exe] Expert Car Batteries Replaceme | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:37:07  [chrome.exe] Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:37:10  [chrome.exe] Expert Car Batteries Replaceme | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 12:37:29  [chrome.exe] Build | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 12:38:14  [chrome.exe] Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:38:15  [chrome.exe] super-hpi-company | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:38:15  [chrome.exe] Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:38:15  [chrome.exe] super-hpi-company | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/22 12:50:31  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:50:32  [WindowsTerminal.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:50:34  [chrome.exe] super-hpi-company | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:50:39  [WindowsTerminal.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:50:43  [chrome.exe] super-hpi-company | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:58:59  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 12:59:00  [chrome.exe] Factory Inventory Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 12:59:05  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  mj[Bk][Bk][Bk][Bk]mujhy btao main fivver par new seller ho or main apnay account par click [Bk]s or impressions kessage laa skta hoo[ENTER]
+
+--- WINDOW  2026/07/22 13:00:11  [chrome.exe] Fiverr par clicks aur impressions - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:03:25  [chrome.exe] super-hpi-company.vercel.app - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:03:28  [chrome.exe] Super Hpi Inventory Management Software - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:04:17  [chrome.exe] super-hpi-company | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:05:44  [chrome.exe] Super Hpi Inventory Management Software - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:05:48  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  mong
+  [LMB]
+
+--- WINDOW  2026/07/22 13:05:58  [chrome.exe] mongodb atlas - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:06:05  [chrome.exe] Atlas Database | MongoDB - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:06:11  [chrome.exe] Sign Up for MongoDB Atlas, Explore a Free Account | MongoDB - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:06:16  [chrome.exe] Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:06:17  [chrome.exe] Log in | MongoDB - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:06:31  [chrome.exe] MongoDB Cloud - Sign In - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:06:40  [chrome.exe] Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:06:41  [chrome.exe] cloud.mongodb.com/v2/6a54d43826e1880058ce9eed#/overview - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:06:42  [chrome.exe] Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:06:44  [chrome.exe] Project Overview | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:06:57  [chrome.exe] Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:06:59  [chrome.exe] Organizations | MongoDB Cloud Services - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:07:06  [chrome.exe] All Projects | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:07:09  [chrome.exe] Create Project | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  factory
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:07:25  [chrome.exe] cloud.mongodb.com/v2/6a6122f77ef166b6c6588819 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:07:28  [chrome.exe] Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:07:35  [chrome.exe] Project Overview | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:07:41  [chrome.exe] Databases | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:07:56  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:07:56  [chrome.exe] super-hpi-company | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  super admin credentials provide kro ot [Bk][Bk]r a[Bk]main chah[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]mujhay btao environment variables kn kn sy add ho ghy
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:08:51  [chrome.exe] Databases | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:08:51  [chrome.exe] Deploy your cluster | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:08:56  [chrome.exe] Project Overview | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]av[Ctrl]a[Bk]factory
+  [LMB]
+  [Ctrl]a
+  [Clipboard]
+  factory
+  c
+  [LMB]
+  [Ctrl]av
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  mongodb+srv://factory:<db_password>@cluster0.arhgkbm.mongodb.net/?appName=Cluster0&compressors=zlib
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:09:37  [chrome.exe] Databases | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:09:40  [chrome.exe] Clusters | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:09:40  [chrome.exe] Project Access Manager | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:09:41  [chrome.exe] Users | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:09:45  [chrome.exe] Security | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:09:46  [chrome.exe] Database Access | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:09:49  [chrome.exe] Security | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:09:49  [chrome.exe] Network Access | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  0.0.0.0
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:10:19  [chrome.exe] Super Hpi Inventory Management Software - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:10:22  [chrome.exe] vercel.com - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:10:25  [chrome.exe] super-hpi-company – Deployments – Vercel - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:10:26  [chrome.exe] Super Hpi Inventory Management Software - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:11:22  [chrome.exe] Network Access | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:11:23  [chrome.exe] super-hpi-company – Deployments – Vercel - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:11:26  [chrome.exe] Network Access | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:11:29  [chrome.exe] Databases | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:11:31  [chrome.exe] Clusters | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:11:36  [chrome.exe] Freelancer dashboard - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:11:37  [chrome.exe] super-hpi-company | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]av[<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  factory
+  c
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]a[Bk]sdfsddfvsdfvdgfgsdfgdf
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  superadmin
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  superadmin123
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:13:56  [chrome.exe] Save password for ais-dev-urnljxbkrkp2gspaerusb4-32679927358.asia-southeast1.run.app?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:13:56  [chrome.exe] super-hpi-company | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  admin [Tab]admin123
+  [LMB]
+
+--- WINDOW  2026/07/22 13:14:45  [chrome.exe] Save password for ais-dev-urnljxbkrkp2gspaerusb4-32679927358.asia-southeast1.run.app?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:14:46  [chrome.exe] super-hpi-company | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  superadmin
+  ccccc
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  superadmin123
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  super_admin
+  c
+  [LMB]
+
+--- WINDOW  2026/07/22 13:16:00  [chrome.exe] Save password for ais-dev-urnljxbkrkp2gspaerusb4-32679927358.asia-southeast1.run.app?
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:16:01  [chrome.exe] super-hpi-company | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:16:20  [chrome.exe] Clusters | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:16:23  [chrome.exe] Metrics | Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:17:27  [chrome.exe] Cloud: MongoDB Cloud - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:17:31  [chrome.exe] super-hpi-company | Google AI Studio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  l
+
+--- WINDOW  2026/07/22 13:18:47  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:18:48  [LockApp.exe] Windows Default Lock Screen
+----------------------------------------------------------------------------
