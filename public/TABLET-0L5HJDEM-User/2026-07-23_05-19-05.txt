@@ -1,0 +1,97 @@
+﻿  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 04:37:58  [msedge.exe] Feed | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 04:38:00  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 04:38:01  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 04:38:02  [msedge.exe] Feed | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 04:38:21  [msedge.exe] Turn on caret browsing?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 04:39:31  [msedge.exe] Feed | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 05:05:39  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 05:05:41  [msedge.exe] Feed | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 05:05:42  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  Fixed in WebSocketManager.kt — brace/paren balance verified.
+  
+  
+  
+  What was wrong
+  
+  isSuspendedAccount has exactly three outcomes (BrokerApiClient.kt:50-71):
+  
+  
+  
+  Result	Meaning
+  
+  "success"	broker and server found, neither suspended
+  
+  "Broker Server not found"	broker or server missing/suspended — a real failure
+  
+  "Internet disconnected"	the broker list fetch failed
+  
+  The when matched only the first two. "Internet disconnected" fell through to nothing: no dial, no error, no state change — the login button sat on "Logging in…" indefinitely.
+  
+  
+  
+  The important detail is that third case doesn't mean the account is bad. It means an unrelated HTTP call to the broker directory failed. The trading socket may be perfectly reachable, and even if it isn't, dialling produces a real error and feeds the reconnect backoff. Refusing to dial was the wrong response to it.
+  
+  
+  
+  The fix
+  
+  Inverted the structure: hard-fail only on "Broker Server not found", otherwise proceed to dial, logging and journalling when the check was inconclusive so it's visible rather than silent. This matches what the Swift port already does.
+  
+  
+  
+  This one predates my migration — the original code had the same if / else if shape with no else, so the hang has always been there. The migration didn't cause it; converting to when just made it easier to spot.
+  
+  
+  
+  Two items still open, both of which I'd suggest doing before your next test round since they're user-visible:
+  
+  
+  
+  Kotlin quote colours — GlobalState.updateQuote in Kotlin is still the plain quotes[symbol] = quote, missing the bid_last/ask_last carry-forward I just added to Swift. Kotlin will show every tick in the up-tick colour, exactly like the Swift bug you just reported.
+  
+  List ordering — .values.toList() / Array(dict.values) gives unspecified order in both projects, so positions/orders/deals/mail lists can shuffle between renders.
+  
+  Want me to take those two next?
+  
+  
+  
+  
+
+--- WINDOW  2026/07/23 05:19:05  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 05:19:05  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 05:19:05  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 05:19:05  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
