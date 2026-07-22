@@ -1,0 +1,377 @@
+﻿
+--- WINDOW  2026/07/22 14:00:32  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  wi[Bk]hcih file should i copy from/[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 14:01:17  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 14:01:18  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiCoreAdmin.t.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 14:01:23  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiVesting.t.sol
+----------------------------------------------------------------------------
+  [Ctrl]ac
+  [Clipboard]
+  // SPDX-License-Identifier: MIT
+  pragma solidity ^0.8.20;
+  
+  import {Test} from "forge-std/Test.sol";
+  import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+  import {NexaiGovToken} from "../src/governance/NexaiGovToken.sol";
+  import {ISablierLockup, ISablierComptroller, Lockup, LockupLinear} from "../src/interfaces/ISablierLockup.sol";
+  
+  /**
+   * @title NexaiVestingTest
+   * @dev Fork tests for the Team/Ecosystem vesting streams created via
+   * script/DeployVesting.s.sol, against Sablier's real, deployed v4.0 SablierLockup
+   * singleton on Base Sepolia - same "genuine contract, not a mock" reasoning as
+   * NexaiCoreAdmin.t.sol's Safe fork tests, since the whole point of verifying the
+   * address/interface/cancel semantics up front was to test against real behavior, not an
+   * assumed one. Requires BASE_SEPOLIA_RPC_URL in `.env` - see README "Governance Token".
+   *
+   * `sender` below stands in for AdminSafe (DeployVesting.s.sol's real cancel-authority
+   * holder): cancel-authorization is a plain address check on Sablier's side, independent
+   * of how that address produces signatures, so a plain address keeps these tests focused
+   * on vesting/cancel mechanics - the Safe multisig execution flow itself is already
+   * covered by NexaiCoreAdmin.t.sol and isn't re-tested here.
+   */
+  contract NexaiVestingTest is Test {
+      address constant SABLIER_LOCKUP = 0xA65A1ecEf02C2B9BDc604951c6A6D02335D4532e;
+  
+      NexaiGovToken public govToken;
+  
+      address public sender = address(this);
+      address public recipient = address(0xB0B);
+  
+      uint40 constant CLIFF = 180 days;
+      uint40 constant DURATION = 730 days;
+      uint128 constant AMOUNT = 4_000_000 * 10 ** 18;
+  
+      function setUp() public {
+          vm.createSelectFork(vm.envString("BASE_SEPOLIA_RPC_URL"));
+  
+          govToken = new NexaiGovToken(); // mints full supply to address(this), which also
+              // holds ADMIN_ROLE - mirrors DeployVesting.s.sol's deployer.
+  
+          govToken.setCapExempt(SABLIER_LOCKUP, true);
+          govToken.approve(SABLIER_LOCKUP, type(uint256).max);
+      }
+  
+      function _createStream(IERC20 token, address to, uint128 amount, uint40 cliff, uint40 duration, bool cancelable)
+          internal
+          returns (uint256 streamId)
+      {
+          streamId = ISablierLockup(SABLIER_LOCKUP).createWithDurationsLL(
+              Lockup.CreateWithDurations({
+                  sender: sender,
+                  recipient: to,
+                  depositAmount: amount,
+                  token: token,
+                  cancelable: cancelable,
+                  transferable: false,
+                  shape: "Test Vesting"
+              }),
+              LockupLinear.UnlockAmounts({start: 0, cliff: 0}),
+              1,
+              LockupLinear.Durations({cliff: cliff, total: duration})
+          );
+      }
+  
+      // ------------------------------------------------------------------
+      // 1. Streams are created with the right sender/recipient/amount/cancelability
+      // ------------------------------------------------------------------
+      function test_StreamCreated_WithCorrectParams() public {
+          uint256 streamId = _createStream(govToken, recipient, AMOUNT, CLIFF, DURATION, true);
+  
+          assertEq(ISablierLockup(SABLIER_LOCKUP).getSender(streamId), sender, "wrong sender");
+          assertEq(ISablierLockup(SABLIER_LOCKUP).getRecipient(streamId), recipient, "wrong recipient");
+          assertEq(ISablierLockup(SABLIER_LOCKUP).getDepositedAmount(streamId), AMOUNT, "wrong deposit");
+          assertTrue(ISablierLockup(SABLIER_LOCKUP).isCancelable(streamId), "should be cancelable");
+      }
+  
+      // ------------------------------------------------------------------
+      // 2. Team-shaped stream (with cliff): nothing vests before the cliff
+      // ------------------------------------------------------------------
+      function test_TeamStream_NothingVestsBeforeCliff() public {
+          uint256 streamId = _createStream(govToken, recipient, AMOUNT, CLIFF, DURATION, true);
+  
+          assertEq(ISablierLockup(SABLIER_LOCKUP).streamedAmountOf(streamId), 0, "should be 0 at creation");
+  
+          vm.warp(block.timestamp + CLIFF - 1);
+          assertEq(ISablierLockup(SABLIER_LOCKUP).streamedAmountOf(streamId), 0, "should still be 0 right before cliff");
+      }
+  
+      // ------------------------------------------------------------------
+      // 3. Team-shaped stream: linear from cliff to end, 100% at end
+      // ------------------------------------------------------------------
+      function test_TeamStream_LinearAfterCliff_FullyVestedAtEnd() public {
+          uint256 streamId = _createStream(govToken, recipient, AMOUNT, CLIFF, DURATION, true);
+  
+          uint256 streamableDuration = DURATION - CLIFF;
+          vm.warp(block.timestamp + CLIFF + streamableDuration / 2);
+          assertEq(
+              ISablierLockup(SABLIER_LOCKUP).streamedAmountOf(streamId),
+              AMOUNT / 2,
+              "should be exactly half-vested halfway between cliff and end"
+          );
+  
+          vm.warp(block.timestamp + streamableDuration); // now past the end timestamp
+          assertEq(ISablierLockup(SABLIER_LOCKUP).streamedAmountOf(streamId), AMOUNT, "should be fully vested at end");
+      }
+  
+      // ------------------------------------------------------------------
+      // 4. Ecosystem-shaped stream (no cliff): vesting starts immediately
+      // ------------------------------------------------------------------
+      function test_EcosystemStream_NoCliff_VestsFromStart() public {
+          uint256 streamId = _createStream(govToken, recipient, AMOUNT, 0, DURATION, true);
+  
+          vm.warp(block.timestamp + DURATION / 4);
+          assertEq(
+              ISablierLockup(SABLIER_LOCKUP).streamedAmountOf(streamId),
+              AMOUNT / 4,
+              "should already be a quarter-vested with no cliff gating it"
+          );
+      }
+  
+      // ------------------------------------------------------------------
+      // 5. Cancellation: vested-but-unwithdrawn stays claimable by recipient, unvested
+      //    is refunded to sender - the forfeiture-on-departure mechanism
+      // ------------------------------------------------------------------
+      function test_Cancel_RefundsUnvestedToSender_LeavesVestedClaimableByRecipient() public {
+          uint256 streamId = _createStream(govToken, recipient, AMOUNT, CLIFF, DURATION, true);
+  
+          uint256 streamableDuration = DURATION - CLIFF;
+          vm.warp(block.timestamp + CLIFF + streamableDuration / 4); // a quarter through vesting
+  
+          uint128 vestedAtCancel = ISablierLockup(SABLIER_LOCKUP).streamedAmountOf(streamId);
+          assertEq(vestedAtCancel, AMOUNT / 4, "sanity check on vested amount before cancel");
+  
+          uint256 senderBalanceBefore = govToken.balanceOf(sender);
+  
+          uint128 refunded = ISablierLockup(SABLIER_LOCKUP).cancel(streamId);
+  
+          assertEq(refunded, AMOUNT - vestedAtCancel, "refund should be exactly the unvested remainder");
+          assertEq(
+              govToken.balanceOf(sender), senderBalanceBefore + refunded, "sender should receive the refund immediately"
+          );
+          assertTrue(ISablierLockup(SABLIER_LOCKUP).wasCanceled(streamId), "stream should be marked canceled");
+          assertFalse(
+              ISablierLockup(SABLIER_LOCKUP).isCancelable(streamId), "canceled stream shouldn't be cancelable again"
+          );
+  
+          // The recipient can still claim what had already vested before the cancellation.
+          // withdraw/withdrawMax charge a comptroller fee in ETH (verified against
+          // SablierLockup.sol's source: create/cancel don't, withdraw does) - queried live
+          // against the fork rather than assumed to be zero on testnet.
+          ISablierComptroller comptroller = ISablierLockup(SABLIER_LOCKUP).comptroller();
+          uint256 minFee = comptroller.calculateMinFeeWeiFor(ISablierComptroller.Protocol.Lockup, sender);
+          vm.deal(recipient, minFee);
+  
+          vm.prank(recipient);
+          uint128 withdrawn = ISablierLockup(SABLIER_LOCKUP).withdrawMax{value: minFee}(streamId, recipient);
+  
+          assertEq(withdrawn, vestedAtCancel, "recipient should be able to withdraw exactly what had vested");
+          assertEq(govToken.balanceOf(recipient), vestedAtCancel, "recipient should receive their vested tokens");
+      }
+  
+      // ------------------------------------------------------------------
+      // 6. Only the stream's sender can cancel - not the recipient, not a stranger
+      // ------------------------------------------------------------------
+      function test_OnlySender_CanCancel() public {
+          uint256 streamId = _createStream(govToken, recipient, AMOUNT, CLIFF, DURATION, true);
+  
+          vm.prank(recipient);
+          vm.expectRevert();
+          ISablierLockup(SABLIER_LOCKUP).cancel(streamId);
+  
+          address stranger = address(0xBAD);
+          vm.prank(stranger);
+          vm.expectRevert();
+          ISablierLockup(SABLIER_LOCKUP).cancel(streamId);
+      }
+  
+      // ------------------------------------------------------------------
+      // 7. A non-cancelable stream can't be canceled even by its sender - proves
+      //    cancelability is opt-in per stream, not implicit
+      // ------------------------------------------------------------------
+      function test_NonCancelableStream_CannotBeCanceled() public {
+          uint256 streamId = _createStream(govToken, recipient, AMOUNT, CLIFF, DURATION, false);
+  
+          vm.expectRevert();
+          ISablierLockup(SABLIER_LOCKUP).cancel(streamId);
+      }
+  
+      // ------------------------------------------------------------------
+      // 8. The 5% max-wallet cap would block funding Sablier without the exemption -
+      //    proves the exemption in DeployVesting.s.sol is actually load-bearing
+      // ------------------------------------------------------------------
+      function test_CapExemption_IsRequiredBeforeFundingStreams() public {
+          NexaiGovToken freshToken = new NexaiGovToken();
+          freshToken.approve(SABLIER_LOCKUP, type(uint256).max);
+          // Deliberately NOT exempting SABLIER_LOCKUP on freshToken yet.
+  
+          vm.expectRevert();
+          _createStream(freshToken, recipient, AMOUNT, CLIFF, DURATION, true); // 4M > 5% of 100M supply
+  
+          freshToken.setCapExempt(SABLIER_LOCKUP, true);
+  
+          // Same call now succeeds once exempted.
+          uint256 streamId = _createStream(freshToken, recipient, AMOUNT, CLIFF, DURATION, true);
+          assertEq(ISablierLockup(SABLIER_LOCKUP).getDepositedAmount(streamId), AMOUNT);
+      }
+  }
+  
+  [LMB]
+
+--- WINDOW  2026/07/22 14:01:27  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Found the bug — it's in the test, not NexaiGovToken. test_CapExemption_IsRequiredBeforeFundingStreams's comment claims AMOUNT (4,000,000) exceeds 5% of 100M supply, but 5% of 100M is 5,000,000 — 4M is actually under the cap, so the transfer legitimately succeeds without needing an exemption, and the cap logic is working correctly. Fix: introduce a separate constant (e.g. OVER_CAP_AMOUNT = 6_000_000 * 10 ** 18) used only in this test, genuinely exceeding the 5M cap, instead of reusing the shared AMOUNT constant. Don't change AMOUNT itself, since it's used elsewhere to represent the real allocation size. Re-run the full suite after
+  c
+  [LMB]
+
+--- WINDOW  2026/07/22 14:02:26  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiVesting.t.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 14:02:27  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 14:02:31  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  so it's only the test file/[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 14:03:31  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  Fixed — OVER_CAP_AMOUNT (6M, genuinely above the 5M/5% cap) now drives both calls in that test, while AMOUNT (4M) stays untouched everywhere else it's used to represent the real allocation size.
+  
+  I still can't actually run the suite — forge isn't installed on this machine (same limitation as earlier in this session). You'll need to run forge test --match-path test/NexaiVesting.t.sol yourself to confirm all 8 tests pass, including this fixed one.
+  [Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/07/22 14:03:48  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][ENTER]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  source .env
+  forge test --match-path test/NexaiVesting.t.sol -vvv
+  [LMB]
+
+--- WINDOW  2026/07/22 14:04:13  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ source .env
+  forge test --match-path test/NexaiVesting.t.sol -vvv
+  [⠘] Compiling...
+  [⠑] Compiling 1 files with Solc 0.8.35
+  [⠃] Solc 0.8.35 finished in 2.85s
+  Compiler run successful with warnings:
+  Warning (2018): Function state mutability can be restricted to pure
+    --> src/governance/NexaiGovToken.sol:52:5:
+     |
+  52 |     function maxWallet() public view returns (uint256) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+  
+  
+  Ran 8 tests for test/NexaiVesting.t.sol:NexaiVestingTest
+  [PASS] test_Cancel_RefundsUnvestedToSender_LeavesVestedClaimableByRecipient() (gas: 414821)
+  [PASS] test_CapExemption_IsRequiredBeforeFundingStreams() (gas: 2556298)
+  [PASS] test_EcosystemStream_NoCliff_VestsFromStart() (gas: 265714)
+  [PASS] test_NonCancelableStream_CannotBeCanceled() (gas: 284976)
+  [PASS] test_OnlySender_CanCancel() (gas: 283839)
+  [PASS] test_StreamCreated_WithCorrectParams() (gas: 292127)
+  [PASS] test_TeamStream_LinearAfterCliff_FullyVestedAtEnd() (gas: 294205)
+  [PASS] test_TeamStream_NothingVestsBeforeCliff() (gas: 291467)
+  Suite result: ok. 8 passed; 0 failed; 0 skipped; finished in 14.26s (32.14s CPU time)
+  
+  Ran 1 test suite in 14.29s (14.26s CPU time): 8 tests passed, 0 failed, 0 skipped (8 total tests)
+  [LMB]
+
+--- WINDOW  2026/07/22 14:04:53  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 14:05:01  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 14:05:19  [claude.exe] Claude
+----------------------------------------------------------------------------
+  okay[ENTER]
+  will commit in fe [Bk]w hous[Bk]rs time and update ditry[ENTER]
+  you take some tme off[ENTER]
+  you tried already preciate you[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 14:07:09  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 14:07:11  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 14:07:11  [StartMenuExperienceHost.exe] Start
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 14:07:15  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 14:07:22  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 14:07:23  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiVesting.t.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 14:07:40  [Antigravity IDE.exe] NEXAI - Antigravity IDE - ISablierLockup.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 14:07:44  [Antigravity IDE.exe] NEXAI - Antigravity IDE - ISafe.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 14:35:12  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 14:35:12  [StartMenuExperienceHost.exe] Start
+----------------------------------------------------------------------------
+  [LMB]
+
+================================================================================
+ SESSION START  2026/07/22 16:11:21
+================================================================================
+
+
+--- WINDOW  2026/07/22 16:11:21  [SynTPEnh.exe] (untitled)
+----------------------------------------------------------------------------
