@@ -1,0 +1,1385 @@
+﻿
+--- WINDOW  2026/07/21 18:00:39  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 18:02:14  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 18:02:16  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  yes[ENTER]
+
+--- WINDOW  2026/07/21 18:02:23  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 18:02:26  [Antigravity IDE.exe] NEXAI - Antigravity IDE - MigrateAdminToTimelock.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]a
+  [Clipboard]
+  // SPDX-License-Identifier: MIT
+  pragma solidity ^0.8.20;
+  
+  import {Script, console} from "forge-std/Script.sol";
+  import {NexaiCore} from "../src/NexaiCore.sol";
+  
+  /**
+   * @title MigrateAdminToTimelock
+   * @dev ONE-WAY migration of NexaiCore's admin control from the deployer EOA to the
+   * multisig/timelock structure (DeploySafes.s.sol + DeployTimelock.s.sol). Kept as its
+   * own explicit script, separate from the original Deploy.s.sol, because this is a
+   * significant and deliberately irreversible-from-the-EOA's-side action, not a routine
+   * deploy step.
+   *
+   * Order matters and is chosen to avoid ever self-locking the EOA out mid-migration:
+   *   1. Grant the new roles to their intended holders first
+   *   2. Verify each grant actually landed
+   *   3. Only then revoke the EOA's roles, ADMIN_ROLE before DEFAULT_ADMIN_ROLE - the
+   *      EOA needs DEFAULT_ADMIN_ROLE (the role-admin for ADMIN_ROLE/GUARDIAN_ROLE) to
+   *      still be able to fix anything if an earlier step were wrong, so it's the last
+   *      thing given up.
+   *
+   * Scoped strictly to NexaiCore. Note: NexaiIndexToken's own DEFAULT_ADMIN_ROLE
+   * (controlling its CORE_ROLE grants) is untouched by this and remains with the
+   * deployer EOA - a separate, out-of-scope gap worth flagging to the client.
+   * Testnet only.
+   */
+  contract MigrateAdminToTimelockScript is Script {
+      // Set these to the addresses printed by DeployTimelock.s.sol / DeploySafes.s.sol.
+      //
+      // IMPORTANT: CORE must point at a NexaiCore deployed from the current source (with
+      // Pausable/GUARDIAN_ROLE) - the NexaiCore already live on Base Sepolia at deploy
+      // time of this script predates that code and has no pause()/GUARDIAN_ROLE() to
+      // grant, so this deliberately does NOT default to that address. Redeploy via
+      // Deploy.s.sol first if needed, then fill in the fresh address here.
+      address constant CORE = address(0);
+      address constant TIMELOCK = address(0);
+      address constant GUARDIAN_SAFE = address(0);
+  
+      function run() external {
+          require(CORE != address(0), "Set CORE to a NexaiCore deployed from the current (Pausable) source first");
+          require(TIMELOCK != address(0), "Set TIMELOCK to DeployTimelock.s.sol's TimelockController address first");
+          require(GUARDIAN_SAFE != address(0), "Set GUARDIAN_SAFE to DeploySafes.s.sol's GuardianSafe address first");
+  
+          NexaiCore core = NexaiCore(CORE);
+  
+          uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
+          address deployer = vm.addr(deployerPrivateKey);
+          vm.startBroadcast(deployerPrivateKey);
+  
+          // --- Step 1: grant new roles ---
+          core.grantRole(core.DEFAULT_ADMIN_ROLE(), TIMELOCK);
+          core.grantRole(core.ADMIN_ROLE(), TIMELOCK);
+          core.grantRole(core.GUARDIAN_ROLE(), GUARDIAN_SAFE);
+  
+          // --- Step 2: verify before touching the EOA's own access ---
+          require(core.hasRole(core.DEFAULT_ADMIN_ROLE(), TIMELOCK), "Timelock did not receive DEFAULT_ADMIN_ROLE");
+          require(core.hasRole(core.ADMIN_ROLE(), TIMELOCK), "Timelock did not receive ADMIN_ROLE");
+          require(core.hasRole(core.GUARDIAN_ROLE(), GUARDIAN_SAFE), "GuardianSafe did not receive GUARDIAN_ROLE");
+          console.log("Verified: TimelockController holds DEFAULT_ADMIN_ROLE + ADMIN_ROLE on NexaiCore");
+          console.log("Verified: GuardianSafe holds GUARDIAN_ROLE on NexaiCore");
+  
+          // --- Step 3: revoke the EOA's roles, ADMIN_ROLE first ---
+          core.revokeRole(core.ADMIN_ROLE(), deployer);
+          console.log("Revoked ADMIN_ROLE from deployer EOA:", deployer);
+  
+          core.revokeRole(core.DEFAULT_ADMIN_ROLE(), deployer);
+          console.log("Revoked DEFAULT_ADMIN_ROLE from deployer EOA:", deployer);
+          console.log("Migration complete - NexaiCore admin control now belongs to the timelock/guardian structure.");
+  
+          vm.stopBroadcast();
+      }
+  }
+  
+  c
+  [LMB]
+
+--- WINDOW  2026/07/21 18:02:31  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  maybe ths[Bk]is sho e br [ENTER]
+  after he co-agre[Bk][Bk]founder a
+
+--- WINDOW  2026/07/21 18:03:52  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  green
+
+--- WINDOW  2026/07/21 18:03:55  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  agreement..[ENTER]
+
+--- WINDOW  2026/07/21 18:04:10  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 18:04:13  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  yes[ENTER]
+  i[Bk][Bk][ENTER]
+  we [Bk][Bk]i'll bring it upo[Bk] onc[Bk]e itel you thta[Bk][Bk]at we've signed the contract 
+  [LMB]
+  we wil [ENTER]
+  so note ta[Bk][Bk]ht to remind me then.[ENTER]
+
+--- WINDOW  2026/07/21 18:05:47  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 18:05:49  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 18:05:53  [brave.exe] Claude - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 18:05:54  [Telegram.exe] ‎Дмитрий – (119065)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 18:05:54  [Telegram.exe] ‎Дмитрий – (119066)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 18:06:04  [Telegram.exe] ‎MZ HUSTLE FORUM – (119066)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 18:06:05  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 18:06:06  [Telegram.exe] ‎MZ HUSTLE FORUM – (119066)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 18:06:07  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 18:06:09  [chrome.exe] 192.168.0.1/index.html - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 18:06:10  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 18:06:17  [Antigravity IDE.exe] NEXAI - Antigravity IDE - MigrateAdminToTimelock.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 18:06:19  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  push to th ego[Bk][Bk]two i[Bk]it[Bk][Bk]git[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 18:06:36  [Antigravity IDE.exe] NEXAI - Antigravity IDE - DeployTimelock.s.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 18:06:55  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiZapper.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 18:06:57  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 18:07:03  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiCore.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 18:07:09  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 18:07:35  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 18:08:00  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/21 18:08:07  [Telegram.exe] ‎MZ HUSTLE FORUM – (119066)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 18:08:09  [Telegram.exe] ‎Дмитрий – (119066)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  git updated too[ENTER]
+  m[Bk]once [Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+
+--- WINDOW  2026/07/21 18:08:41  [Telegram.exe] ‎Mendez Forex Class – (119066)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 18:08:45  [Telegram.exe] (23845) ‎General – (119066)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 18:08:46  [Telegram.exe] (23844) ‎General – (119065)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/21 18:08:49  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 18:08:49  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/21 18:08:50  [StartMenuExperienceHost.exe] Start
+----------------------------------------------------------------------------
+  [LMB]
+
+================================================================================
+ SESSION START  2026/07/22 07:07:24
+================================================================================
+
+
+--- WINDOW  2026/07/22 07:07:42  [chrome.exe] 192.168.0.1 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:07:50  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:07:51  [ShellExperienceHost.exe] Control Center
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:08:07  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:09:46  [chrome.exe] 192.168.0.1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:09:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:09:49  [ShellExperienceHost.exe] Control Center
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:10:02  [chrome.exe] 192.168.0.1/index.html#sleep_settings - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:10:03  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]capmdnez01
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:12:15  [chrome.exe] 192.168.0.1 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:12:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:12:18  [ShellExperienceHost.exe] Control Center
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  2capmendez01
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:13:26  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:13:28  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:13:34  [chrome.exe] cPanel Login - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:14:12  [chrome.exe] cPanel - Tools - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:14:29  [chrome.exe] cPanel - Email Accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:14:38  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:14:43  [chrome.exe] cPanel - - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:14:49  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:15:04  [WhatsApp.Root.exe] WinUI Desktop
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:15:04  [WhatsApp.Root.exe] WhatsApp Beta
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:15:08  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:15:09  [WhatsApp.Root.exe] WhatsApp Beta
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:15:11  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:15:11  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:15:34  [chrome.exe] Roundcube Webmail :: Compose - Google Chrome
+----------------------------------------------------------------------------
+  capmendez0782gmail.com
+  [LMB]
+  hello
+  [LMB]
+  hello tester
+  [LMB]
+
+--- WINDOW  2026/07/22 07:16:01  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:16:01  [chrome.exe] (1) Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:16:06  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [Del]
+
+--- WINDOW  2026/07/22 07:16:18  [Lightshot.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:16:25  [Lightshot.exe] Print
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:16:28  [Lightshot.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:16:30  [Lightshot.exe] Save As
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:16:32  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:16:34  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  mai[Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:16:38  [chrome.exe] Buy a domain name - Register cheap domain names from $0.99 - Namecheap - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:16:52  [chrome.exe] My Account Panel - Namecheap.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:16:57  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:16:58  [chrome.exe] Namecheap LiveChat Support – 24 Hours Online - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  hello there[ENTER]
+  my wa[Bk]er[Bk]bmail is't functioning, if i send t[Bk]a tet[Bk]xt it gets returned back
+  [LMB]
+
+--- WINDOW  2026/07/22 07:17:43  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:17:51  [chrome.exe] Namecheap LiveChat Support – 24 Hours Online - Google Chrome
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  yes ma[Bk][Bk]namechaep defalut[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:18:58  [chrome.exe] My Account Panel - Namecheap.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:19:02  [chrome.exe] Domain - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:19:11  [chrome.exe] ap.www.namecheap.com/Domains/DomainControlPanel/happypawsrescuehaven.com/advancedns - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:19:11  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  but on [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]yeah sure[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  2
+  [LMB]
+  what i se [Bk]e here is [ENTER]
+  type;[ENTER]
+  host[ENTER]
+  value[ENTER]
+  ttl[ENTER]
+  [Bk][Bk][Bk][Bk]ttl[ENTER]
+  i dont see anythn[Bk]uing [Bk][Bk][Bk][Bk][Bk]ing like valid zone no rprop[Bk]rity or destination[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  5
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mx1-hosting.jellyfish.systems
+  [LMB]
+  [Ctrl][Ctrl]v
+  [LMB]
+  2
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  mx2-hosting.jellyfish.systems
+  [Ctrl]c
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  10[Bk]
+  [LMB]
+  [LMB]
+  2
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mx3-hosting.jellyfish.systems
+  c
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[Ctrl]ax
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [LMB]
+  [Bk]2
+  [LMB]
+  20
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  i've filled them[ENTER]
+
+--- WINDOW  2026/07/22 07:29:38  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:29:42  [chrome.exe] Roundcube Webmail :: Compose - Google Chrome
+----------------------------------------------------------------------------
+  capmendez0782gmai[Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  capm[Bk][Bk][Bk]capmedez0782gmail.com
+  [LMB]
+  [LMB]
+  hello test
+  [LMB]
+
+--- WINDOW  2026/07/22 07:30:17  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:30:18  [chrome.exe] (1) Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:30:32  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  where can i see that[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:30:57  [chrome.exe] cPanel - Email Accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:31:28  [chrome.exe] (1) Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:31:31  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:31:32  [chrome.exe] Roundcube Webmail :: Mail delivery failed: returning message to sender - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:31:39  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:31:47  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:31:52  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:31:54  [chrome.exe] cPanel - Email Accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  ema
+  [LMB]
+
+--- WINDOW  2026/07/22 07:32:00  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:32:11  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:32:11  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:32:15  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:32:16  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:32:30  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  i should install/[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:33:02  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:33:03  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk]
+
+--- WINDOW  2026/07/22 07:33:18  [Lightshot.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:33:24  [Lightshot.exe] Save As
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:33:26  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:33:27  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:33:30  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:33:37  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  here 
+  [LMB]
+  here[ENTER]
+
+--- WINDOW  2026/07/22 07:33:51  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:33:52  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:33:54  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:33:57  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  default._domainkey.happypawsrescuehaven.com.
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:34:10  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:34:10  [powershell.exe] Select C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:34:11  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:34:13  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:35:54  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:36:01  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:36:08  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:36:10  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl]
+
+--- WINDOW  2026/07/22 07:36:18  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:36:31  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:36:32  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  default._domainkey
+  c
+  [LMB]
+
+--- WINDOW  2026/07/22 07:36:39  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/22 07:36:42  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:36:43  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuQi5ULlFYjrrdCmnAzGC6pyNkPsPwIHTWg59dSJunEk7XMJ7E2DSXDAbm13tnCW0yzYnEjZuJBcGqLPsmU0lThYBDjkIx7u5p0n/MMBHqwjGAI9b5ezKxhkm/Un04cG4EKjirmrKIao5QnPTGgURXIfaNl/iUVbryUNI0xNZbo3mhS5UXu7whsYpL7ngKOMEB3EpN7ZFvMd/QBD9hRFKIXVX8vzulS7Istv3t7PpfXe+2OqOfOEO2jbNdGPCjZuhrdn6eWa4wp6FIQsC/U7qWVCb0m0ZZnjuFxbWIfpNtrYjBqXhEmt38sCgijpbVynSTOIItE7PfkSHWZWsYikQXQIDAQAB;
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:36:51  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:37:06  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  happypawsrescuehaven.com.
+  [LMB]
+
+--- WINDOW  2026/07/22 07:37:18  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/22 07:37:24  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:37:29  [Lightshot.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:37:35  [Lightshot.exe] Save As
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:37:36  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:37:37  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:37:39  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:37:45  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  what 
+  [LMB]
+  what abouthi [Bk]s onoe[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:37:59  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:38:00  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:38:20  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:38:22  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:38:24  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:38:25  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  39.123.65.68.in-addr.arpa.
+
+--- WINDOW  2026/07/22 07:38:33  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]av
+  [LMB]
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [<-][<-][<-]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:38:55  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:38:56  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:38:59  [Lightshot.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:39:03  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:39:04  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:39:06  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:39:11  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  and this too[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:40:51  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:40:52  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:40:55  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:40:57  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:40:58  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  2
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:41:08  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  v=spf1 +mx +a +ip4:68.65.123.39 +include:spf.web-hosting.com ~all
+  [LMB]
+
+--- WINDOW  2026/07/22 07:41:11  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:41:12  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:41:30  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:41:33  [Lightshot.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:41:37  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:41:39  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v[Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/22 07:41:45  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:41:46  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:41:48  [Lightshot.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:41:53  [Lightshot.exe] Save As
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:41:54  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:41:55  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:41:56  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:41:58  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:41:59  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:42:05  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  wh
+  [LMB]
+  what about dmarc[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:46:25  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:46:27  [chrome.exe] How to change MX records and Email Routing in cPanel - Hosting - Namecheap.com - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:46:44  [chrome.exe] cPanel - Email Deliverability - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:47:02  [chrome.exe] cPanel - Tools - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:47:07  [chrome.exe] cPanel - Email Routing - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:47:24  [chrome.exe] How to change MX records and Email Routing in cPanel - Hosting - Namecheap.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:47:25  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:47:33  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:47:34  [chrome.exe] cPanel - Email Routing - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:48:52  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:48:59  [chrome.exe] Roundcube Webmail :: Compose - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  capmendez0782gmail.como[Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  helo bro
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:49:30  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:49:37  [chrome.exe] Roundcube Webmail :: Sent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:50:28  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  i can't change the [Bk][Bk][Bk][Bk]to local[ENTER]
+  it's not changing
+  [LMB]
+  [Bk][Bk]t[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:51:37  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:51:38  [chrome.exe] MTN 4G Router K12 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  ma[ENTER]
+
+--- WINDOW  2026/07/22 07:51:45  [chrome.exe] mail.google.com/mail/u/0/ - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:51:45  [chrome.exe] Gmail - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:51:59  [chrome.exe] Inbox (14,415) - capmendez078@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:52:22  [chrome.exe] Spam (57) - capmendez078@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:52:26  [chrome.exe] hello - capmendez078@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:52:31  [chrome.exe] Spam (56) - capmendez078@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:52:34  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  yes[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:52:49  [chrome.exe] Spam (56) - capmendez078@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:52:53  [chrome.exe] Inbox (14,415) - capmendez078@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  superteam[ENTER]
+
+--- WINDOW  2026/07/22 07:53:20  [chrome.exe] Search results - capmendez078@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:53:27  [chrome.exe] Project Winners Announced! - capmendez078@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:53:29  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:53:32  [chrome.exe] superteam.fun/earn/listing/front-end-developer-for-echoes-fans/?utm_source=superteamearn&utm_medium=email&utm_campaign=winnerannouncement - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:53:33  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:53:37  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:53:39  [chrome.exe] img.secureshare.support/pAPkmARdbQqoXMsULNodun.png - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:53:39  [chrome.exe] pAPkmARdbQqoXMsULNodun.png (970×641) - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:53:42  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  but t[Bk]does that mean my messages will be on spam to te [Bk][Bk]e[Bk]he ree[Bk]ceiver/[ENTER]
+  wh[Bk][Bk]and why d[Bk]set oon[Bk][Bk]n on[Bk][Bk]local[ENTER]
+
+--- WINDOW  2026/07/22 07:54:12  [chrome.exe] pAPkmARdbQqoXMsULNodun.png (970×641) - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:54:18  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:54:20  [chrome.exe] Front-End Developer for Echoes Fans by Echoes Fans | Superteam Earn Listing - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:54:36  [chrome.exe] dev iver | Superteam Earn Talent - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:54:45  [chrome.exe] Project Winners Announced! - capmendez078@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:54:52  [chrome.exe] dev iver | Superteam Earn Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:54:54  [chrome.exe] Front-End Developer for Echoes Fans by Echoes Fans | Superteam Earn Listing - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:54:58  [chrome.exe] Project Winners Announced! - capmendez078@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:55:01  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:55:03  [chrome.exe] superteam.fun/earn/listing/back-end-developer-for-echoes-fans/?utm_source=superteamearn&utm_medium=email&utm_campaign=winnerannouncement - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:55:03  [chrome.exe] Back-End Developer For Echoes Fans by Echoes Fans | Superteam Earn Listing - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:55:43  [chrome.exe] All Crypto Opportunities | Web3 Bounties & Jobs | Superteam Earn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:56:13  [chrome.exe] Full Stack Engineer - Mobile App Developer for Coldstar (10 days) by Coldstar | Superteam Earn Listing - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:56:20  [chrome.exe] All Crypto Opportunities | Web3 Bounties & Jobs | Superteam Earn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:56:25  [chrome.exe] Full Stack Solana Developer for Production MVP by Hedge Your Fun | Superteam Earn Listing - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  mndezv[Bk]builds.vercelapp
+  [LMB]
+  github.com/mendezbuilds
+  [LMB]
+  [LMB]
+  x.com/mendzbuilds
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl]a
+  [Clipboard]
+  mendezbuilds.vercel.app
+
+--- WINDOW  2026/07/22 07:57:22  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/07/22 07:57:26  [chrome.exe] mendezbuilds.vercel.app - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:57:27  [chrome.exe] Full Stack Solana Developer for Production MVP by Hedge Your Fun | Superteam Earn Listing - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:57:42  [chrome.exe] Project Winners Announced! - capmendez078@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:57:44  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:57:51  [chrome.exe] Roundcube Webmail :: Sent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:57:54  [chrome.exe] Project Winners Announced! - capmendez078@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:57:55  [chrome.exe] Full Stack Solana Developer for Production MVP by Hedge Your Fun | Superteam Earn Listing - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:57:58  [chrome.exe] Mendez | Web2 & Web3 Developer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:58:01  [chrome.exe] Roundcube Webmail :: Sent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:58:04  [ms-teams.exe] Microsoft Teams
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:58:05  [opera.exe] Opera | Update complete | Opera - Opera
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:58:07  [chrome.exe] cPanel - Email Routing - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:58:08  [chrome.exe] Roundcube Webmail :: Sent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:58:12  [chrome.exe] cPanel - Email Routing - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:58:15  [chrome.exe] cPanel - Tools - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:58:20  [chrome.exe] cPanel - Email Accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:58:24  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:58:26  [chrome.exe] cPanel - - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:58:26  [chrome.exe] Roundcube Webmail :: Sent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:58:28  [chrome.exe] Advanced DNS - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:58:36  [chrome.exe] Webmail - Main - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 07:58:40  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:58:41  [chrome.exe] (1) Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 07:58:46  [chrome.exe] Roundcube Webmail :: Compose - Google Chrome
+----------------------------------------------------------------------------
+  capmendez0782gmail.com
+  [LMB]
+  [LMB]
+  [LMB]
+  hello test
+  [LMB]
+
+--- WINDOW  2026/07/22 07:59:02  [chrome.exe] Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 07:59:03  [chrome.exe] (1) Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 08:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 08:00:25  [chrome.exe] (1) Roundcube Webmail :: Inbox - Google Chrome
+----------------------------------------------------------------------------
