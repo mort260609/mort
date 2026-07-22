@@ -1,0 +1,749 @@
+﻿
+--- WINDOW  2026/07/22 13:00:30  [Telegram.exe] ‎MZ HUSTLE FORUM – (114326)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:00:54  [Telegram.exe] ‎MZ HUSTLE FORUM – (114327)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:00:54  [Telegram.exe] ‎MZ HUSTLE FORUM – (114328)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:08:50  [Telegram.exe] ‎MZ HUSTLE FORUM – (114329)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:08:58  [Telegram.exe] ‎⁨MZ HUSTLE FORUM⁩ – (114330)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:11:30  [Telegram.exe] ‎MZ HUSTLE FORUM – (114329)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:14:00  [Telegram.exe] ‎Дмитрий – (114329)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:14:03  [Telegram.exe] ‎MZ HUSTLE FORUM – (114329)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:14:06  [Telegram.exe] ‎Mendez Forex Class – (114329)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:14:07  [Telegram.exe] ‎MZ HUSTLE FORUM – (114329)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:16:01  [Telegram.exe] ‎MZ HUSTLE FORUM – (114330)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:16:09  [Telegram.exe] ‎Дмитрий – (114329)
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/22 13:16:12  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Makes sense on the surface — leaning toward your read (plain timelock) since it matches the "right tool for the actual problem" principle from the other docs.
+  
+  One question before locking it in: how trivial is "trivial" here? If it's genuinely a few hours of work with a handful of tests, plain timelock wins. If it ends up needing its own edge-case hardening pass (like NexaiCore did), the calculus shifts toward just reusing Sablier since that dependency's already in the project anyway. What's your honest estimate?
+
+--- WINDOW  2026/07/22 13:16:15  [Telegram.exe] ‎Дмитрий – (114329)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:16:15  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  what  [Bk][Bk] 
+
+--- WINDOW  2026/07/22 13:23:10  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:23:10  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  should i co the[Bk][Bk][Bk][Bk][Bk][Bk]d[Bk]do then caue am [Bk]cnofusde wha hould i answer dmitry[ENTER]
+  [RMB]
+  i human tone[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  "Honestly, I think it's just a few hours of work, not something that needs a big hardening pass. The closest thing we've already built is VotingFreeze, that's also a new lock-style contract and it only needed 10 tests to feel solid, nothing close to how much work NexaiCore took. A plain Liquidity lock would actually be even simpler than VotingFreeze since there's no swaps or multi token math involved, it's really just holding tokens until a certain date then releasing them. I'm thinking somewhere around 5 to 8 tests would cover it properly. So my take stays the same, plain timelock still makes more sense here, it's not really a close call for me
+  c
+  [LMB]
+
+--- WINDOW  2026/07/22 13:24:57  [Telegram.exe] ‎Дмитрий – (114331)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:24:58  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:24:59  [Telegram.exe] ‎Дмитрий – (114331)
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [RMB]
+
+--- WINDOW  2026/07/22 13:25:20  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:25:22  [Telegram.exe] ‎Дмитрий – (114331)
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk][ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:25:44  [claude.exe] Claude
+----------------------------------------------------------------------------
+  so what option am i picking so claude code a onne[ENTER]
+  it's be [Bk]en hours
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:26:21  [Telegram.exe] ‎Дмитрий – (114331)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:29:20  [TradingView.exe] EURUSD ▲ 1.14099 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:29:29  [TradingView.exe] EURUSD ▲ 1.14101 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:29:31  [TradingView.exe] EURUSD ▲ 1.14100 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:29:32  [TradingView.exe] EURUSD ▲ 1.14098 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:29:33  [chrome.exe] (17) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  g[Bk]eurus[ENTER]
+
+--- WINDOW  2026/07/22 13:30:09  [TradingView.exe] EURUSD ▲ 1.14113 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:30:23  [Telegram.exe] ‎Дмитрий – (114331)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:30:48  [Telegram.exe] ‎Дмитрий – (114332)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:31:07  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:31:09  [TradingView.exe] EURUSD ▲ 1.14114 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:31:11  [TradingView.exe] EURUSD ▲ 1.14113 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:31:12  [TradingView.exe] EURUSD ▲ 1.14114 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:31:15  [TradingView.exe] EURUSD ▲ 1.14113 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:31:22  [TradingView.exe] EURUSD ▲ 1.14112 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:31:24  [TradingView.exe] EURUSD ▲ 1.14111 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:31:27  [TradingView.exe] EURUSD ▲ 1.14112 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:31:35  [TradingView.exe] EURUSD ▲ 1.14113 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:31:38  [TradingView.exe] EURUSD ▲ 1.14111 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:31:42  [TradingView.exe] EURUSD ▲ 1.14113 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:31:44  [TradingView.exe] EURUSD ▲ 1.14115 +0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:31:48  [TradingView.exe] EURUSD ▲ 1.14114 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:31:52  [TradingView.exe] EURUSD ▲ 1.14113 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:31:56  [TradingView.exe] EURUSD ▲ 1.14114 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:32:09  [TradingView.exe] EURUSD ▲ 1.14113 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:32:10  [Telegram.exe] ‎Дмитрий – (114333)
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/22 13:32:13  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  That comparison to VotingFreeze makes the estimate solid-good call. Go with plain timelock then.
+  
+  Quick side question: is VotingFreeze already built/tested, or still in progress? Didn't realize it was far enough along to use as a reference point
+
+--- WINDOW  2026/07/22 13:32:15  [Telegram.exe] ‎Дмитрий – (114333)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:32:21  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:32:22  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:32:41  [Telegram.exe] ‎Дмитрий – (114333)
+----------------------------------------------------------------------------
+  yes [Bk][Bk][Bk]es, it'[Bk][Bk]'ve already built an de
+
+--- WINDOW  2026/07/22 13:32:51  [Telegram.exe] ‎Дмитрий – (114332)
+----------------------------------------------------------------------------
+  d it.[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:32:58  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:32:59  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:33:01  [Telegram.exe] ‎Дмитрий – (114332)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:33:02  [TradingView.exe] EURUSD ▲ 1.14126 +0.13% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:33:03  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:33:04  [TradingView.exe] EURUSD ▲ 1.14124 +0.12% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:33:05  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:33:05  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:33:09  [Telegram.exe] ‎Дмитрий – (114332)
+----------------------------------------------------------------------------
+  you'll see it when i [Bk] push to git before te[Bk][Bk]he thend of the en[Bk][Bk]day[ENTER]
+
+--- WINDOW  2026/07/22 13:33:46  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:33:50  [claude.exe] Claude
+----------------------------------------------------------------------------
+  i hould choosplain time
+  [LMB]
+
+--- WINDOW  2026/07/22 13:33:56  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:33:58  [claude.exe] Claude
+----------------------------------------------------------------------------
+  lock contract/[ENTER]
+
+--- WINDOW  2026/07/22 13:34:18  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:34:36  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiCoreAdmin.t.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:34:47  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [Ctrl]c
+  [Clipboard]
+  85% of your usage was at >150k context
+  Longer sessions are more expensive even when cached. /compact mid-task, /clear when switching to new tasks.
+  Skills, subagents, plugins, and MCP servers
+  No attribution data yet · accumulates as you use Claude
+
+--- WINDOW  2026/07/22 13:34:56  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [ENTER]
+  [ENTER]
+  how can i do the[Bk][Bk][Bk]minimize this[ENTER]
+  my pan finishes arlier th expectde[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:35:28  [Telegram.exe] ‎Дмитрий – (114332)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:35:32  [Telegram.exe] ‎Дмитрий – (114333)
+----------------------------------------------------------------------------
+  ad [Bk][Bk]nlso nxai [Bk]gov.soltoost need to finish uptest 
+
+--- WINDOW  2026/07/22 13:35:57  [Telegram.exe] ‎Дмитрий – (114335)
+----------------------------------------------------------------------------
+  and p ot it for you to reviw and we correctwhat[Bk][Bk][Bk][Bk]ct what needs correction.'[ENTER]
+  [RMB]
+
+--- WINDOW  2026/07/22 13:36:19  [Telegram.exe] ‎Дмитрий – (114336)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:36:19  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:36:21  [Telegram.exe] ‎Дмитрий – (114337)
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/22 13:36:22  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:36:23  [Telegram.exe] ‎Дмитрий – (114337)
+----------------------------------------------------------------------------
+  [Bk][ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:36:26  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:36:44  [Telegram.exe] ‎Дмитрий – (114337)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:37:14  [Telegram.exe] ‎Дмитрий – (114338)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:37:18  [Telegram.exe] ‎Mendez Forex Class – (114338)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:37:30  [Telegram.exe] ‎Mendez Forex Class – (114339)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:37:33  [Telegram.exe] ‎Mendez Forex Class – (114338)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:37:33  [Telegram.exe] ‎Дмитрий – (114338)
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/22 13:37:39  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:37:40  [Telegram.exe] ‎Дмитрий – (114338)
+----------------------------------------------------------------------------
+  l really appreciat that, [ENTER]
+  [Bk][Tab]c
+  [LMB]
+  caus eyou migh see what i mi
+
+--- WINDOW  2026/07/22 13:38:01  [Telegram.exe] ‎Дмитрий – (114339)
+----------------------------------------------------------------------------
+  ed
+  [LMB]
+  [LMB]
+  [LMB]
+  [ENTER]
+
+--- WINDOW  2026/07/22 13:38:17  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:38:18  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/22 13:48:46  [Telegram.exe] ‎Дмитрий – (114340)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/22 13:50:25  [Telegram.exe] ‎Mendez Forex Class – (114340)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:50:29  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]c
+  [Clipboard]
+  Done — Part 4 (Team, Ecosystem, Liquidity) built via Sablier
+  New files:
+  
+  ISablierLockup.sol — minimal interface, struct/enum layouts copied field-for-field from Sablier's actual audited source (not docs prose), so ABI encoding matches the real contract
+  NexaiLiquidityLock.sol — the plain 6-month lock you picked over routing Liquidity through Sablier
+  DeployVesting.s.sol — creates the Team/Ecosystem Sablier streams, exempts SablierLockup from the 5% cap first
+  DeployLiquidityLock.s.sol — deploys + funds the lock
+  NexaiVesting.t.sol — fork test against the real Base Sepolia SablierLockup (streams created correctly, cliff/linear math, cancel semantics, cap-exemption is load-bearing)
+  NexaiLiquidityLock.t.sol — plain unit tests for the lock
+  Updated README.md's Part 4 section
+  What was actually verified, not assumed (per Step 0): the address (two independent sources, checksum-valid), the unified-contract architecture, exact struct/function signatures from source, the cliff-vesting formula (confirms (0,0) unlock amounts give clean "0% before cliff → linear → 100% at end"), cancellation semantics (vested stays claimable, unvested refunds to sender), and — something I only discovered mid-build — that withdraw/withdrawMax charge a live comptroller fee in ETH that create/cancel don't; the test queries that fee from the fork rather than assuming zero.
+  
+  Caught myself before it would've broken: the placeholder recipient addresses I hand-typed had invalid EIP-55 checksums, which Solidity treats as a hard compile error, not a warning. Fixed all 5 by computing real checksums.
+  
+  Flagged, not silently decided:
+  
+  Ecosystem's "no cliff" is based on the concept doc distinguishing Team's "2yr/6mo-cliff" from Ecosystem's plain "2yr" — textual, but worth Dmitry's confirmation before real funding
+  Cancellation's vested/unvested split matches the standard reading of a forfeiture clause, but I haven't seen the actual co-founder agreement text to confirm it matches word-for-word
+  Streams are non-transferable (so a team member can't sell the claim itself) — a deliberate default, flagged in case that's not intended
+  Same limitation as last time: forge isn't installed on this machine, so none of this has actually compiled or run yet. I did a careful manual pass (struct field order, function signatures, checksum validation) since I can't verify automatically, but you'll need to run forge build && forge test --match-path test/NexaiVesting.t.sol (with BASE_SEPOLIA_RPC_URL set) and forge test --match-path test/NexaiLiquidityLock.t.sol yourself before this is confirmed working.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/22 13:57:41  [Telegram.exe] ‎Mendez Forex Class – (114347)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/22 13:57:43  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  can i run de[Bk][Bk]them on/[ENTER]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  source .env
+  forge build && forge test --match-path test/NexaiVesting.t.sol -vvv && forge test --match-path test/NexaiLiquidityLock.t.sol -vvv && forge test
+
+--- WINDOW  2026/07/22 13:58:50  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [Ctrl][ENTER]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ source .env
+  forge build && forge test --match-path test/NexaiVesting.t.sol -vvv && forge test --match-path test/NexaiLiquidityLock.t.sol -vvv && forge test
+  [⠊] Compiling...
+  [⠰] Compiling 6 files with Solc 0.8.35
+  [⠒] Solc 0.8.35 finished in 6.25s
+  Compiler run successful with warnings:
+  Warning (2018): Function state mutability can be restricted to pure
+    --> src/governance/NexaiGovToken.sol:52:5:
+     |
+  52 |     function maxWallet() public view returns (uint256) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+  
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/PriceOracle.sol:82:17
+     │
+  82 │         require(block.timestamp - updatedAt < 1 hours, "Chainlink price stale");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  warning[unsafe-typecast]: typecasts that can truncate values should be checked
+     ╭▸ script/DeployVesting.s.sol:98:33
+     │
+  98 │         uint128 teamPerMember = uint128(TEAM_ALLOCATION / 3);
+     │                                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ├ note: consider disabling this lint if you're certain the cast is safe
+     │
+     │       // casting to 'uint128' is safe because [explain why]
+     │       // forge-lint: disable-next-line(unsafe-typecast)
+     │
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+  
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/governance/NexaiLiquidityLock.sol:35:17
+     │
+  35 │         require(_releaseTime > block.timestamp, "Release time must be in the future");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/governance/NexaiLiquidityLock.sol:44:17
+     │
+  44 │         require(block.timestamp >= releaseTime, "Still locked");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  warning[unsafe-typecast]: typecasts that can truncate values should be checked
+      ╭▸ script/DeployVesting.s.sol:105:13
+      │
+  105 │             uint128(ECOSYSTEM_ALLOCATION),
+      │             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      │
+      ├ note: consider disabling this lint if you're certain the cast is safe
+      │
+      │       // casting to 'uint128' is safe because [explain why]
+      │       // forge-lint: disable-next-line(unsafe-typecast)
+      │
+      │
+      ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+  
+  warning[unsafe-typecast]: typecasts that can truncate values should be checked
+     ╭▸ test/PriceOracle.t.sol:73:37
+     │
+  73 │     bytes32 public redstoneFeedId = bytes32("ETH");
+     │                                     ━━━━━━━━━━━━━━
+     │
+     ├ note: consider disabling this lint if you're certain the cast is safe
+     │
+     │       // casting to 'bytes32' is safe because [explain why]
+     │       // forge-lint: disable-next-line(unsafe-typecast)
+     │
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/VotingFreeze.t.sol:20:9
+     │
+  20 │         govToken.transfer(alice, 10_000 * 10 ** 18);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/VotingFreeze.t.sol:21:9
+     │
+  21 │         govToken.transfer(bob, 10_000 * 10 ** 18);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ script/DeployLiquidityLock.s.sol:43:9
+     │
+  43 │         IERC20(GOV_TOKEN).transfer(address(lock), LIQUIDITY_ALLOCATION);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:35:9
+     │
+  35 │         govToken.transfer(alice, cap);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:39:9
+     │
+  39 │         govToken.transfer(alice, 1);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:44:9
+     │
+  44 │         govToken.transfer(alice, cap);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:51:9
+     │
+  51 │         govToken.transfer(alice, cap + 1000 * 10 ** 18);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovStaking.t.sol:25:9
+     │
+  25 │         govToken.transfer(alice, 10_000 * 10 ** 18);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:58:9
+     │
+  58 │         govToken.transfer(alice, cap + 1000 * 10 ** 18); // alice now above cap while exempt
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovStaking.t.sol:26:9
+     │
+  26 │         govToken.transfer(bob, 10_000 * 10 ** 18);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/governance/VotingFreeze.sol:76:17
+     │
+  76 │         require(block.timestamp < proposal.endTime, "Voting window closed");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:67:9
+     │
+  67 │         govToken.transfer(alice, 1);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:78:9
+     │
+  78 │         govToken.transfer(alice, cap);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/governance/VotingFreeze.sol:98:17
+     │
+  98 │         require(block.timestamp >= proposal.endTime, "Voting window still open");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:79:9
+     │
+  79 │         govToken.transfer(bob, 1000 * 10 ** 18);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:83:9
+     │
+  83 │         govToken.transfer(alice, 1);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:91:9
+     │
+  91 │         govToken.transfer(alice, 1);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  [⠢] Compiling...
+  No files changed, compilation skipped
+  
+  Ran 8 tests for test/NexaiVesting.t.sol:NexaiVestingTest
+  [PASS] test_Cancel_RefundsUnvestedToSender_LeavesVestedClaimableByRecipient() (gas: 414821)
+  [FAIL: next call did not revert as expected] test_CapExemption_IsRequiredBeforeFundingStreams() (gas: 2306051)
+  Traces:
+    [2306051] NexaiVestingTest::test_CapExemption_IsRequiredBeforeFundingStreams()
+      ├─ [1977867] → new NexaiGovToken@0x2e234DAe75C793f67A35089C9d99245E1C58470b
+      │   ├─ emit RoleGranted(role: 0x0000000000000000000000000000000000000000000000000000000000000000, account: NexaiVestingTest: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], sender: NexaiVestingTest: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496])
+      │   ├─ emit RoleGranted(role: 0xa49807205ce4d355092ef5a8a18f56e8913cf4a201fbe287825b095693c21775, account: NexaiVestingTest: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], sender: NexaiVestingTest: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496])
+      │   ├─ emit CapExemptionSet(account: NexaiVestingTest: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], exempt: true)
+      │   ├─ emit Transfer(from: 0x0000000000000000000000000000000000000000, to: NexaiVestingTest: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], amount: 100000000000000000000000000 [1e26])
+      │   └─ ← [Return] 9014 bytes of code
+      ├─ [26933] NexaiGovToken::approve(0xA65A1ecEf02C2B9BDc604951c6A6D02335D4532e, 115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77])
+      │   ├─ emit Approval(owner: NexaiVestingTest: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], spender: 0xA65A1ecEf02C2B9BDc604951c6A6D02335D4532e, amount: 115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77])
+      │   └─ ← [Return] true
+      ├─ [0] VM::expectRevert(custom error 0xf4844814)
+      │   └─ ← [Return]
+      ├─ [247762] 0xA65A1ecEf02C2B9BDc604951c6A6D02335D4532e::createWithDurationsLL(CreateWithDurations({ sender: 0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496, recipient: 0x0000000000000000000000000000000000000B0b, depositAmount: 4000000000000000000000000 [4e24], token: 0x2e234DAe75C793f67A35089C9d99245E1C58470b, cancelable: true, transferable: false, shape: "Test Vesting" }), UnlockAmounts({ start: 0, cliff: 0 }), 1, Durations({ cliff: 15552000 [1.555e7], total: 63072000 [6.307e7] }))
+      │   ├─ [1929] 0xC86B56250D2758f30d09B3420D9ec5b646244C7c::f9193aa5(000000000000000000000000000000000000000000000000000000006b4e0cba000000000000000000000000000000000000000000034f086f3b33b684000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000006a60beba000000000000000000000000000000000000000000000000000000006e2325ba0000000000000000000000002e234dae75c793f67a35089c9d99245e1c58470b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c546573742056657374696e670000000000000000000000000000000000000000) [delegatecall]
+      │   │   └─ ← [Stop]
+      │   ├─ emit MetadataUpdate(: 61)
+      │   ├─ emit Transfer(from: 0x0000000000000000000000000000000000000000, to: 0x0000000000000000000000000000000000000B0b, value: 61)
+      │   ├─ [34232] NexaiGovToken::transferFrom(NexaiVestingTest: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 0xA65A1ecEf02C2B9BDc604951c6A6D02335D4532e, 4000000000000000000000000 [4e24])
+      │   │   ├─ emit Transfer(from: NexaiVestingTest: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], to: 0xA65A1ecEf02C2B9BDc604951c6A6D02335D4532e, amount: 4000000000000000000000000 [4e24])
+      │   │   └─ ← [Return] true
+      │   ├─  emit topic 0: 0xbc42cec3f2bd75ce97894dacc83ec6c4b682220d349b5a52d5743e7b46eba2d0
+      │   │        topic 1: 0x000000000000000000000000000000000000000000000000000000000000003d
+      │   │           data: 0x00000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000006b4e0cba0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000000000000000000000000000000000000000000b0b000000000000000000000000000000000000000000034f086f3b33b6840000000000000000000000000000002e234dae75c793f67a35089c9d99245e1c58470b00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006a60beba000000000000000000000000000000000000000000000000000000006e2325ba0000000000000000000000000000000000000000000000000000000000000140000000000000000000000000000000000000000000000000000000000000000c546573742056657374696e670000000000000000000000000000000000000000
+      │   └─ ← [Return] 61
+      └─ ← [Revert] next call did not revert as expected
+  
+  Backtrace:
+    at NexaiVestingTest.test_CapExemption_IsRequiredBeforeFundingStreams
+  
+  [PASS] test_EcosystemStream_NoCliff_VestsFromStart() (gas: 265714)
+  [PASS] test_NonCancelableStream_CannotBeCanceled() (gas: 284976)
+  [PASS] test_OnlySender_CanCancel() (gas: 283839)
+  [PASS] test_StreamCreated_WithCorrectParams() (gas: 292127)
+  [PASS] test_TeamStream_LinearAfterCliff_FullyVestedAtEnd() (gas: 294205)
+  [PASS] test_TeamStream_NothingVestsBeforeCliff() (gas: 291467)
+  Suite result: FAILED. 7 passed; 1 failed; 0 skipped; finished in 17.16s (42.21s CPU time)
+  
+  Ran 1 test suite in 18.28s (17.16s CPU time): 7 tests passed, 1 failed, 0 skipped (8 total tests)
+  
+  Failing tests:
+  Encountered 1 failing test in test/NexaiVesting.t.sol:NexaiVestingTest
+  [FAIL: next call did not revert as expected] test_CapExemption_IsRequiredBeforeFundingStreams() (gas: 2306051)
+  
+  Encountered a total of 1 failing tests, 7 tests succeeded
+  
+  Tip: Run `forge test --rerun` to retry only the 1 failed test
+  [LMB]
+
+--- WINDOW  2026/07/22 13:59:55  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]vhere[ENTER]
+
+--- WINDOW  2026/07/22 14:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
