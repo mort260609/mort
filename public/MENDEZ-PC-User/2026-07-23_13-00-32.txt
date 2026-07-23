@@ -1,0 +1,115 @@
+﻿
+================================================================================
+ SESSION START  2026/07/23 12:50:12
+================================================================================
+
+
+--- WINDOW  2026/07/23 12:50:12  [SynTPEnh.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 12:51:08  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 12:51:29  [ms-teams.exe] Microsoft Teams
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 12:51:49  [dwm.exe] WhatsApp Beta (Not Responding)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 12:52:23  [WhatsApp.Root.exe] WhatsApp Beta
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 12:52:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 12:52:51  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 12:53:07  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 12:54:05  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  a[Bk][Bk][Bk]ep[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 12:54:41  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://sepolia.basescan.org/address/0xA65A1ecEf02C2B9BDc604951c6A6D02335D4532e
+
+--- WINDOW  2026/07/23 12:55:02  [chrome.exe] Address: 0xA65A1ecE...335D4532e | BaseScan Sepolia - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://sepolia.basescan.org/address/0xA65A1ecEf02C2B9BDc604951c6A6D02335D4532e#code
+  c
+  [LMB]
+
+--- WINDOW  2026/07/23 12:55:08  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 12:55:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 12:55:16  [Telegram.exe] Telegram
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 12:55:18  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 12:55:23  [Telegram.exe] ‎Дмитрий – (114787)
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/23 12:55:34  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  soouve cp[Bk]nfrimde it/[ENTER]
+  what [Bk][Bk][Bk][Bk]the the first questions he asked[ENTER]
+  i thin[Bk][Bk][Bk]need it te[Bk][Bk]he answer[ENTER]
+
+--- WINDOW  2026/07/23 12:56:31  [Telegram.exe] ‎Дмитрий – (114787)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 12:56:45  [claude.exe] Claude
+----------------------------------------------------------------------------
+  i still don't understan [Bk]d th ebody wrote the the equive[Bk]alent migrationn for voting [Bk]freeze[ENTER]
+  ain't cat eone who wrote it/
+  [LMB]
+  oh i get it bak[ENTER]
+  caus  [Bk][Bk]e ididnt instruc [Bk]on i.[ENTER]
+  thats why i didn site he migration scripti[Bk][ENTER]
+  [LMB]
+  what about the othe rflg[ENTER]
+
+--- WINDOW  2026/07/23 12:59:37  [Telegram.exe] ‎Дмитрий – (114788)
+----------------------------------------------------------------------------
+   th e[Bk][Bk]e voting fr[Bk][Bk][Bk]p[Bk][Bk]freeze. [Bk][Bk], i waswaiting on you before w[Bk]i can write [Bk][Bk][Bk][Ctrl]a[Bk]so fo th [Bk][Bk]e votin
+
+--- WINDOW  2026/07/23 13:00:04  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Not intentional, it's actually a real gap. The migration script only ever covered NexaiCore, nobody wrote the same one for VotingFreeze, and NexaiGovStaking probably needs checking too. Will get a migration script built for both.
+
+--- WINDOW  2026/07/23 13:00:18  [Telegram.exe] ‎Дмитрий – (114788)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:00:18  [Telegram.exe] ‎Дмитрий – (114792)
+----------------------------------------------------------------------------
+  [Bk][Bk][Bk]tingfreeze 
+
+--- WINDOW  2026/07/23 13:00:24  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:00:26  [Telegram.exe] ‎Дмитрий – (114792)
+----------------------------------------------------------------------------
+  [ENTER]
