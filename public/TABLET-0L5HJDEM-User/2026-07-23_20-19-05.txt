@@ -1,0 +1,101 @@
+﻿
+--- WINDOW  2026/07/23 20:01:59  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+  [Clipboard]
+  Since last night, so many brokers are just sending complains, bro i think we need to check whats the issue
+
+--- WINDOW  2026/07/23 20:02:41  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 20:03:16  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 20:03:17  [msedge.exe] Shreyans Rote | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 20:03:20  [msedge.exe] Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 20:03:21  [msedge.exe] (7) Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 20:03:22  [msedge.exe] Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 20:06:12  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 20:06:13  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 20:06:25  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  One issue Found in MT5 Datafeeder
+   
+  They have written and sent this Who are running and testing it.
+   
+  Your IndianFeed.exe is using the system's local time to send the timestamp where as it should use the LUT or LTT or localTimestamp key values in GMT 5:30 IST
+   
+  {"EXCHANGE": "MCX_FO", "SYMBOL": "GOLD FUT 05 AUG 26", "BUY QTY": 1.0, "BUY PRICE": 145640.0, "SELL PRICE": 145650.0, "SELL QTY": 1.0, "LTP": 145660.0, "NET CHANGE": 2777.0, "OPEN": 144852.0, "HIGH": 146000.0, "LOW": 144311.0, "CLOSE": 145660.0, "LTT": "23:04:23", "LUT": "23:04:52", "locatimestamp": 1784741692733}
+  [LMB]
+
+--- WINDOW  2026/07/23 20:10:47  [msedge.exe] • Discord | @Michael Papadopoulos and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 20:10:52  [msedge.exe] (3) Discord | @Michael Papadopoulos and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 20:10:52  [msedge.exe] • Discord | @Michael Papadopoulos and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 20:11:21  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  right now solving 2 major issues
+   
+  1- ACSFX
+  2- ARAZON
+   
+  Arazon customer placed TP, 
+  MArket came to that price, our system did not execute her TP 
+  [LMB]
+  [Clipboard]
+  have to check trade open time, then have to check prices of symbol after that trade opened, to compre
+   
+  in MT5 TICK History data opens properly, in our system charts history and ticks sometime opens sometiome not open
+   
+  and customer trade time showing 18:54
+   
+  Trade server logs showing same trade at 17:54
+   
+  Market Data time showing 18:54 in file, (but its showing in TIMESTAMP so have to convert each line with UNIX TIMESTAMP Website (just due to ticks data not open in admin properly)
+   
+  solving one trouble becomes 2-4 hours task due to malfunctioning 
+   
+  and broker sent complains so have to lookafter otherwise will loose this broker also
+  [Clipboard]
+  ACSFX setting solved for the moment, but solved with doing some wrong settings, we will see ACSFX later.
+   
+  Currently im analysing ARAZON - why the TP DID NOT EXECUTED
+
+--- WINDOW  2026/07/23 20:19:05  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 20:19:05  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 20:19:05  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 20:19:05  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
