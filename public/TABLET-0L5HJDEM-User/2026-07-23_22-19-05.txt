@@ -1,0 +1,163 @@
+﻿  [LMB]
+
+--- WINDOW  2026/07/23 21:26:24  [msedge.exe] Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 21:26:24  [msedge.exe] (1) Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 21:26:24  [msedge.exe] Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  i used the last push of your code, but i don't know if you have new one on your local pc
+  so you can copy the functions if you have new version of access server on your local pc or just merge it which your branch
+  [LMB]
+
+--- WINDOW  2026/07/23 21:32:30  [msedge.exe] (1) Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  both or more?
+  [LMB]
+
+--- WINDOW  2026/07/23 21:45:51  [msedge.exe] Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  https://bitbucket.org/ntrader-dubai/client-terminal/branch/show-group-currency-and-update-history-report
+  [LMB]
+
+--- WINDOW  2026/07/23 22:04:05  [msedge.exe] Feed | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 22:04:06  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  I don't have reliable data on EVAA/USDT — let me check.
+  
+  Before I search: EVAA is a small-cap Toncoin-ecosystem lending protocol token, so pricing and depth data can be sparse and stale even on the exchange itself. Let me pull what's actually available.
+  
+  Searched the web
+  Searched the web
+  
+  Important warning first: there are two different "EVAA" tokens and the search results are mixing them. The $11.68 PancakeSwap/BSC token is a different, unrelated asset from EVAA Protocol on TON. If you're trading on MEXC, you want EVAA Protocol (TON). Confirm the contract before you touch anything — same-ticker confusion is a common way to get rugged.
+  
+  Data quality caveat: the numbers below are inconsistent across sources and some are clearly stale (one MEXC page returns undefined/zero, a "prediction" page is dated April 2026). Treat this as directional, not precise.
+  
+  What the picture looks like (EVAA Protocol / TON):
+  
+  Metric	Value
+  Price	~$0.62–0.81 (sources disagree)
+  ATH	$13.62–13.71 (Oct 27, 2025)
+  Down from ATH	~-81% to -95%
+  All-time low	$0.278 (Jun 5, 2026)
+  Market cap	~$17.5M
+  1-week	~-65%
+  1-year	~-82%
+  
+  Analysis:
+  
+  This is a broken chart. Price is sitting near an all-time low set roughly seven weeks ago, after an ~-65% week. A drop of that size in one week on a $17M-cap token is not noise — that's either a large unlock, an exploit, a delisting scare, or a whale exit. You need to find out which before forming any view. I couldn't identify the cause from these results.
+  
+  The technical ratings are contradictory across timeframes — daily sell, weekly buy, monthly strong sell — which is what indicator sets produce when an asset is in freefall and short-term oscillators read oversold. An oversold reading in a -82% downtrend is not a buy signal; it's a description of the downtrend.
+  
+  The fundamentals aren't the problem, which is the interesting part. It's a TON lending protocol with Quantstamp and Trail of Bits audits, TON Space integration, and a collateral-backed card product. Real protocol, real usage. But a $17M cap against that ATH means the market has repriced it as near-dead regardless.
+  
+  Structurally, the concerns for a MEXC position specifically:
+  
+  Liquidity is thin and fragmented. CoinGecko puts the primary venue at Gate, not MEXC — so MEXC spot depth on this pair is likely worse than the headline volume suggests. MEXC also offers up to 50x leverage on the perp. On a micro-cap in freefall, that combination produces liquidation cascades, and MEXC is known for wick-heavy price action on small pairs. Any stop you place can and will get hunted.
+  
+  My read:
+  
+  I wouldn't touch this without first identifying what caused the -65% week. Buying an asset because it's "cheap" relative to an ATH is the most reliable way to lose money in crypto — the ATL was set last month, meaning the market has already rejected the "it's bottomed" thesis once.
+  
+  If you take a position anyway, given your grid-trading background: this is a poor grid candidate right now. Grids assume range. This is trending down hard with no established floor, so a grid just accumulates a losing bag on the way to a new ATL. Wait for actual base-building — multiple weeks of the ATL holding on declining volume — before a range strategy makes sense.
+  
+  Verify current numbers directly on MEXC's order book before acting. These figures are inconsistent enough that I wouldn't size a trade off them.
+  
+  Not financial advice — I'm not a financial advisor, and this is a high-risk micro-cap where you can lose the full position.
+  [LMB]
+
+--- WINDOW  2026/07/23 22:06:19  [msedge.exe] Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 22:06:19  [msedge.exe] (1) Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 22:06:19  [msedge.exe] Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 22:07:29  [msedge.exe] (1) Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://experts.afterquery.com/onboarding
+  [LMB]
+
+--- WINDOW  2026/07/23 22:11:36  [msedge.exe] Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 22:11:37  [msedge.exe] Home - Google Drive and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/23 22:11:44  [msedge.exe] AfterQuery Experts - Transform the Future of Technology and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 22:11:50  [msedge.exe] Untitled - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 22:11:50  [msedge.exe] auth.afterquery.com/__/auth/handler?apiKey=AIzaSyBk8ZcYp3QaFiOqxC9haN99InPLHUC1HIk&appName=%5BDEFAULT%5D&authType=signInViaPopup&redirectUrl=https%3A%2F%2Fexperts.afterquery.com%2Flogin%3FreturnTo%3D%252Fonboarding&v=11.10.0&eventId=9802208226&providerId=google.com&scopes=profile#fac=eyJraWQiOiJrMnhhbUEiLCJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxOjcwNzExNTQzMzA3MDp3ZWI6ODUzNTgzYWVhZThmOWJmYjZjN2E3ZiIsImF1ZCI6WyJwcm9qZWN0cy83MDcxMTU0MzMwNzAiLCJwcm9qZWN0cy9hZnRlcnF1ZXJ5YWkiXSwicHJvdmlkZXIiOiJyZWNhcHRja
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 22:11:53  [msedge.exe] Sign in - Google Accounts - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 22:11:58  [msedge.exe] auth.afterquery.com/__/auth/handler?state=AMbdmDmYhB8lgSi4rtj-tUr_RGvy1ro1rdir_igzQL1vg9jKf3t6vgPWlWbZI_qmGBbL4iQogi6b5UGN8r-LwfYJ4RnYIHJ20SYLeMsrF0v3pBqJwS9JqQlS_8nUuaOqT4a2-KASeX_u4lTR6CXSwbeBxULu9PcKHrs5y2m3-mLf-JSO__xItoliTyfajEPqMuJGy3-w2XGu8dHOQ6BUYoc0V7V_yzACzxuz4JbAgP5kX6ONr_N0EUZePNEO961Z7WclW-cz4FDqJOdKj_S59X1z48djihxqy9QDK_XSzxDMEHMqamocHebudf5MgQ&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AXEQxICGAIxE0kzmvXpKhzJov69y_jmaQaoSCQ8D12Jk-O79BQbUsZEpo1AllMWNXffj2Q&scope=email+profile+https%3A%2F
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 22:12:00  [msedge.exe] AfterQuery Experts - Transform the Future of Technology and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  707039301
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [Clipboard]
+  7204
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 22:15:46  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 22:19:05  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 22:19:05  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 22:19:05  [msedge.exe] AfterQuery Experts - Transform the Future of Technology and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
