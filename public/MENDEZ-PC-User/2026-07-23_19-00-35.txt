@@ -1,0 +1,2782 @@
+﻿  [LMB]
+  i didnt
+  [LMB]
+  [Bk]i
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][->][ENTER]
+  i'll get started n it if that's what you want [Bk].[Ctrl]a
+  [Clipboard]
+  So for the VotingFreeze
+  Not intentional, it's actually a real gap. The migration script only ever covered NexaiCore, i didnt write the same one for VotingFreeze, and NexaiGovStaking
+  i'll get started on it if that's what you want.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/23 13:01:24  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 13:01:26  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:01:27  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  wha do you thnk of this reply[ENTER]
+  [ENTER]
+  [Ctrl]
+
+--- WINDOW  2026/07/23 13:01:34  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:01:36  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  i prefer m [Bk][Bk]y version so it doent sound likeano rthird party did it[ENTER]
+
+--- WINDOW  2026/07/23 13:02:44  [Telegram.exe] ‎Дмитрий – (114793)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 13:02:53  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  flash-loan/reward-sniping risk in NexaiGovStaking
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  h[Bk]so how c i reply this too..[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  On the flash-loan/reward-sniping thing, agreed it's real but low priority for now. Since there's no liquidity on the governance token yet there's nothing worth sniping. The fix is a minimum stake duration before rewards start counting, standard pattern for this. I'll get that built before mainnet, not urgent right now though.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/23 13:04:01  [Telegram.exe] ‎Дмитрий – (114793)
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/23 13:04:15  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  it[Bk][Bk]that's a yeah/[ENTER]
+  bu tfor th eigra[Bk][Bk]mi[Bk][Bk][Bk]migraiton shi[ENTER]
+  he needs to lik eou know[ENTER]
+  give a go ahead beo[Bk]fore i can wokring oi that is[ENTER]
+
+--- WINDOW  2026/07/23 13:05:19  [Telegram.exe] ‎Дмитрий – (114795)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:07:15  [Telegram.exe] ‎Дмитрий – (114796)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:08:07  [PickerHost.exe] Your battery is running low.
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 13:09:04  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:09:04  [Telegram.exe] ‎Дмитрий – (114798)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 13:09:05  [Telegram.exe] ‎MZ HUSTLE FORUM – (114798)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:11:49  [Telegram.exe] ‎MZ HUSTLE FORUM – (114799)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:12:12  [Telegram.exe] ‎MZ HUSTLE FORUM – (114800)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:13:49  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:17:19  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:17:19  [Telegram.exe] ‎MZ HUSTLE FORUM – (114802)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 13:17:21  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:17:29  [TradingView.exe] TradingView
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:17:30  [TradingView.exe] EURUSD
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:18:12  [TradingView.exe] EURUSD ▼   / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:18:14  [TradingView.exe] EURUSD ▼ 1.13876 −0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:18:14  [TradingView.exe] EURUSD ▼ 1.13865 −0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:18:18  [TradingView.exe] EURUSD ▼ 1.13866 −0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:18:21  [TradingView.exe] EURUSD ▼ 1.13865 −0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:18:26  [TradingView.exe] EURUSD ▼ 1.13866 −0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:18:26  [TradingView.exe] EURUSD ▼ 1.13865 −0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:18:31  [TradingView.exe] EURUSD ▼ 1.13864 −0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:18:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:18:40  [Antigravity IDE.exe] Antigravity IDE
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:19:39  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+================================================================================
+ SESSION START  2026/07/23 13:23:27
+================================================================================
+
+
+--- WINDOW  2026/07/23 13:23:27  [SynTPEnh.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:23:32  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:23:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 13:23:41  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:23:50  [opera.exe] opera.com/client/upgraded?utm_source=wps&utm_medium=pb&utm_campaign=wpstest2%2Fopera.exe - Opera
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:23:53  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 13:27:13  [chrome.exe] x.com - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  # Migrate VotingFreeze + NexaiGovStaking Admin to Timelock
+  
+  Per Dmitry's review: `VotingFreeze`'s `ADMIN_ROLE` (controls who can
+  create proposals) is still on the deployer EOA — only `NexaiCore` got
+  migrated via `MigrateAdminToTimelock.s.sol`. Same gap likely applies
+  to `NexaiGovStaking` if it has any admin-gated functions. Fix both,
+  following the exact same pattern already proven for `NexaiCore`.
+  
+  ## Scope
+  
+  - **`VotingFreeze.sol`**: `ADMIN_ROLE` (gates `createProposal`) should
+    move to the `TimelockController`, same as `NexaiCore`'s
+    `ADMIN_ROLE`/`DEFAULT_ADMIN_ROLE`
+  - **`NexaiGovStaking.sol`**: check whether it has any admin-gated
+    functions at all — recall it was deliberately built with minimal
+    access control (`distributeRewards` is intentionally permissionless,
+    per its own contract comment). If there's no real `ADMIN_ROLE` to
+    migrate, say so rather than inventing one to migrate for
+    consistency's sake
+  
+  ## Requirements
+  
+  - New script, e.g. `script/MigrateGovContractsToTimelock.s.sol` —
+    separate from `MigrateAdminToTimelock.s.sol` (which is scoped to
+    `NexaiCore` and already reviewed/approved), not merged into it
+  - **Same grant-before-revoke ordering** as the original migration
+    script: grant the timelock the new role(s) first, verify the grant
+    landed, only then revoke the EOA's role — so the EOA can never
+    self-lock-out mid-migration if an earlier step silently failed
+  - Reuse the existing `TimelockController` address (from
+    `DeployTimelock.s.sol`) — do not deploy a second timelock instance
+  - Same testnet-only scope, same style/conventions as the existing
+    migration script
+  
+  ## Tests
+  
+  - Confirm the EOA can no longer call `createProposal` on `VotingFreeze`
+    after migration
+  - Confirm the timelock (via the same Safe → Timelock → execute flow
+    already proven in `NexaiCoreAdminTest`) can successfully call
+    `createProposal` post-migration
+  - If `NexaiGovStaking` genuinely has no admin role to migrate, no test
+    needed there — just confirm and document that finding
+  
+  ## Notes
+  
+  - Testnet only, no mainnet
+  - Standard process: run `forge build && forge test` before reporting
+    back
+
+--- WINDOW  2026/07/23 13:28:06  [chrome.exe] x.com/home - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 13:29:44  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]c
+  [Clipboard]
+  Everything's built:
+  
+  script/MigrateGovContractsToTimelock.s.sol — new, separate script. Migrates VotingFreeze's DEFAULT_ADMIN_ROLE/ADMIN_ROLE to the existing TimelockController using the same grant→verify→revoke ordering as MigrateAdminToTimelock.s.sol (ADMIN_ROLE revoked before DEFAULT_ADMIN_ROLE, so the EOA can't self-lock-out mid-migration). Reuses the existing timelock — deploys nothing new.
+  NexaiGovStaking finding: it doesn't import AccessControl at all — stake/unstake/claim are gated only by the caller moving their own funds, and distributeRewards is intentionally permissionless per its own doc comment. There's no admin role to migrate. Documented that in the script's comment and the README rather than inventing a role to migrate for consistency's sake.
+  test/VotingFreezeAdmin.t.sol — new fork test, same structure as NexaiCoreAdminTest: real Safe (2-of-3) + real TimelockController on a Base Sepolia fork. Two tests: the EOA reverts calling createProposal post-migration, and the full Safe→Timelock(48h)→execute path successfully calls createProposal and the resulting proposal has the right duration.
+  README updated with a step 4 under "Admin & Governance" documenting both the migration and the NexaiGovStaking finding.
+  One thing I can't do: forge still isn't installed on this machine (confirmed again just now — same gap as earlier this session). I can't run forge build && forge test myself. You'll need to run it — forge test --match-path test/VotingFreezeAdmin.t.sol at minimum, ideally the full suite since this touches shared migration conventions.
+  [Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/23 13:31:02  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 13:31:08  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 13:31:25  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:31:36  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  wsl[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 13:32:00  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  cd /mnt/c/Users/USER/Desktop/NEXAI/contracts
+  source .env
+  forge build && forge test
+  [LMB]
+
+--- WINDOW  2026/07/23 13:32:11  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI$ cd /mnt/c/Users/USER/Desktop/NEXAI/contracts
+  source .env
+  forge build && forge test
+  [⠢] Compiling...
+  [⠆] Compiling 2 files with Solc 0.8.35
+  [⠔] Solc 0.8.35 finished in 6.03s
+  Compiler run successful with warnings:
+  Warning (2018): Function state mutability can be restricted to pure
+    --> src/governance/NexaiGovToken.sol:52:5:
+     |
+  52 |     function maxWallet() public view returns (uint256) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+  
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/governance/NexaiLiquidityLock.sol:35:17
+     │
+  35 │         require(_releaseTime > block.timestamp, "Release time must be in the future");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/PriceOracle.sol:82:17
+     │
+  82 │         require(block.timestamp - updatedAt < 1 hours, "Chainlink price stale");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  warning[unsafe-typecast]: typecasts that can truncate values should be checked
+     ╭▸ test/PriceOracle.t.sol:73:37
+     │
+  73 │     bytes32 public redstoneFeedId = bytes32("ETH");
+     │                                     ━━━━━━━━━━━━━━
+     │
+     ├ note: consider disabling this lint if you're certain the cast is safe
+     │
+     │       // casting to 'bytes32' is safe because [explain why]
+     │       // forge-lint: disable-next-line(unsafe-typecast)
+     │
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+  
+  warning[unsafe-typecast]: typecasts that can truncate values should be checked
+     ╭▸ script/DeployVesting.s.sol:98:33
+     │
+  98 │         uint128 teamPerMember = uint128(TEAM_ALLOCATION / 3);
+     │                                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ├ note: consider disabling this lint if you're certain the cast is safe
+     │
+     │       // casting to 'uint128' is safe because [explain why]
+     │       // forge-lint: disable-next-line(unsafe-typecast)
+     │
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+  
+  warning[unsafe-typecast]: typecasts that can truncate values should be checked
+      ╭▸ script/DeployVesting.s.sol:105:13
+      │
+  105 │             uint128(ECOSYSTEM_ALLOCATION),
+      │             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      │
+      ├ note: consider disabling this lint if you're certain the cast is safe
+      │
+      │       // casting to 'uint128' is safe because [explain why]
+      │       // forge-lint: disable-next-line(unsafe-typecast)
+      │
+      │
+      ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#unsafe-typecast
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/VotingFreeze.t.sol:20:9
+     │
+  20 │         govToken.transfer(alice, 10_000 * 10 ** 18);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/VotingFreeze.t.sol:21:9
+     │
+  21 │         govToken.transfer(bob, 10_000 * 10 ** 18);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ script/DeployLiquidityLock.s.sol:43:9
+     │
+  43 │         IERC20(GOV_TOKEN).transfer(address(lock), LIQUIDITY_ALLOCATION);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovStaking.t.sol:25:9
+     │
+  25 │         govToken.transfer(alice, 10_000 * 10 ** 18);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:35:9
+     │
+  35 │         govToken.transfer(alice, cap);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovStaking.t.sol:26:9
+     │
+  26 │         govToken.transfer(bob, 10_000 * 10 ** 18);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:39:9
+     │
+  39 │         govToken.transfer(alice, 1);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:44:9
+     │
+  44 │         govToken.transfer(alice, cap);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:51:9
+     │
+  51 │         govToken.transfer(alice, cap + 1000 * 10 ** 18);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/governance/NexaiLiquidityLock.sol:44:17
+     │
+  44 │         require(block.timestamp >= releaseTime, "Still locked");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:58:9
+     │
+  58 │         govToken.transfer(alice, cap + 1000 * 10 ** 18); // alice now above cap while exempt
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:67:9
+     │
+  67 │         govToken.transfer(alice, 1);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/governance/VotingFreeze.sol:76:17
+     │
+  76 │         require(block.timestamp < proposal.endTime, "Voting window closed");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:78:9
+     │
+  78 │         govToken.transfer(alice, cap);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:79:9
+     │
+  79 │         govToken.transfer(bob, 1000 * 10 ** 18);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:83:9
+     │
+  83 │         govToken.transfer(alice, 1);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  warning[block-timestamp]: usage of `block.timestamp` in a comparison may be manipulated by validators
+     ╭▸ src/governance/VotingFreeze.sol:98:17
+     │
+  98 │         require(block.timestamp >= proposal.endTime, "Voting window still open");
+     │                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#block-timestamp
+  
+  warning[erc20-unchecked-transfer]: ERC20 'transfer' and 'transferFrom' calls should check the return value
+     ╭▸ test/NexaiGovToken.t.sol:91:9
+     │
+  91 │         govToken.transfer(alice, 1);
+     │         ━━━━━━━━━━━━━━━━━━━━━━━━━━━
+     │
+     ╰ help: https://book.getfoundry.sh/reference/forge/forge-lint#erc20-unchecked-transfer
+  
+  [⠢] Compiling...
+  No files changed, compilation skipped
+  
+  Ran 7 tests for test/NexaiLiquidityLock.t.sol:NexaiLiquidityLockTest
+  [PASS] test_Constructor_RevertsOnPastReleaseTime() (gas: 45388)
+  [PASS] test_Constructor_RevertsOnZeroBeneficiary() (gas: 43233)
+  [PASS] test_Constructor_RevertsOnZeroToken() (gas: 42966)
+  [PASS] test_Release_IsPermissionless() (gas: 82448)
+  [PASS] test_Release_RevertsBeforeReleaseTime() (gas: 14043)
+  [PASS] test_Release_RevertsIfCalledTwice() (gas: 77188)
+  [PASS] test_Release_TransfersFullBalanceAtReleaseTime() (gas: 87040)
+  Suite result: ok. 7 passed; 0 failed; 0 skipped; finished in 2.05ms (988.90µs CPU time)
+  
+  Ran 7 tests for test/NexaiGovStaking.t.sol:NexaiGovStakingTest
+  [PASS] test_Claim_RevertsWithNothingToClaim() (gas: 32317)
+  [PASS] test_DistributeRewards_RevertsWithNoStakers() (gas: 22942)
+  [PASS] test_RewardAccumulation_SequentialMultiUser_ExactAmounts() (gas: 483675)
+  [PASS] test_Stake_IncreasesBalanceAndTotal() (gas: 130334)
+  [PASS] test_StakingAndVotingFreeze_AreIndependent() (gas: 2277277)
+  [PASS] test_Unstake_ReturnsTokensAndDecreasesBalance() (gas: 157868)
+  [PASS] test_UnstakedHoldersEarnNothing() (gas: 211407)
+  Suite result: ok. 7 passed; 0 failed; 0 skipped; finished in 6.49ms (4.37ms CPU time)
+  
+  Ran 10 tests for test/NexaiGovToken.t.sol:NexaiGovTokenTest
+  [PASS] test_ExemptRecipient_CanExceedCap() (gas: 79532)
+  [PASS] test_FixedSupply_MintedToDeployer() (gas: 16273)
+  [PASS] test_MaxWallet_Is5PercentOfSupply() (gas: 8245)
+  [PASS] test_NoPublicMintFunctionExists() (gas: 14137)
+  [PASS] test_OnlyAdminRole_CanSetExemption() (gas: 123670)
+  [PASS] test_RevokingExemption_DoesNotClawBackButBlocksFurtherReceipt() (gas: 75857)
+  [PASS] test_SenderBalanceIsNeverCapChecked_OnlyRecipient() (gas: 57593)
+  [PASS] test_TransferBetweenTwoNonExemptWallets_RespectsCapOnRecipient() (gas: 97838)
+  [PASS] test_Transfer_RevertsAboveCap_ForNonExemptRecipient() (gas: 62222)
+  [PASS] test_Transfer_SucceedsExactlyAtCap() (gas: 52274)
+  Suite result: ok. 10 passed; 0 failed; 0 skipped; finished in 3.52ms (2.55ms CPU time)
+  
+  Ran 4 tests for test/NexaiIndexToken.t.sol:NexaiIndexTokenTest
+  [PASS] test_Burn_Reverts_When_NotCore() (gas: 179160)
+  [PASS] test_Burn_Succeeds_When_Core() (gas: 80230)
+  [PASS] test_Mint_Reverts_When_NotCore() (gas: 121654)
+  [PASS] test_Mint_Succeeds_When_Core() (gas: 69978)
+  Suite result: ok. 4 passed; 0 failed; 0 skipped; finished in 3.45ms (2.67ms CPU time)
+  
+  Ran 6 tests for test/PriceOracle.t.sol:PriceOracleTest
+  [PASS] test_GetChainlinkPrice_Reverts_NegativePrice() (gas: 69371)
+  [PASS] test_GetChainlinkPrice_Reverts_StaleData() (gas: 66057)
+  [PASS] test_GetChainlinkPrice_Reverts_ZeroPrice() (gas: 64259)
+  [PASS] test_GetChainlinkPrice_Success() (gas: 61176)
+  [PASS] test_GetRedstonePrice_Stub() (gas: 88431)
+  [PASS] test_SetTokenConfig() (gas: 65761)
+  Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 1.93ms (1.14ms CPU time)
+  
+  Ran 10 tests for test/VotingFreeze.t.sol:VotingFreezeTest
+  [PASS] test_CannotVoteAfterWindowCloses() (gas: 78119)
+  [PASS] test_CannotVoteAgainOnSameProposal_WhileLocked() (gas: 172561)
+  [PASS] test_CannotWithdrawTwice() (gas: 156887)
+  [PASS] test_DurationIsParameterized_NotHardcoded() (gas: 104573)
+  [PASS] test_EscrowedTokensCannotBeUsedToVoteElsewhere_WhileFrozen() (gas: 253571)
+  [PASS] test_MultipleProposalsAndVoters_DoNotCrossContaminate() (gas: 370922)
+  [PASS] test_OnlyAdminRole_CanCreateProposal() (gas: 121431)
+  [PASS] test_Vote_EscrowsTokensAndRecordsTally() (gas: 185283)
+  [PASS] test_Withdraw_RevertsBeforeWindowCloses() (gas: 172745)
+  [PASS] test_Withdraw_SucceedsExactlyAtWindowClose() (gas: 162063)
+  Suite result: ok. 10 passed; 0 failed; 0 skipped; finished in 7.72ms (5.84ms CPU time)
+  
+  Ran 10 tests for test/NexaiCore.t.sol:NexaiCoreTest
+  [PASS] testFuzz_Solvency(uint256,uint256,uint256,uint256) (runs: 256, μ: 323790, ~: 326100)
+  [PASS] test_Deposit_Correctness() (gas: 212838)
+  [PASS] test_Deposit_DustAmount() (gas: 202294)
+  [PASS] test_Deposit_UsesLiveBasketWeightsAtCallTime() (gas: 274593)
+  [PASS] test_MultipleDepositors_NoCrossContamination() (gas: 516409)
+  [PASS] test_MultipleDepositsAndRedeems_SequentialBalanceTracking() (gas: 415189)
+  [PASS] test_Redeem_Correctness() (gas: 252664)
+  [PASS] test_Redeem_DustAmount() (gas: 243119)
+  [PASS] test_Redeem_RevertsWhenBasketReconfiguredToNewUnfundedToken() (gas: 1309176)
+  [PASS] test_Redeem_UsesLiveBasketWeightsAfterReconfiguration() (gas: 270065)
+  Suite result: ok. 10 passed; 0 failed; 0 skipped; finished in 639.70ms (668.08ms CPU time)
+  
+  Ran 20 tests for test/NexaiZapper.t.sol:NexaiZapperTest
+  [PASS] test_RevertsOnExcessSlippage() (gas: 134692)
+  [PASS] test_RevertsOnExcessSlippageUsdt_WethLeg() (gas: 135297)
+  [PASS] test_RevertsOnExcessSlippageWeth() (gas: 134947)
+  [PASS] test_RevertsWhenBasketHasThirdToken() (gas: 1199689)
+  [PASS] test_RevertsWhenBasketHasThirdToken_Usdt() (gas: 1201755)
+  [PASS] test_RevertsWhenBasketHasThirdToken_Weth() (gas: 1199553)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc() (gas: 1157319)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc_Usdt() (gas: 1156769)
+  [PASS] test_RevertsWhenBasketIsNotWethUsdc_Weth() (gas: 1157051)
+  [PASS] test_RevertsWhenBudgetCantCoverBothLegsCombined() (gas: 222392)
+  [PASS] test_RevertsWhenMaxUsdcInTooLowForDirectLeg() (gas: 72685)
+  [PASS] test_RevertsWhenMaxWethInTooLowForDirectLeg() (gas: 72552)
+  [PASS] test_SequentialZapDeposits_DifferentEntryTokens_NoStateLeak() (gas: 1063252)
+  [PASS] test_ZapDepositUsdc_Correctness() (gas: 419470)
+  [PASS] test_ZapDepositUsdc_DustAmount() (gas: 416220)
+  [PASS] test_ZapDepositUsdc_SlippageBoundary_ExactRefund() (gas: 405534)
+  [PASS] test_ZapDepositUsdt_Correctness() (gas: 490511)
+  [PASS] test_ZapDepositUsdt_SlippageBoundary_ExactRefund() (gas: 471382)
+  [PASS] test_ZapDepositWeth_Correctness() (gas: 419304)
+  [PASS] test_ZapDepositWeth_SlippageBoundary_ExactRefund() (gas: 405773)
+  Suite result: ok. 20 passed; 0 failed; 0 skipped; finished in 38.85ms (36.21ms CPU time)
+  
+  Ran 2 tests for test/VotingFreezeAdmin.t.sol:VotingFreezeAdminTest
+  [PASS] test_EOACannotCreateProposalAfterMigration() (gas: 117824)
+  [PASS] test_FullSafeToTimelockToExecute_CreatesProposal() (gas: 236698)
+  Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 5.03s (394.12ms CPU time)
+  
+  Ran 6 tests for test/NexaiCoreAdmin.t.sol:NexaiCoreAdminTest
+  [PASS] test_EOACannotCallAdminFunctionsAfterMigration() (gas: 126502)
+  [PASS] test_FullSafeToTimelockToExecute_UpdatesBasket() (gas: 229188)
+  [PASS] test_GuardianSafe_CanCancelQueuedProposal_WithoutPause() (gas: 231999)
+  [PASS] test_GuardianSafe_CanPauseInstantly() (gas: 124667)
+  [PASS] test_PauseDoesNotHaltQueuedProposal() (gas: 338872)
+  [PASS] test_Unpause_RequiresTimelock_Not1of3() (gas: 398605)
+  Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 5.35s (19.50ms CPU time)
+  
+  Ran 8 tests for test/NexaiVesting.t.sol:NexaiVestingTest
+  [PASS] test_Cancel_RefundsUnvestedToSender_LeavesVestedClaimableByRecipient() (gas: 414821)
+  [PASS] test_CapExemption_IsRequiredBeforeFundingStreams() (gas: 2556298)
+  [PASS] test_EcosystemStream_NoCliff_VestsFromStart() (gas: 265714)
+  [PASS] test_NonCancelableStream_CannotBeCanceled() (gas: 284976)
+  [PASS] test_OnlySender_CanCancel() (gas: 283839)
+  [PASS] test_StreamCreated_WithCorrectParams() (gas: 292127)
+  [PASS] test_TeamStream_LinearAfterCliff_FullyVestedAtEnd() (gas: 294205)
+  [PASS] test_TeamStream_NothingVestsBeforeCliff() (gas: 291467)
+  Suite result: ok. 8 passed; 0 failed; 0 skipped; finished in 17.73s (28.91s CPU time)
+  
+  Ran 11 test suites in 17.82s (28.82s CPU time): 90 tests passed, 0 failed, 0 skipped (90 total tests)
+  [LMB]
+
+--- WINDOW  2026/07/23 13:33:08  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 13:42:28  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 13:42:47  [Antigravity IDE.exe] NEXAI - Antigravity IDE - NexaiGovStaking.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 13:42:48  [Antigravity IDE.exe] NEXAI - Antigravity IDE - VotingFreezeAdmin.t.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 13:42:50  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 13:42:51  [Antigravity IDE.exe] NEXAI - Antigravity IDE - VotingFreezeAdmin.t.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]a
+  [Clipboard]
+  // SPDX-License-Identifier: MIT
+  pragma solidity ^0.8.20;
+  
+  import {Test} from "forge-std/Test.sol";
+  import {NexaiGovToken} from "../src/governance/NexaiGovToken.sol";
+  import {VotingFreeze} from "../src/governance/VotingFreeze.sol";
+  import {TimelockController} from "@openzeppelin/contracts/governance/TimelockController.sol";
+  import {ISafe, ISafeProxyFactory} from "../src/interfaces/ISafe.sol";
+  
+  /**
+   * @title VotingFreezeAdminTest
+   * @dev End-to-end tests for script/MigrateGovContractsToTimelock.s.sol - proves
+   * VotingFreeze's ADMIN_ROLE/DEFAULT_ADMIN_ROLE actually move from the deployer EOA to
+   * the timelock, and that the timelock can exercise that role through the real
+   * Safe(2-of-3) -> Timelock(48h) -> execute flow already proven in
+   * NexaiCoreAdminTest. Forks Base Sepolia and calls Safe's real, canonical v1.4.1
+   * singleton/factory, same "genuine contract, not a mock" reasoning as
+   * NexaiCoreAdmin.t.sol. Requires BASE_SEPOLIA_RPC_URL in `.env`.
+   *
+   * NexaiGovStaking is deliberately not covered here - it has no AccessControl/admin
+   * role at all (see MigrateGovContractsToTimelock.s.sol's doc comment), so there is
+   * nothing for a migration test to prove for it.
+   */
+  contract VotingFreezeAdminTest is Test {
+      address constant SAFE_SINGLETON = 0x29fcB43b46531BcA003ddC8FCB67FFE91900C762;
+      address constant SAFE_PROXY_FACTORY = 0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67;
+      address constant COMPATIBILITY_FALLBACK_HANDLER = 0xfd0732Dc9E303f09fCEf3a7388Ad10A83459Ec99;
+  
+      NexaiGovToken public govToken;
+      VotingFreeze public votingFreeze;
+  
+      address public adminSafe; // 2-of-3, proposer on the timelock
+      TimelockController public timelock;
+  
+      uint256 constant SIGNER_KEY_1 = 0xA11CE1;
+      uint256 constant SIGNER_KEY_2 = 0xA11CE2;
+      uint256 constant SIGNER_KEY_3 = 0xA11CE3;
+  
+      address public deployer = address(this);
+  
+      function setUp() public {
+          vm.createSelectFork(vm.envString("BASE_SEPOLIA_RPC_URL"));
+  
+          // --- Token + VotingFreeze, mirrors DeployGovToken.s.sol / DeployVotingFreeze.s.sol ---
+          govToken = new NexaiGovToken();
+          votingFreeze = new VotingFreeze(address(govToken));
+          govToken.setCapExempt(address(votingFreeze), true);
+  
+          // --- Real Safe, via the canonical factory already deployed on this fork,
+          // mirrors DeploySafes.s.sol (only AdminSafe is needed here - VotingFreeze has
+          // no guardian/pause concept) ---
+          address[] memory owners = new address[](3);
+          owners[0] = vm.addr(SIGNER_KEY_1);
+          owners[1] = vm.addr(SIGNER_KEY_2);
+          owners[2] = vm.addr(SIGNER_KEY_3);
+  
+          adminSafe = _deploySafe(owners, 2, 0);
+  
+          // --- Timelock, mirrors DeployTimelock.s.sol ---
+          address[] memory proposers = new address[](1);
+          proposers[0] = adminSafe;
+          address[] memory executors = new address[](1);
+          executors[0] = address(0); // permissionless execution
+  
+          timelock = new TimelockController(48 hours, proposers, executors, address(this));
+          timelock.renounceRole(timelock.TIMELOCK_ADMIN_ROLE(), address(this));
+  
+          // --- Migrate VotingFreeze admin control, mirrors MigrateGovContractsToTimelock.s.sol ---
+          votingFreeze.grantRole(votingFreeze.DEFAULT_ADMIN_ROLE(), address(timelock));
+          votingFreeze.grantRole(votingFreeze.ADMIN_ROLE(), address(timelock));
+          votingFreeze.revokeRole(votingFreeze.ADMIN_ROLE(), deployer);
+          votingFreeze.revokeRole(votingFreeze.DEFAULT_ADMIN_ROLE(), deployer);
+      }
+  
+      // ------------------------------------------------------------------
+      // 1. Old EOA is locked out of createProposal after migration
+      // ------------------------------------------------------------------
+      function test_EOACannotCreateProposalAfterMigration() public {
+          vm.expectRevert();
+          votingFreeze.createProposal(7);
+      }
+  
+      // ------------------------------------------------------------------
+      // 2. Full Safe(2-of-3) -> Timelock(48h) -> execute flow can create a proposal
+      // ------------------------------------------------------------------
+      function test_FullSafeToTimelockToExecute_CreatesProposal() public {
+          bytes memory createCalldata = abi.encodeWithSelector(VotingFreeze.createProposal.selector, uint256(7));
+  
+          bytes32 salt = bytes32(uint256(1));
+          bytes32 id = _scheduleViaAdminSafe(address(votingFreeze), createCalldata, salt);
+          assertTrue(timelock.isOperationPending(id), "not pending after schedule");
+  
+          vm.warp(block.timestamp + 48 hours + 1);
+          timelock.execute(address(votingFreeze), 0, createCalldata, bytes32(0), salt);
+  
+          assertTrue(timelock.isOperationDone(id), "operation not marked done");
+          assertEq(votingFreeze.proposalCount(), 1, "proposal was not actually created");
+          (uint256 endTime,,) = votingFreeze.proposals(0);
+          assertEq(endTime, block.timestamp + 7 days, "proposal created with wrong duration");
+      }
+  
+      // ------------------------------------------------------------------
+      // Helpers - same pattern as NexaiCoreAdminTest
+      // ------------------------------------------------------------------
+  
+      function _deploySafe(address[] memory owners, uint256 threshold, uint256 saltNonce) internal returns (address) {
+          bytes memory initializer = abi.encodeWithSelector(
+              ISafe.setup.selector,
+              owners,
+              threshold,
+              address(0),
+              bytes(""),
+              COMPATIBILITY_FALLBACK_HANDLER,
+              address(0),
+              uint256(0),
+              payable(address(0))
+          );
+          address safe = ISafeProxyFactory(SAFE_PROXY_FACTORY).createProxyWithNonce(SAFE_SINGLETON, initializer, saltNonce);
+          assertEq(ISafe(safe).getThreshold(), threshold, "deployed Safe has unexpected threshold");
+          return safe;
+      }
+  
+      /// @dev Schedules `data` targeted at `target` through AdminSafe (2-of-3), the
+      /// timelock's sole proposer, using the timelock's own minimum delay.
+      function _scheduleViaAdminSafe(address target, bytes memory data, bytes32 salt) internal returns (bytes32 id) {
+          bytes memory scheduleCalldata = abi.encodeWithSelector(
+              TimelockController.schedule.selector, target, uint256(0), data, bytes32(0), salt, timelock.getMinDelay()
+          );
+          uint256[] memory keys = new uint256[](2);
+          keys[0] = SIGNER_KEY_1;
+          keys[1] = SIGNER_KEY_2;
+          bool ok = _execSafeTx(adminSafe, keys, address(timelock), scheduleCalldata);
+          assertTrue(ok, "AdminSafe schedule failed");
+          id = timelock.hashOperation(target, 0, data, bytes32(0), salt);
+      }
+  
+      /// @dev Executes `data` targeted at `to` through `safe`, signed by exactly the
+      /// given signer keys.
+      function _execSafeTx(address safe, uint256[] memory signerKeys, address to, bytes memory data)
+          internal
+          returns (bool success)
+      {
+          bytes memory signatures = _buildSignatures(safe, signerKeys, to, data);
+          try ISafe(safe).execTransaction(to, 0, data, 0, 0, 0, 0, address(0), payable(address(0)), signatures) returns (
+              bool ok
+          ) {
+              success = ok;
+          } catch {
+              success = false;
+          }
+      }
+  
+      /// @dev Builds a Safe-format signature blob: signs the transaction's EIP-712 hash
+      /// with each given key, ordered by increasing signer address (a hard Safe
+      /// requirement for its signature check).
+      function _buildSignatures(address safe, uint256[] memory signerKeys, address to, bytes memory data)
+          internal
+          view
+          returns (bytes memory signatures)
+      {
+          uint256 txNonce = ISafe(safe).nonce();
+          bytes32 txHash =
+              ISafe(safe).getTransactionHash(to, 0, data, 0, 0, 0, 0, address(0), address(0), txNonce);
+  
+          address[] memory signers = new address[](signerKeys.length);
+          for (uint256 i = 0; i < signerKeys.length; i++) {
+              signers[i] = vm.addr(signerKeys[i]);
+          }
+          for (uint256 i = 1; i < signerKeys.length; i++) {
+              uint256 keyToInsert = signerKeys[i];
+              address addrToInsert = signers[i];
+              uint256 j = i;
+              while (j > 0 && signers[j - 1] > addrToInsert) {
+                  signers[j] = signers[j - 1];
+                  signerKeys[j] = signerKeys[j - 1];
+                  j--;
+              }
+              signers[j] = addrToInsert;
+              signerKeys[j] = keyToInsert;
+          }
+  
+          for (uint256 i = 0; i < signerKeys.length; i++) {
+              (uint8 v, bytes32 r, bytes32 s) = vm.sign(signerKeys[i], txHash);
+              signatures = abi.encodePacked(signatures, r, s, v);
+          }
+      }
+  }
+  
+
+--- WINDOW  2026/07/23 13:42:54  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/23 13:43:17  [Antigravity IDE.exe] NEXAI - Antigravity IDE - VotingFreezeAdmin.t.sol
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 13:43:24  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 13:43:25  [Antigravity IDE.exe] NEXAI - Antigravity IDE - VotingFreezeAdmin.t.sol
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 13:43:27  [Antigravity IDE.exe] NEXAI - Antigravity IDE - MigrateGovContractsToTimelock.s.sol
+----------------------------------------------------------------------------
+  [Ctrl]a
+  [Clipboard]
+  // SPDX-License-Identifier: MIT
+  pragma solidity ^0.8.20;
+  
+  import {Script, console} from "forge-std/Script.sol";
+  import {VotingFreeze} from "../src/governance/VotingFreeze.sol";
+  
+  /**
+   * @title MigrateGovContractsToTimelock
+   * @dev ONE-WAY migration of VotingFreeze's admin control from the deployer EOA to the
+   * existing TimelockController (DeployTimelock.s.sol) - same reasoning and same
+   * grant-then-verify-then-revoke ordering as MigrateAdminToTimelock.s.sol, kept as its
+   * own script rather than merged into that one since it's scoped to a different
+   * contract (VotingFreeze, not NexaiCore) and that script is already reviewed/approved.
+   * Reuses the existing timelock instance - does not deploy a second one.
+   *
+   * Order matters and is chosen to avoid ever self-locking the EOA out mid-migration:
+   *   1. Grant TIMELOCK the new roles first
+   *   2. Verify each grant actually landed
+   *   3. Only then revoke the EOA's roles, ADMIN_ROLE before DEFAULT_ADMIN_ROLE - the EOA
+   *      needs DEFAULT_ADMIN_ROLE (the role-admin for ADMIN_ROLE) to still be able to fix
+   *      anything if an earlier step were wrong, so it's the last thing given up.
+   *
+   * NexaiGovStaking was checked and deliberately does NOT inherit AccessControl at all -
+   * stake/unstake/claim are gated by the caller only ever moving their own funds, and
+   * distributeRewards is intentionally permissionless per its own contract doc comment.
+   * There is no admin role to migrate there; nothing for this script to do for it, not an
+   * oversight.
+   * Testnet only.
+   */
+  contract MigrateGovContractsToTimelockScript is Script {
+      // Set these to the addresses printed by DeployVotingFreeze.s.sol / DeployTimelock.s.sol.
+      address constant VOTING_FREEZE = address(0);
+      address constant TIMELOCK = address(0);
+  
+      function run() external {
+          require(VOTING_FREEZE != address(0), "Set VOTING_FREEZE to DeployVotingFreeze.s.sol's address first");
+          require(TIMELOCK != address(0), "Set TIMELOCK to DeployTimelock.s.sol's TimelockController address first");
+  
+          VotingFreeze votingFreeze = VotingFreeze(VOTING_FREEZE);
+  
+          uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
+          address deployer = vm.addr(deployerPrivateKey);
+          vm.startBroadcast(deployerPrivateKey);
+  
+          // --- Step 1: grant the new roles ---
+          votingFreeze.grantRole(votingFreeze.DEFAULT_ADMIN_ROLE(), TIMELOCK);
+          votingFreeze.grantRole(votingFreeze.ADMIN_ROLE(), TIMELOCK);
+  
+          // --- Step 2: verify before touching the EOA's own access ---
+          require(
+              votingFreeze.hasRole(votingFreeze.DEFAULT_ADMIN_ROLE(), TIMELOCK),
+              "Timelock did not receive DEFAULT_ADMIN_ROLE"
+          );
+          require(votingFreeze.hasRole(votingFreeze.ADMIN_ROLE(), TIMELOCK), "Timelock did not receive ADMIN_ROLE");
+          console.log("Verified: TimelockController holds DEFAULT_ADMIN_ROLE + ADMIN_ROLE on VotingFreeze");
+  
+          // --- Step 3: revoke the EOA's roles, ADMIN_ROLE first ---
+          votingFreeze.revokeRole(votingFreeze.ADMIN_ROLE(), deployer);
+          console.log("Revoked ADMIN_ROLE from deployer EOA:", deployer);
+  
+          votingFreeze.revokeRole(votingFreeze.DEFAULT_ADMIN_ROLE(), deployer);
+          console.log("Revoked DEFAULT_ADMIN_ROLE from deployer EOA:", deployer);
+          console.log("Migration complete - VotingFreeze admin control now belongs to the timelock.");
+  
+          console.log("NexaiGovStaking has no AccessControl/admin role - nothing to migrate there (checked, not skipped).");
+  
+          vm.stopBroadcast();
+      }
+  }
+  
+  c
+  [LMB]
+
+--- WINDOW  2026/07/23 13:43:30  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/23 13:43:47  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  kay
+
+--- WINDOW  2026/07/23 13:44:33  [claude.exe] Claude
+----------------------------------------------------------------------------
+  so we done/[ENTER]
+  [LMB]
+  [LMB]
+  yeah caus [Bk]e it as[Bk][Bk]hasnt been deployed[ENTER]
+  and hold on[ENTER]
+  if we want to migrate[ENTER]
+  deo[Bk][Bk]oes itmean[ENTER]
+  dmitry has to be the one to deploy it/[ENTER]
+  you mwan like waet pro=i[Bk][Bk][Bk]ivae keys/[ENTER]
+  oh the epolia public address fr receieing [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 13:59:35  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 13:59:36  [StartMenuExperienceHost.exe] Start
+----------------------------------------------------------------------------
+  [LMB]
+
+================================================================================
+ SESSION START  2026/07/23 17:14:46
+================================================================================
+
+
+--- WINDOW  2026/07/23 17:14:46  [SynTPEnh.exe] (untitled)
+----------------------------------------------------------------------------
+      
+
+--- WINDOW  2026/07/23 17:14:52  [LockApp.exe] Windows Default Lock Screen
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:14:52  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:14:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:15:22  [ms-teams.exe] Microsoft Teams
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:15:53  [Discord.exe] Discord Updater
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:16:06  [ms-teams.exe] Microsoft Teams
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:16:28  [ChatGPT Classic.exe] ChatGPT Classic
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:16:39  [Discord.exe] Friends - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:16:49  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [->]yes[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:19:14  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:19:15  [ShellExperienceHost.exe] Windows Shell Experience Host
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:19:16  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:19:20  [ApplicationFrameHost.exe] Settings
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:19:36  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:20:03  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:20:07  [Antigravity IDE.exe] Antigravity IDE
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:20:14  [Antigravity IDE.exe] NEXAI - Antigravity IDE - MigrateGovContractsToTimelock.s.sol
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:21:06  [Antigravity IDE.exe] mendezbuilds - Antigravity IDE - .gitignore
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:21:20  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:21:56  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:22:07  [Antigravity IDE.exe] mendezbuilds - Antigravity IDE - .gitignore
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:22:59  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:24:37  [Antigravity IDE.exe] mendezbuilds - Antigravity IDE - .gitignore
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:24:46  [Telegram.exe] Telegram (114965)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:24:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:24:47  [Antigravity IDE.exe] mendezbuilds - Antigravity IDE - .gitignore
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:24:54  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:25:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:25:29  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:25:35  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:25:43  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl]a[Bk]hey claude[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:26:04  [Telegram.exe] Telegram (114965)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:26:05  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:26:10  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  NEXAI WEBSITE — Full Design & Functionality Concept
+  LOGIN
+  MetaMask / wallet connect
+  Gmail / email login (via Web3Auth or Magic.link)
+  Guest mode (view-only, cached static data — DDoS
+  protection, no live queries)
+  
+  MAIN SCREEN — Interaction Design
+  
+  Initial state (on load):
+  Center: live stat — number of NEXAI holder wallets
+  Below stat: "Join Now" button (leads to signup/login)
+  Background: interactive price chart — blurred and
+  pulled back (creates depth, doesn't distract)
+  Additional stat block: total amount invested in
+  promising AI startups via the AI Grants Fund — shows 
+  NEXAI actively supports the ecosystem, not just 
+  passively holds tokens
+  
+  On scroll down:
+  Stats + "Join Now" button fly upward with a spring/
+  elastic bounce animation
+  Chart zooms in and comes into sharp focus
+  Interactive markers appear on the chart — key project
+  milestones showing $NEXAI price at that moment
+  Further scrolling moves the chart timeline to the
+  right (revealing newer events as history accumulates)
+  
+  On scroll up:
+  Chart timeline moves back left toward the starting point
+  At the beginning: stats + "Join Now" button spring
+  back down to original position
+  
+  On max scroll down:
+  Social links section appears (Telegram, X) — present
+  at the end of every tab/section
+  
+  Technical notes:
+  Spring/elastic easing for stats block and button
+  Parallax effect between chart layer and text layer
+  Chart focus transition (blur → sharp) synced to scroll
+  Timeline navigation tied to scroll direction
+  
+  PROFILE (top right)
+  "i" info icon → shows $NEXAI + governance token balance, 
+  convert button (to USDC, basket tokens, or between the 
+  two NEXAI tokens)
+  "History" button → compact on-chain transaction scan, 
+  Base only for now (multichain deferred to Phase 3)
+  LEFT SIDEBAR TABS
+  Basket — detailed info on all 20 basket tokens, more
+  thorough than typical exchange listings. Built-in AI 
+  assistant that explains each token in simple terms 
+  (unique feature, no competitor has this)
+  Governance — active DAO votes, full historical voting
+  record
+  
+  Suggested additions (not finalized):
+  Persistent "Buy NEXAI" CTA — always visible
+  TVL counter near holder counter
+  Mobile-first design priority
+  
+  Status: concept only, detailed spec comes post M1-M2. Curious 
+  if you've got thoughts or ideas to add, from a technical 
+  feasibility angle or otherwise.
+  [LMB]
+
+--- WINDOW  2026/07/23 17:26:38  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  so i wa buil ehing fast.[Bk]to make it a quick[ENTER]
+  il need your hel to crea[Bk]ate implementation lanbreakit ino phase for easy review..
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/23 17:27:40  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:27:42  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:28:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:28:35  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:28:42  [explorer.exe] Desktop
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  nexai-website-demo[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:29:01  [Antigravity IDE.exe] mendezbuilds - Antigravity IDE - .gitignore
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:29:05  [Antigravity IDE.exe] Open Folder
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:29:10  [Antigravity IDE.exe] mendezbuilds - Antigravity IDE - .gitignore
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:29:10  [Antigravity IDE.exe] Antigravity IDE
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:29:14  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:29:23  [claude.exe] Claude
+----------------------------------------------------------------------------
+  ohxecutin.
+  [LMB]
+
+--- WINDOW  2026/07/23 17:30:37  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:31:10  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Untitled-1
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:31:13  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Claude Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:31:23  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:31:28  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:31:30  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:31:35  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:31:36  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  # NEXAI Website — Implementation Spec
+  
+  **Purpose of this document:** hand-off spec for Claude Code (or Google Antigravity) to execute the NEXAI website build phase by phase. Each phase ends in a reviewable, deployable checkpoint. Do not start a phase until the prior one is reviewed and approved.
+  
+  ---
+  
+  ## 1. Project Context
+  
+  - **NEXAI** is a dual-token protocol on **Base** (Ethereum L2):
+    - `$NEXAI` — onchain AI-sector index token, backed by a basket of 20 AI crypto projects
+    - Governance/fundraising token (name TBD) — ERC20, fixed-window freeze during voting, staking-based fee reward layer (independent of voting weight), Sablier-based cancelable vesting streams
+  - Smart contracts extend the **Reserve Protocol (DTF framework)**, written in Solidity.
+  - Rebalancing is quarterly via DAO vote.
+  - **Already deployed to Base Sepolia (testnet):** `NexaiIndexToken`, `NexaiCore`, mock WETH/USDC. End-to-end mint/redeem confirmed working through a trial frontend.
+  - Governance is linear token-weighted voting (not quadratic).
+  - **TODO before Phase 0 starts:** insert current deployed contract addresses (testnet, and mainnet once available) into `/config/contracts.ts`. Do not fabricate or assume addresses — pull from actual deployment records.
+  
+  ---
+  
+  ## 2. Tech Stack
+  
+  | Concern | Recommendation |
+  |---|---|
+  | Framework | Next.js (App Router) — SSR helps guest mode load fast/cached, better SEO |
+  | Wallet connect | wagmi + viem + RainbowKit |
+  | Email/social login | Web3Auth or Magic.link — **open decision, see Section 11** |
+  | Styling | Tailwind CSS |
+  | Animation | Framer Motion (spring/elastic UI transitions) + GSAP ScrollTrigger (scroll-driven chart/timeline work) |
+  | Price chart | TradingView Lightweight Charts (handles blur/focus + marker overlays well) |
+  | Holder count / indexing | Subgraph (The Graph) or Alchemy/Covalent — do **not** query holder count via direct RPC calls, it won't scale |
+  | Tx history | Basescan API (Base only for now) |
+  | AI assistant (basket tab) | Claude API, scoped per-token context (see Phase 3) |
+  | Hosting | Vercel (pairs naturally with Next.js + guest-mode caching) |
+  
+  ---
+  
+  ## 3. Suggested Repo Structure
+  
+  ```
+  /app
+    /page.tsx                 → main landing (guest + authed states)
+    /profile
+    /basket
+    /governance
+  /components
+    /landing (hero stat, chart, join-cta)
+    /sidebar
+    /profile-panel
+  /lib
+    /contracts.ts             → ABIs + addresses, imported not hardcoded inline
+    /indexer.ts                → subgraph/Alchemy queries
+    /web3auth.ts
+  /config
+    /contracts.ts              → TODO: fill in real addresses
+  /hooks
+    /useHolderCount.ts
+    /useTokenBalances.ts
+    /useTxHistory.ts
+  ```
+  
+  ---
+  
+  ## 4. Phase 0 — Foundation
+  
+  **Goal:** deployable skeleton, fast.
+  
+  - Repo scaffold (Next.js + Tailwind + wagmi/RainbowKit wired in)
+  - Wallet connect (MetaMask via RainbowKit) working against Base Sepolia
+  - Guest mode: static landing page served from cache, no live RPC/API calls — this is the DDoS-resistant public entry point
+  - Deploy pipeline to Vercel (staging URL)
+  
+  **Acceptance criteria:** staging URL live, wallet connects, guest mode loads with zero live queries (verify via network tab).
+  
+  ---
+  
+  ## 5. Phase 1 — Core Landing Experience
+  
+  **Goal:** the main screen, without scroll polish yet.
+  
+  - Live holder-count stat, backed by subgraph/indexer, refreshed on an interval (e.g. every 2–5 min) — not real-time RPC
+  - "Join Now" CTA → routes into auth flow
+  - Price chart rendered (static state, no scroll effects yet) using Lightweight Charts
+  - AI Grants Fund stat block — **data source TBD, see Section 11**; build as an admin-editable field for now, not assumed on-chain
+  
+  **Acceptance criteria:** landing page shows real holder count and chart with live price data; Join Now routes correctly.
+  
+  ---
+  
+  ## 6. Phase 2 — Auth + Profile
+  
+  **Goal:** users can log in multiple ways and see their own data.
+  
+  - Web3Auth or Magic.link integration for email/Gmail login (embedded wallet)
+  - Profile panel (top-right "i" icon):
+    - `$NEXAI` + governance token balances (wagmi reads against deployed contracts)
+    - Convert button — **scope explicitly per Section 11 before building**; at minimum, USDC ↔ NEXAI via existing `NexaiCore` mint/redeem
+  - History button: compact on-chain tx scan, Base only, via Basescan API
+  
+  **Acceptance criteria:** logged-in user sees correct live balances and their real tx history; guest mode is unaffected.
+  
+  ---
+  
+  ## 7. Phase 3 — Sidebar Tabs
+  
+  **Goal:** Basket and Governance tabs.
+  
+  - **Basket tab:** detail view for all 20 basket tokens (more thorough than a typical exchange listing). Ship with curated static write-ups per token first. Layer in the AI assistant afterward:
+    - AI assistant scoped strictly to the token being viewed (pass token context into the prompt, don't build an open-ended chatbot)
+    - Uses Claude API; keep this behind a feature flag so it can ship independently of the rest of the tab
+  - **Governance tab:** build the UI against mock data now. Do not wire to real governance contracts until the governance token (in progress separately) is deployed — this tab will show "coming soon" until then.
+  
+  **Acceptance criteria:** Basket tab shows accurate static info for all 20 tokens; AI assistant answers scoped questions correctly; Governance tab renders cleanly with mock data.
+  
+  ---
+  
+  ## 8. Phase 4 — Scroll Polish + Convert Finalization
+  
+  **Goal:** the signature scroll experience, and convert button fully scoped/built.
+  
+  - On scroll down: stats + Join Now fly up (spring/elastic, Framer Motion), chart transitions blur → sharp, milestone markers appear, timeline pans right with further scroll
+  - On scroll up: timeline reverses, stats spring back to origin
+  - On max scroll: social links (Telegram, X) appear — persistent across every tab
+  - Parallax between chart layer and text layer
+  - **Mobile:** do not port the same scroll-jacking mechanism directly — build a simplified fade/stack version for small viewports (see Section 12)
+  - Finalize Convert button per the Section 11 decision (may include DEX aggregator integration for NEXAI ↔ governance token conversion if approved)
+  
+  **Acceptance criteria:** scroll experience matches spec on desktop; mobile equivalent is smooth (test on actual devices, not just resized browser); convert button executes real transactions on testnet.
+  
+  ---
+  
+  ## 9. Phase 5 — Deferred
+  
+  Not part of this build push — sequence after Phase 4 ships and is reviewed:
+  
+  - Multichain tx history (beyond Base)
+  - Real governance data (once governance contracts are live)
+  - TVL counter
+  - Persistent "Buy NEXAI" CTA
+  - Any further mobile-first refinement beyond the Phase 4 baseline
+  
+  ---
+  
+  ## 10. Non-Functional Requirements
+  
+  - **Mobile-first:** every phase should be checked on mobile viewport, not just desktop — flagged explicitly because Phase 4's parallax/scroll-jacking is desktop-first by nature.
+  - **Performance:** guest mode must load with no live RPC/API calls (cache-served). Animation-heavy sections should degrade gracefully (reduced motion for users with `prefers-reduced-motion`).
+  - **Security:** no private keys or seed phrases ever touch the frontend or logs. Wallet interactions go through wagmi/viem standard flows only. Web3Auth/Magic.link keys handled per their SDK's documented security model — do not roll custom key storage.
+  
+  ---
+  
+  ## 11. Open Decisions Needed Before Building (flag to Dmitry)
+  
+  These are called out because building them wrong is expensive to unwind — confirm before Claude Code implements:
+  
+  1. **Web3Auth vs. Magic.link** — pick one; affects embedded wallet UX and integration work.
+  2. **Convert button scope** — USDC↔NEXAI and NEXAI↔basket-token can route through the existing `NexaiCore` mint/redeem. Converting **between the two NEXAI tokens** (index ↔ governance) is not native — it needs either a dedicated swap pool or a DEX aggregator (0x/1inch) integration. Confirm whether this is in scope for this push or deferred.
+  3. **AI Grants Fund data source** — on-chain (needs a grants registry contract, not yet built) or off-chain (admin-editable field)? Determines Phase 1 scope.
+  4. **Basket-tab AI assistant** — confirm Claude API is acceptable for this (vs. another provider), and confirm token-level context/data source for the curated write-ups.
+  
+  ---
+  
+  ## 12. Review Checkpoints
+  
+  Each phase should be reviewed (by Mendez, then Dmitry) before the next begins. Recommend Claude Code stops and flags for review at the end of every phase rather than running straight through to Phase 4.
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:32:27  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:32:33  [Telegram.exe] Telegram (114966)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:32:34  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:32:36  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Claude Code
+----------------------------------------------------------------------------
+  [Ctrl]v
+
+--- WINDOW  2026/07/23 17:32:39  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - # NEXAI Website — Implem…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:32:41  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  npm -v[ENTER]
+  node -
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:34:17  [Telegram.exe] Telegram (114966)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:34:19  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]a[Bk]this an atual demo[ENTER]
+  okay
+  [LMB]
+
+--- WINDOW  2026/07/23 17:35:07  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:35:23  [Telegram.exe] Telegram (114967)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:35:27  [Telegram.exe] ‎Дмитрий – (114967)
+----------------------------------------------------------------------------
+  [Bk][Bk][Bk][Bk]hi sis not a real thing is a demo/[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:35:44  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  prn
+
+--- WINDOW  2026/07/23 17:36:24  [Telegram.exe] ‎Дмитрий – (114967)
+----------------------------------------------------------------------------
+  [LMB]
+  eyeah want it to fii[Bk]nin[Bk]st [Bk][Bk]h importa[Bk]ing th efiles[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:37:32  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:37:35  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:37:36  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Untitled-1
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:38:59  [Telegram.exe] ‎Дмитрий – (114968)
+----------------------------------------------------------------------------
+  [LMB]
+  yes [Bk][Bk][Bk]ye [Bk][Bk][Bk][Bk]bur [Bk][Bk]t it needs hostigyiu[Bk]ou got a hositng plan too/
+
+--- WINDOW  2026/07/23 17:39:24  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:39:26  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Untitled-1
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:39:55  [Telegram.exe] ‎Дмитрий – (114968)
+----------------------------------------------------------------------------
+  we[Bk]her e
+
+--- WINDOW  2026/07/23 17:39:59  [Telegram.exe] ‎Дмитрий – (114969)
+----------------------------------------------------------------------------
+  you buy your domain/
+
+--- WINDOW  2026/07/23 17:40:13  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:40:14  [Telegram.exe] ‎Дмитрий – (114969)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:40:28  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:40:31  [Telegram.exe] ‎Дмитрий – (114969)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:41:04  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Untitled-1
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:41:07  [(unknown)] TelegramDesktop
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:41:08  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Untitled-1
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk]insat[Bk][Bk]tall[ENTER]
+  [LMB]
+  npm -v
+  [LMB]
+
+--- WINDOW  2026/07/23 17:41:46  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - package-lock.json
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:42:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:42:07  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+  .
+
+--- WINDOW  2026/07/23 17:42:13  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:42:21  [Telegram.exe] ‎Дмитрий – (114970)
+----------------------------------------------------------------------------
+  you ca get a 30day sfree hting there
+  [LMB]
+
+--- WINDOW  2026/07/23 17:42:35  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - package-lock.json
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:42:37  [Telegram.exe] ‎Дмитрий – (114970)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:42:38  [chrome.exe] Stitch - Design with AI - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:43:30  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [Clipboard]
+  NEXAI WEBSITE — Full Design & Functionality Concept
+  LOGIN
+  MetaMask / wallet connect
+  Gmail / email login (via Web3Auth or Magic.link)
+  Guest mode (view-only, cached static data — DDoS
+  protection, no live queries)
+  
+  MAIN SCREEN — Interaction Design
+  
+  Initial state (on load):
+  Center: live stat — number of NEXAI holder wallets
+  Below stat: "Join Now" button (leads to signup/login)
+  Background: interactive price chart — blurred and
+  pulled back (creates depth, doesn't distract)
+  Additional stat block: total amount invested in
+  promising AI startups via the AI Grants Fund — shows 
+  NEXAI actively supports the ecosystem, not just 
+  passively holds tokens
+  
+  On scroll down:
+  Stats + "Join Now" button fly upward with a spring/
+  elastic bounce animation
+  Chart zooms in and comes into sharp focus
+  Interactive markers appear on the chart — key project
+  milestones showing $NEXAI price at that moment
+  Further scrolling moves the chart timeline to the
+  right (revealing newer events as history accumulates)
+  
+  On scroll up:
+  Chart timeline moves back left toward the starting point
+  At the beginning: stats + "Join Now" button spring
+  back down to original position
+  
+  On max scroll down:
+  Social links section appears (Telegram, X) — present
+  at the end of every tab/section
+  
+  Technical notes:
+  Spring/elastic easing for stats block and button
+  Parallax effect between chart layer and text layer
+  Chart focus transition (blur → sharp) synced to scroll
+  Timeline navigation tied to scroll direction
+  
+  PROFILE (top right)
+  "i" info icon → shows $NEXAI + governance token balance, 
+  convert button (to USDC, basket tokens, or between the 
+  two NEXAI tokens)
+  "History" button → compact on-chain transaction scan, 
+  Base only for now (multichain deferred to Phase 3)
+  LEFT SIDEBAR TABS
+  Basket — detailed info on all 20 basket tokens, more
+  thorough than typical exchange listings. Built-in AI 
+  assistant that explains each token in simple terms 
+  (unique feature, no competitor has this)
+  Governance — active DAO votes, full historical voting
+  record
+  
+  Suggested additions (not finalized):
+  Persistent "Buy NEXAI" CTA — always visible
+  TVL counter near holder counter
+  Mobile-first design priority
+  
+  Status: concept only, detailed spec comes post M1-M2. Curious 
+  if you've got thoughts or ideas to add, from a technical 
+  feasibility angle or otherwise.
+
+--- WINDOW  2026/07/23 17:43:34  [chrome.exe] Stitch - Design with AI - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl]v
+
+--- WINDOW  2026/07/23 17:43:45  [chrome.exe] Stitch - Projects - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:43:49  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:43:50  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:43:51  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:43:53  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - package-lock.json
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:43:58  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:44:01  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:44:28  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - package-lock.json
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:44:33  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:45:12  [Telegram.exe] ‎Дмитрий – (114970)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:45:14  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - package-lock.json
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:45:20  [Telegram.exe] ‎Дмитрий – (114970)
+----------------------------------------------------------------------------
+  [Bk]erall insire ouyostl ine[<-][<-][<-]k
+  [LMB]
+
+--- WINDOW  2026/07/23 17:45:41  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - package-lock.json
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:45:45  [Telegram.exe] ‎Дмитрий – (114970)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:45:48  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - package-lock.json
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:46:12  [Telegram.exe] ‎Дмитрий – (114970)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:46:22  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:46:23  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - package-lock.json
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:46:49  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:46:53  [Code.exe] Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:47:03  [Code.exe] Welcome - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:47:14  [Code.exe] Open Folder
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:47:31  [Code.exe] Welcome - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:47:31  [Code.exe] Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:47:33  [Code.exe] Nexai_website_demo - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:47:39  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - package-lock.json
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:47:47  [Telegram.exe] ‎Дмитрий – (114970)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:48:22  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:48:24  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:50:14  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 17:50:17  [Telegram.exe] ‎Дмитрий – (114970)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:51:24  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:51:35  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Untitled-1
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:52:20  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:52:53  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Untitled-1
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:54:02  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:58:32  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Untitled-1
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:59:06  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 17:59:20  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Untitled-1
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:59:22  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:59:23  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 17:59:25  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:00:28  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:04:05  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:04:08  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  npm run dev[ENTER]
+
+--- WINDOW  2026/07/23 18:04:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:04:23  [ShellExperienceHost.exe] Windows Shell Experience Host
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:04:24  [ShellExperienceHost.exe] Control Center
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:04:29  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [Ctrl]c
+  [Clipboard]
+  http://localhost:3000
+
+--- WINDOW  2026/07/23 18:04:36  [chrome.exe] Stitch - Projects - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][ENTER]
+
+--- WINDOW  2026/07/23 18:04:47  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:05:20  [Telegram.exe] ‎Дмитрий – (114973)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:05:22  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:05:23  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:05:23  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:05:46  [chrome.exe] Create Next App - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:05:52  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:06:11  [Telegram.exe] ‎Дмитрий – (114973)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:06:15  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:06:16  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:06:17  [chrome.exe] Create Next App - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:06:17  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:06:17  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:06:20  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:06:21  [Telegram.exe] ‎Дмитрий – (114973)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:06:21  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:06:34  [Telegram.exe] ‎Дмитрий – (114973)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:06:43  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:06:47  [Lightshot.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:06:48  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:07:41  [Telegram.exe] ‎Дмитрий – (114973)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:08:09  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:08:31  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:08:38  [Telegram.exe] ‎Дмитрий – (114973)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:08:41  [Telegram.exe] (1) ‎Дмитрий – (114974)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:08:42  [Telegram.exe] ‎Дмитрий – (114973)
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+
+--- WINDOW  2026/07/23 18:10:12  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:10:17  [Telegram.exe] ‎Дмитрий – (114973)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:10:26  [Telegram.exe] Group Call
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:10:28  [rundll32.exe] Windows Security Alert
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:10:30  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:10:31  [Telegram.exe] Group Call
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:11:05  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:11:44  [Telegram.exe] Group Call
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:12:15  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:12:51  [Telegram.exe] ‎Дмитрий – (114974)
+----------------------------------------------------------------------------
+  chea r
+  [LMB]
+  [LMB]
+  [->][ENTER]
+
+--- WINDOW  2026/07/23 18:15:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:15:18  [Telegram.exe] ‎Дмитрий – (114974)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:16:19  [chrome.exe] NEXAI - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:16:20  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:16:20  [chrome.exe] NEXAI - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:16:21  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:20:05  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - HeroStat.tsx
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:22:32  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:22:56  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:23:00  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - page.tsx
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:23:04  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:23:06  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - page.tsx
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:23:16  [Telegram.exe] ‎Дмитрий – (114974)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:23:16  [chrome.exe] NEXAI - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:24:21  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - page.tsx
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:24:53  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:25:10  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:25:11  [Telegram.exe] ‎Дмитрий – (114974)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:25:15  [Telegram.exe] Group Call
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:25:29  [Telegram.exe] ‎Дмитрий – (114974)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:25:33  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:25:37  [Telegram.exe] ‎Дмитрий – (114974)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:25:40  [Telegram.exe] Media viewer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:25:51  [Telegram.exe] ‎Дмитрий – (114974)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:26:42  [Telegram.exe] ‎MZ HUSTLE FORUM – (114974)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:29:29  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:29:35  [Telegram.exe] ‎MZ HUSTLE FORUM – (114974)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:29:37  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:29:38  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:29:41  [chrome.exe] localhost - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:29:42  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:29:46  [Telegram.exe] ‎MZ HUSTLE FORUM – (114974)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:29:47  [Telegram.exe] ‎Дмитрий – (114974)
+----------------------------------------------------------------------------
+  you stil there chief [Bk]/[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:29:55  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:30:08  [claude.exe] Claude
+----------------------------------------------------------------------------
+  firs[Bk]t i' ld[Bk][Bk]d li[Ctrl]a[Bk]
+  [LMB]
+  [Clipboard]
+  # NEXAI Website — Implementation Spec
+  
+  **Purpose of this document:** hand-off spec for Claude Code (or Google Antigravity) to execute the NEXAI website build phase by phase. Each phase ends in a reviewable, deployable checkpoint. Do not start a phase until the prior one is reviewed and approved.
+  
+  ---
+  
+  ## 1. Project Context
+  
+  - **NEXAI** is a dual-token protocol on **Base** (Ethereum L2):
+    - `$NEXAI` — onchain AI-sector index token, backed by a basket of 20 AI crypto projects
+    - Governance/fundraising token (name TBD) — ERC20, fixed-window freeze during voting, staking-based fee reward layer (independent of voting weight), Sablier-based cancelable vesting streams
+  - Smart contracts extend the **Reserve Protocol (DTF framework)**, written in Solidity.
+  - Rebalancing is quarterly via DAO vote.
+  - **Already deployed to Base Sepolia (testnet):** `NexaiIndexToken`, `NexaiCore`, mock WETH/USDC. End-to-end mint/redeem confirmed working through a trial frontend.
+  - Governance is linear token-weighted voting (not quadratic).
+  - **TODO before Phase 0 starts:** insert current deployed contract addresses (testnet, and mainnet once available) into `/config/contracts.ts`. Do not fabricate or assume addresses — pull from actual deployment records.
+  
+  ---
+  
+  ## 2. Tech Stack
+  
+  | Concern | Recommendation |
+  |---|---|
+  | Framework | Next.js (App Router) — SSR helps guest mode load fast/cached, better SEO |
+  | Wallet connect | wagmi + viem + RainbowKit |
+  | Email/social login | Web3Auth or Magic.link — **open decision, see Section 11** |
+  | Styling | Tailwind CSS |
+  | Animation | Framer Motion (spring/elastic UI transitions) + GSAP ScrollTrigger (scroll-driven chart/timeline work) |
+  | Price chart | TradingView Lightweight Charts (handles blur/focus + marker overlays well) |
+  | Holder count / indexing | Subgraph (The Graph) or Alchemy/Covalent — do **not** query holder count via direct RPC calls, it won't scale |
+  | Tx history | Basescan API (Base only for now) |
+  | AI assistant (basket tab) | Claude API, scoped per-token context (see Phase 3) |
+  | Hosting | Vercel (pairs naturally with Next.js + guest-mode caching) |
+  
+  ---
+  
+  ## 3. Suggested Repo Structure
+  
+  ```
+  /app
+    /page.tsx                 → main landing (guest + authed states)
+    /profile
+    /basket
+    /governance
+  /components
+    /landing (hero stat, chart, join-cta)
+    /sidebar
+    /profile-panel
+  /lib
+    /contracts.ts             → ABIs + addresses, imported not hardcoded inline
+    /indexer.ts                → subgraph/Alchemy queries
+    /web3auth.ts
+  /config
+    /contracts.ts              → TODO: fill in real addresses
+  /hooks
+    /useHolderCount.ts
+    /useTokenBalances.ts
+    /useTxHistory.ts
+  ```
+  
+  ---
+  
+  ## 4. Phase 0 — Foundation
+  
+  **Goal:** deployable skeleton, fast.
+  
+  - Repo scaffold (Next.js + Tailwind + wagmi/RainbowKit wired in)
+  - Wallet connect (MetaMask via RainbowKit) working against Base Sepolia
+  - Guest mode: static landing page served from cache, no live RPC/API calls — this is the DDoS-resistant public entry point
+  - Deploy pipeline to Vercel (staging URL)
+  
+  **Acceptance criteria:** staging URL live, wallet connects, guest mode loads with zero live queries (verify via network tab).
+  
+  ---
+  
+  ## 5. Phase 1 — Core Landing Experience
+  
+  **Goal:** the main screen, without scroll polish yet.
+  
+  - Live holder-count stat, backed by subgraph/indexer, refreshed on an interval (e.g. every 2–5 min) — not real-time RPC
+  - "Join Now" CTA → routes into auth flow
+  - Price chart rendered (static state, no scroll effects yet) using Lightweight Charts
+  - AI Grants Fund stat block — **data source TBD, see Section 11**; build as an admin-editable field for now, not assumed on-chain
+  
+  **Acceptance criteria:** landing page shows real holder count and chart with live price data; Join Now routes correctly.
+  
+  ---
+  
+  ## 6. Phase 2 — Auth + Profile
+  
+  **Goal:** users can log in multiple ways and see their own data.
+  
+  - Web3Auth or Magic.link integration for email/Gmail login (embedded wallet)
+  - Profile panel (top-right "i" icon):
+    - `$NEXAI` + governance token balances (wagmi reads against deployed contracts)
+    - Convert button — **scope explicitly per Section 11 before building**; at minimum, USDC ↔ NEXAI via existing `NexaiCore` mint/redeem
+  - History button: compact on-chain tx scan, Base only, via Basescan API
+  
+  **Acceptance criteria:** logged-in user sees correct live balances and their real tx history; guest mode is unaffected.
+  
+  ---
+  
+  ## 7. Phase 3 — Sidebar Tabs
+  
+  **Goal:** Basket and Governance tabs.
+  
+  - **Basket tab:** detail view for all 20 basket tokens (more thorough than a typical exchange listing). Ship with curated static write-ups per token first. Layer in the AI assistant afterward:
+    - AI assistant scoped strictly to the token being viewed (pass token context into the prompt, don't build an open-ended chatbot)
+    - Uses Claude API; keep this behind a feature flag so it can ship independently of the rest of the tab
+  - **Governance tab:** build the UI against mock data now. Do not wire to real governance contracts until the governance token (in progress separately) is deployed — this tab will show "coming soon" until then.
+  
+  **Acceptance criteria:** Basket tab shows accurate static info for all 20 tokens; AI assistant answers scoped questions correctly; Governance tab renders cleanly with mock data.
+  
+  ---
+  
+  ## 8. Phase 4 — Scroll Polish + Convert Finalization
+  
+  **Goal:** the signature scroll experience, and convert button fully scoped/built.
+  
+  - On scroll down: stats + Join Now fly up (spring/elastic, Framer Motion), chart transitions blur → sharp, milestone markers appear, timeline pans right with further scroll
+  - On scroll up: timeline reverses, stats spring back to origin
+  - On max scroll: social links (Telegram, X) appear — persistent across every tab
+  - Parallax between chart layer and text layer
+  - **Mobile:** do not port the same scroll-jacking mechanism directly — build a simplified fade/stack version for small viewports (see Section 12)
+  - Finalize Convert button per the Section 11 decision (may include DEX aggregator integration for NEXAI ↔ governance token conversion if approved)
+  
+  **Acceptance criteria:** scroll experience matches spec on desktop; mobile equivalent is smooth (test on actual devices, not just resized browser); convert button executes real transactions on testnet.
+  
+  ---
+  
+  ## 9. Phase 5 — Deferred
+  
+  Not part of this build push — sequence after Phase 4 ships and is reviewed:
+  
+  - Multichain tx history (beyond Base)
+  - Real governance data (once governance contracts are live)
+  - TVL counter
+  - Persistent "Buy NEXAI" CTA
+  - Any further mobile-first refinement beyond the Phase 4 baseline
+  
+  ---
+  
+  ## 10. Non-Functional Requirements
+  
+  - **Mobile-first:** every phase should be checked on mobile viewport, not just desktop — flagged explicitly because Phase 4's parallax/scroll-jacking is desktop-first by nature.
+  - **Performance:** guest mode must load with no live RPC/API calls (cache-served). Animation-heavy sections should degrade gracefully (reduced motion for users with `prefers-reduced-motion`).
+  - **Security:** no private keys or seed phrases ever touch the frontend or logs. Wallet interactions go through wagmi/viem standard flows only. Web3Auth/Magic.link keys handled per their SDK's documented security model — do not roll custom key storage.
+  
+  ---
+  
+  ## 11. Open Decisions Needed Before Building (flag to Dmitry)
+  
+  These are called out because building them wrong is expensive to unwind — confirm before Claude Code implements:
+  
+  1. **Web3Auth vs. Magic.link** — pick one; affects embedded wallet UX and integration work.
+  2. **Convert button scope** — USDC↔NEXAI and NEXAI↔basket-token can route through the existing `NexaiCore` mint/redeem. Converting **between the two NEXAI tokens** (index ↔ governance) is not native — it needs either a dedicated swap pool or a DEX aggregator (0x/1inch) integration. Confirm whether this is in scope for this push or deferred.
+  3. **AI Grants Fund data source** — on-chain (needs a grants registry contract, not yet built) or off-chain (admin-editable field)? Determines Phase 1 scope.
+  4. **Basket-tab AI assistant** — confirm Claude API is acceptable for this (vs. another provider), and confirm token-level context/data source for the curated write-ups.
+  
+  ---
+  
+  ## 12. Review Checkpoints
+  
+  Each phase should be reviewed (by Mendez, then Dmitry) before the next begins. Recommend Claude Code stops and flags for review at the end of every phase rather than running straight through to Phase 4.
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]vipl[Bk][Bk]mpleemntation pa[Bk]lan for nexai demo s[Bk]ebsite[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:31:11  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:31:21  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - HeroStat.tsx
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:31:26  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - JoinCta.tsx
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:31:28  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  ye she fi[Bk][Bk]did but is is justa final test but [Bk][Bk][Bk]efore th emain ne[Bk][Bk]one this ws [Bk][Bk]as his actual instruction[ENTER]
+
+--- WINDOW  2026/07/23 18:32:27  [Telegram.exe] ‎Дмитрий – (114974)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  you any design md[Bk][Bk] [Bk]lke colo[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]gt any design colors in mind/[ENTER]
+  cause i wan t[Bk]t to buil [Bk]d it to look like real code[ENTER]
+  bfrom the [Bk][Bk][Ctrl]a[Bk]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:34:24  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  firstwe will buildthe landing page and lave that one for lea[Bk][Bk]ate[ENTER]
+
+--- WINDOW  2026/07/23 18:34:58  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:34:58  [Telegram.exe] ‎Дмитрий – (114974)
+----------------------------------------------------------------------------
+  c[Bk]ya [Bk][Bk][Bk][Bk]okay [ENTER]
+  fr the b[Bk]vide i'llo[ENTER]
+  [Bk][Bk]do[ENTER]
+  here's what to x[Bk][Bk]e[Bk] expect[ENTER]
+  i can't buil [Bk]d evert[Bk]ything in that write [ENTER]
+  it's needs detailed planning and phases [ENTER]
+  so i will do ths[ENTER]
+  landing page an da conn[Bk][Bk][Bk][Bk][Bk]a [Bk]conect wallet button that displaye[Bk]s ones ban[Bk]ka[Bk][Bk]lance once
+
+--- WINDOW  2026/07/23 18:36:07  [Telegram.exe] ‎Дмитрий – (114975)
+----------------------------------------------------------------------------
+   conneted on the navbar[ENTER]
+  is [Bk][Bk]s hat [Bk][Bk][Bk][Bk][Bk][Bk][Bk]s that okay with you.[ENTER]
+  caus [Bk]e to build that..[ENTER]
+  it'll be tuff [ENTER]
+  that;s[Bk]s[Bk]'s not just a demo [ENTER]
+  it's need to b [Bk]e calmed and study[ENTER]
+  [RMB]
+
+--- WINDOW  2026/07/23 18:36:51  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:36:53  [Telegram.exe] ‎Дмитрий – (114975)
+----------------------------------------------------------------------------
+  [Bk]ied[ENTER]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:36:58  [claude.exe] Claude
+----------------------------------------------------------------------------
+  we[Bk][Bk][Bk][Bk]firsy of[Bk][Bk][Bk][Bk]t of alw[Bk] we ill design teh [Bk][Bk][Bk]he de[Bk][Bk]lad[Bk]ndin [Bk]gpag e[ENTER]
+  color is cyan = purple background
+  [LMB]
+
+--- WINDOW  2026/07/23 18:37:48  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - JoinCta.tsx
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:37:51  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:37:52  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:37:53  [Telegram.exe] ‎Дмитрий – (114975)
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/23 18:37:55  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  cyan-to-purple gradient
+
+--- WINDOW  2026/07/23 18:37:57  [Telegram.exe] ‎Дмитрий – (114975)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:37:58  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  we wil plan lao[Bk]yout and actually disp[Bk][Bk][Bk]display what[Bk] we're going to buid[Bk][Bk]ild.[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:38:33  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:38:38  [chrome.exe] localhost - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:38:45  [Discord.exe] @DmitryNexai - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]c
+  [Clipboard]
+  NEXAI WEBSITE — Full Design & Functionality Concept
+  LOGIN
+  MetaMask / wallet connect
+  Gmail / email login (via Web3Auth or Magic.link)
+  Guest mode (view-only, cached static data — DDoS
+  protection, no live queries)
+  
+  MAIN SCREEN — Interaction Design
+  
+  Initial state (on load):
+  Center: live stat — number of NEXAI holder wallets
+  Below stat: "Join Now" button (leads to signup/login)
+  Background: interactive price chart — blurred and
+  pulled back (creates depth, doesn't distract)
+  Additional stat block: total amount invested in
+  promising AI startups via the AI Grants Fund — shows 
+  NEXAI actively supports the ecosystem, not just 
+  passively holds tokens
+  
+  On scroll down:
+  Stats + "Join Now" button fly upward with a spring/
+  elastic bounce animation
+  Chart zooms in and comes into sharp focus
+  Interactive markers appear on the chart — key project
+  milestones showing $NEXAI price at that moment
+  Further scrolling moves the chart timeline to the
+  right (revealing newer events as history accumulates)
+  
+  On scroll up:
+  Chart timeline moves back left toward the starting point
+  At the beginning: stats + "Join Now" button spring
+  back down to original position
+  
+  On max scroll down:
+  Social links section appears (Telegram, X) — present
+  at the end of every tab/section
+  
+  Technical notes:
+  Spring/elastic easing for stats block and button
+  Parallax effect between chart layer and text layer
+  Chart focus transition (blur → sharp) synced to scroll
+  Timeline navigation tied to scroll direction
+  
+  PROFILE (top right)
+  "i" info icon → shows $NEXAI + governance token balance, 
+  convert button (to USDC, basket tokens, or between the 
+  two NEXAI tokens)
+  "History" button → compact on-chain transaction scan, 
+  Base only for now (multichain deferred to Phase 3)
+  LEFT SIDEBAR TABS
+  Basket — detailed info on all 20 basket tokens, more
+  thorough than typical exchange listings. Built-in AI 
+  assistant that explains each token in simple terms 
+  (unique feature, no competitor has this)
+  Governance — active DAO votes, full historical voting
+  record
+  
+  Suggested additions (not finalized):
+  Persistent "Buy NEXAI" CTA — always visible
+  TVL counter near holder counter
+  Mobile-first design priority
+  
+  Status: concept only, detailed spec comes post M1-M2. Curious 
+  if you've got thoughts or ideas to add, from a technical 
+  feasibility angle or otherwise.
+  [LMB]
+
+--- WINDOW  2026/07/23 18:38:58  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [ENTER]
+  [ENTER]
+   is his actually instruction
+  [LMB]
+
+--- WINDOW  2026/07/23 18:39:35  [Telegram.exe] ‎Дмитрий – (114976)
+----------------------------------------------------------------------------
+  sure.[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:40:09  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:40:13  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:40:13  [Telegram.exe] ‎Дмитрий – (114976)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:40:14  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:40:14  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  npm run de[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:40:47  [chrome.exe] localhost - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:40:54  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:41:34  [Telegram.exe] ‎Дмитрий – (114978)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:41:53  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:41:59  [chrome.exe] NEXAI - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk][ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:42:15  [chrome.exe] Extensions
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:42:17  [chrome.exe] NEXAI - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:42:21  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/23 18:42:23  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/23 18:42:34  [explorer.exe] Desktop
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:42:36  [Antigravity IDE.exe] Nexai_website_demo - Antigravity IDE - Build NEXAI website in p…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:42:37  [explorer.exe] Desktop
+----------------------------------------------------------------------------
+  [Del]
+
+--- WINDOW  2026/07/23 18:42:42  [explorer.exe] Discovered 1,147 items (313 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:42:42  [explorer.exe] Discovered 1,453 items (329 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:42:42  [explorer.exe] Discovered 1,646 items (331 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:42:42  [explorer.exe] Discovered 1,842 items (333 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:42:42  [explorer.exe] Discovered 2,005 items (333 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:42:43  [explorer.exe] Discovered 2,460 items (336 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:42:44  [explorer.exe] Discovered 2,653 items (339 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:42:44  [explorer.exe] Discovered 2,846 items (342 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:01  [explorer.exe] Discovered 12,678 items (547 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:01  [explorer.exe] Discovered 12,986 items (547 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:01  [explorer.exe] Discovered 13,299 items (547 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:02  [explorer.exe] Discovered 13,604 items (547 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:02  [explorer.exe] Discovered 13,966 items (548 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:02  [explorer.exe] Discovered 14,162 items (548 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:03  [explorer.exe] Discovered 14,386 items (549 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:03  [explorer.exe] Discovered 14,683 items (551 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:03  [explorer.exe] Discovered 14,973 items (552 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:04  [explorer.exe] Discovered 15,239 items (554 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:04  [explorer.exe] Discovered 15,586 items (555 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:04  [explorer.exe] Discovered 15,827 items (560 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:04  [explorer.exe] Discovered 16,027 items (561 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:05  [explorer.exe] Discovered 16,263 items (561 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:05  [explorer.exe] Discovered 16,514 items (563 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:06  [explorer.exe] Discovered 16,734 items (563 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:06  [explorer.exe] Discovered 16,958 items (566 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:06  [explorer.exe] Discovered 17,192 items (568 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:06  [explorer.exe] Discovered 17,447 items (579 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:07  [explorer.exe] Discovered 17,714 items (581 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:07  [explorer.exe] Discovered 17,974 items (582 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:07  [explorer.exe] Discovered 18,237 items (583 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:08  [explorer.exe] Discovered 18,537 items (586 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:08  [explorer.exe] Discovered 18,857 items (587 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:08  [explorer.exe] Discovered 19,156 items (588 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:09  [explorer.exe] Discovered 19,439 items (593 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:09  [explorer.exe] Discovered 19,645 items (601 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:09  [explorer.exe] Discovered 19,868 items (663 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:09  [explorer.exe] Discovered 20,164 items (687 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:10  [explorer.exe] Discovered 20,406 items (692 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:10  [explorer.exe] Discovered 20,615 items (694 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:10  [explorer.exe] Discovered 20,886 items (694 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:11  [explorer.exe] Discovered 21,162 items (697 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:11  [explorer.exe] Discovered 21,431 items (699 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:13  [explorer.exe] Discovered 23,254 items (710 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:13  [explorer.exe] Discovered 23,557 items (711 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:13  [explorer.exe] Discovered 23,921 items (713 MB)...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:43:36  [obs64.exe] OBS 31.0.4 - Profile: Untitled - Scenes: Untitled
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 18:44:49  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/23 19:00:24  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
