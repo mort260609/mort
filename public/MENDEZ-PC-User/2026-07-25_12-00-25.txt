@@ -1,0 +1,238 @@
+﻿
+--- WINDOW  2026/07/25 11:03:29  [brave.exe] Gist - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:03:56  [brave.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:03:59  [Antigravity IDE.exe] gist_app - Antigravity IDE - Fix typing indicator and…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:04:00  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:04:26  [chrome.exe] localhost:8081 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:04:27  [chrome.exe] Gist - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:04:30  [chrome.exe] localhost:8081 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:04:32  [chrome.exe] Gist - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  e[Bk][Bk]mendez[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  meta
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:07:21  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:07:23  [chrome.exe] Gist - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:08:03  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:08:06  [Discord.exe] Friends - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:54:53  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:54:57  [Antigravity IDE.exe] gist_app - Antigravity IDE - Fix typing indicator and…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:55:03  [chrome.exe] Gist - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:55:07  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:55:08  [Antigravity IDE.exe] gist_app - Antigravity IDE - Fix typing indicator and…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:55:36  [chrome.exe] Gist - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:55:39  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  bore phase 4 please tel em[ENTER]
+  when [Bk][Bk]at are the rmaining pahss and what to build [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:57:46  [Antigravity IDE.exe] gist_app - Antigravity IDE - Fix typing indicator and…
+----------------------------------------------------------------------------
+  [LMB]
+  before 
+  [LMB]
+
+--- WINDOW  2026/07/25 11:57:51  [chrome.exe] Gist - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:58:04  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:58:05  [Antigravity IDE.exe] gist_app - Antigravity IDE - Fix typing indicator and…
+----------------------------------------------------------------------------
+  phase 4 [ENTER]
+  can i se the remoaining phases[ENTER]
+  [LMB]
+  i've test them
+  [LMB]
+  [LMB]
+  [ENTER]
+  which phase is voice note in[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:59:54  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  # Phase 4 — Media Sharing (Images, Video, Documents, PDFs)
+  
+  ## Context
+  Phase 3 (all rounds 3.1-3.4) is complete and verified: auth, E2E encrypted messaging, reactions, editing, deletion, pin/mute/archive, forwarding, reply, block/report, search, viewable profiles, in-chat overflow menu. Reference the current ARCHITECTURE.md (regenerate first if stale) and do the same "audit real codebase and live DB first" discipline established in recent rounds before designing anything.
+  
+  The "Media & Links" menu item in the in-chat overflow menu currently shows a placeholder ("Coming with media sharing") — this phase makes it real.
+  
+  ## Critical architectural requirement — read first
+  This project has held "no plaintext content stored server-side, ever" as a hard rule since Phase 2's E2E encryption work. This must extend to media: **the actual file bytes must be encrypted client-side before upload to Supabase Storage**, not just protected by storage access rules/signed URLs. Relying on RLS/private-bucket access control alone would be a real privacy regression compared to the guarantee already established for text messages.
+  
+  Please think through and propose the encryption approach for this (likely: generate a per-file symmetric key or reuse the same shared-key derivation already used for message text, encrypt the file client-side with nacl.secretbox before upload, decrypt client-side after download) before writing implementation code — this is architecturally significant enough to plan first, similar to how the original E2E messaging design was planned before Phase 2 began.
+  
+  ## Scope — build exactly this
+  
+  ### 1. Media types to support
+  - Images (compressed before upload)
+  - Video (compressed, with a reasonable duration/size cap)
+  - Documents and PDFs
+  - General files within a sensible size cap
+  
+  ### 2. Low-data considerations (Nigeria-first principle, established from the original product spec)
+  - Compress images/video before upload — don't send raw, full-resolution files
+  - Show thumbnails/previews first, full-resolution content loads on tap (not auto-downloaded)
+  - Enforce a sensible file size cap with a clear "file too large" message rather than a silent failure or a very slow, expensive upload
+  - Consider a "Data Saver" toggle in settings that disables auto-download of media entirely (user must tap to load) — worth scoping if time allows, otherwise note as a near-term follow-up
+  
+  ### 3. Upload/send flow
+  - Extend the existing input bar's paperclip/camera icons (currently non-functional placeholders from earlier UI work) to actually trigger image picker / camera / document picker
+  - Show upload progress in the message bubble while sending
+  - Encrypt client-side (per the architectural requirement above) before uploading to a new Supabase Storage bucket (separate from `avatars`) with appropriate RLS
+  - Extend the `messages` table if needed (check current schema first — `media_url`/`media_type` columns may already exist as stubs from earlier phases, or may need adding)
+  
+  ### 4. Receive/display flow
+  - Render images/video inline in the chat as a bubble with a thumbnail, tap to view full-size/play
+  - Render documents/PDFs as a file card (icon, filename, size) with tap-to-download/open
+  - Decrypt client-side after download, matching the encryption approach from above
+  - Cache downloaded/decrypted media locally so reopening a chat doesn't re-download and re-decrypt the same file every time
+  
+  ### 5. Media & Links screen
+  - Make the "Media & Links" overflow menu item real: show a grid/list of all media shared in that conversation, tappable to view full-size
+  
+  ## Explicitly out of scope for this phase
+  - Push notifications for media messages (Phase 5)
+  - Status/ephemeral media posts (Phase 6)
+  - Voice notes as a distinct feature (may naturally fall out of general audio/video support, but not a dedicated requirement this phase)
+  
+  ## Before you start
+  Given this phase has real architectural complexity (client-side media encryption, compression, multiple file types, storage bucket setup), please assess whether this should be split into sub-rounds (e.g. images first, then video, then documents — or upload flow first, then receive/display, then Media & Links screen) similar to how Phase 3 was broken into rounds. Propose a breakdown before starting, and also propose the specific encryption approach for review before implementing it.
+  
+  ## Acceptance criteria
+  - [ ] Sending an image, video, and a document/PDF all work end-to-end between the two dev-bypass test accounts (or your best available two-account test setup)
+  - [ ] Media is genuinely encrypted before upload — verify by checking Supabase Storage directly and confirming the stored file is not viewable/openable as-is (i.e., it's encrypted binary, not the original file)
+  - [ ] Large files are rejected with a clear message, not a silent failure or extremely slow upload
+  - [ ] Media displays correctly (thumbnail → full view) and decrypts correctly on the receiving device
+  - [ ] Media & Links screen shows real shared media for a conversation
+  - [ ] No regressions to any previously verified functionality
+  
+  ## Testing requirement
+  Same standard as every previous round: verify actual behavior before reporting complete, flag anything you cannot personally verify (especially real device camera/file picker interactions, which you likely cannot test directly) rather than assuming it works.
+  [LMB]
+
+--- WINDOW  2026/07/25 12:00:02  [Antigravity IDE.exe] gist_app - Antigravity IDE - Fix typing indicator and…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/25 12:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
