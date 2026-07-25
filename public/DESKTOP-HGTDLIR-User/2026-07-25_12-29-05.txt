@@ -1,0 +1,2684 @@
+﻿
+--- WINDOW  2026/07/25 11:33:07  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:33:07  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:33:08  [Antigravity IDE.exe] Polymarket-copy-trading-bot - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:33:11  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:33:11  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:33:12  [Antigravity IDE.exe] Polymarket-copy-trading-bot - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:38:33  [chrome.exe] • Discord | @Potatokiller - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:38:35  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  cjha[Bk][Bk]h[Del][Del][Bk][Bk]hat4[Bk][v][ENTER]
+
+--- WINDOW  2026/07/25 11:38:45  [chrome.exe] ChatGPT: Chat, Work, Create & Code with AI - Google Chrome
+----------------------------------------------------------------------------
+  mujhe 
+
+--- WINDOW  2026/07/25 11:38:47  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  mera portfi[Bk]l[Bk]olio bana hai 
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:39:02  [chrome.exe] Shreyansh Mahato | Full Stack Developer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:39:08  [chrome.exe] • Discord | @Potatokiller - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:39:10  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl]
+  [Clipboard]
+  https://shreyanssportfolio.vercel.app/
+  [LMB]
+
+--- WINDOW  2026/07/25 11:39:19  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  jese ye bna hia [Bk][Bk][Bk]ua haio[Bk] [ENTER]
+  [Ctrl]v[ENTER]
+  [ENTER]
+  to mere port folio k[Bk][Bk][Bk][Bk]io 
+  [LMB]
+  [Bk][->][->][->][->][->] ke liye mujhe prompt bna kr do jo mer [Bk][Bk][Bk]e anti gravity ko dek=[Bk][Bk] sku or bane[Bk]wa kr versol [Bk][Bk][Bk]el pr upload kr skhu [ENTER]
+
+--- WINDOW  2026/07/25 11:40:27  [chrome.exe] Portfolio Prompt Bana Do - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:40:32  [chrome.exe] Portfolio Prompt Taiyar - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Build a world-class, premium, modern, fully responsive Full Stack Developer Portfolio using Next.js 15 (App Router), TypeScript, Tailwind CSS, Framer Motion, GSAP, Three.js (where needed), Shadcn UI and Lucide Icons.
+  
+  The website should feel premium like Apple, Vercel and Linear, with smooth animations, glassmorphism, gradient lighting, premium typography, clean spacing and micro-interactions.
+  
+  Do NOT copy any existing portfolio. Create an original UI with similar premium quality.
+  
+  =========================
+  Brand
+  =========================
+  
+  Developer Name:
+  Deepak Sharma
+  
+  Role:
+  Full Stack Developer
+  
+  Tagline:
+  Building Fast, Secure & Scalable Web Applications
+  
+  Short Description:
+  I am a Full Stack Developer with 3+ years of experience building scalable web applications, REST APIs, microservices, cloud integrations and modern user interfaces using Node.js, Next.js, React and AWS.
+  
+  Location:
+  Indore, India
+  
+  Availability:
+  Open for Remote & Freelance Projects
+  
+  =========================
+  Tech Stack
+  =========================
+  
+  Frontend:
+  Next.js
+  React
+  TypeScript
+  Tailwind CSS
+  Redux Toolkit
+  Shadcn UI
+  
+  Backend:
+  Node.js
+  Express.js
+  NestJS (basic)
+  REST APIs
+  GraphQL
+  Socket.IO
+  
+  Database:
+  MongoDB
+  PostgreSQL
+  MySQL
+  Redis
+  
+  Cloud:
+  AWS
+  Docker
+  GitHub Actions
+  Nginx
+  Linux
+  
+  Other:
+  JWT
+  OAuth
+  AWS Cognito
+  Stripe
+  Razorpay
+  Firebase
+  WebSocket
+  Microservices
+  Event Driven Architecture
+  
+  =========================
+  Portfolio Sections
+  =========================
+  
+  1.
+  Hero Section
+  
+  Large animated heading
+  
+  Hi, I'm Deepak Sharma
+  
+  Full Stack Developer
+  
+  Animated gradient background
+  
+  3D floating blobs
+  
+  Interactive mouse movement
+  
+  Buttons:
+  
+  Hire Me
+  
+  Download Resume
+  
+  View Projects
+  
+  Animated code snippets
+  
+  Typing animation
+  
+  Social Icons
+  
+  GitHub
+  
+  LinkedIn
+  
+  Email
+  
+  WhatsApp
+  
+  2.
+  About Me
+  
+  Professional story
+  
+  Experience
+  
+  Achievements
+  
+  Problem solving mindset
+  
+  Timeline
+  
+  3.
+  Skills
+  
+  Interactive skill cards
+  
+  Progress animation
+  
+  Filter by category
+  
+  Frontend
+  
+  Backend
+  
+  Database
+  
+  Cloud
+  
+  DevOps
+  
+  Tools
+  
+  4.
+  Experience
+  
+  Timeline
+  
+  Company
+  
+  Role
+  
+  Responsibilities
+  
+  Technologies used
+  
+  Animated on scroll
+  
+  5.
+  Featured Projects
+  
+  Beautiful cards
+  
+  Large screenshots
+  
+  Live Demo
+  
+  GitHub
+  
+  Tech Stack
+  
+  Project details popup
+  
+  Include projects like
+  
+  Trading Platform
+  
+  Trustifyee
+  
+  Vehicle Management System
+  
+  Pooja Delivery Platform
+  
+  AI Projects
+  
+  6.
+  Services
+  
+  Backend Development
+  
+  API Development
+  
+  Frontend Development
+  
+  Mobile Apps
+  
+  Cloud Deployment
+  
+  System Design
+  
+  Performance Optimization
+  
+  7.
+  Testimonials
+  
+  Premium slider
+  
+  Glass cards
+  
+  Animated avatars
+  
+  8.
+  GitHub Stats
+  
+  Contribution Graph
+  
+  Top Languages
+  
+  GitHub Stats
+  
+  9.
+  Achievements
+  
+  Years Experience
+  
+  Projects
+  
+  Happy Clients
+  
+  Lines of Code
+  
+  10.
+  Contact
+  
+  Working contact form
+  
+  EmailJS
+  
+  Validation
+  
+  Google Map
+  
+  Availability badge
+  
+  11.
+  Footer
+  
+  Social Links
+  
+  Quick Links
+  
+  Copyright
+  
+  Back to top button
+  
+  =========================
+  Animations
+  =========================
+  
+  Page Loader
+  
+  Smooth page transitions
+  
+  Framer Motion
+  
+  GSAP Scroll animations
+  
+  Parallax
+  
+  Magnetic Buttons
+  
+  Hover Glow
+  
+  Card Tilt
+  
+  Cursor Effects
+  
+  Floating Elements
+  
+  Reveal Animations
+  
+  =========================
+  Dark Mode
+  =========================
+  
+  Beautiful Dark Theme
+  
+  Light Theme
+  
+  System Theme
+  
+  Animated Toggle
+  
+  =========================
+  Performance
+  =========================
+  
+  100 Lighthouse Score
+  
+  SEO Optimized
+  
+  OpenGraph
+  
+  Twitter Cards
+  
+  Schema Markup
+  
+  Lazy Loading
+  
+  Image Optimization
+  
+  Dynamic Imports
+  
+  Code Splitting
+  
+  =========================
+  Responsive
+  =========================
+  
+  Mobile First
+  
+  Tablet
+  
+  Desktop
+  
+  Ultra Wide
+  
+  =========================
+  Extra Premium Features
+  =========================
+  
+  Interactive background
+  
+  Particle effects
+  
+  Glassmorphism
+  
+  Gradient Borders
+  
+  Animated Text
+  
+  Command Palette (Ctrl + K)
+  
+  Project Search
+  
+  Project Filter
+  
+  Blog Ready
+  
+  Resume Download
+  
+  Visitor Counter
+  
+  Scroll Progress Indicator
+  
+  Custom Cursor
+  
+  Music Toggle (optional)
+  
+  Loading Screen
+  
+  404 Page
+  
+  Custom Favicon
+  
+  =========================
+  Code Quality
+  =========================
+  
+  Folder Structure
+  
+  Reusable Components
+  
+  Clean Code
+  
+  TypeScript Strict Mode
+  
+  ESLint
+  
+  Prettier
+  
+  Reusable Hooks
+  
+  SEO Components
+  
+  Environment Variables
+  
+  =========================
+  Deployment
+  =========================
+  
+  Prepare project for direct deployment on Vercel.
+  
+  Provide:
+  
+  Complete source code
+  
+  README.md
+  
+  Deployment instructions
+  
+  No placeholders.
+  
+  Use production-ready code.
+  
+  The final website should look like a premium developer portfolio suitable for FAANG-level engineers and top freelance clients.
+  [LMB]
+
+--- WINDOW  2026/07/25 11:43:44  [Antigravity IDE.exe] Polymarket-copy-trading-bot - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [Ctrl]n
+
+--- WINDOW  2026/07/25 11:43:46  [Antigravity IDE.exe] Antigravity IDE
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:43:52  [Antigravity IDE.exe] new-client - Antigravity IDE
+----------------------------------------------------------------------------
+  ke [Bk][Bk]lder [ENTER]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/25 11:44:14  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:44:15  [Antigravity IDE.exe] new-client - Antigravity IDE
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:44:34  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:44:35  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:44:35  [Antigravity IDE.exe] Polymarket-copy-trading-bot - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:44:35  [Antigravity IDE.exe] new-client - Antigravity IDE
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:44:55  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:46:58  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:46:59  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:48:04  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:48:05  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:51:03  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:51:04  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:51:41  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:51:42  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:51:57  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:51:58  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:52:31  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:52:32  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:53:43  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:53:44  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:54:16  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:54:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:54:37  [explorer.exe] Task View
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:54:39  [Antigravity IDE.exe] Polymarket-copy-trading-bot - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:54:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:54:44  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+  i have this email [ENTER]
+  deepaksharmacd[Bk]s452gmail.com[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:56:13  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:56:14  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:56:42  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:56:43  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [ENTER]
+  what add tu=[Bk][Bk]his  in sode[Bk][Bk][Bk]ide[ENTER]
+
+--- WINDOW  2026/07/25 11:57:16  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:57:17  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  NEXT_PUBLIC_EMAILJS_SERVICE_ID=service_ab12c3
+  NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=template_xyz987
+  NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=user_dG84nS2...
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [ENTER]
+  [ENTER]
+  hoe [Bk][Bk] [Bk]w to create tjos [Bk]\[Bk][Bk][Bk][Bk]his[ENTER]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]`cd [Tab][Tab][Tab][ENTER]
+  npm i [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/25 11:58:51  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:58:52  [chrome.exe] EmailJS - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:58:56  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:58:56  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:58:57  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:59:19  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:59:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:59:20  [chrome.exe] EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 11:59:24  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:59:25  [chrome.exe] Dashboard - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 11:59:27  [chrome.exe] Sign Up - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  deepak sharma
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  deepak[Ctrl]22001
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:00:06  [chrome.exe] Reset Password - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:00:08  [chrome.exe] Save password?
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:00:09  [chrome.exe] Reset Password - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:00:19  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:00:21  [chrome.exe] Gmail - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:00:23  [chrome.exe] Inbox (3,807) - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:00:40  [chrome.exe] Complete your EmailJS signup - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:00:41  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:00:42  [chrome.exe] Dashboard - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:00:43  [chrome.exe] Confirm Email - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:00:59  [chrome.exe] Sign In - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:01:02  [chrome.exe] Email Services - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:01:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:01:43  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:01:55  [chrome.exe] Email Services - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  service_ta64cj2
+  [Ctrl]ccc
+
+--- WINDOW  2026/07/25 12:02:29  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:02:29  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/25 12:03:49  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:03:49  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:03:49  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:03:49  [chrome.exe] Email Services - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/07/25 12:03:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:03:54  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/07/25 12:03:59  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:04:00  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:04:00  [chrome.exe] Email Services - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/25 12:04:00  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:04:00  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:04:00  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:04:06  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:04:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:04:06  [chrome.exe] Email Services - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:04:12  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:04:13  [chrome.exe] Sign in - Google Accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:04:25  [chrome.exe] accounts.google.com/signin/oauth/id?authuser=0&part=AJi8hANz4Khdoj4PEPZBCGV5VtHZTJSOL5zU2T8rNDPuwcAAFUV3cr9dHBEVyW8IGKqTdH4niAY86m0SBJNRsHicQ1HNqLijXNWBJH6YjmTBuuXkUTdtLmpfuZuWcHDDA-0rjHe3eyUdRK5j5izpZ5NgJsFApkYFre9lvdF-adSTM2dFSzbo2hIO6Vl8HXiYzeS0pDyjl4wGMIi9v1xGpMf3MulQTRT-gU3rLqSl_Qb6w9LEPgvJXweFrtcPyc_V-8ngCJ6U5zkrbCeWV3fu1nmrIcyEULyB-axY5EpVNF5smZpg4h_vrqm_LYTQEk3Twz2wRxuB0kKlSuxfRQg8-5NLbXP3WiF3Y-HzTApluO4n0W3KCNgkH3qarGEp9GpNT9kqOPKMrE_kVjXxwxUbIEeC9JJe_U2GrfHh_uIMC036b34KHw1ybHzTaAavbwt3u1C0eWCc-iN
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:04:25  [chrome.exe] Sign in - Google Accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:04:29  [chrome.exe] EmailJS wants access to your Google Account - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:04:36  [chrome.exe] Email Services - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:04:49  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:04:49  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:04:56  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:04:56  [chrome.exe] Email Services - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:05:03  [chrome.exe] Email Templates - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:05:04  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:05:04  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:05:04  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:05:08  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:05:08  [chrome.exe] Email Templates - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:05:12  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:05:12  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:05:26  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:05:26  [chrome.exe] Email Templates - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  s
+
+--- WINDOW  2026/07/25 12:05:37  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:05:41  [chrome.exe] Email Templates - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:05:44  [chrome.exe] Portfolio Prompt Taiyar - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]vhow to create templetes[ENTER]
+
+--- WINDOW  2026/07/25 12:05:53  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:05:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:05:53  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:06:10  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:06:10  [chrome.exe] Portfolio Prompt Taiyar - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:06:21  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:06:21  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:06:21  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:06:21  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:06:22  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:06:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:06:22  [chrome.exe] Portfolio Prompt Taiyar - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:06:24  [chrome.exe] Email Templates - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:06:29  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:06:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:06:41  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:06:41  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:06:44  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  s
+
+--- WINDOW  2026/07/25 12:06:55  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:07:00  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:07:01  [chrome.exe] Portfolio Prompt Taiyar - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/07/25 12:07:15  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:07:15  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Step 2: Create a Service (To get NEXT_PUBLIC_EMAILJS_SERVICE_ID)
+  Once logged in, you will be on the Email Services tab.
+  Click Add New Service.
+  Select your provider (e.g., Gmail).
+  Click Connect Account to link your email address.
+  Click Create Service.
+  Copy the Service ID (e.g. service_abc123) and paste it into NEXT_PUBLIC_EMAILJS_SERVICE_ID in your .env.local file.
+  Step 3: Create a Template (To get NEXT_PUBLIC_EMAILJS_TEMPLATE_ID)
+  Click on Email Templates in the left sidebar.
+  Click Create New Template.
+  Modify the template subject and body. In the body, use double curly braces to fetch form data:
+  text
+  You received a new inquiry from {{name}} ({{email}}).
+  Subject: {{subject}}
+  Message:
+  {{message}}
+  Click Save in the top right corner.
+  In the templates list, copy the Template ID (e.g. template_xyz456) and paste it into NEXT_PUBLIC_EMAILJS_TEMPLATE_ID in your .env.local file.
+  Step 4: Get your API Key (To get NEXT_PUBLIC_EMAILJS_PUBLIC_KEY)
+  Click on Account (or the API Keys section) at the bottom of the left sidebar.
+  Under the API Keys tab, locate the Public Key.
+  Copy the key and paste it into NEXT_PUBLIC_EMAILJS_PUBLIC_KEY in your .env.local file.
+  11:58 AM
+  
+
+--- WINDOW  2026/07/25 12:07:25  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:07:26  [chrome.exe] Portfolio Prompt Taiyar - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  New Portfolio Inquiry - {{subject}}
+  [Tab]
+
+--- WINDOW  2026/07/25 12:07:50  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:07:50  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:07:50  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:07:51  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:07:51  [chrome.exe] Portfolio Prompt Taiyar - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:07:52  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Ctrl]v
+
+--- WINDOW  2026/07/25 12:08:01  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:08:01  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:08:01  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:08:02  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:08:03  [chrome.exe] Portfolio Prompt Taiyar - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  <h2>🚀 New Portfolio Contact</h2>
+  
+  <p><strong>Name:</strong> {{name}}</p>
+  
+  <p><strong>Email:</strong> {{email}}</p>
+  
+  <p><strong>Subject:</strong> {{subject}}</p>
+  
+  <p><strong>Message:</strong></p>
+  
+  <p>{{message}}</p>
+  
+  <hr>
+  
+  <p>This message was sent from your portfolio website.</p>
+
+--- WINDOW  2026/07/25 12:08:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:08:28  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:08:28  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:08:29  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:08:29  [chrome.exe] Portfolio Prompt Taiyar - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:08:30  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]av[Ctrl]z
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]a
+  [Clipboard]
+  <div style="font-family: system-ui, sans-serif, Arial; font-size: 12px">
+    <div>A message by {{name}} has been received. Kindly respond at your earliest convenience.</div>
+    <div
+      style="
+        margin-top: 20px;
+        padding: 15px 0;
+        border-width: 1px 0;
+        border-style: dashed;
+        border-color: lightgrey;
+      "
+    >
+      <table role="presentation">
+        <tr>
+          <td style="vertical-align: top">
+            <div
+              style="
+                padding: 6px 10px;
+                margin: 0 10px;
+                background-color: aliceblue;
+                border-radius: 5px;
+                font-size: 26px;
+              "
+              role="img"
+            >
+              👤
+            </div>
+          </td>
+          <td style="vertical-align: top">
+            <div style="color: #2c3e50; font-size: 16px">
+              <strong>{{name}}</strong>
+            </div>
+            <div style="color: #cccccc; font-size: 13px">{{time}}</div>
+            <p style="font-size: 16px">{{message}}</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  
+  ccc
+  [LMB]
+
+--- WINDOW  2026/07/25 12:09:20  [chrome.exe] Portfolio Prompt Taiyar - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  <div style="font-family: Arial, Helvetica, sans-serif; max-width: 700px; margin: auto; background: #ffffff; border:1px solid #e5e7eb; border-radius:10px; overflow:hidden;">
+  
+    <div style="background:#111827; padding:20px; text-align:center;">
+      <h2 style="margin:0; color:#ffffff;">🚀 New Portfolio Contact</h2>
+    </div>
+  
+    <div style="padding:30px;">
+  
+      <p>Hello Deepak,</p>
+  
+      <p>You have received a new inquiry from your portfolio website.</p>
+  
+      <table style="width:100%; border-collapse:collapse; margin-top:20px;">
+  
+        <tr>
+          <td style="padding:10px; font-weight:bold; width:140px;">👤 Name</td>
+          <td style="padding:10px;">{{name}}</td>
+        </tr>
+  
+        <tr style="background:#f8fafc;">
+          <td style="padding:10px; font-weight:bold;">📧 Email</td>
+          <td style="padding:10px;">{{email}}</td>
+        </tr>
+  
+        <tr>
+          <td style="padding:10px; font-weight:bold;">📝 Subject</td>
+          <td style="padding:10px;">{{subject}}</td>
+        </tr>
+  
+        <tr style="background:#f8fafc;">
+          <td style="padding:10px; font-weight:bold;">💬 Message</td>
+          <td style="padding:10px;">{{message}}</td>
+        </tr>
+  
+      </table>
+  
+      <div style="margin-top:30px; padding:15px; background:#eef6ff; border-left:4px solid #2563eb;">
+        This message was submitted through your portfolio contact form.
+      </div>
+  
+    </div>
+  
+    <div style="background:#111827; color:#ffffff; text-align:center; padding:15px;">
+      © 2026 Deepak Sharma • Portfolio
+    </div>
+  
+  </div>
+
+--- WINDOW  2026/07/25 12:09:42  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/25 12:09:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:09:51  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:09:51  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:09:53  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/25 12:09:55  [Antigravity IDE.exe] Polymarket-copy-trading-bot - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:09:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:09:59  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:10:07  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:10:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:10:49  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:10:49  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:10:57  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:10:57  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:11:00  [chrome.exe] Email Templates - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:11:04  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:11:08  [chrome.exe] Email Templates - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:11:14  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:11:17  [chrome.exe] Email Templates - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:11:21  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:11:28  [chrome.exe] (2) Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:11:30  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+  355[ENTER]
+
+--- WINDOW  2026/07/25 12:12:08  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:12:08  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:12:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:12:09  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:12:09  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:12:14  [chrome.exe] Portfolio Prompt Taiyar - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:12:17  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:12:20  [chrome.exe] Email Templates - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:12:23  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:12:25  [chrome.exe] Email Templates - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:12:27  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:12:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:12:31  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v[Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]z
+
+--- WINDOW  2026/07/25 12:12:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:12:41  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:12:53  [chrome.exe] Email Templates - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  template_m2y5y7n
+  ccc
+
+--- WINDOW  2026/07/25 12:13:02  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:13:03  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:13:03  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Ctrl]
+  [LMB]
+  v
+  [LMB]
+  [LMB]
+  [Bk][Ctrl]v
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]/
+
+--- WINDOW  2026/07/25 12:13:23  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  s
+
+--- WINDOW  2026/07/25 12:13:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:13:34  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:13:34  [chrome.exe] Contact Us - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:13:37  [chrome.exe] Account - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:13:38  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:13:38  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:13:42  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:13:42  [chrome.exe] Account - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:13:47  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:13:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:13:47  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:13:55  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:13:55  [chrome.exe] Account - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  cYY5831eFh5waI0wf
+  c
+
+--- WINDOW  2026/07/25 12:14:00  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/07/25 12:14:05  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example●
+----------------------------------------------------------------------------
+  s
+
+--- WINDOW  2026/07/25 12:14:06  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  sssss
+  [LMB]
+  [LMB]
+  npm run dev[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:14:14  [chrome.exe] Account - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:14:17  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:14:56  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  fli[ENTER]
+
+--- WINDOW  2026/07/25 12:14:59  [chrome.exe] flipkart - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:15:02  [chrome.exe] Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers! - Google Chrome
+----------------------------------------------------------------------------
+  7[Bk]9880[Bk][Bk][Bk][Bk]8770918364
+  [LMB]
+  946835[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:15:41  [chrome.exe] Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:16:02  [chrome.exe] Buy Gift Cards & Vouchers Online for All Occasions | Flipkart - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:16:08  [chrome.exe] Digital Gift Cards - Buy Digital Gift Cards Online at Best Prices In India | Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:16:19  [chrome.exe] Buy Gift Cards & Vouchers Online for All Occasions | Flipkart - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:16:26  [chrome.exe] flipkart.com/account/?rd=0&link=home_account - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:16:26  [chrome.exe] Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:16:27  [chrome.exe] My Profile - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:16:54  [chrome.exe] Laptop Table For Home- Buy Products Online at Best Price in India - All Categories | Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:17:01  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:17:01  [chrome.exe] flipkart.com/furnigully-laptop-table-foldable001-wood-portable/p/itm2bbcc2cf036b0?pid=PLLGH9HZ7E2PYGNK&lid=LSTPLLGH9HZ7E2PYGNKCYDE1H&marketplace=FLIPKART&q=laptop+table+for+home&store=wwe%2Fki7%2Fd4s&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_na&fm=search-autosuggest&iid=9476f63e-e08f-49a5-b0b6-968128f44927.PLLGH9HZ7E2PYGNK.SEARCH&ppt=sp&ppn=sp&ssid=k3vir9nuf40000001784962013971&qH=9797f66c641da90b&ov_redirect=true&ov_redirect=tr
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:17:02  [chrome.exe] FurniGully LAPTOP TABLE FOLDABLE001 Wood Portable Laptop Table Price in India - Buy FurniGully LAPTOP TABLE FOLDABLE001 Wood Portable Laptop Table online at Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  flash.co/[ENTER]
+
+--- WINDOW  2026/07/25 12:18:26  [chrome.exe] Flash AI Assistant - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  8770918364[ENTER]
+  3540
+
+--- WINDOW  2026/07/25 12:19:15  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:19:18  [chrome.exe] • Discord - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:19:19  [chrome.exe] • Discord | Shop - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:19:21  [chrome.exe] • Discord - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:21:46  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:21:46  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+   http://localhost:3000
+  c
+
+--- WINDOW  2026/07/25 12:21:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:21:52  [chrome.exe] • Discord - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:21:53  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/25 12:22:03  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  ## Error Type
+  Console Error
+  
+  ## Error Message
+  A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+  
+  - A server/client branch `if (typeof window !== 'undefined')`.
+  - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+  - Date formatting in a user's locale which doesn't match the server.
+  - External changing data without sending a snapshot of it along with the HTML.
+  - Invalid HTML tag nesting.
+  
+  It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+  
+  https://react.dev/link/hydration-mismatch
+  
+    ...
+      <SegmentViewNode type="page" pagePath="page.tsx">
+        <SegmentTrieNode>
+        <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+          <Home params={Promise} searchParams={Promise}>
+            <motion.div>
+            <Hero>
+            <About>
+            <Skills>
+            <Experience>
+            <Projects>
+            <Services>
+            <Testimonials>
+            <GithubStats>
+              <section id="github" className="py-24 rela...">
+                <div>
+                <div className="max-w-7xl ...">
+                  <div>
+                  <div className="grid grid-...">
+                    <motion.div initial={{opacity:0,y:15}} whileInView={{opacity:1,y:0}} viewport={{once:true}} ...>
+                      <div className="lg:col-spa..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                        <div>
+                          <div>
+                          <div className="overflow-x...">
+                            <div className="flex gap-1...">
+                              <div className="flex flex-...">
+                                <div>
+                                <div>
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 0"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 0"
+                                >
+                                ...
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 0"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div>
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 0"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 3"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div>
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 3"
+                                >
+                                ...
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                              <div className="flex flex-...">
+                                <div>
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                                ...
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                ...
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 0"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                ...
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div>
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 2"
+                                >
+                                ...
+                              <div className="flex flex-...">
+                                <div>
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div>
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div>
+                                <div>
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                ...
+                              <div className="flex flex-...">
+                                <div>
+                                <div>
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                              <div className="flex flex-...">
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 1"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div>
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 3"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                              <div className="flex flex-...">
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 3"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 3"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 3"
+                                >
+                              <div className="flex flex-...">
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 3"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 0"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div>
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-zinc-..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 0"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 2"
+  -                               title="Activity intensity: 1"
+                                >
+                                <div
+  +                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  -                               className="w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 bg-emera..."
+  +                               title="Activity intensity: 1"
+  -                               title="Activity intensity: 2"
+                                >
+                        ...
+                    ...
+                  ...
+            ...
+      ...
+  
+  
+  
+      at div (<anonymous>:null:null)
+      at <unknown> (src/components/sections/GithubStats.tsx:102:25)
+      at Array.map (<anonymous>:null:null)
+      at <unknown> (src/components/sections/GithubStats.tsx:101:28)
+      at Array.map (<anonymous>:null:null)
+      at GithubStats (src/components/sections/GithubStats.tsx:99:37)
+      at Home (src/app/page.tsx:54:7)
+  
+  ## Code Frame
+    100 |                     <div key={cIdx} className="flex flex-col gap-1">
+    101 |                       {col.map((intensity, rIdx) => (
+  > 102 |                         <div
+        |                         ^
+    103 |                           key={rIdx}
+    104 |                           className={`w-3.5 h-3.5 rounded-sm transition-all duration-300 hover:scale-115 ${g...
+    105 |                             intensity
+  
+  Next.js version: 16.2.11 (Turbopack)
+  
+
+--- WINDOW  2026/07/25 12:22:35  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:22:36  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  fix this [ENTER]
+
+--- WINDOW  2026/07/25 12:22:46  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:22:46  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:23:08  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:23:08  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:23:09  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:23:09  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:23:10  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:25:02  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  s
+
+--- WINDOW  2026/07/25 12:25:18  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:25:21  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:25:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:25:24  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:25:26  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:25:27  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/07/25 12:25:28  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:25:28  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+  s
+
+--- WINDOW  2026/07/25 12:25:33  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:25:37  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:25:37  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:25:39  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:25:40  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [Ctrl]v
+
+--- WINDOW  2026/07/25 12:25:42  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:25:42  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+  s
+
+--- WINDOW  2026/07/25 12:25:46  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:25:50  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:25:51  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:25:52  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:25:53  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/07/25 12:25:54  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:25:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:25:54  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+  s
+
+--- WINDOW  2026/07/25 12:25:59  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:26:01  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:26:02  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:26:04  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/07/25 12:26:05  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]viit[Bk][Bk]t sp ma[Bk][Bk][Bk][Bk]o mest [Bk][Bk]y please fix and i want to realstek  not beginner like portfolio i wa[Bk][Bk][Bk][Bk][ENTER]
+  profestional [ENTER]
