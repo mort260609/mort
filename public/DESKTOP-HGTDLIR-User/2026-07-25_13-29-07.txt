@@ -1,0 +1,1317 @@
+﻿  [LMB]
+
+--- WINDOW  2026/07/25 12:30:48  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:30:49  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:31:00  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:31:04  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:31:46  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:31:46  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:31:47  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:32:53  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:32:53  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:32:56  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:32:56  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:32:56  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+  s
+
+--- WINDOW  2026/07/25 12:33:01  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:33:04  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:33:06  [chrome.exe] Portfolio Prompt Taiyar - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]vye portfolio  ek profr[Bk]estional nhi lga rha hai mujhe profesna[Bk][Bk]tional chahiye q ki ue [Bk][Bk][Bk]ye mre[Bk][Bk]era portfolio cline[Bk][Bk]ent dekhenge na ki me [ENTER]
+  mujhe profetional porty[Bk] [Bk]folio ke liye prop[Bk]mpt bna kr do jo antigravity shi kre m[Bk]mere es portfi[Bk]olio ko [ENTER]
+  [LMB]
+  [Clipboard]
+  You are a Senior Product Designer, Creative Director, and Senior Frontend Engineer.
+  
+  Your task is NOT to build a normal developer portfolio.
+  
+  Your task is to redesign my existing portfolio into a premium, modern, enterprise-grade personal website that immediately builds trust with clients, startups, recruiters, and CTOs.
+  
+  Current stack:
+  - Next.js 15 (App Router)
+  - TypeScript
+  - Tailwind CSS
+  - Framer Motion
+  - GSAP
+  - Shadcn UI
+  
+  Do NOT rewrite the project from scratch unless necessary.
+  Reuse the existing codebase where possible while improving the UI, UX, animations, responsiveness, accessibility, performance, and SEO.
+  
+  ==================================================
+  
+  PRIMARY GOAL
+  
+  When someone opens the website they should immediately think:
+  
+  "This developer builds premium software products."
+  
+  NOT
+  
+  "This is another portfolio template."
+  
+  ==================================================
+  
+  DESIGN STYLE
+  
+  Use inspiration from
+  
+  • Apple
+  • Vercel
+  • Stripe
+  • Linear
+  • Framer
+  • Arc Browser
+  • Raycast
+  • Notion
+  
+  The website should look like a premium SaaS product rather than a personal blog.
+  
+  Avoid overusing gradients.
+  
+  Avoid excessive glowing effects.
+  
+  Avoid neon colours.
+  
+  Avoid cyberpunk styling.
+  
+  Avoid random floating code blocks.
+  
+  Avoid gamer aesthetics.
+  
+  Everything should feel elegant, minimal, premium and expensive.
+  
+  ==================================================
+  
+  COLOR PALETTE
+  
+  Background:
+  #09090B
+  
+  Surface:
+  #111827
+  
+  Primary:
+  #7C3AED
+  
+  Secondary:
+  #2563EB
+  
+  Text:
+  #FFFFFF
+  
+  Muted Text:
+  #9CA3AF
+  
+  Border:
+  rgba(255,255,255,.08)
+  
+  Very subtle glass effect only where needed.
+  
+  ==================================================
+  
+  TYPOGRAPHY
+  
+  Use:
+  
+  Inter
+  
+  Space Grotesk
+  
+  Satoshi
+  
+  Large typography.
+  
+  Generous spacing.
+  
+  Premium hierarchy.
+  
+  Readable line height.
+  
+  ==================================================
+  
+  LAYOUT
+  
+  Use a centered container.
+  
+  Maximum width:
+  1280px
+  
+  Excellent whitespace.
+  
+  Consistent spacing.
+  
+  Responsive on every device.
+  
+  ==================================================
+  
+  REMOVE FROM CURRENT WEBSITE
+  
+  Remove unnecessary code snippets.
+  
+  Remove fake terminal windows.
+  
+  Remove excessive animations.
+  
+  Remove distracting background objects.
+  
+  Remove oversized empty spaces.
+  
+  Remove unnecessary counters.
+  
+  Remove duplicate content.
+  
+  Remove clutter.
+  
+  ==================================================
+  
+  NEW HERO SECTION
+  
+  Large professional photograph.
+  
+  Name
+  
+  Deepak Sharma
+  
+  Headline
+  
+  Full Stack Engineer
+  
+  Subheadline
+  
+  Building scalable web applications, cloud platforms, APIs and SaaS products that help businesses grow.
+  
+  Buttons
+  
+  Hire Me
+  
+  Download Resume
+  
+  View Projects
+  
+  Book a Call
+  
+  Availability badge
+  
+  Available for Freelance
+  
+  3+ Years Experience
+  
+  30+ Projects Delivered
+  
+  Location
+  
+  Indore, India
+  
+  ==================================================
+  
+  ABOUT SECTION
+  
+  Professional introduction.
+  
+  Engineering mindset.
+  
+  Problem solving.
+  
+  Backend architecture.
+  
+  Cloud.
+  
+  Performance optimisation.
+  
+  Security.
+  
+  Scalability.
+  
+  Do not make it sound like AI-generated text.
+  
+  ==================================================
+  
+  FEATURED PROJECTS
+  
+  This should become the strongest section.
+  
+  Every project must include
+  
+  Large screenshot
+  
+  Project title
+  
+  Business problem
+  
+  My solution
+  
+  Architecture
+  
+  Tech Stack
+  
+  Features
+  
+  Challenges
+  
+  Results
+  
+  GitHub
+  
+  Live Demo
+  
+  Case Study page
+  
+  Hover animations
+  
+  ==================================================
+  
+  SKILLS
+  
+  Remove progress bars.
+  
+  Replace with premium technology cards.
+  
+  Categories
+  
+  Frontend
+  
+  Backend
+  
+  Cloud
+  
+  Databases
+  
+  DevOps
+  
+  Payments
+  
+  Authentication
+  
+  Tools
+  
+  ==================================================
+  
+  EXPERIENCE
+  
+  Vertical timeline.
+  
+  Company.
+  
+  Role.
+  
+  Responsibilities.
+  
+  Technologies.
+  
+  Achievements.
+  
+  ==================================================
+  
+  SERVICES
+  
+  Backend Development
+  
+  API Development
+  
+  Next.js Development
+  
+  Node.js Development
+  
+  Database Design
+  
+  Cloud Deployment
+  
+  System Architecture
+  
+  Performance Optimisation
+  
+  Consulting
+  
+  ==================================================
+  
+  WHY HIRE ME
+  
+  Show business value instead of technology.
+  
+  Fast delivery
+  
+  Clean architecture
+  
+  Scalable backend
+  
+  Secure authentication
+  
+  Modern UI
+  
+  API integrations
+  
+  AWS experience
+  
+  Long-term support
+  
+  ==================================================
+  
+  CLIENT TESTIMONIALS
+  
+  Premium cards.
+  
+  Professional layout.
+  
+  ==================================================
+  
+  CONTACT
+  
+  Beautiful glass card.
+  
+  Email
+  
+  Phone
+  
+  LinkedIn
+  
+  GitHub
+  
+  WhatsApp
+  
+  EmailJS contact form
+  
+  Loading animation
+  
+  Success animation
+  
+  Error handling
+  
+  ==================================================
+  
+  FOOTER
+  
+  Simple.
+  
+  Elegant.
+  
+  Professional.
+  
+  ==================================================
+  
+  ANIMATIONS
+  
+  Use Framer Motion only.
+  
+  Very smooth.
+  
+  Very subtle.
+  
+  Professional.
+  
+  Fade Up
+  
+  Scale
+  
+  Slide
+  
+  Parallax only where useful.
+  
+  No excessive motion.
+  
+  ==================================================
+  
+  PERFORMANCE
+  
+  Lighthouse 95+
+  
+  SEO 100
+  
+  Accessibility 100
+  
+  Performance optimisation
+  
+  Image optimisation
+  
+  Lazy loading
+  
+  Dynamic imports
+  
+  Metadata
+  
+  Open Graph
+  
+  Twitter cards
+  
+  Schema.org
+  
+  ==================================================
+  
+  RESPONSIVE
+  
+  Desktop
+  
+  Laptop
+  
+  Tablet
+  
+  Mobile
+  
+  ==================================================
+  
+  ACCESSIBILITY
+  
+  Keyboard navigation
+  
+  ARIA labels
+  
+  Proper semantic HTML
+  
+  ==================================================
+  
+  DELIVERABLES
+  
+  Refactor every component.
+  
+  Improve folder structure.
+  
+  Improve code quality.
+  
+  Remove unused code.
+  
+  Improve responsiveness.
+  
+  Improve accessibility.
+  
+  Improve SEO.
+  
+  Keep the project production ready.
+  
+  The final result should look like a premium software engineer portfolio suitable for international clients and top software companies.
+  
+  Never generate a template-like portfolio.
+  
+  Make it unique.
+  
+  The design quality should be comparable to websites featured on Awwwards while keeping usability high.
+  
+  The website must create trust within the first 5 seconds.
+
+--- WINDOW  2026/07/25 12:35:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:35:32  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/25 12:35:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:35:53  [chrome.exe] Portfolio Prompt Taiyar - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:35:56  [chrome.exe] (1) Discord - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:35:58  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+  to[Bk][Bk]t[Bk]to ba[Bk]hai tuje sirf cient chahiye pura [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk] or project chaiye [Bk][Bk][Bk][Bk]hiye project me kam mujhe nhi mileha [Bk][Bk][Bk]ga kuya [Bk][Bk][Bk]a[Bk]ya .[Bk]/[Bk]/[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:37:46  [chrome.exe] Deepak Sharma // Full Stack Developer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:37:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:37:54  [Antigravity IDE.exe] new-client - Antigravity IDE - .env.example
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:37:55  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:38:17  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:38:18  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:39:57  [chrome.exe] Deepak Sharma // Full Stack Engineer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:40:42  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:40:42  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:40:46  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:40:46  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:41:11  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:41:11  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:41:38  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:41:39  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:42:02  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:42:03  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:42:26  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:42:27  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:42:50  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:42:51  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:43:04  [chrome.exe] Deepak Sharma // Full Stack Engineer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:43:27  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:43:28  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:44:07  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:44:08  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:44:14  [chrome.exe] Deepak Sharma // Full Stack Engineer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:44:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:44:32  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:45:09  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:45:10  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:45:44  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:45:45  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:46:21  [chrome.exe] Deepak Sharma // Full Stack Engineer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:46:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:46:30  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:46:33  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:46:34  [Antigravity IDE.exe] new-client - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:52:14  [chrome.exe] Deepak Sharma // Full Stack Engineer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:52:16  [Antigravity IDE.exe] Polymarket-copy-trading-bot - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  1. Identifying Top Traders on Polymarket
+  We will query Polymarket's leaderboard endpoints (primarily https://data-api.polymarket.com/v1/leaderboard or https://lb-api.polymarket.com/profit) to pull the top accounts ranked by Profit and Loss (PnL) and volume. For usernames displayed on the leaderboard, we will resolve them to their active Gnosis Safe proxy wallet addresses using Polymarket's profile lookup (https://polymarket.com/@username).
+  
+  2. APIs and Blockchain Data Sources
+  Polymarket Data API: Used to fetch top traders (/v1/leaderboard), retrieve their current open positions (/positions), and fetch their latest trade activity (/activity).
+  Polymarket CLOB API: Used to fetch real-time market order books, verify contract details, and place copy-trade orders via the @polymarket/clob-client SDK.
+  Polygon RPC Nodes: Used to directly audit transaction status and track Gnosis Safe/Proxy wallet events if needed.
+  3. Ranking and Filtering Logic
+  To ensure we copy profitable and reliable traders (and avoid copy-trading "lucky" accounts or those with massive open losses), we rank and filter using the following criteria:
+  
+  Realized PnL & Win Rate: Sort traders by profit over daily/weekly/monthly windows.
+  Unrealized PnL Audit: Call GET /positions for the top traders to check their open positions. If they have huge unrealized losses (a common trick to inflate leaderboard standings), they are filtered out.
+  Activity Consistency: Exclude traders who have fewer than 5 trades per week or are inactive.
+  Trade Sizing & Volume: Ignore micro-accounts (trades < $5) and focus on accounts with typical transaction sizes aligned with our target liquidity.
+  4. Update Frequency
+  Leaderboard Scan: Run a background worker once per day to fetch the latest top traders.
+  Performance Monitoring & Rotation: Evaluate the followed traders' performance continuously. If a trader experiences a significant drawdown or remains inactive for more than 3 days, the bot will automatically rotate them out and replace them with a freshly selected candidate.
+  cccccccccccccccccccccc
+  [LMB]
+
+--- WINDOW  2026/07/25 12:52:53  [chrome.exe] Deepak Sharma // Full Stack Engineer Portfolio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:52:55  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:52:59  [chrome.exe] • Discord | @Potatokiller - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:53:14  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:53:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:53:18  [Notepad.exe] Notepad
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:53:19  [Notepad.exe] hargan.txt - Notepad
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:53:21  [Notepad.exe] Untitled - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/07/25 12:53:23  [Notepad.exe] *1. Identifying Top Traders on Polym - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:53:25  [chrome.exe] • Discord | @Potatokiller - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:53:27  [chrome.exe] Laptop Table For Home- Buy Products Online at Best Price in India - All Categories | Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:53:30  [chrome.exe] Flash AI Assistant - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:53:40  [chrome.exe] localhost - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:53:42  [chrome.exe] Laptop Table For Home- Buy Products Online at Best Price in India - All Categories | Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:54:03  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:54:04  [chrome.exe] FurniGully Foldable Multipurpose Wood Portable Laptop Table Price in India - Buy FurniGully Foldable Multipurpose Wood Portable Laptop Table online at Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:54:33  [chrome.exe] Review Image Fullscreen Store Online - Buy Review Image Fullscreen Online at Best Price in India | Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:54:57  [chrome.exe] FurniGully Foldable Multipurpose Wood Portable Laptop Table Price in India - Buy FurniGully Foldable Multipurpose Wood Portable Laptop Table online at Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:55:27  [chrome.exe] Laptop Table For Home- Buy Products Online at Best Price in India - All Categories | Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:56:13  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:56:13  [chrome.exe] FurniGully Foldable multipurpose Table Wood Portable Laptop Table Price in India - Buy FurniGully Foldable multipurpose Table Wood Portable Laptop Table online at Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:56:25  [chrome.exe] Laptop Table For Home- Buy Products Online at Best Price in India - All Categories | Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:56:33  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:56:33  [chrome.exe] flipkart.com/furnigully-foldable-multipurpose-wood-portable-laptop-table/p/itm053fa5d689946?pid=PLLGWUBFBTB8KC9U&lid=LSTPLLGWUBFBTB8KC9U5SODV4&marketplace=FLIPKART&q=laptop+table+for+home&store=wwe%2Fki7%2Fd4s&srno=s_1_34&otracker=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_na&fm=search-autosuggest&iid=9476f63e-e08f-49a5-b0b6-968128f44927.PLLGWUBFBTB8KC9U.SEARCH&ppt=sp&ppn=sp&qH=9797f66c641da90b&ov_redirect=true&ov_redirect=true - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:56:34  [chrome.exe] FurniGully Foldable Multipurpose Wood Portable Laptop Table Price in India - Buy FurniGully Foldable Multipurpose Wood Portable Laptop Table online at Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:57:04  [chrome.exe] Review Image Fullscreen Store Online - Buy Review Image Fullscreen Online at Best Price in India | Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:57:21  [chrome.exe] Complete your EmailJS signup - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:57:24  [chrome.exe] Inbox (3,808) - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  0
+  [LMB]
+
+--- WINDOW  2026/07/25 13:01:56  [chrome.exe] EmailJS service_ta64cj2 Test Email - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:02:01  [chrome.exe] Inbox (3,807) - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:02:02  [chrome.exe] Security alert - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:02:04  [chrome.exe] Inbox (3,806) - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:03:04  [chrome.exe] Account - EmailJS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:03:11  [chrome.exe] Laptop Table For Home- Buy Products Online at Best Price in India - All Categories | Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:03:18  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:03:18  [chrome.exe] FurniGully Foldable Multipurpose Wood Portable Laptop Table Price in India - Buy FurniGully Foldable Multipurpose Wood Portable Laptop Table online at Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:03:32  [chrome.exe] Laptop Table For Home- Buy Products Online at Best Price in India - All Categories | Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:03:33  [chrome.exe] Review Image Fullscreen Store Online - Buy Review Image Fullscreen Online at Best Price in India | Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:03:35  [chrome.exe] FurniGully Foldable multipurpose Table Wood Portable Laptop Table Price in India - Buy FurniGully Foldable multipurpose Table Wood Portable Laptop Table online at Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:03:36  [chrome.exe] FurniGully Foldable Multipurpose Wood Portable Laptop Table Price in India - Buy FurniGully Foldable Multipurpose Wood Portable Laptop Table online at Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:03:36  [chrome.exe] localhost - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:03:37  [chrome.exe] Laptop Table For Home- Buy Products Online at Best Price in India - All Categories | Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:03:44  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:03:45  [chrome.exe] flipkart.com/furnigully-wood-portable-laptop-table/p/itm24c0c710f7111?pid=PLLGH9HZWNGTXAQA&lid=LSTPLLGH9HZWNGTXAQANIWU0I&marketplace=FLIPKART&q=laptop+table+for+home&store=wwe%2Fki7%2Fd4s&srno=s_1_39&otracker=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_na&fm=search-autosuggest&iid=9476f63e-e08f-49a5-b0b6-968128f44927.PLLGH9HZWNGTXAQA.SEARCH&ppt=sp&ppn=sp&qH=9797f66c641da90b&ov_redirect=true&ov_redirect=true - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:03:45  [chrome.exe] FurniGully Wood Portable Laptop Table Price in India - Buy FurniGully Wood Portable Laptop Table online at Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:04:00  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:04:00  [chrome.exe] Furnigully Wood Portable Laptop Table Reviews: Latest Review of Furnigully Wood Portable Laptop Table | Price in India | Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:04:16  [chrome.exe] FurniGully Wood Portable Laptop Table Price in India - Buy FurniGully Wood Portable Laptop Table online at Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:04:20  [chrome.exe] Laptop Table For Home- Buy Products Online at Best Price in India - All Categories | Flipkart.com - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:04:38  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  am[ENTER]
+
+--- WINDOW  2026/07/25 13:04:41  [chrome.exe] Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  laptop tab;e[Bk][Bk]le[ENTER]
+
+--- WINDOW  2026/07/25 13:04:54  [chrome.exe] Amazon.in : laptop table - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:05:51  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:05:51  [chrome.exe] eumqestoer Study Table Bed Table Premium Laptop Table/Foldable and Portable Wooden/Writing Desk for Office/Home/School (Wood) : Amazon.in: Computers & Accessories - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:07:55  [chrome.exe] Amazon.in : laptop table - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:15:02  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:15:08  [chrome.exe] • Discord | @Potatokiller - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:15:10  [chrome.exe] (2) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:15:15  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  sw[Bk]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:15:26  [chrome.exe] (2) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:15:43  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:15:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:15:43  [Notepad.exe] *1. Identifying Top Traders on Polym - Notepad
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:15:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:15:44  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:15:44  [chrome.exe] (2) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:15:45  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  swarpoojanujjain[ENTER]
+
+--- WINDOW  2026/07/25 13:15:56  [chrome.exe] swarpoojanujjain - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:00  [chrome.exe] (2) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:02  [Notepad.exe] *1. Identifying Top Traders on Polym - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:04  [chrome.exe] (2) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:05  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:09  [chrome.exe] Restore pages?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:10  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:16:13  [chrome.exe] hPanel - Hostinger - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:16  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  s[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:20  [chrome.exe] सर्व पूजन उज्जैन - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]
+  [Clipboard]
+  https://sarvapoojanujjain.com/
+  c
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:23  [chrome.exe] (2) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:16:25  [chrome.exe] • Discord | @Potatokiller - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:30  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/25 13:16:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:16:37  [chrome.exe] सर्व पूजन उज्जैन - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:39  [chrome.exe] Folder In Use Error - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:40  [chrome.exe] सर्व पूजन उज्जैन - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:42  [chrome.exe] Hostinger login | Sign in to Hostinger account - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:50  [chrome.exe] Fix the tab slowing your browser
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:16:50  [chrome.exe] Hostinger login | Sign in to Hostinger account - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:16:52  [chrome.exe] hPanel - Hostinger - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:16:55  [chrome.exe] Plan details | Hostinger - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:17:05  [chrome.exe] Home | Hostinger - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:17:09  [chrome.exe] Domain portfolio | Hostinger - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  advanceresearchinvestment.in
+  c
+  [LMB]
+
+--- WINDOW  2026/07/25 13:17:16  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/25 13:17:18  [chrome.exe] Advance Research Investment - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  https://advanceresearchinvestment.in/
+  cc
+  [LMB]
+
+--- WINDOW  2026/07/25 13:17:25  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:17:33  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  retli[Bk][Bk][Bk][Bk][Bk]
+
+--- WINDOW  2026/07/25 13:17:44  [chrome.exe] (2) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  gaja
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:19:22  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:19:24  [chrome.exe] Gajanan Print Solution | Premium Graphic Design SaaS - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://new-deployed.netlify.app/
+  ccccc
+  [LMB]
+
+--- WINDOW  2026/07/25 13:19:29  [chrome.exe] (2) Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:19:30  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+  v[ENTER]
+  bro ye dono php larave; [Bk][Bk]l eme [Bk][Bk][Bk][Bk]me or thor[Bk][Bk]ird one next[Bk]t and node js [ENTER]
+
+--- WINDOW  2026/07/25 13:20:10  [chrome.exe] Advance Research Investment - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:20:19  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  li[Bk]unelinks.im[ENTER]
+
+--- WINDOW  2026/07/25 13:20:28  [chrome.exe] lunelinks.im - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Bk]lunalinks.in[ENTER]
+
+--- WINDOW  2026/07/25 13:20:37  [chrome.exe] Lunalinks - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://lunalinks.in/
+  ccc
+
+--- WINDOW  2026/07/25 13:20:41  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:20:42  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  react and not js [Bk][Bk][Bk][Bk][Bk]de js [ENTER]
+  ese bhi[Bk]u website-[Bk]pr mene kam kiya hai or application pr bi or mene it coapny e[Bk][Bk][Bk][Bk][Bk][Bk]m[Bk]pany me [Bk][Bk][Bk][Bk][Bk][Bk][Bk]mpany e[Bk]me bhi work kya haob[Bk][Bk]i 3+ yeaser [Bk][Bk][Bk][Bk]r w[Bk]expre[Bk][Bk]erince 
+  [LMB]
+  [LMB]
+  [Bk]expeience hai muhe 
+  [LMB]
+  [LMB]
+  [LMB]
+   10 = [Bk][Bk]= project [r [Bk][Bk][Bk]pr kam kr cukah h[Bk][Bk][Bk][Bk][Bk][Bk][Bk]ku[Bk][Bk]chuka hu [ENTER]
+  [LMB]
+  osiyatech or infinity genesis techsi[Bk]o [ENTER]
+  indore ki cona[Bk][Bk]mpany hai ye donon[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:25:06  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  har[ENTER]
+
+--- WINDOW  2026/07/25 13:25:08  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://hargantechnologies.cloud/admin/dashboard
+  ccc
+
+--- WINDOW  2026/07/25 13:25:12  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:25:12  [chrome.exe] Lunalinks - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:25:13  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:25:13  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:25:13  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:25:16  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][ENTER]
+  [LMB]
+  hike km[Bk][Bk]a[Bk]ka [Bk]m dete the [Bk][Bk]e bolte the 6 monyh[Bk][Bk]th me increemtn [Bk][Bk][Bk][Bk][Bk]ment ke [Bk][Bk]r denge or kiya nhi to me3ne [Bk][Bk][Bk][Bk]ne  live kr diya [ENTER]
+
+--- WINDOW  2026/07/25 13:26:19  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:26:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:26:19  [chrome.exe] Lunalinks - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:26:24  [chrome.exe] Advance Research Investment - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:26:25  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+  mene 10 + real pri[Bk]oject pr kam kiya hau ah[Bk][Bk][Bk][Bk]a[Bk][Bk]au [Bk][Bk][Bk]ya [Bk][Bk][Bk]ua ha [Bk]i or mee[Bk]re free[Bk]ea[Bk]lancing ke bhi  prie[Bk][Bk]oject bhej cu[Bk]ju[Bk][Bk]hula[Bk][Bk]ka hu me jo mene kiyehuye haib[ENTER]
+
+--- WINDOW  2026/07/25 13:27:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:27:25  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:27:25  [chrome.exe] Advance Research Investment - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:27:26  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:27:26  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:27:31  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:27:31  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:27:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:27:31  [chrome.exe] Advance Research Investment - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:27:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:27:32  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:27:57  [chrome.exe] (1) Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:28:03  [chrome.exe] (2) Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:28:08  [chrome.exe] • Discord | @VirtualGamerX - Google Chrome
+----------------------------------------------------------------------------
+  nhi p[Bk]bro mujhe bahar ja nhi hai that wht [Bk][Bk] [ENTER]
+  [LMB]
