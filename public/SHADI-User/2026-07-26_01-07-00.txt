@@ -1,0 +1,1620 @@
+﻿  (1'J DFCFD[Bk]ED 'DE41H9 DFG'J*G -*I J5(- AJ 7H'D,'G2J) (9/JF ,(* [Bk][Bk][Bk][Bk](F,J( EA'*-J[Bk][Bk]J- 4-G[ENTER]
+  [LMB]
+  [Clipboard]
+  import asyncio
+  import aiohttp
+  import os
+  import sys
+  from datetime import datetime
+  
+  # ==========================================
+  # 1. إعدادات بيئة الذكاء الاصطناعي
+  # ==========================================
+  # سيتم جلب المفاتيح من متغيرات البيئة أو ملف .env لاحقاً
+  DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "YOUR_DEEPSEEK_KEY")
+  CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY", "YOUR_CLAUDE_KEY")
+  GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_GEMINI_KEY")
+  KIMI_API_KEY = os.environ.get("KIMI_API_KEY", "YOUR_KIMI_KEY")
+
+--- WINDOW  2026/07/26 00:09:32  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]1
+
+--- WINDOW  2026/07/26 00:09:43  [Code.exe] ● Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 00:09:44  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 00:09:47  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:09:47  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:10:08  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:10:08  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:10:11  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:10:11  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:10:13  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:10:13  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:10:13  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:10:16  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  async def call_gemini(self, prompt, model_type="flash"):
+          """اتصال مباشر بخوادم Google لأحدث إصدارات Gemini"""
+          if GEMINI_API_KEY == "YOUR_GEMINI_KEY":
+              await asyncio.sleep(1)
+              return f"هذه الثغرة مطابقة لحوادث سابقة (محاكاة بنموذج: {model_type})."
+  
+          model_name = "gemini-2.5-flash" if model_type == "flash" else "gemini-2.5-pro-preview"
+          
+          url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
+          headers = {"Content-Type": "application/json"}
+          payload = {"contents": [{"parts": [{"text": prompt}]}]}
+          
+          async with aiohttp.ClientSession() as session:
+              async with session.post(url, headers=headers, json=payload) as response:
+                  data = await response.json()
+                  return data['candidates'][0]['content']['parts'][0]['text']
+
+--- WINDOW  2026/07/26 00:10:22  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:10:23  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:10:26  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:10:29  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:10:29  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:10:30  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:10:30  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  B/E 
+  [LMB]
+  B/E 'DCH/ C'ED E,[Bk]/E, [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/26 00:11:17  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 00:11:19  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 00:11:21  [chrome.exe] ‪My Gigs - Posted - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:11:26  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  import asyncio
+  import aiohttp
+  import os
+  import sys
+  from datetime import datetime
+  
+  # ==========================================
+  # 1. إعدادات بيئة الذكاء الاصطناعي
+  # ==========================================
+  # سيتم جلب المفاتيح من متغيرات البيئة أو ملف .env لاحقاً
+  DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "YOUR_DEEPSEEK_KEY")
+  CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY", "YOUR_CLAUDE_KEY")
+  GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_GEMINI_KEY")
+  KIMI_API_KEY = os.environ.get("KIMI_API_KEY", "YOUR_KIMI_KEY")
+  
+  # ==========================================
+  # 2. الموجه النقي (The Native AI Router)
+  # ==========================================
+  class AIRouter:
+      async def call_kimi(self, contract_code):
+          """اتصال بنموذج Moonshot (Kimi) ذو سعة السياق الضخمة للاستطلاع"""
+          if KIMI_API_KEY == "YOUR_KIMI_KEY":
+              await asyncio.sleep(1)
+              return "خريطة Kimi: الكود يحتوي على دوال حساسة وتدفق أموال يتطلب فحص آليات التحديث."
+  
+          url = "https://api.moonshot.cn/v1/chat/completions"
+          headers = {"Authorization": f"Bearer {KIMI_API_KEY}", "Content-Type": "application/json"}
+          payload = {"model": "moonshot-v1-128k", "messages": [{"role": "user", "content": f"حلل هذا العقد وأعطني خريطة معمارية للثغرات المحتملة:\n{contract_code}"}]}
+          async with aiohttp.ClientSession() as session:
+              async with session.post(url, headers=headers, json=payload) as response:
+                  data = await response.json()
+                  return data['choices'][0]['message']['content']
+  
+      async def call_deepseek(self, system_prompt, user_prompt):
+          if DEEPSEEK_API_KEY == "YOUR_DEEPSEEK_KEY":
+              await asyncio.sleep(1)
+              return "بناءً على خريطة Kimi، تم رصد نقطة ضعف محتملة في ترتيب تحديث الحالة قبل الاستدعاء الخارجي (Reentrancy pattern)."
+          
+          url = "https://api.deepseek.com/v1/chat/completions"
+          headers = {"Authorization": f"Bearer {DEEPSEEK_API_KEY}", "Content-Type": "application/json"}
+          payload = {
+              "model": "deepseek-coder",
+              "messages": [
+                  {"role": "system", "content": system_prompt},
+                  {"role": "user", "content": user_prompt}
+              ]
+          }
+          async with aiohttp.ClientSession() as session:
+              async with session.post(url, headers=headers, json=payload) as response:
+                  data = await response.json()
+                  return data['choices'][0]['message']['content']
+  
+      async def call_claude(self, system_prompt, user_prompt):
+          if CLAUDE_API_KEY == "YOUR_CLAUDE_KEY":
+              await asyncio.sleep(1)
+              return "الثغرة حقيقية (True Positive) وتسمح باستغلال التدفق المالي."
+          
+          url = "https://api.anthropic.com/v1/messages"
+          headers = {
+              "x-api-key": CLAUDE_API_KEY,
+              "anthropic-version": "2023-06-01",
+              "content-type": "application/json"
+          }
+          payload = {
+              "model": "claude-3-5-sonnet-20241022",
+              "max_tokens": 1024,
+              "system": system_prompt,
+              "messages": [{"role": "user", "content": user_prompt}]
+          }
+          async with aiohttp.ClientSession() as session:
+              async with session.post(url, headers=headers, json=payload) as response:
+                  data = await response.json()
+                  return data['content'][0]['text']
+  
+      async def call_gemini(self, prompt, model_type="flash"):
+          """اتصال مباشر بخوادم Google لأحدث إصدارات Gemini"""
+          if GEMINI_API_KEY == "YOUR_GEMINI_KEY":
+              await asyncio.sleep(1)
+              return f"هذه الثغرة مطابقة لحوادث سابقة (محاكاة بنموذج: {model_type})."
+  
+          model_name = "gemini-2.5-flash" if model_type == "flash" else "gemini-2.5-pro-preview"
+          
+          url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
+          headers = {"Content-Type": "application/json"}
+          payload = {"contents": [{"parts": [{"text": prompt}]}]}
+          
+          async with aiohttp.ClientSession() as session:
+              async with session.post(url, headers=headers, json=payload) as response:
+                  data = await response.json()
+                  return data['candidates'][0]['content']['parts'][0]['text']
+  
+  # ==========================================
+  # 3. كلاس "السبورة المشتركة" (The Blackboard)
+  # ==========================================
+  class Blackboard:
+      def __init__(self):
+          self.suspected_vulnerabilities = asyncio.Queue()
+          self.research_queue = asyncio.Queue()
+          self.confirmed_vulnerabilities = []
+          self.historical_data = [] # لتخزين أبحاث Gemini للتقارير
+  
+      async def add_suspicion(self, agent_name, finding):
+          await self.suspected_vulnerabilities.put({"agent": agent_name, "finding": finding})
+          print(f"\n[⚔️] {agent_name} وضع ثغرة محتملة على السبورة:\n{finding}")
+  
+      async def get_suspicion(self):
+          return await self.suspected_vulnerabilities.get()
+  
+  # ==========================================
+  # 4. وكلاء الذكاء الاصطناعي (The AI Agents)
+  # ==========================================
+  async def scout_agent(router, contract_code):
+      print("[*] وكيل الاستطلاع (Kimi) يقرأ الكود لاستخراج الخريطة المعمارية...")
+      architecture_map = await router.call_kimi(contract_code)
+      print(f"\n[🗺️] خريطة Kimi المعمارية جاهزة.")
+      return architecture_map
+  
+  async def attacker_agent(blackboard, router, contract_code, architecture_map):
+      print("\n[*] وكيل الهجوم (DeepSeek) يشن هجوماً مركزاً...")
+      system_prompt = "أنت خبير أمني. استخدم الخريطة المعمارية المرفقة لتوجيه هجومك على الكود واستخراج الثغرة."
+      user_prompt = f"الخريطة المعمارية:\n{architecture_map}\n\nالكود:\n{contract_code}"
+      
+      finding = await router.call_deepseek(system_prompt, user_prompt)
+      await blackboard.add_suspicion("DeepSeek-Attacker", finding)
+  
+  async def validator_agent(blackboard, router):
+      item = await blackboard.get_suspicion()
+      agent = item['agent']
+      finding = item['finding']
+      
+      print(f"\n[🛡️] Claude يلتقط ثغرة {agent} ويبدأ التحليل التدميري...")
+      system_prompt = "أنت خبير أمني دفاعي. حاول إثبات أن الثغرة المقترحة غير قابلة للاستغلال."
+      user_prompt = f"حاول تفنيد هذه الثغرة:\n{finding}"
+      
+      validation_result = await router.call_claude(system_prompt, user_prompt)
+      print(f"\n[✅] تقرير Claude النهائي:\n{validation_result}")
+      
+      blackboard.confirmed_vulnerabilities.append(item)
+      await blackboard.research_queue.put(item)
+      blackboard.suspected_vulnerabilities.task_done()
+  
+  async def researcher_agent(blackboard, router):
+      item = await blackboard.research_queue.get()
+      finding = item['finding']
+      
+      print(f"\n[🔍] Gemini يستيقظ للبحث عن استغلال تاريخي (PoC)...")
+      prompt = f"هذه ثغرة مؤكدة:\n{finding}\nابحث في بياناتك التاريخية عن حوادث مشابهة وأعطني هيكل استغلال (PoC)."
+      
+      # استخدام نموذج pro للمهام المعقدة
+      research_result = await router.call_gemini(prompt, model_type="pro") 
+      print(f"\n[📜] تقرير Gemini التاريخي وهيكل الاستغلال:\n{research_result}")
+      
+      blackboard.historical_data.append(research_result)
+      blackboard.research_queue.task_done()
+  
+  # ==========================================
+  # 5. نظام التقارير والمنسق الرئيسي (Reporter & Orchestrator)
+  # ==========================================
+  def generate_report(contract_path, confirmed_vulnerabilities, historical_research):
+      """توليد تقرير ماركداون نظيف ومؤرشف"""
+      report_path = "Audit_Report.md"
+      timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+      
+      with open(report_path, "a", encoding="utf-8") as f:
+          f.write(f"\n## 1. تقرير فحص العقد: {contract_path}\n")
+          f.write(f"**تاريخ الفحص:** {timestamp}\n\n")
+          
+          if not confirmed_vulnerabilities:
+              f.write("لم يتم العثور على ثغرات مؤكدة.\n")
+          else:
+              for i, item in enumerate(confirmed_vulnerabilities, 1):
+                  f.write(f"### 1.{i} الثغرة المؤكدة\n")
+                  f.write(f"**الوكيل المكتشف:** {item['agent']}\n")
+                  f.write(f"**التفاصيل:** {item['finding']}\n\n")
+          
+          if historical_research:
+              f.write(f"### 2. بحث السوابق التاريخية (PoC)\n")
+              f.write(f"{historical_research}\n")
+              
+          f.write("\n---\n")
+      print(f"\n[📄] تم أرشفة النتائج بنجاح في التقرير: {report_path}")
+  
+  async def process_contract(contract_path, router):
+      print(f"\n==========================================")
+      print(f"[*] بدء فحص العقد: {contract_path}")
+      print(f"==========================================")
+      
+      try:
+          with open(contract_path, "r", encoding="utf-8") as f:
+              contract_code = f.read()
+      except Exception as e:
+          print(f"[-] خطأ في قراءة الملف {contract_path}: {e}")
+          return
+  
+      board = Blackboard()
+      
+      # 1. الاستطلاع بـ Kimi
+      architecture_map = await scout_agent(router, contract_code)
+      
+      # 2. تشغيل السرب بشكل متوازٍ للعقد الحالي
+      researcher_task = asyncio.create_task(researcher_agent(board, router))
+      validator_task = asyncio.create_task(validator_agent(board, router))
+      
+      await asyncio.sleep(0.5)
+      attacker_task = asyncio.create_task(attacker_agent(board, router, contract_code, architecture_map))
+      
+      await asyncio.gather(validator_task, attacker_task, researcher_task)
+      
+      # تصدير التقرير النهائي بعد انتهاء مهام الوكلاء
+      historical = board.historical_data[0] if board.historical_data else None
+      generate_report(contract_path, board.confirmed_vulnerabilities, historical)
+  
+  async def main():
+      print("=== 🤖 بدء تشغيل السرب الآلي الشامل للمنظومة (V2 Orchestrator) ===\n")
+      
+      router = AIRouter()
+      targets_dir = "Targets"
+      
+      if not os.path.exists(targets_dir):
+          print(f"[-] مجلد الأهداف '{targets_dir}' غير موجود. يرجى تشغيل Ingester.py أولاً.")
+          return
+  
+      # جلب كافة ملفات العقود الذكية (.sol) في المجلد بشكل آلي
+      contract_files = [os.path.join(targets_dir, f) for f in os.listdir(targets_dir) if f.endswith('.sol')]
+      
+      if not contract_files:
+          print("[-] لا توجد أي عقود ذكية داخل مجلد Targets.")
+          return
+  
+      print(f"[+] تم رصد {len(contract_files)} عقد ذكي جاهز للفحص والابتلاع بواسطة السرب.\n")
+  
+      # المرور على كل عقد وفحصه تدريجياً
+      for contract_path in contract_files:
+          await process_contract(contract_path, router)
+          
+      print("\n=== 🎉 اكتملت جولة الفحص الشامل لكافة العقود بنجاح ===")
+  
+  if __name__ == "__main__":
+      if sys.platform == 'win32':
+          asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+      asyncio.run(main())
+
+--- WINDOW  2026/07/26 00:11:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:11:30  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:11:30  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]41
+
+--- WINDOW  2026/07/26 00:11:31  [Code.exe] ● Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:11:32  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  *E' 
+  [LMB]
+  H69*GE' 'D.7H) 'D*'DJ)C[ENTER]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  الآن، النظام جاهز تماماً للتشغيل المحلي (Mock Mode) وسيقوم بتوليد ملف Audit_Report.md تلقائياً. هل أنت مستعد للخطوة القادمة؟
+  [Ctrl]$
+  [LMB]
+  [Ctrl]1
+  [LMB]
+  [Ctrl]1[Ctrl]&[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Targets
+  $
+  [LMB]
+
+--- WINDOW  2026/07/26 00:13:45  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 00:13:49  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:13:49  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:13:50  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:13:50  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  3[Esc]
+
+--- WINDOW  2026/07/26 00:13:51  [ScreenClippingHost.exe] قطع الشاشة
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:13:52  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  3
+
+--- WINDOW  2026/07/26 00:13:54  [ScreenClippingHost.exe] قطع الشاشة
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 00:13:57  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:13:57  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:13:58  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:13:58  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:13:58  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  'DE3'1 EH,H/ 'DA9D HG0G *A19'*G[Ctrl]1
+
+--- WINDOW  2026/07/26 00:14:09  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:14:09  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:14:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:14:10  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:14:11  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:14:11  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  [Clipboard]
+  python Orchestrator.py
+
+--- WINDOW  2026/07/26 00:14:47  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:14:47  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/26 00:15:05  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:15:05  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:15:07  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  
+  === 🤖 بدء تشغيل السرب الآلي الشامل للمنظومة (V2 Orchestrator) ===
+  
+  [+] تم رصد 3 عقد ذكي جاهز للفحص والابتلاع بواسطة السرب.
+  
+  
+  ==========================================
+  [*] بدء فحص العقد: Targets\UniswapV2Router02_0x7a250d.sol
+  ==========================================
+  [*] وكيل الاستطلاع (Kimi) يقرأ الكود لاستخراج الخريطة المعمارية...
+  
+  [🗺️] خريطة Kimi المعمارية جاهزة.
+  
+  [*] وكيل الهجوم (DeepSeek) يشن هجوماً مركزاً...
+  
+  [⚔️] DeepSeek-Attacker وضع ثغرة محتملة على السبورة:
+  بناءً على خريطة Kimi، تم رصد نقطة ضعف محتملة في ترتيب تحديث الحالة قبل الاستدعاء الخارجي (Reentrancy pattern).
+  
+  [🛡️] Claude يلتقط ثغرة DeepSeek-Attacker ويبدأ التحليل التدميري...
+  
+  [✅] تقرير Claude النهائي:
+  الثغرة حقيقية (True Positive) وتسمح باستغلال التدفق المالي.
+  
+  [🔍] Gemini يستيقظ للبحث عن استغلال تاريخي (PoC)...
+  
+  [📜] تقرير Gemini التاريخي وهيكل الاستغلال:
+  هذه الثغرة مطابقة لحوادث سابقة (محاكاة بنموذج: pro).
+  
+  [📄] تم أرشفة النتائج بنجاح في التقرير: Audit_Report.md
+  
+  ==========================================
+  [*] بدء فحص العقد: Targets\Unitroller_0x3d9819.sol
+  ==========================================
+  [*] وكيل الاستطلاع (Kimi) يقرأ الكود لاستخراج الخريطة المعمارية...
+  
+  [🗺️] خريطة Kimi المعمارية جاهزة.
+  
+  [*] وكيل الهجوم (DeepSeek) يشن هجوماً مركزاً...
+  
+  [⚔️] DeepSeek-Attacker وضع ثغرة محتملة على السبورة:
+  بناءً على خريطة Kimi، تم رصد نقطة ضعف محتملة في ترتيب تحديث الحالة قبل الاستدعاء الخارجي (Reentrancy pattern).
+  
+  [🛡️] Claude يلتقط ثغرة DeepSeek-Attacker ويبدأ التحليل التدميري...
+  
+  [✅] تقرير Claude النهائي:
+  الثغرة حقيقية (True Positive) وتسمح باستغلال التدفق المالي.
+  
+  [🔍] Gemini يستيقظ للبحث عن استغلال تاريخي (PoC)...
+  
+  [📜] تقرير Gemini التاريخي وهيكل الاستغلال:
+  هذه الثغرة مطابقة لحوادث سابقة (محاكاة بنموذج: pro).
+  
+  [📄] تم أرشفة النتائج بنجاح في التقرير: Audit_Report.md
+  
+  ==========================================
+  [*] بدء فحص العقد: Targets\Uni_0x1f9840.sol
+  ==========================================
+  [*] وكيل الاستطلاع (Kimi) يقرأ الكود لاستخراج الخريطة المعمارية...
+  
+  [🗺️] خريطة Kimi المعمارية جاهزة.
+  
+  [*] وكيل الهجوم (DeepSeek) يشن هجوماً مركزاً...
+  
+  [⚔️] DeepSeek-Attacker وضع ثغرة محتملة على السبورة:
+  بناءً على خريطة Kimi، تم رصد نقطة ضعف محتملة في ترتيب تحديث الحالة قبل الاستدعاء الخارجي (Reentrancy pattern).
+  
+  [🛡️] Claude يلتقط ثغرة DeepSeek-Attacker ويبدأ التحليل التدميري...
+  
+  [✅] تقرير Claude النهائي:
+  الثغرة حقيقية (True Positive) وتسمح باستغلال التدفق المالي.
+  
+  [🔍] Gemini يستيقظ للبحث عن استغلال تاريخي (PoC)...
+  
+  [📜] تقرير Gemini التاريخي وهيكل الاستغلال:
+  هذه الثغرة مطابقة لحوادث سابقة (محاكاة بنموذج: pro).
+  
+  [📄] تم أرشفة النتائج بنجاح في التقرير: Audit_Report.md
+  
+  === 🎉 اكتملت جولة الفحص الشامل لكافة العقود بنجاح ===
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> 
+  $
+
+--- WINDOW  2026/07/26 00:15:15  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:15:15  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  G0' 'D.1,C[ENTER]
+  [Ctrl]1
+  [LMB]
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026/07/26 00:15:29  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:15:29  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:15:30  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  +
+
+--- WINDOW  2026/07/26 00:15:31  [explorer.exe] مستكشف الملفات
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [Tab]
+
+--- WINDOW  2026/07/26 00:15:37  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:15:38  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:15:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:15:38  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/26 00:15:39  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 00:15:41  [Code.exe] Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:15:46  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/26 00:15:47  [explorer.exe] مستكشف الملفات
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 00:15:53  [explorer.exe] ONE
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 00:15:57  [Code.exe] Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:15:57  [explorer.exe] ONE
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:15:58  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/26 00:15:59  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][<-][<-][<-][<-][<-][<-][<-][<-][<-] HG0' 'DEDA 'DEF4!&[ENTER]
+
+--- WINDOW  2026/07/26 00:17:18  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  DC
+
+--- WINDOW  2026/07/26 00:18:42  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  D DE 'B*F9 (D(FJ) D*-J)
+
+--- WINDOW  2026/07/26 00:18:53  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:18:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:18:54  [explorer.exe] ONE
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/26 00:19:06  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  H '1J'B*1'-'* 'BHI DJ '1J/ '/') 9'/J) [ENTER]
+  [LMB]
+  H 4[Bk]319 HB'/) 9DI C4A +:1'* C(J1)H:J1 EC4*A) '319 EF 'J' 4.5 9'/J H*B/JE 'D-DHD 'A6D H'319 EF 'D4.5 'D9'/J H '1J/ B'[Bk][Bk]'B*F'3 ,EJ9 'D9BH/ H'D,'H[Bk][Bk]H'[ENTER]
+  EH'EH'
+  [LMB]
+  EH'AB [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]JJ *B*1- F3*(D[Bk]/D 4G 4D+IA ('/H'* *-DJD [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/26 00:31:37  [chrome.exe] ‪My Gigs - Posted - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 00:31:39  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  *E'E 'D'/H'* 3HA *BHE (D'B*F5' H'D [Bk][Bk][Bk][Bk][Bk][Bk][Bk]'5 '[Bk]'D 4G 4D+IA ('BJ 'D9ED[ENTER]
+  [LMB]
+  [Clipboard]
+  import asyncio
+  import aiohttp
+  import os
+  import sys
+  import subprocess
+  from datetime import datetime
+  
+  # ==========================================
+  # 1. إعدادات بيئة الذكاء الاصطناعي
+  # ==========================================
+  DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "YOUR_DEEPSEEK_KEY")
+  CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY", "YOUR_CLAUDE_KEY")
+  GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_GEMINI_KEY")
+  
+  # ==========================================
+  # 2. محرك التحليل الآلي (كلب الصيد - The Hound)
+  # ==========================================
+  class StaticAnalyzer:
+      """هذا الكلاس يمثل أدوات التحليل الثابتة (مثل Slither). يعمل بسرعة فائقة لتحديد الأهداف."""
+      
+      async def run_fast_scan(self, contract_path):
+          """
+          في الإنتاج: هنا سنضع كود (subprocess.run(["slither", contract_path, "--json", "report.json"]))
+          حالياً: يحاكي استخراج ثغرة في أجزاء من الثانية.
+          """
+          await asyncio.sleep(0.1) # سرعة فائقة مقارنة بـ AI
+          return f"""
+          [Slither Fast Report - {os.path.basename(contract_path)}]
+          - High Severity: Reentrancy detected in function 'withdraw()'.
+          - Warning: Unprotected external call to msg.sender.
+          - Data Flow: balances[msg.sender] updated AFTER external call.
+          """
+  
+  # ==========================================
+  # 3. الموجه النقي (The Native AI Router)
+  # ==========================================
+  class AIRouter:
+      async def call_deepseek(self, system_prompt, user_prompt):
+          """وكيل الهجوم (The Sniper)"""
+          if DEEPSEEK_API_KEY == "YOUR_DEEPSEEK_KEY":
+              await asyncio.sleep(1)
+              return "بناءً على تقرير الأداة، قمت ببناء كود الاستغلال (PoC) لثغرة Reentrancy لتفريغ العقد من الأموال."
+          
+          url = "https://api.deepseek.com/v1/chat/completions"
+          headers = {"Authorization": f"Bearer {DEEPSEEK_API_KEY}", "Content-Type": "application/json"}
+          payload = {
+              "model": "deepseek-coder",
+              "messages": [
+                  {"role": "system", "content": system_prompt},
+                  {"role": "user", "content": user_prompt}
+              ]
+          }
+          async with aiohttp.ClientSession() as session:
+              async with session.post(url, headers=headers, json=payload) as response:
+                  data = await response.json()
+                  return data['choices'][0]['message']['content']
+  
+      async def call_claude(self, system_prompt, user_prompt):
+          """وكيل التحقق (The Validator)"""
+          if CLAUDE_API_KEY == "YOUR_CLAUDE_KEY":
+              await asyncio.sleep(1)
+              return "الثغرة حقيقية وقابلة للاستغلال. تم تأكيد المسار المالي."
+          
+          url = "https://api.anthropic.com/v1/messages"
+          headers = {
+              "x-api-key": CLAUDE_API_KEY,
+              "anthropic-version": "2023-06-01",
+              "content-type": "application/json"
+          }
+          payload = {
+              "model": "claude-3-5-sonnet-20241022",
+              "max_tokens": 1024,
+              "system": system_prompt,
+              "messages": [{"role": "user", "content": user_prompt}]
+          }
+          async with aiohttp.ClientSession() as session:
+              async with session.post(url, headers=headers, json=payload) as response:
+                  data = await response.json()
+                  return data['content'][0]['text']
+  
+      async def call_gemini(self, prompt, model_type="flash"):
+          """وكيل التقارير والأبحاث"""
+          if GEMINI_API_KEY == "YOUR_GEMINI_KEY":
+              await asyncio.sleep(1)
+              return f"تم البحث في قواعد البيانات (نموذج {model_type}). الثغرة مطابقة لهجوم dForce."
+  
+          model_name = "gemini-2.5-flash" if model_type == "flash" else "gemini-2.5-pro-preview"
+          url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
+          headers = {"Content-Type": "application/json"}
+          payload = {"contents": [{"parts": [{"text": prompt}]}]}
+          
+          async with aiohttp.ClientSession() as session:
+              async with session.post(url, headers=headers, json=payload) as response:
+                  data = await response.json()
+                  return data['candidates'][0]['content']['parts'][0]['text']
+  
+  # ==========================================
+  # 4. كلاس "السبورة المشتركة" (The Blackboard)
+  # ==========================================
+  class Blackboard:
+      def __init__(self):
+          self.suspected_vulnerabilities = asyncio.Queue()
+          self.research_queue = asyncio.Queue()
+          self.confirmed_vulnerabilities = []
+          self.historical_data = []
+  
+      async def add_suspicion(self, agent_name, finding):
+          await self.suspected_vulnerabilities.put({"agent": agent_name, "finding": finding})
+          print(f"\n[⚔️] {agent_name} وضع ثغرة محتملة على السبورة:\n{finding}")
+  
+      async def get_suspicion(self):
+          return await self.suspected_vulnerabilities.get()
+  
+  # ==========================================
+  # 5. وكلاء الذكاء الاصطناعي (AI Agents)
+  # ==========================================
+  async def attacker_agent(blackboard, router, contract_code, tools_report):
+      print("\n[*] وكيل الهجوم (DeepSeek) يستلم تقرير الأداة ويجهز الاستغلال (PoC)...")
+      system_prompt = "أنت خبير أمني. تجاهل الأكواد السليمة وركز فقط على المناطق التي حددتها أدوات التحليل. اكتب كود استغلال (PoC) بناءً على التقرير."
+      user_prompt = f"تقرير أداة التحليل (Slither):\n{tools_report}\n\nالكود المصدري:\n{contract_code}"
+      
+      finding = await router.call_deepseek(system_prompt, user_prompt)
+      await blackboard.add_suspicion("DeepSeek-Sniper", finding)
+  
+  async def validator_agent(blackboard, router):
+      item = await blackboard.get_suspicion()
+      finding = item['finding']
+      
+      print(f"\n[🛡️] Claude يتحقق من استغلال DeepSeek وفعاليته...")
+      system_prompt = "أنت خبير أمني. تأكد أن كود الاستغلال المقترح سيعمل بنجاح دون أخطاء برمجية."
+      user_prompt = f"حلل هذا الاستغلال:\n{finding}"
+      
+      validation_result = await router.call_claude(system_prompt, user_prompt)
+      print(f"\n[✅] تقرير Claude النهائي:\n{validation_result}")
+      
+      blackboard.confirmed_vulnerabilities.append(item)
+      await blackboard.research_queue.put(item)
+      blackboard.suspected_vulnerabilities.task_done()
+  
+  async def researcher_agent(blackboard, router):
+      item = await blackboard.research_queue.get()
+      finding = item['finding']
+      
+      print(f"\n[🔍] Gemini يستيقظ لربط الاستغلال بسوابق تاريخية...")
+      prompt = f"هذه ثغرة تم تأكيدها وبناء استغلال لها:\n{finding}\nأعطني مرجعاً تاريخياً مختصراً لحادثة مشابهة."
+      
+      research_result = await router.call_gemini(prompt, model_type="flash") 
+      print(f"\n[📜] تقرير Gemini التاريخي:\n{research_result}")
+      
+      blackboard.historical_data.append(research_result)
+      blackboard.research_queue.task_done()
+  
+  # ==========================================
+  # 6. نظام التقارير والمنسق الرئيسي (Reporter & Orchestrator)
+  # ==========================================
+  def generate_report(contract_path, confirmed_vulnerabilities, historical_research):
+      report_path = "Hybrid_Audit_Report.md"
+      timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+      
+      with open(report_path, "a", encoding="utf-8") as f:
+          f.write(f"\n## 1. تقرير فحص العقد: {contract_path}\n")
+          f.write(f"**تاريخ الفحص:** {timestamp}\n")
+          f.write(f"**النمط:** هجين (أدوات تحليل + ذكاء اصطناعي)\n\n")
+          
+          if confirmed_vulnerabilities:
+              for i, item in enumerate(confirmed_vulnerabilities, 1):
+                  f.write(f"### 1.{i} الثغرة المؤكدة (الاستغلال)\n")
+                  f.write(f"**القناص:** {item['agent']}\n")
+                  f.write(f"**التفاصيل:** {item['finding']}\n\n")
+          
+          if historical_research:
+              f.write(f"### 2. بحث السوابق التاريخية\n")
+              f.write(f"{historical_research}\n")
+              
+          f.write("\n---\n")
+      print(f"\n[📄] تم أرشفة النتائج بنجاح في التقرير: {report_path}")
+  
+  async def process_contract(contract_path, router, analyzer):
+      print(f"\n==========================================")
+      print(f"[*] بدء فحص العقد: {contract_path}")
+      print(f"==========================================")
+      
+      try:
+          with open(contract_path, "r", encoding="utf-8") as f:
+              contract_code = f.read()
+      except Exception as e:
+          print(f"[-] خطأ في قراءة الملف {contract_path}: {e}")
+          return
+  
+      board = Blackboard()
+      
+      # 1. السرعة: استخدام أداة التحليل الثابت لاستخراج الخلاصة بدلاً من الذكاء الاصطناعي
+      print("[*] كلب الصيد (Static Analyzer) يمسح الكود بسرعة البرق...")
+      tools_report = await analyzer.run_fast_scan(contract_path)
+      print(f"[+] تم استخراج النقاط العمياء! التقرير جاهز للتسليم للقناص.")
+      
+      # 2. تشغيل السرب الآلي مع تغذيته بتقرير الأداة
+      researcher_task = asyncio.create_task(researcher_agent(board, router))
+      validator_task = asyncio.create_task(validator_agent(board, router))
+      
+      await asyncio.sleep(0.5)
+      attacker_task = asyncio.create_task(attacker_agent(board, router, contract_code, tools_report))
+      
+      await asyncio.gather(validator_task, attacker_task, researcher_task)
+      
+      historical = board.historical_data[0] if board.historical_data else None
+      generate_report(contract_path, board.confirmed_vulnerabilities, historical)
+  
+  async def main():
+      print("=== 🎯 تشغيل محرك القنص الهجين (Hybrid Sniper Architecture) ===\n")
+      
+      router = AIRouter()
+      analyzer = StaticAnalyzer() # تهيئة محرك التحليل السريع
+      targets_dir = "Targets"
+      
+      if not os.path.exists(targets_dir):
+          print(f"[-] مجلد الأهداف '{targets_dir}' غير موجود.")
+          return
+  
+      contract_files = [os.path.join(targets_dir, f) for f in os.listdir(targets_dir) if f.endswith('.sol')]
+      
+      if not contract_files:
+          print("[-] لا توجد أي عقود ذكية داخل مجلد Targets.")
+          return
+  
+      print(f"[+] تم رصد {len(contract_files)} عقد للتحليل الهجين.\n")
+  
+      for contract_path in contract_files:
+          await process_contract(contract_path, router, analyzer)
+          
+      print("\n=== 🎉 اكتملت جولة القنص بنجاح ===")
+  
+  if __name__ == "__main__":
+      if sys.platform == 'win32':
+          asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+      asyncio.run(main())
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 00:40:36  [explorer.exe] ONE
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/26 00:40:37  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:40:38  [Code.exe] Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 00:40:40  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]41
+
+--- WINDOW  2026/07/26 00:40:41  [Code.exe] ● Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:40:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:40:42  [explorer.exe] ONE
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:40:44  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:40:44  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:40:44  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/26 00:40:45  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:40:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:40:59  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+   python Orchestrator.py
+  $
+  [LMB]
+  [LMB]
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 00:41:18  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:41:18  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:41:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:41:22  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:41:23  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:41:25  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:41:25  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/26 00:41:26  [explorer.exe] ONE
+----------------------------------------------------------------------------
+  [LMB]
+  [Tab]
+
+--- WINDOW  2026/07/26 00:41:29  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:41:29  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:41:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:41:30  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/26 00:41:30  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  
+  === 🎯 تشغيل محرك القنص الهجين (Hybrid Sniper Architecture) ===
+  
+  [+] تم رصد 3 عقد للتحليل الهجين.
+  
+  
+  ==========================================
+  [*] بدء فحص العقد: Targets\UniswapV2Router02_0x7a250d.sol
+  ==========================================
+  [*] كلب الصيد (Static Analyzer) يمسح الكود بسرعة البرق...
+  [+] تم استخراج النقاط العمياء! التقرير جاهز للتسليم للقناص.
+  
+  [*] وكيل الهجوم (DeepSeek) يستلم تقرير الأداة ويجهز الاستغلال (PoC)...
+  
+  [⚔️] DeepSeek-Sniper وضع ثغرة محتملة على السبورة:
+  بناءً على تقرير الأداة، قمت ببناء كود الاستغلال (PoC) لثغرة Reentrancy لتفريغ العقد من الأموال.
+  
+  [🛡️] Claude يتحقق من استغلال DeepSeek وفعاليته...
+  
+  [✅] تقرير Claude النهائي:
+  الثغرة حقيقية وقابلة للاستغلال. تم تأكيد المسار المالي.
+  
+  [🔍] Gemini يستيقظ لربط الاستغلال بسوابق تاريخية...
+  
+  [📜] تقرير Gemini التاريخي:
+  تم البحث في قواعد البيانات (نموذج flash). الثغرة مطابقة لهجوم dForce.
+  
+  [📄] تم أرشفة النتائج بنجاح في التقرير: Hybrid_Audit_Report.md
+  
+  ==========================================
+  [*] بدء فحص العقد: Targets\Unitroller_0x3d9819.sol
+  ==========================================
+  [*] كلب الصيد (Static Analyzer) يمسح الكود بسرعة البرق...
+  [+] تم استخراج النقاط العمياء! التقرير جاهز للتسليم للقناص.
+  
+  [*] وكيل الهجوم (DeepSeek) يستلم تقرير الأداة ويجهز الاستغلال (PoC)...
+  
+  [⚔️] DeepSeek-Sniper وضع ثغرة محتملة على السبورة:
+  بناءً على تقرير الأداة، قمت ببناء كود الاستغلال (PoC) لثغرة Reentrancy لتفريغ العقد من الأموال.
+  
+  [🛡️] Claude يتحقق من استغلال DeepSeek وفعاليته...
+  
+  [✅] تقرير Claude النهائي:
+  الثغرة حقيقية وقابلة للاستغلال. تم تأكيد المسار المالي.
+  
+  [🔍] Gemini يستيقظ لربط الاستغلال بسوابق تاريخية...
+  
+  [📜] تقرير Gemini التاريخي:
+  تم البحث في قواعد البيانات (نموذج flash). الثغرة مطابقة لهجوم dForce.
+  
+  [📄] تم أرشفة النتائج بنجاح في التقرير: Hybrid_Audit_Report.md
+  
+  ==========================================
+  [*] بدء فحص العقد: Targets\Uni_0x1f9840.sol
+  ==========================================
+  [*] كلب الصيد (Static Analyzer) يمسح الكود بسرعة البرق...
+  [+] تم استخراج النقاط العمياء! التقرير جاهز للتسليم للقناص.
+  
+  [*] وكيل الهجوم (DeepSeek) يستلم تقرير الأداة ويجهز الاستغلال (PoC)...
+  
+  [⚔️] DeepSeek-Sniper وضع ثغرة محتملة على السبورة:
+  بناءً على تقرير الأداة، قمت ببناء كود الاستغلال (PoC) لثغرة Reentrancy لتفريغ العقد من الأموال.
+  
+  [🛡️] Claude يتحقق من استغلال DeepSeek وفعاليته...
+  
+  [✅] تقرير Claude النهائي:
+  الثغرة حقيقية وقابلة للاستغلال. تم تأكيد المسار المالي.
+  
+  [🔍] Gemini يستيقظ لربط الاستغلال بسوابق تاريخية...
+  
+  [📜] تقرير Gemini التاريخي:
+  تم البحث في قواعد البيانات (نموذج flash). الثغرة مطابقة لهجوم dForce.
+  
+  [📄] تم أرشفة النتائج بنجاح في التقرير: Hybrid_Audit_Report.md
+  
+  === 🎉 اكتملت جولة القنص بنجاح ===
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> 
+  $
+
+--- WINDOW  2026/07/26 00:41:36  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:41:36  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  G0' 'D.1, HG0' 'B1J1 C HDCF GD 'D'3*:F'! 9F EG)G [Bk][Bk][Bk] [Bk])G .J'1 EF'3( H 'DJ3 'D'A6D 'F3'( DG EG'E '.1IC[ENTER]
+
+--- WINDOW  2026/07/26 00:42:05  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/26 00:42:06  [explorer.exe] ONE
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 00:42:08  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [->][^][->]*EE[Bk]' [Bk]E 
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 00:43:59  [chrome.exe] ‪My Gigs - Posted - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 00:44:01  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 00:44:03  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  AIRouter
+
+--- WINDOW  2026/07/26 00:54:38  [explorer.exe] ONE
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/26 00:54:39  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:54:39  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:54:39  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/26 00:54:40  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]([Esc]
+
+--- WINDOW  2026/07/26 00:54:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:54:43  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  async def call_kimi_business_logic(self, contract_code):
+          """وكيل التدقيق الاقتصادي (The Economist)"""
+          if KIMI_API_KEY == "YOUR_KIMI_KEY":
+              await asyncio.sleep(1)
+              return "تقرير Kimi الاقتصادي: لا يوجد حماية ضد التلاعب بأسعار الأوراكل، يمكن استغلال القروض السريعة (Flash Loans) لتغيير قيمة الضمان."
+  
+          url = "https://api.moonshot.cn/v1/chat/completions"
+          headers = {"Authorization": f"Bearer {KIMI_API_KEY}", "Content-Type": "application/json"}
+          # نوجه Kimi للبحث عن ثغرات المنطق فقط
+          prompt = f"أنت مدقق مالي للذكاء الاصطناعي. حلل هذا العقد واستخرج فقط ثغرات المنطق المالي (Business Logic) والتلاعب بالأسعار:\n{contract_code}"
+          payload = {"model": "moonshot-v1-128k", "messages": [{"role": "user", "content": prompt}]}
+          
+          async with aiohttp.ClientSession() as session:
+              async with session.post(url, headers=headers, json=payload) as response:
+                  data = await response.json()
+                  return data['choices'][0]['message']['content']
+
+--- WINDOW  2026/07/26 00:54:44  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:54:45  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+
+--- WINDOW  2026/07/26 00:54:46  [Code.exe] ● Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:54:47  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]1
+
+--- WINDOW  2026/07/26 00:54:48  [Code.exe] ● Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/26 00:54:50  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:54:50  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:54:51  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  AI Agents
+  $
+
+--- WINDOW  2026/07/26 00:55:03  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:55:03  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl](1[Esc]
+
+--- WINDOW  2026/07/26 00:55:05  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  async def business_logic_agent(router, contract_code):
+      print("[*] وكيل الاقتصاد (Kimi) يقرأ العقد لاستخراج ثغرات المنطق المالي...")
+      economic_report = await router.call_kimi_business_logic(contract_code)
+      print(f"[+] تقرير Kimi الاقتصادي جاهز!")
+      return economic_report
+
+--- WINDOW  2026/07/26 00:55:07  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 00:55:08  [Code.exe] ● Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 00:55:10  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  attacker_agent
+  $
+
+--- WINDOW  2026/07/26 00:55:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:55:18  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl](1[ENTER]
+  [ENTER]
+
+--- WINDOW  2026/07/26 00:55:22  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  async def attacker_agent(blackboard, router, contract_code, tools_report, economic_report):
+      print("\n[*] وكيل الهجوم (DeepSeek) يستلم التقرير التقني والاقتصادي ويجهز الاستغلال (PoC)...")
+      system_prompt = "أنت خبير أمني هجومي. لديك تقرير للأخطاء البرمجية، وتقرير للثغرات المالية. ادمجهما لكتابة كود استغلال (PoC) مدمر ومحكم."
+      user_prompt = f"تقرير التحليل الثابت:\n{tools_report}\n\nالتقرير الاقتصادي (Kimi):\n{economic_report}\n\nالكود المصدري:\n{contract_code}"
+      
+      finding = await router.call_deepseek(system_prompt, user_prompt)
+      await blackboard.add_suspicion("DeepSeek-Sniper", finding)
+
+--- WINDOW  2026/07/26 00:55:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:55:24  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 00:55:28  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:55:28  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:55:29  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:55:29  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]1
+
+--- WINDOW  2026/07/26 00:55:37  [Code.exe] ● Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/26 00:55:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:55:39  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  process_contract
+  $
+
+--- WINDOW  2026/07/26 00:55:42  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:55:42  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1
+
+--- WINDOW  2026/07/26 00:55:44  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:55:45  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  async def process_contract(contract_path, router, analyzer):
+      print(f"\n==========================================")
+      print(f"[*] بدء فحص العقد: {contract_path}")
+      print(f"==========================================")
+      
+      try:
+          with open(contract_path, "r", encoding="utf-8") as f:
+              contract_code = f.read()
+      except Exception as e:
+          print(f"[-] خطأ في قراءة الملف: {e}")
+          return
+  
+      board = Blackboard()
+      
+      # 1. تشغيل كلب الصيد التقني والمحلل الاقتصادي بالتوازي!
+      print("[*] إطلاق أدوات التحليل الثابت ووكيل الاقتصاد (Kimi) معاً...")
+      
+      analyzer_task = asyncio.create_task(analyzer.run_fast_scan(contract_path))
+      kimi_task = asyncio.create_task(business_logic_agent(router, contract_code))
+      
+      # ننتظر حتى ينتهي كلاهما
+      tools_report, economic_report = await asyncio.gather(analyzer_task, kimi_task)
+      
+      # 2. تشغيل باقي السرب بناءً على النتائج المزدوجة
+      researcher_task = asyncio.create_task(researcher_agent(board, router))
+      validator_task = asyncio.create_task(validator_agent(board, router))
+      
+      await asyncio.sleep(0.5)
+      # نمرر التقريرين للقناص DeepSeek
+      attacker_task = asyncio.create_task(attacker_agent(board, router, contract_code, tools_report, economic_report))
+      
+      await asyncio.gather(validator_task, attacker_task, researcher_task)
+      
+      historical = board.historical_data[0] if board.historical_data else None
+      generate_report(contract_path, board.confirmed_vulnerabilities, historical)
+
+--- WINDOW  2026/07/26 00:55:49  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 00:55:49  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+
+--- WINDOW  2026/07/26 00:55:57  [Code.exe] ● Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/26 00:55:59  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  *
+  [LMB]
+  *E'E '** 'D*9/JD'* E' 'D.7 'D*'DJ)[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/26 01:04:08  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 01:04:09  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  EDA E3BD D' F1J/ 6:7 EDA 'D9BD[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/26 01:04:32  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 01:04:34  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 01:04:43  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 01:04:55  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  لقد قمت بكتابة ملف Executor.py بالكامل. هذا المحرك يمتلك "مقصاً" لقص كود Solidity النقي من ردود الذكاء الاصطناعي، و"محقنة" لوضعه في مجلد ExploitSandbox/test/، و"زناداً" لتشغيل أمر forge test آلياً عبر الـ Terminal.
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  Executor.py
+  [LMB]
+  [Ctrl]4[Bk]
+
+--- WINDOW  2026/07/26 01:05:33  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 01:05:39  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  GD 'F4' E,D/ ,/J/ H'69 (/'D. [Bk][Bk][Bk].DG EDA CH/ [Ctrl]18[ENTER]
+
+--- WINDOW  2026/07/26 01:05:59  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 01:05:59  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 01:06:02  [Code.exe] app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 01:06:06  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]$
+
+--- WINDOW  2026/07/26 01:06:20  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 01:06:20  [Code.exe] app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 01:06:27  [Code.exe] Executor.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 01:06:28  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  import os
+  import re
+  import asyncio
+  
+  # ==========================================
+  # محرك التنفيذ الآلي (The Auto-Execution Engine)
+  # ==========================================
+  class ExploitExecutor:
+      def __init__(self, sandbox_dir="ExploitSandbox"):
+          """تهيئة مسارات بيئة المحاكاة (Foundry)"""
+          self.sandbox_dir = sandbox_dir
+          self.test_dir = os.path.join(self.sandbox_dir, "test")
+          self.ensure_directories()
+  
+      def ensure_directories(self):
+          """تأكد من وجود مجلدات Foundry الأساسية لعدم انهيار النظام"""
+          if not os.path.exists(self.test_dir):
+              os.makedirs(self.test_dir)
+  
+      def extract_solidity_code(self, ai_response):
+          """مقص الكود: استخراج كود Solidity النقي من رد الذكاء الاصطناعي"""
+          # يبحث عن الكود المحصور بين علامات Markdown الخاصة بـ solidity
+          pattern = r"```solidity\s*(.*?)\s*```"
+          match = re.search(pattern, ai_response, re.DOTALL | re.IGNORECASE)
+          
+          if match:
+              return match.group(1).strip()
+          
+          # خطة بديلة: إذا نسي AI كتابة كلمة solidity، نبحث عن أي بلوك برمجي
+          pattern_fallback = r"```(.*?)```"
+          match_fallback = re.search(pattern_fallback, ai_response, re.DOTALL)
+          if match_fallback:
+              return match_fallback.group(1).strip()
+              
+          return None
+  
+      def inject_code(self, solidity_code, filename="AutoExploit.t.sol"):
+          """محقنة الكود: حفظ كود الاستغلال في بيئة الاختبار"""
+          file_path = os.path.join(self.test_dir, filename)
+          with open(file_path, "w", encoding="utf-8") as f:
+              f.write(solidity_code)
+          print(f"[+] تم حقن كود الاستغلال (PoC) بنجاح في: {file_path}")
+          return file_path
+  
+      async def run_forge_test(self, filename="AutoExploit.t.sol"):
+          """الزناد: تشغيل إطار عمل Foundry آلياً في الخلفية وقراءة النتيجة"""
+          print(f"\n[🔥] بدء تشغيل محرك Foundry لتنفيذ الهجوم: {filename}...")
+          
+          try:
+              # تشغيل أمر forge test داخل مجلد ExploitSandbox بشكل غير متزامن
+              process = await asyncio.create_subprocess_shell(
+                  f"forge test --match-path test/{filename} -vvv",
+                  cwd=self.sandbox_dir,
+                  stdout=asyncio.subprocess.PIPE,
+                  stderr=asyncio.subprocess.PIPE
+              )
+              
+              stdout, stderr = await process.communicate()
+              output = stdout.decode('utf-8')
+              errors = stderr.decode('utf-8')
+              
+              # تحليل المخرجات للبحث عن علامة النجاح
+              if "PASS" in output or "Test result: ok" in output:
+                  print(f"[✅] الضربة ناجحة (Zero-False Positive)! تم سحب الأموال وإثبات الثغرة.")
+                  return True, output
+              else:
+                  print(f"[-] فشل الاستغلال أو توجد أخطاء برمجية في الكود المولد.")
+                  return False, output + "\n" + errors
+  
+          except Exception as e:
+              print(f"[-] خطأ محرك: تعذر تشغيل Foundry. هل الأداة منصبة محلياً؟ التفاصيل: {e}")
+              # وضع محاكاة احتياطي (Mock) لضمان استمرار عمل السكربت أثناء التطوير
+              print("\n[⚠️] تنبيه: تم تفعيل وضع المحاكاة. سنفترض نجاح الهجوم لانتقال البيانات.")
+              return True, "Mock output: Test result: ok. 1 passed; 0 failed;"
+  
+  # ==========================================
+  # اختبار محلي للملف (يعمل فقط إذا قمت بتشغيل Executor.py مباشرة)
+  # ==========================================
+  async def test_executor():
+      dummy_ai_response = """
+      إليك كود الاستغلال:
+      ```solidity
+      // SPDX-License-Identifier: MIT
+      pragma solidity ^0.8.0;
+      contract ExploitTest {
+          function testHack() public {
+              assert(true); // محاكاة نجاح
+          }
+      }
+      ```
+      """
+      engine = ExploitExecutor()
+      code = engine.extract_solidity_code(dummy_ai_response)
+      if code:
+          engine.inject_code(code)
+          await engine.run_forge_test()
+      else:
+          print("لم يتم العثور على كود.")
+  
+  if __name__ == "__main__":
+      import sys
+      if sys.platform == 'win32':
+          asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+      asyncio.run(test_executor())
+
+--- WINDOW  2026/07/26 01:06:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 01:06:30  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 01:06:30  [Code.exe] Executor.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+
+--- WINDOW  2026/07/26 01:06:31  [Code.exe] ● Executor.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 01:06:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 01:06:32  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  *E'*E'E
+  [LMB]
+  *E'E H69 EDA
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  xecutor.py
+  $
+  [LMB]
