@@ -1,0 +1,968 @@
+﻿
+================================================================================
+ SESSION START  2026/07/25 12:41:21
+================================================================================
+
+
+--- WINDOW  2026/07/25 12:41:21  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:41:34  [ms-teams.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:41:34  [ms-teams.exe] about:blank?entityType=chats&windowId=1daa6039-0e35-4c16-86df-4a5c939f893a&userContextId=edd3d04f-b291-40fb-b18c-9098b555819e&customframetheme=main&window=main
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:41:34  [ms-teams.exe] Microsoft Teams
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:41:35  [ms-teams.exe] Chat | Microsoft Teams
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:41:36  [ms-teams.exe] Chat | Global Admin Team | Microsoft Teams
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:42:31  [opera.exe] Opera | Update complete | Opera - Opera
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:42:32  [opera.exe] Quit Opera?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:42:34  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:42:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:42:37  [explorer.exe] System tray overflow window.
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/25 12:42:40  [TeamViewer.exe] TeamViewer Host
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:42:41  [TeamViewer.exe] Close TeamViewer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:42:43  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:42:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:42:44  [explorer.exe] System tray overflow window.
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/25 12:42:46  [ms-teams.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:42:48  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:42:49  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:42:49  [explorer.exe] System tray overflow window.
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/25 12:42:51  [SecurityHealthSystray.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:42:53  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:42:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:42:54  [explorer.exe] System tray overflow window.
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:42:55  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:43:04  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:43:22  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:43:23  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:43:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:43:25  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:43:25  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:43:27  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:43:28  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:43:40  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:43:41  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:43:46  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:43:48  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:43:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:43:55  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:43:55  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:43:56  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:43:58  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:44:14  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:44:15  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:44:16  [chrome.exe] ChatGPT: Chat, Work, Create & Code with AI - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:44:17  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:44:22  [chrome.exe] ChatGPT: Chat, Work, Create & Code with AI - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:44:23  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:44:24  [chrome.exe] ChatGPT: Chat, Work, Create & Code with AI - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:47:25  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:47:26  [LockApp.exe] Windows Default Lock Screen
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:47:53  [explorer.exe] UnlockingWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:47:54  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:47:54  [chrome.exe] ChatGPT: Chat, Work, Create & Code with AI - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:48:00  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:48:01  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  
+  Klym Yevtushenko
+  7:59 AM
+  Hi Joel,
+  
+  
+  
+  Thanks for being so open about where you're at - I completely understand your concerns.
+  
+  
+  
+  If I were building a product on my own, I'd probably approach it the same way.
+  
+  
+  
+  I'm absolutely happy to sign your NDA before seeing anything.
+  
+  
+  
+  To keep the risk low for both of us, I'd actually suggest starting with a small paid first milestone rather than jumping into a full redesign.
+  
+  
+  
+  For example:
+  • NDA
+  • Review one selected surface (whichever you feel is the highest priority)
+  • Short UX audit with prioritized findings
+  • One redesigned desktop + mobile version in Figma
+  • Components and styles set up properly
+  • A walkthrough explaining every design decision and why I made it
+  
+  
+  
+  That would let you see exactly how I think and work before committing to a larger engagement.
+  
+  
+  
+  I'd price that first milestone at $450.
+  
+  
+  
+  If you're happy with the process and the quality, we can then plan the remaining surfaces one by one at whatever pace works for your runway.
+  
+  
+  
+  I think this approach keeps the investment manageable while allowing us to build trust first, which sounds like the most important thing at this stage.
+  
+  
+  
+  I'd be happy to jump on a call next week.
+  
+  
+  
+  Looking forward to hearing your thoughts.
+  
+  
+  
+  Best,
+  Klym
+  
+  Saturday, Jul 25
+  Joel Simons
+  12:17 PM
+  Honestly, thank you for this approach, it is exactly what I was hoping for.
+  
+  
+  
+  Happy to go ahead at the $450. I’ll send the NDA across in 1-2 days.
+  
+  
+  
+  A call next week sounds good. I’m in Australia so we’ve got a bit of a time gap between us. I’m free Monday to Wednesday, and 5pm my time on the Gold Coast would suit best. Let me know what that works out to on your end and we’ll lock it in.
+  
+  
+  
+  Before the call, one quick thing. How do you normally like to run the walkthrough? I’ll set aside an hour, which should be plenty to take you through it, but let me know if you’d want longer.
+  
+  
+  
+  Looking forward to it.
+  
+  
+  
+  Best,
+  Joel
+  [LMB]
+
+--- WINDOW  2026/07/25 12:48:13  [chrome.exe] ChatGPT: Chat, Work, Create & Code with AI - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:48:22  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:48:24  [chrome.exe] Joel Simons - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [v][v][v][v][v][v][v][v][v]
+  [LMB]
+  [LMB]
+  nb vts[Bk][Bk][Bk][Bk][Bk][Bk][Bk]gjzcyb vtys gjrb oj pf 450 vb ghjlf'v jgjrb[ENTER]
+  [v]
+  [LMB]
+  [v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^]
+  [LMB]
+  [^][^][^]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Hi Joel,
+  
+  That's fantastic to hear - thank you. I really appreciate your trust, and I think this phased approach will work well for both of us.
+  
+  Perfect, I'll review and sign the NDA as soon as you send it over.
+  
+  Regarding the walkthrough, one hour is actually ideal.
+  
+  The way I usually like to run these sessions is quite structured:
+  
+  • First, I'd love to hear the story behind the product - what problem you're solving, who the primary users are, and what success looks like for the platform.
+  
+  • Then we can walk through the product screen by screen, with you explaining the current thinking behind each area, any constraints, and any parts you're already unsure about.
+  
+  • I'll mostly listen, ask questions, and take notes rather than jump straight into solutions. I find it's much more valuable to fully understand the reasoning before suggesting changes.
+  
+  • At the end, I'll share my initial observations and explain how I'd approach the first redesign milestone.
+  
+  That usually gives me everything I need to start the UX audit and redesign with a solid understanding of both the product and your vision.
+  
+  As for timing, 5:00 PM Gold Coast works out to 10:00 AM Tuesday (Ukraine time) on my end, so that works perfectly for me.
+  
+  Looking forward to receiving the NDA and speaking next week.
+  
+  Have a great weekend!
+  
+  Best,
+  Klym
+
+--- WINDOW  2026/07/25 12:50:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:50:36  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:50:40  [chrome.exe] Joel Simons - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:50:41  [chrome.exe] Roman - Google Документы - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Bk][Ctrl]v
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk]my[Bk][Bk]my 
+  [LMB]
+  [<-][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk] 
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Hi Joel,
+  Perfect, I'll review and sign the NDA as soon as you send it over.
+  Regarding the walkthrough, one hour is actually ideal.
+  The way I usually like to run these sessions is quite structured:
+  • First, I'd love to hear the story behind the product - what problem you're solving, who the primary users are, and what success looks like for the platform.
+  • Then we can walk through the product screen by screen, with you explaining the current thinking behind each area, any constraints, and any parts you're already unsure about.
+  • I'll mostly listen, ask questions, and take notes rather than jump straight into solutions. I find it's much more valuable to fully understand the reasoning before suggesting changes.
+  • At the end, I'll share my initial observations and explain how I'd approach the first redesign milestone.
+  That usually gives me everything I need to start the UX audit and redesign with a solid understanding of both the product and your vision.
+  As for timing, 5:00 PM Gold Coast works out to 10:00 AM Tuesday my  time so that works perfectly for me.
+  Looking forward to receiving the NDA and speaking next week.
+  Have a great weekend!
+  Best,
+   Klym
+  
+
+--- WINDOW  2026/07/25 12:52:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:52:10  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:52:14  [chrome.exe] Beauty Professionals Website - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:52:17  [chrome.exe] Chats - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:52:18  [chrome.exe] UI/UX Designer for Property Web App - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/25 12:52:33  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:52:34  [chrome.exe] UI/UX Designer for Property Web App - GigRadar CRM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:52:42  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  https://www.upwork.com/ab/messages/rooms/room_7183c869fd23b73019f041c978cc3704?pageTitle=Joel%20Simons,%20Corelink%20Property&companyReference=1678772194043408384&sidebar=true
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:53:09  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  wmjv[Bk][Bk][Bk][Bk][Bk]wmjve crbym rfktylfh yf lpdsyjr - [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:53:30  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:54:31  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 12:54:59  [chrome.exe] Inbox :: Behance - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:55:04  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 12:55:04  [chrome.exe] Roman - Google Документы - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 12:55:06  [chrome.exe] Joel Simons - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  fdfq vtys ghjgbib dtcm ntrcn [Bk]lps[Bk]dsyrf yf njg hsdys ,t dct drk.xb[ENTER]
+  [v]
+  [LMB]
+  [v][v][v][v][v][v][v][v][v][v][v][v][v][v][v]
+
+--- WINDOW  2026/07/25 12:59:18  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:14:34  [LockApp.exe] Windows Default Lock Screen
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/07/25 13:14:35  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:14:37  [chrome.exe] Joel Simons - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:14:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:14:41  [chrome.exe] Inbox :: Behance - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:14:43  [chrome.exe] 6 notifications - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:14:43  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:14:49  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:15:32  [chrome.exe] Joel Simons - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:15:44  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:15:45  [chrome.exe] hannah-kerr9521(DRIBBLE) - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:15:45  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:15:46  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Hi there,
+  
+  This sounds like a great project. Infrastructure companies need websites that communicate trust, capability, and professionalism from the very first impression. The design should feel modern and refined while clearly presenting complex services and project expertise.
+  
+  We've worked with B2B, engineering, industrial, and technology companies where the goal was to create websites that balance strong corporate credibility with clean, contemporary design.
+  
+  For your project, we'd approach it as:
+  
+  creating a minimalist visual direction that reflects reliability, precision, and long-term expertise
+  establishing a clear information architecture so investors, partners, and clients can quickly find the information they need
+  designing impactful service, project, and company overview pages with strong visual hierarchy
+  incorporating subtle interactions and premium animations that enhance the experience without distracting from the content
+  ensuring a fully responsive experience across desktop, tablet, and mobile
+  optimizing the website for performance, SEO, accessibility, and future scalability
+  supporting the full development process to ensure the final implementation matches the approved designs pixel-perfect
+  
+  The objective would be to create a website that feels modern, confident, and executive-level, positioning your company as a trusted infrastructure partner while remaining easy to maintain and expand.
+  
+  If helpful, we'd be happy to:
+  
+  review your current website and recommend improvements in UX, structure, and messaging
+  suggest the most effective page hierarchy before design begins
+  support both design and development through launch
+  
+  Feel free to reach out - we'd love to discuss your project.
+  
+  Best,
+  VibeStyle
+  
+  Cost Estimate:
+  $2,000 - $4,000
+  Hello, here is the example of our work.
+  
+  acciona.com
+  jacobs.com
+  graham.co.uk
+  
+  Thank you, let's connect and we can help you with the project. Have a great day, waiting for your reply.
+  
+  11:04PM
+  July 20, 2026
+  hannah-kerr9521
+  Hi VibeStyle,
+  
+  Thanks for the thorough response — the approach lines up well with what we're after.
+  
+  Quick outline so you can firm up the estimate. It's a site for Tara Group, an infrastructure business currently going through a corporate restructure. Scope as it stands:
+  
+  - Around 7 pages, though this may grow as we work through the restructure. I'd like the design system built so that additional pages can reuse existing components rather than being designed from scratch.
+  - We will provide all copy, so no copywriting is required from your side. Some of it will be new copy written by us, so we'll need placeholder structure in the designs until final text is supplied.
+  - Design direction will follow a reference site we'll share once we're aligned.
+  - Updated branding and logo applied consistently throughout.
+  - Fully responsive, design and build through to launch.
+  
+  Budget is up to $4,000 all in.
+  
+  Before I confirm,
+  
+  Could you come back with a fixed quote rather than a range, covering:
+  
+  1. What exactly is included at that price, design through to launch
+  2. A per-page rate for any pages beyond the initial 8, so we both know the cost of expansion up front
+  3. Number of revision rounds included, and the cost of any beyond that
+  4. Milestone timeline — concept, full page set, build, launch
+  6. Which CMS you'd build on, so we can add pages and maintain the site ourselves afterwards
+  7. Confirmation that all working files and full IP transfer to us on final payment
+  
+  Once I've seen those I'll be ready to move.
+  
+  Warmest,
+  
+  Hannah
+  
+  1:51PM
+  Hi Hannah,
+  
+  Thank you for the detailed outline. This gives us a much clearer understanding of the project.
+  
+  Based on what you've shared, we'd be happy to offer a fixed-price proposal of **$4,000 USD** for the complete project, covering everything from UX planning and design through development, testing, and launch.
+  
+  What's included:
+  
+  **Discovery & Planning**
+  * Review of your reference website and brand direction
+  * Information architecture and page hierarchy
+  * UX planning for the initial website structure
+  * Planning the component system so the website can continue growing efficiently after launch
+  
+  **UI/UX Design**
+  * Complete design for up to **8 pages** (your current estimate is around 7 pages, leaving room for one additional page within the fixed scope)
+  * Custom homepage and all internal page layouts
+  * Responsive design for desktop and mobile
+  * Updated branding, typography, colour system, and logo integration
+  * Placeholder layouts where content is still being written
+  
+  **Design System**
+  Rather than designing individual pages only, we'll build a reusable design system that includes:
+  * Typography styles
+  * Colour system
+  * Buttons
+  * Forms
+  * Cards
+  * Navigation
+  * Footer
+  * Icons
+  * Spacing system
+  * Grid system
+  * Reusable content sections and layouts
+  
+  This allows future pages to be assembled using existing components, making future expansion significantly faster, more consistent, and more cost-effective.
+  
+  **Development**
+  * Pixel-perfect implementation of the approved Figma designs
+  * Fully responsive development
+  * CMS implementation
+  * Reusable component architecture
+  * Premium but subtle animations and transitions
+  * Cross-browser and cross-device QA testing
+  * Deployment and launch support
+  
+  **CMS Recommendation**
+  For this project, we'd recommend **Webflow**.
+  
+  Based on your requirements, it provides the best balance of performance, scalability, ease of maintenance, and flexibility. Your team will be able to update content, create new pages using existing components, manage CMS collections, and maintain the website internally without relying on developers for everyday updates.
+  
+  If, however, there's an existing requirement to use WordPress or another platform, we're equally happy to accommodate that.
+  
+  **Additional Pages**
+  Any pages beyond the initial 8-page scope would be **$350 USD per page**, assuming they're built using the established design system. More complex custom pages can be quoted individually if required, but in most cases the component library keeps future expansion very efficient.
+  
+  **Revision Rounds**
+  The proposal includes:
+  * 3 revision rounds per page during the design phase
+  
+  **Project Timeline**
+  **Milestone 1 - Discovery & Creative Direction**
+  Review references, define visual direction, UX structure, homepage concept, and design system foundation.
+  
+  **Milestone 2 - Complete Design**
+  Design all approved pages, responsive layouts, prototype, and final design approval.
+  
+  **Milestone 3 - Development**
+  CMS implementation, responsive development, animations, optimisation, and content integration.
+  
+  **Milestone 4 - QA & Launch**
+  Final testing across devices and browsers, bug fixing, deployment, launch, and handover.
+  
+  The overall timeline is approximately **4-5 weeks**, depending primarily on feedback turnaround and final content delivery.
+  
+  **Ownership & IP**
+  Upon final payment you will receive full ownership of the project, including:
+  * Figma source files
+  * Complete design system
+  * CMS ownership
+  * Website source and assets
+  * Full intellectual property transfer
+  
+  There will be no licensing restrictions from our side.
+  
+  One thing we'd also recommend is spending a little time upfront reviewing the overall page structure before design begins. Since Tara Group is currently going through a corporate restructure, this is an ideal opportunity to ensure the information architecture is built not only for today's requirements but also for future growth. In our experience, investing time here leads to a much stronger long-term result and reduces future redesign work.
+  
+  Everything above fits within the agreed **$4,000 fixed budget**, and we'd be excited to help create a modern, executive-level website that reflects Tara Group's new direction while providing a scalable foundation for years to come. If you confirm - we can split work with clear price milestones and are ready to start.
+  
+  Looking forward to hearing your thoughts.
+  
+  Best,
+  Roman
+  
+  2:12PM
+  July 21, 2026
+  Hi Hannah,
+  
+  I just wanted to follow up and see if you've had a chance to review the proposal.
+  
+  I'd love to hear your thoughts and whether the scope, timeline, and fixed-price approach align with what you had in mind. If you have any questions or would like to adjust anything, I'd be happy to discuss it.
+  
+  Looking forward to hearing from you.
+  
+  Best,
+  Roman
+  
+  8:39AM
+  July 23, 2026
+  Hi Hannah,
+  
+  Hope you're doing well!
+  
+  Just wanted to check in and see if you've had a chance to review our proposal.
+  
+  I'm curious to hear your thoughts. Does the scope and approach feel aligned with what you're looking for?
+  
+  If there's anything you'd like to adjust—whether it's the project scope, timeline, or even the budget—please let us know. We're always happy to have an open conversation and find a solution that works well for both sides. Our goal is to build a long-term partnership, not simply deliver a website.
+  
+  If you have any questions or would like to go through the proposal together, we'd be happy to jump on a quick call as well.
+  
+  Looking forward to hearing your thoughts.
+  
+  Best,
+  Roman
+  
+  11:18AM
+  Read
+  1:10PM
+  July 25, 2026
+  hannah-kerr9521
+  Hi team
+  
+  1:10PM
+  hannah-kerr9521
+  Sorry for the late reply
+  
+  1:10PM
+  hannah-kerr9521
+  I am happy to confirm the above and proceed with payment etc on Monday. I will then be able to share digital assets and overview of pages.
+  
+  1:12PM
+  hannah-kerr9521
+  keller.com
+  
+  1:12PM
+  hannah-kerr9521
+  This is the website we would like to take as inspiration
+  
+  
+
+--- WINDOW  2026/07/25 13:15:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:15:54  [chrome.exe] hannah-kerr9521(DRIBBLE) - Google Chrome
+----------------------------------------------------------------------------
+  jcm [Bk][Bk][Bk][Bk][Bk]jcm ij djyf dslgbcfkf - [Ctrl]v[ENTER]
+  [LMB]
+  [v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v]
+  [LMB]
+  f i jvb ghjlfkb yfuflf vtys crjg[Bk]eg s wsye[ENTER]
+  [LMB]
+  [v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v]
+  [LMB]
+  cegth - yfgbb ]q vtctl; njls - gjlzreq s yfgbib oj z njls yflsik. cmjujlys ghjgjeptk cndjh. yf lhs,ks s hjps,. yf vfcnjeyb s zr nsknrb d gjytlskjr djyf phj,bnm jgkfne pf gthiqb vfqcnjey vb pvj;tvj cnfhnedfnb[ENTER]
+  [LMB]
+  [Clipboard]
+  Hi Hannah,
+  
+  Thank you so much, that's wonderful news!
+  
+  We're really excited to work with you on Tara Group, and we appreciate the trust you've placed in us.
+  
+  I'll prepare and send the formal proposal through Dribbble later today, with the project clearly divided into milestones so everything is transparent from the outset.
+  
+  Once the first milestone payment is completed on Monday, we'll be ready to begin immediately. As soon as we receive the project assets, updated branding, page overview, and any supporting materials, we'll kick off the discovery phase and start planning the information architecture and overall design direction.
+  
+  In the meantime, thank you for sharing the Keller reference. We've reviewed it, and it gives us a very clear understanding of the level of quality and direction you're aiming for. We're looking forward to creating something that captures the same sense of professionalism while giving Tara Group its own distinctive identity.
+  
+  Have a wonderful weekend, and we'll speak again on Monday!
+  
+  Best,
+  Roman
+  
+
+--- WINDOW  2026/07/25 13:18:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:18:24  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:19:57  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:20:14  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:20:18  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:20:21  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:20:25  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:20:28  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  I am happy to confirm the above and proceed with payment etc on Monday. I will then be able to share digital assets and overview of pages.
+  [LMB]
+
+--- WINDOW  2026/07/25 13:25:32  [chrome.exe] перекладач - Пошук Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/25 13:25:45  [chrome.exe] 1 notification - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:25:45  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:25:46  [chrome.exe] (3) YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:25:47  [chrome.exe] YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:25:50  [chrome.exe] (4) YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:26:20  [chrome.exe] youtube.com/watch?v=K7VehbpF_7o - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:26:21  [chrome.exe] Я НІКОЛИ НЕ… #5 | Про ЗРАДУ, ПОЛІЦІЮ та ХОУМВІДЕО | Мартинюк, Яремій, Пілат, Казаркін & Желіховський - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:26:23  [chrome.exe] (4) Я НІКОЛИ НЕ… #5 | Про ЗРАДУ, ПОЛІЦІЮ та ХОУМВІДЕО | Мартинюк, Яремій, Пілат, Казаркін & Желіховський - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+        [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:33:00  [chrome.exe] 2 notifications - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:33:01  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:33:04  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/25 13:34:03  [chrome.exe] 1 notification - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:34:04  [chrome.exe] Telegram Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:34:07  [chrome.exe] Messages | Dribbble - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:34:08  [chrome.exe] (4) YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/25 13:34:20  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:34:20  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:34:20  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/25 13:34:21  [chrome.exe] (4) YouTube - Google Chrome
+----------------------------------------------------------------------------
