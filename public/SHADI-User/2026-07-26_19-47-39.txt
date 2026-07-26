@@ -1,0 +1,239 @@
+﻿  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl]$
+  [Clipboard]
+  
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> npm install -g omniroute
+  npm warn ERESOLVE overriding peer dependency
+  npm warn While resolving: marked-terminal@7.3.0
+  npm warn Found: marked@18.0.7
+  npm warn node_modules/omniroute/node_modules/marked
+  npm warn   marked@"^18.0.4" from omniroute@3.8.48
+  npm warn   node_modules/omniroute
+  npm warn     omniroute@"*" from the root project
+  npm warn
+  npm warn Could not resolve dependency:
+  npm warn peer marked@">=1 <16" from marked-terminal@7.3.0
+  npm warn node_modules/omniroute/node_modules/marked-terminal
+  npm warn   marked-terminal@"^7.3.0" from omniroute@3.8.48
+  npm warn   node_modules/omniroute
+  npm warn
+  npm warn Conflicting peer dependency: marked@15.0.12
+  npm warn node_modules/marked
+  npm warn   peer marked@">=1 <16" from marked-terminal@7.3.0
+  npm warn   node_modules/omniroute/node_modules/marked-terminal
+  npm warn     marked-terminal@"^7.3.0" from omniroute@3.8.48
+  npm warn     node_modules/omniroute
+  npm warn ERESOLVE overriding peer dependency
+  npm warn While resolving: @emoji-mart/react@1.1.1
+  npm warn Found: react@19.2.7
+  npm warn node_modules/omniroute/node_modules/react
+  npm warn   react@"19.2.7" from omniroute@3.8.48
+  npm warn   node_modules/omniroute
+  npm warn     omniroute@"*" from the root project
+  npm warn   162 more (@dnd-kit/core, react-dom, @dnd-kit/sortable, ...)
+  npm warn
+  npm warn Could not resolve dependency:
+  npm warn peer react@"^16.8 || ^17 || ^18" from @emoji-mart/react@1.1.1
+  npm warn node_modules/omniroute/node_modules/@lobehub/ui/node_modules/@emoji-mart/react
+  npm warn   @emoji-mart/react@"^1.1.1" from @lobehub/ui@5.20.3
+  npm warn   node_modules/omniroute/node_modules/@lobehub/ui
+  npm warn
+  npm warn Conflicting peer dependency: react@18.3.1
+  npm warn node_modules/react
+  npm warn   peer react@"^16.8 || ^17 || ^18" from @emoji-mart/react@1.1.1
+  npm warn   node_modules/omniroute/node_modules/@lobehub/ui/node_modules/@emoji-mart/react
+  npm warn     @emoji-mart/react@"^1.1.1" from @lobehub/ui@5.20.3
+  npm warn     node_modules/omniroute/node_modules/@lobehub/ui
+  npm warn EBADENGINE Unsupported engine {
+  npm warn EBADENGINE   package: 'undici@8.9.0',
+  npm warn EBADENGINE   required: { node: '>=22.19.0' },
+  npm warn EBADENGINE   current: { node: 'v22.18.0', npm: '10.9.3' }
+  npm warn EBADENGINE }
+  npm warn deprecated boolean@3.2.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+  npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+  npm warn deprecated intersection-observer@0.12.2: The Intersection Observer polyfill is no longer needed and can safely be removed. Intersection Observer has been Baseline since 2019.
+  npm warn deprecated shiki-stream@0.1.5: shiki-stream is now @shikijs/stream, please migrate by renaming the package
+  npm warn cleanup Failed to remove some directories [
+  npm warn cleanup   [
+  npm warn cleanup     '\\\\?\\C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute\\node_modules',
+  npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute\node_modules\@protobufjs'] {
+  npm warn cleanup       errno: -4048,
+  npm warn cleanup       code: 'EPERM',
+  npm warn cleanup       syscall: 'rmdir',
+  npm warn cleanup       path: 'C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute\\node_modules\\@protobufjs'
+  npm warn cleanup     }
+  npm warn cleanup   ],
+  npm warn cleanup   [
+  npm warn cleanup     '\\\\?\\C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute\\node_modules\\@rc-component',
+  npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute\node_modules\@rc-component\virtual-list\node_modules\@babel\runtime'] {
+  npm warn cleanup       errno: -4048,
+  npm warn cleanup       code: 'EPERM',
+  npm warn cleanup       syscall: 'rmdir',
+  npm warn cleanup       path: 'C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute\\node_modules\\@rc-component\\virtual-list\\node_modules\\@babel\\runtime'
+  npm warn cleanup     }
+  npm warn cleanup   ],
+  npm warn cleanup   [
+  npm warn cleanup     '\\\\?\\C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute\\node_modules\\monaco-editor',
+  npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute\node_modules\monaco-editor\esm\vs\editor\contrib\insertFinalNewLine'] {
+  npm warn cleanup       errno: -4048,
+  npm warn cleanup       code: 'EPERM',
+  npm warn cleanup       syscall: 'rmdir',
+  npm warn cleanup       path: 'C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute\\node_modules\\monaco-editor\\esm\\vs\\editor\\contrib\\insertFinalNewLine'
+  npm warn cleanup     }
+  npm warn cleanup   ],
+  npm warn cleanup   [
+  npm warn cleanup     '\\\\?\\C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute',
+  npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute\node_modules\@lobehub\ui'] {
+  npm warn cleanup       errno: -4048,
+  npm warn cleanup       code: 'EPERM',
+  npm warn cleanup       syscall: 'rmdir',
+  npm warn cleanup       path: 'C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute\\node_modules\\@lobehub\\ui'
+  npm warn cleanup     }
+  npm warn cleanup   ],
+  npm warn cleanup   [
+  npm warn cleanup     '\\\\?\\C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute\\node_modules\\fumadocs-ui',
+  npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute\node_modules\fumadocs-ui\dist\node_modules\.pnpm\react-medium-image-zoom@5.4.8_react-dom@19.2.8_react@19.2.8__react@19.2.8\node_modules\react-medium-image-zoom\dist'] {
+  npm warn cleanup       errno: -4048,
+  npm warn cleanup       code: 'EPERM',
+  npm warn cleanup       syscall: 'rmdir',
+  npm warn cleanup       path: 'C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute\\node_modules\\fumadocs-ui\\dist\\node_modules\\.pnpm\\react-medium-image-zoom@5.4.8_react-dom@19.2.8_react@19.2.8__react@19.2.8\\node_modules\\react-medium-image-zoom\\dist'
+  npm warn cleanup     }
+  npm warn cleanup   ],
+  npm warn cleanup   [
+  npm warn cleanup     '\\\\?\\C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute\\node_modules\\next',
+  npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute\node_modules\next\dist\next-devtools\dev-overlay'] {
+  npm warn cleanup       errno: -4048,
+  npm warn cleanup       code: 'EPERM',
+  npm warn cleanup       syscall: 'rmdir',
+  npm warn cleanup       path: 'C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute\\node_modules\\next\\dist\\next-devtools\\dev-overlay'
+  npm warn cleanup     }
+  npm warn cleanup   ]
+  npm warn cleanup ]
+  npm error code ECONNRESET
+  npm error syscall read
+  npm error errno -4077
+  npm error network read ECONNRESET
+  npm error network This is a problem related to network connectivity.
+  npm error network In most cases you are behind a proxy or have bad network settings.
+  npm error network
+  npm error network If you are behind a proxy, please make sure that the
+  npm error network 'proxy' config is set properly.  See: 'npm help config'
+  npm notice
+  npm notice New major version of npm available! 10.9.3 -> 12.0.1
+  npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1
+  npm notice To update run: npm install -g npm@12.0.1
+  npm notice
+  npm error A complete log of this run can be found in: C:\Users\TOPLAPTOP\AppData\Local\npm-cache\_logs\2026-07-26T15_23_44_884Z-debug-0.log
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> 
+
+--- WINDOW  2026/07/26 19:02:43  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  0'[Ctrl]4 .1, '*+(J* C[ENTER]
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/26 19:02:51  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 19:02:52  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/26 19:02:54  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 19:02:55  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 19:02:56  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 19:03:01  [chrome.exe] ‪Custom DeepFaceLab / DeepAscension Face Swap Model Training - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 19:03:06  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 19:03:07  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  npm cache clean --force
+
+--- WINDOW  2026/07/26 19:03:20  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 19:03:20  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 19:03:21  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 19:03:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 19:03:23  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Clipboard]
+  npm config set registry https://registry.npmmirror.com
+
+--- WINDOW  2026/07/26 19:03:39  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 19:03:40  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 19:03:41  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 19:03:43  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 19:03:48  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Clipboard]
+  $env:OMNIROUTE_SKIP_POSTINSTALL="1"
+  [Ctrl]1
+
+--- WINDOW  2026/07/26 19:03:50  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 19:03:52  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  npm install -g omniroute --force
+  [Ctrl]$
+
+--- WINDOW  2026/07/26 19:03:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 19:03:54  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 19:03:54  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 19:03:59  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 19:04:05  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 19:04:05  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
