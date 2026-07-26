@@ -1,0 +1,1338 @@
+﻿
+--- WINDOW  2026/07/27 00:05:40  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:05:42  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:05:44  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:09:36  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:09:36  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:17:16  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:17:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:17:16  [mintty.exe] /usr/bin/bash --login -i
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:17:16  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:17:17  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:17:19  [mintty.exe] MINGW64:/c/Users/TOPLAPTOP
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:17:19  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:22:09  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:22:09  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:25:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:25:34  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:29:45  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:29:45  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:29:47  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:29:47  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:39:39  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:39:42  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 00:39:54  [chrome.exe] ‪Senior Software Engineer with experience in AI and Web - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 00:40:00  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/27 00:40:14  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:40:52  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 00:40:58  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:40:58  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:41:04  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:41:05  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:41:08  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:41:08  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:41:26  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  omniroute
+
+--- WINDOW  2026/07/27 00:41:38  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  
+  Progress: resolved 826, reused 0, downloaded 673, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٥٩ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٤٥٤٫٥٤ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٨٫٣٢ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٥٩٤٫٦٧ kB/١٦٣٫٣٦ MB9f8206ba4: ٧٠٤٫٨٤ kB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@smithy/signature-v4/-/signature-v4-5.6.10.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 827, reused 0, downloaded 673, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٦٦ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٤٥٤٫٥٤ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٨٫٣٢ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٥٩٤٫٦٧ kB/١٦٣٫٣٦ MB9f8206ba4: ٧٢١٫٢٢ kB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/gpt-tokenizer/-/gpt-tokenizer-3.4.0.tgz error (ENOTFOUND). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 827, reused 0, downloaded 673, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٦٦ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٤٥٤٫٥٤ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٨٫٣٢ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦١١٫٠٥ kB/١٦٣٫٣٦ MB9f8206ba4: ٧٢١٫٢٢ kB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@esbuild/win32-x64/-/win32-x64-0.28.1.tgz error (ECONNRESET). Will retry in 1 minute. 4 retries left.
+  Progress: resolved 828, reused 0, downloaded 675, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٧٩ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٤٣٫٤٣ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٧٧٤٫٨٩ kB/١٦٣٫٣٦ MB9f8206ba4: ٧٧٠٫٣٧ kB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٣١٫٧٨ kB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/which/-/which-2.0.1.tgz error (UND_ERR_SOCKET). Will retry in 1 minute. 4 retries left.
+  Progress: resolved 828, reused 0, downloaded 675, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٧٩ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٤٣٫٤٣ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٧٧٤٫٨٩ kB/١٦٣٫٣٦ MB9f8206ba4: ٧٧٠٫٣٧ kB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٣١٫٧٨ kB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@shikijs/langs/-/langs-4.3.1.tgz error (ECONNRESET). Will retry in 1 minute. 4 retries left.
+  Progress: resolved 828, reused 0, downloaded 676, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٤٣٫٤٣ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٨٥٦٫٨١ kB/١٦٣٫٣٦ MB9f8206ba4: ٧٨٦٫٧٦ kB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١٧٩٫٢٤ kB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-backend-cpu/-/tfjs-backend-cpu-4.22.0.tgz error (ECONNRESET). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 828, reused 0, downloaded 676, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٫١٠ MB/١٦٣٫٣٦ MB-89f8206ba4: ٨٦٨٫٦٨ kB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١٫١٩ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@emotion/serialize/-/serialize-1.3.3.tgz error (ECONNRESET). Will retry in 1 minute. 4 retries left.
+  Progress: resolved 829, reused 0, downloaded 676, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٫٢٣ MB/١٦٣٫٣٦ MB-89f8206ba4: ٩٠١٫٤٤ kB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١٫٣٤ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/iconv-lite/-/iconv-lite-0.7.3.tgz error (ECONNRESET). Will retry in 1 minute. 4 retries left.
+  Progress: resolved 829, reused 0, downloaded 677, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٫٣٩ MB/١٦٣٫٣٦ MB-89f8206ba4: ٩٦٦٫٩٨ kB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١٫٥٢ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/playwright-core/-/playwright-core-1.61.1.tgz error (ECONNRESET). Will retry in 1 minute. 2 retries left.
+  Progress: resolved 829, reused 0, downloaded 677, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٫٤١ MB/١٦٣٫٣٦ MB-89f8206ba4: ٩٦٦٫٩٨ kB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١٫٥٢ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.1.tgz error (ECONNRESET). Will retry in 1 minute. 4 retries left.
+  Progress: resolved 829, reused 0, downloaded 677, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٫٦٤ MB/١٦٣٫٣٦ MB-89f8206ba4: ١٫٠٦ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١٫٧٨ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@swc%2Fcore-linux-arm64-gnu error (unknown). Will retry in 1 minute. 3 retries left.
+  Progress: resolved 829, reused 0, downloaded 677, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٫٦٧ MB/١٦٣٫٣٦ MB-89f8206ba4: ١٫٠٨ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١٫٨٠ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-layers/-/tfjs-layers-4.22.0.tgz error (ECONNRESET). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 829, reused 0, downloaded 680, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٢٫١٨ MB/١٦٣٫٣٦ MB-89f8206ba4: ١٫٤٠ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٢٫٦٠ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz error (ECONNRESET). Will retry in 1 minute. 3 retries left.
+  Progress: resolved 829, reused 0, downloaded 681, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٢٫٣٣ MB/١٦٣٫٣٦ MB-89f8206ba4: ١٫٤٠ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٢٫٨٠ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz error (ECONNRESET). Will retry in 1 minute. 3 retries left.
+  Progress: resolved 829, reused 0, downloaded 681, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٢٫٣٦ MB/١٦٣٫٣٦ MB-89f8206ba4: ١٫٤٠ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٢٫٨٦ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/next/-/next-16.2.12.tgz error (ECONNRESET). Will retry in 1 minute. 3 retries left.
+  Progress: resolved 829, reused 0, downloaded 681, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٢٫٤١ MB/١٦٣٫٣٦ MB-89f8206ba4: ١٫٤٠ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٢٫٩٣ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.15.46.tgz error (ECONNRESET). Will retry in 1 minute. 3 retries left.
+  Progress: resolved 830, reused 0, downloaded 682, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٢٫٥١ MB/١٦٣٫٣٦ MB-89f8206ba4: ١٫٤٠ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٣٫٠٦ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz error (ECONNRESET). Will retry in 1 minute. 2 retries left.
+  Progress: resolved 950, reused 0, downloaded 773, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٢٫٩٢ MB/١٦٣٫٣٦ MB-89f8206ba4: ١٫٤٠ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٣٫٧١ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/cytoscape-fcose/-/cytoscape-fcose-2.2.0.tgz error (ECONNRESET). Will retry in 1 minute. 2 retries left.
+  Progress: resolved 977, reused 0, downloaded 826, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٣٫١٨ MB/١٦٣٫٣٦ MB-89f8206ba4: ١٫٤٠ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٤٫٢٠ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@emnapi/runtime/-/runtime-1.11.3.tgz error (UND_ERR_SOCKET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1034, reused 0, downloaded 858, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٣٫٣١ MB/١٦٣٫٣٦ MB-89f8206ba4: ١٫٤٠ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٤٫٤٥ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/omniroute/-/omniroute-3.8.48.tgz error (ECONNRESET). Will retry in 1 minute. 2 retries left.
+  Progress: resolved 1078, reused 0, downloaded 928, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٣٫٣١ MB/١٦٣٫٣٦ MB-89f8206ba4: ٤١٩٫٤٩ kB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٥٫٣٢ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.1.tgz error (ECONNRESET). Will retry in 1 minute. 3 retries left.
+  Progress: resolved 1078, reused 0, downloaded 928, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٣٫٣١ MB/١٦٣٫٣٦ MB-89f8206ba4: ٦٢٢٫٩٢ kB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٥٫٤٢ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.2.12.tgz error (ECONNRESET). Will retry in 1 minute. 3 retries left.
+  Progress: resolved 1078, reused 0, downloaded 929, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٣٫٣١ MB/١٦٣٫٣٦ MB-89f8206ba4: ٩٩٩٫٧٥ kB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٥٫٤٨ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz error (ECONNRESET). Will retry in 1 minute. 2 retries left.
+  Progress: resolved 1078, reused 0, downloaded 931, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٣٫٣١ MB/١٦٣٫٣٦ MB-89f8206ba4: ٣٫٤٤ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٦٫٦٣ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs/-/tfjs-4.22.0.tgz error (ECONNRESET). Will retry in 1 minute. 2 retries left.
+  Progress: resolved 1078, reused 0, downloaded 932, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٫٨٠ MB/١٦٣٫٣٦ MB-89f8206ba4: ٤٫٤٤ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٦٫٧٦ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/wreq-js/-/wreq-js-2.3.1.tgz error (ECONNRESET). Will retry in 1 minute. 2 retries left.
+  Progress: resolved 1078, reused 0, downloaded 932, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٢٫٩٨ MB/١٦٣٫٣٦ MB-89f8206ba4: ٥٫١٧ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٦٫٧٦ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.15.46.tgz error (ECONNRESET). Will retry in 1 minute. 2 retries left.
+  Progress: resolved 1078, reused 0, downloaded 932, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٣٫٥٣ MB/١٦٣٫٣٦ MB-89f8206ba4: ٥٫٤٣ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٦٫٧٦ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/cosmiconfig error (unknown). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1078, reused 0, downloaded 932, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٤٫٢٢ MB/١٦٣٫٣٦ MB-89f8206ba4: ٥٫٨١ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٦٫٧٦ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/inline-style-parser/-/inline-style-parser-0.1.1.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1078, reused 0, downloaded 932, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٤٫٢٢ MB/١٦٣٫٣٦ MB-89f8206ba4: ٥٫٨١ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٦٫٧٦ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/cytoscape-fcose/-/cytoscape-fcose-2.2.0.tgz error (ECONNRESET). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1086, reused 0, downloaded 932, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٤٫٩١ MB/١٦٣٫٣٦ MB-89f8206ba4: ٥٫٨١ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٦٫٧٦ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@babel%2Fhelper-globals error (ETIMEDOUT). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1092, reused 0, downloaded 936, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٥٫١٧ MB/١٦٣٫٣٦ MB-89f8206ba4: ٥٫٨١ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٦٫٧٦ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@babel%2Fparser error (ETIMEDOUT). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1092, reused 0, downloaded 936, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٥٫١٧ MB/١٦٣٫٣٦ MB-89f8206ba4: ٥٫٨١ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٦٫٧٦ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/cosmiconfig/-/cosmiconfig-7.0.0.tgz error (ETIMEDOUT). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1092, reused 0, downloaded 936, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٥٫١٧ MB/١٦٣٫٣٦ MB-89f8206ba4: ٥٫٨١ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٦٫٧٦ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.10.tgz error (ETIMEDOUT). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1092, reused 0, downloaded 936, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٥٫١٧ MB/١٦٣٫٣٦ MB-89f8206ba4: ٥٫٨١ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٦٫٧٦ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/yaml/-/yaml-1.10.3.tgz error (UND_ERR_SOCKET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1098, reused 0, downloaded 944, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٥٫٥٢ MB/١٦٣٫٣٦ MB-89f8206ba4: ٥٫٨١ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٩٥٫٦٩ kB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/ini/-/ini-1.3.4.tgz error (UND_ERR_SOCKET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1098, reused 0, downloaded 945, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٥٫٥٥ MB/١٦٣٫٣٦ MB-89f8206ba4: ٥٫٨١ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١٦١٫٢٣ kB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/estree-util-visit error (UND_ERR_SOCKET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1100, reused 0, downloaded 951, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٥٫٨٤ MB/١٦٣٫٣٦ MB-89f8206ba4: ٥٫٨١ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٧٥١٫٠٥ kB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/onnxruntime-node/-/onnxruntime-node-1.21.0.tgz error (ECONNRESET). Will retry in 1 minute. 2 retries left.
+  Progress: resolved 1101, reused 0, downloaded 956, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٫٥٨ MB/١٦٣٫٣٦ MB-89f8206ba4: ٦٫٢٤ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١٫٧٥ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz error (ECONNRESET). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1101, reused 0, downloaded 956, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٧٫١٧ MB/١٦٣٫٣٦ MB-89f8206ba4: ٦٫٧٦ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٢٫٢٠ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.1.tgz error (ECONNRESET). Will retry in 1 minute. 2 retries left.
+  Progress: resolved 1101, reused 0, downloaded 956, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٧٫٢٠ MB/١٦٣٫٣٦ MB-89f8206ba4: ٦٫٨٣ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٢٫٢٥ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz error (ECONNRESET). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1101, reused 0, downloaded 956, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٧٫٤٧ MB/١٦٣٫٣٦ MB-89f8206ba4: ٧٫٢٥ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٣٫١١ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/supports-preserve-symlinks-flag error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1101, reused 0, downloaded 956, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٧٫٦٥ MB/١٦٣٫٣٦ MB-89f8206ba4: ٧٫٢٥ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٣٫٧٤ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@babel%2Fgenerator error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1101, reused 0, downloaded 956, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٧٫٦٥ MB/١٦٣٫٣٦ MB-89f8206ba4: ٧٫٢٥ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٣٫٧٤ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.15.46.tgz error (ECONNRESET). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1111, reused 0, downloaded 963, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٨٫٧٣ MB/١٦٣٫٣٦ MB-89f8206ba4: ١٫٠٩ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٩٫٠٧ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/next/-/next-16.2.12.tgz error (ECONNRESET). Will retry in 1 minute. 2 retries left.
+  Progress: resolved 1111, reused 0, downloaded 964, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٨٫٩٢ MB/١٦٣٫٣٦ MB-89f8206ba4: ١٫٤٦ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ٩٫٦٨ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.2.12.tgz error (ECONNRESET). Will retry in 1 minute. 2 retries left.
+  Progress: resolved 1111, reused 0, downloaded 964, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٩٫٧٦ MB/١٦٣٫٣٦ MB-89f8206ba4: ٢٫٩٤ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١١٫٣١ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.12.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1117, reused 0, downloaded 971, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٩٫٩٧ MB/١٦٣٫٣٦ MB-89f8206ba4: ٣٫٢٧ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١١٫٦٣ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/wreq-js/-/wreq-js-2.3.1.tgz error (ECONNRESET). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1163, reused 0, downloaded 988, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٢ MB/١٦٣٫٣٦ MB89f8206ba4: ٣٫٧١ MB/٢٠٫٢٣ MB
+  Downloading wreq-js@2.3.1: ١١٫٦٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٤٢ MB/٣٠٫٥٦ MBB/٤٣٫٨٣ MB
+  [WARN] GET https://registry.npmmirror.com/rc-collapse/-/rc-collapse-4.0.0.tgz error (UND_ERR_SOCKET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1171, reused 0, downloaded 994, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫٩٣ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MBB
+  Downloading wreq-js@2.3.1: ١١٫٦٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٤٦ MB/٣٠٫٥٦ MB
+  [WARN] GET https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.1.tgz error (ECONNRESET). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1172, reused 0, downloaded 994, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫٩٣ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MBB
+  Downloading wreq-js@2.3.1: ١١٫٦٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٤٧ MB/٣٠٫٥٦ MB
+  [WARN] GET https://registry.npmmirror.com/remark-breaks error (UND_ERR_SOCKET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1179, reused 0, downloaded 1007, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٨٫٣٢ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MBB
+  Downloading wreq-js@2.3.1: ١١٫٦٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٥٠ MB/٣٠٫٥٦ MB
+  [WARN] GET https://registry.npmmirror.com/swr error (UND_ERR_SOCKET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1180, reused 0, downloaded 1008, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٫٧٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MBB
+  Downloading wreq-js@2.3.1: ١١٫٦٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٥٠ MB/٣٠٫٥٦ MB
+  [WARN] GET https://registry.npmmirror.com/leva/-/leva-0.10.1.tgz error (UND_ERR_SOCKET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1192, reused 0, downloaded 1033, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٠٠٫٢٤ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MBB
+  Downloading wreq-js@2.3.1: ١١٫٦٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٥٧ MB/٣٠٫٥٦ MB
+  [WARN] GET https://registry.npmmirror.com/@emoji-mart/data/-/data-1.2.1.tgz error (UND_ERR_SOCKET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1193, reused 0, downloaded 1039, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٩٨٫٥٤ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MBB
+  Downloading wreq-js@2.3.1: ١١٫٦٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٦٠ MB/٣٠٫٥٦ MB
+  [WARN] GET https://registry.npmmirror.com/omniroute/-/omniroute-3.8.48.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1194, reused 0, downloaded 1040, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣١٣٫٢٣ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MBB
+  Downloading wreq-js@2.3.1: ٧٩٫٦٤ kB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٦٢ MB/٣٠٫٥٦ MB
+  [WARN] GET https://registry.npmmirror.com/numeral error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1194, reused 0, downloaded 1040, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٢٩٫٦١ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MBB
+  Downloading wreq-js@2.3.1: ١٤٥٫١٧ kB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٦٢ MB/٣٠٫٥٦ MB
+  [WARN] GET https://registry.npmmirror.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.12.tgz error (ECONNRESET). Will retry in 1 minute. 4 retries left.
+  Progress: resolved 1194, reused 0, downloaded 1040, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٦٫٠٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MBB
+  Downloading wreq-js@2.3.1: ١٦١٫٥٦ kB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٦٢ MB/٣٠٫٥٦ MB
+  Downloading mermaid@11.16.0: ٣٧٨٫٧٦ kB/١٧٫٦٠ MB040, added 0
+  [WARN] GET https://registry.npmmirror.com/rc-menu error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1196, reused 0, downloaded 1041, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB٠ MB/٢٠٫٢٣ MB
+  Downloading mermaid@11.16.0: ٤٢٧٫٩٢ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MB١٦ MB/٤٣٫٨٣ MB
+  Downloading wreq-js@2.3.1: ٤٩٢٫٤٩ kB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٦٢ MB/٣٠٫٥٦ MBMB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MBB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/query-string error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1196, reused 0, downloaded 1041, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB٢ MB/٢٠٫٢٣ MB
+  Downloading mermaid@11.16.0: ٤٤٤٫٣٠ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MB١٧ MB/٤٣٫٨٣ MB
+  Downloading wreq-js@2.3.1: ٥٢٩٫٣٢ kB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٦٢ MB/٣٠٫٥٦ MBMB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MBB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/rc-input-number error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1196, reused 0, downloaded 1042, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB٧ MB/٢٠٫٢٣ MB
+  Downloading mermaid@11.16.0: ٤٦٠٫٦٨ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MB٢٤ MB/٤٣٫٨٣ MB
+  Downloading wreq-js@2.3.1: ٦٧٦٫٧٧ kB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٦٢ MB/٣٠٫٥٦ MBMB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MBB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/react-zoom-pan-pinch error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1196, reused 0, downloaded 1042, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB٧ MB/٢٠٫٢٣ MB
+  Downloading mermaid@11.16.0: ٤٦٠٫٦٨ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MB٢٤ MB/٤٣٫٨٣ MB
+  Downloading wreq-js@2.3.1: ٦٧٦٫٧٧ kB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٦٢ MB/٣٠٫٥٦ MBMB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MBB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/ts-md5 error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1196, reused 0, downloaded 1042, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB٨ MB/٢٠٫٢٣ MB
+  Downloading mermaid@11.16.0: ٤٩٣٫٤٥ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MB٢٦ MB/٤٣٫٨٣ MB
+  Downloading wreq-js@2.3.1: ٦٩٣٫١٦ kB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٦٢ MB/٣٠٫٥٦ MBMB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MBB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/@rc-component/tree/-/tree-1.3.2.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1200, reused 0, downloaded 1043, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB٠ MB/٢٠٫٢٣ MB
+  Downloading mermaid@11.16.0: ٦٠٨٫١٤ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MB٥٤ MB/٤٣٫٨٣ MB
+  Downloading wreq-js@2.3.1: ١٫٠٦ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٦٢ MB/٣٠٫٥٦ MBMB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MBB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs/-/tfjs-4.22.0.tgz error (ECONNRESET). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1201, reused 0, downloaded 1045, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB١ MB/٢٠٫٢٣ MB
+  Downloading mermaid@11.16.0: ٦٢٤٫٥٢ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٠٫٣٥ MB/١٦٣٫٣٦ MB٥٥ MB/٤٣٫٨٣ MB
+  Downloading wreq-js@2.3.1: ١٫١٠ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٦٢ MB/٣٠٫٥٦ MBMB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MBB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/@mdx-js%2Freact error (unknown). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1201, reused 0, downloaded 1049, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB٣ MB/٢٠٫٢٣ MB
+  Downloading mermaid@11.16.0: ٨٧٠٫٢٨ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٣٧٫٧١ kB/١٦٣٫٣٦ MB٠ MB/٤٣٫٨٣ MB
+  Downloading wreq-js@2.3.1: ١٫٤١ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٦٢ MB/٣٠٫٥٦ MBMB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MBB/١٠٫٢٢ MB
+  [WARN] 899 other warningsreused 0, downloaded 1050, added 0
+  [WARN] GET https://registry.npmmirror.com/v8n error (ETIMEDOUT). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1229, reused 0, downloaded 1052, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٩٦٨٫٥٩ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٣٥٥٫٢٥ kB/١٦٣٫٣٦ MBMB
+  Downloading wreq-js@2.3.1: ١٫٨٥ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٫٦٢ MB/٣٠٫٥٦ MB١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٫٤٤ MB
+  Downloading next@16.2.12: ١٫٣١ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/@ant-design/icons/-/icons-6.3.2.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1238, reused 0, downloaded 1060, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٩٦٨٫٥٩ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٤١٣٫٦٥ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ١٫٨٥ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٣٫٨٥ kB/٣٠٫٥٦ MB١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٤١ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/decode-uri-component error (UND_ERR_SOCKET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1240, reused 0, downloaded 1063, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٩٦٨٫٥٩ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٤٣٩٫٩٣ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ١٫٨٥ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٣٣٫٠٠ kB/٣٠٫٥٦ MB٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٤٦ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/hast-util-from-html error (UND_ERR_SOCKET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1242, reused 0, downloaded 1065, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٩٦٨٫٥٩ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٤٤٨٫٦٩ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ١٫٨٥ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٨٢٫١٥ kB/٣٠٫٥٦ MB٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٤٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/mermaid/-/mermaid-11.16.0.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1243, reused 0, downloaded 1066, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٩٦٨٫٥٩ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٤٧٢٫٠٥ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ١٫٨٥ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٢١٤٫٩٢ kB/٣٠٫٥٦ MB٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٥٢ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/@pierre/theming/-/theming-0.0.2.tgz error (UND_ERR_SOCKET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1243, reused 0, downloaded 1067, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٩٦٨٫٥٩ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٤٨٨٫٤٣ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ١٫٨٥ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٢٨٠٫٤٦ kB/٣٠٫٥٦ MB٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٥٤ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/@base-ui/react/-/react-1.6.0.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1245, reused 0, downloaded 1068, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٩٦٨٫٥٩ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٤٩٥٫٤١ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ١٫٨٧ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٣٦٢٫٣٨ kB/٣٠٫٥٦ MB٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٥٧ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/@splinetool/runtime/-/runtime-1.12.98.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1253, reused 0, downloaded 1082, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٦٥٤٫٢٣ kB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٠٦٫٥٣ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ١٫٩٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٢٤٫٢٣ kB/٣٠٫٥٦ MB٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٧٥ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/onnxruntime-node/-/onnxruntime-node-1.21.0.tgz error (ECONNRESET). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1254, reused 0, downloaded 1087, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫١٤ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٥٥٫٦٨ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٢ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠٢ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٧ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/react-colorful error (unknown). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1254, reused 0, downloaded 1087, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫١٤ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٥٥٫٦٨ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٢ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠٢ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٧ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/lru_map/-/lru_map-0.4.1.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1254, reused 0, downloaded 1087, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫١٤ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٥٥٫٦٨ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٢ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠٢ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٧ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/hast-util-is-element/-/hast-util-is-element-3.0.0.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1254, reused 0, downloaded 1087, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫١٤ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٥٥٫٦٨ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٢ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠٢ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٧ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/@emoji-mart/data/-/data-1.2.1.tgz error (ECONNRESET). Will retry in 1 minute. 4 retries left.
+  Progress: resolved 1254, reused 0, downloaded 1087, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫١٤ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٥٥٫٦٨ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٢ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠٢ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٧ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/tslib/-/tslib-2.6.2.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1256, reused 0, downloaded 1087, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫٢٣ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٥٥٫٦٨ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠٣ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/lodash error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1256, reused 0, downloaded 1087, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫٢٧ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٥٥٫٦٨ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠٣ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/use-sync-external-store/-/use-sync-external-store-1.6.0.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1256, reused 0, downloaded 1088, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫٣٢ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٥٥٫٦٨ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠٣ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/antd/-/antd-6.5.2.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1256, reused 0, downloaded 1091, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫٤٤ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٥٥٫٦٨ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠٣ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/zustand/-/zustand-3.6.9.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1258, reused 0, downloaded 1096, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫٦٤ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٧٢٫٠٦ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠٣ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/merge-value/-/merge-value-1.0.0.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1259, reused 0, downloaded 1098, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫٧٣ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٧٢٫٠٦ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠٣ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/split-on-first/-/split-on-first-3.0.0.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1259, reused 0, downloaded 1098, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫٧٥ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٨٨٫٤٥ kB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠٣ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/@pierre/theme/-/theme-1.1.0.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1259, reused 0, downloaded 1100, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫٨٢ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٦٨٨٫٤٥ kB/١٦٣٫٣٦ MBB
+  Downloading wreq-js@2.3.1: ٢٫٠٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠٣ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/cytoscape-fcose/-/cytoscape-fcose-2.2.0.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1259, reused 0, downloaded 1105, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٢٫٦٢ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٨٨٥٫٠٥ kB/١٦٣٫٣٦ MBB
+  Downloading wreq-js@2.3.1: ٢٫٠٣ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٥ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/next/-/next-16.2.12.tgz error (ECONNRESET). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1259, reused 0, downloaded 1105, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٫٠٥ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٫٠٤ MB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٥ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٢٦ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/rc-input/-/rc-input-1.8.0.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1259, reused 0, downloaded 1105, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٫١٣ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٫٠٩ MB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٥ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٢٩ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/screenfull/-/screenfull-5.2.0.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1259, reused 0, downloaded 1105, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٫٢٠ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٫١٩ MB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٥ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٣٦ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/js-cookie/-/js-cookie-3.0.8.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1259, reused 0, downloaded 1105, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٫٣٠ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٫٢٤ MB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٥ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٤٣ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/micromark-extension-cjk-friendly error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1259, reused 0, downloaded 1105, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٫٣٠ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٫٢٦ MB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٥ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٤٣ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/hast-util-to-text/-/hast-util-to-text-4.0.2.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1259, reused 0, downloaded 1109, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٫٤٣ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ١٫٦٨ MB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٦ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٩٣ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/rc-util/-/rc-util-5.44.4.tgz error (ECONNRESET). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1292, reused 0, downloaded 1133, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٫٥٩ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٢٫٢٧ MB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٦ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٢٫٧٥ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.2.12.tgz error (ECONNRESET). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1295, reused 0, downloaded 1136, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٫٦٠ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٢٫٣٢ MB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٦ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٢٫٨٧ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/mermaid/-/mermaid-11.16.0.tgz error (ECONNRESET). Will retry in 1 minute. 4 retries left.
+  Progress: resolved 1297, reused 0, downloaded 1141, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٫٦٣ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٢٫٣٧ MB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٦ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٢٫٨٧ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٨٩ MB/٣٤٫٥٢ MB
+  [WARN] 5 deprecated subdependencies found: boolean@3.2.0, ini@1.3.0, ini@1.3.4, intersection-observer@0.12.2, prebuild-install@7.1.3
+  Progress: resolved 1301, reused 0, downloaded 1153, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٫٦٣ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٣٫١٢ MB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٨ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٣٫٨٠ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١١٤٫٣٥ kB/٣٤٫٥٢ MB
+  Packages: +1176
+  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Progress: resolved 1301, reused 0, downloaded 1153, added 0
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٫٦٣ MB/١٧٫٦٠ MB٦٠ MB
+  Downloading omniroute@3.8.48: ٣٫١٦ MB/١٦٣٫٣٦ MB
+  Downloading wreq-js@2.3.1: ٢٫٠٨ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٣٫٨٢ MB/٣٠٫٥٦ MB MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB
+  Downloading next@16.2.12: ١٤٥٫٣٤ kB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/@base-ui/react/-/react-1.6.0.tgz error (ECONNRESET). Will retry in 1 minute. 4 retries left.
+  Progress: resolved 1301, reused 0, downloaded 1153, added 10
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٫٦٣ MB/١٧٫٦٠ MB
+  Downloading omniroute@3.8.48: ٣٫٤٧ MB/١٦٣٫٣٦ MB MB
+  Downloading wreq-js@2.3.1: ٢٫٠٨ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٤٫١٠ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ٢٨٣٫٧١ kB/٣٤٫٥٢ MB
+  C:\Users\TOPLAPTOP\AppData\Local\pnpm\global\v11\2948-19fa031a646-4399cbb25af1897f:
+  [ERROR] terminated
+  
+  This error happened while installing the dependencies of omniroute@3.8.48 MB
+  
+  pnpm: terminated
+      at Fetch.onAborted (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:82035:53)
+      at Fetch.emit (node:events:518:28)
+      at Fetch.terminate (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:81177:14)
+      at Object.onError (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:82168:38)
+      at WrapHandler.onResponseError (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:63784:32)
+      at UnwrapHandler.onError (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:63917:40)
+      at Request.onError (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:63609:31)
+      at Object.errorRequest (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:62951:17)
+      at TLSSocket.onHttpSocketClose (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:68572:16)
+      at TLSSocket.emit (node:events:530:35)
+  Progress: resolved 1301, reused 0, downloaded 1153, added 1152
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading omniroute@3.8.48: ٥٫٦٥ MB/١٦٣٫٣٦ MB
+  Downloading wreq-js@2.3.1: ٢٫٠٨ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٦٫٤٤ MB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB
+  Downloading next@16.2.12: ١٫٩٧ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/mermaid/-/mermaid-11.16.0.tgz error (UND_ERR_DESTROYED). Will retry in 1 minute. 3 retries left.
+  Progress: resolved 1301, reused 0, downloaded 1153, added 1152
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٩٫٤١ kB/١٧٫٦٠ MB٫٠٤ MB/٤٣٫٨٣ MB
+  Downloading omniroute@3.8.48: ٥٫٦٥ MB/١٦٣٫٣٦ MB٦٠ MB
+  Downloading wreq-js@2.3.1: ٢٫٠٨ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٦٫٤٤ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٩٧ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/cytoscape-fcose/-/cytoscape-fcose-2.2.0.tgz error (UND_ERR_DESTROYED). Will retry in 1 minute. 4 retries left.
+  Progress: resolved 1301, reused 0, downloaded 1153, added 1152
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٩٫٤١ kB/١٧٫٦٠ MB٫٠٤ MB/٤٣٫٨٣ MB
+  Downloading omniroute@3.8.48: ٥٫٦٥ MB/١٦٣٫٣٦ MB٦٠ MB
+  Downloading wreq-js@2.3.1: ٢٫٠٨ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٦٫٤٤ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٩٧ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/lucide-react/-/lucide-react-0.562.0.tgz error (UND_ERR_DESTROYED). Will retry in 10 seconds. 5 retries left.
+  Progress: resolved 1301, reused 0, downloaded 1153, added 1152
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٩٫٤١ kB/١٧٫٦٠ MB٫٠٤ MB/٤٣٫٨٣ MB
+  Downloading omniroute@3.8.48: ٥٫٦٥ MB/١٦٣٫٣٦ MB٦٠ MB
+  Downloading wreq-js@2.3.1: ٢٫٠٨ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٦٫٤٤ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٩٧ MB/٣٤٫٥٢ MB
+  [WARN] GET https://registry.npmmirror.com/antd/-/antd-6.5.2.tgz error (UND_ERR_DESTROYED). Will retry in 1 minute. 4 retries left.
+  Progress: resolved 1301, reused 0, downloaded 1153, added 1152
+  Downloading js-tiktoken@1.0.21: ٢٫٧٧ MB/١٠٫٢٣ MB
+  Downloading material-symbols@0.45.9: ٢٫٨١ MB/١٢٫٨٢ MB
+  Downloading @huggingface/transformers@3.5.2: ٥٧٦٫٢٠ kB/١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ٣٤٩٫٤١ kB/١٧٫٦٠ MB٫٠٤ MB/٤٣٫٨٣ MB
+  Downloading omniroute@3.8.48: ٥٫٦٥ MB/١٦٣٫٣٦ MB٦٠ MB
+  Downloading wreq-js@2.3.1: ٢٫٠٨ MB/٢٥٫٣٧ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٦٫٤٤ MB/٣٠٫٥٦ MB/١٠٫٢٢ MB
+  Downloading monaco-editor@0.55.1: ٩١٩٫٤٤ kB/١٣٫٦٧ MB٤ MB
+  Downloading next@16.2.12: ١٫٩٧ MB/٣٤٫٥٢ MB
+  Downloading onnxruntime-node@1.21.0: ٤٫٢٥ MB/٨٠٫٠١ MB
+  Downloading @tensorflow/tfjs-layers@4.22.0: ٢٫٣٣ MB/٦٫٣٣ MB
+  Downloading onnxruntime-web@1.22.0-dev.20250409-89f8206ba4: ٤٫٥٣ MB/٢٠٫٢٣ MB
+  Downloading gpt-tokenizer@3.4.0: ٣٫٨٨ MB/١٧٫٦٨ MB
+  Downloading @next/swc-win32-x64-msvc@16.2.12: ٢٫٠٤ MB/٤٣٫٨٣ MB
+  Downloading cytoscape-fcose@2.2.0: ٦٨٢٫٦٠ kB/٧٫٦٠ MB
+  Downloading @img/sharp-win32-x64@0.34.5: ١٫٩٥ MB/٨٫٦٨ MB
+  Downloading @swc/core-win32-x64-msvc@1.15.46: ٢٫٨٧ MB/١٠٫٢٢ MB
+  Downloading @img/sharp-win32-x64@0.34.1: ١٫٢٢ MB/٨٫٤٤ MB
+  Downloading mermaid@11.16.0: ٣٤٩٫٤١ kB/١٧٫٦٠ MB
+  Downloading antd@6.5.2: ٧٫٦٧ MB/١٠٫٢٣ MB
+  Downloading cytoscape-fcose@2.2.0: ٦٨٢٫٦٠ kB/٧٫٦٠ MB
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> omniroute
+  omniroute : The term 'omniroute' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that 
+  the path is correct and try again.
+  At line:1 char:1
+  + omniroute
+  + ~~~~~~~~~
+      + CategoryInfo          : ObjectNotFound: (omniroute:String) [], CommandNotFoundException
+      + FullyQualifiedErrorId : CommandNotFoundException
+   
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> 
+
+--- WINDOW  2026/07/27 00:41:59  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  GJC 5'1C[ENTER]
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/27 00:42:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:42:43  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:42:46  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:42:47  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  EH'AB [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]DCF 'FG *+(J* (/HF '.7'! GJC E(JF [ENTER]
+  EH'A [Bk]B [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/27 00:43:45  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 00:43:51  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 00:43:52  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 00:43:54  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Remove-Item -Recurse -Force "C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute" -ErrorAction SilentlyContinue
+  [LMB]
+
+--- WINDOW  2026/07/27 00:44:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:44:12  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:44:12  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/27 00:44:15  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:44:15  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  $env:OMNIROUTE_SKIP_POSTINSTALL = "1"
+  [LMB]
+
+--- WINDOW  2026/07/27 00:44:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:44:19  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+  1
+
+--- WINDOW  2026/07/27 00:44:19  [Code.exe] ● Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:44:20  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]&
+
+--- WINDOW  2026/07/27 00:44:21  [Code.exe] ● Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+
+--- WINDOW  2026/07/27 00:44:22  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  1[ENTER]
+
+--- WINDOW  2026/07/27 00:44:23  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:44:23  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  omniroute
+  [LMB]
+  [Clipboard]
+  npm install -g omniroute@latest --registry=https://registry.yarnpkg.com
+
+--- WINDOW  2026/07/27 00:44:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:44:40  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/27 00:44:45  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 00:44:57  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:44:59  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:45:32  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:47:36  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:47:37  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:47:51  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:47:52  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]$
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/27 00:48:01  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Remove-Item -Recurse -Force "C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute" -ErrorAction SilentlyContinue
+
+--- WINDOW  2026/07/27 00:48:05  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:48:05  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/27 00:48:07  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  $env:OMNIROUTE_SKIP_POSTINSTALL = "1"
+
+--- WINDOW  2026/07/27 00:48:11  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1
+
+--- WINDOW  2026/07/27 00:48:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:48:12  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:48:12  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  npm install -g omniroute@latest --registry=https://registry.yarnpkg.com
+
+--- WINDOW  2026/07/27 00:48:15  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:48:15  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1
+
+--- WINDOW  2026/07/27 00:48:41  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 00:48:44  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 00:48:48  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:48:52  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:48:52  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:48:59  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:48:59  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:48:59  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 00:49:00  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
