@@ -1,0 +1,1492 @@
+﻿
+--- WINDOW  2026/07/26 21:52:07  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 21:52:08  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> pnpm add -g omniroute@latest --allow-build=better-sqlite3 --allow-build=@swc/core
+  [WARN] Request took 10200ms: https://registry.npmmirror.com/@dnd-kit%2Fsortable
+  [WARN] Request took 10195ms: https://registry.npmmirror.com/marked-terminal
+  [WARN] Request took 10827ms: https://registry.npmmirror.com/marked
+  [WARN] Request took 11297ms: https://registry.npmmirror.com/ioredis
+  [WARN] Request took 12012ms: https://registry.npmmirror.com/monaco-editor
+  [WARN] 53 other warnings
+  [WARN] 55 other warningstry.npmmirror.com/next error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/playwright error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/react error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 56 other warningstry.npmmirror.com/react-dom error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/pino/-/pino-10.3.1.tgz error (UND_ERR_SOCKET). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/omniroute/-/omniroute-3.8.48.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/omniglyph/-/omniglyph-1.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/axios/-/axios-1.18.1.tgz error (UND_ERR_SOCKET). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/wreq-js/-/wreq-js-2.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@modelcontextprotocol/sdk/-/sdk-1.29.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 57 other warningstry.npmmirror.com/js-tiktoken/-/js-tiktoken-1.0.21.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 58 other warningstry.npmmirror.com/better-sqlite3/-/better-sqlite3-12.11.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@lobehub/icons/-/icons-5.15.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 59 other warningstry.npmmirror.com/fumadocs-core/-/fumadocs-core-16.12.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@huggingface/transformers/-/transformers-3.5.2.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 60 other warningstry.npmmirror.com/@aws-sdk/client-bedrock-runtime/-/client-bedrock-runtime-3.1095.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 61 other warningstry.npmmirror.com/@tensorflow/tfjs/-/tfjs-4.22.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 66 other warningstry.npmmirror.com/http-proxy-middleware/-/http-proxy-middleware-4.2.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 67 other warningstry.npmmirror.com/js-yaml/-/js-yaml-5.2.2.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/marked-terminal/-/marked-terminal-7.3.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 71 other warningstry.npmmirror.com/monaco-editor/-/monaco-editor-0.55.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/recharts/-/recharts-3.10.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 72 other warningstry.npmmirror.com/lucide-react/-/lucide-react-1.26.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/material-symbols/-/material-symbols-0.45.9.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/mermaid/-/mermaid-11.16.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/sql.js/-/sql.js-1.14.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/next error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/playwright error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/omniglyph/-/omniglyph-1.3.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/wreq-js/-/wreq-js-2.3.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/axios/-/axios-1.18.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/js-tiktoken/-/js-tiktoken-1.0.21.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/better-sqlite3/-/better-sqlite3-12.11.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/@huggingface/transformers/-/transformers-3.5.2.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/omniroute/-/omniroute-3.8.48.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs/-/tfjs-4.22.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/monaco-editor/-/monaco-editor-0.55.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/recharts/-/recharts-3.10.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 74 other warningstry.npmmirror.com/lucide-react/-/lucide-react-1.26.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 90 other warningstry.npmmirror.com/material-symbols/-/material-symbols-0.45.9.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 108 other warningsry.npmmirror.com/react-dom/-/react-dom-19.2.7.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 113 other warningsry.npmmirror.com/mermaid/-/mermaid-11.16.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/koffi error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/ajv-formats error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/next/-/next-16.2.11.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 193, reused 0, downloaded 126, added 0
+  [WARN] GET https://registry.npmmirror.com/bindings/-/bindings-1.5.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 193, reused 0, downloaded 127, added 0
+  [WARN] GET https://registry.npmmirror.com/playwright/-/playwright-1.61.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 203, reused 0, downloaded 143, added 0
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-backend-webgl/-/tfjs-backend-webgl-4.22.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 227, reused 0, downloaded 167, added 0
+  [WARN] GET https://registry.npmmirror.com/express-rate-limit error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 230, reused 0, downloaded 167, added 0
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-backend-cpu/-/tfjs-backend-cpu-4.22.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 239, reused 0, downloaded 175, added 0
+  [WARN] GET https://registry.npmmirror.com/prebuild-install/-/prebuild-install-7.1.3.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 258, reused 0, downloaded 196, added 0
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-core/-/tfjs-core-4.22.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 258, reused 0, downloaded 197, added 0
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-data/-/tfjs-data-4.22.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 258, reused 0, downloaded 197, added 0
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-layers/-/tfjs-layers-4.22.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 272, reused 0, downloaded 204, added 0
+  Progress: resolved 273, reused 0, downloaded 207, added 0
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-converter/-/tfjs-converter-4.22.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 273, reused 0, downloaded 209, added 0٫٢٥ MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/onnxruntime-node/-/onnxruntime-node-1.21.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 276, reused 0, downloaded 212, added 0٫٢٥ MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/lucide-react/-/lucide-react-0.469.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 277, reused 0, downloaded 214, added 0٫٢٥ MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  [WARN] GET https://registry.npmmirror.com/@ngrok/ngrok-win32-x64-msvc/-/ngrok-win32-x64-msvc-1.7.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 293, reused 0, downloaded 223, added 0٫٢٥ MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Progress: resolved 307, reused 0, downloaded 234, added 0
+  Progress: resolved 313, reused 0, downloaded 241, added 0٫٢٥ MB
+  [WARN] GET https://registry.npmmirror.com/hono/-/hono-4.12.32.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 323, reused 0, downloaded 249, added 0٣ MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  [WARN] GET https://registry.npmmirror.com/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 324, reused 0, downloaded 249, added 0B
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٣٠ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/esbuild error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 329, reused 0, downloaded 260, added 0B
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٣٠ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/scheduler error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 348, reused 0, downloaded 279, added 0B
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٣٠ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/next/-/next-16.2.11.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 349, reused 0, downloaded 282, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٧٠ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/playwright/-/playwright-1.61.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 352, reused 0, downloaded 287, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٥٥ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/cytoscape-fcose/-/cytoscape-fcose-2.2.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 364, reused 0, downloaded 290, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٥٥ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-backend-webgl/-/tfjs-backend-webgl-4.22.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 365, reused 0, downloaded 290, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٦٣ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@next%2Fswc-linux-arm64-gnu error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 369, reused 0, downloaded 294, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٦٣ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@next%2Fswc-linux-arm64-musl error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 370, reused 0, downloaded 294, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٠١ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@next%2Fswc-linux-x64-musl error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 373, reused 0, downloaded 296, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٧٥ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@next%2Fswc-win32-arm64-msvc error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 373, reused 0, downloaded 296, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٧٥ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-backend-cpu/-/tfjs-backend-cpu-4.22.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 373, reused 0, downloaded 296, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٧٥ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@next%2Fswc-win32-x64-msvc error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 373, reused 0, downloaded 296, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٧٥ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/cytoscape/-/cytoscape-3.34.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 373, reused 0, downloaded 296, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٧٥ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/koffi/-/koffi-2.16.3.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 373, reused 0, downloaded 296, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٧٥ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@next%2Fenv error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 374, reused 0, downloaded 296, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٧٥ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/express-rate-limit/-/express-rate-limit-8.6.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 379, reused 0, downloaded 305, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٧٥ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/katex/-/katex-0.16.47.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 379, reused 0, downloaded 307, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٤٣ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@mermaid-js/parser/-/parser-1.2.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 379, reused 0, downloaded 307, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫١٩ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@swc%2Fcore error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 379, reused 0, downloaded 307, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫١٩ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-core/-/tfjs-core-4.22.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 379, reused 0, downloaded 308, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫١٩ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-layers/-/tfjs-layers-4.22.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 379, reused 0, downloaded 310, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٤١ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/onnxruntime-node/-/onnxruntime-node-1.21.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 380, reused 0, downloaded 314, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٠٩ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-converter/-/tfjs-converter-4.22.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 380, reused 0, downloaded 314, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٤٩ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-data/-/tfjs-data-4.22.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 380, reused 0, downloaded 315, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٤٩ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/lucide-react/-/lucide-react-0.469.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 380, reused 0, downloaded 316, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٦٣ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/next-intl-swc-plugin-extractor/-/next-intl-swc-plugin-extractor-4.13.4.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 380, reused 0, downloaded 316, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٦٧ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/gpt-tokenizer/-/gpt-tokenizer-3.4.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 380, reused 0, downloaded 317, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٦٧ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@ngrok/ngrok-win32-x64-msvc/-/ngrok-win32-x64-msvc-1.7.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 380, reused 0, downloaded 319, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٧١ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/playwright-core error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 383, reused 0, downloaded 326, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٧٧ kB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 384, reused 0, downloaded 332, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٫٠٩ kB/٢٠٫٢٣ MB
+  [WARN] 285 other warningseused 0, downloaded 332, added 0
+  [WARN] GET https://registry.npmmirror.com/scheduler error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 385, reused 0, downloaded 333, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB٥ MB
+  [WARN] GET https://registry.npmmirror.com/@reduxjs/toolkit/-/toolkit-2.12.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 385, reused 0, downloaded 333, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB٥ MB
+  [WARN] GET https://registry.npmmirror.com/cytoscape-fcose/-/cytoscape-fcose-2.2.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 386, reused 0, downloaded 334, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB٥ MB
+  [WARN] GET https://registry.npmmirror.com/@next%2Fswc-linux-arm64-gnu error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 386, reused 0, downloaded 334, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB٥ MB
+  [WARN] GET https://registry.npmmirror.com/@next%2Fswc-linux-arm64-musl error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 386, reused 0, downloaded 334, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB٥ MB
+  [WARN] GET https://registry.npmmirror.com/@next%2Fswc-linux-x64-musl error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 386, reused 0, downloaded 334, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB٥ MB
+  [WARN] GET https://registry.npmmirror.com/koffi/-/koffi-2.16.3.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 386, reused 0, downloaded 335, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB٥ MB
+  [WARN] GET https://registry.npmmirror.com/katex/-/katex-0.16.47.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 386, reused 0, downloaded 335, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB MB
+  [WARN] GET https://registry.npmmirror.com/@mermaid-js/parser/-/parser-1.2.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 386, reused 0, downloaded 335, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB MB
+  [WARN] GET https://registry.npmmirror.com/gpt-tokenizer/-/gpt-tokenizer-3.4.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 386, reused 0, downloaded 335, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB٥ MB
+  [WARN] GET https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.2.11.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 386, reused 0, downloaded 335, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB٥ MB
+  [WARN] GET https://registry.npmmirror.com/playwright-core error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 386, reused 0, downloaded 335, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB٥ MB
+  [WARN] GET https://registry.npmmirror.com/@reduxjs/toolkit/-/toolkit-2.12.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 387, reused 0, downloaded 336, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  [WARN] GET https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.2.11.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 388, reused 0, downloaded 338, added 0MB٨٣ MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  [WARN] GET https://registry.npmmirror.com/is-fullwidth-code-point error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 497, reused 0, downloaded 369, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  [WARN] GET https://registry.npmmirror.com/@img%2Fsharp-linux-arm error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 497, reused 0, downloaded 369, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  [WARN] GET https://registry.npmmirror.com/rehype-recma error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 497, reused 0, downloaded 369, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  [WARN] GET https://registry.npmmirror.com/@img%2Fsharp-linuxmusl-arm64 error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 497, reused 0, downloaded 369, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  [WARN] GET https://registry.npmmirror.com/recma-jsx error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 497, reused 0, downloaded 369, added 0MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Progress: resolved 522, reused 0, downloaded 380, added 0
+  [WARN] GET https://registry.npmmirror.com/playwright-core/-/playwright-core-1.61.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 617, reused 0, downloaded 448, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB٥ MB
+  [WARN] GET https://registry.npmmirror.com/recma-stringify error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 652, reused 0, downloaded 480, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB٥ MB٣ MB
+  Progress: resolved 673, reused 0, downloaded 494, added 0
+  [WARN] GET https://registry.npmmirror.com/@swc%2Fcore-linux-arm64-musl error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 741, reused 0, downloaded 560, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB206ba4: ١٫٣٧ MB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@esbuild/win32-x64/-/win32-x64-0.28.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 782, reused 0, downloaded 598, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB206ba4: ١٫٣٧ MB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 791, reused 0, downloaded 603, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB206ba4: ١٫٣٧ MB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/d3-time/-/d3-time-3.1.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 808, reused 0, downloaded 628, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB206ba4: ١٫٣٧ MB/٢٠٫٢٣ MB
+  Progress: resolved 815, reused 0, downloaded 635, added 0
+  [WARN] GET https://registry.npmmirror.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.15.46.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 828, reused 0, downloaded 674, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MBba4: ١٫٣٧ MB/٢٠٫٢٣ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  [WARN] GET https://registry.npmmirror.com/playwright-core/-/playwright-core-1.61.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 828, reused 0, downloaded 675, added 0٣٫٨٣ MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MBba4: ١٫٣٧ MB/٢٠٫٢٣ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  [WARN] GET https://registry.npmmirror.com/ms error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 828, reused 0, downloaded 675, added 0٣٫٨٣ MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MBba4: ١٫٣٧ MB/٢٠٫٢٣ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading @img/sharp-win32-x64@0.34.1: ٨٫٤٤ MB/٨٫٤٤ MB, done
+  Progress: resolved 828, reused 0, downloaded 675, added 0٣٫٨٣ MB
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MBba4: ١٫٣٧ MB/٢٠٫٢٣ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  [WARN] GET https://registry.npmmirror.com/@esbuild/win32-x64/-/win32-x64-0.28.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 893, reused 0, downloaded 687, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB206ba4: ١٫٣٧ MB/٢٠٫٢٣ MB
+  [WARN] GET https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 905, reused 0, downloaded 704, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB206ba4: ١٫٣٧ MB/٢٠٫٢٣ MB
+  Progress: resolved 1118, reused 0, downloaded 964, added 0
+  Progress: resolved 1145, reused 0, downloaded 964, added 0
+  [WARN] GET https://registry.npmmirror.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.15.46.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1163, reused 0, downloaded 972, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٧ MB/٢٠٫٢٣ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB/٤٣٫٨٣ MB
+  Downloading mermaid@11.16.0: ٦٧٫٤٧ kB/١٧٫٦٠ MBMB/٨٫٦٨ MB
+  [WARN] GET https://registry.npmmirror.com/antd/-/antd-6.5.2.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1199, reused 0, downloaded 1038, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB MB
+  Downloading mermaid@11.16.0: ٩٫٥٣ MB/١٧٫٦٠ MB ٢٫١٢ MB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/@splinetool%2Fruntime error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1199, reused 0, downloaded 1038, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB MB
+  Downloading mermaid@11.16.0: ١٠٫٠٤ MB/١٧٫٦٠ MB٢٫١٢ MB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/@lobehub/ui/-/ui-5.23.5.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1199, reused 0, downloaded 1038, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB MB
+  Downloading mermaid@11.16.0: ١٠٫٠٤ MB/١٧٫٦٠ MB٢٫١٢ MB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/mermaid/-/mermaid-11.16.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1200, reused 0, downloaded 1039, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB MB
+  Downloading mermaid@11.16.0: ١٠٫٦٣ MB/١٧٫٦٠ MB٢٫١٢ MB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/lucide-react/-/lucide-react-1.26.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1200, reused 0, downloaded 1039, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB MB
+  Downloading mermaid@11.16.0: ١٠٫٦٣ MB/١٧٫٦٠ MB٢٫١٢ MB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/@rc-component/drawer/-/drawer-1.4.2.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1200, reused 0, downloaded 1040, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB MB
+  Downloading mermaid@11.16.0: ١٠٫٦٨ MB/١٧٫٦٠ MB٢٫١٢ MB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/@emoji-mart/data/-/data-1.2.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1200, reused 0, downloaded 1040, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB MB
+  Downloading mermaid@11.16.0: ١٠٫٦٨ MB/١٧٫٦٠ MB٢٫١٢ MB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/@base-ui/react/-/react-1.6.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1200, reused 0, downloaded 1041, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB MB
+  Downloading mermaid@11.16.0: ١٠٫٦٨ MB/١٧٫٦٠ MB٢٫١٢ MB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/@pierre/diffs/-/diffs-1.2.12.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1200, reused 0, downloaded 1041, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB MB
+  Downloading mermaid@11.16.0: ١٠٫٦٨ MB/١٧٫٦٠ MB٢٫١٢ MB/١٠٫٢٢ MB
+  [WARN] GET https://registry.npmmirror.com/@ant-design/icons/-/icons-6.3.2.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1200, reused 0, downloaded 1042, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB MB
+  Downloading mermaid@11.16.0: ١٠٫٦٨ MB/١٧٫٦٠ MB٣٦٢٫٣٨ kB/١٠٫٢٢ MB
+  Downloading @emoji-mart/data@1.2.1: ٥٫٣٨ MB/٥٫٣٨ MB, done
+  Progress: resolved 1208, reused 0, downloaded 1044, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB MB
+  [WARN] GET https://registry.npmmirror.com/antd/-/antd-6.5.2.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1237, reused 0, downloaded 1048, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٧ MB/٢٠٫٢٣ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB/٤٣٫٨٣ MB
+  [WARN] GET https://registry.npmmirror.com/@lobehub/ui/-/ui-5.23.5.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1246, reused 0, downloaded 1048, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٧ MB/٢٠٫٢٣ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB/٤٣٫٨٣ MB
+  [WARN] GET https://registry.npmmirror.com/mermaid/-/mermaid-11.16.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1252, reused 0, downloaded 1048, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٧ MB/٢٠٫٢٣ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB/٤٣٫٨٣ MB
+  [WARN] GET https://registry.npmmirror.com/lucide-react/-/lucide-react-1.26.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1252, reused 0, downloaded 1048, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB٧ MB/٢٠٫٢٣ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB/٤٣٫٨٣ MB
+  Progress: resolved 1256, reused 0, downloaded 1071, added 0
+  [WARN] GET https://registry.npmmirror.com/@pierre/diffs/-/diffs-1.2.12.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1282, reused 0, downloaded 1108, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB MB
+  Downloading mermaid@11.16.0: ١٫٩٠ MB/١٧٫٦٠ MB ٣٫٥٤ MB/١٠٫٢٢ MB
+  [WARN] 5 deprecated subdependencies found: boolean@3.2.0, ini@1.3.0, ini@1.3.4, intersection-observer@0.12.2, prebuild-install@7.1.3
+  Progress: resolved 1300, reused 0, downloaded 1145, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB MB
+  Downloading mermaid@11.16.0: ١٫٩٠ MB/١٧٫٦٠ MB ٣٫٥٤ MB/١٠٫٢٢ MB
+  Packages: +1176
+  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Progress: resolved 1300, reused 0, downloaded 1145, added 0
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MBB/٨٫٦٨ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB٠٫٢٢ MB
+  Downloading mermaid@11.16.0: ١٫٩٠ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/lucide-react/-/lucide-react-0.469.0.tgz error (ERR_PNPM_TARBALL_EXTRACT). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1300, reused 0, downloaded 1145, added 174
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Downloading material-symbols@0.45.9: ٩٥٠٫٤٤ kB/١٢٫٨٢ MB MB
+  Downloading mermaid@11.16.0: ١٫٩٠ MB/١٧٫٦٠ MB ٣٫٥٤ MB/١٠٫٢٢ MB
+  Downloading cytoscape-fcose@2.2.0: ٧٫٦٠ MB/٧٫٦٠ MB, done
+  Downloading cytoscape-fcose@2.2.0: ٧٫٦٠ MB/٧٫٦٠ MB, done
+  Progress: resolved 1300, reused 0, downloaded 1145, added 377
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  [WARN] GET https://registry.npmmirror.com/lucide-react/-/lucide-react-0.562.0.tgz error (ERR_PNPM_TARBALL_EXTRACT). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1300, reused 0, downloaded 1146, added 430
+  Downloading wreq-js@2.3.1: ٥٫٩٧ MB/٢٥٫٣٧ MB
+  Downloading js-tiktoken@1.0.21: ١٫٠٩ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٤٦٫٠٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٨٥٣٫٧٥ kB/٣٠٫٥٦ MBba4: ١٫٣٧ MB/٢٠٫٢٣ MB
+  Downloading monaco-editor@0.55.1: ٤٨٣٫٧٤ kB/١٣٫٦٧ MB
+  Downloading omniroute@3.8.48: ٤٠٧٫٨٢ kB/١٦٣٫٣٦ MB
+  Progress: resolved 1300, reused 0, downloaded 1150, added 1146MB
+  Downloading mermaid@11.16.0: ٢٫٠٧ MB/١٧٫٦٠ MB
+  Downloading next@16.2.11: ٤٫٩٣ MB/٣٤٫٥٠ MB
+  Downloading @tensorflow/tfjs-core@4.22.0: ٣٩٩٫٠٤ kB/٦٫٩٥ MB
+  Downloading onnxruntime-node@1.21.0: ٦٣٤٫٦٠ kB/٨٠٫٠١ MB
+  Downloading onnxruntime-web@1.22.0-dev.20250409-89f8206ba4: ١٫٣٧ MB/٢٠٫٢٣ MB
+  Downloading koffi@2.16.3: ٧٦٩٫٠٦ kB/٧٫٢٩ MB
+  Downloading gpt-tokenizer@3.4.0: ٥٫٩٢ MB/١٧٫٦٨ MB
+  Downloading @next/swc-win32-x64-msvc@16.2.11: ٢٤٠٫٠٦ kB/٤٣٫٨٣ MB
+  Downloading @img/sharp-win32-x64@0.34.5: ٨٤٥٫٣٣ kB/٨٫٦٨ MB
+  Downloading @swc/core-win32-x64-msvc@1.15.46: ٣٫٥٤ MB/١٠٫٢٢ MB
+  Downloading antd@6.5.2: ٥٫٤٦ MB/١٠٫٢٣ MB
+  Downloading mermaid@11.16.0: ٢٫٠٧ MB/١٧٫٦٠ MB
+  
+
+--- WINDOW  2026/07/26 21:52:52  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 21:52:53  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+   C+1 [Bk]EF 3'9) GJC C[ENTER]
+  [Ctrl]1[ENTER]
+  E'HAB [ENTER]
+
+--- WINDOW  2026/07/26 21:55:33  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+
+--- WINDOW  2026/07/26 21:55:36  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 21:55:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 21:55:43  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 21:55:44  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  pnpm config set registry https://registry.yarnpkg.com
+  [Ctrl]1
+
+--- WINDOW  2026/07/26 21:55:48  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 21:55:53  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  pnpm store prune
+  [Ctrl]
+
+--- WINDOW  2026/07/26 21:56:03  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 21:56:05  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  pnpm add -g omniroute@latest --allow-build=better-sqlite3 --allow-build=@swc/core
+
+--- WINDOW  2026/07/26 21:56:11  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 21:56:16  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  D'4 D+I G0G (,[Bk][Bk][Bk][Bk][Bk][Bk]''H'[Bk]C+G'  [ENTER]
+
+--- WINDOW  2026/07/26 21:58:31  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 21:58:34  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 21:58:37  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 21:58:46  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 21:58:50  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 21:59:26  [chrome.exe] ‪diegosouzapw/OmniRoute: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 21:59:29  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:00:40  [chrome.exe] ‪diegosouzapw/OmniRoute: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  3
+
+--- WINDOW  2026/07/26 22:00:59  [ScreenClippingHost.exe] قطع الشاشة
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 22:01:03  [chrome.exe] ‪diegosouzapw/OmniRoute: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:01:04  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 22:01:05  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  F-F' CJA 9E FA3*AH F3,D/.HD DI HD EHB9 4G[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/26 22:01:19  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1G'G'[Ctrl]G'/ JECF '-DI EF ((C [Esc]
+
+--- WINDOW  2026/07/26 22:01:40  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 22:01:53  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:01:57  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  J9FJ 'F' (13D 7D('* 4G 9(1 G/E [Bk][Bk][Bk]'/E
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  OmniRoute
+  [LMB]
+   [Ctrl]1 H [Bk][Bk][Bk][Bk][Bk] C'G EA*'- 4-G H(3*:D 'D 4G 4D+IA DJ ([Bk][Bk][Bk][Bk] DJ[Bk][Bk]J ([Bk] (/J[ENTER]
+
+--- WINDOW  2026/07/26 22:02:58  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 22:03:03  [chrome.exe] ‪diegosouzapw/OmniRoute: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:03:37  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:04:10  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:04:12  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 22:04:47  [chrome.exe] ‫(7) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  E
+
+--- WINDOW  2026/07/26 22:04:51  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  '3AJ/E[Bk]* EF[Bk][Bk][Bk][Bk][Bk][Bk]/* EF $C[Bk][Bk]4J.[Bk][Bk]9J. H 1(7* 'DE[Bk][Bk]D.'/E C(H [Ctrl]1[Ctrl]&[Bk][Bk][Bk][Ctrl]'J' 7D( -J1H- E[Bk]9F 71JBH [ENTER]
+
+--- WINDOW  2026/07/26 22:05:27  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:05:28  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:05:30  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  EGH 'CJ/ E-' 4:D) [Bk][Bk]H 9DI ,G'2J[ENTER]
+  E'DF /9J (/'[ENTER]
+  '(/ HD' EA*'-[ENTER]
+
+--- WINDOW  2026/07/26 22:06:03  [chrome.exe] ‫(7) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:06:04  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:06:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:06:24  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:06:25  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  (3 J.D5 (F4HA [ENTER]
+  [Esc]
+
+--- WINDOW  2026/07/26 22:06:32  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  JF H J9 '3*AJ/ (/HF E' '-*', (J 4-9 [Bk][Bk]G [Bk]+:
+
+--- WINDOW  2026/07/26 22:06:52  [chrome.exe] ‫(7) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 22:06:54  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  J1[Ctrl]47J1
+
+--- WINDOW  2026/07/26 22:07:00  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  0' D/J AC1) '
+  [LMB]
+  '0' D/J AC)1 'A6D 'J6' H 9F/E' FF*GJ DF4:FDG 9DI J$+B'DE419
+
+--- WINDOW  2026/07/26 22:08:10  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:08:11  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:08:12  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:08:14  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  *E'E /E 'JFGJ *+(J* 1-F,([ENTER]
+
+--- WINDOW  2026/07/26 22:08:57  [chrome.exe] ‪diegosouzapw/OmniRoute: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 22:09:21  [chrome.exe] ‪Commits · diegosouzapw/OmniRoute - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 22:09:27  [chrome.exe] ‪diegosouzapw/OmniRoute: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:09:30  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:09:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:09:31  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/26 22:09:34  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 22:09:34  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:09:43  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab][Tab]
+
+--- WINDOW  2026/07/26 22:09:43  [ProtonVPN.Client.exe] Proton VPN
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 22:09:51  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 22:10:00  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:24:57  [LockApp.exe] شاشه التامين الافتراضي لنظام Windows
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:35  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/26 23:29:39  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:39  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:39  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:39  [ProtonVPN.Client.exe] Proton VPN
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:42  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:43  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:44  [ProtonVPN.Client.exe] Proton VPN
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:44  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:45  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:45  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:45  [ProtonVPN.Client.exe] Proton VPN
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:47  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:47  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:48  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:49  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:29:50  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:03  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:05  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:06  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 23:30:07  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:09  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:10  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  pnpm add -g omniroute@latest --allow-build=better-sqlite3 --allow-build=@swc/core
+
+--- WINDOW  2026/07/26 23:30:13  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/07/26 23:30:14  [Code.exe] ● Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/07/26 23:30:15  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  &
+
+--- WINDOW  2026/07/26 23:30:15  [Code.exe] ● Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:16  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/07/26 23:30:17  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:17  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 23:30:18  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 23:30:29  [chrome.exe] ‪Loading - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:34  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:37  [chrome.exe] ‪Loading - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:45  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:45  [explorer.exe] ONE
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 23:30:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:48  [chrome.exe] ‪Loading - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:30:49  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 23:30:52  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 23:30:54  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:31:26  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:31:26  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> pnpm config set registry https://registry.yarnpkg.com
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> pnpm store prune
+  Checking 1 registered project(s) for global virtual store usage
+  Removed 1176 packages from global virtual store
+  Removed all cached metadata files
+  Removed 64466 files (443 MB)
+  Removed 1150 packages
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> pnpm add -g omniroute@latest --allow-build=better-sqlite3 --allow-build=@swc/core
+  [WARN] Request took 10040ms: https://registry.npmmirror.com/open
+  [WARN] Request took 10919ms: https://registry.npmmirror.com/omniglyph
+  [WARN] Request took 11030ms: https://registry.npmmirror.com/pino-abstract-transport
+  [WARN] Request took 11453ms: https://registry.npmmirror.com/better-sqlite3
+  [WARN] Request took 11626ms: https://registry.npmmirror.com/@aws-sdk%2Fclient-bedrock-runtime
+  [WARN] 35 other warnings
+  [WARN] 36 other warningstry.npmmirror.com/http-proxy-middleware error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/fumadocs-mdx error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/ioredis error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/marked error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/next-themes error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/mermaid error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/jsonc-parser error (UND_ERR_SOCKET). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@lobehub%2Ficons error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@xyflow%2Freact error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/commander error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/csv-stringify error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/express error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/fetch-socks error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/fumadocs-ui error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/https-proxy-agent error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/ink error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/ink-text-input error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 37 other warningstry.npmmirror.com/js-yaml error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/marked-terminal error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/material-symbols error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 43 other warningstry.npmmirror.com/monaco-editor error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 44 other warningstry.npmmirror.com/next error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/react-is error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 45 other warningstry.npmmirror.com/@atjsh%2Fllmlingua-2 error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/playwright error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/react error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/react-dom error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/omniroute/-/omniroute-3.8.48.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 46 other warningstry.npmmirror.com/parse5/-/parse5-8.0.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@toon-format/toon/-/toon-2.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/fflate/-/fflate-0.8.3.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/open/-/open-11.0.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/better-sqlite3/-/better-sqlite3-12.11.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/pino-abstract-transport/-/pino-abstract-transport-3.0.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/omniglyph/-/omniglyph-1.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/keytar/-/keytar-7.9.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/pino-pretty/-/pino-pretty-13.1.3.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 47 other warningstry.npmmirror.com/pino/-/pino-10.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@huggingface/transformers/-/transformers-3.5.2.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 48 other warningstry.npmmirror.com/@dnd-kit/utilities/-/utilities-3.2.2.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 50 other warningstry.npmmirror.com/js-tiktoken/-/js-tiktoken-1.0.21.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 53 other warningstry.npmmirror.com/axios/-/axios-1.18.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 54 other warningstry.npmmirror.com/node-machine-id/-/node-machine-id-1.1.12.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/bottleneck/-/bottleneck-2.19.5.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@dnd-kit/core/-/core-6.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/jose/-/jose-6.2.4.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@swc/helpers/-/helpers-0.5.23.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/lowdb/-/lowdb-7.0.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs/-/tfjs-4.22.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 61 other warningstry.npmmirror.com/wreq-js/-/wreq-js-2.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 63 other warningstry.npmmirror.com/react-reconciler error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 64 other warningstry.npmmirror.com/dompurify/-/dompurify-3.4.12.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/react-dom error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  [WARN] 67 other warningstry.npmmirror.com/marked error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/recharts error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/lucide-react/-/lucide-react-1.26.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/next-intl/-/next-intl-4.13.4.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@modelcontextprotocol/sdk/-/sdk-1.29.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 70 other warningstry.npmmirror.com/next-themes/-/next-themes-0.4.6.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/jsonc-parser error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/fumadocs-core/-/fumadocs-core-16.12.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/tsx error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/undici error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/mermaid/-/mermaid-11.16.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@lobehub%2Ficons error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/@xyflow%2Freact error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/fumadocs-ui error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/https-proxy-agent error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/ink-text-input error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/monaco-editor error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 71 other warningstry.npmmirror.com/next error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/react-is error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/playwright error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/react error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 72 other warningstry.npmmirror.com/uuid error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/ws error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/update-notifier/-/update-notifier-7.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/xxhash-wasm/-/xxhash-wasm-1.1.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/commander/-/commander-15.0.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/marked-terminal/-/marked-terminal-7.3.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/sql.js/-/sql.js-1.14.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/material-symbols/-/material-symbols-0.45.9.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/parse5/-/parse5-8.0.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/csv-stringify/-/csv-stringify-6.8.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/fflate/-/fflate-0.8.3.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/better-sqlite3/-/better-sqlite3-12.11.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/js-yaml/-/js-yaml-5.2.2.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 73 other warningstry.npmmirror.com/omniglyph/-/omniglyph-1.3.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/omniroute/-/omniroute-3.8.48.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 75 other warningstry.npmmirror.com/axios/-/axios-1.18.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/bottleneck/-/bottleneck-2.19.5.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/js-tiktoken/-/js-tiktoken-1.0.21.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 77 other warningstry.npmmirror.com/@dnd-kit/core/-/core-6.3.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/tailwind-merge/-/tailwind-merge-3.6.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 78 other warningstry.npmmirror.com/@swc/helpers/-/helpers-0.5.23.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs/-/tfjs-4.22.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 87 other warningstry.npmmirror.com/wreq-js/-/wreq-js-2.3.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 88 other warningstry.npmmirror.com/react-reconciler error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 89 other warningstry.npmmirror.com/react-dom error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 92 other warningstry.npmmirror.com/dompurify/-/dompurify-3.4.12.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/@huggingface/transformers/-/transformers-3.5.2.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 93 other warningstry.npmmirror.com/zod/-/zod-4.4.3.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 98 other warningstry.npmmirror.com/undici error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 101 other warningsry.npmmirror.com/mermaid/-/mermaid-11.16.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/next error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/sql.js/-/sql.js-1.14.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/material-symbols/-/material-symbols-0.45.9.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/recharts/-/recharts-3.10.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/lucide-react/-/lucide-react-1.26.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  C:\Users\TOPLAPTOP\AppData\Local\pnpm\global\v11\5388-19fa01f1693-16d91170235198f9:
+  [ERR_PNPM_BROKEN_METADATA_JSON] The operation was aborted due to timeout
+  
+  This error happened while installing the dependencies of omniroute@3.8.48
+  [WARN] GET https://registry.npmmirror.com/recharts/-/recharts-3.10.1.tgz error (UND_ERR_DESTROYED). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/monaco-editor/-/monaco-editor-0.55.1.tgz error (UND_ERR_DESTROYED). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 77, reused 0, downloaded 61, added 0
+  Downloading omniroute@3.8.48: ٥٩٤٫٨٥ kB/١٦٣٫٣٦ MB
+  Downloading js-tiktoken@1.0.21: ٤٠٤٫٨٩ kB/١٠٫٢٣ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٣٦٤٫٠١ kB/٣٠٫٥٦ MB
+  Downloading wreq-js@2.3.1: ٤٣١٫١٧ kB/٢٥٫٣٧ MB
+  Downloading @huggingface/transformers@3.5.2: ٧٣٫٤٨ kB/١٠٫٢٥ MB
+  Downloading material-symbols@0.45.9: ٣٫٧٥ MB/١٢٫٨٢ MB
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> 
+  [Ctrl]$[Tab]
+
+--- WINDOW  2026/07/26 23:44:14  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:44:14  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  A4[Bk]A4DC[ENTER]
+  [Ctrl]1[Ctrl]4!
+  [Clipboard]
+  فشل:
+  
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> pnpm config set registry https://registry.yarnpkg.com
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> pnpm store prune
+  Checking 1 registered project(s) for global virtual store usage
+  Removed 1176 packages from global virtual store
+  Removed all cached metadata files
+  Removed 64466 files (443 MB)
+  Removed 1150 packages
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> pnpm add -g omniroute@latest --allow-build=better-sqlite3 --allow-build=@swc/core
+  [WARN] Request took 10040ms: https://registry.npmmirror.com/open
+  [WARN] Request took 10919ms: https://registry.npmmirror.com/omniglyph
+  [WARN] Request took 11030ms: https://registry.npmmirror.com/pino-abstract-transport
+  [WARN] Request took 11453ms: https://registry.npmmirror.com/better-sqlite3
+  [WARN] Request took 11626ms: https://registry.npmmirror.com/@aws-sdk%2Fclient-bedrock-runtime
+  [WARN] 35 other warnings
+  [WARN] 36 other warningstry.npmmirror.com/http-proxy-middleware error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/fumadocs-mdx error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/ioredis error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/marked error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/next-themes error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/mermaid error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/jsonc-parser error (UND_ERR_SOCKET). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@lobehub%2Ficons error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@xyflow%2Freact error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/commander error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/csv-stringify error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/express error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/fetch-socks error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/fumadocs-ui error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/https-proxy-agent error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/ink error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/ink-text-input error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 37 other warningstry.npmmirror.com/js-yaml error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/marked-terminal error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/material-symbols error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 43 other warningstry.npmmirror.com/monaco-editor error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 44 other warningstry.npmmirror.com/next error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/react-is error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 45 other warningstry.npmmirror.com/@atjsh%2Fllmlingua-2 error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/playwright error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/react error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/react-dom error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/omniroute/-/omniroute-3.8.48.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 46 other warningstry.npmmirror.com/parse5/-/parse5-8.0.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@toon-format/toon/-/toon-2.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/fflate/-/fflate-0.8.3.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/open/-/open-11.0.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/better-sqlite3/-/better-sqlite3-12.11.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/pino-abstract-transport/-/pino-abstract-transport-3.0.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/omniglyph/-/omniglyph-1.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/keytar/-/keytar-7.9.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/pino-pretty/-/pino-pretty-13.1.3.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 47 other warningstry.npmmirror.com/pino/-/pino-10.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@huggingface/transformers/-/transformers-3.5.2.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 48 other warningstry.npmmirror.com/@dnd-kit/utilities/-/utilities-3.2.2.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 50 other warningstry.npmmirror.com/js-tiktoken/-/js-tiktoken-1.0.21.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 53 other warningstry.npmmirror.com/axios/-/axios-1.18.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 54 other warningstry.npmmirror.com/node-machine-id/-/node-machine-id-1.1.12.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/bottleneck/-/bottleneck-2.19.5.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@dnd-kit/core/-/core-6.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/jose/-/jose-6.2.4.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@swc/helpers/-/helpers-0.5.23.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/lowdb/-/lowdb-7.0.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs/-/tfjs-4.22.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 61 other warningstry.npmmirror.com/wreq-js/-/wreq-js-2.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 63 other warningstry.npmmirror.com/react-reconciler error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 64 other warningstry.npmmirror.com/dompurify/-/dompurify-3.4.12.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/react-dom error (ETIMEDOUT). Will retry in 10 seconds. 2 retries left.
+  [WARN] 67 other warningstry.npmmirror.com/marked error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/recharts error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/lucide-react/-/lucide-react-1.26.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/next-intl/-/next-intl-4.13.4.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@modelcontextprotocol/sdk/-/sdk-1.29.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 70 other warningstry.npmmirror.com/next-themes/-/next-themes-0.4.6.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/jsonc-parser error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/fumadocs-core/-/fumadocs-core-16.12.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/tsx error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/undici error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/mermaid/-/mermaid-11.16.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/@lobehub%2Ficons error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/@xyflow%2Freact error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/fumadocs-ui error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/https-proxy-agent error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/ink-text-input error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/monaco-editor error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 71 other warningstry.npmmirror.com/next error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/react-is error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/playwright error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/react error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 72 other warningstry.npmmirror.com/uuid error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/ws error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/update-notifier/-/update-notifier-7.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/xxhash-wasm/-/xxhash-wasm-1.1.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/commander/-/commander-15.0.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/marked-terminal/-/marked-terminal-7.3.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/sql.js/-/sql.js-1.14.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/material-symbols/-/material-symbols-0.45.9.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/parse5/-/parse5-8.0.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/csv-stringify/-/csv-stringify-6.8.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/fflate/-/fflate-0.8.3.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/better-sqlite3/-/better-sqlite3-12.11.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/js-yaml/-/js-yaml-5.2.2.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 73 other warningstry.npmmirror.com/omniglyph/-/omniglyph-1.3.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/omniroute/-/omniroute-3.8.48.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 75 other warningstry.npmmirror.com/axios/-/axios-1.18.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/bottleneck/-/bottleneck-2.19.5.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/js-tiktoken/-/js-tiktoken-1.0.21.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 77 other warningstry.npmmirror.com/@dnd-kit/core/-/core-6.3.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/tailwind-merge/-/tailwind-merge-3.6.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 78 other warningstry.npmmirror.com/@swc/helpers/-/helpers-0.5.23.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs/-/tfjs-4.22.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 87 other warningstry.npmmirror.com/wreq-js/-/wreq-js-2.3.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 88 other warningstry.npmmirror.com/react-reconciler error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 89 other warningstry.npmmirror.com/react-dom error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 92 other warningstry.npmmirror.com/dompurify/-/dompurify-3.4.12.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/@huggingface/transformers/-/transformers-3.5.2.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 93 other warningstry.npmmirror.com/zod/-/zod-4.4.3.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] 98 other warningstry.npmmirror.com/undici error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] 101 other warningsry.npmmirror.com/mermaid/-/mermaid-11.16.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/next error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/sql.js/-/sql.js-1.14.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/material-symbols/-/material-symbols-0.45.9.tgz error (23). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/recharts/-/recharts-3.10.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  [WARN] GET https://registry.npmmirror.com/lucide-react/-/lucide-react-1.26.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  C:\Users\TOPLAPTOP\AppData\Local\pnpm\global\v11\5388-19fa01f1693-16d91170235198f9:
+  [ERR_PNPM_BROKEN_METADATA_JSON] The operation was aborted due to timeout
+  
+  This error happened while installing the dependencies of omniroute@3.8.48
+  [WARN] GET https://registry.npmmirror.com/recharts/-/recharts-3.10.1.tgz error (UND_ERR_DESTROYED). Will retry in 1 minute. 1 retries left.
+  [WARN] GET https://registry.npmmirror.com/monaco-editor/-/monaco-editor-0.55.1.tgz error (UND_ERR_DESTROYED). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 77, reused 0, downloaded 61, added 0
+  Downloading omniroute@3.8.48: ٥٩٤٫٨٥ kB/١٦٣٫٣٦ MB
+  Downloading js-tiktoken@1.0.21: ٤٠٤٫٨٩ kB/١٠٫٢٣ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٣٦٤٫٠١ kB/٣٠٫٥٦ MB
+  Downloading wreq-js@2.3.1: ٤٣١٫١٧ kB/٢٥٫٣٧ MB
+  Downloading @huggingface/transformers@3.5.2: ٧٣٫٤٨ kB/١٠٫٢٥ MB
+  Downloading material-symbols@0.45.9: ٣٫٧٥ MB/١٢٫٨٢ MB
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> 
+  B
+
+--- WINDOW  2026/07/26 23:44:31  [chrome.exe] ‫‏Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:44:36  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 23:45:01  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 23:45:03  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 23:45:04  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1[ENTER]
+  EH'AB[ENTER]
+  [LMB]
+  [Clipboard]
+  npm config set registry https://registry.yarnpkg.com --global
+  pnpm config set registry https://registry.yarnpkg.com --global
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  npm config set registry https://registry.yarnpkg.com --global
+
+--- WINDOW  2026/07/26 23:50:01  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:50:01  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 23:50:04  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:50:04  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  pnpm config set registry https://registry.yarnpkg.com --global
+  $
+
+--- WINDOW  2026/07/26 23:50:08  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:50:08  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 23:50:10  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Remove-Item -Recurse -Force "C:\Users\TOPLAPTOP\AppData\Local\pnpm\global\v11" -ErrorAction SilentlyContinue
+  $
+
+--- WINDOW  2026/07/26 23:50:13  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:50:13  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 23:50:16  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  pnpm store prune
+  $
+
+--- WINDOW  2026/07/26 23:50:19  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:50:19  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 23:50:20  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  pnpm add -g omniroute@latest --allow-build=better-sqlite3 --allow-build=@swc/core --fetch-timeout=600000 --fetch-retries=5
+
+--- WINDOW  2026/07/26 23:50:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:50:31  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 23:50:31  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl]1[ENTER]
