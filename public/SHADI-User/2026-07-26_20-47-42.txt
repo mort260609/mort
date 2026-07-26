@@ -1,0 +1,894 @@
+﻿  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  
+  npm warn using --force Recommended protections disabled.
+  npm warn ERESOLVE overriding peer dependency
+  npm warn While resolving: marked-terminal@7.3.0
+  npm warn Found: marked@18.0.7
+  npm warn node_modules/omniroute/node_modules/marked
+  npm warn   marked@"^18.0.4" from omniroute@3.8.48
+  npm warn   node_modules/omniroute
+  npm warn     omniroute@"*" from the root project
+  npm warn
+  npm warn Could not resolve dependency:
+  npm warn peer marked@">=1 <16" from marked-terminal@7.3.0
+  npm warn node_modules/omniroute/node_modules/marked-terminal
+  npm warn   marked-terminal@"^7.3.0" from omniroute@3.8.48
+  npm warn   node_modules/omniroute
+  npm warn
+  npm warn Conflicting peer dependency: marked@15.0.12
+  npm warn node_modules/marked
+  npm warn   peer marked@">=1 <16" from marked-terminal@7.3.0
+  npm warn   node_modules/omniroute/node_modules/marked-terminal
+  npm warn     marked-terminal@"^7.3.0" from omniroute@3.8.48
+  npm warn     node_modules/omniroute
+  npm warn ERESOLVE overriding peer dependency
+  npm warn While resolving: @emoji-mart/react@1.1.1
+  npm warn Found: react@19.2.7
+  npm warn node_modules/omniroute/node_modules/react
+  npm warn   react@"19.2.7" from omniroute@3.8.48
+  npm warn   node_modules/omniroute
+  npm warn     omniroute@"*" from the root project
+  npm warn   162 more (@dnd-kit/core, react-dom, @dnd-kit/sortable, ...)
+  npm warn
+  npm warn Could not resolve dependency:
+  npm warn peer react@"^16.8 || ^17 || ^18" from @emoji-mart/react@1.1.1
+  npm warn node_modules/omniroute/node_modules/@lobehub/ui/node_modules/@emoji-mart/react
+  npm warn   @emoji-mart/react@"^1.1.1" from @lobehub/ui@5.20.3
+  npm warn   node_modules/omniroute/node_modules/@lobehub/ui
+  npm warn
+  npm warn Conflicting peer dependency: react@18.3.1
+  npm warn node_modules/react
+  npm warn   peer react@"^16.8 || ^17 || ^18" from @emoji-mart/react@1.1.1
+  npm warn   node_modules/omniroute/node_modules/@lobehub/ui/node_modules/@emoji-mart/react
+  npm warn     @emoji-mart/react@"^1.1.1" from @lobehub/ui@5.20.3
+  npm warn     node_modules/omniroute/node_modules/@lobehub/ui
+  npm warn deprecated boolean@3.2.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+  npm warn deprecated intersection-observer@0.12.2: The Intersection Observer polyfill is no longer needed and can safely be removed. Intersection Observer has been Baseline since 2019.
+  npm warn deprecated shiki-stream@0.1.5: shiki-stream is now @shikijs/stream, please migrate by renaming the package
+  npm warn cleanup Failed to remove some directories [
+  npm warn cleanup   [
+  npm warn cleanup     '\\\\?\\C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute',
+  npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute\dist\.build\next\server\app\connect\codex'] {
+  npm warn cleanup       errno: -4048,
+  npm warn cleanup       code: 'EPERM',
+  npm warn cleanup       syscall: 'rmdir',
+  npm warn cleanup       path: 'C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute\\dist\\.build\\next\\server\\app\\connect\\codex'
+  npm warn cleanup     }
+  npm warn cleanup   ],
+  npm warn cleanup   [
+  npm warn cleanup     'C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute',
+  npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute\dist\.build\next\server\app\(dashboard)\dashboard\providers\services\[name]'] {
+  npm warn cleanup       errno: -4048,
+  npm warn cleanup       code: 'EPERM',
+  npm warn cleanup       syscall: 'rmdir',
+  npm warn cleanup       path: 'C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute\\dist\\.build\\next\\server\\app\\(dashboard)\\dashboard\\providers\\services\\[name]'
+  npm warn cleanup     }
+  npm warn cleanup   ]
+  npm warn cleanup ]
+  npm error code ECONNRESET
+  npm error syscall read
+  npm error errno -4077
+  npm error network read ECONNRESET
+  npm error network This is a problem related to network connectivity.
+  npm error network In most cases you are behind a proxy or have bad network settings.
+  npm error network
+  npm error network If you are behind a proxy, please make sure that the
+  npm error network 'proxy' config is set properly.  See: 'npm help config'
+  npm error A complete log of this run can be found in: C:\Users\TOPLAPTOP\AppData\Local\npm-cache\_logs\2026-07-26T16_03_56_901Z-debug-0.log
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> 
+  $
+
+--- WINDOW  2026/07/26 20:06:59  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:07:00  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  7 ='C[ENTER]
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 20:07:09  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:07:11  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:07:12  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:07:13  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:12:59  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:12:59  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  EH'AB[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/26 20:13:15  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:13:18  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:13:24  [chrome.exe] ‪Loading - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:13:25  [chrome.exe] ‪Senior Software Engineer with experience in AI and Web - freelance job in Web, Mobile & Software Dev, $3,000 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 20:13:32  [chrome.exe] ‫في انتظار الترجمة‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:13:32  [chrome.exe] ‫مترجَمة‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:13:40  [chrome.exe] ‪Senior Software Engineer with experience in AI and Web - freelance job in Web, Mobile & Software Dev, $3,000 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Senior Software Engineer with experience in AI and Web
+  an hour ago
+  I'm looking for a senior software developer with experience in AI, Next.js, and Node.js.
+  
+  I have an existing web app for generating AI-powered invoices, but it's not working properly at the moment. I'm looking for someone who can figure out what's wrong, fix the issues, improve the app, and help get it ready for production.
+  
+  This isn't a project built from scratch. Most of the work will be understanding the current codebase, making improvements, and adding or upgrading features where needed.
+  
+  If this sounds like something you'd be interested in, send me a message with a bit about your experience, any similar projects you've worked on, your rate, and your availability.
+  
+  Web, Mobile & Software Dev
+  Web Programming
+  Software Engineering
+  $
+  [LMB]
+
+--- WINDOW  2026/07/26 20:13:45  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  ,'FJ(' DF'.0 G.0' 'D916 +E FCED7[ENTER]
+  [Bk][Bk]C[ENTER]
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/26 20:13:57  [chrome.exe] ‪Senior Software Engineer with experience in AI and Web - freelance job in Web, Mobile & Software Dev, $3,000 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  3
+
+--- WINDOW  2026/07/26 20:13:58  [ScreenClippingHost.exe] قطع الشاشة
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:14:00  [chrome.exe] ‪Senior Software Engineer with experience in AI and Web - freelance job in Web, Mobile & Software Dev, $3,000 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:14:01  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  [Clipboard]
+  Remove-Item -Recurse -Force "C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute" -ErrorAction SilentlyContinue
+
+--- WINDOW  2026/07/26 20:14:11  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:14:11  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][ENTER]
+
+--- WINDOW  2026/07/26 20:14:13  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  npm install -g pnpm
+
+--- WINDOW  2026/07/26 20:14:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:14:16  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 20:14:18  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  pnpm add -g omniroute@latest --allow-build=better-sqlite3 --allow-build=@swc/core
+
+--- WINDOW  2026/07/26 20:14:21  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:14:22  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:14:24  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:14:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:14:30  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:14:30  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:14:33  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Hi Andrew,
+  
+  I saw you are looking for a senior developer to step into an existing Next.js and Node.js codebase to fix, refine, and scale your AI-powered invoice app. Jumping into established code, debugging complex issues, and optimizing architecture for production is exactly where my background as a Full-Stack Developer and SysDE/SRE adds the most value.
+  
+  I have extensive experience building, deploying, and maintaining AI-driven web applications (including architecting comprehensive AI web platforms). I am highly comfortable auditing existing Node.js backends, fixing API integration bottlenecks, and refactoring logic to ensure the app is fully production-ready, rather than just building from scratch.
+  
+  I am available to start immediately and can dedicate the necessary focus to meet your 10-day timeline. Regarding my rate, I am fully aligned with the $3,000 project budget and am completely comfortable working within the crypto ecosystem (ETH/USDT).
+  
+  I would love to take a quick look at the codebase or hear more about the specific bugs you are currently facing. Let's get this app running perfectly.
+  
+  Best regards,
+  Shadi
+  $
+  [LMB]
+
+--- WINDOW  2026/07/26 20:15:54  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/26 20:16:05  [chrome.exe] ‪Senior Software Engineer with experience in AI and Web - freelance job in Web, Mobile & Software Dev, $3,000 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [LMB]
+  1
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 20:16:10  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:16:22  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:16:25  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:16:25  [chrome.exe] ‪My Jobs - All - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:16:26  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:16:27  [chrome.exe] ‪My Jobs - All - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:16:27  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:16:28  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:16:28  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:16:29  [chrome.exe] ‪Senior Software Engineer with experience in AI and Web - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:16:29  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:16:30  [chrome.exe] ‪Senior Software Engineer with experience in AI and Web - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:16:33  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:16:35  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:16:38  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:16:41  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:16:41  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  pnpm add -g omniroute@latest --allow-build=better-sqlite3 --allow-build=@swc/core
+
+--- WINDOW  2026/07/26 20:16:46  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1[ENTER]
+  [Esc]
+  [LMB]
+
+--- WINDOW  2026/07/26 20:16:52  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:16:55  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:16:55  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> Remove-Item -Recurse -Force "C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute" -ErrorAction SilentlyContinue
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> npm install -g pnpm
+  
+  added 1 package in 31s
+  
+  1 package is looking for funding
+    run `npm fund` for details
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> pnpm add -g omniroute@latest --allow-build=better-sqlite3 --allow-build=@swc/core
+  [ERROR] The configured global bin directory "C:\Users\TOPLAPTOP\AppData\Local\pnpm\bin" is not in PATH
+  Run "pnpm setup" to update your shell configuration.
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> 
+  $
+
+--- WINDOW  2026/07/26 20:17:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:17:09  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  '31D* 916H[ENTER]
+  ('D(3) [Bk]D*JB 'D'E1C[ENTER]
+  [Ctrl]1[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/26 20:17:19  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:17:22  [chrome.exe] ‪Custom DeepFaceLab / DeepAscension Face Swap Model Training - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:17:23  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:17:24  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:17:26  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:17:26  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:19:00  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:19:02  [chrome.exe] ‪My Gigs - Posted - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:19:11  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  pnpm setup
+
+--- WINDOW  2026/07/26 20:19:16  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:19:16  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 20:19:18  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:19:21  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:19:21  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:19:22  [(unknown)] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:19:22  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  omniroute
+
+--- WINDOW  2026/07/26 20:19:26  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:19:26  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> pnpm setup
+  [ERROR] Command failed with exit code 1: chcp
+  'chcp' is not recognized as an internal or external command,
+  operable program or batch file.
+  
+  'chcp' is not recognized as an internal or external command,
+  operable program or batch file.
+      at makeError2 (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:248170:17)
+      at handlePromise2 (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:248741:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async addDirToWindowsEnvPath (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:248954:26)
+      at async addDirToEnvPath2 (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:249073:36)
+      at async Object.handler34 [as setup] (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:249229:21)
+      at async file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:312338:19
+      at async main4 (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:312306:30)
+      at async runPnpm (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:312601:5)
+      at async file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:312594:3
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> omniroute
+  omniroute : The term 'omniroute' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that 
+  the path is correct and try again.
+  At line:1 char:1
+  + omniroute
+  + ~~~~~~~~~
+      + CategoryInfo          : ObjectNotFound: (omniroute:String) [], CommandNotFoundException
+      + FullyQualifiedErrorId : CommandNotFoundException
+   
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> 
+  $
+
+--- WINDOW  2026/07/26 20:19:38  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/26 20:19:41  [chrome.exe] ‪My Gigs - Posted - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:19:45  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:19:47  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  $env:PATH = "C:\Windows\System32;C:\Windows;" + $env:PATH
+
+--- WINDOW  2026/07/26 20:20:02  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:20:02  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:20:02  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 20:20:04  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:20:04  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  pnpm setup
+
+--- WINDOW  2026/07/26 20:20:07  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:20:07  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:20:07  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 20:20:13  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:20:14  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  $env:PATH += ";C:\Users\TOPLAPTOP\AppData\Local\pnpm;C:\Users\TOPLAPTOP\AppData\Local\pnpm\bin"
+
+--- WINDOW  2026/07/26 20:20:17  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:20:17  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]11[ENTER]
+  [Ctrl]1
+
+--- WINDOW  2026/07/26 20:20:22  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:20:23  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  omniroute
+
+--- WINDOW  2026/07/26 20:20:24  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:20:24  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/26 20:20:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:20:28  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:20:32  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> pnpm setup
+  Next configuration changes were made:
+  PNPM_HOME=C:\Users\TOPLAPTOP\AppData\Local\pnpm
+  Path=%PNPM_HOME%\bin;C:\Users\TOPLAPTOP\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\TOPLAPTOP\AppData\Local\Programs\Python\Python311\;C:\Users\TOPLAPTOP\AppData\Local\Programs\Py
+  
+  Setup complete. Open a new terminal to start using pnpm.
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> $env:PATH += ";C:\Users\TOPLAPTOP\AppData\Local\pnpm;C:\Users\TOPLAPTOP\AppData\Local\pnpm\bin"$env:PATH += ";C:\Users\TOPLAPTOP\AppData\Local\pnpm;C:\Users\TOPLAPTOP\AppData\Local\pnpm\bin"
+  At line:1 char:96
+  + ... ocal\pnpm;C:\Users\TOPLAPTOP\AppData\Local\pnpm\bin"$env:PATH += ";C: ...
+  +                                                         ~~~~~~~~~
+  Unexpected token '$env:PATH' in expression or statement.
+      + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+      + FullyQualifiedErrorId : UnexpectedToken
+   
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> $env:PATH += ";C:\Users\TOPLAPTOP\AppData\Local\pnpm;C:\Users\TOPLAPTOP\AppData\Local\pnpm\bin"
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> omniroute
+  omniroute : The term 'omniroute' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that 
+  the path is correct and try again.
+  At line:1 char:1
+  + omniroute
+  + ~~~~~~~~~
+      + CategoryInfo          : ObjectNotFound: (omniroute:String) [], CommandNotFoundException
+      + FullyQualifiedErrorId : CommandNotFoundException
+   
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> 
+  $
+
+--- WINDOW  2026/07/26 20:20:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:20:48  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+  1
+  [LMB]
+  [Ctrl]1[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/26 20:20:52  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:20:57  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [Esc][Esc][Esc]
+
+--- WINDOW  2026/07/26 20:21:00  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:21:11  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 20:21:16  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  pnpm add -g omniroute@latest --allow-build=better-sqlite3 --allow-build=@swc/core
+
+--- WINDOW  2026/07/26 20:21:21  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:21:21  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:21:21  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+
+--- WINDOW  2026/07/26 20:21:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:21:23  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:21:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:21:28  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  
+  [ERROR] The configured global bin directory "C:\Users\TOPLAPTOP\AppData\Local\pnpm\bin" is not in PATH
+  Run "pnpm setup" to update your shell configuration.
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> 
+  $
+
+--- WINDOW  2026/07/26 20:21:35  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:21:35  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  A*-* F'A0) ,/J/)C[ENTER]
+  [Ctrl]1[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/26 20:21:50  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:21:52  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:21:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:21:53  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:21:55  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  $env:PATH = $env:PATH + ";C:\Users\TOPLAPTOP\AppData\Local\pnpm;C:\Users\TOPLAPTOP\AppData\Local\pnpm\bin"
+
+--- WINDOW  2026/07/26 20:22:02  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:22:02  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 20:22:04  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:22:04  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  pnpm add -g omniroute@latest --allow-build=better-sqlite3 --allow-build=@swc/core
+
+--- WINDOW  2026/07/26 20:22:08  [(unknown)] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:22:08  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/26 20:22:15  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:22:18  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 20:22:22  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:22:29  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:22:30  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:22:32  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:22:34  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:22:35  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:22:35  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:22:35  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:31:51  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:31:57  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:32:01  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  'J J(J9DC J'G (EJ[ENTER]
+  GJ 4DE1 
+
+--- WINDOW  2026/07/26 20:32:09  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:32:10  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  J[Bk] 3H1/J '/
+
+--- WINDOW  2026/07/26 20:32:15  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  E
+
+--- WINDOW  2026/07/26 20:32:16  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  G'H(916DC[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/26 20:32:27  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:32:29  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:32:41  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:32:58  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:33:00  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:33:01  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:33:01  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:33:03  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:33:05  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:33:05  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:33:13  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:33:16  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [Esc]
+
+--- WINDOW  2026/07/26 20:33:35  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:33:35  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:33:49  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:33:53  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:34:10  [chrome.exe] ‫(6) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:34:31  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:34:44  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:34:44  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:44:18  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:44:22  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:44:50  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:44:50  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 20:44:53  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:45:05  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:45:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:45:06  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:45:08  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:45:09  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:45:13  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:45:16  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:45:18  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 20:45:22  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:45:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:45:23  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 20:45:24  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
