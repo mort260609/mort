@@ -1,0 +1,75 @@
+﻿
+--- WINDOW  2026/07/26 15:01:50  [Antigravity IDE.exe] gist_app - Antigravity IDE - Fix typing indicator and…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 15:02:25  [brave.exe] Authorize CLI | Supabase - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 15:02:29  [Antigravity IDE.exe] gist_app - Antigravity IDE - Fix typing indicator and…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 15:02:54  [chrome.exe] Gist - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 15:03:01  [Antigravity IDE.exe] gist_app - Antigravity IDE - Fix typing indicator and…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/26 15:03:40  [chrome.exe] Gist - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 15:23:38  [Antigravity IDE.exe] gist_app - Antigravity IDE - Fix typing indicator and…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 15:41:51  [chrome.exe] Gist - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/26 15:41:52  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  wat about the voice note type shii[ENTER]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  # Addition — Voice Notes
+  
+  ## Context
+  Voice note recording/playback hasn't been built yet. This should reuse the same encrypted media pipeline already built in Phase 4 (encrypt client-side before upload, decrypt client-side on download) — just audio-specific.
+  
+  ## Scope
+  - The mic icon already in the input bar triggers recording (tap-to-start/tap-to-stop, or hold-to-record — your call on the interaction pattern, whichever is more standard/reliable to implement well)
+  - Show recording duration live while recording
+  - On send: encrypt the audio file the same way other media is encrypted, upload, attach to the message
+  - Display as a playable bubble in the chat: waveform or simple duration display, play/pause button, playback progress
+  - Decrypt client-side on the receiving end, same as other media types
+  - Cache downloaded/decrypted voice notes locally so reopening a chat doesn't re-download/re-decrypt repeatedly
+  
+  ## Acceptance criteria
+  - [ ] Recording a voice note and sending it works end-to-end between the two dev-bypass test accounts
+  - [ ] The voice note is genuinely encrypted before upload — verify by checking Supabase Storage directly
+  - [ ] Playback works correctly on the receiving device, with accurate duration/progress
+  - [ ] No regressions to other media types or existing functionality
+  
+  ## Testing requirement
+  Same standard as always — verify real behavior, show actual evidence, flag anything you cannot personally verify (e.g. actual microphone recording, which you likely cannot test directly).
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/26 15:43:07  [Antigravity IDE.exe] gist_app - Antigravity IDE - Fix typing indicator and…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  go ahead
+
+--- WINDOW  2026/07/26 16:00:24  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
