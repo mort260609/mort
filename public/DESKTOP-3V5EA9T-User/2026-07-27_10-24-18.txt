@@ -1,0 +1,283 @@
+﻿  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [v][^][^]+[ENTER]
+  [ENTER]
+  [->][->][^][v][^][v][v][v]6
+
+--- WINDOW  2026/07/27 09:28:03  [explorer.exe] Downloads
+----------------------------------------------------------------------------
+  [Esc]
+
+--- WINDOW  2026/07/27 09:28:04  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 09:28:04  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+  re[ENTER]
+
+--- WINDOW  2026/07/27 09:28:05  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 09:28:05  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+  [v][ENTER]
+  [ENTER]
+  [^][ENTER]
+  [ENTER]
+  [v][ENTER]
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026/07/27 09:28:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 09:28:38  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 09:28:38  [ShellExperienceHost.exe] Network Connections
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 09:28:42  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  .[ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026/07/27 10:18:25  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 10:18:25  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 10:18:28  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 10:18:28  [StartMenuExperienceHost.exe] Start
+----------------------------------------------------------------------------
+  [LMB]
+
+================================================================================
+ SESSION START  2026/07/27 10:19:19
+================================================================================
+
+
+--- WINDOW  2026/07/27 10:19:19  [LockApp.exe] Windows Default Lock Screen
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/27 10:19:28  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 10:19:29  [explorer.exe] UnlockingWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 10:19:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 10:19:30  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+  e
+
+--- WINDOW  2026/07/27 10:19:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 10:19:32  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/27 10:19:41  [mstsc.exe] 136.175.83.185:34691 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 10:19:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 10:19:54  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+  re[ENTER]
+
+--- WINDOW  2026/07/27 10:19:55  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 10:19:55  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+  [v][ENTER]
+
+--- WINDOW  2026/07/27 10:20:01  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026/07/27 10:20:06  [powershell.exe] Select C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  [LMB]
+   
+
+--- WINDOW  2026/07/27 10:20:08  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/27 10:20:09  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+  '[^][^][v][v][^][ENTER]
+  [ENTER]
+  [ENTER]
