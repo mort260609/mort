@@ -1,0 +1,1554 @@
+﻿
+--- WINDOW  2026/07/27 03:03:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:03:53  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:03:53  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:03:55  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:04:00  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:04:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:04:06  [powershell.exe] npm install omniroute@latest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:09:00  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:10:43  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:10:45  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+  [Clipboard]
+  
+  
+  PS C:\Windows\system32> npm cache clean --force
+  npm warn using --force Recommended protections disabled.
+  PS C:\Windows\system32> npm install -g omniroute@latest --registry=https://registry.yarnpkg.com --legacy-peer-deps --force
+  npm warn using --force Recommended protections disabled.
+  npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+  npm warn deprecated boolean@3.2.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+  npm warn cleanup Failed to remove some directories [
+  npm warn cleanup   [
+  npm warn cleanup     'C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute',
+  npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute\node_modules\next\node_modules'] {
+  npm warn cleanup       errno: -4048,
+  npm warn cleanup       code: 'EPERM',
+  npm warn cleanup       syscall: 'rmdir',
+  npm warn cleanup       path: 'C:\\Users\\TOPLAPTOP\\AppData\\Roaming\\npm\\node_modules\\omniroute\\node_modules\\next\\node_modules'
+  npm warn cleanup     }
+  npm warn cleanup   ]
+  npm warn cleanup ]
+  npm error code ECONNRESET
+  npm error syscall read
+  npm error errno -4077
+  npm error network read ECONNRESET
+  npm error network This is a problem related to network connectivity.
+  npm error network In most cases you are behind a proxy or have bad network settings.
+  npm error network
+  npm error network If you are behind a proxy, please make sure that the
+  npm error network 'proxy' config is set properly.  See: 'npm help config'
+  npm error A complete log of this run can be found in: C:\Users\TOPLAPTOP\AppData\Local\npm-cache\_logs\2026-07-26T23_30_13_766Z-debug-0.log
+  PS C:\Windows\system32>
+  
+  
+
+--- WINDOW  2026/07/27 03:10:50  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:10:50  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:10:51  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:10:52  [chrome.exe] ‫(7) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:10:53  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]B
+
+--- WINDOW  2026/07/27 03:10:56  [chrome.exe] ‫‏Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:11:17  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  88E4CD) C[ENTER]
+  [Ctrl]1[Ctrl]B
+
+--- WINDOW  2026/07/27 03:12:50  [chrome.exe] ‫‏Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  8G1 .7'C[ENTER]
+  [Ctrl]1
+
+--- WINDOW  2026/07/27 03:13:12  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/27 03:13:33  [chrome.exe] ‫حل أخطاء تثبيت حزمة Node.js - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:13:35  [chrome.exe] ‪Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]&[ENTER]
+  [ENTER]
+  JD'[ENTER]
+  [Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [Ctrl]B
+
+--- WINDOW  2026/07/27 03:15:31  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/27 03:15:34  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:15:35  [chrome.exe] ‫(7) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk]
+  [LMB]
+
+--- WINDOW  2026/07/27 03:15:39  [chrome.exe] ‪Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:16:08  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  JD'[ENTER]
+
+--- WINDOW  2026/07/27 03:16:55  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:16:55  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:16:57  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:16:57  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:17:13  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:17:13  [ProtonVPN.Client.exe] Proton VPN
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:17:30  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/07/27 03:17:34  [chrome.exe] ‫‏Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:17:58  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:37  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:37  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:38  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:39  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:39  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:40  [(unknown)] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:40  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/27 03:18:47  [SearchApp.exe] البحث
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/27 03:18:52  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:55  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:55  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:56  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:57  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Clipboard]
+  taskkill /F /IM node.exe /T 2>$null
+
+--- WINDOW  2026/07/27 03:18:58  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:59  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:18:59  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:19:02  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:19:02  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:19:02  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:19:05  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:19:05  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:19:10  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:19:11  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+  [Clipboard]
+  
+  Try the new cross-platform PowerShell https://aka.ms/pscore6
+  
+  PS C:\Windows\system32> taskkill /F /IM node.exe /T 2>$null
+  taskkill : The term 'taskkill' is not recognized as the name of a cmdlet, function, script file, or operable program.
+  Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+  At line:1 char:1
+  + taskkill /F /IM node.exe /T 2>$null
+  + ~~~~~~~~
+      + CategoryInfo          : ObjectNotFound: (taskkill:String) [], CommandNotFoundException
+      + FullyQualifiedErrorId : CommandNotFoundException
+  
+  
+  Suggestion [3,General]: The command taskkill was not found, but does exist in the current location. Windows PowerShell does not load commands from the current location by default. If you trust this command, instead type: ".\taskkill". See "get-help about_Command_Precedence" for more details.
+  PS C:\Windows\system32>
+  
+
+--- WINDOW  2026/07/27 03:19:12  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  GJC 8G1C[ENTER]
+  [Ctrl]1[ENTER]
+  EH'AB[ENTER]
+  [LMB]
+  [Clipboard]
+  Stop-Process -Name "node" -Force -ErrorAction SilentlyContinue
+
+--- WINDOW  2026/07/27 03:20:25  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:25  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:26  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:26  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:27  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:27  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:27  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Remove-Item -Recurse -Force "C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute" -ErrorAction SilentlyContinue
+
+--- WINDOW  2026/07/27 03:20:30  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:30  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:31  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:34  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  npm config set fetch-retries 5
+  npm config set fetch-retry-mintimeout 20000
+  npm config set fetch-retry-maxtimeout 120000
+  npm config set fetch-timeout 600000
+
+--- WINDOW  2026/07/27 03:20:37  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:37  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:41  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:42  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:42  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:47  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:47  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  npm config set fetch-retries 5
+  $
+
+--- WINDOW  2026/07/27 03:20:51  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:53  [powershell.exe] npm
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:54  [powershell.exe] npm config set fetch-retries 5
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:54  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:55  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  npm config set fetch-retry-mintimeout 20000
+  $
+
+--- WINDOW  2026/07/27 03:20:58  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:20:59  [powershell.exe] npm
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:00  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:01  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:01  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  npm config set fetch-retry-maxtimeout 120000
+  $
+
+--- WINDOW  2026/07/27 03:21:04  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:04  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:04  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:06  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:06  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  npm config set fetch-timeout 600000
+  $
+
+--- WINDOW  2026/07/27 03:21:08  [(unknown)] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:08  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:09  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:09  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:19  [powershell.exe] npm
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:19  [powershell.exe] npm config set fetch-timeout 600000
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:19  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:20  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:20  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  npm install -g omniroute@latest --registry=https://registry.yarnpkg.com --legacy-peer-deps --force
+
+--- WINDOW  2026/07/27 03:21:23  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:23  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:24  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:24  [powershell.exe] npm
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:24  [powershell.exe] npm install omniroute@latest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:33  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:52  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:56  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+  [Clipboard]
+  
+  PS C:\Windows\system32> Stop-Process -Name "node" -Force -ErrorAction SilentlyContinue
+  PS C:\Windows\system32> Remove-Item -Recurse -Force "C:\Users\TOPLAPTOP\AppData\Roaming\npm\node_modules\omniroute" -ErrorAction SilentlyContinue
+  PS C:\Windows\system32> npm config set fetch-retries 5
+  >> npm config set fetch-retry-mintimeout 20000
+  >> npm config set fetch-retry-maxtimeout 120000
+  >> npm config set fetch-timeout 600000
+  Could not determine Node.js install directory
+  Could not determine Node.js install directory
+  Could not determine Node.js install directory
+  Could not determine Node.js install directory
+  PS C:\Windows\system32> ^C
+  PS C:\Windows\system32> npm config set fetch-retries 5
+  PS C:\Windows\system32> npm config set fetch-retry-mintimeout 20000
+  PS C:\Windows\system32> npm config set fetch-retry-maxtimeout 120000
+  Could not determine Node.js install directory
+  PS C:\Windows\system32> npm config set fetch-timeout 600000
+  PS C:\Windows\system32> npm install -g omniroute@latest --registry=https://registry.yarnpkg.com --legacy-peer-deps --force
+  npm warn using --force Recommended protections disabled.
+  \
+  <--- Last few GCs --->
+  
+  [18876:000001B663B7A000]     7278 ms: Scavenge 26.6 (37.5) -> 19.0 (35.0) MB, pooled: 0 MB, 9.35 / 0.04 ms  (average mu = 0.998, current mu = 0.998) task;
+  [18876:000001B663B7A000]     7710 ms: Scavenge 29.1 (39.8) -> 21.2 (37.2) MB, pooled: 0 MB, 8.15 / 0.03 ms  (average mu = 0.998, current mu = 0.998) task;
+  [18876:000001B663B7A000]     8270 ms: Scavenge 30.2 (40.4) -> 24.1 (54.9) MB, pooled: 0 MB, 4.13 / 0.04 ms  (average mu = 0.998, current mu = 0.998) task;
+  
+  
+  <--- JS stacktrace --->
+  
+  
+  <--- Last few GCs --->
+  
+  [18876:000001B663B7A000]     7278 ms: Scavenge 26.6 (37.5) -> 19.0 (35.0) MB, pooled: 0 MB, 9.35 / 0.04 ms  (average mu = 0.998, current mu = 0.998) task;
+  [18876:000001B663B7A000]     7710 ms: Scavenge 29.1 (39.8) -> 21.2 (37.2) MB, pooled: 0 MB, 8.15 / 0.03 ms  (average mu = 0.998, current mu = 0.998) task;
+  [18876:000001B663B7A000]     8270 ms: Scavenge 30.2 (40.4) -> 24.1 (54.9) MB, pooled: 0 MB, 4.13 / 0.04 ms  (average mu = 0.998, current mu = 0.998) task;
+  
+  
+  <--- JS stacktrace --->
+  
+  FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+  
+  <--- Last few GCs --->
+  
+  [18876:000001B663B7A000]     7278 ms: Scavenge 26.6 (37.5) -> 19.0 (35.0) MB, pooled: 0 MB, 9.35 / 0.04 ms  (average mu = 0.998, current mu = 0.998) task;
+  [18876:000001B663B7A000]     7710 ms: Scavenge 29.1 (39.8) -> 21.2 (37.2) MB, pooled: 0 MB, 8.15 / 0.03 ms  (average mu = 0.998, current mu = 0.998) task;
+  [18876:000001B663B7A000]     8270 ms: Scavenge 30.2 (40.4) -> 24.1 (54.9) MB, pooled: 0 MB, 4.13 / 0.04 ms  (average mu = 0.998, current mu = 0.998) task;
+  
+  
+  <--- JS stacktrace --->
+  
+  
+  <--- Last few GCs --->
+  
+  [18876:000001B663B7A000]     7278 ms: Scavenge 26.6 (37.5) -> 19.0 (35.0) MB, pooled: 0 MB, 9.35 / 0.04 ms  (average mu = 0.998, current mu = 0.998) task;
+  [18876:000001B663B7A000]     7710 ms: Scavenge 29.1 (39.8) -> 21.2 (37.2) MB, pooled: 0 MB, 8.15 / 0.03 ms  (average mu = 0.998, current mu = 0.998) task;
+  [18876:000001B663B7A000]     8270 ms: Scavenge 30.2 (40.4) -> 24.1 (54.9) MB, pooled: 0 MB, 4.13 / 0.04 ms  (average mu = 0.998, current mu = 0.998) task;
+  
+  
+  <--- JS stacktrace --->
+  
+  FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+  ----- Native stack trace -----
+  
+  
+  <--- Last few GCs --->
+  
+  [18876:000001B663B7A000]     7278 ms: Scavenge 26.6 (37.5) -> 19.0 (35.0) MB, pooled: 0 MB, 9.35 / 0.04 ms  (average mu = 0.998, current mu = 0.998) task;
+  [18876:000001B663B7A000]     7710 ms: Scavenge 29.1 (39.8) -> 21.2 (37.2) MB, pooled: 0 MB, 8.15 / 0.03 ms  (average mu = 0.998, current mu = 0.998) task;
+  [18876:000001B663B7A000]     8270 ms: Scavenge 30.2 (40.4) -> 24.1 (54.9) MB, pooled: 0 MB, 4.13 / 0.04 ms  (average mu = 0.998, current mu = 0.998) task;
+  
+  FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+  ----- Native stack trace -----
+  
+  
+  <--- JS stacktrace --->
+  
+  FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+  ----- Native stack trace -----
+  
+   1: 00007FF6B1931427
+  FATAL ERROR: MarkCompactCollector: young object promotion failed Allocation failed - JavaScript heap out of memory
+  ----- Native stack trace -----
+  
+  ----- Native stack trace -----
+  
+   2: 00007FF6B1894878
+   1: 00007FF6B1931427
+   1: 00007FF6B1931427
+   3: 00007FF6B24063B1
+   1: 00007FF6B1931427
+   2: 00007FF6B1894878
+   2: 00007FF6B1894878
+   4: 00007FF6B23F2F36
+   2: 00007FF6B1894878
+   3: 00007FF6B24063B1
+   3: 00007FF6B24063B1
+   5: 00007FF6B224F870
+   3: 00007FF6B24063B1
+   4: 00007FF6B23F2F36
+   4: 00007FF6B23F2F36
+   6: 00007FF6B222282F
+   4: 00007FF6B23F2F36
+   5: 00007FF6B224F870
+   5: 00007FF6B224F870
+   7: 00007FF6B22339E2
+   8: 00007FF6B222A95E
+   6: 00007FF6B222282F
+   6: 00007FF6B222282F
+   5: 00007FF6B224F870
+   9: 00007FF6B2231169
+   7: 00007FF6B22339E2
+   7: 00007FF6B22339E2
+   8: 00007FF6B222A95E
+   6: 00007FF6B222282F
+  10: 00007FF6B22354D1
+   8: 00007FF6B222A95E
+   1: 00007FF6B1931427
+   2: 00007FF6B1894878
+   7: 00007FF6B22339E2
+  11: 00007FF6B25F7B96
+   9: 00007FF6B2231169
+   9: 00007FF6B2231169
+  10: 00007FF6B223530E
+  12: 00007FF6B1808AC0
+   8: 00007FF6B222A95E
+  10: 00007FF6B22354D1
+   3: 00007FF6B24063B1
+  11: 00007FF6B25F780F
+  13: 00007FF6B1992263
+   9: 00007FF6B2231169
+  11: 00007FF6B25F7B96
+   4: 00007FF6B23F2F36
+  12: 00007FF6B25F7606
+  14: 00007FF6B3180BCB
+  15: 00007FFA58E17344
+  12: 00007FF6B1808AC0
+   5: 00007FF6B224F870
+  13: 00007FF6B22299A4
+  10: 00007FF6B22354D1
+  16: 00007FFA5A4626B1
+  13: 00007FF6B1992263
+   6: 00007FF6B222282F
+  14: 00007FF6B222B358
+  11: 00007FF6B25F7B96
+  12: 00007FF6B1808AC0
+  PS C:\Windows\system32>
+
+--- WINDOW  2026/07/27 03:21:57  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:57  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:21:57  [dwm.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬ (لا يستجيب)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:22:33  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:22:39  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:22:39  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:22:39  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:22:40  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:22:41  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:22:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:22:41  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:22:42  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:22:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:22:43  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:22:46  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:22:46  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl]D'
+  [RMB]
+  [LMB]
+  +
+
+--- WINDOW  2026/07/27 03:22:56  [explorer.exe] مستكشف الملفات
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:22:59  [explorer.exe] ‏‏هذا الكمبيوتر الشخصي
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:23:01  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/27 03:23:12  [chrome.exe] ‫علامة تبويب جديدة - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:23:17  [chrome.exe] ‫هل تريد استعادة الصفحات؟‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:23:17  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:23:19  [chrome.exe] ‫‏Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:23:22  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  8G C[ENTER]
+  [Ctrl]1EH'A[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $env:NODE_OPTIONS = "--max_old_space_size=8192"
+  $
+
+--- WINDOW  2026/07/27 03:25:02  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:25:03  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/27 03:25:04  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:25:04  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:25:04  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:25:05  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:25:06  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/27 03:25:06  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  npm install -g omniroute@latest --registry=https://registry.yarnpkg.com --legacy-peer-deps --force
+  $
+
+--- WINDOW  2026/07/27 03:25:08  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:25:09  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:25:09  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:25:10  [powershell.exe] npm
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:25:10  [powershell.exe] npm install omniroute@latest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:26:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:26:42  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:26:44  [chrome.exe] ‫حلّ مشكلة علامة التبويب التي تبطئ المتصفّح‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:26:46  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:26:46  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:26:46  [powershell.exe] npm install omniroute@latest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:27:29  [(unknown)] npm install omniroute@latest
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:27:29  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:28:17  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+  [Clipboard]
+  
+  PS C:\Windows\system32> $env:NODE_OPTIONS = "--max_old_space_size=8192"
+  PS C:\Windows\system32> npm install -g omniroute@latest --registry=https://registry.yarnpkg.com --legacy-peer-deps --force
+  npm warn using --force Recommended protections disabled.
+  /
+  <--- Last few GCs --->
+  
+  [1372:00000250D9DFA000]   139049 ms: Mark-Compact (reduce) 236.4 (244.1) -> 236.4 (242.9) MB, pooled: 0 MB, 247.25 / 0.00 ms  (average mu = 0.174, current mu = 0.022) external memory pressure; GC in old space requested
+  
+  
+  <--- JS stacktrace --->
+  
+  FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+  ----- Native stack trace -----
+  
+   1: 00007FF6B1931427
+   2: 00007FF6B1894878
+   3: 00007FF6B24063B1
+   4: 00007FF6B23F2F36
+   5: 00007FF6B224F870
+   6: 00007FF6B22074CD
+   7: 00007FF6B2258AB3
+   8: 00007FF6B224893D
+   9: 00007FF6B22444F5
+  10: 00007FF6B1BCDE2D
+  PS C:\Windows\system32>
+  
+  
+
+--- WINDOW  2026/07/27 03:28:24  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:28:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:28:24  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:28:24  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]B
+
+--- WINDOW  2026/07/27 03:28:26  [chrome.exe] ‫‏Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:28:37  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  GJC 8G1C[ENTER]
+  [Ctrl]1[ENTER]
+  EH'B[ENTER]
+
+--- WINDOW  2026/07/27 03:29:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:29:51  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:29:56  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:29:56  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:29:57  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:29:59  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:30:02  [chrome.exe] ‫(7) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:30:03  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]B
+
+--- WINDOW  2026/07/27 03:30:07  [chrome.exe] ‫‏Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:30:12  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/27 03:30:12  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]3[Ctrl]3
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/27 03:30:19  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  pnpm dlx omniroute@latest
+  [LMB]
+  3C1 'DFA0 'D-DJ)8[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/27 03:31:14  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:31:17  [chrome.exe] ‪Loading - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:31:20  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:31:25  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:31:26  [.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:31:27  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:31:28  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:31:28  [SearchApp.exe] البحث
+----------------------------------------------------------------------------
+  -.5
+
+--- WINDOW  2026/07/27 03:31:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:31:39  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:31:40  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:31:46  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:31:46  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:31:46  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:31:47  [powershell.exe] Select Windows PowerShell
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+
+--- WINDOW  2026/07/27 03:31:47  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  1[ENTER]
+
+--- WINDOW  2026/07/27 03:31:48  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:31:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:31:53  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:31:56  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:32:00  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:32:01  [powershell.exe] Select Windows PowerShell
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:32:09  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:32:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:32:12  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:32:13  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:32:13  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:32:13  [Code.exe] Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:32:16  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:32:37  [Code.exe] Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:32:39  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:32:39  [Code.exe] Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:32:41  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]1[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> pnpm dlx omniroute@latest
+  Progress: resolved 1003, reused 264, downloaded 0, added 0
+  [WARN] 5 deprecated subdependencies found: boolean@3.2.0, ini@1.3.0, ini@1.3.4, intersection-observer@0.12.2, prebuild-install@7.1.3
+  Progress: resolved 1301, reused 1045, downloaded 0, added 0٥ MB
+  Downloading js-tiktoken@1.0.21: ٩٥٣٫٨٥ kB/١٠٫٢٣ MB, added 0
+  Downloading @huggingface/transformers@3.5.2: ٨٢٣٫٩١ kB/١٠٫٢٥ MB
+  Packages: +1176
+  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  Progress: resolved 1301, reused 1053, downloaded 0, added 0
+  Downloading js-tiktoken@1.0.21: ٩٥٣٫٨٥ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٢٣٫٩١ kB/١٠٫٢٥ MB
+  Progress: resolved 1301, reused 1151, downloaded 0, added 0٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٦٩٠٫٩٧ kB/٣٠٫٥٦ MB
+  Downloading @huggingface/transformers@3.5.2: ٩٣٨٫٦٠ kB/١٠٫٢٥ MB
+  Downloading js-tiktoken@1.0.21: ١٫١٤ MB/١٠٫٢٣ MBB٫٨٢ MB١٠٫٢٥ MB
+  Downloading mermaid@11.16.0: ١٫٠٦ MB/١٧٫٦٠ MBB/١٢٫٨٢ MB٫٢٥ MB
+  [WARN] GET https://registry.npmmirror.com/js-tiktoken/-/js-tiktoken-1.0.21.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ٩٤٠٫٣٨ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٢ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٨١٫٤٤ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٢ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@huggingface/transformers/-/transformers-3.5.2.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ٩٤٠٫٣٨ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٢ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٨١٫٤٤ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٢ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs/-/tfjs-4.22.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ٩٤٠٫٣٨ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٢ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٨١٫٤٤ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٢ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/wreq-js/-/wreq-js-2.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ٩٥٦٫٤٤ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٣ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/omniroute/-/omniroute-3.8.48.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ٩٥٦٫٤٤ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٣ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/material-symbols/-/material-symbols-0.45.9.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ٩٥٦٫٤٤ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٣ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/mermaid/-/mermaid-11.16.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ٩٥٦٫٤٤ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٥ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/lucide-react/-/lucide-react-1.27.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ٩٧١٫٠٤ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٥ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/monaco-editor/-/monaco-editor-0.55.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ٩٧١٫٠٤ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٥ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/omniglyph/-/omniglyph-1.3.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ٩٧٩٫٨٠ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٥ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/sql.js/-/sql.js-1.14.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ١٫٠٠ MB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٥ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/onnxruntime-node/-/onnxruntime-node-1.21.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ١٫٠٣ MB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٥ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/next/-/next-16.2.12.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ١٫٠٣ MB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٥ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-layers/-/tfjs-layers-4.22.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ١٫٠٤ MB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٥ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ١٫٠٥ MB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٥ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-core/-/tfjs-core-4.22.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ١٫٠٥ MB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٥ MB/١٧٫٦٠ MB
+  [WARN] Tarball download average speed 47 KiB/s (size 1537 KiB) is below 50 KiB/s: https://registry.npmmirror.com/@base-ui/react/-/react-1.6.0.tgz (GET)
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ١٫٠٥ MB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٥ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/cytoscape-fcose/-/cytoscape-fcose-2.2.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ١٫٠٥ MB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٥ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.2.12.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٦ MB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٥٢ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫١٦ MB/٣٠٫٥٦ MB06ba4: ١٫٠٥ MB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫١٣ MB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٥ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/gpt-tokenizer/-/gpt-tokenizer-3.4.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٫٩٣ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٫٩٤ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٩٤ kB/٣٠٫٥٦ MB06ba4: ١٫٠٥ MB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١٫٩٣ kB/١٦٣٫٣٦ MBMB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٫٢٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٩٧٫٨٢ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٦٥ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ٥٨٫٨٧ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٤٢٫٨٢ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٤٧٫٢٠ kB/٣٠٫٥٦ MB6ba4: ١٫٠٥ MB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٥١٫٠٩ kB/١٦٣٫٣٦ MBB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٣٤٫٧٠ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٩٣ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ٣٣٫٢٥ kB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.15.46.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ٩٠٫٩٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٧٢٫٠٢ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٩٢٫٤٦ kB/٣٠٫٥٦ MB6ba4: ١٫٠٥ MB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٨٣٫٨٥ kB/١٦٣٫٣٦ MBB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٥١٫٠٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٨٫٣١ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ٤٥٫٧٤ kB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.1.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 0, added 8
+  Downloading js-tiktoken@1.0.21: ١٠٩٫٩٧ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١١١٫٤٤ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٢٦٫٠٤ kB/٣٠٫٥٦ MBba4: ١٫٠٥ MB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ١١٦٫٦٢ kB/١٦٣٫٣٦ MB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٣٫٨٥ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٣٤٫٧٠ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ٧٠٫٥٦ kB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/antd/-/antd-6.5.2.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ١٧٧٫١٣ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ١٧٧٫١٤ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٢٣٨٫٤٦ kB/٣٠٫٥٦ MBba4: ١٫٩٣ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٢٠١٫٩٥ kB/١٦٣٫٣٦ MB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٨٠٫٣٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ٩٦٫٨٣ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٢٣٫١٢ kB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/lucide-react/-/lucide-react-0.562.0.tgz error (23). Will retry in 10 seconds. 2 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٢١٨٫٠١ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٢٢٣٫٨٦ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٢٧٦٫٤٢ kB/٣٠٫٥٦ MBba4: ١٫٩٣ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٢٦٠٫٣٥ kB/١٦٣٫٣٦ MBB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ١٩٦٫٧٦ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٣٤٫٧٩ kB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ٢٠٣٫٤٢ kB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/js-tiktoken/-/js-tiktoken-1.0.21.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٢٩٢٫٣١ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٧٨ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs/-/tfjs-4.22.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٢٩٢٫٣١ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٧٨ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/omniroute/-/omniroute-3.8.48.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٢٩٢٫٣١ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٧٨ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@huggingface/transformers/-/transformers-3.5.2.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٢٩٢٫٣١ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٧٨ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/wreq-js/-/wreq-js-2.3.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٢٩٢٫٣١ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٧٨ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/mermaid/-/mermaid-11.16.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٢٩٢٫٣١ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٧٨ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/omniglyph/-/omniglyph-1.3.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٢٩٢٫٣١ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/material-symbols/-/material-symbols-0.45.9.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٢٩٢٫٣١ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/lucide-react/-/lucide-react-1.27.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٢٩٢٫٣١ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/sql.js/-/sql.js-1.14.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٢٩٢٫٣١ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/monaco-editor/-/monaco-editor-0.55.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٢٩٢٫٣١ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/onnxruntime-node/-/onnxruntime-node-1.21.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٣٠٨٫٦٩ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/next/-/next-16.2.12.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٣٠٨٫٦٩ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-layers/-/tfjs-layers-4.22.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٣٢٥٫٠٧ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٣٢٥٫٠٧ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@tensorflow/tfjs-core/-/tfjs-core-4.22.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٣٢٥٫٠٧ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/cytoscape-fcose/-/cytoscape-fcose-2.2.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٣٢٥٫٠٧ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.2.12.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٣٢٥٫٠٧ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/gpt-tokenizer/-/gpt-tokenizer-3.4.0.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٣٢٥٫٠٧ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٣٢٥٫٠٧ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.15.46.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٣٢٥٫٠٧ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.1.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٣٢٥٫٠٧ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  [WARN] GET https://registry.npmmirror.com/antd/-/antd-6.5.2.tgz error (23). Will retry in 1 minute. 1 retries left.
+  Progress: resolved 1301, reused 1152, downloaded 1, added 9
+  Downloading js-tiktoken@1.0.21: ٧٠٤٫١٩ kB/١٠٫٢٣ MB
+  Downloading @huggingface/transformers@3.5.2: ٨٧٢٫٩٠ kB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ١٫٠١ MB/٣٠٫٥٦ MB06ba4: ٣٢٥٫٠٧ kB/٢٠٫٢٣ MB
+  Downloading omniroute@3.8.48: ٩٣٨٫٥٩ kB/١٦٣٫٣٦ MBkB/٦٫٩٥ MB
+  Downloading wreq-js@2.3.1: ٨٩٢٫٦٨ kB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٨٠ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٢٨ MB/١٧٫٦٠ MB
+  C:\Users\TOPLAPTOP\AppData\Local\pnpm-cache\dlx\615066156e05fefbc0e425838bd0355d\ms2huckt-gkg:
+  [ERROR] TimeoutError: The operation was aborted due to timeout
+  
+  This error happened while installing the dependencies of omniroute@3.8.48
+  
+  pnpm: TimeoutError: The operation was aborted due to timeout
+      at fetch3 (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:138144:65)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async RetryOperation._fn (file:///C:/Users/TOPLAPTOP/AppData/Roaming/npm/node_modules/pnpm/dist/pnpm.mjs:138033:20)
+  Progress: resolved 1301, reused 1152, downloaded 2, added 10 MB
+  Downloading js-tiktoken@1.0.21: ٧٣٩٫٥٥ kB/١٠٫٢٣ MBB
+  Downloading @huggingface/transformers@3.5.2: ١٫٩٥ MB/١٠٫٢٥ MB
+  Downloading @tensorflow/tfjs@4.22.0: ٥٣٥٫١٦ kB/٣٠٫٥٦ MB
+  Downloading omniroute@3.8.48: ٦٠٦٫٢١ kB/١٦٣٫٣٦ MB
+  Downloading wreq-js@2.3.1: ١٫٥٧ MB/٢٥٫٣٧ MB
+  Downloading material-symbols@0.45.9: ١٫٠٢ MB/١٢٫٨٢ MB
+  Downloading mermaid@11.16.0: ١٫٣١ MB/١٧٫٦٠ MB
+  Downloading monaco-editor@0.55.1: ١٫١٢ MB/١٣٫٦٧ MB
+  Downloading onnxruntime-node@1.21.0: ١٫٢٠ MB/٨٠٫٠١ MB
+  Downloading next@16.2.12: ٤٤١٫٧٢ kB/٣٤٫٥٢ MB
+  Downloading @tensorflow/tfjs-layers@4.22.0: ٨٩٠٫٩٠ kB/٦٫٣٣ MB
+  Downloading onnxruntime-web@1.22.0-dev.20250409-89f8206ba4: ٧٩٢٫٦٠ kB/٢٠٫٢٣ MB
+  Downloading @tensorflow/tfjs-core@4.22.0: ١٫١٢ MB/٦٫٩٥ MB
+  Downloading @next/swc-win32-x64-msvc@16.2.12: ٤٦٧٫٦٧ kB/٤٣٫٨٣ MB
+  Downloading cytoscape-fcose@2.2.0: ٢٦٦٫٢٠ kB/٧٫٦٠ MB
+  Downloading @img/sharp-win32-x64@0.34.5: ٩٤٥٫٧٤ kB/٨٫٦٨ MB
+  Downloading @swc/core-win32-x64-msvc@1.15.46: ١٨٫٣٢ kB/١٠٫٢٢ MB
+  Downloading gpt-tokenizer@3.4.0: ٢٥٤٫٥١ kB/١٧٫٦٨ MB
+  Downloading @img/sharp-win32-x64@0.34.1: ١٧٧٫١٤ kB/٨٫٤٤ MB
+  Downloading antd@6.5.2: ١٫٨٥ MB/١٠٫٢٣ MB
+  PS C:\Users\TOPLAPTOP\Desktop\ONE> 
+
+--- WINDOW  2026/07/27 03:38:36  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  GJ [Ctrl][Ctrl]4GJ 'DF*J,)C[ENTER]
+  [Bk]  '0' .7' CE'F D'2E -D ,01J HJA6D DH JEC[Bk][Bk]CED EF-J+ E' *HBA 'H -J+ 'D:D7C[ENTER]
+  [Ctrl]1[ENTER]
+  [LMB]
+  [Ctrl][Ctrl]
+  [Clipboard]
+  pnpm config set registry https://registry.yarnpkg.com
+  $
+
+--- WINDOW  2026/07/27 03:43:43  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/27 03:43:45  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  pnpm config set fetch-retries 5
+  $
+
+--- WINDOW  2026/07/27 03:43:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:43:48  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/27 03:43:49  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:43:49  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  pnpm config set fetch-timeout 600000
+  $
+
+--- WINDOW  2026/07/27 03:43:51  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:43:52  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl][ENTER]
+  [Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/07/27 03:43:59  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  pnpm dlx omniroute@latest
+  $
+
+--- WINDOW  2026/07/27 03:44:02  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1
+
+--- WINDOW  2026/07/27 03:44:09  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:44:10  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:44:11  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/27 03:44:13  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:44:17  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/27 03:44:17  [Code.exe] Hybrid_Audit_Report.md - ONE - Visual Studio Code
+----------------------------------------------------------------------------
