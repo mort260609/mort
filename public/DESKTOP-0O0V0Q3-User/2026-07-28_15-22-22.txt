@@ -1,0 +1,1172 @@
+﻿  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  
+  United Kingdom
+  c
+  [LMB]
+  [Clipboard]
+  United Kingdom
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  £500.00 GBP
+  c
+  [LMB]
+  [Clipboard]
+  United Kingdom
+  [LMB]
+
+--- WINDOW  2026/07/28 14:22:44  [chrome.exe] Build N8N Customer Service Agents | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I already run n8n for internal automations and now I want to push it further by wiring up AI-powered customer service agents. The goal is to design flows that let a single agent work seamlessly across our website chat widget, email inbox, and social-media DMs, using the same knowledge base and conversation memory everywhere.
+  
+  Here is what I need:
+  
+  • A set of n8n workflows that spin up an automated customer-service agent, connect it to our chat, email, and social channels, and switch context correctly between them.
+  • Skill modules for the agent to 1) answer FAQs, 2) process and confirm orders, and 3) identify, categorise, and resolve complaints—or hand them off to a human when confidence drops.
+  • Clear instructions on how to add new intents, update training data, and maintain the flows.
+  
+  Please build and test everything inside n8n (self-hosted) using whichever LLM, vector store, or plug-ins you feel are best; just keep the stack open-source or easily swappable. I’ll consider this complete once I can see a live demo handling the three task categories above on all three channels, along with exportable n8n JSON so I can import it straight into production.
+  cc
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:24:37  [chrome.exe] Dashboard | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:24:41  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:24:41  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 14:24:46  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I need a working tool that continuously pulls event-level probabilities from Kalshi and Polymarket and contrasts them with real-time money-line, spread prices, over under prices and prop markets from major online sportsbooks. The goal is simple: highlight pre-game markets for Football, Basketball, Tennis, Soccer and Baseball where the implied probabilities diverge enough to create positive-expected-value opportunities.
+  
+  Core workflow
+  • Fetch live or regularly refreshed odds via public or paid APIs (or reliable screen-scraping when an API is unavailable).
+  • Convert every price to a clean, comparable implied probability.
+  • Compare the Kalshi / Polymarket probabilities against each sportsbook’s line.
+  • Flag and log any gap that exceeds a configurable threshold, then push an alert (email, Slack or Telegram preferred—open to the best fit).
+  
+  Technical preferences
+  Python is my default, but I am open to Node, Go or another language if you can justify speed or API compatibility gains. Please structure the code so the market modules (Kalshi, Polymarket, each sportsbook) can be swapped or extended easily. A lightweight web dashboard or CLI summary that lists the latest discrepancies would be ideal, though a Jupyter-style report is acceptable for a first milestone.
+  
+  Acceptance criteria
+  1. At least one live feed each from Kalshi, Polymarket and two major sports books available in my area demonstrates automated parsing and probability conversion.
+  2. Alert fires when a test threshold is deliberately breached.
+  3. Documentation shows how to add a new sportsbook module in under 30 lines.
+  4. Code runs on a standard cloud instance without paid add-ons beyond the data sources themselves.
+  
+  Let me know your proposed stack, data-source access strategy and estimated turnaround so we can lock in milestones quickly.
+  cc
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:25:15  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:25:16  [chrome.exe] contracts.freelancer.com/contract-potential/access/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb250cmFjdF9yb2xlX3BvdGVudGlhbCI6Mzc3NDM0NiwicmVkaXJlY3RfdXJsIjoiaHR0cHM6Ly93d3cuZnJlZWxhbmNlci5jb20vYWpheC9wcm9qZWN0L2NvbnRyYWN0L3ZlcmlmeS5waHA_cHJvamVjdElkPTQwNjExMjAyJmNvbnRyYWN0UG90ZW50aWFsSWQ9MTg4NjMzOSZjb250cmFjdFJvbGVQb3RlbnRpYWxJZD0zNzc0MzQ2JnJvbGU9RnJlZWxhbmNlciIsImlhdCI6MTc4NTI3MDMxNn0.ULXInXBfsAWQjaTZs1fj-5_AZqI0OG8dBVi36g4e7x8 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  :laughing: 
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:25:24  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:25:25  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Why aren't you asking for actual photos?
+  [LMB]
+  [Clipboard]
+  === INTERNAL ESTIMATE ===
+  Estimated Hours: 40-80
+  Estimated Budget: $1,200-$3,200 USD
+  Estimated Timeline: 2-4 weeks
+  Confidence: Medium
+  
+  === PROPOSAL ===
+  Hi — Canada-based developer here. I’m available for a short video call if you want to walk through data sources.
+  
+  You need reliable feed adapters and a clean probability normalization layer more than fancy UI. From what you described the core risks are (1) inconsistent/missing APIs across books and markets and (2) making all prices comparable (vig removal, market types like moneyline/OU/props). I’ve built similar collectors that normalized betting prices and flagged EV gaps for football and baseball markets.
+  
+  My approach: a small Python service with modular adapters for Kalshi, Polymarket and each sportsbook, a shared probability converter, and a lightweight dashboard + Slack/Telegram alerts. I’ll prioritize robust parsing, test hooks to simulate breaches, and clear docs showing how to add a sportsbook in <30 lines.
+  
+  A couple quick questions:
+  1. Do you already have API keys for any sportsbooks, or should I include scraping fallbacks?
+  2. Which two sportsbooks must be live in the first milestone?
+  
+  Thanks,
+  Paul
+  [Clipboard]
+  Hi,  Canada-based developer here. 
+  
+  I’m available for a short video call if you want to walk through data sources.
+  
+  You need reliable feed adapters and a clean probability normalization layer more than fancy UI. 
+  From what you described the core risks are
+  (1) inconsistent/missing APIs across books and markets and 
+  (2) making all prices comparable (vig removal, market types like moneyline/OU/props). I’ve built similar collectors that normalized betting prices and flagged EV gaps for football and baseball markets.
+  
+  My approach: a small Python service with modular adapters for Kalshi, Polymarket and each sportsbook, a shared probability converter, and a lightweight dashboard + Slack/Telegram alerts. I’ll prioritize robust parsing, test hooks to simulate breaches, and clear docs showing how to add a sportsbook in <30 lines.
+  
+  A couple quick questions:
+  1. Do you already have API keys for any sportsbooks, or should I include scraping fallbacks?
+  2. Which two sportsbooks must be live in the first milestone?
+  
+  Thanks,
+  Paul
+  [Clipboard]
+  Hi,  Canada-based developer here. 
+  
+  I’m available for a short video call if you want to walk through data sources.
+  
+  You need reliable feed adapters and a clean probability normalization layer more than fancy UI. 
+  From what you described the core risks are
+  (1) inconsistent/missing APIs across books and markets and 
+  (2) making all prices comparable (vig removal, market types like moneyline/OU/props). I’ve built similar collectors that normalized betting prices and flagged EV gaps for football and baseball markets.
+  
+  My approach: a small Python service with modular adapters for Kalshi, Polymarket and each sportsbook, a shared probability converter, and a lightweight dashboard + Slack/Telegram alerts. I’ll prioritize robust parsing, test hooks to simulate breaches, and clear docs showing how to add a sportsbook in <30 lines.
+  
+  A couple quick questions:
+  1. Do you already have API keys for any sportsbooks, or should I include scraping fallbacks?
+  2. Which two sportsbooks must be live in the first milestone?
+  
+  Thanks,
+  Paul
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  05
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  40
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/api-developmet/Sports-Odds-Discrepancy-Alert-Scanner/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Sports Odds Discrepancy Alert Scanner
+  
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Canada
+  c
+  [Clipboard]
+  Will that opportunity come?
+  [LMB]
+  [LMB]
+  [Ctrl]c[Ctrl]cc[Ctrl]c
+  [Clipboard]
+   will
+
+--- WINDOW  2026/07/28 14:27:44  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:27:44  [AnyDesk.exe] AnyDesk
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:27:46  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:27:46  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  151404
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $40.00 CAD
+  cc
+  [LMB]
+  [Clipboard]
+  Customize
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:28:21  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:28:22  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:28:54  [chrome.exe] Windows Remote Support Expert Needed | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 14:28:59  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:28:59  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 14:29:20  [chrome.exe] Custom Zoho Forms Integration | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I need simple, easy-to-use custom Zoho forms designed for my small business. We purchase, receive, inspect, and sell printers and parts.
+  
+  Require forms for:
+  - Purchase Orders
+  - Inspection
+  - Sales
+  - PO Receiving
+  - Inventory Adjustment
+  - Inventory Movement
+  
+  The forms must integrate with Zoho Inventory to:
+  - Automatically update inventory
+  - Print barcode labels
+  
+  Ideal skills and experience:
+  - Proficiency in Zoho Creator and Zoho Inventory
+  - Experience designing custom forms
+  - Familiarity with inventory management processes
+  
+  Looking for a freelancer who can deliver a user-friendly solution.
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:29:55  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:30:07  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:30:09  [chrome.exe] WireGuard Setup for Home & Travel | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  I’ve got two routers ( A Brume 2 and a Beryl AX GL.Inet) that already expose WireGuard in their firmware menus (that’s why I selected “Wireguard” when asked about both the device type and the travel-router OS). What I’m missing is a clean, battle-tested configuration that lets me reach my home LAN securely whenever I’m on the road.
+  
+  Here’s what I need:
+  
+  • Key generation, server-side and peer-side configuration on the home router so it can act as the WireGuard “hub”.
+  • Matching configuration on the travel router so it dials home automatically and routes only the traffic I choose.
+  • Firewall/NAT tweaks and any dynamic-DNS or port-forward advice required to keep the tunnel reachable behind my ISP router.
+  • A brief set of step-by-step notes so I can re-create the setup if I factory-reset either device.
+  
+  Primary goal: secure remote access to the home network; no complex site-to-site mesh or blanket privacy tunnel, just a reliable way to reach internal hosts and services.
+  
+  I’m comfortable providing SSH or web-GUI access and can test changes live. If you need version numbers, cli outputs or screenshots, just ask. We’ll verify success once my laptop and phone can connect through the travel router and ping a machine back home.
+  
+  Looking forward to your guidance and a solid, reproducible WireGuard setup.
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:30:55  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 14:31:03  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  I don't like someone who asks me to send photos as soon as we meet, and I can't send them anyway.
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:31:45  [chrome.exe] WordPress Physical Products Store | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I’m setting up an online shop on WordPress to sell a range of physical products and I need the core e-commerce pieces put in place quickly and cleanly. The priority is a smooth shopping cart and checkout flow that works on desktop and mobile.
+  
+  You’ll start from a fresh WordPress install (or optimise my current one if that’s faster), configure WooCommerce, and style the cart, checkout and account pages so they match the brand palette I’ll supply. Payment gateways and basic shipping zones must be ready for launch; I’ll provide the gateway credentials and shipping rules.
+  
+  Deliverables
+  • WordPress site configured for physical-product sales
+  • WooCommerce shopping cart & checkout fully tested (guest and registered users)
+  • Essential pages styled to the brand guide I’ll share
+  • Quick walk-through or short doc so I can add products and track orders on my own
+  
+  If you can also integrate lightweight inventory management or a review system later, let me know—those features may become phase two, but for now the focus is a reliable cart and checkout experience.
+  cc
+  [LMB]
+
+--- WINDOW  2026/07/28 14:31:53  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:31:53  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://click.discord.com/ls/click?upn=u001.a0NJ38DJJG1sulNx5wS1jq2Trm-2FND-2F8pNqpHdomuLLZSGXZqUjWjS0gkJViyRfE8b8H004MPqfA4k51g6vg7eurh232QkP1oXUxeOzgskBJuowSFIPNwaqOjaLpKnVyoE8w-2FdUQAZLj4RjsIoI3pR01QJxLY9pi3UHLEB902eJQzEhPuoVbGeCyNzCUJ60USlRfXFLi7-2BOu5TzCU6IGbbg-3D-3DCLAF_0b2uedESn6uJbt5BtMdGE3aZW22pxuGWms-2FsfEFVBEHjVkcVDulp9fMbzFY-2FvwfW6rX1BCdAbjlZ-2Bn2M3BXIzPKG0gyFAHVpGW5Kp8hPaZaI0S7X61YtduJYyyNX-2FVXt0-2B1VtsRNAAJuoRnEf36V-2FQwMD7VN-2BK3JVwchTS6fgaSVHMBNY5TNWdyqtEGolEL8jaZyhOTj75euYx8dJBAKYoj4VJhS7pF1uDD49QTcRN6diWbLe9FWeV5A-2Fv0p-2BQBv
+  [Clipboard]
+  Keep in touch.
+  I can help you.
+  [LMB]
+
+--- WINDOW  2026/07/28 14:32:39  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  9792010211
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:33:26  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:33:35  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:33:36  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  140.228.19.49:12323:14ad8d1127bc2:b98fe3138d
+  
+  [Clipboard]
+  https://click.discord.com/ls/click?upn=u001.a0NJ38DJJG1sulNx5wS1jjasHPOV5MgsCNLIOUybEqgv-2F76hJtte7st2YGE6B-2FX1EBvDtof1lEBaDD2FmriDJ3CVMaq4hwl-2Bn5ozOAXVcEMGfWOv0frsqJbTSfRVLZUd0gcqMiWV8vTSOdMhvK56ZY5e-2BtJWEgroQHF01HAraupgpQ9Ti6nNmc8I7wLG8yazobE5_0b2uedESn6uJbt5BtMdGE3aZW22pxuGWms-2FsfEFVBEHIE4BbwEEHJy39fTmtDJO-2BbTE-2FpmoLYhFWDA5qb-2FVWkLh590N1-2B9O2YVVE4b-2Fg4DIwkkV1zVpKwaWKzVkSeIhi0wdku19nvVFmhoTWeCczswNjTx6U1E3LvvFQvaKTUV5uj5vD5hQxEySzHsfXYz9PmBbTjnFeReLAEubxOSyDK2Eg8CHgiWjgmrrKl4DN25r2LCQYsE-2BK-2BzMkEUqI0we8
+  [LMB]
+
+--- WINDOW  2026/07/28 14:35:08  [chrome.exe] GHL-HeyGen API Integration | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I need my Go HighLevel (GHL) account to talk directly with HeyGen so I can trigger automated video creation, voice cloning, and custom animations from inside my existing workflows. The scope is pure API integration—I already have keys for both platforms; I just need the calls wired up correctly and reliably.
+  
+  Here’s what a finished job looks like for me:
+  • A contact event or pipeline move in GHL fires a webhook (or script) that hits the HeyGen API.
+  • The payload passes dynamic variables that control video type, cloned voice, and animation style.
+  • HeyGen returns the finished asset URL, which is captured back in GHL and attached to the contact record or pushed out via SMS/email.
+  
+  Acceptance criteria:
+  • All three HeyGen functions (automated video, voice cloning, custom animations) can be triggered and verified from GHL.
+  • Code or webhook configurations are cleanly documented, with comments or a short README so I can extend the flow later.
+  • Any helper scripts use mainstream, maintainable tech—Python, Node.js, or native GHL webhooks are all fine—so long as the solution is stable.
+  
+  That’s the whole brief. If you’re comfortable wiring up APIs and testing end-to-end flows, let’s pin down a start date.
+  cc
+  [Clipboard]
+  1. По поводу счётчика уточнила информацию, он установлен через плагин -
+  https://skrinshoter.ru/sciQ1do3rFj
+  
+  2. Тайтл на главной странице наш программист обновил.
+  
+  3. По поводу добавления текста. Следую вашему руководству для главной
+  страницы, на странице редактора нет кнопки редактировать, только кнопка
+  "Вернуться к редактору WordPress", при нажатии на которую высвечивается
+  предупреждающее окно (скриншоты 1, 2, 3 во вложении).
+  
+  4. Со страницей каталог аналогичная проблема (Скриншот 4). Через
+  описание категорий товаров редакция не подходит, так как текст должен
+  быть на общей странице "каталог", без деления на категории.
+  
+  [Clipboard]
+  1. По поводу счётчика уточнила информацию, он установлен через плагин -
+  https://skrinshoter.ru/sciQ1do3rFj
+  
+  2. Тайтл на главной странице наш программист обновил.
+  
+  3. По поводу добавления текста. Следую вашему руководству для главной
+  страницы, на странице редактора нет кнопки редактировать, только кнопка
+  "Вернуться к редактору WordPress", при нажатии на которую высвечивается
+  предупреждающее окно (скриншоты 1, 2, 3 во вложении).
+  
+  4. Со страницей каталог аналогичная проблема (Скриншот 4). Через
+  описание категорий товаров редакция не подходит, так как текст должен
+  быть на общей странице "каталог", без деления на категории.
+  
+  [Ctrl]
+  [Clipboard]
+  I need my Go HighLevel (GHL) account to talk directly with HeyGen so I can trigger automated video creation, voice cloning, and custom animations from inside my existing workflows. The scope is pure API integration—I already have keys for both platforms; I just need the calls wired up correctly and reliably.
+  
+  Here’s what a finished job looks like for me:
+  • A contact event or pipeline move in GHL fires a webhook (or script) that hits the HeyGen API.
+  • The payload passes dynamic variables that control video type, cloned voice, and animation style.
+  • HeyGen returns the finished asset URL, which is captured back in GHL and attached to the contact record or pushed out via SMS/email.
+  
+  Acceptance criteria:
+  • All three HeyGen functions (automated video, voice cloning, custom animations) can be triggered and verified from GHL.
+  • Code or webhook configurations are cleanly documented, with comments or a short README so I can extend the flow later.
+  • Any helper scripts use mainstream, maintainable tech—Python, Node.js, or native GHL webhooks are all fine—so long as the solution is stable.
+  
+  That’s the whole brief. If you’re comfortable wiring up APIs and testing end-to-end flows, let’s pin down a start date.
+  ccc
+  [Clipboard]
+  1. По поводу счётчика уточнила информацию, он установлен через плагин -
+  https://skrinshoter.ru/sciQ1do3rFj
+  
+  2. Тайтл на главной странице наш программист обновил.
+  
+  3. По поводу добавления текста. Следую вашему руководству для главной
+  страницы, на странице редактора нет кнопки редактировать, только кнопка
+  "Вернуться к редактору WordPress", при нажатии на которую высвечивается
+  предупреждающее окно (скриншоты 1, 2, 3 во вложении).
+  
+  4. Со страницей каталог аналогичная проблема (Скриншот 4). Через
+  описание категорий товаров редакция не подходит, так как текст должен
+  быть на общей странице "каталог", без деления на категории.
+  
+  [Clipboard]
+  1. По поводу счётчика уточнила информацию, он установлен через плагин -
+  https://skrinshoter.ru/sciQ1do3rFj
+  
+  2. Тайтл на главной странице наш программист обновил.
+  
+  3. По поводу добавления текста. Следую вашему руководству для главной
+  страницы, на странице редактора нет кнопки редактировать, только кнопка
+  "Вернуться к редактору WordPress", при нажатии на которую высвечивается
+  предупреждающее окно (скриншоты 1, 2, 3 во вложении).
+  
+  4. Со страницей каталог аналогичная проблема (Скриншот 4). Через
+  описание категорий товаров редакция не подходит, так как текст должен
+  быть на общей странице "каталог", без деления на категории.
+  
+  [Ctrl]
+  [Clipboard]
+  I need my Go HighLevel (GHL) account to talk directly with HeyGen so I can trigger automated video creation, voice cloning, and custom animations from inside my existing workflows. The scope is pure API integration—I already have keys for both platforms; I just need the calls wired up correctly and reliably.
+  
+  Here’s what a finished job looks like for me:
+  • A contact event or pipeline move in GHL fires a webhook (or script) that hits the HeyGen API.
+  • The payload passes dynamic variables that control video type, cloned voice, and animation style.
+  • HeyGen returns the finished asset URL, which is captured back in GHL and attached to the contact record or pushed out via SMS/email.
+  
+  Acceptance criteria:
+  • All three HeyGen functions (automated video, voice cloning, custom animations) can be triggered and verified from GHL.
+  • Code or webhook configurations are cleanly documented, with comments or a short README so I can extend the flow later.
+  • Any helper scripts use mainstream, maintainable tech—Python, Node.js, or native GHL webhooks are all fine—so long as the solution is stable.
+  
+  That’s the whole brief. If you’re comfortable wiring up APIs and testing end-to-end flows, let’s pin down a start date.
+  ccc
+  [Clipboard]
+  Hi , Canada-based developer here.
+  
+  It sounds like the main challenge is reliable, idempotent wiring between GHL webhooks and the HeyGen API: mapping GHL variables into HeyGen's video/voice/animation payloads, handling async processing, and writing the returned asset URL back to the contact record. I've integrated third‑party media APIs into CRM workflows before (webhook -> Node.js lambda -> CRM update) and kept retries and logging simple and maintainable.
+  
+  Plan (high level): implement a small webhook handler (Node.js or Python) that validates incoming GHL payloads, posts to HeyGen, polls/receives the finished URL, then updates the GHL contact. I'll document setup and include example webhook configs.
+  
+  A couple quick questions:
+  1. Do you want the handler to live as a small hosted function (Vercel/Lambda) or inside your existing infra?
+  2. Any specific GHL contact fields or templates I should use for storing/sending the asset?
+  
+  Thanks,
+  Paul
+  [Clipboard]
+  Hi , Canada-based developer here.
+  
+  It sounds like the main challenge is reliable, idempotent wiring between GHL webhooks and the HeyGen API: mapping GHL variables into HeyGen's video/voice/animation payloads, handling async processing, and writing the returned asset URL back to the contact record. I've integrated third‑party media APIs into CRM workflows before (webhook -> Node.js lambda -> CRM update) and kept retries and logging simple and maintainable.
+  
+  Plan (high level): implement a small webhook handler (Node.js or Python) that validates incoming GHL payloads, posts to HeyGen, polls/receives the finished URL, then updates the GHL contact. I'll document setup and include example webhook configs.
+  
+  A couple quick questions:
+  1. Do you want the handler to live as a small hosted function (Vercel/Lambda) or inside your existing infra?
+  2. Any specific GHL contact fields or templates I should use for storing/sending the asset?
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Ctrl]a[Bk]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  1
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [->][->][<-][ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/api-integration/GHL-HeyGen-API-Integration/details
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  GHL-HeyGen API Integration
+  
+  c
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  
+  United States
+  [LMB]
+  [Clipboard]
+  United States
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $500.00 USD
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:38:16  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:38:16  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:38:17  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Что произошло:
+  
+  Счётчик Яндекс - хорошо, что уточнили. Теперь понятно, что плагин установлен.
+  Главная страница и Каталог - проблема в том, что эти страницы используют кастомные PHP-шаблоны, а не стандартный редактор WordPress. Поэтому кнопки "Редактировать" нет - это не обычные страницы.
+  Решение для добавления SEO-текстов
+  Добавлю специальные поля в WordPress Customizer, где вы сможете добавлять SEO-тексты для главной страницы и каталога:
+  [Clipboard]
+  Готово! Добавил специальные поля для SEO-текстов.
+  
+  Как добавить SEO-тексты теперь
+  Для главной страницы:
+  Зайдите в админку WordPress
+  Перейдите: Внешний вид → Настроить
+  Откройте раздел «Контент сайта»
+  Найдите новый раздел «Главная — SEO текст (низ страницы)»
+  Заполните поля:
+  Заголовок SEO-текста - заголовок секции
+  SEO-текст - сам текст (поддерживает HTML)
+  Нажмите «Опубликовать»
+  Текст появится внизу главной страницы перед подвалом.
+  
+  Для страницы каталога:
+  Зайдите в админку WordPress
+  Перейдите: Внешний вид → Настроить
+  Откройте раздел «Контент сайта»
+  Найдите новый раздел «Каталог — SEO текст (низ страницы)»
+  Заполните поля:
+  Заголовок SEO-текста - заголовок секции
+  SEO-текст - сам текст (поддерживает HTML)
+  Нажмите «Опубликовать»
+  Текст появится внизу страницы каталога перед подвалом.
+  
+  По счётчику Яндекс
+  Спасибо за уточнение. Теперь понятно, что счётчик установлен через плагин. Рекомендую проверить в Яндекс.Метрика, какой счётчик сейчас собирает данные, и оставить только один активный.
+  
+  
+  
+  Feedback submitted
+  
+  
+  
+  
+  
+  Command Awaiting Approval
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  [Clipboard]
+  wp-admin
+  [LMB]
+
+--- WINDOW  2026/07/28 14:41:34  [chrome.exe] Elegant Squarespace Research Site | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:41:41  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:41:42  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:42:12  [chrome.exe] Modern Branded Login Site QUICKLY | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:42:16  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 14:42:16  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Customize
+  [Clipboard]
+  Где найти раздел "Настроить" (Customize):
+  
+  Зайдите в админку WordPress
+  В левом меню найдите «Внешний вид» (Appearance)
+  Нажмите на «Внешний вид» - откроется подменю
+  В подменю выберите «Настроить» (Customize)
+  Или альтернативный способ:
+  
+  Откройте ваш сайт в браузере
+  В верхней панели админки (чёрная полоса сверху) нажмите «Настроить» (Customize)
+  После этого откроется панель настройки с левой стороны, где будет раздел «Контент сайта» с новыми полями для SEO-текстов.
+  [Clipboard]
+  Готово! Создал простую страницу для редактирования SEO-текстов.
+  
+  Как добавить SEO-тексты теперь
+  Зайдите в админку WordPress
+  В левом меню найдите новый пункт «SEO Тексты» (иконка страницы с карандашом)
+  Нажмите на «SEO Тексты»
+  Откроется страница с двумя секциями:
+  Главная страница - заголовок и текст для главной
+  Страница каталога - заголовок и текст для каталога
+  Заполните нужные поля
+  Нажмите «Сохранить»
+  Текст появится внизу соответствующей страницы перед подвалом.
+  
+  Это намного проще, чем Customizer - прямая страница в админке без лишних шагов.
+  
+  
+  
+  Feedback submitted
+  
+  
+  
+  
+  
+  Command Awaiting Approval
+  
+  
+  [Clipboard]
+  3. По поводу добавления текста. Следую вашему руководству для главной
+  страницы, на странице редактора нет кнопки редактировать, только кнопка
+  "Вернуться к редактору WordPress", при нажатии на которую высвечивается
+  предупреждающее окно (скриншоты 1, 2, 3 во вложении).
+  
+  4. Со страницей каталог аналогичная проблема (Скриншот 4). Через
+  описание категорий товаров редакция не подходит, так как текст должен
+  быть на общей странице "каталог", без деления на категории.
+  [Clipboard]
+  3. По поводу добавления текста. Следую вашему руководству для главной
+  страницы, на странице редактора нет кнопки редактировать, только кнопка
+  "Вернуться к редактору WordPress", при нажатии на которую высвечивается
+  предупреждающее окно (скриншоты 1, 2, 3 во вложении).
+  
+  4. Со страницей каталог аналогичная проблема (Скриншот 4). Через
+  описание категорий товаров редакция не подходит, так как текст должен
+  быть на общей странице "каталог", без деления на категории.
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:58:51  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:58:52  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  I heard some learns from boss
+  [Clipboard]
+  Please send me precise guidelines on how to edit the homepage and catalog pages.
+  [Clipboard]
+  [7/29/2026 5:07 AM] Codemaster: as long as you work with me, you will not be kicked
+  [7/29/2026 5:07 AM] Codemaster: throw unnecessary thoughts
+  [Clipboard]
+  We saw that you applied to our AI Model Training projects as well as our academic program.
+  
+  
+  
+  We have reviewed your profile and would like to invite you to a quick 20-minute call to help you move forward in the application process and answer any questions you may have about the program.
+  
+  
+  
+  Please let me know what day and time work best for you for a short video call.
+  
+  
+  
+  Looking forward to your response.
+  [Clipboard]
+  We saw that you applied to our AI Model Training projects as well as our academic program.
+  
+  
+  
+  We have reviewed your profile and would like to invite you to a quick 20-minute call to help you move forward in the application process and answer any questions you may have about the program.
+  
+  
+  
+  Please let me know what day and time work best for you for a short video call.
+  
+  
+  
+  Looking forward to your response.
+  [LMB]
+  [Clipboard]
+  Thank you for inviting me to the interview. I am available to talk anytime tomorrow Central Time. Please send me the interview link.
+  [Clipboard]
+  I can send you 100 pictures like this.
+  [Clipboard]
+  It's cartoonish
+  [Clipboard]
+  Точные инструкции по редактированию страниц
+  
+  Что такое "SEO Тексты"
+  Это новая страница в админке для добавления SEO-текстов внизу страниц (перед подвалом). Это не для редактирования основного контента страниц.
+  
+  Как редактировать ГЛАВНУЮ страницу
+  Основной контент (шапка, преимущества, секции):
+  Зайдите в админку WordPress
+  В левом меню выберите «Внешний вид» → «Настроить»
+  Найдите раздел «Контент сайта»
+  Там вы можете редактировать:
+  Главная — Шапка (Hero) - заголовки, подзаголовок, кнопка
+  Главная — Преимущества - текст карточек
+  Главная — О водороде - все тексты секции
+  Главная — Воздействие на организм - карточки эффектов
+  Главная — Показания - список показаний
+  Главная — Об основателе - текст о докторе
+  Главная — Продукция - изображения
+  Главная — Отзывы - заголовки
+  SEO-текст внизу страницы:
+  В левом меню выберите «SEO Тексты»
+  Заполните секцию «Главная страница»
+  Нажмите «Сохранить»
+  Как редактировать страницу КАТАЛОГА
+  Основной контент:
+  Страница каталога использует кастомный шаблон и отображает товары автоматически. Основной контент редактируется через:
+  
+  Товары → Все товары - для редактирования товаров
+  Товары → Категории - для редактирования категорий
+  SEO-текст внизу страницы:
+  В левом меню выберите «SEO Тексты»
+  Заполните секцию «Страница каталога»
+  Нажмите «Сохранить»
+  Как редактировать ДРУГИЕ страницы
+  Обычные страницы (О водороде, О компании, Контакты и т.д.):
+  В левом меню выберите «Страницы» → «Все страницы»
+  Нажмите «Редактировать» на нужной странице
+  Редактируйте содержимое
+  Нажмите «Обновить»
+  Резюме
+  Основной контент главной → Внешний вид → Настроить → Контент сайта
+  SEO-текст главной → SEO Тексты → Главная страница
+  Товары каталога → Товары → Все товары
+  SEO-текст каталога → SEO Тексты → Страница каталога
+  Обычные страницы → Страницы → Все страницы → Редактировать
+  
+  
+  Feedback submitted
+  
+  
+  
+  
+  
+  Command Awaiting Approval
+  
+  
+  
+  
+  
+  
+  [Clipboard]
+  ?????? ?????????? ?? ?????????????? ???????
+  
+  ??? ????? "SEO ??????"
+  ??? ????? ???????? ? ??????? ??? ?????????? SEO-??????? ????? ??????? (????? ????????). ??? ?? ??? ?????????????? ????????? ???????? ???????.
+  
+  ??? ????????????? ??????? ????????
+  ???????? ??????? (?????, ????????????, ??????):
+  ??????? ? ??????? WordPress
+  ? ????? ???? ???????? «??????? ???» ? «?????????»
+  ??????? ?????? «??????? ?????»
+  ??? ?? ?????? ?????????????:
+  ??????? — ????? (Hero) - ?????????, ????????????, ??????
+  ??????? — ???????????? - ????? ????????
+  ??????? — ? ???????? - ??? ?????? ??????
+  ??????? — ??????????? ?? ???????? - ???????? ????????
+  ??????? — ????????? - ?????? ?????????
+  ??????? — ?? ?????????? - ????? ? ???????
+  ??????? — ????????? - ???????????
+  ??????? — ?????? - ?????????
+  SEO-????? ????? ????????:
+  ? ????? ???? ???????? «SEO ??????»
+  ????????? ?????? «??????? ????????»
+  ??????? «?????????»
+  ??? ????????????? ???????? ????????
+  ???????? ???????:
+  ???????? ???????? ?????????? ????????? ?????? ? ?????????? ?????? ?????????????. ???????? ??????? ????????????? ?????:
+  
+  ?????? ? ??? ?????? - ??? ?????????????? ???????
+  ?????? ? ????????? - ??? ?????????????? ?????????
+  SEO-????? ????? ????????:
+  ? ????? ???? ???????? «SEO ??????»
+  ????????? ?????? «???????? ????????»
+  ??????? «?????????»
+  ??? ????????????? ?????? ????????
+  ??????? ???????? (? ????????, ? ????????, ???????? ? ?.?.):
+  ? ????? ???? ???????? «????????» ? «??? ????????»
+  ??????? «?????????????» ?? ?????? ????????
+  ???????????? ??????????
+  ??????? «????????»
+  ??????
+  ???????? ??????? ??????? ? ??????? ??? ? ????????? ? ??????? ?????
+  SEO-????? ??????? ? SEO ?????? ? ??????? ????????
+  ?????? ???????? ? ?????? ? ??? ??????
+  SEO-????? ???????? ? SEO ?????? ? ???????? ????????
+  ??????? ???????? ? ???????? ? ??? ???????? ? ?????????????
+  
+  
+  Feedback submitted
+  
+  
+  
+  
+  
+  Command Awaiting Approval
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  [Clipboard]
+  Точные инструкции по редактированию страниц
+  
+  Что такое "SEO Тексты"
+  Это новая страница в админке для добавления SEO-текстов внизу страниц (перед подвалом). Это не для редактирования основного контента страниц.
+  
+  Как редактировать ГЛАВНУЮ страницу
+  Основной контент (шапка, преимущества, секции):
+  Зайдите в админку WordPress
+  В левом меню выберите «Внешний вид» → «Настроить»
+  Найдите раздел «Контент сайта»
+  Там вы можете редактировать:
+  Главная — Шапка (Hero) - заголовки, подзаголовок, кнопка
+  Главная — Преимущества - текст карточек
+  Главная — О водороде - все тексты секции
+  Главная — Воздействие на организм - карточки эффектов
+  Главная — Показания - список показаний
+  Главная — Об основателе - текст о докторе
+  Главная — Продукция - изображения
+  Главная — Отзывы - заголовки
+  SEO-текст внизу страницы:
+  В левом меню выберите «SEO Тексты»
+  Заполните секцию «Главная страница»
+  Нажмите «Сохранить»
+  Как редактировать страницу КАТАЛОГА
+  Основной контент:
+  Страница каталога использует кастомный шаблон и отображает товары автоматически. Основной контент редактируется через:
+  
+  Товары → Все товары - для редактирования товаров
+  Товары → Категории - для редактирования категорий
+  SEO-текст внизу страницы:
+  В левом меню выберите «SEO Тексты»
+  Заполните секцию «Страница каталога»
+  Нажмите «Сохранить»
+  Как редактировать ДРУГИЕ страницы
+  Обычные страницы (О водороде, О компании, Контакты и т.д.):
+  В левом меню выберите «Страницы» → «Все страницы»
+  Нажмите «Редактировать» на нужной странице
+  Редактируйте содержимое
+  Нажмите «Обновить»
+  Резюме
+  Основной контент главной → Внешний вид → Настроить → Контент сайта
+  SEO-текст главной → SEO Тексты → Главная страница
+  Товары каталога → Товары → Все товары
+  SEO-текст каталога → SEO Тексты → Страница каталога
+  Обычные страницы → Страницы → Все страницы → Редактировать
+  
+  
+  Feedback submitted
+  
+  
+  
+  
+  
+  Command Awaiting Approval
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  [Clipboard]
+  I got better now, I will work
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 15:20:41  [chrome.exe] Trucking Insurance Certificate Automation | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 15:20:45  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 15:20:46  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 15:20:52  [chrome.exe] Multi-Page Checkout Integration | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Here is the revised version focused on fixing the existing site and checkout:
+  
+  I need an experienced Nuxt.js developer to audit and fix bugs across an existing website, with priority given to the checkout process.
+  
+  The checkout is already built. This is not a new checkout build. The work involves identifying the root causes of current issues, fixing broken behavior, improving reliability, and making sure the full checkout flow works correctly on desktop and mobile.
+  
+  Scope of work:
+  
+  Review the existing Nuxt.js codebase
+  
+  Find and fix checkout bugs
+  
+  Test the complete cart and checkout flow
+  
+  Fix navigation, validation, state, pricing, and order submission issues
+  
+  Resolve responsive design problems
+  
+  Improve error handling and checkout recovery
+  
+  Check for client and server inconsistencies
+  
+  Fix security or data handling problems
+  
+  Avoid unnecessary rewrites or changes that could create new bugs
+  
+  Requirements:
+  
+  Strong Nuxt.js and Vue.js experience
+  
+  Experience debugging existing production applications
+  
+  Experience with carts and multi-step checkout systems
+  
+  Knowledge of API integrations and server-side validation
+  
+  Strong understanding of web security
+  
+  Ability to trace bugs to the root cause instead of applying temporary patches
+  
+  Experience with automated testing is preferred
+  
+  Please provide examples of similar Nuxt.js debugging or checkout work. Include how you diagnose production issues, how you test your fixes, your availability, and an estimated timeline after reviewing the codebase.
+  c
+  [Clipboard]
+  Customize
+  [Clipboard]
+  Here is the revised version focused on fixing the existing site and checkout:
+  
+  I need an experienced Nuxt.js developer to audit and fix bugs across an existing website, with priority given to the checkout process.
+  
+  The checkout is already built. This is not a new checkout build. The work involves identifying the root causes of current issues, fixing broken behavior, improving reliability, and making sure the full checkout flow works correctly on desktop and mobile.
+  
+  Scope of work:
+  
+  Review the existing Nuxt.js codebase
+  
+  Find and fix checkout bugs
+  
+  Test the complete cart and checkout flow
+  
+  Fix navigation, validation, state, pricing, and order submission issues
+  
+  Resolve responsive design problems
+  
+  Improve error handling and checkout recovery
+  
+  Check for client and server inconsistencies
+  
+  Fix security or data handling problems
+  
+  Avoid unnecessary rewrites or changes that could create new bugs
+  
+  Requirements:
+  
+  Strong Nuxt.js and Vue.js experience
+  
+  Experience debugging existing production applications
+  
+  Experience with carts and multi-step checkout systems
+  
+  Knowledge of API integrations and server-side validation
+  
+  Strong understanding of web security
+  
+  Ability to trace bugs to the root cause instead of applying temporary patches
+  
+  Experience with automated testing is preferred
+  
+  Please provide examples of similar Nuxt.js debugging or checkout work. Include how you diagnose production issues, how you test your fixes, your availability, and an estimated timeline after reviewing the codebase.
+  [Clipboard]
+  === INTERNAL ESTIMATE ===
+  Estimated Hours: 40-80
+  Estimated Budget: $1,200-$3,200 USD
+  Estimated Timeline: 1-3 weeks
+  Confidence: Medium
+  
+  === PROPOSAL ===
+  Hi — Canada-based developer here. I'm available for a video call if you'd like to walk through the checkout behavior live.
+  
+  You need a focused Nuxt.js/Vue.js audit that finds root causes in an existing multi-step checkout and restores reliable cart/checkout behavior across desktop and mobile. From the description the biggest risks are state/validation inconsistencies, server/client mismatch, and fragile error handling that lets bad states through.
+  
+  I've repaired similar Nuxt checkouts where client-side hydration and race conditions caused incorrect totals and duplicate orders. My approach: reproduce issues, trace state and API calls, fix root causes (not quick patches), add targeted tests, and verify flow on mobile/desktop and staging.
+  
+  A couple quick questions:
+  1. Do you have a staging environment and server logs I can access?
+  2. Any third-party payment or cart services I should be aware of?
+  
+  Happy to start with a short call. Thanks,
+  Paul
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I'm available for a video call if you'd like to walk through the checkout behavior live.
+  
+  You need a focused Nuxt.js/Vue.js audit that finds root causes in an existing multi-step checkout and restores reliable cart/checkout behavior across desktop and mobile. From the description the biggest risks are state/validation inconsistencies, server/client mismatch, and fragile error handling that lets bad states through.
+  
+  I've repaired similar Nuxt checkouts where client-side hydration and race conditions caused incorrect totals and duplicate orders. My approach: reproduce issues, trace state and API calls, fix root causes (not quick patches), add targeted tests, and verify flow on mobile/desktop and staging.
+  
+  A couple quick questions:
+  1. Do you have a staging environment and server logs I can access?
+  2. Any third-party payment or cart services I should be aware of?
+  
+  Happy to start with a short call. 
+  Thanks,
+  Paul
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I'm available for a video call if you'd like to walk through the checkout behavior live.
+  
+  You need a focused Nuxt.js/Vue.js audit that finds root causes in an existing multi-step checkout and restores reliable cart/checkout behavior across desktop and mobile. From the description the biggest risks are state/validation inconsistencies, server/client mismatch, and fragile error handling that lets bad states through.
+  
+  I've repaired similar Nuxt checkouts where client-side hydration and race conditions caused incorrect totals and duplicate orders. My approach: reproduce issues, trace state and API calls, fix root causes (not quick patches), add targeted tests, and verify flow on mobile/desktop and staging.
+  
+  A couple quick questions:
+  1. Do you have a staging environment and server logs I can access?
+  2. Any third-party payment or cart services I should be aware of?
+  
+  Happy to start with a short call. 
+  Thanks,
+  Paul
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I'm available for a video call if you'd like to walk through the checkout behavior live.
+  
+  You need a focused Nuxt.js/Vue.js audit that finds root causes in an existing multi-step checkout and restores reliable cart/checkout behavior across desktop and mobile. From the description the biggest risks are state/validation inconsistencies, server/client mismatch, and fragile error handling that lets bad states through.
+  
+  I've repaired similar Nuxt checkouts where client-side hydration and race conditions caused incorrect totals and duplicate orders. My approach: reproduce issues, trace state and API calls, fix root causes (not quick patches), add targeted tests, and verify flow on mobile/desktop and staging.
+  
+  A couple quick questions:
+  1. Do you have a staging environment and server logs I can access?
+  2. Any third-party payment or cart services I should be aware of?
+  
+  Happy to start with a short call. 
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
