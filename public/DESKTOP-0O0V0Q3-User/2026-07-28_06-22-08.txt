@@ -1,0 +1,478 @@
+﻿  c
+  [Clipboard]
+  view
+  [LMB]
+
+--- WINDOW  2026/07/28 05:22:32  [chrome.exe] Instances | EC2 | ca-west-1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 05:22:33  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 05:22:33  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 05:22:42  [chrome.exe] Web-based Manufacturing Software Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 05:22:46  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 05:22:46  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 05:26:40  [chrome.exe] Shopify Digital Goods Store Setup | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 05:26:50  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 05:28:59  [chrome.exe] (1) Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 05:37:26  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 05:37:31  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 05:37:32  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 05:37:42  [chrome.exe] PCB Design for High-Voltage DC-DC Converter | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I need a schematic and PCB design for 2 PCB boards using Vicor DC-DC power chips used in industrial equipment with a 700V DC input voltage at 5000W, output 24V 2560W. Vicor BCM VIA package and DCM chips already choosen.
+  
+  Board 1- 700V DC in, 2x Vicor DCM Via package chips in parallel , 42V DC 3600W output
+  
+  Board 2- 42V DC 3600w input, Array of 8x Vicor DCM chips in parallel to output 24V 2560W
+  
+  Key Design Requirements:
+  - Size constraints (limited width)
+  - Thermal management
+  - High current /voltage handling
+  
+  Ideal Skills and Experience:
+  - Experience in designing PCBs for high-voltage applications
+  - Strong understanding of thermal management techniques
+  - Ability to design for high current/voltage handling
+  - Familiarity with Vicor power modules and their application
+  - designing PCB board for sealed enclosures in regards to thermal management
+  
+  Please provide relevant experience and examples in your bid.
+  
+  Schematic will be sent to Vicor for them to approve before PCB design commences.
+  
+  One off project- minimum quantity.
+  cc
+  [Clipboard]
+  Hi, I'm Paul from Canada.
+  
+  I have experience designing high-power power electronics, including high-voltage PCB layouts, multi-kilowatt DC-DC power stages, thermal design, creepage/clearance compliance, heavy copper layouts, current sharing of parallel power modules, and designs intended for enclosed industrial systems. I also understand the importance of following Vicor layout recommendations to maximize efficiency, reliability, and approval success.
+  
+  The design will include production-ready schematics, PCB layout, component selection where required, thermal considerations, and design documentation. I'll ensure the layout is optimized for high-current paths, EMI reduction, manufacturability, and effective heat dissipation before the design is submitted to Vicor for review.
+  
+  I have two technical questions:
+  
+  1. Which PCB CAD tool do you require for the deliverables (Altium Designer, KiCad, OrCAD, etc.), and are Vicor's recommended reference layouts available for your selected BCM/DCM part numbers?
+  2. Do you have target limits for PCB dimensions, copper weight, layer count, and cooling method (baseplate conduction, heatsink, or cold plate) within the sealed enclosure?
+  
+  Looking forward to discussing in detail.
+  Thank you,
+  Paul
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  10
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  4000
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/thermal-analysis/PCB-Design-for-High-Voltage/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  PCB Design for High-Voltage DC-DC Converter
+  
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Canada
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $4,000.00 CAD
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 05:40:20  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 05:40:20  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 05:41:39  [chrome.exe] PCB Design for High-Voltage DC-DC Converter | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+   need a schematic and PCB design for 2 PCB boards using Vicor DC-DC power chips used in industrial equipment with a 700V DC input voltage at 5000W, output 24V 2560W. Vicor BCM VIA package and DCM chips already choosen.
+  
+  Board 1- 700V DC in, 2x Vicor DCM Via package chips in parallel , 42V DC 3600W output
+  
+  Board 2- 42V DC 3600w input, Array of 8x Vicor DCM chips in parallel to output 24V 2560W
+  
+  Key Design Requirements:
+  - Size constraints (limited width)
+  - Thermal management
+  - High current /voltage handling
+  
+  Ideal Skills and Experience:
+  - Experience in designing PCBs for high-voltage applications
+  - Strong understanding of thermal management techniques
+  - Ability to design for high current/voltage handling
+  - Familiarity with Vicor power modules and their application
+  - designing PCB board for sealed enclosures in regards to thermal management
+  
+  Please provide relevant experience and examples in your bid.
+  
+  Schematic will be sent to Vicor for them to approve before PCB design commences.
+  
+  One off project- minimum quantity.
+  cc
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 05:42:45  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 05:42:46  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Yeah bro thanks for your asking
+  I am very busy  now
+  I will message you later.
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 05:44:45  [chrome.exe] PCB Design for High-Voltage DC-DC Converter | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 05:44:56  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 05:44:57  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 05:48:26  [chrome.exe] Python Developer for Quick Streamlit App Build | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 05:48:30  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 05:48:30  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  https://blindtyping.com/test
+
+--- WINDOW  2026/07/28 05:55:43  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 05:55:44  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 05:58:57  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 05:58:58  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 06:05:26  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 06:05:27  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 06:12:04  [chrome.exe] PCB Design for High-Voltage DC-DC Converter | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 06:12:16  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 06:12:19  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 06:12:23  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 06:12:24  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 06:12:25  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 06:12:59  [chrome.exe] Enterprise Software Licensing Opportunity | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Freelancer Enterprise is **Seeking Enterprise Software Owners – Repository Licensing Opportunity**
+  
+  Do you own a **large, proprietary software application** that you've built yourself or with your team?
+  
+  We're looking to connect with software developers, startups, and technology companies interested in licensing their software repositories for technical evaluation and AI research.
+  
+  ### We're looking for repositories that include:
+  
+  * 50,000+ lines of source code
+  * At least 5 meaningful Git commits
+  * At least 5 meaningful Pull Requests (PRs)
+  * Complete, executable application (not just sample code)
+  * Test cases and technical documentation
+  * Enterprise-grade architecture and development history
+  
+  ### Examples of suitable applications:
+  
+  * Enterprise Applications
+  * SaaS Platforms
+  * CRM / ERP Systems
+  * AI / ML Platforms
+  * FinTech Solutions
+  * Healthcare Platforms
+  * E-commerce Applications
+  * Mobile & Desktop Applications
+  * APIs & Microservices
+  * DevOps & Data Engineering Platforms
+  * Networking & Security Software
+  * Developer Tools
+  * Large Production Systems
+  
+  ### Important Eligibility Requirements:
+  
+  * You must own **100% of the intellectual property (IP)**.
+  * The repository **must not** be open source or contain third-party proprietary code that you do not own.
+  * The application should represent real-world software engineering with a verifiable Git history.
+  
+  If your repository meets these requirements and you're interested in licensing it, please send me:
+  
+  * A brief description of your application
+  * Primary programming language(s)
+  * Approximate Lines of Code (LoC)
+  * Number of commits and Pull Requests
+  * Industry/domain
+  * Your expected licensing fee
+  
+  If your repository is shortlisted, our engineering team will conduct a technical, architecture, documentation, and IP review before proceeding.
+  
+  To confirm you've read the entire post, please begin your application with the phrase: "Repository Ready Today". Applications without this phrase will not be considered.
+  cc
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 06:14:53  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 06:15:00  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 06:15:01  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 06:15:01  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 06:15:02  [chrome.exe] (1) Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 06:15:10  [chrome.exe] (1) Emili L. Profile | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 06:15:17  [chrome.exe] (1) Full-Stack CRM Developer for Digital Agency | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Full-Stack CRM Developer for Digital Ag
+  c
+  [Clipboard]
+  chat
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 06:18:45  [chrome.exe] (1) Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 06:18:46  [chrome.exe] (1) Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 06:18:54  [chrome.exe] (1) Full-Stack CRM Developer for Digital Agency | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+   am the founder of a London-based digital product promotion agency, and I am looking for an experienced Full-Stack CRM Developer to design, build, and integrate a custom CRM/ERP system for our operations.
+  
+  Our goal is to streamline client onboarding, sales pipelines, task triggers, and campaign reporting into one seamless, automated solution.
+  
+  Key Responsibilities:
+  
+  Architecture & Development: Design and deploy a scalable custom CRM or low-code/full-stack management system tailored to agency client workflows.
+  
+  API Integrations: Connect the system with external web forms, landing pages, email marketing platforms, and payment portals via custom APIs, Make, or Zapier.
+  
+  Automated Workflows: Set up automated triggers, status transitions, and real-time team/client notification systems.
+  
+  Dashboards & Reporting: Create intuitive client and management dashboards to track project statuses, metrics, and deliverables.
+  
+  Documentation & Handoff: Provide clean system documentation along with a video walkthrough for our team.
+  
+  Requirements:
+  
+  Proven track record in custom CRM/ERP development and database design.
+  
+  Strong proficiency in modern tech stacks, API integrations, and workflow automation.
+  
+  Clear English communication and a structured, independent work style.
+  
+  Willingness to track hours transparently through the Hubstaff app.
+  
+  Budget & Timeline:
+  
+  Budget: $40 – $60 / hour (or fixed milestones equivalent to $3,500 – $5,000 based on agreed scope).
+  
+  Estimated Duration: 3 – 5 weeks, with potential for ongoing weekly support and feature updates.
+  
+  Compliance:
+  All communication, milestones, time tracking, and payments will strictly follow Hubstaff guidelines and remain within the Hubstaff platform.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/28 06:20:55  [chrome.exe] Full-Stack CRM Developer for Digital Agency | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Hello, I’ve reviewed your portfolio and would love to invite you to participate in my project. Could you share a bit about your experience with similar initiatives? I’d also appreciate it if you could send over a few relevant e-commerce websites you’ve previously worked on.
+  Additionally, please let me know your current bandwidth and how many hours per week you can dedicate to this project. Once you’ve answered these questions, I’ll share the full project brief with you. After you’ve had a chance to review it and we discuss your feedback, we can schedule a quick call directly on the platform.
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 06:21:57  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 06:22:03  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 06:22:04  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
