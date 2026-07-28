@@ -1,0 +1,543 @@
+﻿  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 13:50:56  [AnyDesk.exe] AnyDesk
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 13:50:57  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I went with someone else. Thank you though. For future projects, it should not be like pulling teeth to get you to say yes or no to something a potential project owner is asking you. Thank you again and good luck.
+  c
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  Just to confirm, for the initial testing I will receive a spreadsheet with each bug, reproduction steps, expected vs. actual result, severity, device/OS, and screenshots or videos. Also, please include a summary of the major workflows you tested (Admin, Teacher, Parent). If that sounds good, I’m happy to move forward.
+  Okay, shall we get started?
+  C
+  Yes, I’d like to move forward. Before I award the project, can you please confirm that the spreadsheet and bug report will be included as part of the milestones?
+  I’m not trying to be difficult, I just need a direct answer to that question. Feels like we’re beating around the bush a bit.
+  [Ctrl]c
+  [LMB]
+  [Clipboard]
+  Rolando
+  
+   
+  
+  Now that our admissions team has received your application, we will analyze all the data you have shared with us and will send you the result by email as soon as possible.
+  
+   
+  
+  In the meantime, we invite you to follow us on social media where we share news from our community:
+  
+  LinkedIn	LinkedIn
+  Instagram	Instagram
+  If you have any questions, you can write to us at: admissions@anyoneai.com
+  
+  Greetings!
+  [Clipboard]
+  +92 31 0513 7606
+  shahrukf1998@gmail.com
+  [Clipboard]
+  +92 30 4890 7184
+  dev.mohsankhan@gmail.com
+  [Clipboard]
+  1. По поводу счётчика уточнила информацию, он установлен через плагин -
+  https://skrinshoter.ru/sciQ1do3rFj
+  
+  2. Тайтл на главной странице наш программист обновил.
+  
+  3. По поводу добавления текста. Следую вашему руководству для главной
+  страницы, на странице редактора нет кнопки редактировать, только кнопка
+  "Вернуться к редактору WordPress", при нажатии на которую высвечивается
+  предупреждающее окно (скриншоты 1, 2, 3 во вложении).
+  
+  4. Со страницей каталог аналогичная проблема (Скриншот 4). Через
+  описание категорий товаров редакция не подходит, так как текст должен
+  быть на общей странице "каталог", без деления на категории.
+  
+  [Clipboard]
+  Как редактировать контент на странице "Главная"
+  1. Редактирование через WordPress Customizer (рекомендуется)
+  1.Зайдите в админку WordPress
+  2.Перейдите: Внешний вид → Настроить
+  3.Откройте раздел «Контент сайта»
+  4.Там вы найдете все редактируемые секции:
+  Главная — Шапка (Hero) - заголовок, подзаголовок, кнопка
+  Главная — Преимущества - текст карточек
+  Главная — О водороде - все тексты секции
+  Главная — Воздействие на организм - карточки эффектов
+  Главная — Показания - список показаний
+  Главная — Об основателе - текст о докторе
+  Главная — Продукция - изображения
+  Главная — Отзывы - заголовки
+  2. Добавление SEO-текста внизу главной страницы
+  1.Зайдите в админку WordPress
+  2.Перейдите: Страницы → Все страницы
+  3.Найдите страницу "Главная" (обычно она с ID или slug "front-page")
+  4.Нажмите "Редактировать"
+  5.В редакторе добавьте SEO-текст в конец содержимого
+  6.Нажмите "Обновить"
+  [Clipboard]
+  Hi Yasin Varan,
+  Congratulations on officially starting your new engagement with Toptal! Now that your engagement is underway, we wanted to share some important information with you.
+  Key Contacts
+  The active job card in the platform shows the latest information about your engagement, as well as contact information for key members of the Toptal team who are here to support you. Here are two team members you will meet:
+  The Matching Operations Coordinator (MOC) provides day-to-day administrative and process support for your engagement, and should be your first point of contact if you need help or have questions. They can assist you with scheduling, timecards, billing, and more.
+  The Account Manager (AM) manages Toptal's relationship with the client and can support your relationship with them. Your MOC may bring in the AM to help troubleshoot an issue, answer questions about the engagement, or chat about further opportunities with the client.
+  For other support needs, please reach out to the Toptal Help Center (https://www.toptal.com/track/ZERSeHphd0FwVGtzaXYxK2RPdktPUmVjY1hocnJROG81L05nMTlLRTBPRytGY0tIelhBUlhUcmUzVGpXUGtIQXNkYW53L0JlR0JLQnpjWklNSkpuSlVqaFkvYTM1OVB5eGh1KzlPbFFmK3lrMnd1N1BTMFQvN1FYclVvemtCeEh0Rm8relkxSzl6ditzN2NUN0hUUjhkU29TY3VqZnpCUmUrRHRhTytOd0VLbDlBSzVSWW4vbjc2Sm9SdUVIUG5FdUFpdGlad0dRcDc4OEZDZHA1eWRJUnIzbGlZL2Q4MTlRVmZ2Ry9TTi9XanBUTldKVHN5Uk4xR3lzZFVIY3hkTkFOY2YvMkc1YXJWMklWeDBSMG1ua0cwSXpIS3gxMU9LWDF4emRpalF1U2JHcGJJdS9XdU9yTGg0TVYrRlpLQTBzODJoNnpVVG1CRWQ4bTI4citsUjJySEdxQjFwN1hBUVdZZko2bmhESVgxSE9weEMvemorcStLTVQ1N051KzdsLS1YMndYS1JlS0pVNlJ6NTJzdkFkbGxBPT0=--01997d3e69382eeb50cbaa3fda8bfd1860296814).
+  These team members may also reach out to you periodically to check in.
+  Payments
+  If this engagement had a trial, you will receive a “notice of payment” email within 3 business days after the trial is complete. You can expect your payment 20 days after the notice is received. The first non-trial payment will include any remaining days in the current billing cycle. Afterward, payments will be scheduled every two weeks. All payment terms are 20 days net. For queries related to billing or payments, please visit the FAQ page (https://www.toptal.com/track/Mjl5dGw4dk9xN0lzZzFoQit5UnVQZEpUNEFOT2xsOVR4YmUzd3dsWlJtdnYzMlg0djVIUUtRaTMzWnhDWE5uOTIweXAyd3dNbG5Dd3Z2OTZQQ1NiN1VDZ1VUOTQ0KzNYdVdvcUFhWjJCZmdadWlOQUFmcnE0Ull0cHdhMUZhZUJnUTFBVnV4VFZXNndaZmlqU2M3bVE5eXdUcTlYd09Mb2JEUDR5SXdMeityQUVEWE9vbTFxQUF0NlhOVWRhc0Zhd0F4eno1TGVqMk9iSWg3VVFwdkFQQVNhV1pKNDh0MUU1MVlsR2hUbTVIa2pXVEJYaDlDbWgvOEhvSE5tUzlKWjM0bmlLQUdadUNJRTY4NGpDckhURzR4SzRvUE96Z3RselIrd05hT2NsQW1PeWRobi8zaTFxOCtteFlMMGRsUSt1SlRCZ1hlK2ZhazZOYlhQclpNanpucEMwWU40VWVnRzY0NExhMmw5emRiOEhUcXhGVW9CQndiWnYzQUE0V21Jb3NjdEdPS3JWNVl1SjVYSmw5RFRqQT09LS1QYzBVVTFtMHYzQXBtN0t0NDZVYkFBPT0=--01a23519d29fd39e0ce08ebe38943db40b2a1d92) or contact talentpayments@toptal.com.
+  Engagement End
+  It’s important to update the estimated engagement end date on the active job card in the Toptal platform. You can also update this field on the mid-engagement surveys that you will receive from us. Keeping this up to date helps us understand the status of your engagement and will allow us to better match you to upcoming jobs. If you are certain that your engagement will be ending soon, and if the engagement end is not already scheduled, please reach out to your MOC to let them know. Our team will confirm with the client and begin the process of closing the engagement so that you can start looking for your next job with Toptal.
+  Technology Alliances
+  Toptal’s Alliances Team would like to know if you are using any of the following technologies in your current engagement:
+  Amazon Web Services
+  Microsoft Azure
+  Google Cloud Platform
+  [Clipboard]
+  1 343 815 268
+  [Clipboard]
+  +1 (281) 937-4960
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:15:50  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:15:51  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:16:00  [chrome.exe] Whole House Interior Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 14:16:03  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:16:03  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 14:16:09  [chrome.exe] eSIM Sales & Management Platform Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 14:16:13  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:16:14  [chrome.exe] contracts.freelancer.com/contract-potential/access/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb250cmFjdF9yb2xlX3BvdGVudGlhbCI6Mzc3NDI3MywicmVkaXJlY3RfdXJsIjoiaHR0cHM6Ly93d3cuZnJlZWxhbmNlci5jb20vYWpheC9wcm9qZWN0L2NvbnRyYWN0L3ZlcmlmeS5waHA_cHJvamVjdElkPTQwNjExMTkzJmNvbnRyYWN0UG90ZW50aWFsSWQ9MTg4NjMzMiZjb250cmFjdFJvbGVQb3RlbnRpYWxJZD0zNzc0MjczJnJvbGU9RnJlZWxhbmNlciZjdXN0b21Db250cmFjdElkPTMzJnJldHVyblVybD0vcHJvamVjdHMvNDA2MTExOTMuaHRtbCIsImlhdCI6MTc4NTI2OTc3NH0.eilxQO1smCcLDhg4lDGezXBXaGevSUAY9CCh5BSoS3w - Googl
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  53 River Rock Court SE, Calgary, AB, Canada
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:16:29  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:16:31  [chrome.exe] eSIM Sales & Management Platform Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  eSIM Sales & Management Platform Development
+  
+  We are looking for an experienced full-stack development team or freelancer to build a complete eSIM Sales & Management Platform.
+  
+  The project includes:
+  
+  Web Platform
+  iOS & Android Mobile Applications
+  Admin Panel
+  Backend & REST API
+  Multi eSIM Provider API Integrations
+  User Authentication
+  eSIM Package Listing & Purchase
+  QR Code Delivery & Activation
+  Order Management
+  Top-up & Renewal
+  Multi-language & Multi-currency Support
+  AI-powered Features
+  SEO & Marketing Management
+  Affiliate System
+  Analytics & Reporting
+  Secure, Scalable, and Production-Ready Architecture
+  
+  This is a long-term project, and we are looking for a reliable developer or team with strong communication skills and proven experience in complex software projects.
+  
+  The features listed above are only a general summary of the project. Comprehensive documentation has been prepared, covering all technical requirements and the complete project scope. Developers or teams whose previous work and experience meet our expectations will be contacted, and the detailed project document will be shared with them.
+  ccc
+  [Clipboard]
+  === INTERNAL ESTIMATE ===
+  Estimated Hours: 800-1200
+  Estimated Budget: $24,000-$48,000 USD
+  Estimated Timeline: 16-28 weeks
+  Confidence: Medium
+  
+  === PROPOSAL ===
+  Hi — Canada-based developer here. I'm available for a video call if you'd like to walk through the spec.
+  
+  From the summary, the core challenges are reliable multi-provider eSIM integrations (activation, QR delivery, top-ups) and a production-ready backend/REST API that keeps user flows fast and secure across web + mobile. I've built and launched telecom-facing portals and mobile apps with eSIM and third-party provisioning integrations, so I know where hidden edge cases show up: webhook reliability, idempotent order handling, and carrier rate/plan sync.
+  
+  I’d start by stabilizing provider adapters and the activation/order pipeline, then iterate the mobile/web purchase + QR flow. Key technologies to hit first: eSIM provider APIs, QR-based activation, and a secure REST API.
+  
+  A couple of quick questions:
+  1. Do your provider integrations share a common API model or are they all different vendors with bespoke APIs?
+  2. Is there an existing backend to extend, or are we building the API and admin from scratch?
+  
+  Happy to discuss next steps on a call.
+  
+  Thanks,
+  Paul
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I'm available for a video call if you'd like to walk through the spec.
+  
+  From the summary, the core challenges are reliable multi-provider eSIM integrations (activation, QR delivery, top-ups) and a production-ready backend/REST API that keeps user flows fast and secure across web + mobile. I've built and launched telecom-facing portals and mobile apps with eSIM and third-party provisioning integrations, so I know where hidden edge cases show up: webhook reliability, idempotent order handling, and carrier rate/plan sync.
+  
+  I’d start by stabilizing provider adapters and the activation/order pipeline, then iterate the mobile/web purchase + QR flow. Key technologies to hit first: eSIM provider APIs, QR-based activation, and a secure REST API.
+  
+  A couple of quick questions:
+  1. Do your provider integrations share a common API model or are they all different vendors with bespoke APIs?
+  2. Is there an existing backend to extend, or are we building the API and admin from scratch?
+  
+  Happy to discuss next steps on a call.
+  
+  Thanks,
+  Paul
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I'm available for a video call if you'd like to walk through the spec.
+  
+  From the summary, the core challenges are reliable multi-provider eSIM integrations (activation, QR delivery, top-ups) and a production-ready backend/REST API that keeps user flows fast and secure across web + mobile. I've built and launched telecom-facing portals and mobile apps with eSIM and third-party provisioning integrations, so I know where hidden edge cases show up: webhook reliability, idempotent order handling, and carrier rate/plan sync.
+  
+  I’d start by stabilizing provider adapters and the activation/order pipeline, then iterate the mobile/web purchase + QR flow. Key technologies to hit first: eSIM provider APIs, QR-based activation, and a secure REST API.
+  
+  A couple of quick questions:
+  1. Do your provider integrations share a common API model or are they all different vendors with bespoke APIs?
+  2. Is there an existing backend to extend, or are we building the API and admin from scratch?
+  
+  Happy to discuss next steps on a call.
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hope you are doing well,
+  
+  Position Overview
+  We are looking for a Senior Node.js Backend Engineer with strong expertise in Node.js, JavaScript, AWS Serverless, and API Development to design and build scalable Backend-for-Frontend (BFF) services that support modern web and mobile applications.
+  
+  This role is ideal for a highly skilled engineer passionate about developing secure, high-performance backend solutions, leveraging cloud-native technologies, and driving engineering excellence through automation and best practices.
+  
+  Key Responsibilities
+  Design, develop, and maintain scalable Backend-for-Frontend (BFF) services using Node.js. 
+  Build, optimize, and support RESTful and GraphQL APIs for web and mobile applications. 
+  Develop and deploy serverless solutions using AWS services, including AWS Lambda. 
+  Implement and maintain CI/CD pipelines and Infrastructure as Code (IaC) practices. 
+  Ensure application scalability, reliability, security, observability, and performance. 
+  Apply caching strategies and performance optimization techniques to improve system efficiency. 
+  
+  Required Qualifications
+  5+ years of experience in software development. 
+  Strong hands-on experience with Node.js and JavaScript (ES6+). 
+  Proven expertise in designing, developing, and maintaining REST APIs. 
+  Hands-on experience with AWS Lambda or similar serverless technologies. 
+  Experience building and supporting scalable API-driven architectures. 
+  Experience implementing CI/CD pipelines using GitLab CI/CD and/or GitHub Actions. 
+  Strong understanding of caching mechanisms and backend performance optimization. 
+  Experience developing secure, scalable, and high-performing backend services. 
+  
+  Mandatory Requirement
+  ✅ Advanced English proficiency is required.
+  
+  Location
+  📍 Hybrid role available in any of the following locations:
+  Guadalajara 
+  Mexico City (CDMX) 
+  Monterrey 
+  Querétaro 
+  .
+  Best Regards,
+  
+  Sparsh Agarwal
+  Talent Acquisition | Cognizant
+  [Clipboard]
+  Hope you are doing well,
+  
+  Position Overview
+  We are looking for a Senior Node.js Backend Engineer with strong expertise in Node.js, JavaScript, AWS Serverless, and API Development to design and build scalable Backend-for-Frontend (BFF) services that support modern web and mobile applications.
+  
+  This role is ideal for a highly skilled engineer passionate about developing secure, high-performance backend solutions, leveraging cloud-native technologies, and driving engineering excellence through automation and best practices.
+  
+  Key Responsibilities
+  Design, develop, and maintain scalable Backend-for-Frontend (BFF) services using Node.js. 
+  Build, optimize, and support RESTful and GraphQL APIs for web and mobile applications. 
+  Develop and deploy serverless solutions using AWS services, including AWS Lambda. 
+  Implement and maintain CI/CD pipelines and Infrastructure as Code (IaC) practices. 
+  Ensure application scalability, reliability, security, observability, and performance. 
+  Apply caching strategies and performance optimization techniques to improve system efficiency. 
+  
+  Required Qualifications
+  5+ years of experience in software development. 
+  Strong hands-on experience with Node.js and JavaScript (ES6+). 
+  Proven expertise in designing, developing, and maintaining REST APIs. 
+  Hands-on experience with AWS Lambda or similar serverless technologies. 
+  Experience building and supporting scalable API-driven architectures. 
+  Experience implementing CI/CD pipelines using GitLab CI/CD and/or GitHub Actions. 
+  Strong understanding of caching mechanisms and backend performance optimization. 
+  Experience developing secure, scalable, and high-performing backend services. 
+  
+  Mandatory Requirement
+  ✅ Advanced English proficiency is required.
+  
+  Location
+  📍 Hybrid role available in any of the following locations:
+  Guadalajara 
+  Mexico City (CDMX) 
+  Monterrey 
+  Querétaro 
+  .
+  Best Regards,
+  
+  Sparsh Agarwal
+  Talent Acquisition | Cognizant
+  [LMB]
+  120[Bk][Bk]0
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/ai-development/eSIM-Sales-Management-Platform/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  eSIM Sales & Management Platform Development
+  
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  United Arab Emirates
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $2,250.00 USD
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 14:18:55  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:18:55  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:18:56  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Hope you are doing well,
+  
+  Position Overview
+  We are looking for a Senior Node.js Backend Engineer with strong expertise in Node.js, JavaScript, AWS Serverless, and API Development to design and build scalable Backend-for-Frontend (BFF) services that support modern web and mobile applications.
+  
+  This role is ideal for a highly skilled engineer passionate about developing secure, high-performance backend solutions, leveraging cloud-native technologies, and driving engineering excellence through automation and best practices.
+  
+  Key Responsibilities
+  Design, develop, and maintain scalable Backend-for-Frontend (BFF) services using Node.js. 
+  Build, optimize, and support RESTful and GraphQL APIs for web and mobile applications. 
+  Develop and deploy serverless solutions using AWS services, including AWS Lambda. 
+  Implement and maintain CI/CD pipelines and Infrastructure as Code (IaC) practices. 
+  Ensure application scalability, reliability, security, observability, and performance. 
+  Apply caching strategies and performance optimization techniques to improve system efficiency. 
+  
+  Required Qualifications
+  5+ years of experience in software development. 
+  Strong hands-on experience with Node.js and JavaScript (ES6+). 
+  Proven expertise in designing, developing, and maintaining REST APIs. 
+  Hands-on experience with AWS Lambda or similar serverless technologies. 
+  Experience building and supporting scalable API-driven architectures. 
+  Experience implementing CI/CD pipelines using GitLab CI/CD and/or GitHub Actions. 
+  Strong understanding of caching mechanisms and backend performance optimization. 
+  Experience developing secure, scalable, and high-performing backend services. 
+  
+  Mandatory Requirement
+  ✅ Advanced English proficiency is required.
+  
+  Location
+  📍 Hybrid role available in any of the following locations:
+  Guadalajara 
+  Mexico City (CDMX) 
+  Monterrey 
+  Querétaro 
+  .
+  Best Regards,
+  
+  Sparsh Agarwal
+  Talent Acquisition | Cognizant
+  [LMB]
+
+--- WINDOW  2026/07/28 14:19:29  [chrome.exe] Elegant Squarespace Research Site | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I’d like a designer-developer who can translate my work on “Harmonic Time” and the 1080° cosmic compass into a simple, image-driven website built on Squarespace. The goal is a static showcase that I can maintain on my own once the initial build is complete.
+  
+  Scope
+  • Three core pages—Home, About, and Research—laid out in a classic, elegant style that feels scholarly yet approachable.
+  • Each page will rely heavily on images: infographics, charts, graphs, and illustrative diagrams I provide. Please optimise layouts so that swapping or adding new visuals later is a drag-and-drop task for me.
+  • On-page SEO and social-share optimisation for X (Twitter) so titles, descriptions, and thumbnails render crisply when links are posted.
+  • Basic onboarding: a quick walkthrough or short written guide showing me how to add new sections, replace images, and update text.
+  
+  Acceptance Criteria
+  1. Squarespace site handed over under my account with live Home, About, and Research pages.
+  2. Mobile-responsive design that retains the chosen typography and spacing across breakpoints.
+  3. Social cards display correctly on X using the Open Graph data set in Squarespace.
+  4. Clear instructions (video or PDF) that let me duplicate a page section, replace an image, and edit text without coding.
+  
+  Please let me know your availability, projected timeline, and a cost estimate broken into milestones (design concept, build, final hand-off). I’m ready to start as soon as we align on scope and schedule.
+  cc
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Thank you for the job offer, but I am only able to work completely from home. 
+  I hope you will contact me if a suitable position becomes available to me in the future.
+  [Clipboard]
+  56 1938 3823
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  I’d like a designer-developer who can translate my work on “Harmonic Time” and the 1080° cosmic compass into a simple, image-driven website built on Squarespace. The goal is a static showcase that I can maintain on my own once the initial build is complete.
+  
+  Scope
+  • Three core pages—Home, About, and Research—laid out in a classic, elegant style that feels scholarly yet approachable.
+  • Each page will rely heavily on images: infographics, charts, graphs, and illustrative diagrams I provide. Please optimise layouts so that swapping or adding new visuals later is a drag-and-drop task for me.
+  • On-page SEO and social-share optimisation for X (Twitter) so titles, descriptions, and thumbnails render crisply when links are posted.
+  • Basic onboarding: a quick walkthrough or short written guide showing me how to add new sections, replace images, and update text.
+  
+  Acceptance Criteria
+  1. Squarespace site handed over under my account with live Home, About, and Research pages.
+  2. Mobile-responsive design that retains the chosen typography and spacing across breakpoints.
+  3. Social cards display correctly on X using the Open Graph data set in Squarespace.
+  4. Clear instructions (video or PDF) that let me duplicate a page section, replace an image, and edit text without coding.
+  
+  Please let me know your availability, projected timeline, and a cost estimate broken into milestones (design concept, build, final hand-off). I’m ready to start as soon as we align on scope and schedule.
+  cc
+  [Clipboard]
+  === INTERNAL ESTIMATE ===
+  Estimated Hours: 18-28
+  Estimated Budget: $600-$1,100 USD
+  Estimated Timeline: 1-2 weeks
+  Confidence: Medium
+  
+  === PROPOSAL ===
+  Hi — Canada‑based developer here. I read your brief: the real challenge is turning image-heavy research material into a clean, scholarly Squarespace site that you can maintain by drag‑and‑drop, while keeping mobile typography and Open Graph cards consistent for X.
+  
+  I’ve built a few Squarespace projects like this where the primary work was designing flexible image blocks, outputting proper Open Graph meta, and delivering a short, practical onboarding guide. My focus would be: 1) a simple, elegant layout system for your infographics, 2) responsive type and spacing across breakpoints, and 3) a clear handoff (PDF or short screen recording) showing how to replace images and duplicate sections.
+  
+  A couple of quick questions:
+  1. Do you already have a Squarespace template/account, or should I recommend one?  
+  2. Are your visuals final high‑res files (PNG/SVG) or do you need image optimization included?
+  
+  I’m available for a short video call to align scope and milestones. Thanks, Paul
+  [Clipboard]
+  281) 937-4960
+  [Clipboard]
+  Hi, Canada‑based developer here. 
+  
+  I read your brief: the real challenge is turning image-heavy research material into a clean, scholarly Squarespace site that you can maintain by drag‑and‑drop, while keeping mobile typography and Open Graph cards consistent for X.
+  
+  I’ve built a few Squarespace projects like this where the primary work was designing flexible image blocks, outputting proper Open Graph meta, and delivering a short, practical onboarding guide. 
+  My focus would be: 
+  1) a simple, elegant layout system for your infographics, 
+  2) responsive type and spacing across breakpoints, and 
+  3) a clear handoff (PDF or short screen recording) showing how to replace images and duplicate sections.
+  
+  A couple of quick questions:
+  1. Do you already have a Squarespace template/account, or should I recommend one?  
+  2. Are your visuals final high‑res files (PNG/SVG) or do you need image optimization included?
+  
+  I’d be happy to align scope and milestones. 
+  Thanks, 
+  Paul
+  [Clipboard]
+  Hi, Canada‑based developer here. 
+  
+  I read your brief: the real challenge is turning image-heavy research material into a clean, scholarly Squarespace site that you can maintain by drag‑and‑drop, while keeping mobile typography and Open Graph cards consistent for X.
+  
+  I’ve built a few Squarespace projects like this where the primary work was designing flexible image blocks, outputting proper Open Graph meta, and delivering a short, practical onboarding guide. 
+  My focus would be: 
+  1) a simple, elegant layout system for your infographics, 
+  2) responsive type and spacing across breakpoints, and 
+  3) a clear handoff (PDF or short screen recording) showing how to replace images and duplicate sections.
+  
+  A couple of quick questions:
+  1. Do you already have a Squarespace template/account, or should I recommend one?  
+  2. Are your visuals final high‑res files (PNG/SVG) or do you need image optimization included?
+  
+  I’d be happy to align scope and milestones. 
+  Thanks, 
+  Paul
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [Bk]6
+  [LMB]
+  [LMB]
+  [Bk][Bk]3
+  [LMB]
+  [Clipboard]
+  9792010211
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  https://www.freelancer.com/projects/squarespace/Elegant-Squarespace-Research-Site/details
+  [LMB]
+  [LMB]
