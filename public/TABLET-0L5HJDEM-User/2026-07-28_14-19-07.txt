@@ -1,0 +1,180 @@
+﻿
+--- WINDOW  2026/07/28 13:20:00  [msedge.exe] Redeem offer for Career | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 13:20:01  [msedge.exe] (1) Notifications | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 13:20:02  [msedge.exe] Notifications | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 13:20:02  [msedge.exe] (1) Notifications | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 13:20:05  [msedge.exe] Notifications | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 13:45:23  [msedge.exe] (1) Notifications | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 13:54:58  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 13:55:37  [msedge.exe] (1) Notifications | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 13:55:37  [msedge.exe] Notifications | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 13:55:42  [msedge.exe] Connections | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 13:55:44  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 13:55:55  [msedge.exe] Connections | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  Hi, Dear. I’m a Senior Software Engineer / Full-Stack Developer with 9+ years of experience building scalable, high-performance systems across a wide range of industries.
+  
+  My core expertise lies in backend engineering, where I specialize in C++, PHP, Go, Rust, Python (Flask/Django), Java, and C# .NET. I’ve designed and deployed distributed systems using PostgreSQL, NoSQL, AWS, Docker, and CI/CD pipelines leveraging Kubernetes and Kafka.
+  
+  On the frontend, I bring strong experience with React.js, Next.js, Angular, Vue.js, as well as cross-platform mobile development using Kotlin, Swift, Flutter and React Native.
+  
+  Over the years, I’ve delivered impactful solutions including:
+  • AI platforms (LLM-based chatbots, voice bots, document analysis, video generation, weather forecasting)
+  • Forex & crypto trading systems (including DeFi, DApps, and DEX platforms)
+  • E-commerce and digital asset management systems
+  • Booking and restaurant management platforms
+  • Healthcare applications
+  • IPTV systems across Web, Android, iOS, LG TV, and Samsung TV
+  • Shipping platforms with integrated payment systems (Payabli, PayFabric)
+  • Social and sports platforms (mobile & web)
+  • Question-Why type systems not like social media
+  • SkyDiving video production with opencv, FFmpeg, yolo, and more.
+  • Social and sports platforms (mobile & web)
+  
+  I enjoy solving complex technical challenges, optimizing system performance, and building reliable, scalable products that deliver real business value.
+  
+  I’m currently open to full-time remote opportunities or collaboration with startups, founders, and engineering teams—particularly in backend-heavy or system design-focused roles.
+  I can comfortably work across US and UK time zones.
+  Let’s connect if you’re building something ambitious or need a strong technical partner.
+  📩 Contact:
+  WhatsApp: +84 0707039301
+  Telegram: @soft_exper
+  Email: giaan9032001@gmail.com
+  LinkedIn: https://www.linkedin.com/in/tran-gia-an-050032218/
+  Thank you.
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  so means currently in nTrader bridge 2nd LP Ac add option is not there?
+  [Clipboard]
+  Good direction — this builds naturally on what you already have with skywatchterminal.com, since the MT5 Manager API gives you the trade-level data all three features depend on. Let me walk through each one with the architecture and the gotchas.
+  
+  Leaderboard (volume / position count / membership tier)
+  
+  Technically the easiest. You already pull deals from the Manager API, so this is mostly an aggregation layer: a nightly (or hourly) job that rolls up per-account metrics — closed volume in lots, position count, win rate, membership tier — into a leaderboard_snapshots table, then rank with window functions. A few design decisions matter more than the code:
+  
+  Rank within membership tiers or globally? Ranking free users against paid users creates weird incentives; most platforms do per-tier boards plus a global one.
+  Anti-gaming: volume-based rankings get abused by hedged churning (open buy+sell simultaneously, farm volume with near-zero risk). Add a filter that discounts or excludes hedged/offsetting positions and sub-1-minute scalps, or weight by realized risk instead of raw lots.
+  Display anonymization — show nicknames, never account numbers or equity.
+  
+  "Equipment" / loss compensation system
+  
+  This is the one to be careful with, on two fronts.
+  
+  Product-wise, I read this as a gamified rebate: users earn or buy "equipment" items that pay back some percentage of losses (like insurance cards in some exchange gamification models — Bybit and a few brokers have done "loss protection vouchers"). Mechanically it's fine: an inventory table per user, each item with a coverage rate, cap, and expiry; a settlement job that computes eligible losses per period and credits the rebate to a wallet balance.
+  
+  Regulatory-wise, this is where you can get burned. Loss compensation tied to trading is treated in many jurisdictions as either an inducement to trade or an insurance-like product, both regulated. It's the same category of cross-border exposure I flagged on the SwiftCrypto/Mauritius setup. Practical mitigations: pay rebates in platform credit (usable for subscription fees or features) rather than withdrawable cash, cap coverage low (5–15% of losses), and frame it as a loyalty rebate, not "protection." If the rebate is withdrawable cash proportional to losses, you're effectively underwriting trading risk, and that changes your legal profile significantly. Worth a real legal opinion in whatever jurisdiction you incorporate — I'm not a lawyer, but the pattern is well-known enough that regulators look for it.
+  
+  Copy trading / signal copy from top earners
+  
+  The heaviest lift, and also regulated activity in many places (in the EU, auto-copy is typically classed as portfolio management; the UK and Australia treat it similarly; "signal only, user clicks to execute" is a much lighter category). So decide early which of these you're building:
+  
+  Signal broadcast — top traders' entries/exits are published (with delay or in real time) and subscribers manually mirror them. Lightest legally, and you already have signal infrastructure, so this is nearly free to ship.
+  Auto-copy — subscriber accounts automatically mirror the master's trades, scaled by equity or fixed ratio. This is a real execution engine: you need master trade detection (Manager API pumping or dealer events), proportional lot sizing, slippage handling, partial-close mirroring, and a kill switch per subscriber (max drawdown stop). It also raises the licensing question above.
+  
+  If you go auto-copy, the architecture that works on MT5: a copier service subscribed to master account deal events, a mapping table (master → subscribers with ratio/risk settings), and execution through the Manager API on subscriber accounts, with idempotency keys per master-deal so retries don't double-fill. Since you were already scaling the execution layer for high user counts, the same queue-based design carries over — one master event fans out to N subscriber orders through your existing execution queue.
+  
+  For selecting "good earning users," don't rank by raw profit — rank by risk-adjusted return over a minimum track record (e.g., 90 days, max drawdown under X%, minimum trade count) or you'll surface martingale accounts that look brilliant until they blow up, taking copiers with them. That's a reputational risk to the platform, not just the copier.
+  
+  Payments (Stripe + crypto)
+  
+  Stripe subscriptions are straightforward, but note Stripe's restricted-business list includes some forex/trading-signal services — signal subscriptions sometimes get accounts flagged. Have the crypto rail (you've built RedotPay-style flows already, so USDT/USDC via your own watcher or a processor like NOWPayments/Coinbase Commerce) ready as the fallback, and keep entitlement logic payment-agnostic: a single subscriptions table with provider + status, so the feature gates don't care where the money came from.
+  
+  Suggested build order
+  
+  Leaderboard → signal-broadcast copy (reuses existing signals) → equipment/rebate (after legal review) → auto-copy (biggest engineering + biggest compliance question).
+  
+  One question that shapes a lot of this: for the copy system, are you planning signal-broadcast first, or straight to auto-execution on subscriber accounts?
+  [Clipboard]
+  you can add second client login and password like other servers in admin-terminal and give account to bridge groups
+  [LMB]
+  [Clipboard]
+  https://email.m.joinhandshake.com/c/eJxkkE2L3DAMhn-NcxxsecfJHHxIGQJ7LOylpyDbysY78Qf-KLS_vsw0l1LQSXrQI71OGw6S1EBajNMVQHIhh10bY8Bsz8Irvxl1GwGtUiORkVwoGrwGDoqPMPFRqKu8CBDTTaACFA7NTbI3Hi5fyccdo6s7PuhiUxgOvbeWK5Mzg4XBgjn_TzFYeqWyUkB_rOhcoVqpMlimSQgxXUcmF5vi5kvA5lNcW3pQZPL-Yeb3b7NxXzgvP7bvv_P4nj-Ofe6_Jgaqt7DW1IslJu82FVpjan7zVM5hIOd7YPL-Mp9NiyGj_3yurxTd-o94S2XFo1GJ2OjvwUMuyXXbVtPtg5qerU09tqHovHdbWw_mIPbGP5_wK5SmM5WaIh7ny6di-KnhTwAAAP__ZaeOSw
+  [RMB]
+
+--- WINDOW  2026/07/28 14:17:45  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:17:45  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:17:45  [ShellExperienceHost.exe] Windows Shell Experience Host
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:17:45  [ShellExperienceHost.exe] Jump List for Profile 1 - Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 14:17:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:17:51  [msedge.exe] New tab - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/28 14:17:59  [msedge.exe] Handshake - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:18:00  [msedge.exe] Phone verification | Handshake - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:19:06  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:19:06  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 14:19:07  [msedge.exe] Phone verification | Handshake - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
