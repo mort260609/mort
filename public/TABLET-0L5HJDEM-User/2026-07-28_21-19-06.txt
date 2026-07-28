@@ -1,0 +1,220 @@
+﻿  [LMB]
+
+--- WINDOW  2026/07/28 20:21:09  [msedge.exe] (1) Notifications | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:21:10  [msedge.exe] Notifications | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:24:48  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:44:39  [msedge.exe] (1) Notifications | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  Black coal broker comoplain yesterday that his client placed buy limit at time 20:35 
+   
+  and his limit not executed, chart showing price came after that (here chart time mistake, its showing 2 hrs later time as per their current server time)
+   
+  #2 Broker now wants to check pricing. that market prices came or not
+   
+  what he will do, he will open Admin, and open Bid Ask Prices history by writing 20:35 - 21:35 time. (as an example)
+   
+  so it should open prices, as per his server timing, not as per datafeeder incoming timing, so that he can analyse has the price really came or not (in MT5 it opens perfectly) help to analyse the pricing and what happend.
+   
+  Sending you video 
+
+--- WINDOW  2026/07/28 20:44:40  [msedge.exe] Notifications | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  this is very very urgent and critical to solve trade execution rejection, TP SL not hit 
+  Buy limit
+  sell limit
+  buy stop
+  sell stop not executed issues.
+   
+  and this is general pricing, 
+   
+  once this opens, we have to make another filter, check pricing as per a customer account
+  we will write his ac, 
+  same prices will open, but all BID ASK HIGH Low will be amended as per the customer Ac / Group Spread Markups to reach to exact prices broadcasted for him
+
+--- WINDOW  2026/07/28 20:48:30  [msedge.exe] Feed | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 20:48:32  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 20:48:35  [msedge.exe] Feed | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:48:35  [msedge.exe] Connections | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]va
+  [Clipboard]
+  this is very very urgent and critical to solve trade execution rejection, TP SL not hit
+  
+  Buy limit
+  
+  sell limit
+  
+  buy stop
+  
+  sell stop not executed issues.
+  
+  
+  
+  and this is general pricing,
+  
+  
+  
+  once this opens, we have to make another filter, check pricing as per a customer account
+  
+  we will write his ac,
+  
+  same prices will open, but all BID ASK HIGH Low will be amended as per the customer Ac / Group Spread Markups to reach to exact prices broadcasted for him
+  x
+  [LMB]
+  [Clipboard]
+  Hi, Dear. I’m a Senior Software Engineer / Full-Stack Developer with 9+ years of experience building scalable, high-performance systems across a wide range of industries.
+  
+  My core expertise lies in backend engineering, where I specialize in C++, PHP, Go, Rust, Python (Flask/Django), Java, and C# .NET. I’ve designed and deployed distributed systems using PostgreSQL, NoSQL, AWS, Docker, and CI/CD pipelines leveraging Kubernetes and Kafka.
+  
+  On the frontend, I bring strong experience with React.js, Next.js, Angular, Vue.js, as well as cross-platform mobile development using Kotlin, Swift, Flutter and React Native.
+  
+  Over the years, I’ve delivered impactful solutions including:
+  • AI platforms (LLM-based chatbots, voice bots, document analysis, video generation, weather forecasting)
+  • Forex & crypto trading systems (including DeFi, DApps, and DEX platforms)
+  • E-commerce and digital asset management systems
+  • Booking and restaurant management platforms
+  • Healthcare applications
+  • IPTV systems across Web, Android, iOS, LG TV, and Samsung TV
+  • Shipping platforms with integrated payment systems (Payabli, PayFabric)
+  • Social and sports platforms (mobile & web)
+  • Question-Why type systems not like social media
+  • SkyDiving video production with opencv, FFmpeg, yolo, and more.
+  • Social and sports platforms (mobile & web)
+  
+  I enjoy solving complex technical challenges, optimizing system performance, and building reliable, scalable products that deliver real business value.
+  
+  I’m currently open to full-time remote opportunities or collaboration with startups, founders, and engineering teams—particularly in backend-heavy or system design-focused roles.
+  I can comfortably work across US and UK time zones.
+  Let’s connect if you’re building something ambitious or need a strong technical partner.
+  📩 Contact:
+  WhatsApp: +84 0707039301
+  Telegram: @soft_exper
+  Email: giaan9032001@gmail.com
+  LinkedIn: https://www.linkedin.com/in/tran-gia-an-050032218/
+  Thank you.
+  [Ctrl]v[ENTER]
+  [Clipboard]
+  if this starts working, we will immediately solve Disputes arised by customers
+   
+  and Chart Showing 2 Hrs Less time as per black Coal
+   
+  chart should by default open at broker RDP time, no need to show TIMEZONES on the chart, otherwise it will always be confusing for users, brokers, and our team to analyse and track the real issue
+  [LMB]
+  [Clipboard]
+  deficiencies
+  [Clipboard]
+  first we will test at dev, 
+  then we will apply to black coal and all other brokers.
+   
+  As this is very very important part of a platform, like trade server logs are important same way the Prices history is very critical and important
+   
+  and it should show as per server RDP time. 
+  same way Charts at mobile and desktop all should show as per Server TIME
+   
+  So that no conflicts between chart, trade time or prices checking can come
+  [LMB]
+
+--- WINDOW  2026/07/28 20:56:34  [msedge.exe] Notifications | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  smartwaiver
+  [Clipboard]
+  But again clarity is good to ask.
+  [LMB]
+
+--- WINDOW  2026/07/28 21:09:59  [msedge.exe] Feed | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 21:10:02  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 21:10:05  [msedge.exe] Feed | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 21:10:05  [msedge.exe] Connections | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Hi, Dear. I’m a Senior Software Engineer / Full-Stack Developer with 9+ years of experience building scalable, high-performance systems across a wide range of industries.
+  
+  My core expertise lies in backend engineering, where I specialize in C++, PHP, Go, Rust, Python (Flask/Django), Java, and C# .NET. I’ve designed and deployed distributed systems using PostgreSQL, NoSQL, AWS, Docker, and CI/CD pipelines leveraging Kubernetes and Kafka.
+  
+  On the frontend, I bring strong experience with React.js, Next.js, Angular, Vue.js, as well as cross-platform mobile development using Kotlin, Swift, Flutter and React Native.
+  
+  Over the years, I’ve delivered impactful solutions including:
+  • AI platforms (LLM-based chatbots, voice bots, document analysis, video generation, weather forecasting)
+  • Forex & crypto trading systems (including DeFi, DApps, and DEX platforms)
+  • E-commerce and digital asset management systems
+  • Booking and restaurant management platforms
+  • Healthcare applications
+  • IPTV systems across Web, Android, iOS, LG TV, and Samsung TV
+  • Shipping platforms with integrated payment systems (Payabli, PayFabric)
+  • Social and sports platforms (mobile & web)
+  • Question-Why type systems not like social media
+  • SkyDiving video production with opencv, FFmpeg, yolo, and more.
+  • Social and sports platforms (mobile & web)
+  
+  I enjoy solving complex technical challenges, optimizing system performance, and building reliable, scalable products that deliver real business value.
+  
+  I’m currently open to full-time remote opportunities or collaboration with startups, founders, and engineering teams—particularly in backend-heavy or system design-focused roles.
+  I can comfortably work across US and UK time zones.
+  Let’s connect if you’re building something ambitious or need a strong technical partner.
+  📩 Contact:
+  WhatsApp: +84 0707039301
+  Telegram: @soft_exper
+  Email: giaan9032001@gmail.com
+  LinkedIn: https://www.linkedin.com/in/tran-gia-an-050032218/
+  Thank you.
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/28 21:10:27  [msedge.exe] Fellow Onboarding | Handshake AI and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 21:16:46  [msedge.exe] Connections | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 21:16:58  [msedge.exe] Didrik Martens | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/28 21:19:06  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 21:19:06  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 21:19:06  [msedge.exe] Didrik Martens | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
