@@ -1,0 +1,414 @@
+﻿  [Clipboard]
+  MORANmoran123$ 
+
+--- WINDOW  2026/07/28 03:22:05  [chrome.exe] (1) API-Integration für IPLA und Easybill | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:22:06  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  ec2
+  [LMB]
+
+--- WINDOW  2026/07/28 03:22:10  [chrome.exe] Instances | EC2 | ca-central-1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 03:22:18  [chrome.exe] ca-west-1.console.aws.amazon.com/ec2/home?region=ca-west-1#Instances: - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:22:18  [chrome.exe] EC2 Management Console - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:22:19  [chrome.exe] Instances | EC2 | ca-west-1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 03:22:29  [chrome.exe] Connect to instance | EC2 | ca-west-1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:22:31  [chrome.exe] Instances | EC2 | ca-west-1 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:22:32  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:22:32  [chrome.exe] ca-west-1.console.aws.amazon.com/ec2-instance-connect/ssh?region=ca-west-1&connType=standard&instanceId=i-0500c202b00a089fb&osUser=ubuntu&sshPort=22&addressFamily=ipv4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:22:32  [chrome.exe] EC2 Instance Connect - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:22:33  [chrome.exe] EC2 Instance Connect | ca-west-1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  cd job-[Bk][Bk][Bk][Bk][Bk]/[Bk] /app/
+  [LMB]
+  hireloop[ENTER]
+  cd job-manage-backend[ENTER]
+  git pull[ENTER]
+  akaichi04[ENTER]
+  [Clipboard]
+  [REDACTED_GITHUB_TOKEN]
+  [LMB]
+  [ENTER]
+  git pull[ENTER]
+  akaichi04[ENTER]
+  [RMB]
+  [LMB]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/28 03:29:05  [chrome.exe] (1) Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:29:07  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  [REDACTED_GITHUB_TOKEN]
+
+--- WINDOW  2026/07/28 03:30:36  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 03:30:45  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:30:45  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+  notepad[ENTER]
+
+--- WINDOW  2026/07/28 03:30:49  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:30:49  [notepad.exe] Untitled - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+  /
+
+--- WINDOW  2026/07/28 03:30:58  [notepad.exe] *Untitled - Notepad
+----------------------------------------------------------------------------
+  /
+  [LMB]
+  [ENTER]
+  [ENTER]
+  hi
+  [LMB]
+  [ENTER]
+  [ENTER]
+  using now/
+  [LMB]
+  [ENTER]
+  [ENTER]
+  o[Bk]not now
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 03:31:20  [notepad.exe] Notepad
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:31:21  [notepad.exe] *Untitled - Notepad
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:31:21  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:31:23  [chrome.exe] EC2 Instance Connect | ca-west-1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  git[Bk][Bk][Bk][Bk][Bk][Bk]cd ..[ENTER]
+  ls[ENTER]
+  cd job-am[Bk][Bk]manage-backend[ENTER]
+  git pull[ENTER]
+  akaichi04[ENTER]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  pm2 restart job-manage-api[ENTER]
+  cd ..[ENTER]
+  cd job-manage-frontend[ENTER]
+  gitpull[Bk][Bk][Bk][Bk][Bk] p[Bk][Bk]t pul[ENTER]
+  [^]l[ENTER]
+  akaich0[Bk]i04[ENTER]
+  [RMB]
+  [LMB]
+  [ENTER]
+  npm run build[ENTER]
+  [Clipboard]
+   
+  
+  -backend 
+  [Ctrl]v
+  [LMB]
+  [RMB]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]sydu[Bk]o sys[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]sudo systemctl reload nginx[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/28 03:32:58  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  h[ENTER]
+
+--- WINDOW  2026/07/28 03:32:59  [chrome.exe] HireLoop | Job Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [MMB]
+
+--- WINDOW  2026/07/28 03:33:03  [chrome.exe] EC2 Instance Connect | ca-west-1 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:33:05  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:33:06  [chrome.exe] Shreya Batra | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:33:07  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  h[ENTER]
+  [MMB]
+
+--- WINDOW  2026/07/28 03:33:09  [chrome.exe] Juan Patino | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:33:09  [chrome.exe] Shreya Batra | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:33:10  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  hi[ENTER]
+
+--- WINDOW  2026/07/28 03:33:13  [chrome.exe] HireLoop | Job Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  ca
+  [LMB]
+  [LMB]
+  123
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  fawawgagawgawgawgwgwegwg
+  [LMB]
+  [LMB]
+  [LMB]
+  [MMB]
+
+--- WINDOW  2026/07/28 03:33:40  [chrome.exe] Shreya Batra | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:37:55  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:37:56  [chrome.exe] EC2 Instance Connect | ca-west-1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:37:59  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:38:05  [chrome.exe] AI Bot Development for Day Trading on Coinbase | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:38:22  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:38:23  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:38:23  [chrome.exe] Modern CNC Fabrication Website | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:38:24  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:38:41  [chrome.exe] City Pro Fix Site & App Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 03:39:19  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:39:19  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:42:05  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:42:11  [chrome.exe] Budget-Friendly Marketplace App | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I’d like to launch a lean, cross-platform marketplace where people can buy and sell products straight from their phones. The app must ship on both iOS and Android in the same release cycle, so using a shared codebase (Flutter, React Native or similar) will help us stay within my tight budget.
+  
+  Core workflow
+  • Browse or search product listings with filters
+  • Add items to a cart, then pay securely (Stripe, PayPal or another well-documented gateway)
+  • Post new products with photos, price and description
+  • Order history and push notifications for status updates
+  
+  Accounts & access
+  Both guest checkout and full user accounts are required. Guests can browse and purchase; registered users can list items, track sales and save favourites. Social sign-in is a plus if it doesn’t add major overhead.
+  
+  Admin tools
+  A lightweight web-based dashboard (or in-app admin mode) should let me approve listings, manage disputes and run basic analytics.
+  
+  Approach & milestones
+  Because funding is limited, I prefer an MVP first: core buying/selling loop, payment integration and basic admin. Enhancements such as reviews, chat, or advanced analytics can follow once the initial release proves traction.
+  
+  What I’ll consider success
+  1. App passes App Store and Google Play review.
+  2. Smooth checkout for both guests and logged-in users.
+  3. Product upload, edit and delete all work without crashes.
+  4. Codebase is clean, documented and ready for feature growth.
+  
+  If you have marketplace experience and can work smartly within constraints, let’s discuss how to get this out quickly and affordably.
+  ccccc
+  [Clipboard]
+  I understand you’re looking to build a lean cross-platform marketplace MVP that launches on both iOS and Android from a shared codebase while keeping development costs under control. The priority is delivering a stable buying and selling experience first, with a scalable foundation for future features.
+  
+  I have experience building marketplace applications using Flutter, REST APIs, Stripe payment integration, push notifications, authentication (including guest and social sign-in), image uploads, and admin dashboards. I focus on clean, maintainable code that is ready for App Store and Google Play submission and future feature expansion.
+  
+  The MVP will include product browsing with search and filters, cart and secure checkout, product listing management, guest and registered user flows, order history, notifications, and a lightweight web-based admin panel for listing approval, dispute management, and basic analytics.
+  
+  A couple of questions:
+  
+  1. Do you already have a preferred backend (Firebase, Supabase, Laravel, Node.js, etc.), or would you like me to recommend the most cost-effective option for the MVP?
+  2. Will payments be limited to a single country at launch, or should the payment gateway support multiple currencies and regions?
+  
+  Looking forward to discussing in detail.
+  Thank you,
+  Paul
+  [LMB]
+  i'm paulo l[Ctrl]a[Bk]hi, i'm paul from anada.[ENTER]
+  [ENTER]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  15
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  2000
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Budget-Friendly Marketplace App
+  cc
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $2,000.00 CAD
+  c 
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/flutter/Budget-Friendly-Marketplace-App/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Canada
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 03:47:14  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:47:14  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 03:48:04  [chrome.exe] Meat Distributor Website Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 03:49:04  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:49:26  [chrome.exe] White-Label Support Partner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:49:34  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 03:49:49  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 03:54:56  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:54:57  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 03:54:58  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
