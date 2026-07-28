@@ -1,0 +1,1204 @@
+﻿  [Clipboard]
+  I see you reverted the changes to keep only SEO texts editing.
+  
+  What you're seeing now:
+  
+  The page «SEO Тексты» in the admin panel (left menu) - this is for adding SEO texts to the bottom of pages:
+  
+  Главная страница - SEO text for homepage
+  Страница каталога - SEO text for catalog page
+  This is only for SEO texts at the bottom of pages, not for editing the main content.
+  
+  For editing the main content of the homepage (hero section, benefits, etc.):
+  
+  You need to use the Customizer:
+  
+  Внешний вид → Настроить
+  Контент сайта section
+  Edit sections like "Главная — Шапка (Hero)", "Главная — Преимущества", etc.
+  If you can't find "Настроить" in "Внешний вид", it might be hidden due to user permissions or theme settings. What specifically are you asking about in the screenshot?
+  
+  
+  
+  Feedback submitted
+  
+  
+  
+  
+  
+  
+  [Clipboard]
+  Добрый день, Ариэль!
+  Это Ксения, пишу по поводу сайта vodorod.shop. На страницах "Каталог" и
+  "Главная" нет доступа к редакции в Elementor. Предполагаю, что шаблон
+  страницы не поддерживает Elementor или там конфликт с темой или
+  плагином. Могли бы вы посмотреть возможные ошибки, чтобы я смогла внести
+  СЕО тексты на данные страницы?
+  Если вам будет удобнее самостоятельно внести тексты на сайт, тогда прошу
+  добавить их в нижнюю часть страниц перед подвалом.
+  
+  Ссылка на тексты:
+  https://docs.google.com/document/d/1blgt5p7vNLIRHjsQBE-AARxmnhw16NXiP2YLMg2FlOk/edit?usp=sharing
+  
+  Также прошу обратить внимание на установленные плагины со счетчиками
+  Яндекса, так как при доработках на прошлых выходных плагин с сайта был
+  снесён. Наши специалисты заново установили его на сайт
+  [Clipboard]
+  Что означает эта ошибка:
+  
+  Elementor не может работать на страницах "Главная" и "Каталог", потому что эти страницы используют кастомные PHP-шаблоны, а не стандартный редактор WordPress. Elementor требует функцию the_content() в шаблоне, которой нет в этих файлах.
+  
+  Решение - как редактировать без Elementor
+  Для SEO-текстов (низ страниц):
+  В левом меню выберите «SEO Тексты»
+  Заполните поля для главной страницы или каталога
+  Нажмите «Сохранить»
+  Для основного контента главной страницы:
+  Внешний вид → Настроить (если есть)
+  Контент сайта → редактируйте секции
+  Если "Настроить" недоступен, контент главной страницы редактируется через программиста (это кастомный шаблон).
+  
+  Для товаров каталога:
+  Товары → Все товары → Редактировать
+  Для обычных страниц (О водороде, О компании и т.д.):
+  Страницы → Все страницы → Редактировать
+  Эти страницы работают с Elementor
+  Резюме: Elementor не будет работать на Главной и Каталоге - это нормально. Используйте «SEO Тексты» для SEO-контента и «Товары»/«Страницы» для остального.
+  
+  
+  
+  Feedback submitted
+  
+  
+  
+  
+  
+  Command Awaiting Approval
+  
+  
+  
+  
+  
+  
+  
+  
+  Drop to add to agent
+  
+  
+  [Clipboard]
+  Что означает эта ошибка:
+  
+  Elementor не может работать на страницах "Главная" и "Каталог", потому что эти страницы используют кастомные PHP-шаблоны, а не стандартный редактор WordPress. Elementor требует функцию the_content() в шаблоне, которой нет в этих файлах.
+  
+  Решение - как редактировать без Elementor
+  Для SEO-текстов (низ страниц):
+  В левом меню выберите «SEO Тексты»
+  Заполните поля для главной страницы или каталога
+  Нажмите «Сохранить»
+  Для основного контента главной страницы:
+  Внешний вид → Настроить (если есть)
+  Контент сайта → редактируйте секции
+  Если "Настроить" недоступен, контент главной страницы редактируется через программиста (это кастомный шаблон).
+  
+  Для товаров каталога:
+  Товары → Все товары → Редактировать
+  Для обычных страниц (О водороде, О компании и т.д.):
+  Страницы → Все страницы → Редактировать
+  Эти страницы работают с Elementor
+  Резюме: Elementor не будет работать на Главной и Каталоге - это нормально. Используйте «SEO Тексты» для SEO-контента и «Товары»/«Страницы» для остального.
+  
+  
+  
+  Feedback submitted
+  
+  
+  
+  
+  
+  Command Awaiting Approval
+  
+  
+  
+  
+  
+  
+  
+  
+  Drop to add to agent
+  
+  
+  [Clipboard]
+  Customize
+  [Clipboard]
+  Готово! Я добавил редактирование шапки главной страницы на ту же страницу.
+  
+  Как редактировать контент теперь
+  Вам больше не нужен "Настроить" в "Внешний вид".
+  
+  Используйте страницу "Редактор контента":
+  В левом меню выберите «Редактор контента» (или «SEO Тексты» - это одна и та же страница)
+  Теперь там есть три секции:
+  1. Главная страница — Шапка (Hero)
+  
+  Заголовок, строка 2
+  Подзаголовок
+  Текст кнопки
+  Ссылка кнопки
+  2. Главная страница — SEO текст (низ страницы)
+  
+  Заголовок SEO-текста
+  SEO-текст
+  3. Страница каталога — SEO текст (низ страницы)
+  
+  Заголовок SEO-текста
+  SEO-текст
+  Как сохранить:
+  Заполните нужные поля
+  Нажмите «Сохранить»
+  Всё теперь в одном месте - «Редактор контента» в левом меню админки.
+  
+  
+  
+  Feedback submitted
+  
+  
+  
+  
+  
+  Command Awaiting Approval
+  [Clipboard]
+  No, create a customize section so that the homepage and catalog pages can be edited.
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Готово! Добавил прямую ссылку на Customizer в админ-меню.
+  
+  Как редактировать контент теперь
+  Новый пункт меню:
+  В левом меню найдите «Настроить сайт» (иконка настроек)
+  Нажмите на «Настроить сайт»
+  Откроется WordPress Customizer с панелью «Контент сайта»
+  Что можно редактировать в Customizer:
+  Главная страница:
+  
+  Главная — Шапка (Hero) - заголовки, подзаголовок, кнопка
+  Главная — Преимущества - текст карточек
+  Главная — О водороде - все тексты секции
+  Главная — Воздействие на организм - карточки эффектов
+  Главная — Показания - список показаний
+  Главная — Об основателе - текст о докторе
+  Главная — Продукция - изображения
+  Главная — Отзывы - заголовки
+  Главная — SEO текст (низ страницы) - SEO-текст внизу страницы
+  Каталог:
+  
+  Каталог — SEO текст (низ страницы) - SEO-текст внизу каталога
+  Для SEO-текстов:
+  Также доступен пункт «SEO Тексты» в левом меню для быстрого редактирования только SEO-текстов.
+  
+  Теперь у вас есть два способа редактирования:
+  
+  «Настроить сайт» - полный редактор контента через Customizer
+  «SEO Тексты» - быстрый редактор только SEO-текстов
+  
+  
+  Feedback submitted
+  
+  
+  
+  
+  
+  Command Awaiting Approval
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:35:10  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:35:11  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:35:11  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:35:21  [chrome.exe] QGIS Contract: Australian Rail Infrastructure | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I'm looking for an experienced QGIS contractor to build a structured, handover-ready QGIS project focused on Australian rail infrastructure and commercial overlays.
+  
+  ABOUT THE PROJECT
+  
+  This is an internal business intelligence tool, not a public-facing application. I work in business development in the Australian rail sector and want a well-built QGIS project I can maintain and extend myself after handover. All base data is public. Commercial overlay data will be supplied by me as Excel/CSV.
+  
+  SCOPE
+  
+  Build a QGIS project with a GeoPackage backend.
+  Ingest and clean public rail network data covering the major Australian network operators (ARTC, Queensland Rail, Aurizon, V/Line, Metro Trains Melbourne). Likely sources include the Digital Atlas of Australia, OpenStreetMap / OpenRailwayMap, and state spatial portals.
+  Set up a clear layer structure for: rail network, gauge type, network owner/operator, intermodal terminals, ports, major mines, state and LGA boundaries.
+  Build a structured overlay template so I can load and update commercial and asset data from CSV/Excel. Fields will include asset type, supplier, install year and projected renewal year, mapped against network sections.
+  Apply consistent, professional symbology and deliver a reusable style library.
+  Configure a QGIS print layout template suitable for inclusion in proposals and briefings.
+  Light Python/PyQGIS scripting for repeatable CSV imports. Nice to have, not essential for v1.
+  
+  DELIVERABLES
+  
+  QGIS project file (.qgz)
+  GeoPackage (.gpkg) containing all layers
+  Documented layer structure and naming conventions
+  Style library (.qml or .xml)
+  Print layout template
+  Short written user guide for updating and adding data
+  One recorded handover session (Teams or Zoom, approx 1 to 2 hours)
+  
+  CONSTRAINTS
+  
+  Must be QGIS-native. No ArcGIS dependencies, no proprietary platforms, no cloud hosting.
+  All files must remain fully editable and owned by me after handover.
+  Open-source stack only.
+  
+  ABOUT YOU
+  
+  Strong QGIS experience. Please share examples.
+  Comfortable working with messy CSV/Excel inputs.
+  Bonus: experience with infrastructure, transport, mining or utilities data.
+  Independent contractor preferred over agencies.
+  
+  TO RESPOND
+  
+  Please include the following. Generic or copy-paste bids will not be considered.
+  
+  A short note on your relevant QGIS experience.
+  One or two examples of similar work, with screenshots or links. I am specifically interested in seeing how you structure and organise a project, not just the finished map.
+  Your estimate of hours and a fixed-price quote for the scope above.
+  Your timezone and availability over the next 4 to 6 weeks.
+  Start your response with the word SLEEPER so I know you have read the brief.
+  
+  I will shortlist two or three contractors for a short introductory call before awarding.
+  cc
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:36:35  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Готово! Добавил прямую ссылку на Customizer в админ-меню.
+  
+  Как редактировать контент теперь
+  Новый пункт меню:
+  В левом меню найдите «Настроить сайт» (иконка настроек)
+  Нажмите на «Настроить сайт»
+  Откроется WordPress Customizer с панелью «Контент сайта»
+  Что можно редактировать в Customizer:
+  Главная страница:
+  
+  Главная — Шапка (Hero) - заголовки, подзаголовок, кнопка
+  Главная — Преимущества - текст карточек
+  Главная — О водороде - все тексты секции
+  Главная — Воздействие на организм - карточки эффектов
+  Главная — Показания - список показаний
+  Главная — Об основателе - текст о докторе
+  Главная — Продукция - изображения
+  Главная — Отзывы - заголовки
+  Главная — SEO текст (низ страницы) - SEO-текст внизу страницы
+  Каталог:
+  
+  Каталог — SEO текст (низ страницы) - SEO-текст внизу каталога
+  Для SEO-текстов:
+  Также доступен пункт «SEO Тексты» в левом меню для быстрого редактирования только SEO-текстов.
+  
+  Теперь у вас есть два способа редактирования:
+  
+  «Настроить сайт» - полный редактор контента через Customizer
+  «SEO Тексты» - быстрый редактор только SEO-текстов
+  
+  
+  Feedback submitted
+  
+  
+  
+  
+  
+  Command Awaiting Approval
+  [Clipboard]
+  Готово! Добавил прямую ссылку на Customizer в админ-меню.
+  
+  Как редактировать контент теперь
+  Новый пункт меню:
+  В левом меню найдите «Настроить сайт» (иконка настроек)
+  Нажмите на «Настроить сайт»
+  Откроется WordPress Customizer с панелью «Контент сайта»
+  Что можно редактировать в Customizer:
+  Главная страница:
+  
+  Главная — Шапка (Hero) - заголовки, подзаголовок, кнопка
+  Главная — Преимущества - текст карточек
+  Главная — О водороде - все тексты секции
+  Главная — Воздействие на организм - карточки эффектов
+  Главная — Показания - список показаний
+  Главная — Об основателе - текст о докторе
+  Главная — Продукция - изображения
+  Главная — Отзывы - заголовки
+  Главная — SEO текст (низ страницы) - SEO-текст внизу страницы
+  Каталог:
+  
+  Каталог — SEO текст (низ страницы) - SEO-текст внизу каталога
+  Для SEO-текстов:
+  Также доступен пункт «SEO Тексты» в левом меню для быстрого редактирования только SEO-текстов.
+  
+  Теперь у вас есть два способа редактирования:
+  
+  «Настроить сайт» - полный редактор контента через Customizer
+  «SEO Тексты» - быстрый редактор только SEO-текстов
+  
+  
+  Feedback submitted
+  
+  
+  
+  
+  
+  Command Awaiting Approval
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:37:59  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:37:59  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:39:54  [chrome.exe] Vura Affiliate Partnership Structure | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:39:56  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:39:59  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:40:02  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:40:02  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Betfair API Lay Betting Tool
+  c[Ctrl]c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:44:02  [chrome.exe] Replit Web App AWS Deployment | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I’m building a web application from scratch inside Replit and I need it reliably deployed to AWS when it’s ready. The coding will all happen in Replit’s cloud IDE; what I’m looking for is a freelancer who can connect the dots so that every push (or manual trigger) ships the latest build to my AWS account.
+  
+  Scope of work
+  • Set up or refine the Replit workspace so the app runs locally in that environment without errors.
+  • Create a clean, repeatable deployment workflow—GitHub Actions, Replit Deployments, or another proven CI/CD method—that packages the app and launches it on AWS (Elastic Beanstalk, ECS, or plain EC2, whichever you recommend for speed and cost).
+  • Configure AWS resources, environment variables, security groups, and SSL so the site is reachable at my domain.
+  • Hand over concise documentation and a short screen-share walk-through so I can redeploy or troubleshoot on my own.
+  
+  Acceptance criteria
+  1. A single command or commit automatically builds and deploys the web application from Replit to AWS.
+  2. The live URL loads the same app version that runs in Replit.
+  3. All project files and scripts are committed back to the repo with clear comments.
+  ccc
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:44:52  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:44:55  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:45:03  [chrome.exe] Plateforme Fonctionnaires Laravel | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:45:05  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:45:09  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:45:10  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:45:11  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:46:05  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:46:06  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:48:01  [chrome.exe] Desenvolvimento de Aplicativo de Pregação Cristã | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Estou procurando um desenvolvedor de aplicativo móvel experiente para criar um aplicativo de pregação cristã interativo. O aplicativo deve ter um menu principal com as seguintes opções: Propósito, Público, Área da Vida e Tema, que apresentará o esboço da pregação.
+  
+  Funcionalidade principal: O aplicativo deve servir como um guia de pregação, organizando os sermões de forma acessível e intuitiva.
+  
+  Recursos adicionais:
+  - Ilustração de Texto: Para enriquecer os esboços de pregação.
+  - Referências Bíblicas: Para cada tópico de pregação.
+  
+  Habilidades e Experiência Ideais:
+  - Desenvolvimento de aplicativos móveis (iOS e Android)
+  - Interface de usuário (UI) e experiência do usuário (UX) design
+  - Integração de banco de dados para gerenciar referências e ilustrações
+  - Familiaridade com conteúdos e estruturas de pregação cristã
+  
+  Por favor, forneça um portfólio de aplicativos móveis semelhantes que você tenha desenvolvido.
+  [Clipboard]
+  === INTERNAL ESTIMATE ===
+  Estimated Hours: 80-120
+  Estimated Budget: $2,400-$4,800 USD
+  Estimated Timeline: 6-10 weeks
+  Confidence: Medium
+  
+  === PROPOSAL ===
+  Hi, Canada based developer here. Posso fazer um app simples e focado em guiar sermões — menu claro (Propósito, Público, Área da Vida, Tema), esboços navegáveis, ilustrações e referências bíblicas pesquisáveis.
+  
+  Pelo que vejo, o ponto crítico é uma UX que permita montar e consultar esboços rapidamente e um modelo de dados leve para referências/ilustrações. Já construí apps móveis semelhantes para conteúdos estruturados (React Native + SQLite) onde a busca local e organização por tags foram essenciais para uso em cultos e estudos.
+  
+  Próximos passos práticos: definir se quer sincronização (cloud) além do armazenamento local e se as referências serão importadas em massa ou digitadas manualmente.
+  
+  Duas perguntas rápidas:
+  1. Precisa de login/contas e sincronização entre dispositivos?
+  2. Quer editor de esboço com formatação rich text ou apenas campos simples?
+  
+  Posso entrar em chamada para alinhar detalhes.  
+  Obrigado,  
+  Paul
+  [Clipboard]
+  Hi, Canada based developer here. 
+  Posso fazer um app simples e focado em guiar sermões — menu claro (Propósito, Público, Área da Vida, Tema), esboços navegáveis, ilustrações e referências bíblicas pesquisáveis.
+  
+  Pelo que vejo, o ponto crítico é uma UX que permita montar e consultar esboços rapidamente e um modelo de dados leve para referências/ilustrações. Já construí apps móveis semelhantes para conteúdos estruturados (React Native + SQLite) onde a busca local e organização por tags foram essenciais para uso em cultos e estudos.
+  
+  Próximos passos práticos: definir se quer sincronização (cloud) além do armazenamento local e se as referências serão importadas em massa ou digitadas manualmente.
+  
+  Duas perguntas rápidas:
+  1. Precisa de login/contas e sincronização entre dispositivos?
+  2. Quer editor de esboço com formatação rich text ou apenas campos simples?
+  
+  Posso entrar em chamada para alinhar detalhes.  
+  Obrigado,  
+  Paul
+  [Clipboard]
+  Hi, Canada based developer here. 
+  Posso fazer um app simples e focado em guiar sermões — menu claro (Propósito, Público, Área da Vida, Tema), esboços navegáveis, ilustrações e referências bíblicas pesquisáveis.
+  
+  Pelo que vejo, o ponto crítico é uma UX que permita montar e consultar esboços rapidamente e um modelo de dados leve para referências/ilustrações. Já construí apps móveis semelhantes para conteúdos estruturados (React Native + SQLite) onde a busca local e organização por tags foram essenciais para uso em cultos e estudos.
+  
+  Próximos passos práticos: definir se quer sincronização (cloud) além do armazenamento local e se as referências serão importadas em massa ou digitadas manualmente.
+  
+  Duas perguntas rápidas:
+  1. Precisa de login/contas e sincronização entre dispositivos?
+  2. Quer editor de esboço com formatação rich text ou apenas campos simples?
+  
+  Posso entrar em chamada para alinhar detalhes.  
+  Obrigado,  
+  Paul
+  [LMB]
+
+--- WINDOW  2026/07/28 16:48:38  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:48:39  [chrome.exe] contracts.freelancer.com/contract-potential/access/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb250cmFjdF9yb2xlX3BvdGVudGlhbCI6Mzc3NDc1NCwicmVkaXJlY3RfdXJsIjoiaHR0cHM6Ly93d3cuZnJlZWxhbmNlci5jb20vYWpheC9wcm9qZWN0L2NvbnRyYWN0L3ZlcmlmeS5waHA_cHJvamVjdElkPTQwNjExMzYwJmNvbnRyYWN0UG90ZW50aWFsSWQ9MTg4NjY1OSZjb250cmFjdFJvbGVQb3RlbnRpYWxJZD0zNzc0NzU0JnJvbGU9RnJlZWxhbmNlciZjdXN0b21Db250cmFjdElkPTMzJnJldHVyblVybD0vcHJvamVjdHMvNDA2MTEzNjAuaHRtbCIsImlhdCI6MTc4NTI3ODkyMH0.hgD6MNhX-GUIVcbFGmKgKkYoxwLL_0d_tY_lonSyojo - Googl
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  53 River Rock Court SE, Calgary, AB, Canada
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:48:54  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:48:55  [chrome.exe] Desenvolvimento de Aplicativo de Pregação Cristã | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Hi, Canada based developer here. 
+  Posso fazer um app simples e focado em guiar sermões — menu claro (Propósito, Público, Área da Vida, Tema), esboços navegáveis, ilustrações e referências bíblicas pesquisáveis.
+  
+  Pelo que vejo, o ponto crítico é uma UX que permita montar e consultar esboços rapidamente e um modelo de dados leve para referências/ilustrações. Já construí apps móveis semelhantes para conteúdos estruturados (React Native + SQLite) onde a busca local e organização por tags foram essenciais para uso em cultos e estudos.
+  
+  Próximos passos práticos: definir se quer sincronização (cloud) além do armazenamento local e se as referências serão importadas em massa ou digitadas manualmente.
+  
+  Duas perguntas rápidas:
+  1. Precisa de login/contas e sincronização entre dispositivos?
+  2. Quer editor de esboço com formatação rich text ou apenas campos simples?
+  
+  Posso entrar em chamada para alinhar detalhes.  
+  Obrigado,  
+  Paul
+  [Clipboard]
+  Hi, Canada based developer here. 
+  Posso fazer um app simples e focado em guiar sermões — menu claro (Propósito, Público, Área da Vida, Tema), esboços navegáveis, ilustrações e referências bíblicas pesquisáveis.
+  
+  Pelo que vejo, o ponto crítico é uma UX que permita montar e consultar esboços rapidamente e um modelo de dados leve para referências/ilustrações. Já construí apps móveis semelhantes para conteúdos estruturados (React Native + SQLite) onde a busca local e organização por tags foram essenciais para uso em cultos e estudos.
+  
+  Próximos passos práticos: definir se quer sincronização (cloud) além do armazenamento local e se as referências serão importadas em massa ou digitadas manualmente.
+  
+  Duas perguntas rápidas:
+  1. Precisa de login/contas e sincronização entre dispositivos?
+  2. Quer editor de esboço com formatação rich text ou apenas campos simples?
+  
+  Posso entrar em chamada para alinhar detalhes.  
+  Obrigado,  
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  1-[Bk]0
+  [LMB]
+  75
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/android/Desenvolvimento-Aplicativo-Prega-Crist/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Desenvolvimento de Aplicativo de Pregação Cristã
+  c
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Brazil
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $750.00 USD
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:49:43  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:49:44  [chrome.exe] contracts.freelancer.com/contract-potential/access/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb250cmFjdF9yb2xlX3BvdGVudGlhbCI6Mzc3NDc1OCwicmVkaXJlY3RfdXJsIjoiaHR0cHM6Ly93d3cuZnJlZWxhbmNlci5jb20vYWpheC9wcm9qZWN0L2NvbnRyYWN0L3ZlcmlmeS5waHA_cHJvamVjdElkPTQwNjExMzYwJmNvbnRyYWN0UG90ZW50aWFsSWQ9MTg4NjY1MCZjb250cmFjdFJvbGVQb3RlbnRpYWxJZD0zNzc0NzU4JnJvbGU9RnJlZWxhbmNlciIsImlhdCI6MTc4NTI3ODk4NH0.Z8K15lJ6BQx6uNxFKB4AI7-v9GOsYnKQZy4d4sPYLfE - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:49:54  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:49:55  [chrome.exe] Desenvolvimento de Aplicativo de Pregação Cristã | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:50:09  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:50:11  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:50:12  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:50:18  [chrome.exe] Desenvolvimento de Aplicativo de Pregação Cristã | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Estou procurando um desenvolvedor de aplicativo móvel experiente para criar um aplicativo de pregação cristã interativo. O aplicativo deve ter um menu principal com as seguintes opções: Propósito, Público, Área da Vida e Tema, que apresentará o esboço da pregação.
+  
+  Funcionalidade principal: O aplicativo deve servir como um guia de pregação, organizando os sermões de forma acessível e intuitiva.
+  
+  Recursos adicionais:
+  - Ilustração de Texto: Para enriquecer os esboços de pregação.
+  - Referências Bíblicas: Para cada tópico de pregação.
+  
+  Habilidades e Experiência Ideais:
+  - Desenvolvimento de aplicativos móveis (iOS e Android)
+  - Interface de usuário (UI) e experiência do usuário (UX) design
+  - Integração de banco de dados para gerenciar referências e ilustrações
+  - Familiaridade com conteúdos e estruturas de pregação cristã
+  
+  Por favor, forneça um portfólio de aplicativos móveis semelhantes que você tenha desenvolvido.
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:51:12  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:51:13  [chrome.exe] Desenvolvimento de Aplicativo de Pregação Cristã | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:51:15  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:51:16  [chrome.exe] Desenvolvimento de Aplicativo de Pregação Cristã | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:51:18  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:51:29  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:51:30  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  My break is over i have to go back
+  [Clipboard]
+  If you still awake after i finish I’ll text if u steep maybe tomorrow ok?
+  [LMB]
+
+--- WINDOW  2026/07/28 16:52:53  [chrome.exe] On-Site Verification in Zvolen, Slovakia | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:53:01  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:53:04  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:53:05  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:53:05  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  喜欢看你轻轻皱眉
+  
+  
+  不理我，那我只能杀手锏了
+  [LMB]
+  [Clipboard]
+  喜欢看你轻轻皱眉
+  
+  
+  不理我，那我只能杀手锏了
+  [Clipboard]
+  I am abroad
+
+--- WINDOW  2026/07/28 16:56:25  [chrome.exe] Farm Ministry Informational Website | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I’m building a web home for our farm-based re-entry ministry, a place where men and women who have served time can discover hope, housing, and practical skills for life beyond prison. The site’s first job is to clearly explain who we are, why the farm exists, and how our programming works. I want visitors to land on the page and immediately see our mission statement, the goals that drive us, and real stories from residents whose lives have turned around through the program.
+  
+  Key sections will include a detailed overview of the farm housing model, daily programming schedules, and a testimonial area rich with photos and short videos. An always-visible event calendar keeps supporters informed about open farm days, workshops, and graduations. A secure donation portal needs to accept one-time and recurring gifts, while a simple volunteer sign-up form should funnel helpers straight into our backend CRM (Mailchimp or similar).
+  
+  Although the primary focus is information and engagement, I’d also like the framework ready for a small e-commerce corner where incarcerated artisans can sell their handmade crafts—think of it as a future add-on that plugs into the main site without a full rebuild.
+  
+  Deliverables
+  • Responsive, accessible website (WordPress, Webflow, or similar CMS)
+  • Mission, programming, and testimonial pages ready for content drop-in
+  • Integrated event calendar that staff can update without code
+  • Stripe or PayPal powered donation portal with recurring option
+  • Volunteer form that pushes data to our mailing list automatically
+  • Clean admin dashboard and brief handoff guide
+  
+  Acceptance Criteria
+  • Loads in under 3 seconds on 4G mobile
+  • WCAG 2.1 AA compliant colour and font choices
+  • Donation flow fully tested in sandbox and live modes
+  • Calendar, form, and all copy editable by non-technical staff
+  
+  Once the core site is live and stable, we’ll talk about expanding into the craft shop feature.
+  cc
+  [Clipboard]
+  === INTERNAL ESTIMATE ===
+  Estimated Hours: 75-100
+  Estimated Budget: $3,000-$4,000 USD
+  Estimated Timeline: 4-6 weeks
+  Confidence: High
+  
+  === PROPOSAL ===
+  Hi — Canada based developer here. I’m available for a short video call if you’d like to walk through priorities.
+  
+  You need a clear, fast, accessible site that immediately communicates mission, shows real resident stories (photos + short videos), and handles donations and volunteer sign-ups without burdening staff. The core challenge is making those pieces editable for non-technical users while keeping donation flows secure and the site performant and WCAG 2.1 AA compliant.
+  
+  I’ve built similar WordPress sites with Stripe donations, Mailchimp integration, and an always-visible event calendar that staff can edit. My approach is minimal: ship the content-first pages and testimonial gallery, integrate Stripe/PayPal sandbox-first, then hand over a short admin guide and training.
+  
+  A couple quick questions:
+  1. Do you have existing Stripe/PayPal and Mailchimp accounts, or should I set those up?
+  2. Will staff supply the initial photos/videos or should I include lightweight media optimization workflow?
+  
+  Happy to discuss next steps.  
+  Thanks,  
+  Paul
+  [Clipboard]
+  Hi, Canada based developer here. 
+  
+  You need a clear, fast, accessible site that immediately communicates mission, shows real resident stories (photos + short videos), and handles donations and volunteer sign-ups without burdening staff. The core challenge is making those pieces editable for non-technical users while keeping donation flows secure and the site performant and WCAG 2.1 AA compliant.
+  
+  I’ve built similar WordPress sites with Stripe donations, Mailchimp integration, and an always-visible event calendar that staff can edit. My approach is minimal: ship the content-first pages and testimonial gallery, integrate Stripe/PayPal sandbox-first, then hand over a short admin guide and training.
+  
+  A couple quick questions:
+  1. Do you have existing Stripe/PayPal and Mailchimp accounts, or should I set those up?
+  2. Will staff supply the initial photos/videos or should I include lightweight media optimization workflow?
+  
+  Happy to discuss next steps.  
+  Thanks,  
+  Paul
+  [Clipboard]
+  Hi, Canada based developer here. 
+  
+  You need a clear, fast, accessible site that immediately communicates mission, shows real resident stories (photos + short videos), and handles donations and volunteer sign-ups without burdening staff. The core challenge is making those pieces editable for non-technical users while keeping donation flows secure and the site performant and WCAG 2.1 AA compliant.
+  
+  I’ve built similar WordPress sites with Stripe donations, Mailchimp integration, and an always-visible event calendar that staff can edit. My approach is minimal: ship the content-first pages and testimonial gallery, integrate Stripe/PayPal sandbox-first, then hand over a short admin guide and training.
+  
+  A couple quick questions:
+  1. Do you have existing Stripe/PayPal and Mailchimp accounts, or should I set those up?
+  2. Will staff supply the initial photos/videos or should I include lightweight media optimization workflow?
+  
+  Happy to discuss next steps.  
+  Thanks,  
+  Paul
+  [LMB]
+  [Ctrl]v
+  [Clipboard]
+  abroad
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/web-development/Farm-Ministry-Informational-Website/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  arm Ministry Informational Website
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  
+  United States
+  c
+  [LMB]
+  [Clipboard]
+  United States
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $500.00 USD
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:58:19  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:58:20  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:58:29  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:58:31  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:58:32  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 16:58:44  [chrome.exe] (1) Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 16:59:00  [chrome.exe] (1) Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 16:59:13  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Hey Paul,
+  
+  Thanks for messaging me. I’ve been running my system manually for a couple months now with promising results but it’s time consuming and I miss a lot of opps. I was hoping this could be a collaborative and ongoing project where we continuously chat and tweak things as we go on. Would it be possible to start with one sport and then expand it from there after testing the system? I do not have API’s for kalshi or any sportsbooks. It’s my understanding that kalshi’s API should be accessible but that sportsbooks don’t hand those out. I’m based in BC, Canada so I have 5 sportsbooks, all with different odds providers that I’d like to start with. If you’re still interested in the project I can provide more details as to the markets I want to scan, liquidity and time requirements. Thanks for your time and I look forward to hearing back from you.
+  
+  Best,
+  
+  Nathaniel
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 17:00:52  [chrome.exe] nathanielb55 Profile | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 17:00:57  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Project Details
+  $25.00 – 50.00 CAD per hour
+  
+   Bidding ends in 6 days, 21 hours
+  I need a working tool that continuously pulls event-level probabilities from Kalshi and Polymarket and contrasts them with real-time money-line, spread prices, over under prices and prop markets from major online sportsbooks. The goal is simple: highlight pre-game markets for Football, Basketball, Tennis, Soccer and Baseball where the implied probabilities diverge enough to create positive-expected-value opportunities.
+  
+  Core workflow
+  • Fetch live or regularly refreshed odds via public or paid APIs (or reliable screen-scraping when an API is unavailable).
+  • Convert every price to a clean, comparable implied probability.
+  • Compare the Kalshi / Polymarket probabilities against each sportsbook’s line.
+  • Flag and log any gap that exceeds a configurable threshold, then push an alert (email, Slack or Telegram preferred—open to the best fit).
+  
+  Technical preferences
+  Python is my default, but I am open to Node, Go or another language if you can justify speed or API compatibility gains. Please structure the code so the market modules (Kalshi, Polymarket, each sportsbook) can be swapped or extended easily. A lightweight web dashboard or CLI summary that lists the latest discrepancies would be ideal, though a Jupyter-style report is acceptable for a first milestone.
+  
+  Acceptance criteria
+  1. At least one live feed each from Kalshi, Polymarket and two major sports books available in my area demonstrates automated parsing and probability conversion.
+  2. Alert fires when a test threshold is deliberately breached.
+  3. Documentation shows how to add a new sportsbook module in under 30 lines.
+  4. Code runs on a standard cloud instance without paid add-ons beyond the data sources themselves.
+  
+  Let me know your proposed stack, data-source access strategy and estimated turnaround so we can lock in milestones quickly.
+  cc
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Hi, Canada-based developer here.
+  
+  I’m available for a short video call if you want to walk through data sources.
+  
+  You need reliable feed adapters and a clean probability normalization layer more than fancy UI.
+  From what you described the core risks are
+  (1) inconsistent/missing APIs across books and markets and
+  (2) making all prices comparable (vig removal, market types like moneyline/OU/props). I’ve built similar collectors that normalized betting prices and flagged EV gaps for football and baseball markets.
+  
+  My approach: a small Python service with modular adapters for Kalshi, Polymarket and each sportsbook, a shared probability converter, and a lightweight dashboard + Slack/Telegram alerts. I’ll prioritize robust parsing, test hooks to simulate breaches, and clear docs showing how to add a sportsbook in <30 lines.
+  
+  A couple quick questions:
+  1. Do you already have API keys for any sportsbooks, or should I include scraping fallbacks?
+  2. Which two sportsbooks must be live in the first milestone?
+  
+  Thanks,
+  Paul
+  c
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Hi Paul,
+  
+  Thanks for reaching out. Your proposed architecture aligns well with what I'm looking for.
+  
+  To answer your questions:
+  
+  1. I don't currently have sportsbook API keys, so please plan for API integrations where available and reliable scraping fallbacks where necessary.
+  2. For the first milestone, I'd like to support Kalshi, Polymarket, and two major sportsbooks such as DraftKings and FanDuel (or equivalent alternatives if there are access limitations in your region).
+  
+  The initial goal is a working system that continuously compares implied probabilities across these sources, detects configurable EV discrepancies, and sends alerts. Clean, modular code and straightforward documentation are important since I'll likely expand the number of sportsbooks later.
+  
+  I'm happy to schedule a short call to discuss data sources and milestones. Please let me know your availability and your estimated timeline for delivering the first milestone.
+  
+  Looking forward to hearing from you.
+  
+  [Clipboard]
+  Hi Paul,
+  
+  Thanks for reaching out. Your proposed architecture aligns well with what I'm looking for.
+  
+  To answer your questions:
+  
+  1. I don't currently have sportsbook API keys, so please plan for API integrations where available and reliable scraping fallbacks where necessary.
+  2. For the first milestone, I'd like to support Kalshi, Polymarket, and two major sportsbooks such as DraftKings and FanDuel (or equivalent alternatives if there are access limitations in your region).
+  
+  The initial goal is a working system that continuously compares implied probabilities across these sources, detects configurable EV discrepancies, and sends alerts. Clean, modular code and straightforward documentation are important since I'll likely expand the number of sportsbooks later.
+  
+  I'm happy to schedule a short call to discuss data sources and milestones. Please let me know your availability and your estimated timeline for delivering the first milestone.
+  
+  Looking forward to hearing from you.
+  
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Sports Odds Discrepancy Alert 
+  c
+  [Clipboard]
+  Hi Paul,
+  
+  Thanks for reaching out. Your proposed architecture aligns well with what I'm looking for.
+  
+  To answer your questions:
+  
+  I don't currently have sportsbook API keys, so please plan for API integrations where available and reliable scraping fallbacks where necessary.
+  For the first milestone, I'd like to support Kalshi, Polymarket, and two major sportsbooks such as DraftKings and FanDuel (or equivalent alternatives if there are access limitations in your region).
+  
+  The initial goal is a working system that continuously compares implied probabilities across these sources, detects configurable EV discrepancies, and sends alerts. Clean, modular code and straightforward documentation are important since I'll likely expand the number of sportsbooks later.
+  
+  I'm happy to schedule a short call to discuss data sources and milestones. Please let me know your availability and your estimated timeline for delivering the first milestone.
+  
+  Looking forward to hearing from you.
+  [Clipboard]
+  Hi,
+  
+  Thanks for your response. I'm glad we're aligned on the architecture.
+  
+  Using APIs where available and reliable scraping as a fallback is exactly how I'd approach it. For the first milestone, I can integrate Kalshi, Polymarket, and the two sportsbooks you choose, then build the probability normalization layer, EV comparison engine, and configurable alert system. I'll also keep the adapters modular so adding new sportsbooks later is straightforward.
+  
+  Once you confirm your preferred sportsbooks and any API credentials you already have (if applicable), I'll finalize the implementation plan and timeline. I can also walk you through the data-source strategy during a short video call if that's helpful.
+  
+  Looking forward to working with you.
+  
+  [Clipboard]
+  Hi,
+  
+  Thanks for your response. I'm glad we're aligned on the architecture.
+  
+  Using APIs where available and reliable scraping as a fallback is exactly how I'd approach it. For the first milestone, I can integrate Kalshi, Polymarket, and the two sportsbooks you choose, then build the probability normalization layer, EV comparison engine, and configurable alert system. I'll also keep the adapters modular so adding new sportsbooks later is straightforward.
+  
+  Once you confirm your preferred sportsbooks and any API credentials you already have (if applicable), I'll finalize the implementation plan and timeline. I can also walk you through the data-source strategy during a short video call if that's helpful.
+  
+  Looking forward to working with you.
+  
+  [LMB]
+  h, [Bk][Bk][Bk], thank you for you reson[Bk][Bk]ponse.
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Thanks for messaging me. I’ve been running my system manually for a couple months now with promising results but it’s time consuming and I miss a lot of opps. I was hoping this could be a collaborative and ongoing project where we continuously chat and tweak things as we go on. Would it be possible to start with one sport and then expand it from there after testing the system? I do not have API’s for kalshi or any sportsbooks. It’s my understanding that kalshi’s API should be accessible but that sportsbooks don’t hand those out. I’m based in BC, Canada so I have 5 sportsbooks, all with different odds providers that I’d like to start with. If you’re still interested in the project I can provide more details as to the markets I want to scan, liquidity and time requirements. Thanks for your time and I look forward to hearing back from you.
+  c
+  [LMB]
+   i was about to drive [Bk]. i will message you once i am 
+  [Clipboard]
+  Hey @Artemis, I found your Discord profile and wanted to introduce ourselves. We build AI solutions, web apps, SaaS platforms, automation systems, and custom software. We also offer dedicated developers. Interested in seeing some of our work?
+  available. can we talk[Bk][Bk][Bk]discuss i ndetail on [Bk][Bk][Bk] at tha
+  [Clipboard]
+  Stars feel brighter whenever I see your smile,
+  Under the moon, I wish to stay with you a while,
+  My heart is grateful for every moment we share,
+  In my life, you are the most beautiful treasure there.
+  t time/[Ctrl]ac
+  [Clipboard]
+  Hi, thank you for your response. I was about to drive. I will message you once I am available. Can we discuss in detail at that time?
+  [Clipboard]
+  Special days like today remind us how amazing you are,
+  Unique and wonderful, just like a shining star,
+  May your 20th year bring laughter, dreams, and cheer,
+  I hope happiness and success follow you every year.
+  [Clipboard]
+  Hi, thanks for getting back to me. I'm just about to head out and drive, so I'll reach out once I'm available. We can go over the project in detail at that time. Looking forward to speaking with you.
+  
+  [Clipboard]
+  Hi, thanks for your response. I'm about to drive, so I'll get back to you once I'm available. If that works for you, we can discuss the project in detail then.
+  
+  [Clipboard]
+  Hi, thanks for your response. I'm about to drive, so I'll get back to you once I'm available. If that works for you, we can discuss the project in detail then.
+  
+  [LMB]
+  [Ctrl]av
+  [Clipboard]
+  Hi, thanks for your response. I'm about to drive, so I'll get back to you once I'm available. If that works for you, we can discuss the project in detail then.
+  
+  [Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  i'd liek to
+  [LMB]
+  [Ctrl]a
+  [Clipboard]
+  Hi, thanks for your response. I'm about to drive, so I'll get back to you once I'm available. If that works for you, I'd like to discuss the project in detail then.
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Thanks for messaging me. I’ve been running my system manually for a couple months now with promising results but it’s time consuming and I miss a lot of opps. I was hoping this could be a collaborative and ongoing project where we continuously chat and tweak things as we go on. Would it be possible to start with one sport and then expand it from there after testing the system? I do not have API’s for kalshi or any sportsbooks. It’s my understanding that kalshi’s API should be accessible but that sportsbooks don’t hand those out. I’m based in BC, Canada so I have 5 sportsbooks, all with different odds providers that I’d like to start with. If you’re still interested in the project I can provide more details as to the markets I want to scan, liquidity and time requirements. Thanks for your time and I look forward to hearing back from you.
+  
+  Best,
+  
+  Nathaniel
+  c
+  [Clipboard]
+  Hi, thanks for your response. I'm about to drive, so I'll get back to you once I'm available. If that works for you, I'd like to discuss the project in detail then.
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Hey Paul,
+  
+  Thanks for messaging me. I’ve been running my system manually for a couple months now with promising results but it’s time consuming and I miss a lot of opps. I was hoping this could be a collaborative and ongoing project where we continuously chat and tweak things as we go on. Would it be possible to start with one sport and then expand it from there after testing the system? I do not have API’s for kalshi or any sportsbooks. It’s my understanding that kalshi’s API should be accessible but that sportsbooks don’t hand those out. I’m based in BC, Canada so I have 5 sportsbooks, all with different odds providers that I’d like to start with. If you’re still interested in the project I can provide more details as to the markets I want to scan, liquidity and time requirements. Thanks for your time and I look forward to hearing back from you.
+  
+  Best,
+  
+  Nathaniel
+  [Ctrl]c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/28 17:08:58  [chrome.exe] nathanielb55 Profile | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 17:09:09  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 17:09:43  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 17:09:46  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 17:09:47  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 17:12:36  [chrome.exe] nathanielb55 Profile | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 17:12:39  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 17:12:57  [chrome.exe] Cybersecurity Audit Logs Review | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 17:13:01  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  This is actually a fairly interesting project. The client is not asking for a betting bot. They're asking for a market intelligence system that compares prediction markets (Kalshi/Polymarket) with sportsbooks and identifies where the probabilities disagree.
+  
+  Here's how I would approach it.
+  [Clipboard]
+  This is actually a fairly interesting project. The client is not asking for a betting bot. They're asking for a market intelligence system that compares prediction markets (Kalshi/Polymarket) with sportsbooks and identifies where the probabilities disagree.
+  
+  Here's how I would approach it.
+  [Clipboard]
+  I think there are a few girls who can make that kind of cool sentences
