@@ -1,0 +1,776 @@
+﻿  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 09:22:31  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:22:31  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 09:27:17  [chrome.exe] Control Térmico Automático Miniaturizado | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Estoy diseñando un dispositivo médico de tamaño reducido que debe mantener una temperatura interna muy estable. Necesito que desarrolles un sistema de control automático compacto (hardware y firmware) capaz de:
+  
+  • Medir la temperatura con precisión clínica, gobernar un actuador (resistencia, Peltier o similar) mediante un lazo PID y almacenar de forma continua el historial en memoria interna o tarjeta micro-SD; el registro de datos es el requisito adicional imprescindible.
+  
+  El espacio disponible es mínimo, así que cada componente debe venir en versión SMD y la electrónica debe funcionar con una sola fuente de 3,3 V – 5 V. Valoro que propongas sensores digitales de alta resolución (p. ej. MAX31865, PT100, o alternativas) y microcontroladores de bajo consumo como STM32, ESP32 o equivalente; si manejas otros chips y demuestras la misma precisión, también es válido.
+  
+  Entrego las especificaciones térmicas detalladas en la contratación. Espero como resultado:
+  
+  1. Esquema eléctrico y lista de materiales.
+  2. Diseño de PCB listo para fabricación (Gerber + pick-and-place).
+  3. Firmware completo con algoritmo de control, autocálculo de PID y función de logging en formato CSV.
+  4. Guía rápida para integrar el módulo en mi placa principal y para extraer los datos.
+  
+  La solución se considerará aceptada cuando, en la prueba de laboratorio, mantenga la temperatura dentro de ±0,2 °C del punto de consigna durante 30 min y el archivo de registro muestre cada muestreo sin pérdidas.
+  cc
+  [LMB]
+  [Clipboard]
+  btw Figaor knows your this account?
+  [LMB]
+  [Clipboard]
+  Hi, Canada based developer here. 
+  
+  Entiendo el núcleo: mantener ±0,2 °C en un espacio muy reducido y además garantizar logging continuo sin pérdidas. Eso implica elegir sensor de alta resolución, control PID robusto y escritura confiable a microSD con buffering tolerante a fallos. Técnicas relevantes: PID embebido, registro CSV en FAT y sensores PT100/MAX31865.
+  
+  He implementado módulos compactos (STM32/ESP32) con control térmico y logging en proyectos médicos y de laboratorio. Para este trabajo me concentraría en:
+  - Selección SMD de sensor y MOSFET/Peltier driver.
+  - PCB compacta con alimentación 3.3–5 V.
+  - Firmware: autocalibrado PID, muestreo determinista y logging seguro.
+  
+  Un par de preguntas:
+  1. ¿La muestra física del dispositivo estará disponible para pruebas en mi banco de trabajo o solo en su laboratorio?
+  2. ¿Frecuencia de muestreo objetivo (ej. 1 Hz, 10 Hz)?
+  
+  Si le parece bien, coordinamos una llamada y puedo compartir un plan de fases y entregables.  
+  Gracias,  
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  30
+  [LMB]
+  20
+  [LMB]
+  [LMB]
+  [Bk][Bk]20
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Control Térmico Automático Miniaturizado
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  €3,000.00 EUR
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/embedded-systems/Control-rmico-Autom-tico-Miniaturizado/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Spain
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 09:32:34  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:32:35  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:32:35  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Thanks again
+  for your generous
+  sis
+  kitty
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 09:34:17  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:34:18  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:34:18  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  what can I think it?
+  if it is good or not
+  anonymous
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  more or less
+  [LMB]
+
+--- WINDOW  2026/07/28 09:40:51  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:40:52  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:40:52  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 09:42:55  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:42:55  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 09:43:53  [chrome.exe] Young Adult Short Story Writing | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 09:43:57  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:43:57  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:43:57  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 09:45:02  [chrome.exe] Luxury Property Advisory Website Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl]
+  [Clipboard]
+  Project Overview
+  
+  I need a premium website for my company, Mallorca Property Advisory.
+  
+  This is an independent property advisory business for international buyers investing, buying, renovating, or building in Mallorca.
+  
+  I am not a real estate agency. My business is built on trust, discretion, and independent advice.
+  
+  The website should feel comparable to the branding and design quality of Aman Resorts, Apple, and a private family office.
+  
+  It should be:
+  
+  * Minimalist
+  * Elegant
+  * Luxurious
+  * Warm
+  * Timeless
+  * Mediterranean
+  * Extremely clean
+  * Premium without being flashy
+  
+  Please use the attached screenshot as the primary design inspiration. I love the layout, typography, whitespace, colour palette, photography style, and overall feeling. I want something original that captures the same level of sophistication while being tailored specifically to my brand.
+  
+  ⸻
+  
+  Platform
+  
+  The website must be built in Framer.
+  
+  I want complete ownership of the project once it’s finished.
+  
+  The website should be transferred into my own Framer account, and I want to be able to edit text, images, pages, pricing, and content myself without needing to hire the developer again.
+  
+  I do not want to be locked into the developer’s account, hosting, software, or ongoing maintenance services.
+  
+  ⸻
+  
+  Ongoing Costs
+  
+  Keeping monthly costs low is important.
+  
+  Please build the website using standard, widely used tools with minimal recurring costs.
+  
+  My ideal ongoing costs are approximately:
+  
+  * Framer hosting
+  * My own domain
+  * Stripe payment processing
+  * Booking software (only if required)
+  
+  I would like my total ongoing website costs to stay around €30 per month or less (excluding Stripe transaction fees).
+  
+  Please avoid unnecessary paid plugins, custom software subscriptions, or expensive third-party services.
+  
+  ⸻
+  
+  Pages
+  
+  * Home
+  * Services
+  * About
+  * Book a Consultation
+  * Contact
+  
+  ⸻
+  
+  Features
+  
+  The website should include:
+  
+  * Fully responsive design (desktop, tablet, and mobile)
+  * Fast loading speed
+  * SEO-friendly structure
+  * Contact form
+  * WhatsApp button
+  * Online consultation booking
+  * Stripe payment integration
+  * Calendar integration
+  * Automatic booking confirmation emails
+  * Professional but subtle animations
+  * Easy content editing in Framer
+  * Google Maps integration
+  * Social media links
+  * GDPR-compliant cookie banner
+  * Privacy Policy and Terms pages
+  
+  ⸻
+  
+  Booking Flow
+  
+  I want the booking process to be simple.
+  
+  For example:
+  
+  1. Client selects consultation.
+  2. Client chooses a date and time.
+  3. Client pays online.
+  4. Client automatically receives a confirmation email.
+  5. I automatically receive the booking in my calendar.
+  
+  Everything should work without me having to manually organise appointments.
+  
+  ⸻
+  
+  Branding
+  
+  The overall feeling should be:
+  
+  Luxury • Independent • Trustworthy • Sophisticated • Mediterranean • Timeless • Private • Understated
+  
+  I want visitors to immediately feel they are dealing with a high-end advisory firm rather than a traditional real estate agency.
+  
+  ⸻
+  
+  Deliverables
+  
+  When the project is complete, I expect:
+  
+  * Full Framer project transferred to my account
+  * Domain connected
+  * Website fully published
+  * Stripe connected and working
+  * Booking system fully functional
+  * Contact forms working
+  * Mobile version completed
+  * Basic SEO configured
+  * Favicon installed
+  * Google Analytics connected (if applicable)
+  * Brief walkthrough showing me how to edit the website myself
+  
+  ⸻
+  
+  Important
+  
+  I want a website that I fully own and control.
+  
+  I do not want to rely on the developer after completion. Everything should be built using standard tools so that I can manage the website independently or hire any other Framer developer in the future if needed.
+  
+  Please include examples of similar luxury websites you have designed, preferably in Framer, and provide a fixed-price quote together with an estimated completion time.
+  cc
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 09:45:22  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:45:23  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  likedaxue
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 09:47:02  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:47:03  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:47:04  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  I do I live on the East coast of the US
+  [LMB]
+
+--- WINDOW  2026/07/28 09:51:29  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:51:30  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:51:30  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:54:35  [chrome.exe] (1) Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 09:57:58  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 09:58:03  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:58:04  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 09:58:04  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 10:00:45  [chrome.exe] Publishing overview | KayakPro - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 10:01:04  [chrome.exe] Submission activity | KayakPro - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 10:01:19  [chrome.exe] Submission details | KayakPro - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 10:01:40  [chrome.exe] Submission activity | KayakPro - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 10:02:05  [chrome.exe] EC2 Instance Connect | ca-west-1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 10:02:08  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 10:02:11  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  理科大学
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 10:06:31  [chrome.exe] Complete Lottery Prediction and Betting Automation System (Spain and Brazil) – Continuous Learning with Performance Validation | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  PROJECT SUMMARY
+  I need an experienced developer to complement and correct a lottery prediction and betting automation system for 7 lotteries (Spain: La Primitiva, Euromillions, El Gordo; Brazil: Mega-Sena, Lotofácil, Quina, +Milionária).
+  
+  The system already has a substantial codebase (backend, scraping, Selenium automation, initial ML models, interface), but it has critical structural failures that make it useless for real betting. The work consists of leveraging what has already been built and implementing the necessary corrections and completions.
+  
+  The goal is to fix, complete, and stabilize the system, ensuring it:
+  
+  Continuously learns from each historical and future draw.
+  
+  Produces a stable and predictable ordering of combinations, with the position difference between consecutive draws ideally ≤ 15,000 positions.
+  
+  Is transparent and verifiable by the user (logs, checksums, performance dashboard).
+  
+  Allows bet export by range using fixed and immutable IDs.
+  
+  Has a total learning reset button with visual progress tracking.
+  
+  This is not a "magical" prediction system that guarantees wins – it is a continuous optimization and predictability tool, with clear metrics for the user to track learning evolution.
+  
+  WHAT THE SYSTEM ALREADY HAS (AND WHAT NEEDS TO BE FIXED/COMPLETED)
+  What Already Exists (Codebase):
+  Python backend (Django/Flask – to be confirmed during audit).
+  
+  Historical data scraping from the first draw of each lottery.
+  
+  Combination generation (full wheel) and bet export.
+  
+  Selenium automation for login and bet submission (with manual confirmation).
+  
+  Initial Machine Learning model (Gradient Boosting).
+  
+  Web interface and basic dashboard.
+  
+  Multi-lottery support.
+  
+  Critical Issues to Be Fixed/Completed:
+  IDs are not fixed and immutable – the system reorders or renumbers IDs after export, breaking traceability.
+  
+  No continuous learning – the model trains only once at the beginning and is never updated with new draws.
+  
+  Broken difference pattern – position differences between consecutive draws exploded to millions, when they should be stable (≤ 15,000).
+  
+  Missing feedback loop – the system does not use error (difference between predicted and actual position) to adjust ordering.
+  
+  Missing requested models – only Gradient Boosting was used; Random Forest, LSTM (PyTorch), and Neuro-Symbolic AI are missing.
+  
+  Dashboard lacks learning metrics – no accuracy, mean error, rank evolution charts, etc.
+  
+  No visual tracking – during historical reprocessing, no progress bar, status per draw, or estimated time.
+  
+  No hash validation – no checksum to ensure the downloaded file (.txt) matches the generated file (.orc).
+  
+  No large jump alerts – the system does not notify when the difference between draws exceeds 1 million (indicating failure or manipulation).
+  
+  MANDATORY REQUIREMENTS (NON-NEGOTIABLE)
+  1. Fixed and Immutable IDs
+  Each combination must have a unique and permanent ID in the format:
+  LOTTERY_DRAW_XXXX_COMBO_YYYYYY
+  
+  The same ID must never represent a different combination. IDs cannot be renamed, reordered, or deleted at any stage.
+  
+  2. Immutable Master File
+  After each draw, a master file must be generated and permanently saved, never altered. The user can download it at any time.
+  
+  3. Continuous Learning (Incremental)
+  The system must learn from the second draw through the most recent, accumulating knowledge with each new draw. Learning must be incremental, not one-time training.
+  
+  4. Stable Difference Pattern (≤ 15,000 positions)
+  This is the most important requirement.
+  
+  The system must produce an ordering where the position difference of the prize between one draw and the next is small, stable, and predictable – ideally ≤ 15,000 positions (number of bets).
+  
+  The dashboard must display this metric clearly. The system must alert if the difference jumps to millions (indicating failure or manipulation).
+  
+  5. Requested AI Models
+  Implement Random Forest, LSTM (PyTorch), and Neuro-Symbolic AI as an ensemble, with adaptive weights (models with better recent performance gain more influence). Keep Gradient Boosting as part of the ensemble.
+  
+  6. Feedback Loop (Learning from Error)
+  After each draw, the system must calculate the error (difference between predicted and actual position) and use that error to reorder the next master file. Errors > 15,000 positions should be penalized exponentially.
+  
+  7. Hash Validation (Checksum)
+  Generate a hash (SHA-256) of the master file at creation and store it. When the user downloads the .txt file, the system must verify if the downloaded file's hash matches the stored hash. If there is a difference, the download must be blocked and an alert generated.
+  
+  8. Dashboard with Learning Metrics
+  Model accuracy per draw (line chart).
+  
+  Mean error per draw (difference between predicted and actual position).
+  
+  Top 100/1000 tickets performance (how many hit).
+  
+  Prize rank evolution over time.
+  
+  Cross-validation (10% most recent data as hidden test set).
+  
+  Progress bar with status per draw and estimated time during historical reprocessing.
+  
+  Dynamic confidence zone (automatic suggestion of the best betting range based on recent history).
+  
+  Outlier alert (difference > 1 million).
+  
+  9. Export by Range
+  The user can select an ID range (e.g., 112,000 to 125,000) and export as a bet file, preserving original IDs (no renumbering).
+  
+  10. Lightweight Validation Log
+  For each draw, automatically generate a record (CSV/JSON) containing: date, prize position (rank), master file checksum, and difference metric.
+  
+  11. Total Learning Reset
+  Button that deletes all previous learning and restarts processing from the very first draw, with progress bar, status per draw, and estimated time. Must preserve fixed IDs.
+  
+  12. Support for 7 Lotteries
+  Spain (3): La Primitiva, Euromillions, El Gordo.
+  
+  Brazil (4): Mega-Sena, Lotofácil, Quina, +Milionária.
+  
+  Each lottery operates independently (IDs, master files, learning, automation).
+  
+  13. Complete and Documented Source Code
+  Delivered at project completion, with all implementations and installation/deployment instructions.
+  
+  WHAT THE SYSTEM SHOULD PRODUCE (VISUAL EXAMPLES)
+  Expected Pattern (Small and Stable Differences):
+  Date Special pos Difference vs previous
+  2026-04-20 120,681 –
+  2026-04-18 119,851 830 (OK)
+  2026-04-16 118,860 991 (OK)
+  2026-04-13 116,855 2,005 (OK)
+  Unacceptable Pattern (Explosive Differences in Millions):
+  Date Special pos Difference vs previous
+  2026-07-18 101,393,579 94 MILLION (NOT OK)
+  2026-07-16 123,432,112 22 MILLION (NOT OK)
+  2026-07-13 131,382,038 7.9 MILLION (NOT OK)
+  ESTIMATED TIMELINE
+  4 to 6 weeks for delivery of a stable and validated version, based on the described scope.
+  
+  REQUIRED SKILLS
+  Python (Django/Flask, Selenium, Pandas, NumPy).
+  
+  Machine Learning / Deep Learning: Random Forest, LSTM (PyTorch/TensorFlow), Neuro-Symbolic AI, Genetic Algorithms.
+  
+  Databases: PostgreSQL or MongoDB.
+  
+  Web development: dashboards with charts (Plotly, Matplotlib).
+  
+  Scraping: BeautifulSoup, Scrapy.
+  
+  Automation: Selenium (headless), session management, CAPTCHA handling.
+  
+  Version control: Git.
+  
+  API and microservices architecture knowledge (plus).
+  
+  English or Spanish (for communication and documentation).
+  
+  REFERENCE DOCUMENTS
+  Upon application, you will have access to the following documents (I will send after initial contact):
+  
+  DEFINITIVE TECHNICAL DOCUMENT lottery 2.docx – complete technical specifications of the system.
+  
+  Existing source code (for analysis and reuse).
+  
+  Examples of historical data and difference patterns.
+  
+  HOW TO APPLY
+  Submit your proposal with:
+  
+  Brief presentation of your experience in similar projects.
+  
+  Suggested approach to meet the requirements (especially the difference pattern).
+  
+  Estimated timeline and detailed cost breakdown.
+  
+  Examples of previous work with web automation and/or prediction systems.
+  
+  IMPORTANT NOTE
+  This is not a "magical prediction" system – it is a continuous optimization and predictability tool based on machine learning and adaptive ordering. Promises of guaranteed results will not be accepted.
+  
+  The focus is transparency, validation, and stability, allowing the user to track the system's learning and make informed decisions.
+  c
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I'm available for a video call if you'd like to walk through the codebase together.
+  
+  You need three things fixed first: stable immutable IDs/master files, true incremental learning, and a reliable feedback loop so rank deltas stay small (target ≤15,000). From the description the current system trains once, renumbers combos, and lacks checksum/alerts — those are exactly what breaks traceability and predictability.
+  
+  I've rebuilt similar pipelines that combine Random Forest and LSTM (PyTorch) ensembles with adaptive weighting and per-draw feedback, and added SHA-256 master-file validation, progress tracking for historical reprocessing, and lightweight per-draw logs. My approach: audit existing code, implement immutable ID layer and master-file persistence, convert training to incremental updates, add error-based reordering and dashboard metrics, then test on historical draws.
+  
+  A couple of quick questions:
+  1. Is the backend currently Django or Flask (access during audit)?
+  2. Do you have a preferred DB (Postgres vs Mongo) already in use for master files?
+  
+  Happy to discuss next steps on a short call.
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  20
+  [LMB]
+  1500
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Home][Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [<-][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/python/Complete-Lottery-Prediction-Betting/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Complete Lottery Prediction and Betting Automation System (Spain and Brazil) – Continuous Learning with Performance Validation
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Spain
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $1,500.00 USD
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 10:08:21  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 10:08:21  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 10:08:46  [chrome.exe] Rental and Inventory Tracking Software | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Project Details
+  $750.00 – 1,500.00 USD
+  
+   Bidding ends in 6 days, 23 hours
+  I'm looking for a desktop application to track costumes, jewelry, and accessories rentals and inventory.
+  
+  Essential features:
+  - Automatic notifications for due dates
+  - Detailed reports on inventory usage
+  
+  Ideal Skills:
+  - Experience in desktop application development
+  - Knowledge of inventory management systems
+  - Strong reporting and notification system integration
+  
+  Please provide a portfolio with relevant projects.
+  cc
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  I'm looking for a desktop application to track costumes, jewelry, and accessories rentals and inventory.
+  
+  Essential features:
+  - Automatic notifications for due dates
+  - Detailed reports on inventory usage
+  
+  Ideal Skills:
+  - Experience in desktop application development
+  - Knowledge of inventory management systems
+  - Strong reporting and notification system integration
+  
+  Please provide a portfolio with relevant projects.
+  [Clipboard]
+  Hi, Canada based developer here. 
+  
+  From your description the core challenges are reliable due-date notifications, accurate item state (rented/available/damaged), and flexible reporting for usage and turnover. A compact desktop app with a local database and a scheduled notifier usually covers this reliably while keeping operations fast and offline-capable.
+  
+  I've built similar rental/inventory desktop tools where the hard part was keeping notifications in sync with manual status changes and producing CSV/PDF reports for accounting. I typically use a lightweight local DB (SQLite), a background scheduler for reminders, and a simple reporting engine that exports to CSV/PDF.
+  
+  A couple of quick questions:
+  1. Should this be single-machine only or support multiple users/networked access?
+  2. Any existing data to import (CSV/spreadsheet)?
+  
+  Happy to discuss next steps.  
+  Thanks,  
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/desktop-application/Rental-Inventory-Tracking-Software/details
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Rental and Inventory Tracking Software
+  
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  United States
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $1,125.00 USD
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 10:11:13  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 10:11:15  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 10:11:33  [chrome.exe] Rental and Inventory Tracking Software | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 10:11:39  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 10:11:40  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
