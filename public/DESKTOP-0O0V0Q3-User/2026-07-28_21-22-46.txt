@@ -1,0 +1,293 @@
+﻿  [Clipboard]
+  https://jsv3.recruitics.com/redirect?rx_cid=3374&rx_jobId=JP-006184378&rx_url=https%3A%2F%2Fars2.equest.com%2F%3Ficid%3Dlinkedin_recruitics%26response_id%3Da98176d41dddd90fe9d4da084a1ca5da%26rx_campaign%3DLinkedin1%26rx_ch%3Dconnector%26rx_group%3D601026%26rx_id%3Dd66b8812-8a90-11f1-8044-51ddbb96b803%26rx_job%3DJP-006184378%26rx_medium%3Dpost%26rx_r%3Dnone%26rx_source%3DLinkedin%26rx_vp%3Dslots
+  [Clipboard]
+  NuVtwawS
+
+--- WINDOW  2026/07/28 20:37:52  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:37:52  [chrome.exe] Paul Dinh (1).pdf - Google Chrome
+----------------------------------------------------------------------------
+  [MMB]
+
+--- WINDOW  2026/07/28 20:37:55  [chrome.exe] (10) Notifications | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 20:38:01  [chrome.exe] Feed | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:38:02  [chrome.exe] Jobs | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:38:13  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:38:13  [studio64.exe] KayakPro – build.gradle (:app)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:38:19  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:38:19  [AnyDesk.exe] AnyDesk
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:38:20  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:38:20  [studio64.exe] KayakPro – build.gradle (:app)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 20:40:03  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:40:18  [chrome.exe] Jobs | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:40:18  [chrome.exe] (10) Notifications | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:40:19  [chrome.exe] (10) developer Jobs | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Servus Credit Union
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/07/28 20:41:51  [chrome.exe] HireLoop | Job Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  ca
+  [LMB]
+  [LMB]
+  123
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/28 20:42:59  [chrome.exe] (10) developer Jobs | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Data Elephant
+  c
+
+--- WINDOW  2026/07/28 20:43:20  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:43:21  [chrome.exe] BambooHR - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 20:43:21  [chrome.exe] HireLoop | Job Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/28 20:43:25  [chrome.exe] BambooHR - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://dataelephant.bamboohr.com/careers/46?source=aWQ9OQ%3D%3D
+  c
+  [LMB]
+
+--- WINDOW  2026/07/28 20:43:31  [chrome.exe] HireLoop | Job Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/28 20:43:33  [chrome.exe] BambooHR - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Databricks Engineer (Contract)
+  Technology - Calgary, Alberta
+  We are seeking an experienced Databricks Engineer to join our delivery team on a contract basis to design, build, and optimize modern data platforms on Azure Databricks. In this strategic role, you will work directly with both Data Elephant and client data and analytics teams, helping them migrate, modernize, and scale their data workloads while applying best practices in data engineering, security, ML, AI and data governance. This is a hands-on engineering role with strong exposure to architecture decisions, client interaction, and end-to-end delivery.
+  
+  
+  
+  Responsibilities
+  
+  Play an integral project team role in the implementation of modern data platforms and architectures on Databricks (including ETL, workload migrations, and Unity Catalog).
+  Design and implement data pipelines using Azure Databricks (PySpark, SQL)
+  Build and optimize batch and streaming data workloads
+  Migrate legacy data workloads to Azure + Databricks
+  Implement Delta Lake patterns (medallion architecture, CDC, data quality)
+  Integrate Databricks with Azure services such as ADLS, ADF, Azure Key Vault and DevOps/Github
+  Optimize performance and cost (cluster sizing, job orchestration, query tuning)
+  Collaborate with solution architects, analytics engineers, and client stakeholders
+  Contribute to reusable accelerators, standards, and internal best practices
+  Support client enablement through knowledge transfer and documentation
+  Provide hands-on solution delivery, including guiding and working closely with client engineers and ensuring best practices.
+  Implement governance models and Unity Catalog including data access, lineage, and security frameworks.
+  
+  
+  QUALIFICATIONS
+  
+  7+ years of experience in data engineering.
+  4+ years of recent, hands-on experience building production solutions with Databricks, including advanced features such as Delta Lake, Unity Catalog, and MLflow.
+  Strong experience developing data pipelines using PySpark and SQL.
+  Proven experience leading large-scale data migrations, including ETL workloads and cloud platform migrations.
+  Strong expertise with Microsoft Azure and experience working with Azure data services, including ADLS, Azure Data Factory (ADF), Synapse Analytics, Azure Key Vault, and Azure DevOps.
+  Strong understanding of modern data architectures, including lakehouse, medallion architecture, and ELT/ETL.
+  Experience implementing CI/CD practices for data workloads.
+  Strong understanding of enterprise data governance, security, and compliance best practices.
+  Excellent communication skills with experience working directly with client teams.
+  Previous consulting or professional services experience is strongly preferred.
+  Databricks and Microsoft Azure certifications are considered an asset.
+  
+  
+  Be part of Canada’s leading boutique consulting firm focused on Databricks and modern data platforms.
+  
+  Work on challenging, high-impact projects with mid-sized and enterprise clients across industries
+  Collaborate with a senior, high-performing team that values speed, pragmatism, and client success.
+  
+  
+  This role requires regular onsite work at a client location in Calgary. 
+  cc
+  [LMB]
+
+--- WINDOW  2026/07/28 20:43:40  [chrome.exe] HireLoop | Job Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/28 20:43:56  [chrome.exe] BambooHR - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 20:44:04  [chrome.exe] HireLoop | Job Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 20:44:30  [chrome.exe] BambooHR - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 20:44:42  [chrome.exe] Recent download history
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 20:44:42  [explorer.exe] Downloads
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Del]
+
+--- WINDOW  2026/07/28 20:44:46  [explorer.exe] Delete Multiple Items
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/28 20:44:47  [explorer.exe] Downloads
+----------------------------------------------------------------------------
+  [^][->][Bk][Bk][Bk][ENTER]
+
+--- WINDOW  2026/07/28 20:44:55  [chrome.exe] BambooHR - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  al
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 20:45:18  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 20:45:23  [chrome.exe] BambooHR - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 20:45:44  [chrome.exe] (10) developer Jobs | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 20:45:52  [chrome.exe] BambooHR - Google Chrome
+----------------------------------------------------------------------------
+  1600000[Bk]
+  [LMB]
+
+--- WINDOW  2026/07/28 20:46:03  [chrome.exe] (10) developer Jobs | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 20:46:06  [chrome.exe] HireLoop | Job Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  https://www.linkedin.com/in/pauldinh88/
+  [LMB]
+
+--- WINDOW  2026/07/28 20:46:09  [chrome.exe] BambooHR - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 20:46:55  [chrome.exe] HireLoop | Job Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 20:47:01  [chrome.exe] (10) developer Jobs | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Potenco
