@@ -1,0 +1,953 @@
+﻿  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Summary
+  Somos titletag, estudio español de marketing con identidad de marca definida (paleta, tipografía, motivo gráfico). Buscamos diseñador/a UI freelance para una landing one-page de conversión B2B en español: 7 secciones, una única llamada a la acción (agendar una llamada de 15 min), formulario de 3 campos y calendario embebido.
+  
+  Qué entregamos nosotros: brief cerrado, estructura de secciones aprobada, copy en español e identidad visual completa. Buscamos ejecución con criterio sobre esa base — no rediseño de marca ni copywriting.
+  
+  Qué te pedimos:
+  
+  Diseño completo en Figma, desktop + móvil, con auto layout, estilos y componentes listos para handoff a desarrollo.
+  Estados del formulario y del calendario embebido (tipo Calendly/cal.com).
+  Primer checkpoint a los ~5 días: hero + 1 sección para validar dirección.
+  2 rondas de revisión incluidas.
+  Perfil que buscamos: experiencia demostrable en landings B2B o SaaS orientadas a conversión, dominio de jerarquía tipográfica para páginas con copy argumentativo, español fluido.
+  
+  Condiciones: precio cerrado por proyecto (indícalo en tu propuesta). Plazo: ~2 semanas desde el kickoff. Solo diseño; el desarrollo lo hace otro perfil.
+  
+  En tu propuesta incluye: (1) 2-3 landings B2B de tu portfolio con link, (2) 2-3 frases sobre cómo enfocarías el hero de una landing con una sola CTA, (3) tu precio cerrado y disponibilidad de inicio. Empieza tu propuesta con la palabra "PRECISIÓN" para saber que has leído el anuncio.
+  
+  We're titletag, a Spanish marketing studio with a fully defined brand identity (palette, typography, graphic motif). We're looking for a freelance UI designer for a one-page B2B conversion landing in Spanish: 7 sections, a single CTA (book a 15-min call), a 3-field form and an embedded calendar.
+  
+  What we provide: a closed brief, approved section structure, final copy in Spanish, and complete brand guidelines. We need skilled execution on that base — not a rebrand, not copywriting.
+  
+  What we need from you:
+  
+  Full design in Figma, desktop + mobile, with auto layout, styles and components ready for dev handoff.
+  Form states and embedded calendar states (Calendly/cal.com style).
+  First checkpoint at ~5 days: hero + 1 section to validate direction.
+  2 revision rounds included.
+  Profile: proven experience with conversion-focused B2B/SaaS landing pages, strong typographic hierarchy for copy-heavy pages, fluent Spanish (required — the copy is in Spanish and hierarchy decisions depend on understanding it).
+  
+  Terms: fixed project price (state it in your proposal). Timeline: ~2 weeks from kickoff. Design only — development is handled separately.
+  
+  In your proposal include: (1) 2-3 B2B landing pages from your portfolio with links, (2) 2-3 lines on how you'd approach a hero with a single CTA, (3) your fixed price and start availability. Start your proposal with the word "PRECISION" so we know you've read the brief.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:24:04  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:24:05  [chrome.exe] upwork.com/nx/proposals/job/~022082531736945008567/apply/ - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:24:06  [chrome.exe] Submit a Proposal - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:24:22  [chrome.exe] Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/29 11:24:28  [chrome.exe] Diseñador UI para landing B2B de conversión - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:25:46  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:26:05  [chrome.exe] upwork.com/freelancers/~01f00832179969b7be - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:26:06  [chrome.exe] Freelancer Profile - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:26:10  [chrome.exe] Abdullah M. - Full Stack Developer | React | Next.js | Node.js | MERN Stack | API - Upwork Freelancer from Gujranwala, Pakistan - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:26:45  [chrome.exe] Submit a Proposal - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:27:10  [chrome.exe] Diseñador UI para landing B2B de conversión - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  tm perop[Bk][Bk]poas[Bk][Bk]sal likkh do mujhy
+
+--- WINDOW  2026/07/29 11:27:33  [chrome.exe] Upwork profile data extraction - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:27:42  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:27:45  [chrome.exe] ChatGPT - FB ads Sales agent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:27:48  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:27:50  [chrome.exe] ChatGPT - upwork perposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [Clipboard]
+  PRECISION
+  
+  Hi 🤝
+  
+  Your biggest requirement is executing a conversion-focused B2B landing **without changing the existing brand or copy**, while using strong typographic hierarchy to make the Spanish content easy to scan and drive users toward a single CTA. That's exactly how I'd approach this project.
+  
+  I'd design the landing in **Figma** for both desktop and mobile using **Auto Layout, reusable components, styles, and a developer-friendly structure**. The hero would immediately communicate the core value proposition, remove distractions, and keep the **"Book a 15-minute call"** CTA as the primary visual focus, supported by trust elements and clear content hierarchy throughout the page. I'll also provide all form states and embedded calendar states, with the first checkpoint (Hero + 1 section) ready within 5 days for early validation.
+  
+  Relevant work:
+  
+  * https://firstmovers.ai/first-mover/
+  * https://gtc-frontend-dev.vercel.app/
+  * Additional B2B/SaaS landing examples available during our discussion.
+  
+  **Fixed Price:** **$500**
+  **Availability:** I can start immediately and deliver the complete design within the requested 2-week timeline, including two revision rounds.
+  
+  🤝 Let’s have a chat. What time are you free for a quick discussion?
+  
+  Best Regards,
+  Abdullah Mahmood
+  
+
+--- WINDOW  2026/07/29 11:28:31  [chrome.exe] Submit a Proposal - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  0
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:29:19  [chrome.exe] upwork.com/nx/proposals/2082533933658243073?success - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:29:19  [chrome.exe] Proposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:29:32  [chrome.exe] Abdullah M. - Full Stack Developer | React | Next.js | Node.js | MERN Stack | API - Upwork Freelancer from Gujranwala, Pakistan - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:29:42  [chrome.exe] upwork.com/nx/find-work/ - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:29:42  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:32:39  [chrome.exe] Freelancer dashboard - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:33:05  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:33:24  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:25  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:32  [chrome.exe] Recent download history
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:33:33  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:40  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:40  [OpenWith.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:45  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:45  [chrome.exe] Recent download history
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:33:47  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:15  [chrome.exe] Recent download history
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:17  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:21  [chrome.exe] Freelancer dashboard - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:23  [chrome.exe] (23) WhatsApp Business - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:27  [chrome.exe] (22) WhatsApp Business - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:32  [chrome.exe] (22) WhatsApp Business - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:34:33  [OpenWith.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:45  [chrome.exe] (22) WhatsApp Business - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:34:46  [Notepad.exe] Notepad
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:34:48  [Notepad.exe] Belle_AI_Explainer_Video_Script_v4 (1).docx - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:55  [chrome.exe] (22) WhatsApp Business - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:34:56  [chrome.exe] Freelancer dashboard - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:57  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  doc file 
+  [LMB]
+
+--- WINDOW  2026/07/29 11:35:05  [chrome.exe] doc file opener - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:35:08  [chrome.exe] Edit Word Document Online - Free Word Editor - PDFAid - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:35:11  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:35:14  [chrome.exe] Edit Word Document Online - Free Word Editor - PDFAid - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:35:22  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:35:28  [chrome.exe] Edit Word Document Online - Free Word Editor - PDFAid - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:35:35  [chrome.exe] Edit file - PDFAid - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:36:07  [chrome.exe] Leave site?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:36:09  [chrome.exe] Edit file - PDFAid - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:36:09  [chrome.exe] Freelancer dashboard - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:36:13  [chrome.exe] Upwork BID&BOOST Playbook Guide26 version 2.0.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:36:16  [chrome.exe] (22) WhatsApp Business - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:36:18  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  We're launching a new product and need a full-stack website built from the ground up: public-facing marketing pages, a user dashboard, and the backend logic connecting them. Looking for someone who can own the whole build, frontend to backend, rather than just one half of it. Scope: Responsive frontend built in React (Next.js preferred), Backend API in Node.js/Express, with a MongoDB database, User authentication and account management, Admin-facing dashboard for managing content/users, Clean, documented code, deployed and production-ready. What we're looking for: Strong, proven MERN stack experience, Comfortable working from a rough concept to a finished, deployed product, Experience with authentication, API design, and responsive frontend work, Clear communication and realistic timeline estimates. To apply, please share: A relevant full-stack project you've built end to end (link if available), Your proposed approach and rough timeline, Your availability.
+  [LMB]
+
+--- WINDOW  2026/07/29 11:36:39  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:36:40  [chrome.exe] upwork.com/nx/proposals/job/~022082534990031269971/apply/ - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:36:41  [chrome.exe] Submit a Proposal - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:36:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:36:44  [chrome.exe] ChatGPT - upwork perposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:37:01  [chrome.exe] Diseñador UI para landing B2B de conversión - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:37:03  [chrome.exe] Claude - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/29 11:37:13  [chrome.exe] Full-stack MERN website build for product launch - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:37:34  [chrome.exe] ChatGPT - upwork perposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi 🤝
+  
+  **Building a product from a rough concept is usually where projects succeed or fail.** The biggest challenge isn't just developing a React frontend and Node.js backend—it's creating a clean architecture where authentication, APIs, admin tools, and the user dashboard all work together without becoming difficult to maintain as the product grows.
+  
+  I'd build this with **Next.js, Node.js/Express, and MongoDB**, starting with a scalable backend structure, secure authentication, and well-designed REST APIs before connecting the marketing pages, user dashboard, and admin panel. This approach keeps the codebase organized, responsive, and ready for future features instead of requiring major rewrites later.
+  
+  A typical MVP for this scope would take **4–6 weeks**, including deployment, testing, and documentation. I'll provide regular progress updates so you always know where the project stands.
+  
+  **Recent Projects:**
+  
+  * [https://firstmovers.ai/first-mover/](https://firstmovers.ai/first-mover/)
+  * [https://gtc-frontend-dev.vercel.app/](https://gtc-frontend-dev.vercel.app/)
+  
+  I'm available to get started immediately and can discuss your product concept, key features, and milestones to provide a realistic timeline before development begins.
+  
+  🤝 **Let's have a chat. What time are you free, Offer?**
+  
+  **Best Regards,**
+  **Abdullah Mahmood**
+  
+
+--- WINDOW  2026/07/29 11:37:58  [chrome.exe] Submit a Proposal - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk][Bk]25
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk][Bk]/
+  [LMB]
+  [Bk]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Describe your recent experience with similar projects
+  c
+
+--- WINDOW  2026/07/29 11:38:59  [chrome.exe] ChatGPT - upwork perposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Recently, I've been focused on building full-stack web applications using the MERN stack, with **Next.js, React, Node.js/Express, and MongoDB**.
+  
+  One project was **First Movers** (https://firstmovers.ai/first-mover/), where I developed a production-ready web platform with responsive UI, backend APIs, authentication, and database integration. I also worked on an admin interface for managing application data and user-facing features.
+  
+  Another relevant project is **GTC Frontend** (https://gtc-frontend-dev.vercel.app/), where I built a modern, responsive React/Next.js application with a strong emphasis on performance, clean component architecture, and a polished user experience.
+  
+  Across similar projects, I've implemented:
+  
+  * Secure user authentication and account management.
+  * RESTful APIs with Node.js and Express.
+  * MongoDB database design and integration.
+  * Admin dashboards for managing users and content.
+  * Responsive, SEO-friendly Next.js frontends.
+  * Production deployments and post-launch support.
+  
+  I enjoy taking projects from an initial concept to a fully deployed product, focusing on clean, maintainable code and building a foundation that can scale as new features are added.
+  
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:34  [chrome.exe] Submit a Proposal - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl]v
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  What frameworks have you worked with?
+  c
+
+--- WINDOW  2026/07/29 11:39:53  [chrome.exe] ChatGPT - upwork perposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  I've primarily worked with the following frameworks and technologies:
+  
+  **Frontend**
+  
+  * Next.js
+  * React.js
+  * Tailwind CSS
+  * Shadcn UI
+  * Framer Motion
+  
+  **Backend**
+  
+  * Node.js
+  * Express.js
+  
+  **Databases**
+  
+  * MongoDB (Mongoose)
+  * PostgreSQL (Prisma ORM)
+  
+  **Authentication & APIs**
+  
+  * JWT Authentication
+  * NextAuth.js
+  * REST APIs
+  * Stripe API
+  * Firebase
+  
+  **Deployment & DevOps**
+  
+  * Vercel
+  * Render
+  * DigitalOcean
+  * AWS (S3)
+  
+  I use these technologies to build scalable full-stack applications, including SaaS platforms, admin dashboards, marketplaces, AI-powered applications, and business management systems.
+  
+
+--- WINDOW  2026/07/29 11:40:04  [chrome.exe] Submit a Proposal - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  20
+  [LMB]
+  [LMB]
+  [Bk]3[Bk]20
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:41:08  [chrome.exe] upwork.com/nx/proposals/2082536910407749633?success - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:41:09  [chrome.exe] Proposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:41:33  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Senior AI Full-Stack Developer(s) Needed – Enhance Existing AI Production Pipeline (MVP 2)
+  
+  Please Read Before Applying
+  
+  Applicants based in Europe only. Due to communication, collaboration, and time zone requirements, we are currently only considering developers located in Europe.
+  
+  Please only apply if you are confident you can complete the project within the stated budget.
+  
+  The budget for this project is fixed and we are not open to phased deliveries, milestone reductions, or higher budget proposals. If your approach requires additional funding or splitting the project into multiple paid phases to deliver the requested scope, this project is not the right fit.
+  
+  We value your time as much as our own, so please only submit a proposal if you can deliver the requested scope within the posted budget.
+  
+  Project Overview
+  
+  We are looking for 1–2 experienced AI developers to enhance an existing AI Production Pipeline (MVP 1) into MVP 2.
+  
+  This is not a greenfield project or a complete rebuild. MVP 2 focuses on enhancing the existing production pipeline by improving automation, production quality, synchronization, visual consistency, and scalability while preserving the stable systems already implemented.
+  
+  A very detailed full scope specification will be provided to shortlisted candidates.
+  
+  Scope of Work
+  
+  The project includes enhancing and integrating multiple production engines, including:
+  
+  - Series Script Adaptation Engine
+  - Series Audio Script Engine
+  - Cinematic Storyboard Engine
+  - Timing & Synchronization Engine
+  - Digital Actor System
+  - Environment Management System
+  - AI Image Generation Engine
+  - AI Video Generation Engine
+  - Lip Synchronization & Performance Engine
+  - Episode Assembly
+  - Promotion Engine
+  - End-to-end production workflow integration
+  - Testing
+  - Deployment
+  - Documentation
+  - Knowledge Transfer
+  
+  
+  What We're Looking For
+  
+  We're looking for developers with experience in:
+  
+  - Generative AI
+  - Large Language Models (LLMs)
+  - AI Image Generation
+  - AI Video Generation
+  - Computer Vision
+  - AI Workflow Automation
+  - Python
+  - Backend Development
+  - API Integration
+  - Software Architecture
+  - Cloud Infrastructure (AWS/GCP)
+  - Docker
+  - FFmpeg
+  
+  Experience building AI content creation platforms, media generation pipelines, or similar AI production systems is highly preferred.
+  
+  
+  Budget
+  
+  Fixed Price: USD $2,000
+  
+  
+  Timeline
+  
+  Target delivery: 5-6 weeks
+  Maximum delivery time: 6 weeks
+  
+  Only apply if you or your 1–2 person development team can realistically commit to this timeline and deliver the complete project within the stated budget.
+  
+  
+  Before Hiring
+  
+  Shortlisted candidates must provide:
+  
+  - Technical implementation approach
+  - Proposed system architecture
+  - Development methodology
+  - Weekly milestones
+  - Technology stack
+  - AI providers and third-party services
+  - Infrastructure design
+  - Testing strategy
+  - Risk assessment
+  - Development structure
+  - Estimated development hours
+  - Operating cost estimates
+  
+  
+  To Apply
+  
+  Please include:
+  
+  1. Similar AI projects you have completed.
+  2. Your proposed technical approach.
+  3. Whether you are applying as 1 developer or a 2-person team, and each person's role.
+  4. Estimated development hours.
+  5. Availability over the next 6 weeks.
+  6. Portfolio, GitHub, or previous work.
+  7. Any recommendations or concerns after reviewing the project.
+  
+  Generic proposals will be declined. We are looking for experienced professionals who can clearly explain how they would approach enhancing and integrating an AI production pipeline of this scope while delivering within the stated budget and timeline.
+  cccc
+
+--- WINDOW  2026/07/29 11:42:50  [chrome.exe] Full-stack MERN website build for product launch - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:42:52  [chrome.exe] Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/29 11:43:00  [chrome.exe] AI production pipeline enhancement project for Europe-based developers - Claude - Google Chrome
+----------------------------------------------------------------------------
+  translate into roman urdu[ENTER]
+
+--- WINDOW  2026/07/29 11:44:01  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+
+--- WINDOW  2026/07/29 11:45:38  [chrome.exe] AI production pipeline enhancement project for Europe-based developers - Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:45:39  [chrome.exe] Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/29 11:45:49  [chrome.exe] AI production pipeline enhancement project for Europe-based developers - Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:48:30  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Summary
+  We are looking for an experienced Full-Stack MERN Developer who can build, maintain, and deploy scalable web applications. The ideal candidate should have strong expertise in the MERN stack and hands-on experience deploying production applications on AWS.
+  This is an excellent opportunity for a developer who takes ownership, writes clean and maintainable code, and can work independently while communicating effectively.
+  Responsibilities
+  •	Develop and maintain web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js)
+  •	Build responsive and user-friendly frontend interfaces with React
+  •	Develop secure and scalable REST APIs
+  •	Design and optimize MongoDB databases
+  •	Deploy, configure, and manage applications on AWS
+  •	Set up CI/CD pipelines for seamless deployments
+  •	Debug, troubleshoot, and optimize application performance
+  •	Collaborate on feature planning and implementation
+  •	Write clean, well-documented, and reusable code
+  Required Skills
+  •	3+ years of professional MERN Stack development experience
+  •	Strong expertise in:
+  o	React.js
+  o	Node.js
+  o	Express.js
+  o	MongoDB
+  •	Experience with TypeScript (preferred)
+  •	Hands-on AWS deployment experience, including:
+  o	ECS
+  o	S3
+  o	IAM
+  o	Route 53
+  o	CloudFront
+  o	RDS (optional)
+  •	Experience with Docker
+  •	Git/GitHub version control
+  •	REST API development
+  •	Authentication (JWT/OAuth)
+  •	CI/CD (GitHub Actions or similar)
+  •	Strong debugging and problem-solving skills
+  •	Excellent communication skills
+  Nice to Have
+  •	Next.js experience
+  •	Redis
+  •	WebSockets
+  •	Nginx
+  •	Terraform
+  •	Kubernetes
+  •	Microservices architecture
+  Project Details
+  •	Project Type: Ongoing
+  •	Experience Level: Intermediate to Expert
+  •	Hours: 20–40 hours/week (depending on availability)
+  •	Duration: Long-term
+  •	Budget: Please submit your hourly rate along with your proposal.
+  When Applying, Please Include
+  1.	Links to 2–3 MERN applications you have built.
+  2.	Details of AWS services you've used in production.
+  3.	A brief explanation of your deployment process.
+  4.	Your availability and timezone.
+  5.	Your GitHub profile (if available).
+  We're looking for someone who can become a long-term development partner. If you're passionate about building scalable applications and have solid AWS deployment experience, we'd love to hear from you.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:51:13  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:51:15  [chrome.exe] upwork.com/nx/proposals/job/~022082537492421919960/apply/ - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:51:16  [chrome.exe] AI production pipeline enhancement project for Europe-based developers - Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:51:17  [chrome.exe] Claude - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:51:21  [chrome.exe] ChatGPT - upwork perposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:51:28  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:51:29  [chrome.exe] ChatGPT - upwork perposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/29 11:51:34  [chrome.exe] Full-stack MERN developer with AWS expertise needed - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:51:45  [chrome.exe] ChatGPT - upwork perposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Hi🤝
+  
+  Building a MERN application is only half the job—the real challenge is keeping deployments reliable, scalable, and easy to maintain as new features are added. Your focus on AWS infrastructure, CI/CD, and clean architecture is exactly what stood out to me.
+  
+  I can help build and maintain your React/Node.js application with secure REST APIs, optimized MongoDB design, and a deployment workflow using Docker, GitHub Actions, and AWS services like ECS, S3, CloudFront, IAM, and Route 53. My approach is to keep the codebase modular, well-documented, and production-ready so new features can be shipped without breaking existing functionality.
+  
+  I also prioritize performance optimization, authentication (JWT/OAuth), responsive UI, and proactive debugging to ensure long-term stability. If needed, I can also work with Next.js, WebSockets, and scalable backend architecture as the project evolves.
+  
+  Recent Projects:
+  https://firstmovers.ai/first-mover/
+  https://gtc-frontend-dev.vercel.app/
+  
+  I'm available for long-term collaboration (20–40 hrs/week) and can align with your preferred workflow and communication schedule.
+  
+  🤝Let’s have a chat.
+  What time are you free for a quick discussion?
+  
+  Best Regards,
+  Abdullah Mahmood
+
+--- WINDOW  2026/07/29 11:52:07  [chrome.exe] Submit a Proposal - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Bk]8
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk]30
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:53:15  [chrome.exe] upwork.com/nx/proposals/2082539953351786497?success - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:53:16  [chrome.exe] Proposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:53:32  [chrome.exe] ChatGPT - upwork perposals - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:53:32  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:53:45  [chrome.exe] Instant Quote — Group Travel Consultants - Google Chrome
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:53:56  [chrome.exe] accounts.google.com/v3/signin/accountchooser?client_id=623977043805-j73ro3aq42gok6t5ktt0s3gut6hku0ij.apps.googleusercontent.com&redirect_to=https%3A%2F%2Fgtc-frontend-dev.vercel.app%2Fauth%2Fcallback&redirect_uri=https%3A%2F%2Fvmmntdvmfmooklchpqvq.supabase.co%2Fauth%2Fv1%2Fcallback&response_type=code&scope=email+profile&state=157f24e4-28e5-4f5d-9422-bcd0a3b5fac7&dsh=S656156727%3A1785351234786775&o2v=2&service=lso&flowName=GeneralOAuthFlow&opparams=%253Fredirect_to%253Dhttps%25253A%25252F%25252Fgtc-frontend
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:53:56  [chrome.exe] Sign in – Google accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:01  [chrome.exe] accounts.google.com/signin/oauth/id?authuser=0&part=AJi8hAPmCydUy9RPW33QiKhifBsL8y3-qfQMJjN5f3zV08_wXisJjJhb0NxI7cEgYi5CZ7F_3X4u7jNNp9cwyZBS9qlHbS8NDTT02YeqBqF6w8RWRLu6zvxL4Sfu5JystcllRhH306rm2r5sYQhwbi5C4tfWv8T9tTc9tadE1l4C3iSsaJ3jECIp8ttyrJtW5GTdaY3damWj9KNLnCTjuls0jDyAducYl8z5v2MR3mgXh9_KOjBxg1S4hnoNvKYTN-VHKUbPuGLNY_ApwMKlob7SoWRsLwD7dyMnqKmOCNa1yjY0-Vrsiy1B2hpTA-mqOIxtj9hnCxX9Qeizdrar3RMIYwgKp63yv_jXG7iNWtUDZh5nf_hYO3SwCyCTrEnF4Vj8Ej30tMcZG1gmB9VculDQpyyXbjICej_Hn_AYIF1nmNONmdPLltge4GVMaDrtXfRDta5O_rJ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:54:01  [chrome.exe] Sign in – Google accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:14  [chrome.exe] Vercel - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:36  [chrome.exe] Biut Naqia Cleaning Services (Pure Homes) | Premium Cleaning Services in Dubai, UAE - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:38  [chrome.exe] ChatGPT - upwork perposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:44  [chrome.exe] Proposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:47  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:59  [chrome.exe] ChatGPT - upwork perposals - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:55:02  [chrome.exe] (22) WhatsApp Business - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:55:02  [chrome.exe] ChatGPT - upwork perposals - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:55:05  [chrome.exe] Freelancer dashboard - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:56:08  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:56:08  [chrome.exe] (22) WhatsApp Business - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:56:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:56:13  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
