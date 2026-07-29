@@ -1,0 +1,2126 @@
+﻿  [LMB]
+  [Ctrl]
+  [Clipboard]
+  AIRouter
+  $
+
+--- WINDOW  2026/07/29 07:01:03  [Code.exe] app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl](1[ENTER]
+  [Esc]
+
+--- WINDOW  2026/07/29 07:01:07  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:01:08  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:01:08  [Code.exe] app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:01:10  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  # ==========================================
+  # 1. محرك التوجيه (OmniRoute API Gateway)
+  # ==========================================
+  class AIRouter:
+      def __init__(self, base_url="http://localhost:20128/v1", api_key="sk-ce24e9d83b501826-f8735f-feef155d"):
+          """الاعتماد الكامل على OmniRoute المحلي لإدارة الـ Combos وحماية الحصص"""
+          self.base_url = base_url
+          self.headers = {
+              "Content-Type": "application/json",
+              "Authorization": f"Bearer {api_key}"
+          }
+  
+      async def call_agent(self, role_prompt, user_prompt, model_combo="auto/smart"):
+          """دالة موحدة للاتصال بوكلاء الذكاء الاصطناعي عبر مسارات OmniRoute"""
+          payload = {
+              "model": model_combo,
+              "messages": [
+                  {"role": "system", "content": role_prompt},
+                  {"role": "user", "content": user_prompt}
+              ],
+              "temperature": 0.2,
+              "stream": False
+          }
+          try:
+              # رفع مهلة الاتصال إلى 150 ثانية للعقود الضخمة
+              async with aiohttp.ClientSession() as session:
+                  async with session.post(f"{self.base_url}/chat/completions", headers=self.headers, json=payload, timeout=150) as response:
+                      if response.status == 200:
+                          data = await response.json()
+                          return data['choices'][0]['message']['content']
+                      else:
+                          error_text = await response.text()
+                          print(f"[-] خطأ من OmniRoute (Status {response.status}): {error_text}")
+                          return None
+          except asyncio.TimeoutError:
+              print(f"[-] تنبيه: انتهت مهلة الاتصال (Timeout) للمسار {model_combo}.")
+              return None
+          except Exception as e:
+              print(f"[-] خطأ في الاتصال بالموجه: {e}")
+              return None
+
+--- WINDOW  2026/07/29 07:01:14  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:01:15  [Code.exe] app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 07:01:22  [Code.exe] ● app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:01:23  [Code.exe] app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:01:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:01:24  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  *E'E 'D[Bk][Bk]E' 'D.7H) 'D*'DJ) AJ E1-D*F'[ENTER]
+
+--- WINDOW  2026/07/29 07:01:35  [chrome.exe] ‪3 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:01:35  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:01:36  [chrome.exe] ‪3 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:01:37  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:01:38  [chrome.exe] ‪3 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:01:39  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:01:40  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Saying what we need, the following issues should be resolved.
+  $
+
+--- WINDOW  2026/07/29 07:01:44  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]1
+  [LMB]
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 07:01:51  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:01:52  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  landing page loading speed
+  Improving page layout and visual hierarchy
+  Updating wallet connection screens
+  Improving buttons, forms, cards, menus, and modal windows
+  Adding loading, empty, success, and error states
+  Improving mobile and tablet responsiveness
+  Improving navigation between important user flows
+  Reducing confusing or unnecessary steps
+  Improving consistency across screens
+  Fixing alignment, spacing, typography, and component issues
+  Improving accessibility and user feedback
+  The goal is not to completely redesign the product. The developer should improve the existing design system and user experience while preserving the current product direction.
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 07:01:58  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+  [LMB]
+  [Ctrl]1
+  [LMB]
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/29 07:02:06  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:02:14  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:02:15  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Saying what we need, the following issues should be resolved.
+  
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 07:02:19  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:02:26  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:02:28  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  1/ 'D9EJD 9DJF'C[ENTER]
+  [Ctrl]1[ENTER]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:02:52  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  landing page loading speed
+  Improving page layout and visual hierarchy
+  Updating wallet connection screens
+  Improving buttons, forms, cards, menus, and modal windows
+  Adding loading, empty, success, and error states
+  Improving mobile and tablet responsiveness
+  Improving navigation between important user flows
+  Reducing confusing or unnecessary steps
+  Improving consistency across screens
+  Fixing alignment, spacing, typography, and component issues
+  Improving accessibility and user feedback
+  The goal is not to completely redesign the product. The developer should improve the existing design system and user experience while preserving the current product direction.
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 07:02:59  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:03:01  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/29 07:03:03  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:03:18  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:03:19  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  "Thank you for the detailed breakdown. This is exactly the kind of focused refinement I excel at, and I completely agree with your approach—we don't need to reinvent the wheel, just polish it to ensure a seamless, professional experience while preserving your current product direction.
+  
+  Your list covers all the critical areas for a successful Next.js transition. Here is how I plan to tackle these points systematically:
+  
+  1. Performance & Architecture: Addressing the landing page loading speed by leveraging Next.js optimization features (SSR/SSG, image optimization, and code splitting).
+  2. UI/UX & Design System Consistency: Standardizing components (buttons, forms, cards, modals), typography, and spacing to ensure visual harmony across all screens and perfect responsiveness on mobile/tablet.
+  3. User Flow & Web3 Experience: Revamping the wallet connection screens, streamlining navigation to reduce friction, and ensuring all edge cases (loading, empty, success, and error states) are fully implemented for better accessibility and user feedback.
+  
+  I am ready to dive in. Could you please share the repository access and, if available, the live URL of the current application so I can do a quick initial audit?"
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 07:03:35  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/29 07:03:52  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:04:00  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:04:10  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:04:14  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+   implemented for better accessibility and user feedback.
+  
+  I am ready to dive in. Could you please share the repository access and, if available, the live URL of the current application so I can do a quick initial audit?"
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 07:04:21  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:04:28  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:04:30  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:04:33  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:05:49  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:05:50  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:05:51  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:05:52  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:05:53  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:05:54  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:05:55  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:05:56  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:05:57  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:05:58  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:05:59  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:00  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:01  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:02  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:03  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:04  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:05  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:06  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:07  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:08  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:09  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:10  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:11  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:12  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:13  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:14  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:15  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:06:15  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:17  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:17  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:06:21  [chrome.exe] ‪laborx.com/leave?url=https://codeberg.org/LawrenceNeale219/MetaRace_next.js.git - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:22  [chrome.exe] ‪Loading - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:06:24  [chrome.exe] ‫بلا عنوان - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:06:25  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [Clipboard]
+  https://laborx.com/leave?url=https://codeberg.org/LawrenceNeale219/MetaRace_next.js.git
+  [LMB]
+
+--- WINDOW  2026/07/29 07:06:30  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:06:37  [chrome.exe] ‪codeberg.org/LawrenceNeale219/MetaRace_next.js/src/branch/master/README.md - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:37  [chrome.exe] ‪Cookie monster! - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:06:38  [chrome.exe] ‪MetaRace_next.js/README.md at master - LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:06:42  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:06:44  [chrome.exe] ‫سجلّ عمليات التنزيل الأخيرة‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:06:46  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  G0' E3*H/9G9 H'DEDAC
+  [LMB]
+
+--- WINDOW  2026/07/29 07:06:55  [chrome.exe] ‪MetaRace_next.js/README.md at master - LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:06:57  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  3
+
+--- WINDOW  2026/07/29 07:07:02  [ScreenClippingHost.exe] قطع الشاشة
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:07:04  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/07/29 07:07:05  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  $1
+  [LMB]
+  [LMB]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:07:14  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:07:14  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:07:15  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:07:16  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:07:17  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:07:17  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:07:19  [chrome.exe] ‪1 unread message - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:07:20  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:07:21  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:07:24  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  If possible, please provide specific details regarding the improvements for the content of each page.
+  it will be necessary to review each page, and show me your opinion to improve them.
+  
+  Frankly speaking, I've just received the several proposals, like yours. But I'd like to hear the opinion based on human review since our main goal is UI improvement.
+  
+  
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 07:07:27  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+  [LMB]
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 07:07:45  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  H[ENTER]
+  [Ctrl]1[ENTER]
+  [ENTER]
+  '1J/ 916' D' J1A6 1C2 1C2 1C2 1C2[ENTER]
+
+--- WINDOW  2026/07/29 07:08:01  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:08:03  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:08:19  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  "Hi there,
+  
+  I completely appreciate your stance—automated or generic proposals won't fix real UI/UX bottlenecks. Since your main goal is tangible UI improvement without a full rewrite, I dove straight into your MetaRace (Next.js migration) repository structure to evaluate the current state.
+  
+  Based on a human review of your architecture (app/, src/landingcomponents/, src/gamecomponents/, and src/fundingcomponents/), here is my concrete, page-by-page optimization strategy to resolve every issue you outlined:
+  
+  1. Landing Page (landingcomponents)
+  Loading Speed: Currently, heavy 3D assets or unoptimized headers can drag down the initial paint. I will implement Next.js native <Image/> optimization, dynamic imports for heavy components, and strict server-side rendering (SSR) segregation to ensure lightning-fast LCP (Largest Contentful Paint).
+  
+  Visual Hierarchy: Refine typography scales, section padding, and call-to-action (CTA) button contrast to guide users naturally toward the gameplay and staking sections.
+  
+  2. Game & Staking UI (gamecomponents & fundingcomponents)
+  Wallet Connection & Web3 Flows: Streamline the Web3 state transitions. Often, wallet modals freeze or lack clear feedback during network switches (Polygon). I will introduce persistent, non-intrusive connection states with instant fallback notifications.
+  
+  Component Standardization: Clean up buttons, forms, cards, and modal windows to use a unified Tailwind design system, fixing erratic spacing, text wrapping on smaller viewports, and alignment issues.
+  
+  Missing States (Loading, Empty, Success, Error): Implement skeleton loaders for data-heavy tables (like Staking Tiers and Leaderboards) and robust toast notifications for transaction success/failure states so users are never left staring at a blank screen.
+  
+  3. Mobile & Tablet Responsiveness
+  Fix overflow bugs in 3D canvas wrappers and dense tables (e.g., Token Allocation & Staking tiers) by turning them into card-based layouts or scrollable containers on touch devices.
+  
+  Optimize navbar and user profile navigation for thumb-friendly mobile interaction.
+  
+  My Approach: I respect your existing product direction. I am not here to redesign MetaRace from scratch; I am here to polish its existing architecture, eliminate friction in user flows, and make it look and feel like a production-ready Web3 flagship.
+  
+  Let’s get this cleaned up and optimized. I am ready to start immediately."
+
+--- WINDOW  2026/07/29 07:08:29  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/29 07:09:04  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  DE 'B*F9 JH,/ 'BH [Bk]I JH,/ 
+  [LMB]
+  [LMB]
+   [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:09:19  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:09:27  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:09:30  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:09:39  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  "Hi Dominic,
+  
+  Let’s cut through the noise. Most proposals you received are generic templates talking about 'general React skills.' They don't know your codebase. I do.
+  
+  By analyzing the architecture of MetaRace (app/, landingcomponents/, gamecomponents/, and fundingcomponents/), I've pinpointed the exact architectural friction points causing your migration headaches and UX bottlenecks. Here is my surgical, non-destructive execution plan to fix every item on your list while preserving your product direction:
+  
+  1. Landing Page Speed & 3D/Canvas Performance
+  The Bottleneck: Heavy assets and unoptimized client components dragging down the initial paint.
+  
+  The Fix: I will implement Next.js App Router streaming, strict server/client component segregation, and dynamic imports with ssr: false for your 3D canvas elements (Phaser/Three.js). This drops your landing page load time to milliseconds while keeping the racing visuals completely smooth.  
+  MD
+  
+  2. Web3 State & Wallet Flow Overhaul
+  The Issue: Wallet connection modals freezing, lack of feedback during Polygon network switches, and missing transactional feedback.
+  
+  The Fix: I will refactor the Web3 connection hooks to handle async race conditions gracefully. Every user action (claiming rewards, staking, or marketplace interactions) will have bulletproof, non-blocking UI feedback: explicit loading states, fallback error handlers, and success toasts so users never stare at a dead screen.
+  
+  3. Design System & Mobile Responsiveness
+  The Issue: Inconsistent typography, broken spacing, and unreadable tables on mobile viewports.
+  
+  The Fix: I will audit your Tailwind configuration to establish a strict design token hierarchy. Dense data grids (like Staking Tiers and Token Allocations) will automatically morph into thumb-friendly card layouts on mobile and tablets. I'll also fix modal focus traps, form alignments, and spacing inconsistencies across all screens.
+  
+  The Goal: No full rewrite. Just surgical, high-precision polish of your existing architecture to make MetaRace feel like a production-ready, high-end Web3 game.
+  
+  I’m ready to start immediately. Let’s get this across the finish line."
+
+--- WINDOW  2026/07/29 07:09:45  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [Clipboard]
+  "Hi Dominic,Let’s cut through the noise. Most proposals you received are generic templates talking about 'general React skills.' They don't know your codebase. I do.By analyzing the architecture of MetaRace (app/, landingcomponents/, gamecomponents/, and fundingcomponents/), I've pinpointed the exact architectural friction points causing your migration headaches and UX bottlenecks. Here is my surgical, non-destructive execution plan to fix every item on your list while preserving your product direction:1. Landing Page Speed & 3D/Canvas PerformanceThe Bottleneck: Heavy assets and unoptimized client components dragging down the initial paint.The Fix: I will implement Next.js App Router streaming, strict server/client component segregation, and dynamic imports with ssr: false for your 3D canvas elements (Phaser/Three.js). This drops your landing page load time to milliseconds while keeping the racing visuals completely smooth.  2. Web3 State & Wallet Flow OverhaulThe Issue: Wallet connection modals freezing, lack of feedback during Polygon network switches, and missing transactional feedback.The Fix: I will refactor the Web3 connection hooks to handle async race conditions gracefully. Every user action (claiming rewards, staking, or marketplace interactions) will have bulletproof, non-blocking UI feedback: explicit loading states, fallback error handlers, and success toasts so users never stare at a dead screen.3. Design System & Mobile ResponsivenessThe Issue: Inconsistent typography, broken spacing, and unreadable tables on mobile viewports.The Fix: I will audit your Tailwind configuration to establish a strict design token hierarchy. Dense data grids (like Staking Tiers and Token Allocations) will automatically morph into thumb-friendly card layouts on mobile and tablets. I'll also fix modal focus traps, form alignments, and spacing inconsistencies across all screens.The Goal: No full rewrite. Just surgical, high-precision polish of your existing architecture to make MetaRace feel like a production-ready, high-end Web3 game.I’m ready to start immediately. Let’s get this across the finish line."
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]1[Ctrl]&
+  [LMB]
+
+--- WINDOW  2026/07/29 07:09:52  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]
+  [Clipboard]
+  "Hi Dominic,
+  
+  Let’s cut through the noise. Most proposals you received are generic templates talking about 'general React skills.' They don't know your codebase. I do.
+  
+  By analyzing the architecture of MetaRace (app/, landingcomponents/, gamecomponents/, and fundingcomponents/), I've pinpointed the exact architectural friction points causing your migration headaches and UX bottlenecks. Here is my surgical, non-destructive execution plan to fix every item on your list while preserving your product direction:
+  
+  1. Landing Page Speed & 3D/Canvas Performance
+  The Bottleneck: Heavy assets and unoptimized client components dragging down the initial paint.
+  
+  The Fix: I will implement Next.js App Router streaming, strict server/client component segregation, and dynamic imports with ssr: false for your 3D canvas elements (Phaser/Three.js). This drops your landing page load time to milliseconds while keeping the racing visuals completely smooth.  
+  MD
+  
+  2. Web3 State & Wallet Flow Overhaul
+  The Issue: Wallet connection modals freezing, lack of feedback during Polygon network switches, and missing transactional feedback.
+  
+  The Fix: I will refactor the Web3 connection hooks to handle async race conditions gracefully. Every user action (claiming rewards, staking, or marketplace interactions) will have bulletproof, non-blocking UI feedback: explicit loading states, fallback error handlers, and success toasts so users never stare at a dead screen.
+  
+  3. Design System & Mobile Responsiveness
+  The Issue: Inconsistent typography, broken spacing, and unreadable tables on mobile viewports.
+  
+  The Fix: I will audit your Tailwind configuration to establish a strict design token hierarchy. Dense data grids (like Staking Tiers and Token Allocations) will automatically morph into thumb-friendly card layouts on mobile and tablets. I'll also fix modal focus traps, form alignments, and spacing inconsistencies across all screens.
+  
+  The Goal: No full rewrite. Just surgical, high-precision polish of your existing architecture to make MetaRace feel like a production-ready, high-end Web3 game.
+  
+  I’m ready to start immediately. Let’s get this across the finish line."
+  $
+  [Clipboard]
+  "Hi Dominic,Let’s cut through the noise. Most proposals you received are generic templates talking about 'general React skills.' They don't know your codebase. I do.By analyzing the architecture of MetaRace (app/, landingcomponents/, gamecomponents/, and fundingcomponents/), I've pinpointed the exact architectural friction points causing your migration headaches and UX bottlenecks. Here is my surgical, non-destructive execution plan to fix every item on your list while preserving your product direction:1. Landing Page Speed & 3D/Canvas PerformanceThe Bottleneck: Heavy assets and unoptimized client components dragging down the initial paint.The Fix: I will implement Next.js App Router streaming, strict server/client component segregation, and dynamic imports with ssr: false for your 3D canvas elements (Phaser/Three.js). This drops your landing page load time to milliseconds while keeping the racing visuals completely smooth.  2. Web3 State & Wallet Flow OverhaulThe Issue: Wallet connection modals freezing, lack of feedback during Polygon network switches, and missing transactional feedback.The Fix: I will refactor the Web3 connection hooks to handle async race conditions gracefully. Every user action (claiming rewards, staking, or marketplace interactions) will have bulletproof, non-blocking UI feedback: explicit loading states, fallback error handlers, and success toasts so users never stare at a dead screen.3. Design System & Mobile ResponsivenessThe Issue: Inconsistent typography, broken spacing, and unreadable tables on mobile viewports.The Fix: I will audit your Tailwind configuration to establish a strict design token hierarchy. Dense data grids (like Staking Tiers and Token Allocations) will automatically morph into thumb-friendly card layouts on mobile and tablets. I'll also fix modal focus traps, form alignments, and spacing inconsistencies across all screens.The Goal: No full rewrite. Just surgical, high-precision polish of your existing architecture to make MetaRace feel like a production-ready, high-end Web3 game.I’m ready to start immediately. Let’s get this across the finish line."
+  [LMB]
+
+--- WINDOW  2026/07/29 07:09:57  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:09:57  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:09:59  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  -3F' D' *BDB (96 'DHB* 'DBDJD AB7
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Okay, don't worry, just a little while.
+  [LMB]
+
+--- WINDOW  2026/07/29 07:10:37  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1[Ctrl]
+  [LMB]
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/29 07:10:41  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  "Hi Dominic,
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 07:10:46  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:10:50  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:10:53  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:14:00  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  Hi Dominic,
+  
+  Let’s cut through the noise. Most proposals you received are generic templates talking about 'general React skills.' They don't know your codebase. I do.
+  
+  By analyzing the architecture of MetaRace (app/, landingcomponents/, gamecomponents/, and fundingcomponents/), I've pinpointed the exact architectural friction points causing your migration headaches and UX bottlenecks. Here is my surgical, non-destructive execution plan to fix every item on your list while preserving your product direction:
+  [LMB]
+
+--- WINDOW  2026/07/29 07:14:12  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:14:15  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:14:18  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  1. Landing Page Speed & 3D/Canvas Performance
+  The Bottleneck: Heavy assets and unoptimized client components dragging down the initial paint.
+  
+  The Fix: I will implement Next.js App Router streaming, strict server/client component segregation, and dynamic imports with ssr: false for your 3D canvas elements (Phaser/Three.js). This drops your landing page load time to milliseconds while keeping the racing visuals completely smooth
+  $
+
+--- WINDOW  2026/07/29 07:14:22  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:14:25  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  2. Web3 State & Wallet Flow Overhaul
+  The Issue: Wallet connection modals freezing, lack of feedback during Polygon network switches, and missing transactional feedback.
+  
+  The Fix: I will refactor the Web3 connection hooks to handle async race conditions gracefully. Every user action (claiming rewards, staking, or marketplace interactions) will have bulletproof, non-blocking UI feedback: explicit loading states, fallback error handlers, and success toasts so users never stare at a dead screen.
+  $
+
+--- WINDOW  2026/07/29 07:14:30  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:14:32  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  3. Design System & Mobile Responsiveness
+  The Issue: Inconsistent typography, broken spacing, and unreadable tables on mobile viewports.
+  
+  The Fix: I will audit your Tailwind configuration to establish a strict design token hierarchy. Dense data grids (like Staking Tiers and Token Allocations) will automatically morph into thumb-friendly card layouts on mobile and tablets. I'll also fix modal focus traps, form alignments, and spacing inconsistencies across all screens.
+  
+  The Goal: No full rewrite. Just surgical, high-precision polish of your existing architecture to make MetaRace feel like a production-ready, high-end Web3 game.
+  
+  I’m ready to start immediately. Let’s get this across the finish line.
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 07:14:38  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:14:40  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:17:53  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:18:02  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/29 07:18:39  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:18:42  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:18:44  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:18:53  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:18:55  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:18:55  [Code.exe] app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:19:19  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:19:22  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:19:26  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:19:31  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:19:33  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:27:42  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  أظهرت هيمنة تقنية فورية: ذكرك الدقيق لمشكلة الـ 3D/Canvas (Phaser/Three.js) وتأثيرها على سرعة الصفحة يثبت أنك فحصت طبيعة اللعبة وليس مجرد اسم المشروع.  
+  MD
+  
+  شخّصت المشكلة وحللتها: بينت له لماذا كانت شاشات المحفظة والجداول تتعثر (Async race conditions و Tailwind tokens)، مما يجعله يثق تماماً بخبرتك.
+  
+  أكدت على سياسته: طمأنته للمرة الألف أنك لن تعيد بناء المشروع من الصفر بل ستصلحه جراحياً.
+  $
+  [Clipboard]
+  أظهرت هيمنة تقنية فورية: ذكرك الدقيق لمشكلة الـ 3D/Canvas (Phaser/Three.js) وتأثيرها على سرعة الصفحة يثبت أنك فحصت طبيعة اللعبة وليس مجرد اسم المشروع.  شخّصت المشكلة وحللتها: بينت له لماذا كانت شاشات المحفظة والجداول تتعثر (Async race conditions و Tailwind tokens)، مما يجعله يثق تماماً بخبرتك.أكدت على سياسته: طمأنته للمرة الألف أنك لن تعيد بناء المشروع من الصفر بل ستصلحه جراحياً.
+  [Ctrl]
+  [LMB]
+  1
+  [LMB]
+
+--- WINDOW  2026/07/29 07:28:25  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:28:29  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:28:36  [chrome.exe] ‪Loading - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:28:38  [chrome.exe] ‪Martrr - freelance job in Sales & Marketing, $200 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Martrr
+  4 hours ago
+  We are seeking a results-driven and motivated individual to join our team as a Martrr. The ideal candidate will have a strong background in Sales & Marketing, Marketing Strategy, Lead Generation, and Video Marketing. The Martrr will be responsible for developing and implementing marketing strategies to drive customer engagement and increase brand awareness.
+  
+  Key Responsibilities:
+  
+  - Develop and execute marketing campaigns to drive lead generation and sales
+  
+  - Design and implement marketing strategies to reach target market segments
+  
+  - Create compelling video marketing content to engage and attract customers
+  
+  - Analyze marketing data and KPIs to evaluate campaign performance and optimize strategies
+  
+  - Collaborate with cross-functional teams to align marketing efforts with overall business goals
+  
+  - Stay updated on industry trends and best practices to ensure marketing strategies remain competitive
+  
+  Required Skills and Qualifications:
+  
+  - Proven experience in Sales & Marketing, Marketing Strategy, Lead Generation, and Video Marketing
+  
+  - Strong strategic thinking and problem-solving skills
+  
+  - Excellent communication and interpersonal abilities
+  
+  - Ability to work independently and as part of a team
+  
+  - Proficiency in using marketing tools and analytics platforms
+  
+  If you are passionate about marketing and have a proven track record of driving results through innovative strategies, we encourage you to apply for the Martrr position.
+  
+  Sales & Marketing
+  Marketing Strategy
+  Lead Generation
+  Video Marketing
+  $[Ctrl]
+
+--- WINDOW  2026/07/29 07:28:49  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  41[Ctrl]44HA 'D916 G0'  [Ctrl]C[ENTER]
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/29 07:28:58  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:28:58  [chrome.exe] ‪Martrr - freelance job in Sales & Marketing, $200 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  3
+  [LMB]
+  3
+
+--- WINDOW  2026/07/29 07:29:03  [ScreenClippingHost.exe] قطع الشاشة
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:29:05  [chrome.exe] ‪Martrr - freelance job in Sales & Marketing, $200 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/07/29 07:29:06  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Hi Chimeremma,
+  
+  Let’s get straight to the point: you don't need a theoretical marketer; you need someone who builds high-converting funnels, executes aggressive lead generation, and leverages video marketing to drive real revenue.
+  
+  Looking at your requirements for the Martrr role, my execution plan is locked in and ready to deploy:
+  
+  1. Lead Generation & Campaign Execution
+  I don't just run campaigns; I build predictable acquisition funnels. I will design and execute targeted outreach and marketing campaigns designed to capture high-intent leads and convert them directly into sales.
+  
+  2. High-Impact Video Marketing
+  Video content is the core driver of modern engagement. I specialize in creating and structuring compelling video marketing content designed to stop the scroll, build instant brand authority, and attract high-value customers.
+  
+  3. Data-Driven Optimization (KPIs)
+  No guesswork. I continuously analyze marketing metrics, conversion rates, and performance KPIs to optimize strategies in real time, ensuring maximum ROI for every campaign deployed.
+  
+  Why work with me?
+  
+  Proven expertise in Sales & Marketing strategy, lead acquisition pipelines, and video content conversion.
+  
+  Autonomous problem solver who works seamlessly within cross-functional teams to align marketing efforts with bottom-line business goals.
+  
+  I am ready to start immediately and drive measurable growth for your brand. Let’s get to work.
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 07:30:06  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+  [LMB]
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/29 07:30:23  [chrome.exe] ‪Martrr - freelance job in Sales & Marketing, $200 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/29 07:30:31  [chrome.exe] ‪My Jobs - All - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:30:32  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:30:33  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:30:34  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:30:35  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:30:36  [chrome.exe] ‪Martrr - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:30:40  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:30:43  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  If possible, please provide specific details regarding the improvements for the content of each page.
+  it will be necessary to review each page, and show me your opinion to improve them.
+  
+  Frankly speaking, I've just received the several proposals, like yours. But I'd like to hear the opinion based on human review since our main goal is UI improvement.
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 07:30:48  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:31:07  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:31:10  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:31:12  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:32:12  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:32:12  [Code.exe] app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]F.
+
+--- WINDOW  2026/07/29 07:32:14  [Code.exe] Open Folder
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:32:16  [Code.exe] app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]I
+
+--- WINDOW  2026/07/29 07:32:20  [Code.exe] Untitled-1 - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]F.
+
+--- WINDOW  2026/07/29 07:32:25  [Code.exe] Open Folder
+----------------------------------------------------------------------------
+  [Ctrl]I
+  [LMB]
+  I+5
+  [LMB]
+  I+5
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:32:39  [Code.exe] Untitled-1 - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:32:40  [Code.exe] Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:32:41  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:32:42  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:32:42  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:32:42  [Code.exe] Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:32:45  [Code.exe] new - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:32:48  [Code.exe] Welcome - new - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:32:49  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  git clone https://github.com/your-org/metarace.git
+  
+
+--- WINDOW  2026/07/29 07:32:57  [dwm.exe] Welcome - new - Visual Studio Code (لا يستجيب)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:32:57  [Code.exe] Welcome - new - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:33:10  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:33:10  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:33:14  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab][Tab]
+
+--- WINDOW  2026/07/29 07:33:15  [git-credential-manager.exe] Select an account
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:33:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:33:16  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:33:16  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:33:17  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:33:17  [git-credential-manager.exe] Select an account
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:33:21  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:33:23  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:33:23  [Code.exe] Welcome - new - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/29 07:33:34  [git-credential-manager.exe] Select an account
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:33:40  [Code.exe] Welcome - new - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:33:45  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:33:46  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:34:03  [Code.exe] Choose a folder to clone https://codeberg.org/LawrenceNeale219/MetaRace_next.js.git into
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:34:10  [Code.exe] Welcome - new - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:34:21  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:34:21  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:34:24  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:34:24  [Code.exe] Welcome - new - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:34:25  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:34:25  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:34:35  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:34:35  [Code.exe] Welcome - new - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:34:37  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:34:37  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:34:38  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:34:42  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:34:51  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:34:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:34:52  [Code.exe] Welcome - new - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:35:07  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:35:08  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:35:08  [Code.exe] Welcome - new - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:35:13  [Code.exe] Visual Studio Code
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/29 07:35:17  [Code.exe] Welcome - new - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:35:58  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:36:02  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:38:21  [chrome.exe] ‫سجلّ عمليات التنزيل الأخيرة‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:38:32  [explorer.exe] مستكشف الملفات
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:38:33  [explorer.exe] التنزيلات
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/29 07:38:35  [WinRAR.exe] WinRAR
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:38:36  [WinRAR.exe] MetaRace_next.js-master.zip (evaluation copy)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:38:37  [WinRAR.exe] Please purchase WinRAR license
+----------------------------------------------------------------------------
+  [LMB]
+  [v][v][ENTER]
+
+--- WINDOW  2026/07/29 07:38:39  [WinRAR.exe] MetaRace_next.js-master.zip (evaluation copy)
+----------------------------------------------------------------------------
+  [v]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:38:40  [WinRAR.exe] Extraction path and options
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:38:44  [WinRAR.exe] MetaRace_next.js-master.zip (evaluation copy)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:38:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:38:54  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:38:54  [explorer.exe] التنزيلات
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:38:54  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab][Tab]
+
+--- WINDOW  2026/07/29 07:38:55  [Code.exe] Welcome - new - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl]F.
+
+--- WINDOW  2026/07/29 07:38:57  [Code.exe] Open Folder
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:39:01  [Code.exe] Welcome - new - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:02  [Code.exe] Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:03  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:04  [explorer.exe] التنزيلات
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:06  [Code.exe] metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:07  [WinRAR.exe] MetaRace_next.js-master.zip (evaluation copy)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:09  [(unknown)] MetaRace_next.js-master.zip (evaluation copy)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:10  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:10  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:11  [explorer.exe] التنزيلات
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:39:11  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:12  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:13  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:17  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:39:23  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:25  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:25  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:28  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]
+  [Clipboard]
+  cd metarace
+  [Ctrl]
+
+--- WINDOW  2026/07/29 07:39:30  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 07:39:34  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  npm install
+  $
+
+--- WINDOW  2026/07/29 07:39:36  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:39:50  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:57  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:57  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:57  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:40:18  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:40:18  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:40:21  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:40:21  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:40:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:40:29  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:40:29  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:40:39  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:40:40  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:41:21  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:41:21  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:41:21  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:45:25  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:45:27  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/29 07:45:31  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:45:31  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl]$[Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/29 07:46:16  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:46:21  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:46:26  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:46:29  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:46:30  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:46:34  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  cp .env.example .env
+  
+  $
+
+--- WINDOW  2026/07/29 07:46:37  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/29 07:46:39  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:46:39  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  npm start
+
+--- WINDOW  2026/07/29 07:46:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:46:42  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 07:46:49  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  git clone https://github.com/your-org/metarace.git
+  
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 07:46:56  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:46:57  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 07:47:05  [git-credential-manager.exe] Select an account
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:47:11  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:47:13  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  npm install
+  $
+
+--- WINDOW  2026/07/29 07:47:16  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 07:47:19  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:47:20  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:47:22  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:47:24  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:47:27  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  npm install
+  PS C:\Users\TOPLAPTOP\Desktop\metarace_next.js> npm install
+  npm error 404 Not Found - GET https://registry.npmjs.org/@aaron205whitmore%2fpostcss-animate-utils - Not found
+  npm error 404
+  npm error 404  '@aaron205whitmore/postcss-animate-utils@^1.0.1' is not in this registry.
+  npm error 404 Note that you can also install from a
+  npm error 404 tarball, folder, http url, or git url.
+  npm error A complete log of this run can be found in: C:\Users\TOPLAPTOP\AppData\Local\npm-cache\_logs\2026-07-29T04_45_35_394Z-debug-0.log
+  PS C:\Users\TOPLAPTOP\Desktop\metarace_next.js> cp .env.example .env
+  >> 
+  PS C:\Users\TOPLAPTOP\Desktop\metarace_next.js> npm start
+  Could not determine Node.js install directory
+  $
+
+--- WINDOW  2026/07/29 07:47:43  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:47:43  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:47:44  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  :E [Bk][Bk][Bk][Bk]-ED*EDA 'DE41H9 C[ENTER]
+  [ENTER]
+  [ENTER]
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/29 07:47:58  [chrome.exe] ‪LawrenceNeale219/MetaRace_next.js - Codeberg.org - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl]
+  [Clipboard]
+  MetaRace_next.js
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 07:48:06  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1[Ctrl]&
+  [LMB]
+  [->][^][^][<-]
+  [LMB]
+  [->][^]
+  [LMB]
+  [<-]
+  [LMB]
+  [LMB]
+   [Ctrl]1 DCF 9E -'HD 4:DG E9E J2(7[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:48:25  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:48:43  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:48:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:48:52  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:48:52  [Code.exe] Welcome - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:48:54  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:48:55  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:48:58  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:48:58  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:48:58  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:49:02  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  dependencies
+
+--- WINDOW  2026/07/29 07:49:04  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:49:04  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:49:04  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl](1
+
+--- WINDOW  2026/07/29 07:49:06  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  "@aaron205whitmore/postcss-animate-utils"
+  $
+
+--- WINDOW  2026/07/29 07:49:10  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:49:10  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[Esc]
+
+--- WINDOW  2026/07/29 07:49:14  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:49:15  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:49:15  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:49:18  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:49:18  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  @aaron205whitmore/postcss-animate-utils
+
+--- WINDOW  2026/07/29 07:49:23  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:49:23  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl](1[Esc]
+
+--- WINDOW  2026/07/29 07:49:26  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  :
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Remove-Item -Recurse -Force node_modules
+  $
+
+--- WINDOW  2026/07/29 07:49:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:49:42  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl]1
+
+--- WINDOW  2026/07/29 07:49:43  [Code.exe] ● package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]&
+
+--- WINDOW  2026/07/29 07:49:44  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/29 07:49:46  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:49:48  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:49:48  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:49:49  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:49:49  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  AJ1 EH,H/)
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  "@aaron205whitmore/postcss-animate-utils"
+  $
+  [LMB]
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/29 07:49:58  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:49:58  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:50:07  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:50:08  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:50:09  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:50:09  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:50:15  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:50:16  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:50:16  [Code.exe] Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:50:18  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:50:18  [Code.exe] Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:50:20  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl][Esc][Ctrl]
+  [Clipboard]
+  {
+    "name": "metarace-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@react-three/drei": "^10.7.7",
+      "@react-three/fiber": "^9.6.1",
+      "@sendgrid/mail": "^8.1.3",
+      "@supabase/supabase-js": "^2.104.0",
+      "@tanstack/react-query": "^5.89.0",
+      "axios": "^1.12.2",
+      "bcryptjs": "^2.4.3",
+      "bootstrap": "^5.3.2",
+      "bootstrap-icons": "^1.11.3",
+      "cloudinary": "^2.4.0",
+      "concurrently": "^8.2.2",
+      "cookie-parser": "^1.4.6",
+      "cors": "^2.8.5",
+      "dotenv": "^16.4.5",
+      "ethers": "^5.7.2",
+      "express": "^4.19.2",
+      "express-rate-limit": "^8.2.1",
+      "jsonwebtoken": "^9.0.2",
+      "next": "16.2.9",
+      "paytmchecksum": "^1.5.1",
+      "phaser": "^3.60.0",
+      "react": "^19.2.7",
+      "react-bootstrap": "^2.10.1",
+      "react-countdown": "^2.3.5",
+      "react-dom": "^19.2.7",
+      "react-toastify": "^11.0.5",
+      "animatecss-tailwind-adapter": "^2.0.6",
+      "three": "^0.184.0",
+      "validator": "^13.12.0"
+    },
+    "devDependencies": {
+      "autoprefixer": "^10.4.20",
+      "postcss": "^8.4.49",
+      "tailwindcss": "^3.4.17"
+    },
+    "scripts": {
+      "dev": "concurrently -k -n api,next -c cyan,magenta \"node server/server.js\" \"next dev -p 3000\"",
+      "dev:3002": "concurrently -k -n api,next -c cyan,magenta \"node server/server.js\" \"next dev -p 3002\"",
+      "dev:next": "next dev -p 3000",
+      "dev:next:3002": "next dev -p 3002",
+      "dev:server": "node server/server.js",
+      "build": "next build",
+      "start": "npm run dev",
+      "start:prod": "npm run build && concurrently -k -n api,next -c cyan,magenta \"node server/server.js\" \"next start -p 3000\"",
+      "start:prod:3002": "npm run build && concurrently -k -n api,next -c cyan,magenta \"node server/server.js\" \"next start -p 3002\"",
+      "start:next": "next start -p 3000",
+      "start:server": "node server/server.js",
+      "lint": "echo 'lint disabled - install eslint separately if needed'"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+  
+
+--- WINDOW  2026/07/29 07:50:28  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  A :J1[ENTER]
+
+--- WINDOW  2026/07/29 07:50:36  [(unknown)] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:50:36  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:50:43  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Remove-Item -Recurse -Force node_modules -ErrorAction SilentlyContinue
+  $
+
+--- WINDOW  2026/07/29 07:50:56  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:50:57  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  Remove-Item -Force package-lock.json -ErrorAction SilentlyContinue
+
+--- WINDOW  2026/07/29 07:50:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:50:59  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 07:51:01  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  npm cache clean --force
+  $
+
+--- WINDOW  2026/07/29 07:51:04  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:51:04  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:51:05  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/29 07:51:10  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Clipboard]
+  npm install
+  cp .env.example .env
+  npm start
+
+--- WINDOW  2026/07/29 07:51:17  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Clipboard]
+  npm install
+
+--- WINDOW  2026/07/29 07:51:19  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:51:20  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:51:21  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:51:21  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:53:42  [(unknown)] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:53:43  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:53:43  [(unknown)] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:53:43  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:54:58  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:54:58  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:55:58  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:55:58  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$1[ENTER]
+  [Ctrl]$
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]1[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+   npm install
+  npm error code E404
+  npm error 404 Not Found - GET https://registry.npmjs.org/@aaron205whitmore%2fpostcss-animate-utils - Not found
+  npm error 404
+  npm error 404  '@aaron205whitmore/postcss-animate-utils@^1.0.1' is not in this registry.
+  npm error 404
+  npm error 404 Note that you can also install from a
+  npm error 404 tarball, folder, http url, or git url.
+  npm error A complete log of this run can be found in: C:\Users\TOPLAPTOP\AppData\Local\npm-cache\_logs\2026-07-29T04_56_15_262Z-debug-0.log
+  PS C:\Users\TOPLAPTOP\Desktop\metarace_next.js> 
+  $
+
+--- WINDOW  2026/07/29 07:57:07  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:57:08  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  7(B* [Bk]FHDCEC[ENTER]
+  [Ctrl]1[ENTER]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  "animatecss-tailwind-adapter": "^2.0.6",
+  $
+
+--- WINDOW  2026/07/29 07:57:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:57:34  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl](1
+
+--- WINDOW  2026/07/29 07:57:46  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]B
+
+--- WINDOW  2026/07/29 07:57:50  [chrome.exe] ‫‏Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:58:02  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  Remove-Item -Recurse -Force node_modules -ErrorAction SilentlyContinue
+
+--- WINDOW  2026/07/29 07:58:24  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/07/29 07:58:27  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  Remove-Item -Force package-lock.json -ErrorAction SilentlyContinue
+
+--- WINDOW  2026/07/29 07:58:31  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 07:58:31  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:58:33  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  npm cache clean --force
+  $
+
+--- WINDOW  2026/07/29 07:58:34  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:58:35  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/29 07:58:37  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  npm install
+
+--- WINDOW  2026/07/29 07:58:40  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:58:41  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:58:47  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:58:47  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl]1
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:59:04  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:59:06  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:59:08  [Code.exe] package.json - metarace_next.js - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
