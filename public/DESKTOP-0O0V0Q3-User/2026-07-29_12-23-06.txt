@@ -1,0 +1,442 @@
+﻿  [Clipboard]
+  Let's assume
+  [Clipboard]
+  rubber line
+  [Clipboard]
+  diplomacy
+  [Clipboard]
+  optional
+  [LMB]
+
+--- WINDOW  2026/07/29 11:42:59  [chrome.exe] Property Compliance App Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:43:03  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:43:04  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:43:21  [chrome.exe] Chamilo 2.0 Course Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  I'm looking for an experienced instructional designer to develop a comprehensive course on Chamilo 2.0, targeting professionals.
+  
+  Requirements:
+  - Text-based lessons
+  - Interactive quizzes
+  - Links to outside sources
+  - Text with voice overlay
+  
+  Ideal Skills & Experience:
+  - Proficiency in Chamilo 2.0
+  - Strong instructional design skills
+  - Experience creating engaging text-based content and quizzes
+  - Ability to integrate voice overlays with text
+  
+  Please provide samples of prior work and a detailed approach.
+  [LMB]
+  [Clipboard]
+  Oh, one more thing: I notified Cedric when the message arrived, and he handled the conversation.
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:45:51  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:45:52  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Good day to everyone of you. how is today going for everyone?
+  
+  Would you be interested in a $25/hour part-time remote job that requires six hours of work per day, four shifts on Monday through Friday, and payment on Friday at the end of the workweek?
+  
+  Send me an email with your name and phone number if you're interested and would like more information, and I'll tell you how to apply.
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:47:33  [chrome.exe] Chamilo 2.0 Course Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:47:37  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:47:37  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:48:37  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:48:38  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:48:38  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:52:26  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:52:27  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:52:51  [chrome.exe] Custom CRM With Calendar Integration | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I run a sign-manufacturing company and I’m ready to replace our spreadsheets with a purpose–built CRM that mirrors our 7-9 step production workflow. I already have each step documented; that document will be the blueprint you’ll build from.
+  
+  Core requirements
+  • Custom-built architecture – I’m not looking to adapt an off-the-shelf system.
+  • Email notifications at every stage so the right team member knows the job has advanced.
+  • Two-way Google Calendar integration:
+   • automatic event creation the moment a job enters a new step
+   • deadline reminders pushed to the assigned employee’s calendar
+  
+  Key deliverables
+  1. Database schema that can store client info, job details and status history.
+  2. Web interface (desktop first, mobile responsive) that lets staff move a project from Step 1 through Step 9 with one click.
+  3. Trigger-based email module tied to status changes.
+  4. Secure OAuth connection to our Google Workspace calendar for real-time event sync.
+  5. User-level permissions so sales, production and installers see only the stages relevant to them.
+  6. Brief admin dashboard with filters and a visual pipeline view.
+  7. Deployment instructions plus a short screencast showing everyday use.
+  
+  Acceptance criteria
+  • A test project walks itself through all nine steps and appears on Google Calendar exactly once per step.
+  • Email alerts land in the correct inbox within 60 seconds of a status change.
+  • Source code and basic documentation handed over on final sign-off.
+  
+  I’m happy to discuss tech stacks, hosting and any additional nice-to-haves after you’ve reviewed the outline. Let me know what information you need to estimate timeline and milestones.
+  ccc[Ctrl]c
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I read that you need a purpose-built CRM that follows your 7–9 step production flow with reliable email notifications and two-way Google Calendar sync. The core challenge is keeping workflow state authoritative (single source of truth) while ensuring calendar events and email triggers stay in sync and don’t duplicate.
+  
+  I’ve built small production CRMs where the tricky part was event deduplication and permissioned views for sales/production/installers — solved with immutable status history, trigger queues, and OAuth-backed calendar tokens. For this project I’d focus first on: 1) a minimal schema for jobs + status history, 2) a simple UI to advance steps, and 3) robust trigger handling for email + Google Calendar (OAuth).
+  
+  A couple quick questions:
+  1. Can you provide a Google Workspace admin account for OAuth setup, or will I need to guide your admin?
+  2. Should each step create a unique calendar event once (even if a job returns to the step), or only the first time it hits that step?
+  
+  I’m available for a video call to walk through the documented workflow. 
+  Thanks, 
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  15
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  560
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/database-development/Custom-CRM-With-Calendar-Integration/details
+  cc
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Custom CRM With Calendar Integration
+  
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  United States
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $5,600.00 USD
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:55:25  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:55:26  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:55:34  [chrome.exe] Construct MossTrade Contractors' Marketplace | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  # Build MossTrade Website (MVP)
+  
+  I'm looking for an experienced web developer to build the first version of my startup website, **MossTrade**.
+  
+  MossTrade is a platform that connects **verified contractors** with **commercial clients** looking for qualified professionals.
+  
+  I already have the branding, logo, and overall vision. I need someone who can build a clean, modern website that is easy to use and can grow over time.
+  
+  ### Phase 1 Requirements
+  
+  * Modern, professional homepage
+  * Contractor sign-up and login
+  * Commercial client sign-up and login
+  * Contractor profile pages
+  * Commercial project posting page
+  * Contractor directory with search and filters
+  * Basic dashboard for contractors and clients
+  * Admin dashboard to manage users
+  * Mobile-friendly design
+  * Stripe integration for future paid memberships
+  * Contact form and email notifications
+  
+  ### Design
+  
+  I want the website to look professional, trustworthy, and geared toward the commercial construction industry. Simplicity and ease of use are more important than fancy animations.
+  
+  ### What I'm Looking For
+  
+  * Experience building marketplace or membership websites
+  * Good communication
+  * Clean, organized code
+  * Someone who can recommend the best technology
+  * Someone interested in a long-term working relationship
+  
+  ### Please Include
+  
+  * Examples of similar websites you've built
+  * Your estimated timeline
+  * Fixed-price quote
+  * Technology you recommend
+  * Any suggestions for improving the project
+  
+  **My goal is to launch a simple but professional Version 1.** I don't need every feature right away. I want a reliable developer who can build a solid foundation that we can continue improving over time.
+  c
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I’m available for a short video call if you’d like to walk through priorities.
+  
+  You want a simple, trustworthy marketplace MVP that connects verified contractors with commercial clients. The core challenges are: reliable contractor sign-up/verification, a fast searchable contractor directory, and clean dashboards (contractor/client) that scale. Those are the parts worth getting right in v1.
+  
+  I’ve built similar membership/marketplace sites with React frontends, Node backends and Stripe for payments — focusing on clear auth flows, searchable profiles, and an admin panel for user management. I’d start by shipping homepage, auth, profiles, directory + basic dashboards, then add Stripe wiring for future memberships.
+  
+  A couple quick questions:
+  1. Do you need contractor verification to be manual (admin review) or automated (document upload + OCR/third-party)?
+  2. Any preferred tech (React/Next.js, or do you want recommendations)?
+  
+  Happy to discuss next steps on a call.
+  
+  Thanks,
+  Paul
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  1500
+  [LMB]
+  8
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/web-development/Construct-MossTrade-Contractors/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Construct MossTrade Contractors' Marketplace
+  
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  United States
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $1,500.00 USD
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:57:56  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:57:57  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi JinSuyan, I just wanted to ask what the minimum hourly rate you would accept .
+  Personally, I'm comfortable accepting between $10 and $20 per hour because there's a significant difference between the value of the US dollar and my country's currency, and I'm still a junior developer.
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:59:47  [chrome.exe] Construct MossTrade Contractors' Marketplace | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:59:54  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:59:54  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:03:32  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:03:33  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  cigarette
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:07:41  [chrome.exe] Informational Site Clone with Reporting | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I need a developer who can replicate the look-and-feel and core flow of an existing informational site, then adapt it so I can publish educational material and display live “total count” figures throughout the pages. Those numbers will be fed from simple data points I update in the admin area; as soon as I change them, the site should refresh the displayed totals everywhere they appear.
+  
+  The content will be mainly text, images, and downloadable resources (PDFs, slide decks, worksheets, etc.). At this stage I do not need interactive quizzes or embedded video, though I’d like the structure to be flexible enough to add those later without a ground-up rebuild.
+  
+  Key points you should cover
+  • Pixel-close visual match to the reference site, re-skinned with my colors and branding
+  • Clean dashboard or CMS controls for updating counts and uploading new resources
+  • Mobile-first responsiveness and standard accessibility checks
+  • Fast load times and basic on-page SEO setup
+  
+  Deliverables
+  1. Fully functional website on my hosting, mirrored to staging for future updates
+  2. Documentation (brief) on how to change the totals, add pages, and attach new downloads
+  3. Two weeks of post-launch support to squash any missed bugs
+  
+  If you prefer WordPress, Webflow, or a lightweight custom stack, let me know why—it just has to be easy for a non-developer to maintain. Share a couple of similar builds and an outline of how you’d tackle the dynamic count feature, and we can get started right away.
+  
+  Need it done ASAP Before meeting tomorrow 11 AM PST
+  cc
+  [LMB]
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I’m available for a quick call before your 11 AM PST meeting if you want to walk through specifics.
+  
+  You need a pixel-close replica of an informational site with site-wide live totals driven from an easy admin. 
+  The core challenge is twofold: 
+  (1) matching the visual flow while keeping the DOM simple for fast updates, and 
+  (2) wiring a CMS-friendly mechanism so a single admin change propagates instantly across pages.
+  
+  I’ve done similar builds using WordPress (ACF + REST endpoints) and a lightweight custom static site with a small admin UI. For this job I’d lean toward WordPress or Webflow depending on your hosting—both let a non-developer update counts and uploads easily. The dynamic counts can be a small JSON endpoint or REST field that front-end scripts read and cache for speed.
+  
+  A couple quick questions:
+  1. Where is the site hosted (shared cPanel, managed WP, Netlify, etc.)?
+  2. Do you prefer WordPress, Webflow, or do you want my recommendation after seeing the reference?
+  
+  Happy to jump in and deliver the staging + docs + two-week support.  
+  Thanks,  
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/cms/Informational-Site-Clone-with-Reporting/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Informational Site Clone with Reporting
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  United States
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $38.00 USD
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:09:25  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:09:26  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
