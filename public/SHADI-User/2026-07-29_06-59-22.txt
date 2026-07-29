@@ -1,0 +1,2056 @@
+﻿
+--- WINDOW  2026/07/29 05:59:25  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:59:25  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:59:32  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:59:34  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:59:35  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:59:35  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 05:59:42  [Code.exe] ● Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:59:43  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:59:44  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  call_kimi_business_logic
+  $
+
+--- WINDOW  2026/07/29 05:59:48  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl](1[Esc]
+
+--- WINDOW  2026/07/29 05:59:52  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Clipboard]
+  async def call_kimi_business_logic(self, contract_code):
+          prompt = f"""
+          قم بتحليل كود Rust التالي الخاص بمكتبة monero-oxide. 
+          ابحث تحديداً عن: أخطاء رياضية في التشفير، انقطاعات (Panics) غير موثقة يمكن الوصول إليها من واجهة برمجية عامة، أو ضعف في منطق التوقيع (FROSTLASS).
+          الكود:
+          {contract_code}
+          """
+          payload = {
+              "model": self.model,
+              "messages": [
+                  {"role": "system", "content": "You are an elite Rust Cryptography and Security Auditor."},
+                  {"role": "user", "content": prompt}
+              ],
+              "temperature": 0.2,
+              "stream": False
+          }
+          return await self._safe_request(payload)
+
+--- WINDOW  2026/07/29 05:59:54  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 05:59:57  [Code.exe] ● Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:59:58  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:00:00  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  attacker_agent
+  $
+
+--- WINDOW  2026/07/29 06:00:02  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl](1
+
+--- WINDOW  2026/07/29 06:00:11  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:00:11  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  async def attacker_agent(blackboard, router, contract_code, tools_report, economic_report):
+      print("\n[*] وكيل الهجوم (DeepSeek) يستلم الهدف ويجهز استغلال Rust (PoC)...")
+      
+      def truncate_text(text, max_len):
+          if not text: return ""
+          return text if len(text) <= max_len else text[:max_len] + "\n...[تم الاقتطاع]..."
+  
+      safe_eco = truncate_text(economic_report, 1500)
+      
+      system_prompt = (
+          "أنت خبير أمني هجومي في لغة Rust. "
+          "اكتب كود إثبات المفهوم (PoC) يوضح كيفية استغلال الثغرة المكتشفة في مكتبة monero-oxide. "
+          "يجب أن يكون الاستغلال عبارة عن دالة اختبار Rust تبدأ بـ #[test]. "
+          "ضع الكود حصراً داخل علامات ```rust و ```."
+      )
+      user_prompt = f"التحليل الأولي:\n{safe_eco}\n\nاكتب كود الاستغلال (Rust PoC) الآن:"
+      
+      finding = await router.call_deepseek(system_prompt, user_prompt)
+      
+      if finding is None:
+          finding = "error: فشل الاتصال بالخادم."
+          
+      if "error" in finding or "استجابة غير متوقعة" in finding:
+          print("[-] تنبيه: تم تفعيل وضع الطوارئ لاستكمال السرب...")
+          finding = "```rust\n#[test]\nfn fallback_test() {\n    assert!(true, \"Fallback PoC\");\n}\n```"
+  
+      print("\n[*] تم تجاوز محرك Foundry (لأنه لا يدعم Rust). جاري تسجيل ثغرة Rust مباشرة على السبورة...")
+      
+      # تسجيل الثغرة مباشرة دون تنفيذ آلي لتجنب انهيار السرب
+      final_finding = f"{finding}\n\n### [⚠️ نتيجة التنفيذ]\nتم توليد كود Rust (PoC). يتطلب تشغيله يدوياً باستخدام 'cargo test' للتحقق."
+      await blackboard.add_suspicion("DeepSeek-Sniper (Rust Logic Exploiter)", final_finding)
+
+--- WINDOW  2026/07/29 06:00:14  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 06:00:27  [Code.exe] ● Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:00:28  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:00:29  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:00:40  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:00:52  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:00:58  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:01:19  [chrome.exe] ‫بلا عنوان - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:01:21  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:01:24  [chrome.exe] ‪monero-oxide/monero-oxide - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:01:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:01:37  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:01:38  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:01:38  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/29 06:01:38  [OmniRoute.exe] ‪OmniRoute‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:01:46  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/29 06:01:47  [chrome.exe] ‪monero-oxide/monero-oxide - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:01:48  [chrome.exe] ‪localhost:20128/dashboard/api-manager - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:01:50  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:01:55  [SearchApp.exe] البحث
+----------------------------------------------------------------------------
+  5
+
+--- WINDOW  2026/07/29 06:02:02  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:02:03  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:02:10  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:02:21  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:02:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:02:30  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:02:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:02:32  [OmniRoute.exe] ‪OmniRoute‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:02:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:02:34  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/29 06:02:36  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:02:41  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:02:41  [OmniRoute.exe] ‪OmniRoute‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:02:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:02:42  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:02:42  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:02:48  [chrome.exe] ‪monero-oxide/monero-oxide - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:02:56  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:02:59  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:03:26  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:03:34  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]$
+
+--- WINDOW  2026/07/29 06:05:03  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:05:03  [OmniRoute.exe] ‪OmniRoute‬
+----------------------------------------------------------------------------
+  [Clipboard]
+  Stop-Process -Name "OmniRoute", "node" -Force -ErrorAction SilentlyContinue
+
+--- WINDOW  2026/07/29 06:05:05  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 06:05:06  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/07/29 06:05:07  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:05:07  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  Remove-Item -Path "$env:APPDATA\OmniRoute" -Recurse -Force -ErrorAction SilentlyContinue
+
+--- WINDOW  2026/07/29 06:05:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:05:10  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/29 06:05:12  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Remove-Item -Path "$env:LOCALAPPDATA\OmniRoute-updater" -Recurse -Force -ErrorAction SilentlyContinue
+  [Ctrl]$
+
+--- WINDOW  2026/07/29 06:05:14  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/29 06:05:15  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:05:15  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:05:16  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  Remove-Item -Path "$env:APPDATA\omniroute-nodejs" -Recurse -Force -ErrorAction SilentlyContinue
+
+--- WINDOW  2026/07/29 06:05:21  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:05:21  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:05:23  [(unknown)] Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:05:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:05:31  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:05:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/29 06:05:41  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:05:43  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  CHANGEME
+  $
+
+--- WINDOW  2026/07/29 06:05:49  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 06:05:53  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Clipboard]
+  # 1. إبادة الواجهة الحالية وأي عمليات خفية معلقة تحجز المنفذ
+  Stop-Process -Name "OmniRoute", "node" -Force -ErrorAction SilentlyContinue
+  
+  # 2. تدمير ملفات التكوين والذاكرة المؤقتة المعطوبة لإجبار البرنامج على بنائها من الصفر
+  Remove-Item -Path "$env:APPDATA\OmniRoute" -Recurse -Force -ErrorAction SilentlyContinue
+  Remove-Item -Path "$env:LOCALAPPDATA\OmniRoute-updater" -Recurse -Force -ErrorAction SilentlyContinue
+  Remove-Item -Path "$env:APPDATA\omniroute-nodejs" -Recurse -Force -ErrorAction SilentlyContinue
+
+--- WINDOW  2026/07/29 06:05:59  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/29 06:06:02  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  huggingchat
+  [LMB]
+
+--- WINDOW  2026/07/29 06:06:17  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/29 06:06:20  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:06:31  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:06:32  [chrome.exe] ‪monero-oxide/monero-oxide - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:06:35  [ScreenClippingHost.exe] قطع الشاشة
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:06:37  [chrome.exe] ‪monero-oxide/monero-oxide - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:06:39  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:06:42  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:06:45  [ShellExperienceHost.exe] ‏‏إعلام جديد
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:06:45  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  3
+
+--- WINDOW  2026/07/29 06:06:49  [ScreenClippingHost.exe] قطع الشاشة
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:06:51  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:06:52  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  /[Ctrl]4/.D* 9DI 'DE3*)[Bk])/9 E GHFC[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:07:03  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:07:03  [chrome.exe] ‪monero-oxide/monero-oxide - Google Chrome‬
+----------------------------------------------------------------------------
+  3
+
+--- WINDOW  2026/07/29 06:07:05  [ScreenClippingHost.exe] قطع الشاشة
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:07:07  [chrome.exe] ‪monero-oxide/monero-oxide - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:07:07  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 06:07:10  [chrome.exe] ‪monero-oxide/monero-oxide - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:07:13  [ShellExperienceHost.exe] ‏‏إعلام جديد
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:07:13  [chrome.exe] ‪monero-oxide/monero-oxide - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]3
+
+--- WINDOW  2026/07/29 06:07:17  [ScreenClippingHost.exe] قطع الشاشة
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:07:19  [chrome.exe] ‪monero-oxide/monero-oxide - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:07:19  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:07:22  [chrome.exe] ‪monero-oxide/monero-oxide - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:07:30  [chrome.exe] ‪monero-oxide/README.md at main · monero-oxide/monero-oxide - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:07:34  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:07:36  [chrome.exe] ‫سجلّ عمليات التنزيل الأخيرة‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:07:37  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [ENTER]
+  'F' D' 'AGE DJ D[Bk]CD G'D6J'9 DDH5HD DD4J  DJ (/F' J'G E9BHD[Bk][Bk][Bk][Bk][Bk][ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:09:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:09:21  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:09:21  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  2H
+
+--- WINDOW  2026/07/29 06:10:16  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:10:16  [OmniRoute.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:10:18  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:10:18  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:10:19  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/29 06:10:19  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:10:20  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  CHANGEME
+
+--- WINDOW  2026/07/29 06:10:25  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:10:25  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:10:25  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/29 06:10:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:10:26  [OmniRoute.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:10:27  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/29 06:10:28  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:10:29  [chrome.exe] ‪localhost:20128/dashboard/api-manager - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]B
+
+--- WINDOW  2026/07/29 06:10:32  [chrome.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:10:55  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  DJ 9E *6J9 (JF 'DE3*H/9'* HGH[Bk][Bk][Bk]H '-F' /'[Bk]F' FA-5 HF'.0  'DCE[Bk][Bk]EC'A') 4(C[Bk]C[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:11:13  [chrome.exe] ‪chatgpt.com/c/6a68d81b-5374-83eb-9d69-469cf69f8871 - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:11:22  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:11:27  [chrome.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:11:28  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:11:41  [chrome.exe] ‪chatgpt.com/c/6a68d81b-5374-83eb-9d69-469cf69f8871 - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:11:44  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  J'-(J
+  [LMB]
+  J'-(JJ 9EDF' B'FHFJ D' *9[Bk]B9/ **.H0[ENTER]
+
+--- WINDOW  2026/07/29 06:12:18  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:12:27  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:12:42  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:12:42  [OmniRoute.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:12:46  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:12:47  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  'F4&* E41H9 (J[Bk]'J+HF D'+[Bk]B*F'3 'D9BH/ 9DI EF[Bk][Bk]F[Bk]EF5)
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  Immunefi
+  [Ctrl]1[Ctrl]&
+  [LMB]
+  [Ctrl]$
+  [LMB]
+  [Ctrl]1 H'[Bk][Bk][ENTER]
+  H',1'! *-DJD DG' HC*'() CH/ D'3*:D'D H'D*B1J1 E4'F '-5D 9DI 'DECA'A&) G' ED* 'DCH/C[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:13:45  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][ENTER]
+
+--- WINDOW  2026/07/29 06:13:56  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:13:58  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:13:58  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:13:59  [OmniRoute.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:13:59  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/29 06:14:00  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Esc]
+
+--- WINDOW  2026/07/29 06:14:04  [OmniRoute.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:14:05  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:14:06  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:14:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:14:09  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/29 06:14:10  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:17:18  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  'DG/A
+
+--- WINDOW  2026/07/29 06:19:40  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  'DG/A '*FB5[Bk][Bk][Bk][Bk]13'D *B'1J1 F',-) H'D-5HD 9DI 'DECA&[Bk][Bk]'A&'*H DJ AJH B93A D'FFJ '3*G/A 9B/ E-// -'DJ'[ENTER]
+
+--- WINDOW  2026/07/29 06:20:09  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:20:12  [chrome.exe] ‪Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:20:14  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:20:15  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:20:16  [chrome.exe] ‪Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:20:17  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  *[Bk]'DGA '3*G/' [Bk]A E4'1J9
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  Solidity
+  [LMB]
+  [Ctrl]1[ENTER]
+  DCF 5/A E41H9 J,E[Bk][Bk],FED 3[Bk]B93A [ENTER]
+  HEC'A') ,J/) '1J/ 'D-5H [Bk]D 9DJG' D*7HJ1 9*'/J 'D5D(H DG0' 9/D* 'DCH/ BDJD'[ENTER]
+  [LMB]
+  *E'E 'DAC1) 'F' (9*E/ 9DI 4G 4D+D'A[Bk][Bk]IAH[ENTER]
+  [Bk]H[ENTER]
+  H(69 [Bk][Bk][Bk]96 'D'/H'* H 'D3(( DCJ D' '*/.D '7D'B' H AB7 'F' 'C*4A BH/ EF 'DEF5) H'*J (G' H 'D(1F',[Bk]E, JBHE ('D('J[Bk]BJ DE1D) 'DB[Bk]*B1J1 H'F' (B[Bk](B/E 'D*B1J1 AB7 H 'D) 1(- [ENTER]
+  [LMB]
+  [LMB]
+   AB7[ENTER]
+  [Ctrl]\[Ctrl]&
+  [LMB]
+  DF J*E '13D *'[Bk][Bk][Bk][Bk]'D 'D*B'1J1 (/HF A-5 'D+:1) H'.*('1G'[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:27:01  [chrome.exe] ‪Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:27:04  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:27:05  [chrome.exe] ‪Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:27:06  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  أعتقد أنك لا تبني "مولد تقارير"، بل منصة بحث أمني مؤتمتة.
+  
+  وهذا مشروع طموح وله قيمة تقنية إذا ركزت على نقطة واحدة:
+  [LMB]
+
+--- WINDOW  2026/07/29 06:27:26  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:27:28  [chrome.exe] ‪Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  'F* 
+  [LMB]
+  '* ([Bk].(J1 'E [Ctrl]1
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk]J3 EHD/ [Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:27:52  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  انشئت مشروع بايثون لاقتناس العقود على منصةImmunefi 
+  واجراء تحليل لها وكتابة كود الاستغلال والتقرير مشان احصل على املكفافئة هذا ملفات الكود:
+  
+  [LMB]
+
+--- WINDOW  2026/07/29 06:28:15  [chrome.exe] ‪Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  H[ENTER]
+  [Ctrl]1H[ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:28:26  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:28:41  [chrome.exe] ‪Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:28:43  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Immunefi Target
+        │
+        ▼
+  Download Source
+        │
+        ▼
+  Static Analysis
+        │
+        ▼
+  AI Agents
+        │
+        ▼
+  Hypothesis Ranking
+        │
+        ▼
+  PoC Generator
+        │
+        ▼
+  Compile
+        │
+        ▼
+  Execution
+        │
+        ▼
+  Replay
+        │
+        ▼
+  Impact Verification
+        │
+        ▼
+  Generate Report
+        │
+        ▼
+  أنت تراجع التقرير ثم ترسله
+  [LMB]
+
+--- WINDOW  2026/07/29 06:29:09  [chrome.exe] ‪Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  H D/J 'B*1'- D7 'D'F*''D,/J/ DDE41H9 C[ENTER]
+  [Ctrl]1[ENTER]
+  [ENTER]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:29:22  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Static analysis          25%
+  AI consensus             15%
+  PoC compiles             20%
+  PoC executes             25%
+  Impact verified          15%
+  
+  TOTAL = 100%
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  طبقة الثقة (Confidence Engine)
+  
+  لا يكفي أن ينجح الاختبار.
+  
+  أعطِ كل ثغرة درجة ثقة، مثلاً:
+  
+  Static analysis          25%
+  AI consensus             15%
+  PoC compiles             20%
+  PoC executes             25%
+  Impact verified          15%
+  
+  TOTAL = 100%
+  
+  ثم لا تُنشئ التقرير إلا إذا تجاوزت النتيجة مثلًا 90%.
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 06:29:39  [chrome.exe] ‪Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:29:42  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  طبقة تقييم الأثر (Impact Verification)
+  
+  هذه من أكثر النقاط التي تميز التقارير الجيدة.
+  
+  لا يكفي أن ينهار البرنامج أو يفشل اختبار.
+  
+  النظام يجب أن يثبت شيئًا مثل:
+  
+  سحب أموال غير مصرح بها.
+  تجاوز صلاحيات.
+  كسر Invariant أساسي.
+  إنشاء حالة غير ممكنة حسب تصميم البروتوكول.
+  فقدان أصول أو تعطيل وظيفة رئيسية.
+  
+  إذا لم يوجد أثر أمني واضح، فلا يُكتب التقرير حتى لو نجح الـPoC تقنيًا.
+  $
+
+--- WINDOW  2026/07/29 06:29:52  [chrome.exe] ‪Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  [ENTER]
+  [Ctrl]1[ENTER]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:29:56  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  ما الذي سأغيره في وكلاء الذكاء الاصطناعي؟
+  
+  بدل:
+  
+  DeepSeek يكتب الاستغلال.
+  Claude يتحقق.
+  Gemini يكتب التقرير.
+  
+  أفضل تقسيم المهام بحسب الدور:
+  
+  Protocol Analyst: يفهم المعمارية ويبني Threat Model.
+  Attack Designer: يولد فرضيات هجوم متعددة.
+  Exploit Engineer: يحول الفرضية إلى PoC.
+  Verifier: يتحقق من نجاح الـPoC ومن الأثر الأمني.
+  Reporter: يكتب التقرير فقط إذا كان هناك دليل كافٍ.
+  
+  بهذا الشكل يصبح لكل وكيل مسؤولية واضحة، ويمكن استبدال أي نموذج بآخر دون تغيير بقية النظام.
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 06:30:01  [chrome.exe] ‪Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [ENTER]
+  [Ctrl]1[ENTER]
+  [ENTER]
+  [ENTER]
+  - 1J/ AB7 '1'&C AJ 'D*9/JD'* H DDH5 [Bk]D DDG/A[ENTER]
+
+--- WINDOW  2026/07/29 06:30:49  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  4H 'D*9/JD'* 'DEB*1-) DDH5D DG/AJ
+  [LMB]
+
+--- WINDOW  2026/07/29 06:37:14  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  لن يتم ارسال التقارير بدون فحص الثغرة واختبارها
+  $
+
+--- WINDOW  2026/07/29 06:37:27  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  H[Ctrl]1
+
+--- WINDOW  2026/07/29 06:37:29  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  إرسال تقارير ناجحة إلى Immunefi،
+  [LMB]
+
+--- WINDOW  2026/07/29 06:37:56  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  H1[Bk][Ctrl]
+
+--- WINDOW  2026/07/29 06:38:00  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:38:09  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  H G/A E'DJ H(F'DHB* EF5) *1A9 EF B/1J CEGF,/3[ENTER]
+  HCJA 3[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]'13EDJ .1J7) 'D[Bk][Bk]-J') 'D9EDJ) EF (/! *.DJD[Bk][Bk][Bk][Bk]-DJD 'D9B/ DFG'J) 'D*B1J1H H'GE .7H) CJA 1- *[Bk]F,J( 'D9BH D'F J9E 'F H (3 'H,/ 'D9B/ 'DEF'3(E+D' 9E 9'FJ ,/' E)[Bk]F C+1 'D3H/9'* 'DHE9DHE'* H/.DA5D'5 41H9[ENTER]
+  '/H1 4G 4D+IB[Bk]A  GF' H.'5) 'FF' F3*A3/ EFG' 9(1 E[Bk]E3H[Bk]*H/9 H*7(JB
+
+--- WINDOW  2026/07/29 06:41:43  [chrome.exe] ‪Login to your account | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:41:43  [chrome.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:41:44  [chrome.exe] ‫بلا عنوان - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:41:46  [chrome.exe] ‪support.google.com/chrome/?visit_id=639208933056028798-2939076145&rd=2#topic=7439538 - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:41:47  [chrome.exe] ‫مساعدة متصفح Google Chrome - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:41:49  [chrome.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:41:57  [OmniRoute.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:42:00  [(unknown)] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:42:00  [chrome.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:42:01  [ScreenClippingHost.exe] قطع الشاشة
+----------------------------------------------------------------------------
+  [Esc]
+
+--- WINDOW  2026/07/29 06:42:03  [.exe] قطع الشاشة
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:42:03  [chrome.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  3
+
+--- WINDOW  2026/07/29 06:42:10  [ScreenClippingHost.exe] قطع الشاشة
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:42:12  [chrome.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:42:13  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [ENTER]
+  E'E 'DE[Bk][Bk][Bk]E' 'D.7) 'DFG'&J)[ENTER]
+  [LMB]
+   'DJ 1 *([Bk]9'.3F
+  [LMB]
+  .3' (.5H5 AD*1) 'D9BH/ 'DAD*1) 'D'GE .J'
+  [LMB]
+
+--- WINDOW  2026/07/29 06:46:38  [chrome.exe] ‪monero-oxide/README.md at main · monero-oxide/monero-oxide - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:46:39  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:46:40  [chrome.exe] ‪monero-oxide/README.md at main · monero-oxide/monero-oxide - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:46:42  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:46:43  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  No KYC information is required for payout processing.
+  
+  
+  $
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  KYC not required
+  
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 06:47:00  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  CH[ENTER]
+  [Ctrl]1C
+
+--- WINDOW  2026/07/29 06:47:05  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  No KYC information is required for payout processing.
+  
+  
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 06:47:09  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+  [LMB]
+  [Clipboard]
+  بناءً على كل ما ناقشناه، خطتنا النهائية والكاملة لتحويل مشروعك إلى "منصة بحث أمني مؤتمتة متقدمة" (Zero-False Positive Architecture) تعتمد على 5 مراحل أساسية لتكوين خط الإنتاج الجديد.
+  
+  إليك الخريطة الشاملة للمشروع:
+  
+  ### 🚀 الخطة النهائية لتطوير المنصة
+  
+  * **المرحلة الأولى: محرك الاستهداف الذكي (Auto-Scoping Engine)**
+  * **الهدف:** التخلص من عناء البحث اليدوي.
+  * **الآلية:** دمج سكريبتات السحب ليقوم النظام بقراءة رابط Immunefi، فلترة العقود واستبعاد مجلدات الاختبار (`tests`, `mocks`)، وسحب العقود الصافية (Flattened) فقط.
+  
+  
+  * **المرحلة الثانية: محرك التوجيه (OmniRoute Integration)**
+  * **الهدف:** استغلال تطبيقك المحلي لإدارة الوكلاء بكفاءة.
+  * **الآلية:** ربط كلاس `AIRouter` بالتطبيق المحلي `localhost:20128`، وتخصيص مسارات (Combos) مختلفة لكل وكيل (مثلاً: مسار للتحليل، ومسار لكتابة الأكواد) لضمان عدم توقف العمل في حال تعطل أحد النماذج.
+  
+  
+  * **المرحلة الثالثة: هندسة وكلاء الذكاء الاصطناعي وحلقة التصحيح (AI Swarm & Feedback Loop)**
+  * **الهدف:** تقسيم المهام وتصحيح الأخطاء ذاتياً.
+  * **الآلية:** تفعيل الأدوار الخمسة (Protocol Analyst, Attack Designer, Exploit Engineer, Verifier, Reporter). وبناء حلقة تواصل بحيث إذا اكتشف الـ `Verifier` خطأ في كود الـ PoC، يعيده للـ `Exploit Engineer` لتصحيحه (بحد أقصى 3 محاولات).
+  
+  
+  * **المرحلة الرابع: التحقق من الأثر وطبقة الثقة (Impact & Confidence Engine)**
+  * **الهدف:** منع التقارير الكاذبة.
+  * **الآلية:** تعديل بيئة Foundry لقراءة "الفروقات في حالة العقد" (State Diffs) مثل تغير الأرصدة بدلاً من مجرد نجاح الاختبار. وحساب النقاط؛ بحيث يعطى إثبات الأثر وزناً كافياً لكسر حاجز الـ 90%.
+  
+  
+  * **المرحلة الخامسة: بوابة التقارير (Reporting Gate)**
+  * **الهدف:** كتابة التقرير فقط عند التأكد التام.
+  * **الآلية:** لا يتم استدعاء نموذج الصياغة الدبلوماسية (Gemini) إطلاقاً إلا إذا اجتاز الهجوم طبقة الثقة بنسبة 90% أو أكثر.
+  
+  
+  
+  ---
+  
+  ### 📍 البدء بالتنفيذ (تحديد الموقع وخطة الحل)
+  
+  لتطبيق قاعدتنا في العمل، يجب أن نبدأ بتعديل جزء واحد فقط لضمان الاستقرار. أقترح أن نبدأ بالعقل المدبر للنظام وهو **المرحلة الثالثة والثانية معاً**.
+  
+  * **موقع التعديل:** ملف `Orchestrator.py`.
+  
+  
+  * **خطة الحل:**
+  1. إعادة كتابة كلاس `AIRouter` ليتصل بـ OmniRoute بشكل يخدم الوكلاء المختلفين بمرونة.
+  2. حذف الوكلاء القدامى وإنشاء دوال الوكلاء الجديدة (Analyst, Designer, Exploit Engineer, Verifier).
+  3. برمجة "حلقة التغذية الراجعة" (Feedback Loop) داخل دالة `process_contract` بحيث يحاول النظام إصلاح أخطاء كود الاستغلال آلياً.
+  4. بناء المتغير الخاص بـ `Confidence Engine`.
+  
+  
+  
+  **هل توافق على هذه الخطة لهذا الجزء؟** إذا كنت موافقاً، سأقوم بتقديم الكود الكامل والمعدل لملف `Orchestrator.py` فقط ليحتوي على هذه التحديثات.
+
+--- WINDOW  2026/07/29 06:47:49  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/29 06:47:55  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  EH'AB
+  [LMB]
+  EH'AB[ENTER]
+
+--- WINDOW  2026/07/29 06:48:03  [chrome.exe] ‫كيفية العمل على Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:48:08  [chrome.exe] ‪ChatGPT Plans - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:48:16  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:48:18  [chrome.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  4G 4D+IA[ENTER]
+  [LMB]
+  [LMB]
+  $E49J+[ENTER]
+  [LMB]
+  [LMB]
+  D+)+IG[ENTER]
+  [LMB]
+  [LMB]
+  J++3+F
+  [LMB]
+  [LMB]
+  $'4AD-A[ENTER]
+  [LMB]
+  [LMB]
+  FG)G[ENTER]
+  [LMB]
+  [LMB]
+  4G[ENTER]
+  [LMB]
+  4G 4$$3+33
+  [LMB]
+  4G 4$$3+33
+  [LMB]
+  [LMB]
+  -B.
+  [LMB]
+  D+)+IG -B.[ENTER]
+  [LMB]
+  [LMB]
+  F.). [Bk][Bk][Bk].).[ENTER]
+  [LMB]
+  [LMB]
+  $E49J. -B.[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  F
+  [LMB]
+  +:[ENTER]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  sk-ce24e9d83b501826-f8735f-feef155d
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:50:29  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:50:30  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/29 06:50:32  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:50:33  [OmniRoute.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:50:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:50:34  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:50:35  [chrome.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:50:37  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  fetch_immunefi_scopes
+
+--- WINDOW  2026/07/29 06:50:43  [OmniRoute.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:50:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:50:44  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:50:44  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:50:44  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/29 06:50:45  [Code.exe] Orchestrator.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:50:47  [Code.exe] app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl](1[ENTER]
+  [Esc]
+
+--- WINDOW  2026/07/29 06:50:50  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  def fetch_immunefi_scopes():
+      print("[*] جاري تحميل الأهداف الحصرية وتطبيق فلتر التخفي (KYC not required)...")
+      
+      # العبارة الذهبية التي نبحث عنها لضمان استلام المكافآت دون قيود هوياتية
+      KYC_MAGIC_PHRASE = "KYC not required:No KYC information is required for payout processing."
+      
+      valid_targets = []
+      
+      # قائمة مبدئية للمشاريع (يمكنك لاحقاً ربطها بـ Scraper يجلب روابط Immunefi تلقائياً)
+      projects_to_check = [
+          {
+              "project": "Sky",
+              "contract_name": "PAU_BEACON",
+              "address": "0x0000000000000000000000000000000000000000", # استبدل بالعنوان الحقيقي
+              "bounty_url": "https://immunefi.com/bounty/sky/"
+          },
+          {
+              "project": "Strict_DeFi",
+              "contract_name": "Vault",
+              "address": "0x1111111111111111111111111111111111111111",
+              "bounty_url": "https://immunefi.com/bounty/strictdefi/"
+          }
+      ]
+  
+      # فحص متطلبات KYC لكل مشروع في الطابور
+      for proj in projects_to_check:
+          print(f"[*] فحص سياسة KYC لمشروع: {proj['project']}...")
+          
+          # --- في الكود الحقيقي، ستقوم بتفعيل هذا الجزء لقراءة نص صفحة المشروع من المنصة ---
+          '''
+          try:
+              headers = {"User-Agent": "Mozilla/5.0"}
+              response = requests.get(proj["bounty_url"], headers=headers, timeout=10)
+              page_text = response.text
+          except Exception as e:
+              print(f"   [-] خطأ في الاتصال بصفحة المشروع: {e}")
+              continue
+          '''
+          
+          # محاكاة النص المستخرج من الصفحة للاختبار الموضعي (Mock Data)
+          if proj["project"] == "Sky":
+              page_text = f"Bounty Rules:\n{KYC_MAGIC_PHRASE}\nGood luck hackers."
+          else:
+              page_text = "KYC is strictly required to receive any payout. Passports must be uploaded."
+  
+          # تطبيق الفلتر الصارم: نوحد حالة الأحرف ونزيل المسافات لتجنب الأخطاء المطبعية في المنصة
+          normalized_page = page_text.lower().replace(" ", "")
+          normalized_phrase = KYC_MAGIC_PHRASE.lower().replace(" ", "")
+  
+          # البوابة الشرطية للقبول أو الرفض
+          if normalized_phrase in normalized_page:
+              print(f"   [+] تم القبول: مشروع {proj['project']} لا يتطلب KYC. تمت إضافته للنطاق.")
+              valid_targets.append({
+                  "project": proj["project"],
+                  "contract_name": proj["contract_name"],
+                  "address": proj["address"],
+                  "chain": "ethereum"
+              })
+          else:
+              print(f"   [-] تم الرفض: مشروع {proj['project']} يتطلب KYC أو سياسته غير مطابقة. تم الاستبعاد.")
+              
+      print(f"\n[+] تم رصد {len(valid_targets)} عقود مطابقة لشروطك المخصصة، جاهزة لعملية السحب (Ingestion).")
+      return valid_targets
+
+--- WINDOW  2026/07/29 06:51:00  [Code.exe] app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 06:51:08  [Code.exe] ● app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:51:09  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  **E [Ctrl]4*E'E *EH DD*FHJG CF3./E ,/J/ DDEF5)[Bk] J-BDJ AB7 3 *B'1J1
+  [LMB]
+
+--- WINDOW  2026/07/29 06:51:31  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:51:32  [chrome.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs - Goog
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:51:32  [chrome.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:51:34  [chrome.exe] ‪Login to your account | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:51:35  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:51:36  [chrome.exe] ‪Login to your account | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:51:39  [chrome.exe] ‪Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:51:39  [chrome.exe] ‪Login to your account | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:51:46  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:51:48  [chrome.exe] ‫بلا عنوان - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:51:49  [chrome.exe] ‪bugs.immunefi.com/?redirect_to=%2Fdashboard%2Fnew-submission%3Futm_source%3Dimmunefi%26_gl%3D1*yh9vqc*_gcl_au*MjAyODU3NzQ3MC4xNzg1MTkzMTk4Li0uLS4xNzg1MTkzMzE4LjEyNDU0NTc5MDEuMTc4NTI5MjQ1OS4xNzg1MjkzOTEw*_ga*NDMzNzE5OTE1LjE3ODUxOTMyMDg.*_ga_JPHMK6RZT0*czE3ODUyOTY4MDckbzUkZzAkdDE3ODUyOTY4MDckajYwJGwwJGgxNzMyMzk1NDI1 - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:51:50  [chrome.exe] ‪Login to your account | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:51:57  [chrome.exe] ‪monero-oxide Bug Bounties | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:51:59  [chrome.exe] ‪Login to your account | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:52:02  [chrome.exe] ‫بلا عنوان - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:52:03  [chrome.exe] ‪bugs.immunefi.com/__/auth/handler?apiKey=AIzaSyBuw8zm4IiUh4m_rGjixdwis3ZpehFYCo8&appName=%5BDEFAULT%5D&authType=signInViaPopup&redirectUrl=https%3A%2F%2Fbugs.immunefi.com%2F%3Fredirect_to%3D%252Fdashboard&v=12.14.0&eventId=2604055152&providerId=google.com&customParameters=%7B"prompt"%3A"select_account"%7D&scopes=profile - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:52:11  [chrome.exe] ‪accounts.google.com/v3/signin/accountchooser?client_id=871310312684-2sb1f36asp2nq564jjftmig58dc27ah2.apps.googleusercontent.com&context_uri=https%3A%2F%2Fbugs.immunefi.com&prompt=select_account&redirect_uri=https%3A%2F%2Fbugs.immunefi.com%2F__%2Fauth%2Fhandler&response_type=code&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+profile&state=AMbdmDnmZasN4jvS_3czIEJJRzCiTO6arlIL1wACHZtFwlHm82curFoBjemMneiUXgYCa3N8nNfK9fnv51r_Sj9NOHc67KevjeWVHYuAjimZxis8vmBR8kpxSpr4qJBMXagqLXKUNm8P-KF_bc
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:52:11  [chrome.exe] ‫تسجيل الدخول - حسابات Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:52:17  [chrome.exe] ‪bugs.immunefi.com/__/auth/handler?state=AMbdmDnmZasN4jvS_3czIEJJRzCiTO6arlIL1wACHZtFwlHm82curFoBjemMneiUXgYCa3N8nNfK9fnv51r_Sj9NOHc67KevjeWVHYuAjimZxis8vmBR8kpxSpr4qJBMXagqLXKUNm8P-KF_bcQxbidNi5sqFpuQsWeJFtiogUJP7TWq4quBJXRMC3RWhthO_WqpgVFgNGygRRg8oVsXcUsbDJygGm8nzbZCHQi-S__AyPCyHa0cP0Cc55Xj7v1dkeymJe2S1tOB-exhJwk4-YffCxTm2DrrwqBemclR246D0bBfsPMzPslfj9M&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AXEQxIBD8fq7YM5GTFbJQTPdrxkXb-xJUxjLABh32jA2JwJdYzpRTSj6qZmJoNOdLJwWZQ&scope=email+profile+https%3A%2F%2Fw
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:52:18  [chrome.exe] ‪Login to your account | Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:52:22  [chrome.exe] ‪Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  3
+
+--- WINDOW  2026/07/29 06:52:32  [ScreenClippingHost.exe] قطع الشاشة
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:52:34  [chrome.exe] ‪Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:52:35  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]1[ENTER]
+
+--- WINDOW  2026/07/29 06:52:42  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:52:46  [chrome.exe] ‪Custom DeepFaceLab / DeepAscension Face Swap Model Training - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:52:48  [chrome.exe] ‪Loading - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:53:06  [chrome.exe] ‪WEB3 Jobs, Remote Blockchain Jobs list - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:53:16  [chrome.exe] ‪Loading - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:53:18  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  EH'AB[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:53:33  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:53:33  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - freelance job in IT & Networking, $750 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]$
+  [Clipboard]
+  React to Next.js Migration and Ui/Ux Enhancement
+  an hour ago
+  Description:
+  
+  Project Overview: The project involves the ongoing development and migration of an existing web application originally built with React that is transitioning to Next.js. The previous developer could not complete the migration, resulting in several components and functionalities that need further attention. The application is generally in good shape, but there are several areas that require cleanup and enhancement. Objectives: To ensure the complete migration of the application from React to Next.js. To restore any UI components that were missed during the migration process. To enhance the overall user interface and user experience of the application. To refactor and clean up the frontend structure for improved performance and maintainability. Key Features and Requirements: Address layout and responsive design issues for a consistent user experience across different devices. Implement thoughtful improvements to the ui/ux of the application. Identify and fix bugs and inconsistencies within the application. Collaborate on the implementation of new features as the project evolves. Technical Specifications and Technologies: The project requires a solid understanding of modern frontend technologies. Candidates should be proficient in: React, Next.js, Javascript, html, css, responsive design principles, ui/ux design techniques. Deliverables and Milestones: Complete restoration of all UI components. Resolution of all layout and responsive design issues. Refactored and cleaned-up frontend codebase. Documented bug fixes and updates. Expected Outcomes and Success Criteria: The success of this project will be measured by the following criteria: Completion of the migration with all features functioning as intended. Improved performance and maintainability of the frontend code. Positive feedback on ui/ux from end-users. Additional Details: We are looking for a developer who enjoys refining and improving existing products rather than starting from scratch.
+  
+  Category: IT & Programming
+  Subcategory: Web development
+  Project size: Large
+  
+  IT & Networking
+  [LMB]
+
+--- WINDOW  2026/07/29 06:53:39  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  .DJF' F'.0 'D916C[ENTER]
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/29 06:53:59  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - freelance job in IT & Networking, $750 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:54:02  [ScreenClippingHost.exe] قطع الشاشة
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:54:04  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - freelance job in IT & Networking, $750 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/07/29 06:54:05  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  1[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:54:11  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - freelance job in IT & Networking, $750 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:54:14  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:54:16  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:54:16  [OmniRoute.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:54:25  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:54:31  [chrome.exe] ‪Immunefi - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:54:33  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [LMB]
+  4
+  [LMB]
+  [Ctrl]4[Ctrl]
+  [Clipboard]
+  Hi Dominic,
+  
+  I see you're looking for an experienced developer to step in and rescue a stalled React to Next.js migration, alongside implementing UI/UX enhancements and code cleanup. I have a strong background in both Product Architecture and Frontend Engineering, making me a great fit for projects that require refining and rescuing existing products rather than just starting from scratch.
+  
+  I understand the challenge: the previous developer left things incomplete, resulting in missed components, layout issues, and a codebase that needs structural refactoring.
+  
+  My approach to resolving this:
+  
+  Immediate Assessment & Triage: I will first audit the current state of the migration to identify precisely which components were missed and where the routing/SSR boundaries are breaking.
+  
+  UI Restoration & Refactoring: I will systematically restore the missing React components, ensuring they are properly integrated into the Next.js App or Pages router structure, while cleaning up the CSS/layout inconsistencies for a fully responsive experience.
+  
+  UI/UX Polish: Coming from a UX background, I don't just "make it work"; I will actively look for and suggest thoughtful improvements to the user flow and visual consistency across the app.
+  
+  I noticed the deadline is quite tight (July 31st). Given the $750 budget and the short timeframe, I propose we prioritize a focused "Phase 1" sprint: restoring the most critical missing components and fixing the major layout bugs to get the application stable and usable first.
+  
+  I am ready to review the codebase. Let's connect via chat to discuss the current state of the repo and outline the immediate priorities for the next two days.
+  
+  Best regards,
+  [اسمك هنا]
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 06:54:56  [chrome.exe] ‫ترجمة Google - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:55:10  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - freelance job in IT & Networking, $750 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [Ctrl]1
+
+--- WINDOW  2026/07/29 06:55:15  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:55:16  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:55:29  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:55:30  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:55:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:55:33  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - freelance job in IT & Networking, $750 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:55:43  [Telegram.exe] Telegram
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:55:44  [Telegram.exe] Telegram (259752)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:55:45  [Telegram.exe] Telegram (329965)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:55:45  [Telegram.exe] Telegram (342375)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:55:46  [Telegram.exe] Telegram (393591)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:55:48  [Telegram.exe] Telegram (407501)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:55:49  [Telegram.exe] Telegram (416140)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:55:50  [Telegram.exe] Telegram (419775)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:55:50  [Telegram.exe] ‎Miss Claire – (419775)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:55:50  [Telegram.exe] ‎Miss Claire – (420090)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:55:52  [Telegram.exe] ‎Miss Claire – (420223)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:55:53  [Telegram.exe] ‎Miss Claire – (420250)
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Full-Stack Software Engineer & SysDE
+  [LMB]
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 06:56:01  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - freelance job in IT & Networking, $750 price in cryptocurrency - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]1
+  [LMB]
+
+--- WINDOW  2026/07/29 06:56:13  [chrome.exe] ‪My Jobs - All - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:56:14  [chrome.exe] ‫بناء دخل رقمي سريع بـ USDT - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:56:29  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:56:31  [chrome.exe] ‪My Jobs - All - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:56:31  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:56:32  [chrome.exe] ‪My Jobs - All - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:56:32  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:56:33  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:56:34  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:56:34  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:56:36  [chrome.exe] ‪2 unread messages | LaborX - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:56:36  [chrome.exe] ‪React to Next.js Migration and Ui/Ux Enhancement - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:56:40  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:56:41  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [Clipboard]
+  import asyncio
+  import aiohttp
+  import os
+  import sys
+  import re
+  from datetime import datetime
+  from Executor import ExploitExecutor
+  from dotenv import load_dotenv
+  
+  load_dotenv()
+  
+  # ==========================================
+  # 1. محرك التوجيه (OmniRoute API Gateway)
+  # ==========================================
+  class AIRouter:
+      def __init__(self, base_url="http://localhost:20128/v1", api_key="sk-local-omniroute"):
+          """الاعتماد الكامل على OmniRoute المحلي لإدارة الـ Combos وحماية الحصص"""
+          self.base_url = base_url
+          self.headers = {
+              "Content-Type": "application/json",
+              "Authorization": f"Bearer {api_key}"
+          }
+  
+      async def call_agent(self, role_prompt, user_prompt, model_combo="auto/smart"):
+          """دالة موحدة للاتصال بوكلاء الذكاء الاصطناعي عبر مسارات OmniRoute"""
+          payload = {
+              "model": model_combo,
+              "messages": [
+                  {"role": "system", "content": role_prompt},
+                  {"role": "user", "content": user_prompt}
+              ],
+              "temperature": 0.2,
+              "stream": False
+          }
+          try:
+              # رفع مهلة الاتصال إلى 150 ثانية للعقود الضخمة
+              async with aiohttp.ClientSession() as session:
+                  async with session.post(f"{self.base_url}/chat/completions", headers=self.headers, json=payload, timeout=150) as response:
+                      if response.status == 200:
+                          data = await response.json()
+                          return data['choices'][0]['message']['content']
+                      else:
+                          error_text = await response.text()
+                          print(f"[-] خطأ من OmniRoute (Status {response.status}): {error_text}")
+                          return None
+          except asyncio.TimeoutError:
+              print(f"[-] تنبيه: انتهت مهلة الاتصال (Timeout) للمسار {model_combo}.")
+              return None
+          except Exception as e:
+              print(f"[-] خطأ في الاتصال بالموجه: {e}")
+              return None
+  
+  
+  # ==========================================
+  # 2. وكلاء الذكاء الاصطناعي (AI Agents Swarm)
+  # ==========================================
+  class AIAgentsOrchestrator:
+      def __init__(self, router):
+          self.router = router
+  
+      async def protocol_analyst(self, contract_code):
+          print("[*] 🕵️‍♂️ Protocol Analyst: يحلل العقد ويقيم مستوى الخطورة...")
+          sys_prompt = (
+              "You are an elite Smart Contract Protocol Analyst hunting for Immunefi bounties. "
+              "Analyze the provided Solidity code for high-impact vulnerabilities (e.g., Reentrancy, Logic Flaws, Price Manipulation). "
+              "You MUST conclude your analysis with a severity rating using exactly one of these tags: "
+              "[SEVERITY: CRITICAL], [SEVERITY: HIGH], [SEVERITY: MEDIUM], [SEVERITY: LOW], or [SEVERITY: NONE]."
+          )
+          return await self.router.call_agent(sys_prompt, contract_code, "analyst-combo") # يمكن ربطه بنموذج قوي مثل Claude 3.5 Sonnet
+  
+      async def attack_designer(self, analysis):
+          print("[*] 🧠 Attack Designer: يبني فرضية الهجوم خطوة بخطوة...")
+          sys_prompt = (
+              "You are a Tactical Attack Designer. Based on the Protocol Analyst's findings, "
+              "outline a step-by-step attack vector. Focus strictly on the mathematical and logical exploitation path."
+          )
+          return await self.router.call_agent(sys_prompt, analysis, "designer-combo")
+  
+      async def exploit_engineer(self, hypothesis, previous_error=None):
+          print("[*] 🛠️ Exploit Engineer: يكتب كود الاستغلال (Foundry PoC)...")
+          sys_prompt = (
+              "You are an Exploit Engineer. Your job is to write a Foundry (Solidity) Proof of Concept (PoC) "
+              "based on the attack hypothesis. "
+              "You MUST wrap the complete Solidity code inside ```solidity ... ``` block."
+          )
+          user_prompt = f"Attack Hypothesis:\n{hypothesis}\n\nWrite the Foundry PoC now."
+          
+          if previous_error:
+              print("[!] المهندس يحاول تصحيح الأخطاء السابقة (Self-Healing)...")
+              user_prompt += f"\n\nWARNING: The previous PoC failed with this error:\n{previous_error}\nFix the code and return the corrected ```solidity``` block."
+              
+          return await self.router.call_agent(sys_prompt, user_prompt, "engineer-combo") # يمكن ربطه بـ DeepSeek Coder
+  
+      async def verifier(self, output_log):
+          print("[*] ⚖️ Verifier: يتحقق من وجود أثر فعلي (Impact)...")
+          sys_prompt = (
+              "You are the Final Verifier. Analyze the Foundry execution logs. "
+              "Did the exploit achieve actual financial or security impact (e.g., funds stolen, invariant broken)? "
+              "Reply strictly with [IMPACT_VERIFIED: YES] or [IMPACT_VERIFIED: NO] and a brief 1-line reason."
+          )
+          return await self.router.call_agent(sys_prompt, output_log, "verifier-combo")
+  
+  
+  # ==========================================
+  # 3. المنسق الرئيسي وبوابة القناص (The Sniper Gate)
+  # ==========================================
+  async def process_contract(contract_path, router):
+      print(f"\n{'='*50}")
+      print(f"[*] بدء عملية القنص على العقد: {contract_path}")
+      print(f"{'='*50}")
+      
+      try:
+          with open(contract_path, "r", encoding="utf-8") as f:
+              contract_code = f.read()
+      except Exception as e:
+          print(f"[-] فشل قراءة الملف: {e}")
+          return
+  
+      swarm = AIAgentsOrchestrator(router)
+      engine = ExploitExecutor()
+  
+      # 1. التحليل الأولي وتحديد الخطورة
+      analysis = await swarm.protocol_analyst(contract_code)
+      if not analysis:
+          return
+  
+      # [البوابة الأولى: فلتر الخطورة - حماية الرصاصات الثلاث]
+      if "[SEVERITY: CRITICAL]" in analysis or "[SEVERITY: HIGH]" in analysis:
+          print("[+] 🟢 بوابة القناص: تم رصد ثغرة (High/Critical). ننتقل للمرحلة التالية.")
+      else:
+          print("[-] 🔴 بوابة القناص: الثغرة ليست عالية الخطورة. تم إجهاض العملية لحماية رصيد تقاريرك في Immunefi.")
+          return
+  
+      # 2. تصميم الهجوم
+      hypothesis = await swarm.attack_designer(analysis)
+      if not hypothesis:
+          return
+  
+      # 3. هندسة الاستغلال مع حلقة التغذية الراجعة (الحد الأقصى 3 محاولات)
+      max_retries = 3
+      attempt = 0
+      poc_success = False
+      execution_output = ""
+      previous_error = None
+  
+      while attempt < max_retries and not poc_success:
+          attempt += 1
+          print(f"\n[*] محاولة هندسة الكود رقم ({attempt}/{max_retries})...")
+          
+          poc_response = await swarm.exploit_engineer(hypothesis, previous_error)
+          poc_code = engine.extract_solidity_code(poc_response) if poc_response else None
+          
+          if not poc_code:
+              print("[-] فشل استخراج كود Solidity من استجابة المهندس.")
+              previous_error = "Failed to output standard Markdown ```solidity block."
+              continue
+              
+          # حقن الكود وتشغيل الاختبار
+          engine.inject_code(poc_code)
+          is_passed, log = await engine.run_forge_test()
+          execution_output = log
+          
+          if is_passed:
+              print("[+] الـ PoC يعمل برمجياً بدون أخطاء (Compilation & Execution Passed).")
+              poc_success = True
+          else:
+              print("[-] فشل التنفيذ. سيتم إرسال الخطأ للمهندس لتصحيحه...")
+              previous_error = log # تمرير خطأ Foundry للمحاولة التالية
+  
+      if not poc_success:
+          print("[-] 🔴 بوابة القناص: فشل المهندس في بناء PoC ناجح بعد 3 محاولات. تم التخلي عن الهدف.")
+          return
+  
+      # 4. طبقة الثقة وإثبات الأثر
+      verification = await swarm.verifier(execution_output)
+      
+      # [البوابة النهائية: الثقة 100%]
+      if verification and "[IMPACT_VERIFIED: YES]" in verification:
+          print("\n[✅] 🎯 الثقة 100%: تم إثبات الأثر الأمني بنجاح! يتم الآن توجيه الأوامر لكتابة التقرير النهائي.")
+          
+          # أرشفة التفاصيل ليتمكن Reporter.py من قراءتها
+          with open("Hybrid_Audit_Report.md", "w", encoding="utf-8") as f:
+              f.write(f"# Context for {contract_path}\n## Analysis\n{analysis}\n## Vector\n{hypothesis}")
+              
+          # استدعاء ملف التقارير برمجياً
+          os.system("python Reporter.py")
+      else:
+          print("\n[-] 🔴 بوابة القناص: الـ PoC يعمل لكن لا يوجد أثر مالي حقيقي (False Positive). تم منع كتابة التقرير.")
+  
+  
+  async def main():
+      print("=== 🎯 محرك القناص الهجين (Zero-False Positive Architecture) ===\n")
+      
+      router = AIRouter()
+      targets_dir = "Targets"
+      
+      if not os.path.exists(targets_dir):
+          print(f"[-] مجلد '{targets_dir}' غير موجود. يرجى تشغيل محرك السحب أولاً.")
+          return
+  
+      contract_files = [os.path.join(targets_dir, f) for f in os.listdir(targets_dir) if f.endswith('.sol')]
+      
+      if not contract_files:
+          print("[-] لا توجد أي عقود للتحليل.")
+          return
+  
+      for contract_path in contract_files:
+          await process_contract(contract_path, router)
+          
+      print("\n=== 🎉 اكتملت جولة القنص بنجاح ===")
+  
+  if __name__ == "__main__":
+      if sys.platform == 'win32':
+          asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+      asyncio.run(main())
+
+--- WINDOW  2026/07/29 06:57:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:57:12  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:57:12  [OmniRoute.exe] ‪OmniRoute — AI Gateway for Multi-Provider LLMs‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:57:13  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:57:14  [explorer.exe] ‏‏تبديل المهام
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/07/29 06:57:14  [Code.exe] app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]41
+
+--- WINDOW  2026/07/29 06:57:18  [Code.exe] ● app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:57:19  [Code.exe] app.py - ONE - Visual Studio Code
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:57:26  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  *
+
+--- WINDOW  2026/07/29 06:57:30  [chrome.exe] ‫(5) واتساب للأعمال - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  sk-ce24e9d83b501826-f8735f-feef155d
+  $
+  [LMB]
+
+--- WINDOW  2026/07/29 06:57:34  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+  *E'E [Ctrl]4*E'E HG0' 'DE*A'- 'DEF4&  AJ [Ctrl]1
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  OmniRoute
+  $[Ctrl]1[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:57:54  [chrome.exe] ‪Chat - Google Chrome‬
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:58:20  [chrome.exe] ‫تطوير منصة بحث أمني مؤتمتة - Google Gemini - Google Chrome‬
+----------------------------------------------------------------------------
+  EH'AB [ENTER]
