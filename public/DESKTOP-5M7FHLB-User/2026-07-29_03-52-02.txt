@@ -1,0 +1,435 @@
+﻿  [LMB]
+
+--- WINDOW  2026/07/29 03:02:27  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 03:18:57  [chrome.exe] Freelancer dashboard - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 03:18:58  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 03:18:59  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  AI Workflow Implementation Contractor for Partner Operations (Crossbeam MCP / Claude)
+  Posted 5 minutes ago
+  Worldwide
+  
+  Summary
+  We are building a portfolio of AI-enabled partner-operations workflows for a go-to-market organization. The immediate work includes evaluating and implementing account-mapping workflows using Crossbeam MCP, designing a Claude-based deal-management assistant or skill, and improving manual partner eligibility and onboarding processes.
+  
+  This is not a website-design role, a front-end development role, or a generic prompt-engineering engagement. We need a senior, hands-on builder who can discover the current process, define the solution architecture, integrate business systems safely, implement and test the workflow, and leave the internal team with durable documentation and a supportable operating model.
+  
+  The work will be organized as a sequential project queue. The current planning target is approximately four projects for this contractor, delivered one at a time rather than simultaneously. The exact sequence will be finalized during discovery.
+  Initial project themes
+  Determine where Crossbeam MCP adds practical value to partner account mapping, prioritization, and deal workflows.
+  Design or implement a Claude-based deal-management assistant or reusable skill that surfaces the right partner context at the right point in the deal process.
+  Map and improve partner eligibility and onboarding workflows that currently depend on manual coordination.
+  Identify additional high-value partner workflows, rank them by impact and implementation risk, and convert the approved items into a sequenced delivery plan.
+  
+  These are confirmed themes, not a complete technical specification. The contractor's first responsibility is to turn them into implementation-ready requirements.
+  
+  What you'll do
+  
+  Lead structured discovery with partner leadership, Revenue AI, go-to-market operations, and the people who perform the current work.
+  Document the current process, system owners, data sources, permissions, manual handoffs, decision rules, exceptions, and failure points.
+  Produce clear current-state and future-state architecture or workflow diagrams that technical and nontechnical stakeholders can validate.
+  Define the first project's scope, acceptance criteria, dependencies, risks, and implementation plan before build begins.
+  Evaluate the available Crossbeam MCP capabilities against the actual account-mapping and deal-management use cases.
+  Design and implement AI-assisted workflows using Claude, MCP, APIs, webhooks, and the organization's existing business systems where appropriate.
+  Define how account and partner context is retrieved, filtered, presented, acted on, and written back without exposing unauthorized data.
+  Build appropriate human review, approval, escalation, and fallback paths for actions that should not be fully autonomous.
+  Implement authentication, permissions, structured inputs and outputs, retries, timeout handling, logging, and useful error notifications.
+  Create test data and test cases for expected paths, missing data, conflicting records, ambiguous matches, stale information, permission failures, and downstream outages.
+  Support stakeholder validation, pilot rollout, production release, and an agreed post-launch stabilization period.
+  Produce durable documentation: solution architecture, workflow diagrams, integration maps, decision rules, test plan, runbook, known limitations, and knowledge-transfer materials.
+  
+  Required experience
+  
+  Personally designed and shipped production business-process automations involving multiple systems, APIs, or data sources.
+  Hands-on API integration experience, including REST APIs, JSON, webhooks, authentication, pagination, rate limits, retries, timeouts, and failure handling.
+  Experience implementing Claude, another production LLM, or an AI agent inside an operational workflow rather than only building a standalone chatbot.
+  Ability to translate ambiguous manual processes into explicit rules, states, exceptions, ownership, and measurable acceptance criteria.
+  Experience working with CRM, sales operations, Revenue Operations, deal-desk, partner operations, or comparable go-to-market workflows.
+  Practical understanding of data permissions, least-privilege access, auditability, and human approval boundaries.
+  Ability to lead discovery with nontechnical stakeholders and work directly with internal technical owners.
+  Strong written documentation, diagramming, testing, and knowledge-transfer habits.
+  
+  Nice to have
+  
+  Direct Crossbeam implementation or administration experience.
+  Experience with account mapping, partner overlaps, partner-sourced or partner-influenced pipeline, co-selling, deal registration, partner eligibility, or partner onboarding.
+  Model Context Protocol implementation experience.
+  Experience building Claude skills, tools, or agent workflows.
+  CRM automation and data synchronization experience.
+  Evaluation frameworks for measuring workflow accuracy, adoption, time saved, exception rate, and business impact.
+  Working model and access
+  You will be the implementation lead for the assigned workflow, partnering with internal go-to-market and Revenue AI stakeholders. We expect to provide stakeholder access, guided visibility into relevant systems during discovery, and approved test data where available.
+  
+  All implementation work must be performed through Zoom or an equivalent live screen-sharing session. An authorized internal team member will operate the Crossbeam, Claude, CRM, and other business-system interfaces under the contractor's direction. Direct contractor credentials will not be provided.
+  
+  You must be comfortable diagnosing configuration in real time, directing the internal operator through exact changes, validating each result on screen, and maintaining a written record of the settings changed and evidence observed. Work that cannot be completed safely through this model must be identified during discovery before it is included in the approved implementation plan.
+  
+  The current CRM, automation platform, cloud environment, data warehouse, and deployment process will be confirmed during discovery. Please do not assume a specific stack in your proposal.
+  Expected deliverables for the first project
+  Discovery summary and prioritized problem statement.
+  Current-state workflow and system map.
+  Future-state architecture with data flows, permissions, human checkpoints, and failure paths.
+  Written scope, acceptance criteria, implementation plan, and risk register.
+  Working pilot or production implementation for the approved use case.
+  Test evidence covering normal, exception, permission, and dependency-failure scenarios.
+  Deployment, rollback, monitoring, and support plan.
+  Runbook, architecture documentation, and knowledge-transfer session.
+  What success looks like
+  Stakeholders agree on the workflow, ownership boundaries, data sources, and acceptance criteria before implementation begins.
+  The delivered workflow retrieves and presents the correct partner and deal context for the approved use case.
+  Data access follows documented sharing and permission rules.
+  Ambiguous matches, missing information, unauthorized requests, and dependency failures produce safe, understandable outcomes.
+  Human review is preserved wherever the business has not approved autonomous action.
+  The workflow is tested, observable, documented, and maintainable by the internal team.
+  The first project creates reusable patterns for the remaining sequential projects.
+  c
+
+--- WINDOW  2026/07/29 03:26:07  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 03:26:08  [chrome.exe] Upwork Workflow Strategy - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 03:26:11  [chrome.exe] Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 03:26:35  [chrome.exe] Upwork profile letter and partner ops call - Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 03:26:35  [chrome.exe] Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 03:26:44  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 03:26:52  [chrome.exe] upwork.com/freelancers/~01f00832179969b7be - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 03:26:53  [chrome.exe] Challenge - Upwork - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 03:26:54  [chrome.exe] Just a moment... - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 03:27:06  [chrome.exe] upwork.com/freelancers/~01f00832179969b7be - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 03:27:07  [chrome.exe] Freelancer Profile - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 03:27:15  [chrome.exe] Abdullah M. - Full Stack Developer | React | Next.js | Node.js | MERN Stack | API - Upwork Freelancer from Gujranwala, Pakistan - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl]
+  [Clipboard]
+  Full Stack Developer | React | Next.js | Node.js | MERN Stack | API
+  
+  I help startups, businesses, and growing companies build modern, scalable, and high-performance web applications that solve real business problems.
+  
+  Over the last 6+ years, I have developed 40+ web applications including SaaS platforms, admin dashboards, eCommerce solutions, marketplaces, fintech applications, and custom business management systems.
+  
+  My approach is simple: building clean, scalable, and production-ready applications with seamless user experiences, reliable backend architecture, and maintainable code.
+  
+  From frontend interfaces and API development to complete full-stack platforms, I handle the entire development lifecycle planning, architecture, development, deployment, and ongoing optimization.
+  
+  ━━━━━━━━━━━━━━━━━━━━
+  ▸ 𝗪𝗛𝗔𝗧 𝗜 𝗕𝗨𝗜𝗟𝗗
+  ━━━━━━━━━━━━━━━━━━━━
+  ✔ Full-Stack Web Applications
+  ✔ SaaS Platforms & MVP Development
+  ✔ React.js & Next.js Applications
+  ✔ Admin Panels & Business Dashboards
+  ✔ E-commerce Websites & Marketplaces
+  ✔ Custom CRM & Management Systems
+  ✔ API-Based Web Applications
+  ✔ Real-Time Applications with WebSockets
+  ✔ Payment Gateway Integrations
+  ✔ Third-Party API Integrations
+  ✔ Database-Driven Applications
+  ✔ Role-Based Access Control Systems
+  ✔ Responsive & Pixel-Perfect Frontend Interfaces
+  ✔ Backend Systems & REST APIs
+  ✔ Existing Application Improvements & Optimization
+  
+  → Whether you need a new web application, SaaS product, or improvements to an existing system, I can help transform your idea into a reliable digital solution.
+  
+  ━━━━━━━━━━━━━━━━━━━━
+  ▸ 𝗖𝗢𝗥𝗘 𝗧𝗘𝗖𝗛 𝗦𝗧𝗔𝗖𝗞
+  ━━━━━━━━━━━━━━━━━━━━
+  ◆ Frontend Development
+  → React.js
+  → Next.js
+  → TypeScript
+  → JavaScript (ES6+)
+  → HTML5
+  → CSS3
+  → Tailwind CSS
+  → Redux
+  → Zustand
+  → Responsive UI Development
+  → Pixel-Perfect Design Implementation
+  
+  ◆ Backend Development
+  → Node.js
+  → Express.js
+  → REST APIs
+  → API Development
+  → Backend Architecture
+  → Authentication Systems
+  → JWT Authentication
+  → Role-Based Access Control
+  → WebSockets
+  → Server-Side Applications
+  
+  ◆ Database & Storage
+  → MongoDB
+  → MySQL
+  → PostgreSQL
+  → Database Design
+  → Data Modeling
+  → Query Optimization
+  
+  ◆ Cloud & Deployment
+  → AWS
+  → Vercel
+  → Netlify
+  → Firebase
+  → Heroku
+  → Cloud Deployment
+  → CI/CD Workflows
+  
+  ◆ Tools & Integrations
+  → Git
+  → GitHub
+  → Bitbucket
+  → Postman
+  → Figma
+  → Stripe Integration
+  → PayPal Integration
+  → Third-Party API Integration
+  
+  ━━━━━━━━━━━━━━━━━━━━
+  ▸ 𝗜𝗡𝗗𝗨𝗦𝗧𝗥𝗜𝗘𝗦 𝗦𝗘𝗥𝗩𝗘𝗗
+  ━━━━━━━━━━━━━━━━━━━━
+  ✔ SaaS & Startup Products
+  ✔ E-commerce Businesses
+  ✔ FinTech Applications
+  ✔ Business Automation Platforms
+  ✔ Marketplaces
+  ✔ Education Platforms
+  ✔ Healthcare Applications
+  ✔ Management Systems
+  ✔ Dashboard & Analytics Platforms
+  ✔ Custom Enterprise Solutions
+  
+  ━━━━━━━━━━━━━━━━━━━━
+  ▸ 𝗪𝗛𝗬 𝗖𝗟𝗜𝗘𝗡𝗧𝗦 𝗖𝗛𝗢𝗢𝗦𝗘 𝗠𝗘
+  ━━━━━━━━━━━━━━━━━━━━
+  ◆ 40+ Successful Web Projects Delivered
+  ◆ 6+ Years of Professional Full Stack Development Experience
+  ◆ Experience Working With Clients From USA, UK, UAE & Canada
+  ◆ Strong Expertise in MERN Stack Development
+  ◆ Production-Ready Applications Built With Scalable Architecture
+  ◆ Clean, Maintainable, and Well-Structured Code
+  ◆ Pixel-Perfect UI Development With Excellent UX
+  ◆ Strong Understanding of Business Requirements
+  ◆ Fast Communication & Reliable Delivery
+  ◆ Long-Term Support and Collaboration
+  
+  ━━━━━━━━━━━━━━━━━━━━
+  ▸ 𝗥𝗘𝗖𝗘𝗡𝗧 𝗪𝗜𝗡𝗦
+  ━━━━━━━━━━━━━━━━━━━━
+  ✔ Built a freelance marketplace platform with user profiles, job posting, messaging, and secure payment features.
+  ✔ Developed a financial management web application using React, Node.js, Express.js, and MongoDB.
+  ✔ Created startup web platforms with scalable frontend architecture, API integrations, and analytics tracking.
+  ✔ Developed event management solutions with registration systems, scheduling, galleries, and user-friendly interfaces.
+  ✔ Built custom dashboards and admin panels with role-based access and optimized database performance.
+  ✔ Delivered responsive SaaS applications with modern UI, secure authentication, and scalable backend systems.
+  
+  ━━━━━━━━━━━━━━━━━━━━
+  
+  If you’re looking for a Full Stack Developer to build a modern web application, improve your existing product, or develop a scalable SaaS solution, I can help.
+  
+  Share your idea, requirements, or technical challenge, and I’ll help you choose the right approach to bring your vision to life.
+  
+  Let’s build a fast, scalable, and business-focused digital solution.
+  
+  ➤ 𝗞𝗘𝗬𝗪𝗢𝗥𝗗𝗦
+  Full Stack Developer, React Developer, Next.js Developer, MERN Stack Developer, Node.js Developer, Express.js Developer, JavaScript Developer, TypeScript Developer, Frontend Developer, Backend Developer, Web Application Development, SaaS Development, MVP Development, React.js Development, Next.js Development, API Development, REST API Integration, MongoDB Developer, Database Design, PostgreSQL, MySQL, Admin Dashboard Development, E-commerce Development, Marketplace Development
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 03:27:43  [chrome.exe] Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/29 03:27:54  [chrome.exe] Abdullah M. - Full Stack Developer | React | Next.js | Node.js | MERN Stack | API - Upwork Freelancer from Gujranwala, Pakistan - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 03:28:04  [chrome.exe] Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 03:28:12  [chrome.exe] Abdullah M. - Full Stack Developer | React | Next.js | Node.js | MERN Stack | API - Upwork Freelancer from Gujranwala, Pakistan - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 03:28:14  [chrome.exe] upwork.com/nx/find-work/ - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 03:28:15  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  AI Workflow Implementation Contractor for Partner Operations (Crossbeam MCP / Claude)
+  Posted 8 minutes ago
+  Worldwide
+  
+  Summary
+  We are building a portfolio of AI-enabled partner-operations workflows for a go-to-market organization. The immediate work includes evaluating and implementing account-mapping workflows using Crossbeam MCP, designing a Claude-based deal-management assistant or skill, and improving manual partner eligibility and onboarding processes.
+  
+  This is not a website-design role, a front-end development role, or a generic prompt-engineering engagement. We need a senior, hands-on builder who can discover the current process, define the solution architecture, integrate business systems safely, implement and test the workflow, and leave the internal team with durable documentation and a supportable operating model.
+  
+  The work will be organized as a sequential project queue. The current planning target is approximately four projects for this contractor, delivered one at a time rather than simultaneously. The exact sequence will be finalized during discovery.
+  Initial project themes
+  Determine where Crossbeam MCP adds practical value to partner account mapping, prioritization, and deal workflows.
+  Design or implement a Claude-based deal-management assistant or reusable skill that surfaces the right partner context at the right point in the deal process.
+  Map and improve partner eligibility and onboarding workflows that currently depend on manual coordination.
+  Identify additional high-value partner workflows, rank them by impact and implementation risk, and convert the approved items into a sequenced delivery plan.
+  
+  These are confirmed themes, not a complete technical specification. The contractor's first responsibility is to turn them into implementation-ready requirements.
+  
+  What you'll do
+  
+  Lead structured discovery with partner leadership, Revenue AI, go-to-market operations, and the people who perform the current work.
+  Document the current process, system owners, data sources, permissions, manual handoffs, decision rules, exceptions, and failure points.
+  Produce clear current-state and future-state architecture or workflow diagrams that technical and nontechnical stakeholders can validate.
+  Define the first project's scope, acceptance criteria, dependencies, risks, and implementation plan before build begins.
+  Evaluate the available Crossbeam MCP capabilities against the actual account-mapping and deal-management use cases.
+  Design and implement AI-assisted workflows using Claude, MCP, APIs, webhooks, and the organization's existing business systems where appropriate.
+  Define how account and partner context is retrieved, filtered, presented, acted on, and written back without exposing unauthorized data.
+  Build appropriate human review, approval, escalation, and fallback paths for actions that should not be fully autonomous.
+  Implement authentication, permissions, structured inputs and outputs, retries, timeout handling, logging, and useful error notifications.
+  Create test data and test cases for expected paths, missing data, conflicting records, ambiguous matches, stale information, permission failures, and downstream outages.
+  Support stakeholder validation, pilot rollout, production release, and an agreed post-launch stabilization period.
+  Produce durable documentation: solution architecture, workflow diagrams, integration maps, decision rules, test plan, runbook, known limitations, and knowledge-transfer materials.
+  
+  Required experience
+  
+  Personally designed and shipped production business-process automations involving multiple systems, APIs, or data sources.
+  Hands-on API integration experience, including REST APIs, JSON, webhooks, authentication, pagination, rate limits, retries, timeouts, and failure handling.
+  Experience implementing Claude, another production LLM, or an AI agent inside an operational workflow rather than only building a standalone chatbot.
+  Ability to translate ambiguous manual processes into explicit rules, states, exceptions, ownership, and measurable acceptance criteria.
+  Experience working with CRM, sales operations, Revenue Operations, deal-desk, partner operations, or comparable go-to-market workflows.
+  Practical understanding of data permissions, least-privilege access, auditability, and human approval boundaries.
+  Ability to lead discovery with nontechnical stakeholders and work directly with internal technical owners.
+  Strong written documentation, diagramming, testing, and knowledge-transfer habits.
+  
+  Nice to have
+  
+  Direct Crossbeam implementation or administration experience.
+  Experience with account mapping, partner overlaps, partner-sourced or partner-influenced pipeline, co-selling, deal registration, partner eligibility, or partner onboarding.
+  Model Context Protocol implementation experience.
+  Experience building Claude skills, tools, or agent workflows.
+  CRM automation and data synchronization experience.
+  Evaluation frameworks for measuring workflow accuracy, adoption, time saved, exception rate, and business impact.
+  Working model and access
+  You will be the implementation lead for the assigned workflow, partnering with internal go-to-market and Revenue AI stakeholders. We expect to provide stakeholder access, guided visibility into relevant systems during discovery, and approved test data where available.
+  
+  All implementation work must be performed through Zoom or an equivalent live screen-sharing session. An authorized internal team member will operate the Crossbeam, Claude, CRM, and other business-system interfaces under the contractor's direction. Direct contractor credentials will not be provided.
+  
+  You must be comfortable diagnosing configuration in real time, directing the internal operator through exact changes, validating each result on screen, and maintaining a written record of the settings changed and evidence observed. Work that cannot be completed safely through this model must be identified during discovery before it is included in the approved implementation plan.
+  
+  The current CRM, automation platform, cloud environment, data warehouse, and deployment process will be confirmed during discovery. Please do not assume a specific stack in your proposal.
+  Expected deliverables for the first project
+  Discovery summary and prioritized problem statement.
+  Current-state workflow and system map.
+  Future-state architecture with data flows, permissions, human checkpoints, and failure paths.
+  Written scope, acceptance criteria, implementation plan, and risk register.
+  Working pilot or production implementation for the approved use case.
+  Test evidence covering normal, exception, permission, and dependency-failure scenarios.
+  Deployment, rollback, monitoring, and support plan.
+  Runbook, architecture documentation, and knowledge-transfer session.
+  What success looks like
+  Stakeholders agree on the workflow, ownership boundaries, data sources, and acceptance criteria before implementation begins.
+  The delivered workflow retrieves and presents the correct partner and deal context for the approved use case.
+  Data access follows documented sharing and permission rules.
+  Ambiguous matches, missing information, unauthorized requests, and dependency failures produce safe, understandable outcomes.
+  Human review is preserved wherever the business has not approved autonomous action.
+  The workflow is tested, observable, documented, and maintainable by the internal team.
+  The first project creates reusable patterns for the remaining sequential projects.
+  c
+
+--- WINDOW  2026/07/29 03:28:58  [chrome.exe] Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/29 03:29:06  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 03:29:37  [chrome.exe] Remote CRM debugging and process validation - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 03:29:37  [chrome.exe] Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 03:29:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 03:29:44  [chrome.exe] Freelancer dashboard - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 03:52:00  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
