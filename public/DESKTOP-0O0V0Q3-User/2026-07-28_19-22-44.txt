@@ -1,0 +1,282 @@
+﻿  c
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Yes, I've worked on similar systems, although not this exact use case.
+  
+  I've built applications that aggregate data from multiple sources, normalize different data formats into a common model, compare them in real time, and trigger alerts based on configurable rules. The overall engineering pattern is very similar.
+  
+  For this project, I see the main challenges as:
+  
+  Collecting reliable odds from multiple sources.
+  Matching equivalent events across different platforms.
+  Converting all pricing into comparable implied probabilities.
+  Detecting meaningful discrepancies while filtering out noise.
+  Delivering alerts with low latency.
+  
+  Starting with soccer is a good choice because it will let us validate the matching logic across many leagues. Once the architecture is solid, adding additional sports will mainly involve adding new market mappings rather than redesigning the system.
+  
+  I think we can build this iteratively and refine it based on the opportunities you discover during testing.
+  yes. actuall[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk] i've worked on similar systems, but actually not this ed[Bk][Bk]xact use case.[ENTER]
+  but building [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]however, i [Bk]'ve built applications that aggregate data from multiple sources, normalize different data formats in to[Bk][Bk][Bk]to a common model and compare themin [Bk][Bk][Bk] in real time[ENTER]
+  also trigger alerts based on configurable rules. so i think th eover[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]the engineering pattern is very similar[ENTER]
+  [LMB]
+  and for this project, i[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]for this project, i see the main challenges as
+  [Clipboard]
+  I wanted to start with soccer but include a lot of different leagues (top European leagues, North American League’s, south anerican leagues and Asian leagues) as for the 5 sportsbooks I want to include I still need to think that through. All of them will have different odds providers though to avoid redundancy. Have you ever done anything like this before ?
+  [ENTER]
+  1. collectingeib somultipl es[Bk][Bk][Bk]e sources.[ENTER]
+  2. matching events[Bk][Bk][Bk][Bk][Bk][Bk]equivalent events across different platforms[Bk][Bk][Bk]rns[ENTER]
+  3. also converting all pricing into comparable implied probabilites[ENTER]
+  4. deteci[Bk]ting meaning[Bk]gful discrepancies while filtering out th[Bk][Bk]noise.[Bk][ENTER]
+  5.alert system[ENTER]
+  and i think startin with sco[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]g with soccer is a good choice[ENTER]
+
+--- WINDOW  2026/07/28 18:28:39  [chrome.exe] (1) Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 18:28:44  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 18:29:34  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 18:30:20  [chrome.exe] (1) Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  You wouldn’t need to convert everything into implied probabilities. I can do that in my head quickly. Kalshi and polymarket, with enough liquidity are the closest thing to the fair price (with 1 or 2 cents of fees) so if I just receive an alert that shows me that a given sportsbook varies from kalshi on the price of a given outcome by roughly 3 % or more I can then go onto said sportsbook and determine myself whether the wager is worth taking or not
+  c
+
+--- WINDOW  2026/07/28 18:30:31  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  i see[ENTER]
+  [LMB]
+  wegwgwgewegegegwgewgewgewgewgwgegwgeg
+  [LMB]
+  e[Bk][Bk][Bk][Bk]fe[Bk][Bk][Bk]fefefe[Bk][Bk][Ctrl]a[Bk]f[Bk]f[Bk]wotj [Bk][Bk][Bk][Bk]ith enough liquidity are the[Ctrl]a[Bk]if kalshi and polymarket
+  [Clipboard]
+  If Kalshi/Polymarket is your reference price, then the scanner doesn't need to determine whether the bet is +EV—it just needs to detect when a sportsbook's price deviates from your reference by your threshold.
+  fefeefefefefefefefefefefefefeefefee
+  [Clipboard]
+  If Kalshi/Polymarket is your reference price, then the scanner doesn't need to determine
+  [LMB]
+  [Ctrl]av
+  [LMB]
+  [Bk] adn [Del]p
+
+--- WINDOW  2026/07/28 18:34:09  [chrome.exe] (1) Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/28 18:34:11  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  As for the sportsbooks I do have some now that I know use different odds providers though other than 1 of them I don’t think they’ll give an API
+  c[Ctrl]a[Bk]tha[Bk]'[Bk]at's completely fine.[ENTER]
+  a[Bk]as i said before, official api isn't a requirement.[ENTER]
+  we'll evaluate each sportsbook individually and choos [Bk]e the most reliable integration method.[ENTER]
+  if a sportsbook doesn't provide an api, well, we can use browser automation or scrapting, [Bk][Bk][Bk][Bk][Bk]ing [Bk], [Bk][Bk][ENTER]
+
+--- WINDOW  2026/07/28 18:41:17  [chrome.exe] (1) Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 18:41:43  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Equipment technician
+  
+  [Clipboard]
+  as a programmer, i found a great website. however, only US. citizens can join. that is why I’m asking you to join me. If you sign up using your information, I will give you 20% of the earnings I make there. It will be paid weekly. that is not a small amount of money. you can earn money effortlessly. all you need is a computer and to sign up using your information. how about that?
+  [LMB]
+
+--- WINDOW  2026/07/28 19:10:34  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 19:10:42  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 19:10:43  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 19:10:47  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 19:10:48  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 19:10:49  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 19:11:27  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 19:11:28  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 19:12:18  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 19:12:18  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  425633
+  [LMB]
+  [Clipboard]
+  023204
+  [Clipboard]
+  425633
+  [Clipboard]
+  codingmaster316@gmail.com
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 19:17:03  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 19:17:04  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  @frost_invokoder
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 19:19:18  [chrome.exe] Senior WordPress API Developer Required – Stripe & RTO Data Cloud | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  We are an Australian Registered Training Organisation (RTO) using RTO Data Cloud as our Student Management System.
+  
+  We have an existing custom WordPress booking system and are looking for an experienced WordPress/PHP developer to complete the final API integration.
+  
+  Project Overview
+  
+  Our current booking system is already operational. Students can:
+  
+  Select their course, location and training date.
+  Complete an online enrolment form.
+  Be redirected to Stripe for payment.
+  
+  We now want to improve this workflow by embedding Stripe payment directly into the enrolment process and integrating it with RTO Data Cloud.
+  
+  Required Workflow
+  Student selects a course, location and training date.
+  Student completes the enrolment form.
+  Student enters payment details securely within the enrolment form using Stripe.
+  Payment is successfully processed.
+  The enrolment is created in RTO Data Cloud.
+  Payment is automatically recorded in RTO Data Cloud.
+  The student automatically receives access to their online learning and confirmation email.
+  Deliverables
+  Integrate Stripe API (not Stripe Payment Links) into the existing WordPress enrolment form.
+  Integrate with the RTO Data Cloud API.
+  Automatically record successful payments in RTO Data Cloud.
+  Preserve the existing booking system where practical.
+  Complete testing in a staging environment before deployment.
+  Provide documentation for the completed integration.
+  Required Experience
+  
+  Applicants should have demonstrated experience with:
+  
+  WordPress custom development
+  PHP
+  REST API integrations
+  Stripe API
+  Payment gateway integrations
+  
+  Experience with RTO Data Cloud API is highly desirable. Please include examples of similar projects where possible.
+  ccc
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 19:19:32  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 19:19:32  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 19:19:32  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 19:19:36  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 19:19:36  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Hi @Felicity 
+  Now my status not good.
+  So i will come back after one week or more than time
+  as you know i have to fouce in the work.
+  Let's work, and also meet wheen 8.15.
+  have any success.
+  during that time no message each other.
+  anyway i think you are my real younger sister.
+  let's work.
+  if need my help or ask something send message
+  agree my suggestion?
+  don't worry about me and anyway i alive in your around.
+  if agree please send me yes and send me the smile imoji
+  no tongue imoji
+  [Clipboard]
+  codingmaster316@gmail.com
+  [Clipboard]
+  Hi @Felicity 
+  Now my status not good.
+  So i will come back after one week or more than time
+  as you know i have to fouce in the work.
+  Let's work, and also meet wheen 8.15.
+  have any success.
+  during that time no message each other.
+  anyway i think you are my real younger sister.
+  let's work.
+  if need my help or ask something send message
+  agree my suggestion?
+  don't worry about me and anyway i alive in your around.
+  if agree please send me yes and send me the smile imoji
+  no tongue imoji
+  @Felicity
+  [Clipboard]
+  Hi @Felicity 
+  Now my status not good.
+  So i will come back after one week or more than time
+  as you know i have to fouce in the work.
+  Let's work, and also meet wheen 8.15.
+  have any success.
+  during that time no message each other.
+  anyway i think you are my real younger sister.
+  let's work.
+  if need my help or ask something send message
+  agree my suggestion?
+  don't worry about me and anyway i alive in your around.
+  if agree please send me yes and send me the smile imoji
+  no tongue imoji
+  @Felicity
+  [LMB]
