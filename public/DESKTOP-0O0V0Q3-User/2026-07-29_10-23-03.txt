@@ -1,0 +1,972 @@
+﻿  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:23:26  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:23:26  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:23:26  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:23:46  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:23:46  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:23:47  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:24:52  [chrome.exe] Decouple Drink Machine from AWS | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  he drink machine’s firmware currently calls several AWS services for authentication, state sync, and recipe retrieval. I need all of that stripped out so the unit boots, dispenses, and shuts down without ever touching the cloud.
+  
+  Scope
+  • Remove every AWS SDK reference, credential, and endpoint from the codebase.
+  • Replace cloud calls with an on-device store (simple JSON/SQLite is fine) that holds the recipes and any configuration data.
+  • Retain the core purpose: the machine must still make drinks—specifically cocktails—exactly as it does now.
+  • Ensure the standalone build launches automatically on power-up and recovers gracefully after a reboot or network loss.
+  • Document the new local setup so I can flash future machines without needing an AWS account.
+  
+  Deliverables
+  1. Updated source code that compiles and runs offline.
+  2. A brief README covering build steps, dependencies, and how to add new cocktail recipes.
+  3. A test video or log proving the machine pours at least one cocktail with no Internet connection.
+  
+  I will provide current source, hardware specs, and sample cocktail data once we start.
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:25:29  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:25:31  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:27:07  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:27:08  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:27:08  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 09:27:15  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:27:16  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:27:16  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:29:15  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:29:15  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:29:15  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:30:24  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:30:24  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:32:08  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:32:09  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:32:09  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:32:19  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:33:40  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:33:45  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:33:46  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:33:46  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:36:26  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:36:27  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:36:27  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 09:36:41  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:36:42  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:37:27  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:37:28  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:37:28  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:38:20  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:38:32  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:38:33  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:38:33  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:38:34  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:42:01  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:42:02  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:42:32  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:42:32  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:42:33  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 09:47:24  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:47:25  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:47:25  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:47:37  [chrome.exe] Go Cerner FHIR Integration | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Project Details
+  $15.00 – 25.00 USD per hour
+  
+   Bidding ends in 6 days, 23 hours
+  I need a concise Go implementation that proves out a complete Cerner Millennium FHIR “system-to-system” workflow, using the secure sandbox.
+  
+  The work breaks into two clear functions written in idiomatic Go:
+  
+  • Authenticate(): build the signed JWT, exchange it against Cerner’s OAuth2 endpoint, and return the bearer access token.
+  • GetPatient(token, patientID): call /Patient/{id} with that token and return the raw JSON payload (full resource).
+  
+  The code must run against your own sandbox account first, then be handed over so I can drop in my client_id / private key and see the very same calls succeed. Please keep dependencies light (net/http, or a mature wrapper such as go-request/resty), isolate credentials in a ‑env or config file, and add a brief README describing setup, env vars, and how to execute a one-line test.
+  
+  Acceptance criteria
+  – Successful token response from Cerner’s secure sandbox via JWT system-to-system flow
+  – HTTP 200 patient record returned when I supply my token and a valid patient id
+  – Clear error handling for token expiry, bad id, or auth failure
+  – Clean, well-commented Go code plus a minimal README and Go test that demonstrates both calls
+  
+  When you reply, let me know any prior healthcare or FHIR integrations you have delivered and the languages you are most comfortable with besides Go.
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi, Canada-based developer here. I'm available for a short video call if you'd like to walk through sandbox details.
+  
+  I read this as two focused pieces: constructing and signing the JWT for Cerner's system-to-system OAuth2 flow, then using the returned bearer token to fetch a full Patient resource. The hard part is correct JWT claims, signing format, and robust error handling around token expiry and Cerner-specific error responses — not the HTTP plumbing.
+  
+  I’ll deliver:
+  - Authenticate() that builds/signs the JWT and exchanges it for a token (OAuth2 JWT Bearer).
+  - GetPatient(token, patientID) returning raw JSON with clear 4xx/5xx handling.
+  - Minimal deps (net/http or resty), env-based config, a short README, and a Go test that runs both calls against a sandbox account.
+  
+  I've implemented FHIR and Cerner sandbox integrations before (server-to-server JWT flow) and I work in Go, plus Python and Node.js for integrations.
+  
+  A couple quick questions:
+  1) Will you provide client_id/private key, or should I create and test against my sandbox first?
+  2) Any preference between net/http and resty for this repo?
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  25
+  [LMB]
+  30
+  [LMB]
+  [Del]5
+  [LMB]
+  [LMB]
+  [ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/api-developmet/Cerner-FHIR-Integration/details
+  c
+
+--- WINDOW  2026/07/29 09:49:42  [chrome.exe] (1) Go Cerner FHIR Integration | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Go Cerner FHIR Integration
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  
+  United States
+  c[Tab]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $25.00 USD
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 09:50:08  [chrome.exe] Go Cerner FHIR Integration | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:50:13  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:50:14  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:50:31  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:50:59  [chrome.exe] Biometric Hotel Check-In App | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:51:10  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 09:51:12  [chrome.exe] Biometric Hotel Check-In App | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:51:21  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:52:15  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:52:16  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:52:26  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:52:27  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:52:27  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:55:16  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:55:17  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:55:48  [chrome.exe] Wix Trucking Website Build | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I will grant you full editor access to my existing Wix account so you can craft a clean, professional trucking website whose primary goal is to encourage visitors to request a quote. The home page should welcome potential shippers with a bold image, concise copy, and a prominent “Call Now for a Quote” button that dials our office from mobile devices. I will supply the logo and let you know the colour scheme I want and also the site needs a French version but I can translate the test myself when the time comes. Once the base of it is set I will let you know what I need to set in wording for each section I need this small site to be done within a working week when all info needed is finalized
+  
+  The site needs three core sections—Services Offered, About Us, and Contact Us—each with engaging text and visuals that fit the brand style already in my account. Within Contact Us, please embed an online quote-request form that collects basic shipment details and routes the submission to my email. I would also like a small carousel or grid for customer testimonials to build trust.
+  
+  Because many visitors will browse on phones, every element must be fully responsive; the sticky call button and form fields should remain easy to tap on smaller screens. Keep the navigation simple, use Wix’s built-in SEO tools for page titles and descriptions, and ensure load times stay fast.
+  
+  Deliverables I’ll review for approval:
+  • Complete Wix site with the pages and features above, published to my domain
+  • Mobile and desktop views tested for layout, buttons, and form functionality
+  • Basic on-page SEO set up (titles, meta descriptions, alt text)
+  • A quick hand-off note explaining any custom settings or apps you added
+  
+  Once the site is live and everything works smoothly, I’ll sign off right away. Let me know your estimated timeline and any clarification you need before starting.
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:56:18  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:56:18  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:56:18  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 09:56:20  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 09:56:23  [chrome.exe] Suite Booking Laravel Postgres | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Keep Silent !
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:57:27  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:57:28  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 09:57:39  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:57:40  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:57:40  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:00:12  [chrome.exe] Fortune POS - Retail Management Software | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl]
+  [Clipboard]
+  I am looking to develop **Fortune POS**, a modern Point of Sale (POS) system for small and medium-sized businesses. The goal is to create a reliable, fast, secure, and easy-to-use retail management system that can be deployed in real businesses while remaining scalable for future enhancements.
+  
+  The application **must be a genuine Windows desktop application (.exe)**, not a browser-based web application. It must run completely offline using a local database, with optional cloud synchronization when internet is available.
+  
+  The MVP should include product management, inventory management, barcode scanning, sales processing, purchase orders, stock receiving, stock adjustments, supplier management, customer management, discounts, returns, receipt printing, user roles (Admin & Worker), dashboards, and detailed sales and inventory reports. The interface should be modern, intuitive, and require minimal staff training.
+  
+  The software should support common retail hardware such as barcode scanners, receipt printers, cash drawers, and weighing scales where applicable.
+  
+  The architecture is extremely important. The system should be modular, maintainable, and designed for future expansion without major redesign. Future versions will include accounting, analytics, AI features, cloud services, third-party integrations, and secure REST APIs for products, inventory, customers, suppliers, purchases, and sales.
+  
+  I require clean, well-documented code following good software engineering practices. Upon completion, I require full ownership of the project, including the complete source code, database scripts, API documentation, architecture documentation, installation instructions, and all intellectual property. The software should be production-ready and suitable for deployment in live retail environments.
+  cc
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:01:45  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:01:46  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:02:19  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Tab]`
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I’m sorry! Scratch push notifications, as we don’t have them through base 44 yet.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 10:04:10  [chrome.exe] Christina R. Profile | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:04:14  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Scratch 
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:07:37  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:07:40  [chrome.exe] Steel Plant PCS7 Engineering -- 2 | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  A Siemens PCS 7 system in my steel plant needs a complete round of engineering work. The scope spans fresh system configuration, PLC-level programming with STEP 7, WinCC HMI updates, thorough debugging of existing blocks, and routine maintenance or upgrade activities that keep the installation stable for the long haul.
+  
+  Current set-up uses S7-400 hardware and PCS 7 V9.0. I will supply the present project archive, network drawings, and a brief list of pain points. You will connect remotely at first, diagnose the code and configuration, implement the required changes, then stay online during plant trials until everything runs without faults.
+  
+  Deliverables
+  • Revised PCS 7 project file (including CFC/SFC charts, hardware config, WinCC graphics)
+  • Change log and commented source so future engineers can follow the logic
+  • Short commissioning checklist confirming alarms, interlocks, and recipes were tested successfully
+  
+  If you are comfortable working with large I/O counts, redundant servers, and the typical challenges of a continuous-process steel mill, this should be straightforward. Remote VPN access and direct contact with our on-site electrician are ready as soon as we agree on milestones.
+  c
+  [Clipboard]
+  Hi, Canada based developer here. 
+  
+  I can start with a remote diagnostic session and a short video call to walk through your PCS 7 V9.0 project and the main pain points.
+  
+  From your description the core challenges are: understanding existing CFC/SFC logic, ensuring STEP 7 PLC code matches process intent, and validating WinCC graphics/alarms on a high-I/O, redundant S7-400 installation during live trials. I’ve done similar work on continuous-process plants—reviewing archived projects, fixing race conditions in SFC logic, and tightening alarm/interlock coverage before commissioning.
+  
+  Practical note: I’ll need VPN access and an on-site electrician during commissioning (you already mentioned those). 
+  
+  A couple of quick questions:
+  1. Any custom libraries or non-standard function blocks in the archive?
+  2. Are the redundant servers currently synchronized and available for testing?
+  
+  Available for a video call to go over the archive and next steps.
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  10
+  [LMB]
+  [LMB]
+  [<-][ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/automation/Steel-Plant-PCS-Engineering/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Steel Plant PCS7 Engineering -- 2
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  United Arab Emirates
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  10000
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  10
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/automation/Steel-Plant-PCS-Engineering/details
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $10,000.00 USD
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:10:31  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:10:32  [chrome.exe] Steel Plant PCS7 Engineering -- 2 | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:10:37  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:10:38  [chrome.exe] Steel Plant PCS7 Engineering -- 2 | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:10:51  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:10:51  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:11:00  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:11:01  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:11:45  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:12:09  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:12:09  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:12:09  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:12:11  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:12:24  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:12:32  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:12:39  [chrome.exe] Steel Plant PCS7 Engineering -- 2 | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:12:57  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:12:59  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:13:00  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:13:06  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:13:15  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:13:16  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:13:41  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:13:41  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:13:42  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:14:44  [chrome.exe] ESP32 Vero-Board Security System | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  I already have an ESP32 module and a vero board set aside; now I need the complete electronics and firmware design that turns them into a compact surveillance unit. The core idea is simple: an ultrasonic sensor patrols the scene, and the moment it senses unexpected presence the ESP32 pushes an alert notification over Wi-Fi. No live streaming or continuous recording is required—just reliable detection and instant messaging that I can route to email, a mobile push service, or similar.
+  
+  Here is what I need from you:
+  
+  • Schematic and vero-board layout showing component placement, track cuts, and wire links so I can solder everything myself.
+  • Clean, well-commented ESP32 code (Arduino framework or ESP-IDF) that reads the ultrasonic sensor, filters false triggers, and sends alerts (MQTT, HTTP, or another lightweight protocol—whichever you prefer as long as it is clearly documented).
+  • A short setup guide covering component list, wiring checks, and the steps for flashing and configuring the firmware on a fresh ESP32.
+  
+  Optionally, feel free to suggest PIR or infrared sensors as future add-ons, but please centre this first version on the ultrasonic solution. Accuracy, low power use, and clear documentation are the key acceptance criteria.
+  c
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  Sounds like the core challenge is reliable presence detection with low false positives and minimal power draw, then delivering a compact, solder-ready vero layout and straightforward alerting (MQTT/HTTP). I’ve built small ESP32 alarm nodes that used an HC-SR04-style ultrasonic front end, debounce/filtering, and lightweight MQTT alerts to push notifications to mobile/email.
+  
+  What I’ll deliver: a schematic + vero layout with track cuts and wire links, clean Arduino (or ESP-IDF) firmware with debounce/median filtering and MQTT/HTTP alert examples, and a concise setup guide for parts, wiring checks, flashing, and configuration.
+  
+  A couple of quick questions:
+  1. Do you already have a preferred notification endpoint (MQTT broker or HTTP webhook)?
+  2. Will the unit be battery-powered or mains-fed (for power-budget decisions)?
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  250
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]5[Bk]4
+  [LMB]
+  [LMB]
+  800
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/firmware-development/ESP-Vero-Board-Security-System/details
+  cc
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  ESP32 Vero-Board Security System
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  United Kingdom
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  £800.00 GBP
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:17:04  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:17:05  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:17:11  [chrome.exe] Interactive SharePoint/M365 Coaching | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:17:14  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:17:14  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:17:32  [chrome.exe] Clean Shopify Service Site Setup | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I run a service-based business and need a polished Shopify site that looks as clean and effortless as the experience I want my clients to feel. You and I will work side-by-side: I’ll share several inspiration sites that capture the aesthetic, flow, and minimal palette I’m after, and I’ll rely on your Shopify expertise to translate that vision into a fully functioning store.
+  
+  Key points to keep in mind
+  • The “products” are pieces of jewelry.
+  • Mobile-first polish is essential—most of my leads come in on phones.
+  • I’ll provide copy, brand colours, photos, and the reference sites; you handle theme selection or custom theme tweaks, layout, fonts, and any quick Liquid adjustments required.
+  
+  Deliverables
+  1. Shopify theme configured and styled to match the approved look.
+  3. Basic SEO settings, navigation, and legal pages.
+  4. A quick walkthrough so I can update products, text, and images myself.
+  
+  If you have recent examples of service-oriented Shopify builds or creative ways you’ve implemented quote requests, that will help me pick the right partner. Let’s get started and launch something beautiful.
+  c
+  [Clipboard]
+  Hi, Canada-based developer here.
+  
+  It sounds like the core need is a clean, mobile-first Shopify storefront that reflects a minimal, service-oriented aesthetic and makes it effortless for clients to browse jewellery and request quotes. The main challenges will be picking a theme that supports your visual direction and polishing responsive layout, typography, and a simple quote/request flow using small Liquid tweaks.
+  
+  I recently built a Shopify shop for an artisan service brand where I matched an inspiration site, configured a quote request form tied to product pages, and delivered a short walkthrough so the owner could manage products and images. I’ll handle theme selection/custom styling, basic SEO and legal pages, responsive testing, and a 30–45 minute screen-share handoff.
+  
+  A couple quick questions:
+  1. Do you already have a Shopify account and chosen theme, or do you want me to recommend one?
+  2. Will quote requests be email-only, or do you want them saved in Shopify/connected to a third-party form provider?
+  
+  Thanks,  
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  75
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/shopify-development/Clean-Shopify-Service-Site-Setup/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Clean Shopify Service Site Setup
+  
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  United States
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $750.00 USD
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:19:30  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:19:31  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:19:32  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:19:33  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:19:34  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:19:50  [chrome.exe] ESP32 Vero-Board Security System | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Hi, Canada-based developer here.
+  
+  Sounds like the core challenge is reliable presence detection with low false positives and minimal power draw, then delivering a compact, solder-ready vero layout and straightforward alerting (MQTT/HTTP). I’ve built small ESP32 alarm nodes that used an HC-SR04-style ultrasonic front end, debounce/filtering, and lightweight MQTT alerts to push notifications to mobile/email.
+  
+  What I’ll deliver: a schematic + vero layout with track cuts and wire links, clean Arduino (or ESP-IDF) firmware with debounce/median filtering and MQTT/HTTP alert examples, and a concise setup guide for parts, wiring checks, flashing, and configuration.
+  
+  A couple of quick questions:
+  1. Do you already have a preferred notification endpoint (MQTT broker or HTTP webhook)?
+  2. Will the unit be battery-powered or mains-fed (for power-budget decisions)?
+  
+  Thanks,
+  Paul
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 10:20:32  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:20:35  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:20:35  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:20:40  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:20:50  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:20:51  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:20:51  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:23:01  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:23:01  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:23:01  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
