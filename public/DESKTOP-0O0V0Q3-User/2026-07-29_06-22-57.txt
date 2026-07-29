@@ -1,0 +1,646 @@
+﻿  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:24:02  [chrome.exe] Social Campaign Analytics Web App | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:24:14  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:25:01  [chrome.exe] Recover Hacked TikTok Account | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:25:05  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:26:11  [chrome.exe] Build AI Chat PDF Generator | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 05:26:15  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 05:26:20  [chrome.exe] Build AI Chat PDF Generator | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:26:26  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:27:19  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 05:27:22  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:27:23  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:27:31  [chrome.exe] B2B EdTech Cold Calling | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  I need an experienced outbound caller to sell our B2B EdTech tool to companies across the European Union. Your mission is straightforward: pick up the phone, connect with the right decision-makers, and convert interest into confirmed subscription purchases.
+  
+  Key objectives
+  • Present the value of our digital, subscription-based learning platform clearly and confidently.
+  • Navigate objections and move prospects to a yes or, at minimum, a follow-up demo with our sales team.
+  • Keep accurate call notes and update our CRM after every interaction so we can track pipeline progress.
+  - accept opt out
+  - language: where is cold calling with opt out allowed. ireland eg. english
+  
+  
+  What I will provide
+  • A target list of EU companies and direct phone numbers.
+  • Product training, pitch deck, and common FAQs.
+  • CRM access for logging calls and outcomes.
+  
+  What I expect from you
+  • Fluency in English; additional EU languages are a bonus.
+  • Proven cold-calling success in B2B tech or SaaS.
+  • Daily call volume targets met consistently and transparently reported.
+  • Clear metrics: number of dials, live conversations, demos booked, and closed subscriptions.
+  
+  If you are comfortable selling digital products over the phone and can demonstrate past results, let’s talk and start converting prospects into customers.
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:27:51  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 05:27:56  [chrome.exe] Scrape 1,000 UK Company Details | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I need a reliable scraper built (Python, Scrapy / BeautifulSoup or similar) to pull data for roughly 1,000 UK companies directly from the publicly available Companies House register. For every company I want four fields captured:
+  
+  1. Company name
+  2. Registered address
+  3. Full director name(s)
+  4. (Optional extra columns for multiple directors per company are fine)
+  
+  Please deliver the finished dataset as a clean, UTF-8 encoded CSV file with consistent column headers. A quick sample of 10 records up front will let me confirm the structure before you run the full job.
+  
+  Acceptance criteria
+  • 1,000 distinct companies returned (no duplicates)
+  • All mandatory fields populated; blanks only where the source truly has no data
+  • CSV opens without formatting errors in Excel/Google Sheets
+  • Script or notebook supplied so I can re-run it later (well-commented, with any required libraries listed in a README)
+  
+  Let me know your timeframe and any rate limits or captchas you anticipate so we can plan around them.
+  cc
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  i, Canada-based developer here.
+  
+  You need clean, de-duplicated company records from Companies House - the core challenge is reliably extracting director names (multiple entries) and avoiding rate limits/captchas while keeping the CSV Excel-friendly. I’d use a lightweight Scrapy or requests/BeautifulSoup script, output UTF-8 CSV with consistent headers and an optional directors_* column format for multiple directors.
+  
+  I’ve done similar scrapes of public registries where the tricky parts were pagination, intermittent missing address fields, and name formatting for directors. I’ll deliver a 10-row sample first, then the full 1,000 rows plus a well-commented script and README so you can rerun it.
+  
+  A couple of quick questions:
+  1. Do you have a list of company numbers/URLs, or should I discover companies by search/filters on Companies House?
+  2. Any preference for a single CSV row with a directors pipe-separated field vs extra columns per director?
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  3
+  [LMB]
+  [LMB]
+  [Home]h
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/scrapy/Scrape-Company-Details/details
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Scrape 1,000 UK Company Details
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  United Kingdom
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  £500.00 GBP
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:29:36  [chrome.exe] B2B EdTech Cold Calling | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 05:29:39  [chrome.exe] Scrape 1,000 UK Company Details | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Hi, Canada-based developer here.
+  
+  You need clean, de-duplicated company records from Companies House - the core challenge is reliably extracting director names (multiple entries) and avoiding rate limits/captchas while keeping the CSV Excel-friendly. I’d use a lightweight Scrapy or requests/BeautifulSoup script, output UTF-8 CSV with consistent headers and an optional directors_* column format for multiple directors.
+  
+  I’ve done similar scrapes of public registries where the tricky parts were pagination, intermittent missing address fields, and name formatting for directors. I’ll deliver a 10-row sample first, then the full 1,000 rows plus a well-commented script and README so you can rerun it.
+  
+  A couple of quick questions:
+  1. Do you have a list of company numbers/URLs, or should I discover companies by search/filters on Companies House?
+  2. Any preference for a single CSV row with a directors pipe-separated field vs extra columns per director?
+  
+  Thanks,
+  Paul
+  c
+  [Clipboard]
+  intermittent 
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:30:32  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:30:33  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  MateoHype
+  [LMB]
+
+--- WINDOW  2026/07/29 05:32:12  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:32:13  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:32:14  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:33:26  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:33:26  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:33:26  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:34:14  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:34:14  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:36:34  [chrome.exe] Shopify Profit-Share Partner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  I'm starting a new e-commerce project on Shopify. Unlike traditional fixed-rate jobs, I'm looking for a talented technical partner who wants to get on board as a co-founder or operating partner.
+  
+  What I put in: Initial economic capital for traffic and advertising (already allocated budget), as well as strategic business vision.
+  
+  What I look for in you: Advanced skills in managing, optimizing and converting Shopify stores, graphics and technical platform management.
+  
+  The formula: Instead of an hourly or benefit payment, I offer a stable percentage of the net profits generated by the store (or company shares to be defined according to the agreements).
+  
+  Note: I'm looking for people who are really interested in long-term collaboration and risking/growing together on the project, not just performers of paid tasks.
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:37:20  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:37:21  [chrome.exe] Shopify Profit-Share Partner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:37:33  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:37:36  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  snorkel
+  [LMB]
+
+--- WINDOW  2026/07/29 05:40:45  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:40:46  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:40:47  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:40:48  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  yuh its pretty easy there. i have one 45+ US citizen too
+  
+  [LMB]
+  [LMB]
+  [Clipboard]
+  https://www.upwork.com/freelancers/~0175752d8299d65adb?companyReference=2077915220974109703&mp_source=share
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:52:16  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:52:17  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:53:12  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:53:13  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:53:13  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 05:53:55  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:53:56  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:53:56  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 05:54:03  [chrome.exe] UAE Construction Energy Data Analysis | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:55:57  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:55:58  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  I am sure you can recommend the perfect collaborator.
+  But your commission is actually pulling teeth to me
+  [LMB]
+
+--- WINDOW  2026/07/29 05:57:35  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:57:36  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:57:36  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Don't faint.
+  [LMB]
+
+--- WINDOW  2026/07/29 05:59:04  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:59:04  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 05:59:04  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 05:59:27  [chrome.exe] Building UK's Premier Massage Therapist Platform | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Co-Founder Mindset Freelancer Needed: Build the UK's Next Platform for Independent Massage Therapists
+  About the Project
+  I'm looking for an experienced full-stack developer (or a small development team) who wants to build more than just another online marketplace.
+  This project is deeply personal to me.
+  My vision is to build something better.
+  I want to create the UK's most trusted platform for independent massage therapists, a platform that helps therapists build sustainable businesses while helping clients find skilled, professional, verified therapists they can confidently return to again and again.
+  London will be our launch market before expanding to other UK cities.
+  What We Are Building
+  This is not simply a directory.
+  It is a subscription-based business platform where therapists can:
+  Create professional profiles
+  Receive enquiries and bookings
+  Manage availability
+  Build long-term relationships with repeat clients
+  Collect verified reviews
+  Grow independent businesses as professionals
+  Clients will be able to:
+  Search nearby therapists
+  Filter by treatment type
+  Book appointments easily
+  Read verified reviews
+  Rebook favourite therapists
+  Find trusted professionals quickly
+  The long-term vision is to become the "Shopify + Airbnb" for independent massage therapists.
+  Initial MVP Features
+  Therapist Dashboard
+  Secure registration
+  Monthly subscription management
+  Professional profile
+  Qualifications
+  Insurance information
+  Portfolio/gallery
+  Prices
+  Mobile or clinic services
+  Travel radius
+  Treatment types
+  Calendar availability
+  Analytics dashboard
+  Client Experience
+  Location search
+  Search by postcode
+  Treatment filters
+  Verified therapist badges
+  Reviews
+  Online booking
+  Favourite therapists
+  Rebooking
+  Secure messaging
+  Admin Dashboard
+  Therapist verification
+  Subscription management
+  User management
+  Reports
+  Content moderation
+  Review management
+  Future Features
+  The chosen freelancer should be excited to help shape future releases, including:
+  Mobile apps
+  Client memberships
+  Gift vouchers
+  Therapist education
+  Business resources
+  Marketing tools
+  Automated reminders
+  Client relationship management (CRM)
+  AI-assisted profile optimisation
+  Performance analytics
+  Referral programme
+  Loyalty rewards
+  Technical Expectations
+  Please recommend the best modern technology stack.
+  Possible examples include:
+  React / Next.js
+  Node.js
+  Laravel
+  PostgreSQL
+  Stripe subscriptions
+  Cloud hosting
+  Responsive mobile-first design
+  I'm open to recommendations if they improve scalability.
+  Who I'm Looking For
+  This project is ideal for someone who:
+  Thinks like a product builder, not just a programmer
+  Enjoys improving ideas
+  Challenges assumptions respectfully
+  Has experience building marketplaces or SaaS products
+  Understands subscription businesses
+  Values user experience
+  Communicates clearly
+  Can explain technical concepts in plain English
+  Wants to build something with long-term potential
+  If you've built booking systems, healthcare marketplaces, service marketplaces, or subscription platforms before, I'd love to see examples.
+  Deliverables
+  Product discovery workshop
+  Technical roadmap
+  UI/UX wireframes
+  Clickable prototype
+  MVP development
+  Testing
+  Deployment
+  Documentation
+  Ongoing support after launch
+  Please Include in Your Proposal
+  A short introduction about yourself
+  Similar projects you've completed
+  Technology you recommend
+  Estimated timeline
+  Estimated budget
+  Suggestions to improve the platform
+  Any concerns or risks you foresee
+  Your favourite feature idea for massage therapists
+  Important
+  I'm looking for someone who believes in building a platform that genuinely improves the lives of independent massage therapists while providing an exceptional experience to clients.
+  If you're excited about creating a product that could become the leading business platform for independent massage therapists in the UK, I'd love to hear from you.
+  
+  P.S. This project is the beginning of a long-term business. I'm looking for a developer who wants to build a lasting working relationship. If the MVP is successful, I intend to continue working with the same developer on future features, mobile apps, AI integrations, marketing tools, and expansion across the UK.
+  c
+  [Clipboard]
+  Hi, Canada based developer here. 
+  
+  I’m available for a short video call to walk through priorities.
+  
+  You’re not building a directory; the core challenges are reliable bookings + repeat business (subscriptions, verified profiles, rebooking) and a simple search/availability UX that clients trust. I’ve built booking + subscription platforms for wellness professionals where verification, calendar sync, and Stripe subscriptions were the critical pieces.
+  
+  My preferred stack for an MVP would be Next.js (frontend), Node/PostgreSQL backend, and Stripe for subscriptions — keeps things fast, testable, and easy to scale. I’d focus initial work on secure registration/verification, calendar/booking with timezone handling, and simple postcode search + filters.
+  
+  A couple of quick questions:
+  1. Do you expect therapists to sync external calendars (Google/Outlook) at MVP?
+  2. Any required verification process (manual docs, insurer APIs, or trust badges)?
+  
+  Favourite feature idea: simple “care plan” subscriptions that let clients book recurring sessions and therapists manage packages.
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  03
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  0
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/full-stack-development/Building-Premier-Massage-Therapist/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Building UK's Premier Massage Therapist Platform
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  United Kingdom
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  £5,000.00 GBP
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:02:14  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:02:15  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:03:53  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:03:54  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:04:05  [chrome.exe] Building UK's Premier Massage Therapist Platform | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:04:06  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:04:08  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:04:09  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 06:04:17  [chrome.exe] Building UK's Premier Massage Therapist Platform | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:04:26  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:04:27  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 06:06:43  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:06:44  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 06:06:44  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
