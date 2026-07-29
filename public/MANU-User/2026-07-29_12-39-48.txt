@@ -1,0 +1,3976 @@
+﻿  [Bk][Bk][Bk]disckpart[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:44:17  [explorer.exe] Ejecutar
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:44:20  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:44:22  [chrome.exe] como formateo un disco duro extraible que no me deja por el totalcomander ni por el particioner - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]c
+  [Clipboard]
+  diskpart
+
+--- WINDOW  2026/07/29 10:44:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:44:25  [cmd.exe] C:\WINDOWS\system32\cmd.exe
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/29 10:44:26  [cmd.exe] C:\WINDOWS\system32\cmd.exe - diskpart
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:44:26  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:44:28  [chrome.exe] como formateo un disco duro extraible que no me deja por el totalcomander ni por el particioner - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:44:28  [diskpart.exe] C:\WINDOWS\system32\diskpart.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:44:30  [chrome.exe] como formateo un disco duro extraible que no me deja por el totalcomander ni por el particioner - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  list disk
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:44:45  [Totalcmd.exe] Total Commander 2021  (x64)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:44:45  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:44:45  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:44:45  [cmd.exe] C:\WINDOWS\system32\cmd.exe - diskpart
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:44:47  [cmd.exe] Seleccionar C:\WINDOWS\system32\cmd.exe - diskpart
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/07/29 10:44:47  [cmd.exe] C:\WINDOWS\system32\cmd.exe - diskpart
+----------------------------------------------------------------------------
+  v[Ctrl]v[Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:44:49  [cmd.exe] Seleccionar C:\WINDOWS\system32\cmd.exe - diskpart
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/07/29 10:44:49  [cmd.exe] C:\WINDOWS\system32\cmd.exe - diskpart
+----------------------------------------------------------------------------
+  vl
+
+--- WINDOW  2026/07/29 10:44:52  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:44:52  [Totalcmd.exe] Total Commander 2021  (x64)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:44:53  [cmd.exe] C:\WINDOWS\system32\cmd.exe - diskpart
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:44:54  [cmd.exe] Seleccionar C:\WINDOWS\system32\cmd.exe - diskpart
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:44:55  [cmd.exe] C:\WINDOWS\system32\cmd.exe - diskpart
+----------------------------------------------------------------------------
+  li
+
+--- WINDOW  2026/07/29 10:44:57  [cmd.exe] Seleccionar C:\WINDOWS\system32\cmd.exe - diskpart
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:45:00  [chrome.exe] como formateo un disco duro extraible que no me deja por el totalcomander ni por el particioner - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:45:01  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:45:02  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:45:02  [diskpart.exe] C:\WINDOWS\system32\diskpart.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:45:09  [chrome.exe] como formateo un disco duro extraible que no me deja por el totalcomander ni por el particioner - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  select disk
+  c
+
+--- WINDOW  2026/07/29 10:45:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:45:28  [diskpart.exe] C:\WINDOWS\system32\diskpart.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:45:34  [chrome.exe] como formateo un disco duro extraible que no me deja por el totalcomander ni por el particioner - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  clean
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 10:45:40  [diskpart.exe] C:\WINDOWS\system32\diskpart.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:45:47  [chrome.exe] como formateo un disco duro extraible que no me deja por el totalcomander ni por el particioner - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  create partition primary
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 10:45:55  [diskpart.exe] C:\WINDOWS\system32\diskpart.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:45:56  [diskpart.exe] Seleccionar C:\WINDOWS\system32\diskpart.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:45:57  [diskpart.exe] C:\WINDOWS\system32\diskpart.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:45:59  [diskpart.exe] Seleccionar C:\WINDOWS\system32\diskpart.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:46:07  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:46:07  [chrome.exe] YouTube - (2) Lasso - Ojos Marrones (Video Oficial) Parte 1 - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:46:10  [chrome.exe] YouTube - (2) YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:46:15  [chrome.exe] YouTube - (2) Maids vs cariñosas en Japón 🇯🇵 #japon - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:46:37  [chrome.exe] YouTube - (2) YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:46:51  [chrome.exe] YouTube - (2) DANDADAN DANCE💃🏻 #dandadan #momoayase #momoayasecosplay #dance #dandadanedit #anime #cosplayer - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:47:08  [chrome.exe] YouTube - (2) YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:47:14  [chrome.exe] YouTube - (2) Boom Boom - MOMOLAND | Dance Ver. - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:47:31  [chrome.exe] YouTube - (2) PETER se lo LAVABA solo 😳 #marvel #spiderman - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:47:33  [diskpart.exe] Seleccionar C:\WINDOWS\system32\diskpart.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:47:37  [chrome.exe] YouTube - (2) PETER se lo LAVABA solo 😳 #marvel #spiderman - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:48:21  [chrome.exe] YouTube - (2) Este jugador se une a tus partidas y derrota al jefe más fuerte sin equipo #eldenring - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:48:26  [diskpart.exe] Seleccionar C:\WINDOWS\system32\diskpart.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:48:28  [chrome.exe] YouTube - (2) Este jugador se une a tus partidas y derrota al jefe más fuerte sin equipo #eldenring - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:49:11  [chrome.exe] YouTube - (2) Hebuiltamillion-dollarminiatureworld! - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:49:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:49:12  [diskpart.exe] Seleccionar C:\WINDOWS\system32\diskpart.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:49:13  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:49:15  [PartAssist.exe] Información
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:49:17  [PartAssist.exe] AOMEI Partition Assistant Edición Standard (español) - Particionar discos duros con seguridad
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:49:19  [chrome.exe] YouTube - (2) Hebuiltamillion-dollarminiatureworld! - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:50:18  [chrome.exe] YouTube - (2) El mejor jugador del mundo está en el video. - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:50:24  [chrome.exe] YouTube - (2) Robaron a la persona equivocada #peliculas #shorts #cine #series - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:51:37  [chrome.exe] YouTube - (2) ❤️TOM HIZO FELIZ AL CEO - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:52:10  [chrome.exe] YouTube - (2) EL AMIGO DE HOMERO TIENE UNA GRAN HISTORIA ESTO EN LOS SIMPSONS ｜ #shorts #simpsons #cartoon - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:53:02  [chrome.exe] YouTube - (2) 3 Cosas Bizarras de Japón que Nadie te Contó - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:53:27  [chrome.exe] YouTube - (2) Team 1 or Team 2? | Follow Me | Grrr Dance Trend #trending #viral - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:53:29  [chrome.exe] YouTube - (2) Yes.. this camouflage make perfect sense now - Meccha Chameleon - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:53:47  [chrome.exe] YouTube - (2) Pasa por obstáculos cada vez mas bajos # #comedia #dibujitos #funny - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:53:58  [chrome.exe] YouTube - (2) #illustration #tattoo #art #pov #procreate #drawing #whydidntmyexcomeback #digitalart - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:54:02  [chrome.exe] YouTube - (2) Desarrollar crash bandicoot 4, reliquia toy for Bob acción explosiva #viral #crash #gamer - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:54:33  [chrome.exe] YouTube - (2) el avión funcional está roto?? - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:54:36  [chrome.exe] YouTube - (2) Hermoso quédate quieto😅#humor confusión# - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:54:46  [chrome.exe] YouTube - (2) Bortus y Alara se enfrentan en un combate por el ring 😯 #shorts - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:55:37  [chrome.exe] YouTube - (2) jajaja nunca me deja de sorprender #humor #comedia #memes - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:55:50  [chrome.exe] YouTube - (2) My Gohan 😍😭 - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:55:53  [chrome.exe] YouTube - (2) Prueba del mod de la pistola de portales - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:55:57  [chrome.exe] YouTube - (2) Durante el rodaje de Red Notice (2021), Ryan Reynolds mostró su esencia Deadpool - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:55:58  [chrome.exe] como formateo un disco duro extraible que no me deja por el totalcomander ni por el particioner - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:56:02  [chrome.exe] Log In ‹ 597PerformanceLab — WordPress - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:56:16  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:04:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:04:35  [chrome.exe] YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:04:38  [chrome.exe] YouTube - (2) YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:04:42  [chrome.exe] YouTube - (2) Prueba del mod de la pistola de portales - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:04:45  [chrome.exe] YouTube - (2) ¿Sabes por qué Ryan Reynolds eligió el traje de Deadpool de mezclilla gris en la Comic-Con de - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:04:49  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:09:51  [chrome.exe] YouTube - (2) Alguien de 400 años en el futuro 😯 #shorts - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:09:56  [chrome.exe] YouTube - (2) ThisHouseIsMadefromSandbags—AndIt'sChangingtheWayWeBuild!#SustainableHousing#InnovativeBuilding - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:10:04  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:10:12  [chrome.exe] YouTube - (2) ThisHouseIsMadefromSandbags—AndIt'sChangingtheWayWeBuild!#SustainableHousing#InnovativeBuilding - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:10:21  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:10:22  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:10:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:10:22  [chrome.exe] YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:10:49  [chrome.exe] YouTube - (2) YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:11:25  [chrome.exe] YouTube - (2) Mashle or Dandadan? 💥 #dandadan #mashle #animeopening #creepynuts #animedance - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:11:43  [chrome.exe] YouTube - (2) YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:11:46  [chrome.exe] YouTube - (2) La Horrible situación de los Pobres en Warhammer 40k #warhammer40000 - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:11:48  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:12:06  [chrome.exe] YouTube - (2) La Horrible situación de los Pobres en Warhammer 40k #warhammer40000 - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:12:06  [chrome.exe] YouTube - (2) YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:12:09  [chrome.exe] YouTube - (2) 4 Razones para NO vivir en JAPÓN ❌🇯🇵 #Shorts #japon #datoscurisos - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:12:13  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:17:04  [chrome.exe] YouTube - (2) Los Simpson compraron un Jacuzzi 🫧 #shorts - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:17:38  [chrome.exe] YouTube - (2) hay cosas muy oscuras pero interesantes, quien se atreve?🤭 la appse llama TripBFF #backpacking - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:17:43  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:18:27  [chrome.exe] YouTube - (2) El último amor de este padre por su hija #peliculas #movie #shorts - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:18:36  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:18:37  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:19:01  [chrome.exe] YouTube - (2) El último amor de este padre por su hija #peliculas #movie #shorts - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:21:21  [chrome.exe] YouTube - (2) Millhouse se parece a su papá 😂 #shorts - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:21:23  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:25:20  [chrome.exe] YouTube - (2) Carvs NO recolectó todos los mobs - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:25:22  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:25:44  [SearchHost.exe] Buscar
+----------------------------------------------------------------------------
+  w
+  [LMB]
+
+--- WINDOW  2026/07/29 11:25:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:25:52  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:25:53  [chrome.exe] WhatsApp Web - WhatsApp Web
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:25:58  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:26:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:26:01  [chrome.exe] YouTube - (2) Carvs NO recolectó todos los mobs - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:26:47  [chrome.exe] YouTube - (2) Esto es robo a mano armada 😯 #shorts - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:26:51  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:26:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:26:52  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  okok[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:27:11  [chrome.exe] Historial de descargas recientes
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:27:11  [explorer.exe] Explorador de archivos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:27:12  [explorer.exe] DWONLOADS!! - Explorador de archivos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:27:17  [OpenWith.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:27:19  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:27:19  [explorer.exe] DWONLOADS!! - Explorador de archivos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:27:27  [OpenWith.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:27:31  [explorer.exe] DWONLOADS!! - Explorador de archivos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:27:31  [chrome.exe] Sin título - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:27:31  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:27:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:27:41  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  mandame uno de los que esta [Bk]n tradicidos [Bk][Bk][Bk][Bk][Bk][Bk][Bk]ucidos [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:28:07  [chrome.exe] YouTube - (2) Esto es robo a mano armada 😯 #shorts - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:28:20  [chrome.exe] YouTube - (2) Вот каким должен быть настоящий папа… 🥹 Забота, тепло и любовь в каждом моменте. Жаль, что не вс... - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:28:25  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:28:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:28:34  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  nada mas tengo 1 [ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:29:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:29:20  [chrome.exe] YouTube - (2) Вот каким должен быть настоящий папа… 🥹 Забота, тепло и любовь в каждом моменте. Жаль, что не вс... - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:29:24  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  jajaa[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:29:43  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:29:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:29:43  [chrome.exe] YouTube - (2) Вот каким должен быть настоящий папа… 🥹 Забота, тепло и любовь в каждом моменте. Жаль, что не вс... - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:29:44  [chrome.exe] YouTube - (2) Lo Pusieron En Una Universidad Y DURÓ DOS Días 💀 - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:29:47  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:32:08  [chrome.exe] YouTube - (2) 🍽️ ¡Por esto CUESTA tanto! - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:32:32  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+
+--- WINDOW  2026/07/29 11:32:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:32:41  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:32:41  [chrome.exe] ¿Quieres restaurar las páginas?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:32:43  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+  traductor[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:32:49  [chrome.exe] YouTube - (2) YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:32:53  [chrome.exe] traductor - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:33:00  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  gemin[ENTER]
+
+--- WINDOW  2026/07/29 11:33:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:06  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:33:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:19  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:23  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:33:25  [chrome.exe] Historial de descargas recientes
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:26  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:33:29  [chrome.exe] Historial de descargas recientes
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:33:30  [explorer.exe] DWONLOADS!! - Explorador de archivos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:33:32  [ShellHost.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:33  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:35  [chrome.exe] Sin título - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:35  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:38  [explorer.exe] DWONLOADS!! - Explorador de archivos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:33:43  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:43  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:45  [chrome.exe] Sin título - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:33:45  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:33:48  [explorer.exe] DWONLOADS!! - Explorador de archivos
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:33:49  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:33:58  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:14  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:18  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:34:19  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:20  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:26  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:34:37  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:37  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:45  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:48  [chrome.exe] Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:50  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  REC
+  Burgerlijke Stand (Stempel van het Ministerie van Justitie)
+  Republiek Cuba
+  Ministerie van Justitie
+  GEBOORTEAKTE
+  REGISTRATIE ZITPLAATS DATUM Burgerlijke stand van Matanzas
+  Opname
+  216
+  Folio
+  480
+   Dag Maand Jaar
+  5 8 1992
+  Gemeente: Matanzas
+  Provincie: Matanzas
+  Voornaam en achternaam: Yosbel Orlando Guirola Lamar.
+  Geboorteplaats: Matanzas, Matanzas.
+  Geboortedatum: 3 augustus 1992.
+  Geslacht: Man.
+  Naam en achternaam vader: Orlando Victorino Guirola Echevarría.
+  Geboorteplaats: Colón.
+  Naam en achternaam van de moeder: Rosa Elena Lamar Serrate.
+  Geboorteplaats: Matanzas.
+  Grootouders van vaderskant: Ángel en Margarita.
+  Grootouders van moederskant: Reynold en Bienvenida Deogracia.
+  Registratie uitgevoerd op basis van: Verklaring van de moeder.
+  OBSERVATIES:
+  De ambtenaar van de burgerlijke stand van Matanzas bevestigt dat bovenstaande gegevens getrouw overeenkomen met de
+  gegevens die in de genoemde registratie zijn vastgelegd.
+  Samengesteld door: Anabel Miranda Alfonso.
+  Opgemaakt door: María de los Milagros Valdivia
+  Marín
+  Belasting op documenten volgens de geldende
+  regelgeving op het moment van uitgifte.
+  Op verzoek van de belanghebbende partij wordt dit document op 5 februari 2024 afgegeven.
+  Dit certificaat heeft geen vervaldatum en kan worden geverifieerd met een digitale handtekening op de volgende
+  website: certificaciones.minjus.gob.cu met behulp van zaakcode 8927562 en pincode SE18.
+  (Handtekening en Stempel van het Ministerie van Justitie)
+  María de los Milagros Valdivia Marín
+  Ambtenaar van de Burgerlijke stand
+  QR Code REC
+  [LMB]
+
+--- WINDOW  2026/07/29 11:34:58  [chrome.exe] Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  que dice este texto [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/29 11:35:11  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:35:37  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  tilScfttFttsH
+  T$rnq F+tio 25S 2s5
+  FEfHS fiE *SIEHTO
+  br'a trlss Aiis 4 I 20?2
+  f,egistr* dsl Estfid{, tivil ds
+  trl u niripio; FlaBa neas
+  Prorinria: lrlataneas
+  fi<.lp-;r,';>
+  ffiTiREC
+  rft: l:.:,to;l,r t ir.rl
+  iq
+  j::q.:-,.ii:.'+; ii## {i'*-?*F-:
+  Repdbltra de Cuba i{lnlntcrlo da Justlcla
+  CERTIFIEACION BE TI'Af, IFTIEHTS
+  o4050425120000t,13?80
+  oevv{ 3uqtHAz{
+  axr..raa$.r6. t',e t! rBwrtdt kr t!'ry.. tcu G:L{r. a{a ,* rr.f,r*.._rl
+  Xomh*z{sl I apsllidos: yan Luis €uirda Rui^2. Lugar da nacimisnts: lrlabanzrr, lfrtairor. Fecha de nucimientos'3 ae agosto d" ioaa. Scxq; Il,lasculine.
+  t{ornbta{s} Y apeltidsg dc padre: 'rosbel frrlando Guirola Lamaa
+  ilarnbru{sl u aFertrdas'de Lrgil ta rneurei-elena de la carrdad Ru& Fuentes. dG trtclrnlchts: trhtaheas, Hitihrns. lh,reles p*crhss: Odando Vf*orfno V nosa Etena. Atilrlcs rnatctrros! tftaro y OUotyr, ' '
+  ln*crlprrrin predrradr
+  "n *t,t rc, iecraracrrin de rss padres der rnscr{pta
+  OESERI'JEf,IOTTES:
+  El{La} Fegistradarla} de la oficina del hlacis de los Matrirnonics.rJe r4atanaas fEF.TlFrc.{ que ros anteriores datos
+  'ron{sg'd3n fielmente {sn lo€' qn. 'pt-*n tonsignadoi un'uln*ripririn a que cr''fr'{$r*d* s*r. Lii:ar.* ie hare referencia. cari.da.d pg.*u,qu*ru.
+  Hechn por; t'taria .de Begistralori o*r E;rado f,iv, los lail*,gr:;r-V*il;u'ia F{ann
+  Inrpuesto Eobre docunrehtss dt acusrdo a la nsrnraurra vigerrte al nranrento de ser expedrdo. Iir:.:::'$:.t#[:,T:XT.j-"i:il:H ra presente , rJ, s Jiu, der nres a* r,u.=,o de, zE?4.
+  .*,iirii,iion;,-.;;;;;;.s"r..o utiii=al,}I ;?,rffirffit:=1i-r!,$i{[;TEi,.#F:a 
+  c[Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:35:43  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  cummple los mismo requisitos que este [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:37:01  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:37:07  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:37:07  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+  canva[ENTER]
+
+--- WINDOW  2026/07/29 11:37:09  [chrome.exe] canva - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:37:15  [chrome.exe] Inicia sesión en tu cuenta de Canva - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:37:17  [chrome.exe] Sin título - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:37:18  [chrome.exe] Acceso: Cuentas de Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:37:21  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:37:24  [chrome.exe] Inicia sesión en tu cuenta de Canva - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:37:25  [chrome.exe] Protege tu cuenta de Canva - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:37:31  [chrome.exe] canva.com - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:37:33  [chrome.exe] Inicio - Canva - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:38:03  [chrome.exe] Sin título - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:38:04  [chrome.exe] Canva – Crear - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:38:04  [chrome.exe] Diseño sin título - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:38:06  [chrome.exe] Diseño sin título - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:38:15  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:38:20  [chrome.exe] Diseño sin título - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:38:21  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:38:29  [chrome.exe] Diseño sin título - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:38:31  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:38:32  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  04050425120000013799
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:38:40  [chrome.exe] Diseño sin título - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:38:55  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:38:57  [chrome.exe] Diseño sin título - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:03  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:08  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:14  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:17  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:18  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [->][Bk][Bk]80
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:26  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:27  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:28  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:39:30  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:31  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  REC
+  Burgerlijke Stand
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:34  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:46  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:47  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:51  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:52  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:39:53  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:40:16  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:40:19  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:40:24  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  (Stempel van het Ministerie van Justitie)
+  
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:40:30  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:40:33  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:40:35  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:40:51  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:40:54  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:41:07  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:41:16  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:41:27  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:41:30  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:41:41  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:41:46  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:41:55  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  REGISTRATIE ZITPLAATS DATUM Burgerlijke stand van Matanzas
+  c
+
+--- WINDOW  2026/07/29 11:42:10  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:42:20  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  REGISTRATIE
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:42:23  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:42:32  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Republiek Cuba
+  Ministerie van Justitie
+  GEBOORTEAKTE
+  
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:42:36  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [ENTER]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:42:54  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:42:55  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:43:11  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:43:16  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:43:20  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:43:20  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:43:24  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:43:25  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:43:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:43:27  [chrome.exe] YouTube - (2) Diferente - Canción original + Letra - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:43:34  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:43:36  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  puedes decrime el tamano de las letras del original que te dare ahora 
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:43:53  [chrome.exe] Abrir
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:44:15  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:44:15  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:44:16  [chrome.exe] Historial de descargas recientes
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:44:19  [explorer.exe] Explorador de archivos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:44:19  [explorer.exe] DWONLOADS!! - Explorador de archivos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:44:25  [chrome.exe] Abrir
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:44:27  [chrome.exe] Progreso
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:44:27  [chrome.exe] 1 acción interrumpida
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:44:28  [chrome.exe] 0% completado
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:44:29  [chrome.exe] Abrir
+----------------------------------------------------------------------------
+  om[Bk][Bk]yo
+  [LMB]
+
+--- WINDOW  2026/07/29 11:44:36  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:44:37  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:44:37  [explorer.exe] DWONLOADS!! - Explorador de archivos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:44:41  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:44:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:44:49  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:44:58  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:45:01  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:45:02  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:45:18  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:45:22  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Opname
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:45:26  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:45:33  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:45:35  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:45:39  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:45:41  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:45:46  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Folio
+  c
+
+--- WINDOW  2026/07/29 11:45:50  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:46:04  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:46:06  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:46:10  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  ZITPLAATS DATUM
+  c
+
+--- WINDOW  2026/07/29 11:46:15  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:46:27  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Dag Maand Jaar
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:46:31  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:46:45  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:46:47  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:46:50  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Burgerlijke stand van Matanzas
+  
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:46:56  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:47:08  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Gemeente: Matanzas
+  
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:47:12  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:47:34  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Provincie: Matanzas
+  c
+
+--- WINDOW  2026/07/29 11:47:40  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:48:28  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:48:30  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:48:32  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:48:34  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:48:56  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  25
+  c
+
+--- WINDOW  2026/07/29 11:49:02  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:49:08  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:49:10  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [LMB]
+  [Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:49:18  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v298
+  [LMB]
+
+--- WINDOW  2026/07/29 11:49:23  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:49:24  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:49:25  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:49:35  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:49:37  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  2s5
+  
+  [LMB]
+
+--- WINDOW  2026/07/29 11:49:41  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  205
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:49:56  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Voornaam en achternaam: Yosbel Orlando Guirola Lamar.
+  Geboorteplaats: Matanzas, Matanzas.
+  Geboortedatum: 3 augustus 1992.
+  Geslacht: Man.
+  Naam en achternaam vader: Orlando Victorino Guirola Echevarría.
+  Geboorteplaats: Colón.
+  Naam en achternaam van de moeder: Rosa Elena Lamar Serrate.
+  Geboorteplaats: Matanzas.
+  Grootouders van vaderskant: Ángel en Margarita.
+  Grootouders van moederskant: Reynold en Bienvenida Deogracia.
+  Registratie uitgevoerd op basis van: Verklaring van de moeder.
+  c[Ctrl]c[Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:50:13  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:50:26  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:50:29  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:50:32  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:50:34  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [->][ENTER]
+  [->][Bk]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:51:32  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:51:35  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:51:38  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Voornaam en achternaam:
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:51:42  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/29 11:51:57  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:51:58  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+   
+  [LMB]
+
+--- WINDOW  2026/07/29 11:52:16  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:52:17  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:52:20  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Yan Luis Guirola Ruiz
+  [LMB]
+
+--- WINDOW  2026/07/29 11:52:26  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:52:40  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  Geboorteplaats: Matanzas, Matanzas.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:52:50  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:53:18  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:53:19  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:53:22  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Matanzas, Matanza
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:53:27  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:53:43  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Geboortedatum:
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:53:48  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:02  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:04  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:54:05  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:06  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:06  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  3 de agosto de 2022
+  c
+
+--- WINDOW  2026/07/29 11:54:10  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [<-] 
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:31  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:33  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Geslacht:
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:45  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:54:58  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Man
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:55:03  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+   [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:55:12  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:55:14  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  .
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:55:20  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:55:22  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  s.
+  [LMB]
+
+--- WINDOW  2026/07/29 11:55:29  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  3 augustus
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:55:36  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  .
+  [LMB]
+  [LMB]
+  .
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:55:52  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Naam en achternaam vader:
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:55:59  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:56:10  [chrome.exe] YouTube - (2) Miki Martz - Titanium (Sia Spanish Version Cover) | Adaptaciones y nada Martz - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:56:14  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:56:18  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:56:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:56:22  [chrome.exe] YouTube - (2) Miki Martz - Titanium (Sia Spanish Version Cover) | Adaptaciones y nada Martz - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:56:25  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:56:31  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:56:35  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:56:41  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:56:42  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Yosbel Orlando Guirola Lamar
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:56:46  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+   [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  .
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:57:03  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Geboorteplaats
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:57:08  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:57:22  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Geboorteplaats:
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:57:28  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v 
+  [LMB]
+
+--- WINDOW  2026/07/29 11:57:33  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:57:38  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+   Matanzas.
+  
+  [LMB]
+
+--- WINDOW  2026/07/29 11:57:44  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:57:51  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Grootouders van vaderskant: 
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 11:58:01  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:58:13  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 11:58:20  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:00:30  [chrome.exe] YouTube - (2) Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:00:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:00:34  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:00:38  [chrome.exe] YouTube - (2) Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:00:39  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:00:39  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  dice que viene a las 2 , la voy a esperar[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:00:52  [chrome.exe] YouTube - (2) Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:00:54  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:01:21  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:01:21  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:01:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:01:24  [chrome.exe] YouTube - (2) Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:01:26  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  vieja yo no se que pasa ella no me va a decir tampoo[Bk]co ni a min[Bk] ni a nadie si no tiene dinero [ENTER]
+  [LMB]
+  [LMB]
+  tod el munod va a esperar [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:02:05  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:02:07  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:02:07  [chrome.exe] YouTube - (2) Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:02:09  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:02:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:02:10  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  ayer ni vino [ENTER]
+  [LMB]
+  [LMB]
+  no ha venido vieja sino ya ubiese cobrado [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:02:32  [chrome.exe] YouTube - (2) Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:02:34  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:02:38  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:03:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:03:12  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  yo pin[Bk]enso que es que anda cobrandole a las empresas [ENTER]
+  [LMB]
+  [LMB]
+  por eso pienos que ande cobrandole a la gente y esten sin dinero [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]que es qe estan sin dinero y andan cobrandole a las empresas
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:04:14  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:04:21  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:04:29  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:04:31  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:04:32  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:04:35  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:04:40  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:04:43  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:04:53  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  si ya pasasdo mana yo tengo q cobrar de nuevo [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:05:12  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:05:17  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:05:20  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:05:24  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:05:27  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:05:28  [ShellExperienceHost.exe] Nueva notificación
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:05:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:05:29  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  no el de la renta na[Bk]o me ha escrito ni nada [ENTER]
+
+--- WINDOW  2026/07/29 12:05:49  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:05:49  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Naam en achternaam van de moeder: 
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:05:54  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/07/29 12:06:00  [ShellExperienceHost.exe] Nueva notificación
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:06:00  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:06:00  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  si ella me paga hoy no te prec[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]a dijo que venia a pagar hoy [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:06:26  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:06:29  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:06:31  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:06:35  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Elena de la Caridad Ruiz Fuentes
+  c
+
+--- WINDOW  2026/07/29 12:06:41  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  .
+  [LMB]
+
+--- WINDOW  2026/07/29 12:06:56  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:06:56  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:06:56  [chrome.exe] YouTube - (2) Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:06:58  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:06:59  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:07:03  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:07:04  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Geboorteplaats:
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:07:11  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:07:14  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Matanzas. 
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:07:43  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:07:45  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:07:45  [chrome.exe] YouTube - (2) Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:07:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:07:47  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  pero bueno mija hay que hacerlo los euros d¿[Bk][Bk]son serca aqui [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:08:07  [chrome.exe] YouTube - (2) Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:08:09  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:08:10  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Grootouders van vaderskant:
+  c
+
+--- WINDOW  2026/07/29 12:08:17  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:08:27  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:08:27  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:08:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:08:32  [chrome.exe] YouTube - (2) Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:08:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:08:34  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  yo como algo ahora no te preocuep[Bk][Bk]pes ya me tome un cag[Bk]fe y unas galletas ah [Bk]i[ENTER]
+  com [Bk]o te sientes[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:09:06  [chrome.exe] YouTube - (2) Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:09:08  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:09:10  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Orlando Victorino y Rosa Elena
+  ctr
+  [LMB]
+
+--- WINDOW  2026/07/29 12:09:24  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+  traductor[ENTER]
+
+--- WINDOW  2026/07/29 12:09:27  [chrome.exe] traductor - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:09:31  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]
+  [Clipboard]
+  Grootouders van vaderskant:
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:09:32  [chrome.exe] traductor - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:09:37  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Orlando Victorino y Rosa Elena
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:09:41  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+   [Ctrl]v
+  [LMB]
+  ,[Bk].
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:10:00  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:10:00  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:10:00  [chrome.exe] YouTube - (2) Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:10:01  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:10:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:10:01  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  quiere que te pida una consulta aqui pa que te revise '[ENTER]
+
+--- WINDOW  2026/07/29 12:10:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:10:32  [chrome.exe] YouTube - (2) Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:10:35  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:10:38  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:10:40  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Grootouders van moederskant:
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:10:48  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+   
+
+--- WINDOW  2026/07/29 12:11:02  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Lázaro y Gladys
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:11:05  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:11:08  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/29 12:11:14  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  , ' '
+  ln*crlprrrin predrrad
+  c[Ctrl]c
+  [Clipboard]
+  tftaro y OUotyr
+  [LMB]
+
+--- WINDOW  2026/07/29 12:11:22  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:11:29  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:11:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:11:32  [chrome.exe] YouTube - (2) Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:11:33  [chrome.exe] YouTube - (2) Club Nouveau - Bad Situation (Club Mix) [Official Visualizer] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:11:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:11:37  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:11:39  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:11:40  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Lázaro y Gladys
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:11:43  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  odalys
+  [LMB]
+
+--- WINDOW  2026/07/29 12:11:52  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:11:53  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:11:58  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  .
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:12:05  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  tambien es qe tu haces muchas cosas con ese brazo vieja [ENTER]
+
+--- WINDOW  2026/07/29 12:12:17  [chrome.exe] YouTube - (2) Club Nouveau - Bad Situation (Club Mix) [Official Visualizer] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:12:20  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:12:21  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:12:25  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:12:26  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:12:35  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:12:36  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Registratie uitgevoerd op basis van:
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:12:42  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:12:54  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Declaración de los padres
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:13:00  [chrome.exe] traductor - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  du[Bk][Bk]ne
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Clipboard]
+  Verklaring van de ouder
+  [LMB]
+
+--- WINDOW  2026/07/29 12:13:14  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+   [Ctrl]v.
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:13:23  [chrome.exe] YouTube - (2) Club Nouveau - Bad Situation (Club Mix) [Official Visualizer] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:13:31  [chrome.exe] YouTube - (2) Tinta, Papel y Tus Pasos ( ink sans x Katy) - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:13:33  [chrome.exe] YouTube - (2) Club Nouveau - Bad Situation (Club Mix) [Official Visualizer] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  titn[Bk][Bk]nta papel[ENTER]
+
+--- WINDOW  2026/07/29 12:13:46  [chrome.exe] YouTube - (2) tinta papel - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:13:55  [chrome.exe] YouTube - (2) Club Nouveau - Bad Situation (Club Mix) [Official Visualizer] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:14:00  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:14:02  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:14:02  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:14:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:14:06  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:14:08  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  OBSERVATIES:
+  De ambtenaar van de burgerlijke stand van Matanzas bevestigt dat bovenstaande gegevens getrouw overeenkomen met de
+  gegevens die in de genoemde registratie zijn vastgelegd.
+  Samengesteld door: Anabel Miranda Alfonso.
+  Opgemaakt door: María de los Milagros Valdivia
+  Marín
+  Belasting op documenten volgens de geldende
+  regelgeving op het moment van uitgifte.
+  Op verzoek van de belanghebbende partij wordt dit document op 5 februari 2024 afgegeven.
+  Dit certificaat heeft geen vervaldatum en kan worden geverifieerd met een digitale handtekening op de volgende
+  website: certificaciones.minjus.gob.cu met behulp van zaakcode 8927562 en pincode SE18.
+  c
+
+--- WINDOW  2026/07/29 12:14:16  [chrome.exe] traductor - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/29 12:14:19  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:14:21  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  ah que bueno que ylian [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]y baina no esta en al[Bk][Bk]con ella [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:14:42  [chrome.exe] Traducción Certificado Nacimiento Cubano - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:14:46  [chrome.exe] traductor - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:15:13  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:15:18  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:15:28  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  OBSERVATIES:
+  c
+
+--- WINDOW  2026/07/29 12:15:33  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:15:42  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  De ambtenaar van de burgerlijke stand van Matanzas bevestigt dat bovenstaande gegevens getrouw overeenkomen met de
+  gegevens die in de genoemde registratie zijn vastgelegd.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:15:47  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:16:04  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:16:06  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:16:16  [ShellExperienceHost.exe] Nueva notificación
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:16:16  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:16:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:16:17  [chrome.exe] YouTube - (2) The Cranberries - Zombie (Alt. Version) - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:16:19  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:16:20  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:16:20  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  que grande yilena [ENTER]
+  mira bainaaa[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:16:46  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:16:47  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  De ambtenaar van de burgerlijke stand van Matanzas
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:16:54  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+   
+
+--- WINDOW  2026/07/29 12:17:10  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  bevestigt dat bovenstaande gegevens getrouw overeenkomen met de
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:17:16  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v 
+  [LMB]
+
+--- WINDOW  2026/07/29 12:17:21  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  gegevens die in de genoemde registratie zijn vastgelegd.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:17:27  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:17:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:17:38  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  si viej [Bk]a no e que uno deje de querer a la gente simplemente es darle el mismo valor que le da a uno [ENTER]
+  el nene tt[Bk]iene informacion de un novio y yilena ah [Bk]i lo que no me quizo decir [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:18:19  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:18:22  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Samengesteld door:
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:18:27  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:18:42  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:18:42  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:18:45  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:18:46  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:18:47  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:18:51  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:18:56  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+   Lii:ar.* ie hare referencia. cari.da.d pg.*u,qu*ru. 
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:19:07  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+   [Ctrl]v
+  [LMB]
+  lazara 
+
+--- WINDOW  2026/07/29 12:19:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:19:17  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  es como dice la cancion cuadno tin tien tin vale [ENTER]
+
+--- WINDOW  2026/07/29 12:19:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:19:28  [chrome.exe] YouTube - (2) The Cranberries - Zombie (Alt. Version) - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:19:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:19:29  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:19:31  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:19:32  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:19:40  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  caridad perez acosta 
+  [LMB]
+
+--- WINDOW  2026/07/29 12:19:47  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:19:49  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:19:54  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [Bk].
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:20:01  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Opgemaakt door:
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:20:06  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:20:16  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  María de los Milagros Valdivia
+  Marín
+  
+  c
+
+--- WINDOW  2026/07/29 12:20:22  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+   [Ctrl]v
+  [LMB]
+  [Bk].
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:20:39  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:20:39  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:20:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:20:41  [chrome.exe] YouTube - (2) The Cranberries - Zombie (Alt. Version) - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:20:44  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:20:45  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:20:45  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:20:47  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Belasting op documenten volgens de geldende
+  [LMB]
+
+--- WINDOW  2026/07/29 12:20:56  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+   
+  [LMB]
+
+--- WINDOW  2026/07/29 12:21:07  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  regelgeving op het moment van uitgifte.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:21:13  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:21:16  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:21:20  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [ENTER]
+  [->][ENTER]
+  [Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:21:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:21:42  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  exactamente asi como dices vieja [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:21:50  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:21:52  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Op verzoek van de belanghebbende partij wordt dit document op 5 februari 2024 afgegeven.
+  [LMB]
+
+--- WINDOW  2026/07/29 12:22:03  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:22:15  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:22:33  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Dit certificaat heeft geen vervaldatum en kan worden geverifieerd met een digitale handtekening op de volgende
+  website: certificaciones.minjus.gob.cu met behulp van zaakcode 8927562 en pincode SE18.
+  c
+
+--- WINDOW  2026/07/29 12:22:38  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:22:52  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:22:58  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [->][->][Bk][Bk][Bk][<-][->]456
+  [LMB]
+
+--- WINDOW  2026/07/29 12:23:13  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:23:15  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  [Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:23:41  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:23:44  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:23:46  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:23:46  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:23:49  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:23:53  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:23:57  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:23:59  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  (Handtekening en Stempel van het Ministerie van Justitie)
+  María de los Milagros Valdivia Marín
+  
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:24:05  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:24:22  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:24:24  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:24:27  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/07/29 12:24:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:24:43  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  y es molesto de hacer viej [Bk][Bk][Bk][Bk][Bk]''''[ENTER]
+
+--- WINDOW  2026/07/29 12:24:56  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:24:56  [chrome.exe] YouTube - (2) The Cranberries - Zombie (Alt. Version) - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:24:58  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:24:59  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:25:01  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:25:05  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:25:17  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  QR Code
+  [LMB]
+
+--- WINDOW  2026/07/29 12:25:22  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:25:30  [chrome.exe] Geboorte Akte Yosbel.pdf - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  REC
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:25:33  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:25:54  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+  canva[ENTER]
+
+--- WINDOW  2026/07/29 12:25:59  [chrome.exe] canva - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:26:02  [chrome.exe] canva.com - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:26:03  [chrome.exe] Inicio - Canva - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:27:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:27:47  [explorer.exe] DWONLOADS!! - Explorador de archivos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:27:50  [chrome.exe] Inicio - Canva - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:27:55  [chrome.exe] Sin título - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:27:55  [chrome.exe] Canva - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:27:58  [chrome.exe] Geboorte Akte Yosbel.pdf - US carta - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:28:00  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:28:00  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:28:03  [chrome.exe] Geboorte Akte Yosbel.pdf - US carta - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/07/29 12:28:18  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:28:38  [chrome.exe] Geboorte Akte Yosbel.pdf - US carta - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:28:40  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:29:08  [chrome.exe] Geboorte Akte Yosbel.pdf - US carta - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:29:11  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:29:25  [chrome.exe] Historial de descargas recientes
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:29:26  [explorer.exe] Explorador de archivos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:29:27  [explorer.exe] Descargas - Explorador de archivos
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:29:32  [OpenWith.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:29:34  [explorer.exe] Descargas - Explorador de archivos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:29:35  [OpenWith.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:29:36  [explorer.exe] Descargas - Explorador de archivos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:29:37  [chrome.exe] Sin título - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:29:37  [chrome.exe] 04050425120000013799.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:29:37  [chrome.exe] 04050425120000013799 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:29:54  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:29:57  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:29:59  [explorer.exe] Descargas - Explorador de archivos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:30:02  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 12:30:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:30:19  [chrome.exe] YouTube - (2) Guns N' Roses - Sweet Child O' Mine (Official Music Video) - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:30:20  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:30:29  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:30:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:30:30  [explorer.exe] Descargas - Explorador de archivos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 12:30:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:30:31  [chrome.exe] 04050425120000013799 - A4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:30:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:30:32  [explorer.exe] DWONLOADS!! - Explorador de archivos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:30:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:30:34  [chrome.exe] scan 3.pdf - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:30:35  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 12:39:46  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
