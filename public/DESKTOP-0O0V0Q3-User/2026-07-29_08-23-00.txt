@@ -1,0 +1,434 @@
+﻿  [LMB]
+  [LMB]
+  [Clipboard]
+  김류심15
+  리주향 30
+  황설경 30
+  서예정 20
+  주수련 100
+  리향 100
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:25:50  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:25:51  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:27:14  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:27:18  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:27:33  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:27:37  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I need a working tool that continuously pulls event-level probabilities from Kalshi and Polymarket and contrasts them with real-time money-line, spread prices, over under prices and prop markets from major online sportsbooks. The goal is simple: highlight pre-game markets for Football, Basketball, Tennis, Soccer and Baseball where the implied probabilities diverge enough to create positive-expected-value opportunities.
+  
+  Core workflow
+  • Fetch live or regularly refreshed odds via public or paid APIs (or reliable screen-scraping when an API is unavailable).
+  • Convert every price to a clean, comparable implied probability.
+  • Compare the Kalshi / Polymarket probabilities against each sportsbook’s line.
+  • Flag and log any gap that exceeds a configurable threshold, then push an alert (email, Slack or Telegram preferred—open to the best fit).
+  
+  Technical preferences
+  Python is my default, but I am open to Node, Go or another language if you can justify speed or API compatibility gains. Please structure the code so the market modules (Kalshi, Polymarket, each sportsbook) can be swapped or extended easily. A lightweight web dashboard or CLI summary that lists the latest discrepancies would be ideal, though a Jupyter-style report is acceptable for a first milestone.
+  
+  Acceptance criteria
+  1. At least one live feed each from Kalshi, Polymarket and two major sports books available in my area demonstrates automated parsing and probability conversion.
+  2. Alert fires when a test threshold is deliberately breached.
+  3. Documentation shows how to add a new sportsbook module in under 30 lines.
+  4. Code runs on a standard cloud instance without paid add-ons beyond the data sources themselves.
+  
+  Let me know your proposed stack, data-source access strategy and estimated turnaround so we can lock in milestones quickly.
+  cc
+  [Clipboard]
+  I fell to the hype
+  [Clipboard]
+  Gotta be patient
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:35:05  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:35:05  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:35:12  [chrome.exe] AI-Enhanced GoHighLevel Platform Clone | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  The goal is to recreate GoHighLevel’s core features on a modern stack—Angular (JavaScript/TypeScript) for the front-end, Node.js with Express for the back-end, MongoDB as the data store, and GraphQL as the single API layer—while layering in AI-driven enhancements.
+  
+  All source code must be transferred in full on hand-over; no modules or repos stay proprietary. A fresh UI/UX is needed because no wireframes exist yet, so the engagement includes collaborative design workshops, mock-ups, and final responsive layouts. On the data side, there is no existing schema, so a new Mongo-based model has to be planned, documented, and indexed for speed before coding begins.
+  
+  Before delivery, the entire system has to be unit-, integration-, and load-tested to prove stability. Deployment should work in a containerised environment (Docker/Kubernetes) with a CI/CD pipeline so I can reproduce builds independently.
+  
+  Please include in your proposal:
+  • Estimated development timeline from kickoff to final sign-off
+  • Post-launch warranty period and the scope of support (bug fixes, minor tweaks, response time)
+  • Total project price and any milestone breakdowns
+  • Payment terms tied to milestones and acceptance criteria
+  
+  The brief is open to your AI feature suggestions—chatbots, predictive analytics, automated workflows, or other ideas that will meaningfully upgrade the original platform—so feel free to outline those and their impact on the schedule.
+  c
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I’m available for a video call if you want to walk through scope and hand-over expectations.
+  
+  You want a GoHighLevel-like platform rebuilt with a modern stack, fresh UX, a new Mongo schema, full tests, and reproducible containerised deployment. 
+  The core challenges I see are: designing a clean data model up front (indexes for performance), nailing the multi-tenant API layer (GraphQL) and delivering production-grade CI/CD + automated tests so the hand-over is clean.
+  
+  I’ve rebuilt two SaaS dashboards with Angular front-ends, Node/GraphQL back-ends and MongoDB where I led the schema design, testing strategy and Kubernetes deployment. 
+  
+  For this project I’d tackle: schema & indexing, core GraphQL mutations/queries, responsive UI mock-ups, then iterative feature sprints with load testing.
+  
+  A couple of quick questions:
+  1. Do you expect true multi-tenancy (separate DBs) or a shared schema with tenant scoping?
+  2. Any existing third-party integrations (email/SMS providers) you must keep?
+  
+  Happy to discuss next steps on a call.
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  30
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/angular/Enhanced-GoHighLevel-Platform-Clone/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  AI-Enhanced GoHighLevel Platform Clone
+  
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  United States
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $35,000.00 USD
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:37:05  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:37:06  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:38:50  [chrome.exe] (1) Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:39:39  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:39:45  [chrome.exe] AI-Enhanced GoHighLevel Platform Clone | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:39:53  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:39:56  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:39:57  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:40:09  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:40:09  [chrome.exe] AI-Enhanced GoHighLevel Platform Clone | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 07:40:13  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:40:14  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  https://blindtyping.com/test
+  [LMB]
+
+--- WINDOW  2026/07/29 07:48:32  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:48:33  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  는 뭐나
+  [LMB]
+
+--- WINDOW  2026/07/29 07:52:12  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:52:13  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:53:09  [chrome.exe] Magento Beauty Products Mobile App | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 07:53:29  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 07:53:30  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  배당은 베팅에서 돈을 걸었을 때 얼마를 돌려받는지를 나타내는 숫자입니다.
+  [Clipboard]
+  Implied
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  DraftKings·FanDuel가 배당을 제공한다는건 무슨 소리나?
+  [LMB]
+
+--- WINDOW  2026/07/29 08:03:14  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 08:03:15  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  배당리력을 보여주는  API가 있니?
+
+--- WINDOW  2026/07/29 08:08:09  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 08:08:10  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  DraftKings Odds API Wrapper
+
+--- WINDOW  2026/07/29 08:12:20  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 08:12:21  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 08:12:33  [chrome.exe] AI-Enhanced GoHighLevel Platform Clone -- 2 | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  AI-Enhanced GoHighLevel Platform Clon
+  c
+  [LMB]
+
+--- WINDOW  2026/07/29 08:12:50  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]fv
+  [LMB]
+
+--- WINDOW  2026/07/29 08:12:54  [chrome.exe] AI-Enhanced GoHighLevel Platform Clone | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Hi, Canada-based developer here.
+  
+  I’m available for a video call if you want to walk through scope and hand-over expectations.
+  
+  You want a GoHighLevel-like platform rebuilt with a modern stack, fresh UX, a new Mongo schema, full tests, and reproducible containerised deployment.
+  The core challenges I see are: designing a clean data model up front (indexes for performance), nailing the multi-tenant API layer (GraphQL) and delivering production-grade CI/CD + automated tests so the hand-over is clean.
+  
+  I’ve rebuilt two SaaS dashboards with Angular front-ends, Node/GraphQL back-ends and MongoDB where I led the schema design, testing strategy and Kubernetes deployment.
+  
+  For this project I’d tackle: schema & indexing, core GraphQL mutations/queries, responsive UI mock-ups, then iterative feature sprints with load testing.
+  
+  A couple of quick questions:
+  1. Do you expect true multi-tenancy (separate DBs) or a shared schema with tenant scoping?
+  2. Any existing third-party integrations (email/SMS providers) you must keep?
+  
+  Happy to discuss next steps on a call.
+  
+  Thanks,
+  Paul
+  ccc
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 08:13:19  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 08:13:19  [chrome.exe] AI-Enhanced GoHighLevel Platform Clone -- 2 | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  30
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 08:13:39  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 08:13:43  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 08:13:44  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 08:14:06  [chrome.exe] AI-Enhanced GoHighLevel Platform Clone -- 2 | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 08:14:11  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 08:14:12  [chrome.exe] AI-Enhanced GoHighLevel Platform Clone -- 2 | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 08:14:26  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 08:14:27  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 08:16:49  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 08:16:50  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 08:16:50  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  들은 python서고나?
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 08:20:46  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 08:20:47  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 08:20:57  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 08:20:58  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 08:20:59  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
