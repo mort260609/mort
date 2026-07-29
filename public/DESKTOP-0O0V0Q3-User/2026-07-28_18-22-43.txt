@@ -1,0 +1,450 @@
+﻿  [Clipboard]
+  Yeah I'd have to know you and trust you for that
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Got ya
+  
+  
+  
+  [Clipboard]
+  here, trust is very important.
+  [Clipboard]
+  일보를 내리 적재하는데서 시간오차가 날수 있으니 래일부터 9시40분까지 일보를 다 완성하고 그룹대화창에서 "finish"를 남겨주십시오. Manic time은 정각 10시까지는 바치도록 하여야 하겠습니다.
+  [Clipboard]
+  모든 format, align이 정확히 맞는지  확인하십시오
+  [LMB]
+
+--- WINDOW  2026/07/28 17:32:27  [chrome.exe] Coffee Chain Marketing Website Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  A US-based drive-thru coffee chain with multiple locations is looking for a web developer to design and build a new marketing website. This is a one-time, fixed-scope project, with the possibility of ongoing maintenance afterward.
+  
+  Our current site is dated and hard to maintain, and it does not reflect the energy of the brand or serve our customers well on mobile, which is where almost all of our traffic comes from. We want a fast, modern, mobile-first website that makes it easy to find a location, browse the menu, and connect with the brand.
+  
+  Scope of work:
+  
+  A marketing website of around 8 to 10 pages: home, menu, our story, locations, careers, franchising enquiry, contact, plus standard legal pages
+  A store locator where customers enter a city or ZIP code and see nearby locations with address, hours, and directions; we will provide the location data in a structured file
+  A menu section organized by category, easy for our team to update as items change, with support for seasonal and limited-time items
+  Clear links out to our existing mobile ordering and rewards app on iOS and Android; the app itself is not part of this project
+  A careers page with current openings and an enquiry form, and a separate franchising enquiry form, both routing submissions to the right inbox
+  Built so our marketing team can update content, menu items, and locations themselves without touching code
+  
+  Technical requirements:
+  
+  Mobile-first and fully responsive, fast on phones on mobile data
+  Built on a maintainable, well-established platform; tell us your recommendation and why
+  Strong on-page SEO and local SEO, since customers search by location, with correct structured data for a business with many outlets
+  Accessible to WCAG AA standards
+  Correct link previews when pages are shared on social media
+  
+  What we will provide:
+  
+  Brand guidelines, logo, fonts, colors, and photography
+  Final copy for all pages
+  Location and menu data in a structured file
+  A named contact to answer questions and approve work
+  
+  Deliverables are the completed responsive website, tested across major browsers and devices, with an editable content system, basic analytics in place, and a short written guide plus one walkthrough for our team.
+  
+  To be considered, please share two or three live websites you have built, ideally multi-location or hospitality businesses, with links rather than screenshots. Tell us which platform you would recommend and how you would approach the store locator, and confirm your timeline and availability. Applications without live examples will not be shortlisted.
+  cc
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 17:36:49  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 17:36:50  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Step 1: Collect Odds
+  
+  Every source has different APIs.
+  
+  Examples
+  
+  Kalshi
+  
+  Markets look like
+  [Clipboard]
+  Hobart
+  [Clipboard]
+  Step 4: Match Markets
+  
+  This is actually the hardest part.
+  
+  Example
+  
+  Kalshi
+  [Clipboard]
+  Yes, Hobart is in Australia. It is the capital city of the island state of Tasmania.
+  [Clipboard]
+  Technologies I'd Use
+  
+  Backend
+  
+  Python 3.12
+  FastAPI (API if needed)
+  APScheduler or asyncio for periodic polling
+  
+  Data
+  
+  requests or httpx
+  pandas (optional for reporting)
+  
+  Matching
+  
+  rapidfuzz
+  
+  Database (optional)
+  
+  SQLite for development
+  PostgreSQL for production
+  
+  Alerts
+  
+  Telegram Bot API
+  Slack Webhooks
+  SMTP email
+  
+  Dashboard
+  
+  Streamlit (fastest to build)
+  or FastAPI + minimal frontend if a web app is preferred
+  Biggest Challenges
+  
+  These are what I'd discuss with the client on the call:
+  
+  Sportsbook data access. Not all sportsbooks expose public APIs. Some require paid odds providers (e.g., Odds API, Sportradar) or careful scraping, which can break if sites change.
+  Market matching. Matching the same event across Kalshi, Polymarket, and sportsbooks—especially props and over/under markets—is the most technically challenging part.
+  Odds normalization. Different market types (moneyline, spread, totals, player props) require different comparison logic, and sportsbook odds should generally be de-vigged before comparing them to prediction market probabilities.
+  Latency and rate limits. The client wants continuous updates, so you'll need a polling strategy that respects API limits while keeping data fresh.
+  [Clipboard]
+  Hobart.
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 17:39:03  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 17:39:04  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 17:39:05  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 17:41:13  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 17:41:14  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Overall, this is a medium-complexity backend integration project. The data collection itself is manageable; the real engineering effort lies in clean market matching, accurate probability normalization, and a modular architecture that makes adding new sportsbooks simple. If you explain these trade-offs during your call, it will demonstrate that you understand where the real complexity lies and help build the client's confidence.
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 17:42:14  [chrome.exe] nathanielb55 Profile | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  nathanielb55
+  cc
+  [LMB]
+
+--- WINDOW  2026/07/28 17:42:19  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 17:47:40  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 17:47:41  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 17:47:41  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  797049
+  [Clipboard]
+  jlgilliam@students.everettcc.edu
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 17:56:40  [chrome.exe] (1) Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/28 17:56:41  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Have all of your data fully and permanently deleted (this includes both your Handshake and Handshake AI accounts)
+  [LMB]
+  [Clipboard]
+  Your request to have all of your data fully and permanently deleted, including both your Handshake and Handshake AI accounts, has been escalated. You’ll receive a confirmation email shortly, and someone will follow up as soon as possible. If you have any additional details to add, please reply directly to that email.
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Hi, thanks for your response. I'm about to drive, so I'll get back to you once I'm available. If that works for you, I'd like to discuss the project in detail then.
+  5:
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Permanently delete all your data, including both Handshake and Handshake AI accounts
+  [Ctrl]
+  [Clipboard]
+  Hey Paul,
+  
+  Thanks for messaging me. I’ve been running my system manually for a couple months now with promising results but it’s time consuming and I miss a lot of opps. I was hoping this could be a collaborative and ongoing project where we continuously chat and tweak things as we go on. Would it be possible to start with one sport and then expand it from there after testing the system? I do not have API’s for kalshi or any sportsbooks. It’s my understanding that kalshi’s API should be accessible but that sportsbooks don’t hand those out. I’m based in BC, Canada so I have 5 sportsbooks, all with different odds providers that I’d like to start with. If you’re still interested in the project I can provide more details as to the markets I want to scan, liquidity and time requirements. Thanks for your time and I look forward to hearing back from you.
+  c
+  [Clipboard]
+  Hey Paul,
+  
+  Thanks for messaging me. I’ve been running my system manually for a couple months now with promising results but it’s time consuming and I miss a lot of opps. I was hoping this could be a collaborative and ongoing project where we continuously chat and tweak things as we go on. Would it be possible to start with one sport and then expand it from there after testing the system? I do not have API’s for kalshi or any sportsbooks. It’s my understanding that kalshi’s API should be accessible but that sportsbooks don’t hand those out. I’m based in BC, Canada so I have 5 sportsbooks, all with different odds providers that I’d like to start with. If you’re still interested in the project I can provide more details as to the markets I want to scan, liquidity and time requirements. Thanks for your time and I look forward to hearing back from you.
+  [Clipboard]
+  Hey Paul,
+  
+  Thanks for messaging me. I’ve been running my system manually for a couple months now with promising results but it’s time consuming and I miss a lot of opps. I was hoping this could be a collaborative and ongoing project where we continuously chat and tweak things as we go on. Would it be possible to start with one sport and then expand it from there after testing the system? I do not have API’s for kalshi or any sportsbooks. It’s my understanding that kalshi’s API should be accessible but that sportsbooks don’t hand those out. I’m based in BC, Canada so I have 5 sportsbooks, all with different odds providers that I’d like to start with. If you’re still interested in the project I can provide more details as to the markets I want to scan, liquidity and time requirements. Thanks for your time and I look forward to hearing back from you.
+  [Clipboard]
+  Hey Paul,
+  
+  Thanks for messaging me. I’ve been running my system manually for a couple months now with promising results but it’s time consuming and I miss a lot of opps. I was hoping this could be a collaborative and ongoing project where we continuously chat and tweak things as we go on. Would it be possible to start with one sport and then expand it from there after testing the system? I do not have API’s for kalshi or any sportsbooks. It’s my understanding that kalshi’s API should be accessible but that sportsbooks don’t hand those out. I’m based in BC, Canada so I have 5 sportsbooks, all with different odds providers that I’d like to start with. If you’re still interested in the project I can provide more details as to the markets I want to scan, liquidity and time requirements. Thanks for your time and I look forward to hearing back from you.
+  [Clipboard]
+  Hey Paul,
+  
+  Thanks for messaging me. I’ve been running my system manually for a couple months now with promising results but it’s time consuming and I miss a lot of opps. I was hoping this could be a collaborative and ongoing project where we continuously chat and tweak things as we go on. Would it be possible to start with one sport and then expand it from there after testing the system? I do not have API’s for kalshi or any sportsbooks. It’s my understanding that kalshi’s API should be accessible but that sportsbooks don’t hand those out. I’m based in BC, Canada so I have 5 sportsbooks, all with different odds providers that I’d like to start with. If you’re still interested in the project I can provide more details as to the markets I want to scan, liquidity and time requirements. Thanks for your time and I look forward to hearing back from you.
+
+--- WINDOW  2026/07/28 18:01:24  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Sports Odds Discrepancy Alert Scanner
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I need a working tool that continuously pulls event-level probabilities from Kalshi and Polymarket and contrasts them with real-time money-line, spread prices, over under prices and prop markets from major online sportsbooks. The goal is simple: highlight pre-game markets for Football, Basketball, Tennis, Soccer and Baseball where the implied probabilities diverge enough to create positive-expected-value opportunities.
+  
+  Core workflow
+  • Fetch live or regularly refreshed odds via public or paid APIs (or reliable screen-scraping when an API is unavailable).
+  • Convert every price to a clean, comparable implied probability.
+  • Compare the Kalshi / Polymarket probabilities against each sportsbook’s line.
+  • Flag and log any gap that exceeds a configurable threshold, then push an alert (email, Slack or Telegram preferred—open to the best fit).
+  
+  Technical preferences
+  Python is my default, but I am open to Node, Go or another language if you can justify speed or API compatibility gains. Please structure the code so the market modules (Kalshi, Polymarket, each sportsbook) can be swapped or extended easily. A lightweight web dashboard or CLI summary that lists the latest discrepancies would be ideal, though a Jupyter-style report is acceptable for a first milestone.
+  
+  Acceptance criteria
+  1. At least one live feed each from Kalshi, Polymarket and two major sports books available in my area demonstrates automated parsing and probability conversion.
+  2. Alert fires when a test threshold is deliberately breached.
+  3. Documentation shows how to add a new sportsbook module in under 30 lines.
+  4. Code runs on a standard cloud instance without paid add-ons beyond the data sources themselves.
+  
+  Let me know your proposed stack, data-source access strategy and estimated turnaround so we can lock in milestones quickly.
+  c
+  [Clipboard]
+  Sports Odds Discrepancy Alert Scanner
+  [Clipboard]
+  I need a working tool that continuously pulls event-level probabilities from Kalshi and Polymarket and contrasts them with real-time money-line, spread prices, over under prices and prop markets from major online sportsbooks. The goal is simple: highlight pre-game markets for Football, Basketball, Tennis, Soccer and Baseball where the implied probabilities diverge enough to create positive-expected-value opportunities.
+  
+  Core workflow
+  • Fetch live or regularly refreshed odds via public or paid APIs (or reliable screen-scraping when an API is unavailable).
+  • Convert every price to a clean, comparable implied probability.
+  • Compare the Kalshi / Polymarket probabilities against each sportsbook’s line.
+  • Flag and log any gap that exceeds a configurable threshold, then push an alert (email, Slack or Telegram preferred—open to the best fit).
+  
+  Technical preferences
+  Python is my default, but I am open to Node, Go or another language if you can justify speed or API compatibility gains. Please structure the code so the market modules (Kalshi, Polymarket, each sportsbook) can be swapped or extended easily. A lightweight web dashboard or CLI summary that lists the latest discrepancies would be ideal, though a Jupyter-style report is acceptable for a first milestone.
+  
+  Acceptance criteria
+  1. At least one live feed each from Kalshi, Polymarket and two major sports books available in my area demonstrates automated parsing and probability conversion.
+  2. Alert fires when a test threshold is deliberately breached.
+  3. Documentation shows how to add a new sportsbook module in under 30 lines.
+  4. Code runs on a standard cloud instance without paid add-ons beyond the data sources themselves.
+  
+  Let me know your proposed stack, data-source access strategy and estimated turnaround so we can lock in milestones quickly.
+  [Clipboard]
+  Sports Odds Discrepancy Alert Scanner
+  [Clipboard]
+  I need a working tool that continuously pulls event-level probabilities from Kalshi and Polymarket and contrasts them with real-time money-line, spread prices, over under prices and prop markets from major online sportsbooks. The goal is simple: highlight pre-game markets for Football, Basketball, Tennis, Soccer and Baseball where the implied probabilities diverge enough to create positive-expected-value opportunities.
+  
+  Core workflow
+  • Fetch live or regularly refreshed odds via public or paid APIs (or reliable screen-scraping when an API is unavailable).
+  • Convert every price to a clean, comparable implied probability.
+  • Compare the Kalshi / Polymarket probabilities against each sportsbook’s line.
+  • Flag and log any gap that exceeds a configurable threshold, then push an alert (email, Slack or Telegram preferred—open to the best fit).
+  
+  Technical preferences
+  Python is my default, but I am open to Node, Go or another language if you can justify speed or API compatibility gains. Please structure the code so the market modules (Kalshi, Polymarket, each sportsbook) can be swapped or extended easily. A lightweight web dashboard or CLI summary that lists the latest discrepancies would be ideal, though a Jupyter-style report is acceptable for a first milestone.
+  
+  Acceptance criteria
+  1. At least one live feed each from Kalshi, Polymarket and two major sports books available in my area demonstrates automated parsing and probability conversion.
+  2. Alert fires when a test threshold is deliberately breached.
+  3. Documentation shows how to add a new sportsbook module in under 30 lines.
+  4. Code runs on a standard cloud instance without paid add-ons beyond the data sources themselves.
+  
+  Let me know your proposed stack, data-source access strategy and estimated turnaround so we can lock in milestones quickly.
+  [Clipboard]
+  Sports Odds Discrepancy Alert Scanner
+  [Clipboard]
+  I need a working tool that continuously pulls event-level probabilities from Kalshi and Polymarket and contrasts them with real-time money-line, spread prices, over under prices and prop markets from major online sportsbooks. The goal is simple: highlight pre-game markets for Football, Basketball, Tennis, Soccer and Baseball where the implied probabilities diverge enough to create positive-expected-value opportunities.
+  
+  Core workflow
+  • Fetch live or regularly refreshed odds via public or paid APIs (or reliable screen-scraping when an API is unavailable).
+  • Convert every price to a clean, comparable implied probability.
+  • Compare the Kalshi / Polymarket probabilities against each sportsbook’s line.
+  • Flag and log any gap that exceeds a configurable threshold, then push an alert (email, Slack or Telegram preferred—open to the best fit).
+  
+  Technical preferences
+  Python is my default, but I am open to Node, Go or another language if you can justify speed or API compatibility gains. Please structure the code so the market modules (Kalshi, Polymarket, each sportsbook) can be swapped or extended easily. A lightweight web dashboard or CLI summary that lists the latest discrepancies would be ideal, though a Jupyter-style report is acceptable for a first milestone.
+  
+  Acceptance criteria
+  1. At least one live feed each from Kalshi, Polymarket and two major sports books available in my area demonstrates automated parsing and probability conversion.
+  2. Alert fires when a test threshold is deliberately breached.
+  3. Documentation shows how to add a new sportsbook module in under 30 lines.
+  4. Code runs on a standard cloud instance without paid add-ons beyond the data sources themselves.
+  
+  Let me know your proposed stack, data-source access strategy and estimated turnaround so we can lock in milestones quickly.
+  [Clipboard]
+  Sports Odds Discrepancy Alert Scanner
+  [Clipboard]
+  I need a working tool that continuously pulls event-level probabilities from Kalshi and Polymarket and contrasts them with real-time money-line, spread prices, over under prices and prop markets from major online sportsbooks. The goal is simple: highlight pre-game markets for Football, Basketball, Tennis, Soccer and Baseball where the implied probabilities diverge enough to create positive-expected-value opportunities.
+  
+  Core workflow
+  • Fetch live or regularly refreshed odds via public or paid APIs (or reliable screen-scraping when an API is unavailable).
+  • Convert every price to a clean, comparable implied probability.
+  • Compare the Kalshi / Polymarket probabilities against each sportsbook’s line.
+  • Flag and log any gap that exceeds a configurable threshold, then push an alert (email, Slack or Telegram preferred—open to the best fit).
+  
+  Technical preferences
+  Python is my default, but I am open to Node, Go or another language if you can justify speed or API compatibility gains. Please structure the code so the market modules (Kalshi, Polymarket, each sportsbook) can be swapped or extended easily. A lightweight web dashboard or CLI summary that lists the latest discrepancies would be ideal, though a Jupyter-style report is acceptable for a first milestone.
+  
+  Acceptance criteria
+  1. At least one live feed each from Kalshi, Polymarket and two major sports books available in my area demonstrates automated parsing and probability conversion.
+  2. Alert fires when a test threshold is deliberately breached.
+  3. Documentation shows how to add a new sportsbook module in under 30 lines.
+  4. Code runs on a standard cloud instance without paid add-ons beyond the data sources themselves.
+  
+  Let me know your proposed stack, data-source access strategy and estimated turnaround so we can lock in milestones quickly.
+  [LMB]
+  [LMB]
+  [Clipboard]
+  oh, no
+  [Clipboard]
+  oh, no kidding me now?
+  [Clipboard]
+  Hey Paul,
+  
+  Thanks for messaging me. I’ve been running my system manually for a couple months now with promising results but it’s time consuming and I miss a lot of opps. I was hoping this could be a collaborative and ongoing project where we continuously chat and tweak things as we go on. Would it be possible to start with one sport and then expand it from there after testing the system? I do not have API’s for kalshi or any sportsbooks. It’s my understanding that kalshi’s API should be accessible but that sportsbooks don’t hand those out. I’m based in BC, Canada so I have 5 sportsbooks, all with different odds providers that I’d like to start with. If you’re still interested in the project I can provide more details as to the markets I want to scan, liquidity and time requirements. Thanks for your time and I look forward to hearing back from you.
+  [LMB]
+  [LMB]
+  [Clipboard]
+  lovely_bear00
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  h[Bk]i'm really interested in this project. a[Bk]and want to hear more about these;[ENTER]
+  -which sport you would like to start with for now[ENTER]
+  -
+  [LMB]
+  those five[Bk][Bk][Bk][Bk][Bk][Bk]5 sportsbooks[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [Bk][Bk][ENTER]
+  1.
+  [LMB]
+   which sport you'd like to start with[ENTER]
+  2. which five sportsbooks you want to monitor, please be spef[Bk]cific so that i can research about them[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][ENTER]
+  3.
+  [LMB]
+  [LMB]
+   which markets do you want to scan first9moneyline, spreads, totals, props...0[ENTER]
+  and do not worry about 
+  [LMB]
+  the official api about sportsbook access. there are multipl eways to bo[Bk][Bk]obtain odds data, and the best approach epends a[Bk]on each sportsbook.[ENTER]
+  i am gonna first evaluate them one by one and h[Bk]choose th emost reliable solution[ENTER]
+  [RMB]
+  [LMB]
+  [^][v]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  well  before, he told me to wake him up when the message comes.
+  I know you want him to have a enough rest  and same here, so Just heads-up.
+  [Clipboard]
+  well  before, he told me to wake him up when the message comes.
+  I know you want him to have a enough rest  and same here, so Just heads-up.
+  [LMB]
+  [LMB]
+  so please let me confir[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]c[Bk] clarify these 3 [Ctrl]a[Bk]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/28 18:20:33  [chrome.exe] (1) Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+
+--- WINDOW  2026/07/28 18:21:45  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  I wanted to start with soccer but include a lot of different leagues (top European leagues, North American League’s, south anerican leagues and Asian leagues) as for the 5 sportsbooks I want to include I still need to think that through. All of them will have different odds providers though to avoid redundancy. Have you ever done anything like this before ?
