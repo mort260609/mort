@@ -1,0 +1,54 @@
+﻿  c
+  [Clipboard]
+  Senior Backend Software Engineer (Python/Django/AWS)
+  
+  📍 Location: Remote (Outside US)
+  🕒 Timezone: America/Mexico City
+  💼 Employment Type: Full-time Contractor
+  📅 Contract Duration: 6+ months
+  💰 Experience Required: 5+ years
+  
+  About the Role
+  
+  We're looking for a Senior Backend Software Engineer to join a fast-growing healthcare technology company building innovative Remote Patient Monitoring (RPM) solutions.
+  
+  As part of a collaborative engineering team, you'll design, develop, and maintain scalable backend services, contribute to platform architecture, and help deliver secure, reliable applications that have a direct impact on patient care.
+  
+  This role is ideal for engineers who enjoy technical ownership, clean architecture, and building high-quality products in a modern cloud environment.
+  
+  Responsibilities
+  
+  - Design, develop, and optimize scalable backend applications using Python and Django REST Framework (DRF).
+  - Build and maintain high-performance REST APIs and microservices.
+  - Develop integrations with third-party platforms, including logistics (3PL) and ERP systems.
+  - Own features throughout the full software development lifecycle—from technical design and implementation to testing, deployment, and production support.
+  - Ensure application security, scalability, reliability, and compliance with healthcare data privacy standards.
+  - Participate in code reviews, technical documentation, and architecture discussions.
+  - Collaborate with cross-functional teams to deliver high-quality software solutions.
+  
+  Requerimientos:
+  Required Qualifications
+  - 5+ years of professional experience developing backend web applications.
+  - 3+ years of hands-on experience with Python and Django REST Framework (DRF).
+  - Strong experience designing and consuming RESTful APIs.
+  - Experience building scalable microservices.
+  - Solid knowledge of AWS, including services such as EC2, RDS, Lambda, and S3.
+  - Experience with relational databases and backend architecture best practices.
+  - Strong understanding of software design principles, testing, and clean code.
+  - Experience using Git and modern development workflows.
+  - Excellent communication skills and ability to work effectively in a fully remote team.
+  
+  Nice to Have
+  - Experience in healthcare or other highly regulated industries.
+  - Familiarity with Remote Patient Monitoring (RPM) platforms.
+  - Experience integrating with ERP, logistics (3PL), or third-party enterprise systems.
+  - Knowledge of CI/CD pipelines, Docker, and Kubernetes.
+  
+  What We Offer
+  - Fully remote opportunity.
+  - Long-term contract (6+ months).
+  - Opportunity to build impactful healthcare technology used by real patients.
+  - Collaborative engineering culture with high technical ownership.
+  - Modern cloud-native technology stack and challenging technical projects.
+  [Clipboard]
+  www.linkedin.com/in/lester-aguilar
