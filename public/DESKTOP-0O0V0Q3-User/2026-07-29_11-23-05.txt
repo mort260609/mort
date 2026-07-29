@@ -1,0 +1,362 @@
+﻿  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:27:42  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:27:43  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:28:24  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:28:24  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:31:11  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:31:12  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:31:12  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:32:29  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:32:29  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:32:29  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:32:38  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:32:42  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:32:42  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:33:11  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:33:15  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:33:16  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:33:16  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:42:00  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:42:01  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:42:02  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:42:42  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:42:42  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:42:42  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:43:01  [chrome.exe] Part-Time Web3 DeFi Frontend Developer | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I’m assembling a lean engineering team to launch a full-stack DeFi suite on Supra L1 that includes CDPs, liquid-staking, yield vaults and a playful gamified layer. The codebase is already seeded in Next.js with TypeScript and Tailwind, and smart-contract endpoints are available through Supra’s Web3 SDK, so the next step is solidifying the user-facing experience and wiring in contract calls.
+  
+  You’ll step in for roughly 20 hours each week to:
+  
+  • Own the front-end flow end-to-end: connect wallets, surface real-time positions, stream yields, and display liquidation alerts – all while keeping the UI light, responsive and accessible.
+  • Integrate Supra L1’s RPC and subgraph equivalents using familiar Web3 patterns (ethers.js or viem are fine) and write clean React hooks that the rest of the team can reuse.
+  • Translate Figma screens into production-ready pages with Tailwind, adding subtle animations that support a future rewards-and-achievements layer without sacrificing performance.
+  • Review pull requests, write unit tests, and document components so additional contributors can slot in easily.
+  
+  Because every feature ties directly to complex financial logic, I need an expert-level grasp of existing DeFi protocols; you should be comfortable reasoning about collateral ratios, staking derivatives and yield aggregation to spot edge-case failures before they hit production.
+  
+  Acceptance criteria for each weekly milestone are straightforward: pages match design specs across the latest Chrome, Firefox and mobile Safari, all data displayed is provably accurate via on-chain calls, tests pass in CI, and Lighthouse performance remains >90.
+  
+  If you thrive on shipping polished Web3 products and enjoy translating intricate tokenomics into intuitive UX, let’s talk and line up the first sprint.
+  cc
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:43:58  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:43:58  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:43:59  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:44:13  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:44:13  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:44:14  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:46:31  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:46:33  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:46:34  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:48:21  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:48:53  [chrome.exe] E-Commerce Catalog & Review Website | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 10:48:58  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:49:06  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:49:07  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 10:57:11  [ShellExperienceHost.exe] Action center
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 10:57:15  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:00:58  [chrome.exe] Property Compliance App Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Hi
+  
+  Just wanted to run something past you at Freelancer which you may be interested in.
+  
+  In brief, no doubt, you may be aware of the many changes in both Landlords new obligations & the Renters Rights Act brings to the property market. In light of this, We have been involved, along with a few other like minded associates to form a compliance group currently trading as Consultancy 360. We advise Landlords & Property Managing Agents on the many changes and procedures required now, and in the future, to be and remain 100% compliant with all the new mandatory rules and legislation.
+  
+  We have now joined forces with a well established property buying and trading company known as National Homebuyers, www.nationalhomebuyers.co.uk
+  
+  The reason for this contact. We are in the final stages of preparing content for a new product to the property market. This will be by monthly subscription, an Audit App that both Landlords and Property Agents can download and use to see if their properties are compliant. Also this Ai App will also offer many other features, advantages & benefits.
+  
+  On this App, there will be property related partners to promote many other additional services on a referral basis such as, Safety Certificates, Legal Advice, Finance, Inventories, etc etc.
+  
+  We have listed below the many key elements the platform must have:
+  
+  1. professionally designed website from the ground up.
+  2. Complete branding and visual identity.
+  3. Customer registration and secure login.
+  4. Landlord, tenant and administrator dashboards.
+  5. Multiple property management.
+  6. AI that reads certificates and automatically extracts expiry dates.
+  7. AI that determines whether a property is compliant.
+  8. AI that stays up to date with changing government legislation.
+  9. Secure document upload and storage.
+  10. Compliance reporting.
+  11. Automated reminders for expiring certificates.
+  12. GoCardless payment integration.
+  13. Subscription billing based on the number of properties owned.
+  14. Tenant-to-landlord messaging.
+  15. A complete audit trail of all communication.
+  16. Live chat.
+  17. Mobile app development for iOS and Android.
+  18. Apple App Store and Google Play deployment.
+  19. Administrator management portal.
+  20. GDPR compliance.
+  21. Security and user permissions.
+  22. Cloud hosting and databases.
+  23. Email notifications.
+  24. Future integration with the PRS Database.
+  25. Future integration with the Landlord Ombudsman.
+  26. Testing across desktop, tablet and mobile.
+  Deployment.
+  26.Ongoing maintenance and support.
+  
+  If you are interested in taking this conversation further, please don't hesitate to contact me.
+  
+  Joe Giovannini
+  Senior Partner
+  
+  www.consultancy360.co.uk
+  ccc
+  [Clipboard]
+  https://www.freelancer.com/projects/api-developmet/Sports-Odds-Discrepancy-Alert-Scanner/proposals
+  [LMB]
+
+--- WINDOW  2026/07/29 11:01:21  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/29 11:01:22  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 11:01:23  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi, Canada based developer here. 
+  
+  I'm available for a video call if you'd like to walk through the product vision.
+  
+  You need a reliable audit app where automated certificate extraction and an evolving compliance engine are the core. From your list the hardest parts will be: 
+  (1) accurate OCR/metadata extraction from varied certificate formats, 
+  (2) mapping rules to determine compliance as legislation changes, and 
+  (3) subscription billing tied to property counts while keeping GDPR/security tight.
+  
+  I've delivered a property-focused web + mobile system before that used OCR to pull expiry dates and a rules engine to flag non-compliance. My approach is to prioritise the extraction pipeline, subscription model (GoCardless), and a secure document store first, then iterate on integrations and mobile apps (React Native).
+  
+  A couple of quick questions:
+  1. Do you have sample certificate PDFs to test extraction formats now?
+  2. Will the compliance rules be managed by your team (editable admin UI) or hard-coded initially?
+  
+  Happy to discuss next steps on a call.
+  
+  Thanks,
+  Paul
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:02:41  [chrome.exe] Property Compliance App Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  20
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:06:25  [chrome.exe] Sports Odds Discrepancy Alert Scanner | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 11:06:43  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  if one guy is passing
