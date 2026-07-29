@@ -1,0 +1,33 @@
+﻿
+--- WINDOW  2026/07/29 08:58:58  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+  [Clipboard]
+  nteractive Brokers operates the MCP server. You log in through IBKR’s own authentication screen and authorize access. IBKR says your brokerage password and API keys are not passed to the AI provider. You can later revoke the connection through Settings → Manage Third-Party Consents.
+  
+  This differs from older trading-bot setups in which users might give a third-party application an API key capable of directly placing orders.
+  
+  What information the AI can access
+  
+  Depending on the authorization, account permissions and market-data entitlements, the AI can work with information such as:
+  
+  Current positions and cash balances
+  Buying power and margin availability
+  Realized and unrealized profit or loss
+  Historical transactions and recent trades
+  Open orders and execution status
+  Option chains
+  Portfolio and concentration risks
+  Multi-currency balances
+  Linked-account and portfolio structures
+  Current or delayed market data
+  
+  Interactive Brokers states that market-data retrieval remains subject to the client’s existing data entitlements. Therefore, connecting an AI does not automatically provide every real-time exchange feed for free.
+
+--- WINDOW  2026/07/29 08:59:09  [msedge.exe] Connections | LinkedIn and 2 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:19:05  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 09:19:05  [msedge.exe] Connections | LinkedIn and 2 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
