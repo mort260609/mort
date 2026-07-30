@@ -1,0 +1,575 @@
+﻿  [LMB]
+
+--- WINDOW  2026/07/30 10:26:39  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:26:39  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Deduct
+
+--- WINDOW  2026/07/30 10:30:40  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:30:41  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  연역법의 리론
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 10:33:43  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:33:43  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:33:43  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 10:35:35  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:35:35  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:35:36  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  but once you say again, I will do like that. please don't make I let you regret
+  [LMB]
+
+--- WINDOW  2026/07/30 10:40:04  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:40:05  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 10:41:51  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:41:51  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:41:52  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  and will spread your weakness
+  [Clipboard]
+  https://www.linkedin.com/jobs/view/4432393583/
+
+--- WINDOW  2026/07/30 10:48:48  [chrome.exe] (20) developer Jobs | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 10:48:52  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/30 10:48:55  [chrome.exe] Senior Software Developer | Engel & Völkers | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  The strip() method removes any whitespace from the beginning or the end:
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  About the job
+  Senior Software Developer (Remote)
+  
+  Engel & Völkers is a global luxury brand specializing in residential and commercial real estate, and yachting. Founded in Hamburg, Germany in 1977, Engel & Völkers now includes over 1,000 brokerages in 35 countries across five continents. Engel & Völkers in the Americas supports a network of premium residential real estate brokerages throughout the United States, Canada, Mexico and the Caribbean and is responsible for the firm’s ongoing expansion in additional markets.
+  
+  Engel & Völkers Canada is hiring a Senior Software Developer to own and evolve internal platform applications across our real estate ecosystem. This is a hands-on senior role with meaningful technical ownership: you will maintain mature production systems.
+  
+  This is a strong fit for an AI-first, engineering-grounded developer who is comfortable learning unfamiliar code, improving it thoughtfully, and balancing pragmatic delivery with long-term consistency. You should be excited about TypeScript, Next.js, Node.js, AWS Lambda-based systems, and the opportunity to mentor teammates while helping create more shared technical standards.
+  
+  WHAT YOU’LL WORK ON
+  
+  Own and improve internal applications that support property/listing workflows, approvals, knowledge management, AI-assisted tooling, reporting, administration, and related platform capabilities.
+  Build and maintain TypeScript/Node.js backends, API layers, and server-rendered applications using patterns such as NestJS/Fastify, Next.js, Astro/SvelteKit, and AWS Lambda.
+  Contribute to our Next.js/Turborepo platform, including shared React UI, auth helpers, schemas, reference data, test tooling, deployment scripts, and developer experience.
+  Work across AWS and data infrastructure including Lambda, API Gateway-style APIs, Amplify, AppSync, DynamoDB, S3, SSM, EventBridge, CloudWatch, ECS/Fargate, PostgreSQL, Drizzle, and Dynamoose.
+  Maintain integrations with authentication services, listings APIs, knowledge base APIs, email workflows, analytics, search, Google Places, and AWS Bedrock-backed AI features.
+  Help reduce single-person knowledge risk by documenting, simplifying, improving CI/CD/testing, and partnering with product and engineering leadership on pragmatic technical decisions.
+  WHAT WE’RE LOOKING FOR
+  
+  5+ years of professional software engineering experience, with senior-level ownership of production systems.
+  Strong TypeScript and Node.js skills, with comfort working from frontend components through backend services and infrastructure.
+  Strong React and Next.js experience, including SSR/server components, API/client data boundaries, shared component systems, and modern frontend tooling.
+  AI-first development mindset with real engineering depth: you use tools such as Claude Code, Cursor, Copilot, or similar, but can independently debug, design, test, review, and verify correctness.
+  Experience with AWS-backed applications, especially Lambda/serverless patterns, S3, DynamoDB, SSM/secrets, CloudWatch, and CI/CD pipelines.
+  Practical experience with databases, API contracts, runtime validation, authentication, authorization, and secure secret handling.
+  Comfort maintaining mature systems that may use different patterns than the new platform, including server-rendered UIs, web components, and older deployment models.
+  Clear communication, low ego, high ownership, strong testing instincts, and leadership potential: you can mentor, influence architecture, create alignment, and work from shared standards while staying pragmatic.
+  NICE TO HAVE
+  
+  Experience with AWS Amplify Gen 2, AppSync GraphQL, EventBridge scheduled jobs, CDK, SST, or Serverless Framework.
+  Experience with NestJS, Fastify, Astro, SvelteKit, HTMX, Lit web components, or Web Components generally.
+  Experience with Turborepo or other TypeScript monorepos, shared package design, affected-app CI/CD, Drizzle ORM, Dynamoose, and typed schema/codegen workflows.
+  Real estate technology, listings/MLS data, brokerage operations, marketplace/platform experience, or prior small-team ownership of ambiguous work.
+  WHY JOIN US
+  
+  Fully remote, Canada-based role with a flexible working environment.
+  Small senior team where your work has visible impact, broad ownership, and room to help shape how the team operates.
+  Direct reporting line to the VP of Engineering and meaningful influence on technical direction.
+  Real production systems to own, not just greenfield prototypes.
+  Active investment in a modern TypeScript, Next.js, AWS-native platform with shared tooling, serverless services, and developer experience.
+  Opportunity to grow into broader technical leadership as the platform and responsibilities evolve.
+  
+  The compensation will be from $145,000 to $170,000 CAD annually.  Do you feel that you are the right individual to accept and succeed in this position? We are looking forward to receiving your application.
+  
+  At Engel & Völkers we strive to build diverse teams and are committed to equal employment opportunity  welcoming and considering qualified applicants for all positions without regard to race, color, creed, religion, ancestry, national origin, age, gender identity, sex, marital status, sexual orientation, physical or mental disability, or any other group protected by law.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/30 10:49:50  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:49:50  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 10:49:55  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:49:57  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:49:57  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 10:50:10  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 10:50:12  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:50:14  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 10:50:23  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 10:50:39  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 10:50:42  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:50:42  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:50:42  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:50:44  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 10:51:10  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:51:10  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:51:11  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 10:56:18  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:56:19  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 10:58:24  [chrome.exe] Convert Mockup to Shopify Theme | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I already have a full-page mock-up of my new Shopify store and now need it turned into a production-ready theme. The shop will sell hardware items, so every template, menu and label must appear in Spanish from the start. I’m aiming for a moderno look that feels clean and up-to-date while still accommodating a fairly large catalogue.
+  
+  Key features I must see working before hand-off:
+  • Buscador avanzado that lets shoppers filter screws, drills, paints, etc. by brand, size and price in real time.
+  • Visible zones for promociones so I can swap banners or countdowns without touching code.
+  • Secciones de productos destacados on the home page and collection pages, managed through Theme Customizer.
+  
+  Please code the theme natively in Liquid/Shopify 2.0, keep CSS and JS lightweight, and leave settings clearly labelled in Spanish so my team can update content easily. Once everything validates against Shopify’s Theme Check and passes page-speed insights, send me a .zip ready for upload along with brief setup instructions.
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 10:58:34  [chrome.exe] Recent download history
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:58:35  [Photos.exe] Photos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 10:58:37  [Photos.exe] 82deef71-4849-457d-9631-2a4d9e479d6f (1).png
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 10:58:39  [chrome.exe] Convert Mockup to Shopify Theme | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  === INTERNAL ESTIMATE ===
+  Estimated Hours: 60-100
+  Estimated Budget: $2,000-$4,000 USD
+  Estimated Timeline: 3-5 weeks
+  Confidence: Medium
+  
+  === PROPOSAL ===
+  Hi, Canada based developer here. I'm available for a video call if you'd like to go over the mock-up and requirements.
+  
+  You need a production-ready Shopify 2.0 theme with Spanish labels, a lightweight Liquid codebase, and a fast, maintainable buscador avanzado. The core challenges are: 1) real-time filtering for a fairly large catalogue, and 2) clear Spanish settings so your team can manage promociones and secciones without touching code. I’ve built a handful of Shopify themes with AJAX filters and configurable home/collection sections that stay performant and Theme Check–clean.
+  
+  I’d implement filters via server-side collections + AJAX (fast, SEO-friendly), keep CSS/JS minimal, and expose theme settings in Spanish for banners, countdowns, and featured products. I’ll deliver a .zip and short setup notes once it passes Theme Check and PageSpeed.
+  
+  A couple of quick questions:
+  1. Is this a new Shopify store or an existing one (theme/data to migrate)?
+  2. Are product attributes (brand, size) stored as tags, meta fields, or both?
+  
+  Thanks,
+  Paul
+  [Ctrl]fspaom[Bk][Bk]
+  [Clipboard]
+  Hi, Canada based developer here. 
+  
+  You need a production-ready Shopify 2.0 theme with Spanish labels, a lightweight Liquid codebase, and a fast, maintainable buscador avanzado. 
+  The core challenges are: 
+  1) real-time filtering for a fairly large catalogue, and 
+  2) clear Spanish settings so your team can manage promociones and secciones without touching code. 
+  I’ve built a handful of Shopify themes with AJAX filters and configurable home/collection sections that stay performant and Theme Check–clean.
+  
+  Here's my latest work:
+  https://notebooktherapy.com
+  https://www.supermerch.com.au/
+  
+  I’d implement filters via server-side collections + AJAX (fast, SEO-friendly), keep CSS/JS minimal, and expose theme settings in Spanish for banners, countdowns, and featured products. I’ll deliver a .zip and short setup notes once it passes Theme Check and PageSpeed.
+  
+  A couple of quick questions:
+  1. Is this a new Shopify store or an existing one (theme/data to migrate)?
+  2. Are product attributes (brand, size) stored as tags, meta fields, or both?
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  https://www.freelancer.com/projects/shopify-development/Convert-Mockup-Shopify-Theme/details
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Convert Mockup to Shopify Theme
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  United States
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $500.00 USD
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 11:01:31  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:01:31  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 11:02:17  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:02:18  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 11:02:47  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:02:49  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:02:50  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 11:02:54  [chrome.exe] Convert Mockup to Shopify Theme | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I already have a full-page mock-up of my new Shopify store and now need it turned into a production-ready theme. The shop will sell hardware items, so every template, menu and label must appear in Spanish from the start. I’m aiming for a moderno look that feels clean and up-to-date while still accommodating a fairly large catalogue.
+  
+  Key features I must see working before hand-off:
+  • Buscador avanzado that lets shoppers filter screws, drills, paints, etc. by brand, size and price in real time.
+  • Visible zones for promociones so I can swap banners or countdowns without touching code.
+  • Secciones de productos destacados on the home page and collection pages, managed through Theme Customizer.
+  
+  Please code the theme natively in Liquid/Shopify 2.0, keep CSS and JS lightweight, and leave settings clearly labelled in Spanish so my team can update content easily. Once everything validates against Shopify’s Theme Check and passes page-speed insights, send me a .zip ready for upload along with brief setup instructions.
+  cc
+
+--- WINDOW  2026/07/30 11:03:24  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:03:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 11:03:25  [explorer.exe] Downloads
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 11:03:31  [Photos.exe] Photos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:03:32  [Photos.exe] 82deef71-4849-457d-9631-2a4d9e479d6f (1).png
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 11:04:04  [explorer.exe] Downloads
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 11:04:06  [chrome.exe] Convert Mockup to Shopify Theme | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 11:06:44  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 11:06:47  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 11:06:51  [chrome.exe] Engine Development pc | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 11:07:07  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 11:11:36  [chrome.exe] (1) Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  why shout?
+
+--- WINDOW  2026/07/30 11:11:39  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 11:11:44  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:11:44  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:11:45  [chrome.exe] Engine Development pc | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Hi,
+  
+  I’m looking for an elite software engineer and reverse engineering specialist with expert-level knowledge across a wide range of technologies. I’m looking for someone who can analyze, understand, and work with virtually any software stack or programming language.
+  
+  Required expertise includes, but is not limited to:
+  
+  * Reverse Engineering
+  * C, C++, C#
+  * .NET Framework and .NET (Core/5/6/7/8+)
+  * Win32 API
+  * Windows Internals
+  * x86/x64 Assembly
+  * DLL analysis and development
+  * Static and dynamic binary analysis
+  * Debugging (user mode and kernel mode)
+  * Low-level systems programming
+  * Cryptography and cryptographic libraries
+  * USB protocol analysis
+  * Serial communication
+  * Device communication protocols
+  * Driver architecture and Windows drivers
+  * Memory analysis
+  * Performance optimization
+  * Software architecture and large-scale codebases
+  * Python
+  * Rust
+  * Go
+  * Java
+  * JavaScript/TypeScript
+  * PowerShell
+  * Bash
+  * Git and modern development workflows
+  
+  The ideal candidate should be able to understand unfamiliar codebases quickly, analyze complex software architectures, debug difficult issues, and develop robust, high-performance solutions.
+  
+  I have a large collection of technical materials, including source code, DLLs, binaries, protocol captures, logs, and documentation. I’m looking for someone who can review everything, understand the complete architecture, and contribute at the highest professional level.
+  
+  If you have extensive experience with complex low-level software projects and believe you have the skills to tackle virtually any engineering challenge, I’d like to discuss the project, timeline, and budget.
+  
+  I have a complete USBPcap capture of the communication workflow. The objective is to analyze the recorded communication, fully understand the protocol and execution flow, and use that understanding to develop an independent engine that reproduces the same documented behavior and functionality.
+  
+  The project requires someone with extensive experience in USB protocol analysis, reverse engineering, binary analysis, low-level Windows development, and systems programming. You should be comfortable working with protocol captures, DLLs, binaries, and debugging tools to understand how the components interact and to implement a robust, high-performance engine based on the observed communication.
+  
+  If you have experience with projects of this complexity, I’d be interested in discussing the technical details, timeline, and budget.
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 11:12:39  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 11:12:45  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:12:46  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 11:13:19  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:13:19  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:13:20  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 11:16:56  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:16:57  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 11:17:46  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:17:47  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:17:47  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 11:19:16  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:19:16  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:19:16  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 11:21:13  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:21:13  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 11:21:13  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  dignified
+  [LMB]
