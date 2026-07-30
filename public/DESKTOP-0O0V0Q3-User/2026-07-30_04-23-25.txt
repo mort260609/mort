@@ -1,0 +1,402 @@
+﻿  [Clipboard]
+  Hi, everyone. I am Susan from China. I am on the career as a full stack web developer.
+
+--- WINDOW  2026/07/30 03:28:28  [chrome.exe] Android Puzzle & Ludo Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 03:28:32  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 03:28:38  [chrome.exe] Tokenized Real Estate Marketplace Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  We are developing RWAvenue, a Web3-based Real-World Asset (RWA) marketplace that enables users to tokenize, trade, auction, and invest in valuable physical assets through blockchain technology.
+  
+  The platform transforms assets such as luxury watches, fine art, collectibles, precious metals, real estate, stocks, bonds, and other high-value assets into secure on-chain digital assets, providing transparent ownership, trusted asset validation, and seamless peer-to-peer transactions.
+  
+  We currently have an MVP and are looking for an experienced developer to help us expand it into a production-ready marketplace.
+  
+  Here is what I'm after:
+  - Develop a modern, responsive web application using React/Next.js (or a similar framework) with a clean and intuitive user experience.
+  - Build scalable backend services using Node.js, Express.js, and PostgreSQL to manage users, assets, marketplace data, and transactions.
+  - Integrate Ethereum/Polygon smart contracts (ERC-721/ERC-1155) for asset tokenization and ownership management.
+  - Implement wallet connectivity (MetaMask, WalletConnect, etc.) and support secure blockchain interactions.
+  - Develop marketplace features, including:
+  * Browse and search tokenized assets
+  * Advanced filtering and sorting
+  * Asset detail pages
+  * User portfolios
+  * Auctions and direct trading
+  - Build an admin dashboard that allows administrators to:
+  * Create and manage asset listings
+  * Upload images and supporting documents
+  * Manage users and permissions
+  * Review and approve asset submissions
+  * Monitor marketplace activity
+  - Integrate decentralized or cloud storage (IPFS, AWS S3, or similar) for asset images and metadata.
+  - Write clean, maintainable, and well-documented code following modern development standards.
+  - Collaborate through GitHub using pull requests and participate in regular code reviews.
+  
+  Acceptance Criteria
+  1. Users can browse, search, and filter tokenized assets with fast page loading and responsive performance.
+  2. Each asset has a dedicated detail page displaying images, descriptions, ownership information, and token metadata.
+  3. Wallet connection and blockchain interactions function correctly on the selected testnet.
+  4. Administrators can create, edit, approve, and manage asset listings through the admin dashboard.
+  5. Smart contracts successfully tokenize assets and record ownership on-chain.
+  6. Marketplace functions, including listing, trading, and auction workflows, operate correctly within the MVP scope.
+  7. Backend APIs are secure, well-structured, and integrated with PostgreSQL.
+  8. The project follows best practices for code quality, including ESLint, Prettier, automated testing, and clear documentation.
+  9. The solution is designed with scalability in mind so future AI-powered features and additional blockchain networks can be integrated without major architectural changes.
+  
+  If this sounds like a project you'd enjoy, please tell me:
+  - Which technology stack you recommend for this project.
+  - Your experience building Web3 or blockchain applications.
+  - One or two similar projects you've worked on.
+  - Your estimated timeline and availability.
+  - Any suggestions you have for improving the overall architecture.
+  ccc
+  [LMB]
+
+--- WINDOW  2026/07/30 03:28:58  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 03:29:36  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:29:37  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:29:37  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:30:36  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:30:37  [chrome.exe] Turn on caret browsing?
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:30:38  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:30:38  [chrome.exe] Google Chrome Help - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 03:30:41  [chrome.exe] Turn on caret browsing?
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:30:41  [chrome.exe] Google Chrome Help - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 03:30:42  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 03:31:57  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:31:57  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:31:57  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 03:32:17  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:32:18  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:32:18  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  masonhenderson01
+  [LMB]
+  [Clipboard]
+  hammerAi
+  [Clipboard]
+  Why are you taking your frustrations out on me?
+  [LMB]
+
+--- WINDOW  2026/07/30 03:42:32  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:42:33  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 03:43:06  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 03:43:13  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:43:13  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:43:13  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:43:15  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  awesome
+  [Clipboard]
+  Good day to everyone of you. how is today going for everyone?
+  
+  Would you be interested in a $25/hour part-time remote job that requires six hours of work per day, four shifts on Monday through Friday, and payment on Friday at the end of the workweek?
+  
+  Send me an email with your name and phone number if you're interested and would like more information, and I'll tell you how to apply.
+
+--- WINDOW  2026/07/30 03:53:09  [chrome.exe] Tokenized Real Estate Marketplace Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 03:53:58  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:53:58  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 03:54:39  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 03:54:40  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 04:01:04  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 04:01:05  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  I'm trying so hard to learn English properly
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 04:02:45  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 04:02:45  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 04:02:46  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 04:04:47  [chrome.exe] iOS Game Development Team Needed for Social Casino Apps -- 3 | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 04:04:50  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 04:06:15  [chrome.exe] iOS Health Tracking App Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  I'm looking for an experienced app developer to create a health tracking app for iOS. The primary focus will be on tracking a specific aspect of health.
+  
+  Essential Requirements:
+  - iOS compatibility
+  - User-friendly interface
+  - Secure data handling
+  
+  Ideal Skills and Experience:
+  - Proficiency in Swift and iOS development
+  - Experience with health-related apps
+  - Strong UI/UX design skills
+  - Knowledge of data privacy regulations
+  
+  Please share your portfolio and relevant experience.
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I'm available for a quick video call if you'd like to walk through requirements.
+  
+  It sounds like the core work is: reliable, private collection of one focused health metric with a smooth, simple iOS UI and secure storage. The main challenges are UX for quick logging/visualization and making sure data handling meets privacy expectations.
+  
+  I've built similar iOS health apps using Swift with HealthKit integration and local encrypted storage (Core Data / SQLCipher) for sensitive data. My approach would be to prototype the primary flow (log → view history → export/backup), validate the UI with a small group, then harden storage and sync behavior.
+  
+  Here's my latest work:
+  https://play.google.com/store/apps/details?id=com.kayakpro.erg
+  https://play.google.com/store/apps/details?id=com.salebug.truckstop
+  
+  A couple of quick questions:
+  1. Do you want Apple Health (HealthKit) sync, or should data remain app-only?
+  2. Will the app need cloud backup/sync across devices (and any regulatory constraints like PIPEDA/HIPAA)?
+  
+  Happy to share relevant portfolio links on request. 
+  Thanks,  
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  100
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  iOS Health Tracking App Development
+  
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $20.00 USD
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/app-development/iOS-Health-Tracking-App-Development/details
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Germany
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 04:08:30  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 04:08:31  [chrome.exe] contracts.freelancer.com/contract-potential/access/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb250cmFjdF9yb2xlX3BvdGVudGlhbCI6Mzc3Nzc5MSwicmVkaXJlY3RfdXJsIjoiaHR0cHM6Ly93d3cuZnJlZWxhbmNlci5jb20vYWpheC9wcm9qZWN0L2NvbnRyYWN0L3ZlcmlmeS5waHA_cHJvamVjdElkPTQwNjE0NzQ4JmNvbnRyYWN0UG90ZW50aWFsSWQ9MTg4ODg4OCZjb250cmFjdFJvbGVQb3RlbnRpYWxJZD0zNzc3NzkxJnJvbGU9RnJlZWxhbmNlciIsImlhdCI6MTc4NTQwNjExMX0.7gKmkW-QxfjwEjNuVqy5BolOLpjm_mwl9D0Go0Lezx8 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 04:08:40  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 04:08:41  [chrome.exe] iOS Health Tracking App Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 04:08:54  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 04:09:10  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 04:09:11  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  beltrammilas
+
+--- WINDOW  2026/07/30 04:10:30  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 04:10:31  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 04:10:31  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  susanwebdev
+  [LMB]
+  [Clipboard]
+  panda.fullstackwebdev
+  [LMB]
+  [Clipboard]
+  _yash.madke_
+  [LMB]
+
+--- WINDOW  2026/07/30 04:18:11  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 04:18:12  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 04:18:25  [chrome.exe] Gemini-Driven Web App Build | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 04:18:29  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 04:18:29  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 04:18:29  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 04:21:15  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 04:21:16  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 04:21:16  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  void_art_
