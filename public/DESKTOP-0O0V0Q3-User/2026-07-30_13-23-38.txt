@@ -1,0 +1,160 @@
+﻿  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 12:26:24  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 12:26:25  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 12:28:44  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 12:28:44  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 12:28:44  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 12:30:52  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 12:30:53  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 12:33:37  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 12:33:38  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 12:33:38  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 12:38:19  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 12:38:20  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  PRK P Chongbong
+  [LMB]
+
+--- WINDOW  2026/07/30 12:51:22  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 12:51:23  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Overall purpose
+  
+  This function solves a classic programming interview/calendar problem:
+  
+  Given a year, a starting month, an ending month, and the weekday of January 1st, compute how many complete weeks (Monday through Sunday) are fully contained within the period from the start of month A to the end of month B.
+  
+  One caveat is that its leap-year check (Y % 4 === 0) is simplified and will produce incorrect results for century years like 1900 and 2100 under the Gregorian calendar.
+  [LMB]
+
+--- WINDOW  2026/07/30 12:54:22  [chrome.exe] Enhance Next.js Dashboard Reporting | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I have an existing SaaS-style dashboard built with Next.js and need several feature upgrades so the application delivers deeper business insight without compromising performance. The codebase is clean, TypeScript-ready, and already uses React Query and TailwindCSS; your updates should slot in smoothly.
+  
+  Core objectives
+  • Add interactive chart components that render smoothly on both desktop and mobile. I’m open to Recharts, Chart.js, or another modern library as long as it plays well with SSR in Next.js.
+  • Implement flexible data-filtering hooks (dates, categories, users, etc.) so stakeholders can slice information in real time and see the charts refresh instantly.
+  • Surface key KPIs—sales, retention, traffic and others we define together—on a compact panel with trend indicators.
+  • Provide export options: CSV and PDF downloads triggered from a single, reusable button component.
+  • Refine the overall dashboard UX: sensible loading states, lazy-loaded modules, and Lighthouse-friendly performance.
+  
+  Acceptance criteria
+  1. All new UI matches the current Tailwind design tokens.
+  2. Charts and filters work with live API data, not mock fixtures.
+  3. KPI panel renders in under 200 ms on first paint and stays below 100 KB added bundle size.
+  4. Exports contain exactly what the user sees on screen and pass a quick manual QA.
+  5. PR includes clear README notes plus Jest/React Testing Library coverage for the new logic.
+  
+  If this sounds like your wheelhouse, let’s talk tech details and timelines so I can get the new reporting suite into production without disrupting existing users.
+  cc
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  It sounds like the tricky parts are: adding SSR-friendly charting that stays lightweight, building reactive filter hooks that work with your live APIs/React Query cache, and keeping the KPI panel under the strict performance/bundle targets. I’ve done similar Next.js dashboards using Recharts and lightweight custom canvas renderers, and shipped export CSV/PDF tooling tied to the visible state (not separate fixtures).
+  
+  Plan (high level): slot in Recharts or Chart.js components with server-safe rendering, shared useFilter hook that composes with React Query, small KPI component optimized for first paint, and a single export button that serializes current filters. I’ll add Jest/RTL tests and a README for the PR.
+  
+  A couple questions:
+  1. Do your APIs already support server-side pagination/aggregation for the charts, or will we need new endpoints?
+  2. Any existing PDF template or should I generate a simple, printable layout?
+  
+  Thanks,
+  Paul
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 12:55:26  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 13:01:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 13:01:26  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 13:09:31  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 13:09:32  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 13:09:57  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 13:10:00  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 13:10:01  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 13:10:25  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 13:10:33  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 13:10:33  [SearchApp.exe] Search
+----------------------------------------------------------------------------
