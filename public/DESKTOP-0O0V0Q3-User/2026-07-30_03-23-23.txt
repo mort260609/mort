@@ -1,0 +1,156 @@
+﻿  cc
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  Καταλαβαίνω ότι το κρίσιμο πρόβλημα είναι το matching μεγάλου όγκου κωδικών (OE ↔ aftermarket) χωρίς να βαρύνει το DB και να κάνει το site αργό. Αυτό σημαίνει ευφυές indexing, caching και ένα “ελαφρύ” layer για lookup/normalization — όχι απλώς ένα μεγάλο join σε κάθε request.
+  
+  Έχω δουλέψει σε καταστήματα ανταλλακτικών και projects με Journal 3 όπου το bottleneck ήταν το matching. Σε παρόμοια περίπτωση λύσαμε το πρόβλημα με precomputed hashes, Redis caching και incremental feed processing ώστε οι αναζητήσεις να είναι O(1) στο runtime.
+  
+  Λίγα τεχνικά: OpenCart, MySQL indexing, Redis (ή in-memory cache) — αυτά θα λύσουν το κύριο ζήτημα απόδοσης.
+  
+  Μερικές ερωτήσεις:
+  1. Έχετε δείγμα feed (CSV/XML) με το mapping OE↔aftermarket ή θα πάρουμε δεδομένα από πολλαπλούς προμηθευτές;
+  2. Χρειάζεται ιστορικό αλλαγών στο mapping (audit) ή αρκεί το τρέχον mapping;
+  
+  Χαίρομαι να συζητήσουμε λεπτομέρειες σε call.
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [<-][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Ctrl][End][Home][Ctrl]
+  [Clipboard]
+  Χαίρομαι να συζητήσουμε λεπτομέρειες.
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:24:24  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:24:24  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:24:24  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  NEW socks entered the washing machine. 🧦🌀
+  CLOTHES came back... but only one sock! 😭
+  OWNER is convinced the machine eats them. 👻🧺
+  
+  Please check this and reply for it in the evening
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:29:12  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:29:13  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:43:45  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:43:46  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:44:57  [chrome.exe] Bin Packing & Cutting Stock Optimization | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:44:59  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:45:09  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:45:09  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:45:09  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:45:17  [chrome.exe] Advertencia Web sobre Estafador | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Necesito publicar en mi sitio una advertencia clara contra Hassann@tnowsolutions, un estafador de Pakistán que ha engañado a miembros de nuestro grupo. Quiero que la página sea sencilla, responsive y optimizada para buscadores, dejando muy visible el nombre, su modus operandi y consejos para evitar el fraude.
+  
+  El contenido principal lo componen varias capturas de pantalla que ya tengo (chats, comprobantes y pruebas). Tu labor será:
+  
+  • Redactar un texto introductorio con los datos clave y recomendaciones de seguridad.
+  • Diseñar una galería ordenada para las imágenes, cada una con pie descriptivo.
+  • Implementar la página en HTML/CSS estático o en WordPress, según te resulte más ágil, y dejarla publicada en mi dominio o un subdominio.
+  • Configurar títulos, metadescripciones y etiquetas básicas de SEO para que la advertencia sea fácil de encontrar.
+  • Incluir un breve instructivo que me permita añadir nuevas pruebas después.
+  
+  Si más adelante decido complementar con texto detallado o un breve video explicativo, podremos ampliarlo, pero esta primera entrega se centra en la versión con imágenes. Valoraré tu experiencia previa con contenidos sensibles y cualquier sugerencia legal sobre avisos de responsabilidad.
+  cc
+  [LMB]
+  [Clipboard]
+  Hi JinSuyan, I just wanted to ask what the minimum hourly rate you would accept .
+  Personally, I'm comfortable accepting between $10 and $20 per hour because there's a significant difference between the value of the US dollar and my country's currency, and I'm still a junior developer.
+  [LMB]
+
+--- WINDOW  2026/07/30 02:49:02  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:50:05  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:50:06  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  복소수를 생활의 어느 분야에서 리용하니?
+  [Clipboard]
+  Specify a Variable Type
+  There may be times when you want to specify a type on to a variable. This can be done with casting. Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.
+  
+  Casting in python is therefore done using constructor functions:
+  
+  int() - constructs an integer number from an integer literal, a float literal (by removing all decimals), or a string literal (providing the string represents a whole number)
+  float() - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)
+  str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals
+  [LMB]
+  [Clipboard]
+  Hi, thank you for letting me know. I appreciate your honesty.
+  
+  That range sounds reasonable, especially considering your experience level. I think we can work within that range. Let's discuss the project in more detail first so we can agree on a fair hourly rate based on the scope and responsibilities.
+  
+  Looking forward to hearing from you!
+  
+  [Clipboard]
+  My range is between $25 ~30
+  [Clipboard]
+  Just call me by Suyan. Jin is my surname
