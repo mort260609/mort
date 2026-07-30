@@ -1,0 +1,330 @@
+﻿  [Clipboard]
+  Statements
+  A computer program is a list of "instructions" to be "executed" by a computer.
+  
+  In a programming language, these programming instructions are called statements.
+  
+  The following statement prints the text "Python is fun!" to the screen:
+  [LMB]
+
+--- WINDOW  2026/07/29 16:24:40  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 16:24:41  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 16:24:41  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  이어말하기
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 16:40:21  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 16:40:22  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 16:46:27  [chrome.exe] Elementor Page Templates and Components | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  We are looking for an experienced WordPress and Elementor developer to support the next stage of a large website rebuild.
+  
+  The project involves building a structured library of reusable Elementor components and using these components to create approximately 60 page templates based on approved Figma designs.
+  
+  The scope includes:
+  
+  Global image and video header components
+  Sub-header components
+  Reusable banners
+  Solution and industry pages
+  Custom solution and campaign landing pages
+  Case study, news and knowledge centre archive and post templates
+  High-level static pages
+  Brand pages
+  Policy pages
+  
+  Existing button and breadcrumb templates have already been created and must be reused throughout the build.
+  
+  Each page has a corresponding blank Elementor template in WordPress, linked through a Google tracking sheet. The developer will be required to build directly within these supplied templates and accurately translate the relevant Figma designs, including layout structure, spacing, typography, colours, imagery, overlays and responsive behaviour.
+  
+  All work must use Elementor Builder, native Elementor widgets and the Crocoblock widgets already installed. No additional plugins, widget packs, replacement templates or theme-level code should be introduced.
+  
+  We are looking for someone with strong attention to detail, extensive Elementor experience and the ability to build clean, consistent and reusable page components across a large website.
+  c
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I can jump on a video call to walk through the Figma files and the Google tracking sheet if that helps.
+  
+  It sounds like the main challenge is translating the approved Figma designs into a small, consistent library of reusable Elementor components (headers, banners, sub-headers, archives, post templates) while strictly using native Elementor and the existing Crocoblock widgets — and then applying those components across ~60 blank templates without introducing new plugins or theme code.
+  
+  I've built similar component-led WordPress builds with Elementor and Crocoblock, creating 40–70 templates from a design system and keeping responsive behavior consistent. 
+  My approach: prioritize the core components, verify breakpoints and typography, then batch-build templates using the tracking sheet.
+  
+  My latest work:
+  https://notebooktherapy.com
+  https://www.supermerch.com.au/
+  
+  A couple of quick questions:
+  1. Are the responsive breakpoints and type scale defined in the Figma file?
+  2. Are all imagery and brand assets already uploaded to WP, or should I expect to import them?
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  15
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/elementor/Elementor-Page-Templates-Components/details
+  cc
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Elementor Page Templates and Components
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Australia
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  $4,000.00 AUD
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 16:49:45  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 16:49:45  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  where to learnt that remove the message before I don't see it
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 17:13:03  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 17:13:04  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 17:13:15  [chrome.exe] Development of an AI-Powered Trading Bot — Mandatory Profitable Results and Performance Guarantee | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 17:13:41  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://klipy.com/gifs/mochi-cat-62
+  [Clipboard]
+  :face_with_bags_under_eyes: 
+  [LMB]
+  [Clipboard]
+  🫩
+  [Ctrl]s
+
+--- WINDOW  2026/07/29 17:20:47  [chrome.exe] Save As
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 17:24:31  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 17:24:36  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 17:24:37  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 17:26:39  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 17:26:39  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 17:28:31  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 17:28:31  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 17:28:31  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  vague
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 17:35:06  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 17:35:07  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 17:36:57  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 17:36:57  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 17:36:58  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Sweet revenge!
+  [Clipboard]
+  First of all, I will buy one laptop for our work to show trust.
+  but on ebay and deliver to you
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 17:53:42  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 17:53:43  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 17:54:17  [chrome.exe] Elementor Page Templates and Components | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 17:54:20  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 17:54:20  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 17:54:22  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 17:54:23  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Text in Python must be inside quotes. You can use either " double quotes or ' single quotes:
+
+--- WINDOW  2026/07/29 17:56:11  [chrome.exe] Affordable Homebuyer Lead Capture Page | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I need a clean, mobile-first landing page that introduces my affordable-housing listings and, above all, captures new leads. The single call-to-action is a simple two-field form—name and email—so visitors can register their interest without friction.
+  
+  Alongside an eye-catching hero section and concise copy that highlights the benefits of buying affordable real estate through me, the page should include: trust badges, a short “how it works” summary, a persuasive testimonial slider, and social-sharing meta tags so the design looks great when linked on Facebook, Instagram, or X.
+  
+  Please build with whichever stack you work fastest in—custom HTML/CSS/JS, WordPress + Elementor, or a dedicated builder such as Leadpages or Unbounce—and make sure the code is lightweight and SEO-friendly. Google Analytics and Facebook Pixel hooks must be ready so I can track visits and retarget on social media later.
+  
+  Deliverables
+  • Responsive landing page (desktop, tablet, mobile)
+  • Simple form capturing only name and email, routed to my email/CRM or a Google Sheet
+  • Thank-you confirmation state and autoresponder email template
+  • Optimised images and open-graph tags for smooth social sharing
+  • Step-by-step hand-off notes so I can tweak text or swap photos myself
+  
+  When the page passes these points—loads in under three seconds, renders perfectly on major browsers, and successfully records lead data—you can consider the project complete. I’m ready to get started right away.
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 18:01:34  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I need a developer who can replicate the look-and-feel and core flow of an existing informational site, then adapt it so I can publish educational material and display live “total count” figures throughout the pages. Those numbers will be fed from simple data points I update in the admin area; as soon as I change them, the site should refresh the displayed totals everywhere they appear.
+  
+  The content will be mainly text, images, and downloadable resources (PDFs, slide decks, worksheets, etc.). At this stage I do not need interactive quizzes or embedded video, though I’d like the structure to be flexible enough to add those later without a ground-up rebuild.
+  
+  Key points you should cover
+  • Pixel-close visual match to the reference site, re-skinned with my colors and branding
+  • Clean dashboard or CMS controls for updating counts and uploading new resources
+  • Mobile-first responsiveness and standard accessibility checks
+  • Fast load times and basic on-page SEO setup
+  
+  Deliverables
+  1. Fully functional website on my hosting, mirrored to staging for future updates
+  2. Documentation (brief) on how to change the totals, add pages, and attach new downloads
+  3. Two weeks of post-launch support to squash any missed bugs
+  
+  If you prefer WordPress, Webflow, or a lightweight custom stack, let me know why—it just has to be easy for a non-developer to maintain. Share a couple of similar builds and an outline of how you’d tackle the dynamic count feature, and we can get started right away.
+  
+  Need it done ASAP Before meeting tomorrow 11 AM PST
+  
+  Required Skills
+  cccc
+  [LMB]
+
+--- WINDOW  2026/07/29 18:06:11  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 18:06:20  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 18:06:20  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 18:06:21  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  W3.CSS is a CSS framework for developing websites and web apps.
+  
+  It provides equality for all browsers on all devices.
+  
+  W3.CSS is free, open source, and uses standard CSS only.
+  [LMB]
+  [Clipboard]
+  Great job! You nailed it!
+  [LMB]
