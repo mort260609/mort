@@ -1,0 +1,519 @@
+﻿
+--- WINDOW  2026/07/30 02:06:57  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:07:07  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:07:08  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:07:08  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:07:19  [chrome.exe] Senior OpenCart Developer για E-shop Ανταλλακτικών (Έτοιμο Theme & Custom Backend Matching) | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Αναζητούμε έμπειρο Web Developer με εξειδίκευση στο OpenCart για τη δημιουργία ενός e-shop ανταλλακτικών αυτοκινήτων υψηλών επιδόσεων. Το e-shop θα βασιστεί σε έτοιμο theme (π.χ. Journal 3 ή παρόμοιο) με τις απαραίτητες παραμετροποιήσεις στο design και το layout.Η κύρια πρόκληση του έργου είναι το backend: η διαχείριση μεγάλου όγκου δεδομένων και η ταυτοποίηση κωδικών (matching μεταξύ γνήσιων/OE και aftermarket κωδικών).
+  Προτιμούμε μια "ελαφριά" custom λύση κώδικα για το σύστημα matching ώστε να αποφύγουμε την καθυστέρηση της βάσης δεδομένων, αλλά είμαστε ανοιχτοί και σε δοκιμασμένα, βελτιστοποιημένα extensions.Κύριες Απαιτήσεις & ΥλοποιήσειςΠλατφόρμα & Design: OpenCart (τελευταία σταθερή έκδοση) με χρήση έτοιμου theme και πλήρη παραμετροποίηση (customization) στα μέτρα μας.Σύστημα Match Κωδικών: Υλοποίηση "ελαφριού" συστήματος (custom ή optimized extension) για τη σύνδεση γνήσιων (OE) κωδικών με aftermarket κωδικούς χωρίς να επιβαρύνεται ο server.Βελτιστοποίηση Βάσης:
+  Άριστη γνώση σε MySQL indexing και query optimization για μεγάλο όγκο SKUs.Διασυνδέσεις & APIs:Δυνατότητα σύνδεσης με εξωτερικά APIs ανταλλακτικών (π.χ. TecDoc ή παρόμοια), αν υπάρχει σχετική τεχνογνωσία.Υλοποίηση δυναμικού XML/JSON feed για αυτόματη ενημέρωση αποθεμάτων και τιμών από προμηθευτές.Πληρωμές & Courier: Σύνδεση με ελληνικές τράπεζες / Viva Wallet και διασύνδεση με API ελληνικών courier (ACS, Γενική Ταχυδρομική, Speedex κ.λπ.) για αυτόματη έκδοση voucher.
+  Hosting & Server: Πλήρες στήσιμο σε VPS, παραμετροποίηση περιβάλλοντος και βελτιστοποίηση ταχύτητας (caching, production-ready setup).
+  Προφίλ FreelancerΑποδεδειγμένη εμπειρία σε OpenCart και παραμετροποίηση γνωστών themes.Κατανόηση της δομής δεδομένων της αγοράς aftermarket (cross-referencing).Ικανότητα συγγραφής καθαρού, ελαφριού κώδικα για το backend.
+  Για την εκδήλωση ενδιαφέροντος, παρακαλώ απαντήστε:
+  Έχετε υλοποιήσει ξανά e-shop ανταλλακτικών αυτοκινήτων; Παρακαλώ στείλτε σχετικά links.
+  Ποιο έτοιμο theme προτείνετε για αυτή τη χρήση και πόσο εύκολα συνεργάζεται με custom κώδικα για το matching κωδικών;
+  Πώς προτείνετε να χειριστούμε το cross-reference matching (Γνήσια vs Aftermarket) ώστε να μην "κρεμάει" το site;
+  Τι είδους hosting/server προτείνετε για αυτό το project;
+  cc
+  [LMB]
+
+--- WINDOW  2026/07/30 02:07:51  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:07:58  [chrome.exe] RAG-Powered AI Chatbot Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Project Overview
+  We are looking for an experienced GenAI developer to build two types of knowledge-base AI chatbots for our business.
+  1. Website embedded RAG chatbot (the standard web customer support bot, can be embedded into WordPress websites via JS snippet)
+  2. WhatsApp AI chatbot powered by the same RAG knowledge pipeline.
+  
+  The chatbot should retrieve answers from uploaded documents (PDF, FAQ text) using Retrieval-Augmented Generation, not only hard-coded replies.
+  
+  Core Requirements:
+  Web Chatbot
+  - Floating responsive chat widget, can be embedded into WordPress / static HTML sites
+  - RAG pipeline: document ingestion, vector database, LLM integration, conversation memory
+  - Streaming output for AI responses
+  - Simple admin panel to upload & update knowledge files
+  - Independent backend architecture, decoupled from website CMS
+  
+  WhatsApp Chatbot
+  - Integrate with official WhatsApp Cloud API / Twilio (We DO NOT accept unofficial personal account solutions like Baileys due to account ban risk)
+  - Reuse the same RAG knowledge base as the web bot
+  - Support context retention, smooth handover to human agent
+  
+  What we expect from you in your bid:
+  1. Attach links to your previous finished chatbot projects / portfolio demos. Lab experiments without live deployment are not preferred.
+  2. Briefly introduce your technical stack (Python, LangChain/LlamaIndex, vector database, LLM provider etc.)
+  3. Explain your architecture plan for both web widget and WhatsApp channel.
+  4. State your delivery timeline and total fixed-price quotation.
+  
+  Required Skills:
+  Python, Generative AI, RAG, Chatbot Development, LLM API Integration, FastAPI, JavaScript, WhatsApp API, WordPress embedding
+  
+  Budget Range: $500 – 800 USD
+  Project duration: Within 14 days
+  ccccc
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  You need a single RAG pipeline powering both a floating web widget and an official WhatsApp integration, with streaming responses and simple file uploads. The core challenge is a reliable ingestion → vector store → LLM flow that’s decoupled from WordPress and can be reused across channels while keeping context and human handover smooth.
+  
+  I’ve built similar systems: FastAPI backends, LangChain/LlamaIndex orchestration, and Pinecone/Weaviate for vectors, plus a JS widget embedded via snippet. For WhatsApp I’ve used the Cloud API (not unofficial clients) with a worker process to maintain conversational context and agent handover.
+  
+  A couple of quick questions:
+  1. Do you have preferred LLM provider(s) or budget constraints for model usage?
+  2. Will uploaded docs be mostly PDFs, or do you expect other formats (images, scans)?
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  10
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk]8
+  [LMB]
+  [LMB]
+  40
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/generative-ai/RAG-Powered-Chatbot-Development/details
+  cc
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  RAG-Powered AI Chatbot Development
+  c
+  [LMB]
+  [Ctrl][Ctrl]
+  [Clipboard]
+  China
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  $38.00 USD
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:11:00  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:11:23  [chrome.exe] Trade Compass Project Finalization | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Hi, I’d like you to review an existing project called Trade Compass. The platform is approximately 85–90% complete, and I’m looking for someone who can review the existing codebase, identify issues, and help bring it to production quality.
+  
+  The platform is built with Next.js, React, TypeScript, Node.js, PostgreSQL, and is deployed using Railway and Vercel. It integrates with SnapTrade for brokerage connections and currently supports Webull.
+  
+  Current Issues
+  
+  1. Master Trader Dashboard
+  
+  * The master trader account is connected to Webull, but the dashboard displays a balance of $0.00.
+  * The dashboard should display the live portfolio value, buying power, cash balance, open positions, and open orders pulled from the brokerage API.
+  
+  2. Brokerage Synchronization
+  
+  * I need someone to review the SnapTrade/Webull integration to ensure brokerage accounts stay synchronized correctly.
+  * Verify that balances, positions, and account information update consistently.
+  
+  3. Admin Dashboard
+  Several admin actions are currently only UI placeholders and need backend implementation, including:
+  
+  * Delete User
+  * Suspend/Reactivate User
+  * Disconnect Broker
+  * Reconnect Broker
+  * Force Broker Sync
+  * Reset Password
+  * Assign/Remove Master Trader
+  * Pause/Resume Copy Trading
+  
+  4. Broker Display
+  The Connected Brokers page currently shows multiple Webull accounts but doesn’t clearly identify which user owns each brokerage account.
+  Each broker connection should display:
+  
+  * User Name
+  * Broker Name
+  * Account Type
+  * Last 4 digits of the account
+  * Balance
+  * Buying Power
+  * Connection Status
+  * Last Sync Time
+  
+  5. User & Follower Management
+  Review the user management flow to ensure:
+  
+  * Followers are correctly assigned to master traders.
+  * Copy trading relationships remain accurate.
+  * User status updates properly throughout the platform.
+  
+  6. Error Handling
+  Replace placeholder or generic messages with meaningful production-ready error handling and improve logging to make debugging easier.
+  
+  7. General Code Review
+  I’m looking for someone who can:
+  
+  * Review the overall architecture.
+  * Identify performance bottlenecks.
+  * Clean up technical debt where appropriate.
+  * Improve backend reliability.
+  * Ensure the application is production-ready.
+  
+  Intergrate different brokers
+  cc
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:12:08  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:12:31  [chrome.exe] High-Speed Drone Airframe Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I’m developing a fixed-wing unmanned aircraft that must cruise comfortably above 200 knots with a 14 hp pusher prop engine. The finished platform will lift 30–35 kg at take-off, yet the bare airframe (clean fuselage and wings ) must not exceed 12–15 kg.
+  
+  High-speed stability is the single most important design driver. The layout also has to accommodate:
+  • a surveillance-grade gimbal camera ahead of the CG, (approx size of bay is 200mm x 200mm)
+  • Room for retractable undercarriage
+  • an 8 L fuel tank near the wing box, and
+  • a fully accessible avionics bay built around modular compartments so future sensors can be swapped in without re-cutting the structure.
+  
+  
+  To reach the target drag numbers I will need a full aerodynamic package: CFD-level lofting, airfoil selection, lift-to-drag optimisation, and flutter margins for the 200 kt envelope. Please include AI-driven “wind-tunnel” testing or surrogate modelling so we can iterate virtually before we cut any moulds.
+  
+  Deliverables
+  1. 3-D CAD of fuselage, wing and empennage ready for manufacture (STEP + native file)
+  2. Aerodynamic report: lift/drag curves, pressure maps, stability derivatives, flutter check
+  3. AI-assisted virtual wind-tunnel dataset with training method documented
+  4. Weight breakdown and structural justification showing the 12–15 kg airframe target
+  5. Integration drawings for the gimbal, 8 L tank, and modular avionics bay
+  6. Brief build manual highlighting materials, lay-ups or machining specs
+  7. Concept rendering
+  
+  Acceptance criteria: predicted cruise ≥200 kt at 75 % power, CLmax > required for 45 m take-off run, and total drag within 10 % of the CFD estimate across the operating envelope.
+  
+  Toolchain is flexible— SolidWorks is preferrable, ANSYS Fluent, STAR-CCM+, OpenFOAM, XFLR5, or similar are all fine as long as the mesh settings and solver assumptions are transparent. If you leverage Python or MATLAB for the AI component, please include scripts so I can rerun the model.
+  
+  Let me know your typical turnaround for the first set of aero plots and any past examples of high-speed UAV work.
+  ccc
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:13:38  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:14:03  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:14:17  [chrome.exe] Lead Generation Social Media Campaign | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:14:22  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:14:22  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:14:26  [chrome.exe] SaaS Marketplace & Recruiting Platform | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:14:33  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:14:43  [chrome.exe] SaaS Marketplace & Recruiting Platform | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:15:10  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:15:10  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:15:11  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:15:15  [chrome.exe] SaaS Marketplace & Recruiting Platform | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  https://www.freelancer.com/projects/full-stack-development/SaaS-Marketplace-Recruiting-Platform/details
+  c
+  [LMB]
+
+--- WINDOW  2026/07/30 02:15:17  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:15:40  [chrome.exe] C#/.NET Developer Needed | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  C# / .NET Engineer
+  Experience Level: Mid-Level (3-5 Years)
+  Requirements
+  - 3-5 years of professional software development experience with C#
+  - Strong experience with .NET 6/7/8 (or .NET Core) and/or .NET Framework
+  - Solid understanding of object-oriented programming (OOP), SOLID principles, and common design
+  patterns
+  - Experience building and consuming RESTful APIs (ASP.NET Core Web API)
+  - Hands-on experience with Entity Framework Core (or Dapper) and relational databases
+  - Proficiency with SQL Server (or PostgreSQL/MySQL) - query optimization, schema design, stored
+  procedures
+  - Experience with unit testing frameworks (xUnit, NUnit, or MSTest) and mocking libraries (Moq,
+  NSubstitute)
+  - Familiarity with Git version control and collaborative workflows (pull requests, code reviews)
+  - Understanding of asynchronous programming (async/await, Task-based patterns)
+  - Experience with dependency injection and middleware in ASP.NET Core
+  - Bachelor's degree in Computer Science, Engineering, or equivalent practical experience
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:16:01  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:16:22  [chrome.exe] Multilingual Speech Therapy App Testing families and teachers | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  I’m preparing the next release of my mobile speech-therapy application and need fresh eyes on every screen. If you are fluent in English, Spanish, French—and ideally any of the 26 other languages the app supports—your perspective will be invaluable as we fine-tune the experience for a truly global audience.
+  
+  The assignment centres on two things: how naturally a user can move through each exercise (overall usability) and how appealing, intuitive, and culturally neutral the interface feels. I’m less worried about the raw speech-recognition engine for this round; the priority is discovering moments where the layout, wording, or navigation slow people down.
+  
+  You will install the iOS or Android build I supply, run through a short scenario list I provide, and record your screen and thoughts as you go. Afterwards you’ll complete a brief feedback form and flag any friction points you noticed.
+  
+  Deliverables
+  • Screen recording (voice-over in your chosen language) as you complete each scenario
+  • Completed feedback form highlighting usability issues and UI observations
+  • A short summary of suggestions that would improve the overall flow for multilingual users
+  
+  Acceptance criteria: all scenarios covered, recordings viewable end-to-end, feedback specific enough for my dev team to act on.
+  
+  If this sounds straightforward and you can test within the next 48 hours, I’d love to work with you.
+  
+  bilingual and multilingual capabilities is a plus
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:16:42  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:17:24  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  https://www.freelancer.com/projects/full-stack-development/SaaS-Marketplace-Recruiting-Platform/details
+
+--- WINDOW  2026/07/30 02:17:36  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:17:42  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:17:43  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:17:50  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/30 02:17:51  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:17:52  [chrome.exe] SaaS Marketplace & Recruiting Platform | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I’m building a cloud-based platform that combines three pillars—an online marketplace, a recruiting suite, and a companion mobile app—and I need a seasoned full-stack developer who can take the project from architecture to launch.
+  
+  Marketplace
+  The web marketplace should feel as smooth as the best e-commerce sites. Users must be able to leave reviews and star ratings, pay securely on-site, and locate what they need quickly through robust search and filtering. Stripe or a similar PCI-compliant gateway will be integrated for payments, while Elasticsearch (or an equivalent) can power the search layer.
+  
+  Recruiting Area
+  On a separate dashboard, companies will post jobs, track applicants in real time, and search a centralized résumé database. Role-based access, notifications on status changes, and exportable reports are part of the core workflow.
+  
+  Mobile App
+  The iOS and Android app will mirror the most important marketplace and recruiting interactions. Critical requirements are real-time push notifications (Firebase or AWS SNS are fine) and selectable in-app purchases for premium listing boosts. Offline mode is optional for a later phase, so architecture should keep it in mind but not hold up v1.
+  
+  Tech Expectations
+  I’m open to React / Vue on the front end, Node / Django / Laravel on the back, and PostgreSQL or MongoDB beneath, provided the stack is scalable and well-documented. Clean REST or GraphQL APIs must connect web and mobile clients. CI/CD, automated tests, and Dockerized deployment to AWS or GCP will be part of the workflow.
+  
+  Deliverables
+  • Full source code in a private repo
+  • Staging & production environments configured
+  • Web marketplace with reviews, payments, search/filter live
+  • Recruiting dashboard with job posting, applicant tracking, résumé DB
+  • Cross-platform mobile app with push notifications and in-app purchases
+  • Technical documentation and a hand-off walkthrough
+  
+  Acceptance Criteria
+  1. All listed features function bug-free on modern browsers and latest mobile OS versions.
+  2. Payments pass live transactions in sandbox and production.
+  3. Deployment scripts reproducibly spin up the entire stack from scratch.
+  
+  If this sounds like a build you’re comfortable owning end-to-end, I’m ready to dive into specifics with you.
+  cc
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I'm available for a video call if you want to walk through scope and priorities.
+  
+  From what you described, the core challenge isn't the UI work—it's tying three product areas together safely and predictably: shared auth/roles and realtime flows, PCI-compliant payments, and a fast searchable résumé/marketplace experience that the mobile app can mirror. Those are the risk areas that typically slow launch.
+  
+  I've shipped a marketplace + employer dashboard before (React front end, Node.js back end, Stripe payments) where we focused first on a clean multi-tenant auth model and a search layer backed by Elasticsearch to avoid later migrations. 
+  My approach would be iterative: secure core flows (payments, auth), then parallel marketplace and recruiting feature sets, with mobile syncing via well‑documented APIs.
+  
+  A couple of quick questions:
+  1. Do you already have user/auth schemas or should I design them from scratch?
+  2. Is one pillar (marketplace vs recruiting) a priority for V1?
+  
+  Happy to discuss next steps on a call.  
+  Thanks,  
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  45
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/full-stack-development/SaaS-Marketplace-Recruiting-Platform/details
+  cc
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  SaaS Marketplace & Recruiting Platform
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  United States
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $15,000.00 USD
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:20:37  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 02:20:38  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:20:39  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 02:20:40  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 02:21:07  [chrome.exe] Senior OpenCart Developer για E-shop Ανταλλακτικών (Έτοιμο Theme & Custom Backend Matching) | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Αναζητούμε έμπειρο Web Developer με εξειδίκευση στο OpenCart για τη δημιουργία ενός e-shop ανταλλακτικών αυτοκινήτων υψηλών επιδόσεων. Το e-shop θα βασιστεί σε έτοιμο theme (π.χ. Journal 3 ή παρόμοιο) με τις απαραίτητες παραμετροποιήσεις στο design και το layout.Η κύρια πρόκληση του έργου είναι το backend: η διαχείριση μεγάλου όγκου δεδομένων και η ταυτοποίηση κωδικών (matching μεταξύ γνήσιων/OE και aftermarket κωδικών).
+  Προτιμούμε μια "ελαφριά" custom λύση κώδικα για το σύστημα matching ώστε να αποφύγουμε την καθυστέρηση της βάσης δεδομένων, αλλά είμαστε ανοιχτοί και σε δοκιμασμένα, βελτιστοποιημένα extensions.Κύριες Απαιτήσεις & ΥλοποιήσειςΠλατφόρμα & Design: OpenCart (τελευταία σταθερή έκδοση) με χρήση έτοιμου theme και πλήρη παραμετροποίηση (customization) στα μέτρα μας.Σύστημα Match Κωδικών: Υλοποίηση "ελαφριού" συστήματος (custom ή optimized extension) για τη σύνδεση γνήσιων (OE) κωδικών με aftermarket κωδικούς χωρίς να επιβαρύνεται ο server.Βελτιστοποίηση Βάσης:
+  Άριστη γνώση σε MySQL indexing και query optimization για μεγάλο όγκο SKUs.Διασυνδέσεις & APIs:Δυνατότητα σύνδεσης με εξωτερικά APIs ανταλλακτικών (π.χ. TecDoc ή παρόμοια), αν υπάρχει σχετική τεχνογνωσία.Υλοποίηση δυναμικού XML/JSON feed για αυτόματη ενημέρωση αποθεμάτων και τιμών από προμηθευτές.Πληρωμές & Courier: Σύνδεση με ελληνικές τράπεζες / Viva Wallet και διασύνδεση με API ελληνικών courier (ACS, Γενική Ταχυδρομική, Speedex κ.λπ.) για αυτόματη έκδοση voucher.
+  Hosting & Server: Πλήρες στήσιμο σε VPS, παραμετροποίηση περιβάλλοντος και βελτιστοποίηση ταχύτητας (caching, production-ready setup).
+  Προφίλ FreelancerΑποδεδειγμένη εμπειρία σε OpenCart και παραμετροποίηση γνωστών themes.Κατανόηση της δομής δεδομένων της αγοράς aftermarket (cross-referencing).Ικανότητα συγγραφής καθαρού, ελαφριού κώδικα για το backend.
+  Για την εκδήλωση ενδιαφέροντος, παρακαλώ απαντήστε:
+  Έχετε υλοποιήσει ξανά e-shop ανταλλακτικών αυτοκινήτων; Παρακαλώ στείλτε σχετικά links.
+  Ποιο έτοιμο theme προτείνετε για αυτή τη χρήση και πόσο εύκολα συνεργάζεται με custom κώδικα για το matching κωδικών;
+  Πώς προτείνετε να χειριστούμε το cross-reference matching (Γνήσια vs Aftermarket) ώστε να μην "κρεμάει" το site;
+  Τι είδους hosting/server προτείνετε για αυτό το project;
