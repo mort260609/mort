@@ -1,0 +1,192 @@
+﻿  [Clipboard]
+  Built-in Data Types
+  In programming, data type is an important concept.
+  
+  Variables can store data of different types, and different types can do different things.
+  
+  Python has the following data types built-in by default, in these categories:
+  
+  Text Type:	str
+  Numeric Types:	int, float, complex
+  Sequence Types:	list, tuple, range
+  Mapping Type:	dict
+  Set Types:	set, frozenset
+  Boolean Type:	bool
+  Binary Types:	bytes, bytearray, memoryview
+  None Type:	NoneType
+
+--- WINDOW  2026/07/29 19:42:09  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:42:10  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:43:23  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:43:23  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:43:23  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:45:53  [chrome.exe] AI Platform for Rare Disease Research | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I want to build an AI-driven knowledge-discovery platform focused on one rare disease. Essentially this would become a custom "medical intelligence" platform for a rare form of leukemia called T-PLL.
+  
+  This is not a diagnostic or treatment application and is not intended to provide medical advice. It is an AI-assisted research and surveillance platform whose purpose is to dramatically reduce the chance of missing important developments in research, clinical trials, or emerging therapies. Ideally, the platform would automatically search multiple public data sources on a scheduled basis, eliminate duplicate or low-value information, classify new findings by relevance (e.g., clinical trials, new publications, biotechnology developments, conference abstracts, investigator activity, etc.), maintain a searchable historical database, and generate weekly intelligence reports highlighting only meaningful changes.
+  
+  Core functions
+  The platform has to 1) pull full-text research papers, conference abstracts, clinical-trial registry entries, biotech company announcements, major cancer-center press releases, and even relevant YouTube presentations, 2) extract structured data points (study design, cohort size, endpoints, biomarkers, funding source, etc.) with high accuracy, and 3) produce automated literature-review briefs that highlight trends and gaps. It should run these tasks on a schedule and push notifications when new material appears.
+  
+  The ideal candidate enjoys solving complex information management problems, can recommend the best technical approach rather than simply following instructions, and is interested in building a robust research assistant. I am not a researcher, a software engineer or even involved in the industry.
+  
+  This entire project is to help my dad who was recently diagnosed with this disease and I need more power in my searches.
+  
+  I am told by my own ChatGPT research that "this would involve a Python stack and leverage current NLP/LLM tooling (e.g., transformers, LangChain, GPT-4, spaCy), PDF parsing utilities, and APIs such as PubMed, CrossRef, ClinicalTrials.gov, and YouTube Data API. A vector store (Pinecone, FAISS, or similar) for semantic search plus a lightweight web dashboard or Streamlit front end will keep things user-friendly."
+  
+  Deliverables
+  • Crawling & ingestion pipeline covering all stated sources
+  • Information-extraction module with clearly defined JSON/CSV schema
+  • Automatic literature-review generator with citation linking
+  • Real-time monitoring/alert service (email or Slack)
+  • Web interface for search, filter, and export
+  • Dockerised codebase with setup docs and a short demo video
+  
+  Acceptance criteria
+  The system must capture at least 90 % of new items relevant to the disease and experimental or trial treatments, correctly extract the required data needed to track them, and generate a readable, reference-linked review on a regular basis (weekly or more frequently).
+  
+  Please outline your approach, and a rough timeline so we can move straight to milestones.
+  cc
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:46:14  [chrome.exe] Android Social Networking App Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:46:17  [chrome.exe] AI Platform for Rare Disease Research | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:49:27  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:49:27  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:51:01  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:51:03  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:51:04  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:51:16  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:53:09  [chrome.exe] Auto-Import PDF Data to Sheets | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:53:13  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:53:13  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:53:17  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:53:19  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:53:20  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:53:30  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:53:33  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:53:34  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:56:46  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:56:47  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:57:37  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:59:12  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 20:02:53  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 20:02:55  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 20:03:02  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 20:03:03  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 20:03:17  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  l
+
+--- WINDOW  2026/07/29 20:20:25  [chrome.exe] (1) Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
