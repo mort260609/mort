@@ -1,0 +1,719 @@
+﻿  [LMB]
+
+--- WINDOW  2026/07/29 18:24:44  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 18:24:45  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 18:26:43  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 18:26:43  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 18:26:43  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Or, not quite as intended, you can use a multiline string.
+  
+  Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it:
+
+--- WINDOW  2026/07/29 18:35:15  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 18:35:16  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  monster060825@outlook.com
+  
+  [LMB]
+  [Clipboard]
+  yuhan@mailfence.com
+  [LMB]
+
+--- WINDOW  2026/07/29 18:39:59  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 18:40:00  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  This is a comment
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 18:48:13  [chrome.exe] Modern Car Rental Website Build | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I’m ready to put my car-rental business online with a polished, responsive website that loads fast and is effortless to maintain. The core of the build revolves around five key pages—Home, About Us, Car Listing & Booking, Contact Us and an FAQ—each designed with mobile-first principles so customers can browse and book from any device.
+  
+  For the Car Listing area I need robust search and filter tools as well as a side-by-side vehicle comparison so visitors can quickly narrow choices and feel confident before starting a reservation. Behind the scenes I want an intuitive admin panel where I can add or retire vehicles, edit rates, manage availability and view bookings without touching code.
+  
+  Performance and user experience matter: pages should consistently load in under three seconds, images must be optimised, and the booking workflow has to be clear and friction-free. Clean, scalable code, SEO-friendly markup and an organised file structure are expected.
+  
+  Deliverables
+  • Fully responsive website covering the five sections above
+  • Search, filter and comparison features working across all modern browsers
+  • Admin dashboard with CRUD for vehicles, rates and bookings
+  • Deployment instructions and brief hand-off session so I can manage the site solo
+  
+  If you have suggestions for adding secure payments or map integrations later, feel free to mention them—flexibility for future upgrades is a plus. Please share links to similar projects you’ve completed and outline the tech stack you propose for this build.
+  cc
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  You’re asking for a fast, mobile-first rental site where the tricky parts are a performant vehicle search/filter, clear side-by-side comparisons, and an admin UI that’s truly usable without code. That’s where I’d focus first.
+  
+  I've built similar booking sites with React front-ends and lightweight Node/Postgres backends where search responsiveness and image optimisation were the main UX wins. My approach: simple, indexable listing pages, server-side filtered queries for performance, and an admin panel with CRUD for vehicles, rates and availability.
+  
+  A couple quick questions:
+  1. Do you have an existing vehicle data export (CSV) or are we starting from scratch?
+  2. Will you need integrated payments or maps at launch, or should those be staged for a later phase?
+  
+  Thanks,
+  Paul
+  [Ctrl]v
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/web-development/Modern-Car-Rental-Website-Build-40613844/details
+  cc
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Modern Car Rental Website Build
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  
+  United States
+  c
+  [Clipboard]
+  United States
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  $500.00 USD
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 18:50:25  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 18:50:28  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 18:50:29  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 18:50:34  [chrome.exe] Modern Car Rental Website Build | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 18:50:45  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 18:50:45  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 18:53:16  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 18:53:17  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 18:53:24  [chrome.exe] THE NEWEST SUGAR DATING SITE WITH S TWIST! | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 18:53:30  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 18:53:47  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 18:53:49  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Rules for Python variables:
+  
+  A variable name must start with a letter or the underscore character
+  A variable name cannot start with a number
+  A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+  Variable names are case-sensitive (age, Age and AGE are three different variables)
+  A variable name cannot be any of the Python keywords.
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 18:56:13  [chrome.exe] Android Social Networking App Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 18:56:17  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 18:59:41  [chrome.exe] Luxury E-commerce Website Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Hi,
+  
+  I am looking for an experienced Shopify designer/developer to design and build a luxury e-commerce website for my brand, The House of Lazuli.
+  
+  I already have:
+  
+  * My Shopify store
+  * The premium Lydia theme installed
+  * My branding, logo and product images
+  * Packaging designs
+  * A clear vision of the style I want
+  
+  I’ve attached a homepage concept that represents the direction I’m aiming for. I want the final website to have a similar premium feel while being professionally designed, responsive, and optimised for conversions.
+  
+  The website will showcase multiple luxury collections under one brand, including:
+  
+  * Luxury skincare
+  * Royal gemstone pendants
+  * Radiance wellness products
+  * Refill kits
+  * Luxury spa experiences (coming soon)
+  
+  I’m looking for a website with:
+  
+  * A custom luxury homepage
+  * Collection pages
+  * Premium product pages
+  * About Us page
+  * Contact page
+  * FAQ
+  * Shipping & Returns
+  * Privacy Policy and Terms pages
+  * Newsletter signup
+  * Mobile optimisation
+  * Speed optimisation
+  * Basic SEO setup
+  * Payment and shipping integration
+  * Smooth animations and elegant transitions
+  * A clean, high-end user experience that’s easy for me to manage after launch
+  
+  The overall style should feel like a true luxury beauty house with:
+  
+  * Deep polished lapis lazuli blue backgrounds with subtle gold veining
+  * Metallic gold accents
+  * Elegant typography
+  * Plenty of white space
+  * Premium imagery and refined layouts
+  * A sophisticated, timeless aesthetic
+  
+  The homepage should feature my skincare collection as the hero while also introducing my pendant collection, wellness products and future spa experiences further down the page.
+  
+  Please send me examples of similar luxury Shopify websites you have designed, especially in the beauty, skincare, jewellery or fashion industries.
+  
+  Can you also let me know your fixed-price offer to design and complete the entire website, what is included in your price, your estimated timeframe, and whether you have any suggestions that could improve the customer experience or increase conversions?
+  
+  Thank you, and I look forward to hearing from you
+  ccc
+  [Clipboard]
+  error Scrape preview failed: Could not establish connection. Receiving end does not exist.
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:00:25  [chrome.exe] Megan Ashbee (DeGagne) | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  You’ve already got the right pieces: Shopify + Lydia theme, strong branding and photography. The core challenge is turning that aesthetic into a performant, conversion-focused storefront without breaking the theme’s maintainability. I’ve built several luxury Shopify stores (beauty and jewellery) where the primary work was bespoke homepage sections, premium product templates, and careful speed/SEO tuning.
+  
+  My approach would focus first on a polished homepage hero for your skincare line, then clear cross-promotion for pendants/wellness, and high-converting product templates with micro-animations and fast load times.
+  
+  Here's my latest work:
+  https://notebooktherapy.com
+  https://www.supermerch.com.au/
+  
+  A couple of quick questions:
+  1. Do you have preferred apps for reviews/newsletter or should I recommend lightweight options?
+  2. Any products requiring complex variants or bespoke subscription/refill flows?
+  
+  Thanks,
+  Paul
+
+--- WINDOW  2026/07/29 19:00:38  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:00:38  [chrome.exe] Luxury E-commerce Website Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/07/29 19:00:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:00:44  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:00:44  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+  etad[ENTER]
+
+--- WINDOW  2026/07/29 19:00:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:00:47  [notepad.exe] Untitled - Notepad
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:00:48  [chrome.exe] Luxury E-commerce Website Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:00:52  [notepad.exe] Untitled - Notepad
+----------------------------------------------------------------------------
+  e
+
+--- WINDOW  2026/07/29 19:00:53  [notepad.exe] *Untitled - Notepad
+----------------------------------------------------------------------------
+  mily[ENTER]
+  sorry just a min
+
+--- WINDOW  2026/07/29 19:01:02  [chrome.exe] Luxury E-commerce Website Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:01:06  [notepad.exe] *Untitled - Notepad
+----------------------------------------------------------------------------
+  [ENTER]
+  done[ENTER]
+  sorry[Ctrl]aa
+
+--- WINDOW  2026/07/29 19:01:16  [notepad.exe] Untitled - Notepad
+----------------------------------------------------------------------------
+  [Bk]u
+
+--- WINDOW  2026/07/29 19:01:19  [notepad.exe] *Untitled - Notepad
+----------------------------------------------------------------------------
+  mm.. you see this too/[ENTER]
+  [ENTER]
+  scthirseen[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]/[ENTER]
+  [ENTER]
+  screen.. is i[Bk]it normal/[ENTER]
+  [ENTER]
+  yeah
+  [LMB]
+  [ENTER]
+  [ENTER]
+  what di dyou do/[ENTER]
+  [ENTER]
+  what do you mean/[ENTER]
+  [ENTER]
+  just a second before, what di dyou do/ now it is nom[Bk]rmal[ENTER]
+  [ENTER]
+  ohh you mean style nro[Bk][Bk][Bk][Bk] was brt[Bk][Bk]roken/[ENTER]
+  portrait mode.[ENTER]
+  [ENTER]
+  yeah[Ctrl]awhat was that and how di dyo ufix it/[End]i just chcliacnge[Ctrl]a
+
+--- WINDOW  2026/07/29 19:03:10  [notepad.exe] Untitled - Notepad
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:03:10  [notepad.exe] *Untitled - Notepad
+----------------------------------------------------------------------------
+   just change d[Bk][Bk][Bk]ed the screen size
+  [LMB]
+  [LMB]
+   in where/[ENTER]
+  [ENTER]
+  [ENTER]
+  jumpdesktop screen[ENTER]
+  [ENTER]
+  ts because i have som[Bk][Bk][Bk][Bk]to [Bk][Bk] ano[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]wanted to see the another se[Bk][Bk]screen90[<-]oh [Bk][Bk][Bk]n [Bk][Bk]on my end[->]
+  [LMB]
+  [Ctrl][Ctrl][^][Ctrl][Ctrl]
+  [LMB]
+  [LMB]
+  [ENTER]
+  [ENTER]
+  szame [Bk][Bk][Bk][Bk][Bk]ame now/[ENTER]
+  [ENTER]
+  [Ctrl]
+  [LMB]
+  [Ctrl]yeah same[ENTER]
+  [ENTER]
+  well in the one window, i have two screa[Bk]en with laf[Bk][Bk][Bk]just half size. eft on e[<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][->][->][->][->]on [End], my screen, on right [Bk], this jump window
+
+--- WINDOW  2026/07/29 19:05:46  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:05:48  [notepad.exe] *Untitled - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  hmm
+
+--- WINDOW  2026/07/29 19:05:59  [chrome.exe] Luxury E-commerce Website Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  . 
+
+--- WINDOW  2026/07/29 19:06:01  [notepad.exe] *Untitled - Notepad
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:06:02  [chrome.exe] Luxury E-commerce Website Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  . 
+
+--- WINDOW  2026/07/29 19:06:06  [notepad.exe] *Untitled - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]a[Bk]
+
+--- WINDOW  2026/07/29 19:06:08  [notepad.exe] Untitled - Notepad
+----------------------------------------------------------------------------
+  s
+
+--- WINDOW  2026/07/29 19:06:09  [notepad.exe] *Untitled - Notepad
+----------------------------------------------------------------------------
+  ame here, but can't understand.[ENTER]
+  j[Bk]inside jump, theer is no change although i change s[Bk]resoio out there.
+  [LMB]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  hmm just changed the size of this window[ENTER]
+  i am chaing[Bk][Bk][Bk]nging now, can hy[Bk]ou see it/[ENTER]
+  [ENTER]
+  well there was not chan[Bk][Bk][Bk][Bk]any change when uyou di[Bk][Bk][Bk][Bk][Bk]you did
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [Ctrl]ah
+
+--- WINDOW  2026/07/29 19:07:34  [notepad.exe] Untitled - Notepad
+----------------------------------------------------------------------------
+  [Bk]o
+
+--- WINDOW  2026/07/29 19:07:35  [notepad.exe] *Untitled - Notepad
+----------------------------------------------------------------------------
+  kay, ake your time. it is not that important.[Ctrl]a[Bk]
+
+--- WINDOW  2026/07/29 19:07:44  [notepad.exe] Untitled - Notepad
+----------------------------------------------------------------------------
+  o
+
+--- WINDOW  2026/07/29 19:07:47  [notepad.exe] *Untitled - Notepad
+----------------------------------------------------------------------------
+  k[ENTER]
+  [ENTER]
+  btw i think you were gonna use this pc
+  [LMB]
+
+--- WINDOW  2026/07/29 19:08:16  [chrome.exe] Luxury E-commerce Website Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:08:18  [chrome.exe] Megan Ashbee (DeGagne) | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:08:22  [chrome.exe] Jose Guerra | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:08:23  [chrome.exe] (17) developer Jobs | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:10:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:11:48  [chrome.exe] (17) developer Jobs | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Hi, after you finish the work on PC, I'd be happy if you let me know.
+
+--- WINDOW  2026/07/29 19:11:50  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:11:50  [chrome.exe] Luxury E-commerce Website Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Luxury E-commerce Website Design
+  c[Ctrl]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:12:01  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:12:02  [chrome.exe] Luxury E-commerce Website Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:12:04  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:12:04  [notepad.exe] *Untitled - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:12:05  [notepad.exe] Notepad
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:12:07  [notepad.exe] *Untitled - Notepad
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:12:07  [chrome.exe] Luxury E-commerce Website Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:12:09  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:12:10  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:13:49  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:13:50  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:14:03  [chrome.exe] AI Platform for Rare Disease Research | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I want to build an AI-driven knowledge-discovery platform focused on one rare disease. Essentially this would become a custom "medical intelligence" platform for a rare form of leukemia called T-PLL.
+  
+  This is not a diagnostic or treatment application and is not intended to provide medical advice. It is an AI-assisted research and surveillance platform whose purpose is to dramatically reduce the chance of missing important developments in research, clinical trials, or emerging therapies. Ideally, the platform would automatically search multiple public data sources on a scheduled basis, eliminate duplicate or low-value information, classify new findings by relevance (e.g., clinical trials, new publications, biotechnology developments, conference abstracts, investigator activity, etc.), maintain a searchable historical database, and generate weekly intelligence reports highlighting only meaningful changes.
+  
+  Core functions
+  The platform has to 1) pull full-text research papers, conference abstracts, clinical-trial registry entries, biotech company announcements, major cancer-center press releases, and even relevant YouTube presentations, 2) extract structured data points (study design, cohort size, endpoints, biomarkers, funding source, etc.) with high accuracy, and 3) produce automated literature-review briefs that highlight trends and gaps. It should run these tasks on a schedule and push notifications when new material appears.
+  
+  The ideal candidate enjoys solving complex information management problems, can recommend the best technical approach rather than simply following instructions, and is interested in building a robust research assistant. I am not a researcher, a software engineer or even involved in the industry.
+  
+  This entire project is to help my dad who was recently diagnosed with this disease and I need more power in my searches.
+  
+  I am told by my own ChatGPT research that "this would involve a Python stack and leverage current NLP/LLM tooling (e.g., transformers, LangChain, GPT-4, spaCy), PDF parsing utilities, and APIs such as PubMed, CrossRef, ClinicalTrials.gov, and YouTube Data API. A vector store (Pinecone, FAISS, or similar) for semantic search plus a lightweight web dashboard or Streamlit front end will keep things user-friendly."
+  
+  Deliverables
+  • Crawling & ingestion pipeline covering all stated sources
+  • Information-extraction module with clearly defined JSON/CSV schema
+  • Automatic literature-review generator with citation linking
+  • Real-time monitoring/alert service (email or Slack)
+  • Web interface for search, filter, and export
+  • Dockerised codebase with setup docs and a short demo video
+  
+  Acceptance criteria
+  The system must capture at least 90 % of new items relevant to the disease and experimental or trial treatments, correctly extract the required data needed to track them, and generate a readable, reference-linked review on a regular basis (weekly or more frequently).
+  
+  Please outline your approach, and a rough timeline so we can move straight to milestones.
+  cc
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  It sounds like the real problem is reliable recall + high-precision extraction across messy sources (PDFs, registries, press releases, YouTube transcripts) and keeping duplicates/low-value noise out of the weekly briefs. That’s where most systems fail: ingestion is one thing, accurate structured extraction and dedup/relevance scoring are another.
+  
+  I’ve built a similar surveillance pipeline for oncology literature and trial registries: scheduled crawlers, PDF parsing, spaCy-based extraction with human-in-the-loop validation, and a FAISS-backed semantic index for de-dup and alerting. My approach would first lock the source list and extraction schema, then iterate on extraction accuracy with small validation sets before scaling.
+  
+  A couple of quick questions:
+  1. Do you need paywalled full texts pulled automatically, or only open-access sources?
+  2. Which alert channel do you prefer first — email or Slack?
+  
+  Happy to discuss next steps.
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk][Bk]18
+  [LMB]
+  1500
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/natural-language-processing/Platform-for-Rare-Disease-Research/details
+  cc
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  AI Platform for Rare Disease Research
+  
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  
+  United States
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $1,500.00 USD
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:17:45  [chrome.exe] Luxury E-commerce Website Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:17:54  [chrome.exe] AI Platform for Rare Disease Research | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:17:56  [chrome.exe] Luxury E-commerce Website Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Luxury E-commerce Website Design
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $1,125.00 NZD
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/shopify-site/Luxury-commerce-Website-Design/details
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  New Zealand
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:18:20  [chrome.exe] AI Platform for Rare Disease Research | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:18:26  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:21:29  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:21:30  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:22:27  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:22:30  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:22:31  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/29 19:22:41  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:22:42  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/29 19:23:11  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:23:11  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/29 19:23:11  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
