@@ -1,0 +1,418 @@
+﻿  [LMB]
+  [LMB]
+  [Clipboard]
+  Gray@kayakpro.com 
+  [Ctrl]v[Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hallehorse2! 
+  [LMB]
+  [Ctrl]v[Bk]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:25:44  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  139741
+
+--- WINDOW  2026/07/30 07:25:47  [chrome.exe] Amazon Web Services Sign-In - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/30 07:25:50  [chrome.exe] EC2 Management Console - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:25:51  [chrome.exe] Instances | EC2 | us-east-1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:26:00  [chrome.exe] Connect to instance | EC2 | us-east-1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:26:04  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:26:04  [chrome.exe] us-east-1.console.aws.amazon.com/ec2-instance-connect/ssh?region=us-east-1&connType=standard&instanceId=i-0bf9207d72b17cbb5&osUser=ubuntu&sshPort=22&addressFamily=ipv4 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:26:05  [chrome.exe] EC2 Instance Connect - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:26:05  [chrome.exe] EC2 Instance Connect | us-east-1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  ls[ENTER]
+  sudo [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]nohup java -jar /home/ubuntu/kayak.jar
+  [LMB]
+  [LMB]
+   . backend.log 2.71 7[ENTER]
+  tail -f backend.log[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:29:05  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:29:40  [chrome.exe] Connect to instance | EC2 | us-east-1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:29:42  [chrome.exe] EC2 Instance Connect | us-east-1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:31:33  [chrome.exe] Coaching Automation & Scheduling Setup | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I’m rolling out a series of online coaching programs and need everything in the back-end running as seamlessly as the coaching itself. My calendar lives in Acuity Scheduling, so that will be the anchor of the build. From there I want two key automations created: a branded email follow-up sequence that fires immediately after booking, and timed reminder notifications that keep clients on track before each session.
+  
+  Alongside the scheduling flow, I’ll be offering e-books and printable worksheets as digital bonuses. I need a simple, low-friction delivery system that automatically sends download links once payment or enrollment is confirmed, and that tags purchasers correctly for future nurture emails.
+  
+  Core deliverables
+  • Fully configured Acuity account with appointment types, availability, intake forms and payment integration
+  • Automated email follow-up sequence and reminder notifications, mapped and live (I use ConvertKit now, but I’m open to other ESPs if you can show why they’re better)
+  • Digital product delivery funnel for my e-books and worksheets, including secure hosting, link expiry, and customer tagging
+  • Brief hand-off guide or loom walkthrough so I can tweak copy or add new products later
+  
+  Everything should look and feel on-brand, be mobile-friendly, and require no code maintenance once handed over. If you’ve set up similar coaching tech stacks before and can move quickly, let me know your timeline and the tools you’d connect to Acuity so we can get started.
+  cccc
+
+--- WINDOW  2026/07/30 07:31:42  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:31:44  [chrome.exe] Coaching Automation & Scheduling Setup | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:31:57  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:31:57  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:32:03  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:32:04  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:32:04  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:32:20  [chrome.exe] E-Commerce Site With Reviews | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:32:27  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:32:28  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:32:32  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:32:33  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:32:38  [chrome.exe] Preferred Freelancers | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:32:39  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:32:41  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:32:42  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:32:59  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:32:59  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:33:00  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:33:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:33:15  [JumpConnect.exe] Connect
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:33:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:33:20  [JumpConnect.exe] Jump Desktop Connect
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:33:40  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:33:53  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:33:53  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:34:39  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:34:41  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:34:41  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  SingleStore
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:36:57  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:36:58  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:36:58  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:37:05  [chrome.exe] AI-Powered Custom Database Build | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I need a new country specific data set building.
+  cc
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:37:33  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:40:10  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:40:11  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:40:23  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:40:23  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:40:24  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:42:42  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:42:43  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:42:43  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:48:22  [chrome.exe] Corporate Website Update & Cloud Upload | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Our corporate site sits on the Wix platform and needs two clear improvements. First, I want a visual and content refresh so the pages look cleaner, load faster, and match our current branding. Second—and more important for this job—I need a secure component that lets staff and approved clients upload documents directly to a cloud-based portal.
+  
+  A simple button or drag-and-drop area on a dedicated page is fine, as long as it:
+  • accepts common business files (think PDFs, Word docs, images, etc.)
+  • stores them in an encrypted folder on a cloud service such as Google Drive, OneDrive, AWS S3, or a comparable alternative
+  • automatically sends me an email (or dashboard alert) confirming each successful upload
+  • keeps the user experience inside the Wix site without ugly redirects
+  
+  Please build, connect, and test the uploader so it works flawlessly on desktop and mobile. Once it’s live, supply me with clear instructions for adding new users and changing the destination folder down the line.
+  cc
+  [LMB]
+
+--- WINDOW  2026/07/30 07:48:54  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:58:04  [chrome.exe] Website Performance Dashboard Design | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:58:07  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 08:01:36  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 08:01:37  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 08:11:12  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 08:11:13  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 08:15:12  [chrome.exe] Lithium-Ion BMS for Renewable Energy | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  energy storage applications. The BMS should include:
+  
+  - Battery Monitoring: Keep track of battery health, voltage, and state of charge.
+  - Charge Control: Manage the charging process to optimize battery life and performance.
+  
+  Ideal skills and experience:
+  - Expertise in lithium-ion battery systems
+  - Experience in designing BMS
+  - Knowledge of renewable energy applications
+  - Proficiency in battery monitoring and charge control technologies
+  cc
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I need a Battery Management System (BMS) designed specifically for lithium-ion batteries intended for renewable energy storage applications. The BMS should include:
+  
+  - Battery Monitoring: Keep track of battery health, voltage, and state of charge.
+  - Charge Control: Manage the charging process to optimize battery life and performance.
+  
+  Ideal skills and experience:
+  - Expertise in lithium-ion battery systems
+  - Experience in designing BMS
+  - Knowledge of renewable energy applications
+  - Proficiency in battery monitoring and charge control technologies
+  c
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  I'm available for a quick video call to clarify requirements.
+  
+  From the description, the core challenge is reliable SoC/health estimation and safe charge control across cells (cell balancing and fault detection), not just telemetry. For renewable storage that usually means long calendar life, accurate coulomb counting with periodic full-state validation, and robust over/under-voltage and temperature protection.
+  
+  I've designed BMS firmware and companion monitoring dashboards for Li-ion packs used with solar inverters—implemented SoC + cell balancing logic, CAN/Modbus telemetry, and charge cutoffs tied to thermal limits.
+  
+  A couple of quick questions:
+  1. Do you expect active cell balancing or passive only?
+  2. Will this integrate with an inverter/EMS over CAN or a simple relay/control line?
+  
+  If this sounds right, we can set a short call and I’ll sketch a focused plan. 
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [<-][ENTER]
+  [LMB]
+  [LMB]
+  [Bk][Bk]20
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/embedded-systems/Lithium-Ion-BMS-for-Renewable/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Lithium-Ion BMS for Renewable Energy
+  
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  United Arab Emirates
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $4,000.00 USD
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 08:18:03  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 08:18:03  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
