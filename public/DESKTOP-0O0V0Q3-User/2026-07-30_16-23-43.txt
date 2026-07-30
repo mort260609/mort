@@ -1,0 +1,306 @@
+﻿  [Clipboard]
+  I mainly work on full-stack web applications for businesses and startups. Most of my projects involve building responsive frontends, developing REST APIs, integrating third-party services like Stripe or PayPal, and working with databases. I've also built admin dashboards, CRM systems, e-commerce platforms, and custom business management tools. I enjoy taking a project from planning through deployment and ongoing maintenance.
+  [LMB]
+
+--- WINDOW  2026/07/30 15:25:51  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 15:25:52  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 15:31:24  [chrome.exe] Fiber Optic Company Branding | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 15:31:30  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Returns the number of times a specified value occurs in a string
+  [Clipboard]
+  japanese yen really down in the toilet rn
+  [Clipboard]
+  Searches the string for a specified value and returns the position of where it was found
+  [LMB]
+
+--- WINDOW  2026/07/30 15:42:40  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 15:42:41  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  D:\git\python\hello
+  [LMB]
+  [Clipboard]
+  Python Comments
+  Comments can be used to explain Python code.
+  
+  Comments can be used to make the code more readable.
+  
+  Comments can be used to prevent execution when testing code.
+  
+  Creating a Comment
+  Comments starts with a #, and Python will ignore them:
+  
+  ExampleGet your own Python Server
+  #This is a comment
+  print("Hello, World!")
+  Comments can be placed at the end of a line, and Python will ignore the rest of the line:
+  
+  Example
+  print("Hello, World!") #This is a comment
+  A comment does not have to be text that explains the code, it can also be used to prevent Python from executing code:
+  
+  Example
+  #print("Hello, World!")
+  print("Cheers, Mate!")
+  REMOVE ADS
+  
+  Multiline Comments
+  Python does not really have a syntax for multiline comments.
+  
+  To add a multiline comment you could insert a # for each line:
+  
+  Example
+  #This is a comment
+  #written in
+  #more than just one line
+  print("Hello, World!")
+  Or, not quite as intended, you can use a multiline string.
+  
+  Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it:
+  
+  Example
+  """
+  This is a comment
+  written in
+  more than just one line
+  """
+  print("Hello, World!")
+  [LMB]
+
+--- WINDOW  2026/07/30 15:53:42  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 15:53:43  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 15:53:44  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Definition and Usage
+  The isidentifier() method returns True if the string is a valid identifier, otherwise False.
+  
+  A string is considered a valid identifier if it only contains alphanumeric letters (a-z) and (0-9), or underscores (_). A valid identifier cannot start with a number, or contain any spaces.
+  [LMB]
+
+--- WINDOW  2026/07/30 15:59:36  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 15:59:37  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 15:59:53  [chrome.exe] Autism Support Mobile App | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  My goal is to turn a clear concept into a polished mobile application that runs natively on both iOS and Android. The app will serve parents and caregivers who need quick, trustworthy help recognising early signs of autism and managing day-to-day challenges once a diagnosis is confirmed.
+  
+  Core experience
+  • Symptom tracker – an easy, daily log where users can record behaviours, moods and triggers, then view trends through simple charts.
+  • Resource library – a searchable hub that houses articles, videos and professional guidance, with the ability for me to update content without releasing a new build.
+  
+  Scope of work
+  I have the overall concept and content outline; what’s needed is the full product design and development cycle: wireframes, UI/UX, cross-platform coding (Swift/SwiftUI or Kotlin/Jetpack Compose, or a shared framework such as Flutter or React Native if you prefer), basic analytics and App Store / Google Play deployment. Clean, documented code and a small admin portal or CMS for the resource library are essential so I can grow the content myself.
+  
+  Deliverables
+  1. Interactive prototype and approved UI kit
+  2. Production-ready iOS and Android apps, uploaded to TestFlight / internal track
+  3. Source code in a private Git repository
+  4. Simple CMS or JSON feed to manage library content
+  5. One-page user guide and hand-over call
+  
+  Acceptance criteria
+  • Smooth installation and account creation on both platforms
+  • Accurate data persistence for symptom entries with offline support
+  • Resource articles load instantly and can be updated from the CMS without recompiling the app
+  • No critical or major crashes flagged by Firebase Crashlytics during a one-week beta test
+  
+  If this stack and scope match your expertise, I’m ready to start as soon as we agree on milestones and timeline.
+  c
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I’m available for a short video call if you’d like to walk through priorities.
+  
+  You’ve outlined two core challenges: reliable offline-first symptom tracking with trend visualization, and a lightweight CMS so content updates don’t require app releases. 
+  Those are where most projects stumble, not the UI or stores.
+  
+  I’ve built small health-focused apps with daily logging, local-first sync and simple admin dashboards using Flutter (single codebase) and native SwiftUI clients when needed. For charts and persistence I typically combine SQLite/Room with a sync queue and simple JSON-driven content so articles update instantly.
+  
+  Here's my latest work:
+  https://play.google.com/store/apps/details?id=com.kayakpro.erg
+  
+  A couple quick questions:
+  1. Do you need user accounts and cloud sync from day one, or is local device storage sufficient initially?
+  2. Any third‑party analytics or auth providers you prefer (Firebase, Supabase, custom)?
+  
+  If that matches, I’ll prepare a short milestone plan and we can move to a quick call. 
+  Thanks, 
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk]12[Bk]0
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  2
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  5000[Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]6
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 16:02:03  [chrome.exe] (1) Autism Support Mobile App | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Autism Support Mobile App
+  
+  c
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  £6,000.00 GBP
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/ios-development/Autism-Support-Mobile-App/details
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  United Kingdom
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 16:02:44  [chrome.exe] (1) Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 16:02:45  [chrome.exe] (1) Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 16:02:53  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 16:03:00  [chrome.exe] E-Commerce Site for Snack Hampers | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 16:03:02  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 16:03:03  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 16:03:42  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 16:03:43  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 16:03:51  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 16:03:53  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 16:03:54  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Remove spaces before and after the username.
+
+--- WINDOW  2026/07/30 16:05:04  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Returns a trimmed version of the string
+
+--- WINDOW  2026/07/30 16:07:33  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 16:07:34  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  indexing
+  [Clipboard]
+  Remove spaces before and after the username.
+  [LMB]
+
+--- WINDOW  2026/07/30 16:13:45  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 16:13:47  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  and 
+  [LMB]
