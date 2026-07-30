@@ -1,0 +1,446 @@
+﻿  [LMB]
+
+--- WINDOW  2026/07/30 06:24:02  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:24:03  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  https://feedlog.ai/
+
+--- WINDOW  2026/07/30 06:27:38  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:27:39  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 06:28:33  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:28:34  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:28:34  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 06:29:17  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:29:18  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 06:29:28  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:29:28  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 06:30:01  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:30:02  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:30:02  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 06:31:56  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 06:31:59  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:32:00  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 06:32:49  [chrome.exe] Senior Mobile App Developer Needed | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Senior Mobile App Developer 
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 06:33:03  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 06:35:24  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 06:35:26  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:35:26  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:35:27  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 06:36:25  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:36:25  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:36:25  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 06:37:21  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:37:21  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 06:37:22  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  okay got it , i was just asking so if i had any future opportunity, i consider u, for now my only advice for u is to focus on your english conversation skills, mainly words pronounce
+  [LMB]
+
+--- WINDOW  2026/07/30 07:01:30  [chrome.exe] React Interactive Odontogram Builder | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:01:36  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:01:36  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:01:36  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:01:43  [chrome.exe] Raspberry Pi Vending Machine Interface | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I need a Raspberry Pi connected to a vending machine. The setup should allow triggering of the following functions via a web-based interface:
+  
+  - Dispensing items
+  - Checking stock levels
+  - Performing maintenance
+  
+  The interface must include:
+  - Payment processing integration with NAYAX
+  - Real-time status updates
+  
+  Ideal skills and experience:
+  - Proficiency in Raspberry Pi
+  - Experience with web-based interfaces
+  - Knowledge of NAYAX payment systems
+  - Strong background in real-time data handling
+  - Familiarity with vending machine operations
+  cc
+  [Clipboard]
+  Hi, Canada-based developer here. I'm available for a video call if you'd like to walk through the hardware and payment details.
+  
+  From what you’ve described the core challenges are: safe/robust GPIO or serial control of the vending actuators, integrating NAYAX payment events reliably, and streaming real-time status to a web UI. I’ve done Raspberry Pi projects that control dispensing hardware and tie into payment gateways, and I usually handle the control layer on the Pi with a small local API plus WebSocket updates for live status.
+  
+  A couple of quick points I’d verify early:
+  1. Do you have wiring docs or a service manual for the vending machine (pulse/drive specs, coin mech signals)?  
+  2. Do you have NAYAX sandbox/API credentials or will setup be needed?
+  
+  If that aligns, I can prepare a short plan for the Pi interface, safety interlocks, and a minimal web UI for testing. 
+  
+  Happy to discuss over a short call. 
+  
+  Thanks,  
+  Paul
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:02:30  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:02:31  [chrome.exe] contracts.freelancer.com/contract-potential/access/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb250cmFjdF9yb2xlX3BvdGVudGlhbCI6Mzc3ODE5MiwicmVkaXJlY3RfdXJsIjoiaHR0cHM6Ly93d3cuZnJlZWxhbmNlci5jb20vYWpheC9wcm9qZWN0L2NvbnRyYWN0L3ZlcmlmeS5waHA_cHJvamVjdElkPTQwNjE1MDkyJmNvbnRyYWN0UG90ZW50aWFsSWQ9MTg4OTE3MiZjb250cmFjdFJvbGVQb3RlbnRpYWxJZD0zNzc4MTkyJnJvbGU9RnJlZWxhbmNlciZjdXN0b21Db250cmFjdElkPTMzJnJldHVyblVybD0vcHJvamVjdHMvNDA2MTUwOTIuaHRtbCIsImlhdCI6MTc4NTQxNjU1MX0.rnjaoNE4TMTYzs8aTqIrqpBUf2axr6zrgmvYpzlbVTg - Googl
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  53 River Rock Court SE, Calgary, AB, Canada
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:02:52  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:02:53  [chrome.exe] Raspberry Pi Vending Machine Interface | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:02:58  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:02:59  [chrome.exe] contracts.freelancer.com/contract-potential/access/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb250cmFjdF9yb2xlX3BvdGVudGlhbCI6Mzc3ODE5NCwicmVkaXJlY3RfdXJsIjoiaHR0cHM6Ly93d3cuZnJlZWxhbmNlci5jb20vYWpheC9wcm9qZWN0L2NvbnRyYWN0L3ZlcmlmeS5waHA_cHJvamVjdElkPTQwNjE1MDkyJmNvbnRyYWN0UG90ZW50aWFsSWQ9MTg4OTE2MCZjb250cmFjdFJvbGVQb3RlbnRpYWxJZD0zNzc4MTk0JnJvbGU9RnJlZWxhbmNlciIsImlhdCI6MTc4NTQxNjU3OX0.w8WoeaKfeUkCOGQ4Bc9yckWOqMmIHiH-8agBspOXgn0 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:03:11  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:03:11  [chrome.exe] Raspberry Pi Vending Machine Interface | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Hi, Canada-based developer here. I'm available for a video call if you'd like to walk through the hardware and payment details.
+  
+  From what you’ve described the core challenges are: safe/robust GPIO or serial control of the vending actuators, integrating NAYAX payment events reliably, and streaming real-time status to a web UI. I’ve done Raspberry Pi projects that control dispensing hardware and tie into payment gateways, and I usually handle the control layer on the Pi with a small local API plus WebSocket updates for live status.
+  
+  A couple of quick points I’d verify early:
+  1. Do you have wiring docs or a service manual for the vending machine (pulse/drive specs, coin mech signals)?  
+  2. Do you have NAYAX sandbox/API credentials or will setup be needed?
+  
+  If that aligns, I can prepare a short plan for the Pi interface, safety interlocks, and a minimal web UI for testing. 
+  
+  Happy to discuss over a short call. 
+  
+  Thanks,  
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  2600
+  [LMB]
+  10
+  [LMB]
+  [LMB]
+  [ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/api-integration/Raspberry-Vending-Machine-Interface/details
+  c
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Raspberry Pi Vending Machine Interface
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  United States
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  $2,600.00 USD
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:04:20  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:04:21  [chrome.exe] Raspberry Pi Vending Machine Interface | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:04:22  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:04:27  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:04:28  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:06:15  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:06:15  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:06:15  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:07:48  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:07:49  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:07:49  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:08:35  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:08:35  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:08:36  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  i notice this on korean culture why  i should call u with the last name, it make sense more if i called u with the first name  for example my name is Fares Ahmed , it don't make sense to call me Ahmed cause this is my dad name
+  [LMB]
+
+--- WINDOW  2026/07/30 07:11:49  [chrome.exe] WooCommerce Store with Square Sync | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:12:12  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:12:12  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:12:24  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:12:26  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:12:27  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:12:37  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+   金
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:15:08  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:15:09  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  金素妍
+  [LMB]
+
+--- WINDOW  2026/07/30 07:16:36  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:16:36  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:16:37  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  The best things in life are free!
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:20:04  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:20:06  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:20:07  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:20:15  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  https://blindtyping.com/test
+  [LMB]
+
+--- WINDOW  2026/07/30 07:22:29  [chrome.exe] Coaching Automation & Scheduling Setup | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:23:12  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:23:12  [chrome.exe] (18) developer Jobs | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:23:13  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:23:13  [chrome.exe] Coaching Automation & Scheduling Setup | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 07:23:15  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  ec
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 07:23:25  [chrome.exe] us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Instances: - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 07:23:26  [chrome.exe] Amazon Web Services Sign-In - Google Chrome
+----------------------------------------------------------------------------
