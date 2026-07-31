@@ -1,0 +1,958 @@
+﻿
+--- WINDOW  2026/07/31 11:39:52  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:40:06  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:40:08  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:40:12  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:40:12  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:40:13  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:40:13  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:40:18  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:40:21  [chrome.exe] Sin título - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:40:24  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:40:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:41:00  [chrome.exe] YouTube - (2) The Cranberries - Zombie (Alt. Version) - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:41:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:41:01  [explorer.exe] Ventana de desbordamiento de la bandeja del sistema.
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:41:02  [MSPCManager.exe] Microsoft PC Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:41:08  [chrome.exe] YouTube - (2) The Cranberries - Zombie (Alt. Version) - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:41:10  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:41:15  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:41:15  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:41:43  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  mira sigue viendose un numero detras [Bk][Bk][Bk][Bk][Bk]bako de la van[Bk][Bk][Bk]bandera s[Bk]necesito que ese nnumero desaparezca[ENTER]
+  [LMB]
+  [Clipboard]
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css"/>
+  
+  <style>
+  .wpcf7 {
+    font-family: sans-serif !important;
+  }
+  
+  .wpcf7 form {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+  
+  .form-row-doble {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .form-row-doble > label {
+    flex: 1;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 0 !important;
+  }
+  
+  .wpcf7 form label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 10px;
+  }
+  
+  .wpcf7 form input[type="text"],
+  .wpcf7 form input[type="tel"],
+  .wpcf7 form input[type="email"],
+  .wpcf7 form select {
+    width: 100% !important;
+    padding: 9px 12px !important;
+    border: 1px solid #d1d5db !important;
+    border-radius: 6px !important;
+    margin-top: 4px !important;
+    background-color: #f9fafb !important;
+    box-sizing: border-box !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+  }
+  
+  .wpcf7 form input[type="submit"] {
+    background-color: #25d366 !important;
+    color: white !important;
+    padding: 12px 20px !important;
+    border: none !important;
+    border-radius: 25px !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+    width: 100% !important;
+    margin-top: 15px !important;
+    font-size: 15px !important;
+    transition: background 0.3s ease;
+  }
+  
+  .wpcf7 form input[type="submit"]:hover {
+    background-color: #128c7e !important;
+  }
+  
+  /* ================================================= */
+  /* OCULTAR EL NÚMERO/CÓDIGO JUNTO A LA BANDERA       */
+  /* ================================================= */
+  .iti {
+    width: 100% !important;
+    margin-top: 4px !important;
+    display: block !important;
+  }
+  
+  .iti input[type="tel"] {
+    padding-left: 45px !important; /* Ajuste perfecto solo para la bandera */
+    background-image: none !important;
+  }
+  
+  .iti__flag-container {
+    padding: 4px !important;
+  }
+  
+  .iti__selected-flag {
+    background-color: transparent !important;
+    border-radius: 4px 0 0 4px !important;
+  }
+  
+  /* Oculta totalmente el texto del código (ej. +597) que muestra la librería al lado */
+  .iti__selected-dial-code {
+    display: none !important;
+  }
+  
+  .iti__country-list .iti__dial-code {
+    display: none !important;
+  }
+  
+  .iti__country-list {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
+    border-radius: 8px !important;
+    border: 1px solid #d1d5db !important;
+    background-color: #ffffff !important;
+    color: #374151 !important;
+    z-index: 99999 !important;
+    text-align: left !important;
+  }
+  </style>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var telInput = document.querySelector('.wpcf7 form input[type="tel"]');
+      if (telInput) {
+        window.intlTelInput(telInput, {
+          initialCountry: "sr",
+          preferredCountries: ["sr", "nl", "us", "gy", "fr"],
+          separateDialCode: false,
+          utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js",
+        });
+      }
+    });
+  </script>
+  [LMB]
+
+--- WINDOW  2026/07/31 11:42:22  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:42:33  [chrome.exe] Sin título - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:42:35  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:42:45  [chrome.exe] Beneficios – 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:42:52  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:43:03  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+  59[ENTER]
+
+--- WINDOW  2026/07/31 11:43:06  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:43:16  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  se sigue viendo porque no lo eliminas[ENTER]
+
+--- WINDOW  2026/07/31 11:43:35  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:44:02  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:44:06  [chrome.exe] Edit Page “Home” ‹ 597PerformanceLab — WordPress - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:44:50  [chrome.exe] Pages ‹ 597PerformanceLab — WordPress - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:45:06  [chrome.exe] Edit Contact Form ‹ 597PerformanceLab — WordPress - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:45:55  [chrome.exe] Pages ‹ 597PerformanceLab — WordPress - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:46:03  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:47:21  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+  597[ENTER]
+
+--- WINDOW  2026/07/31 11:47:27  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:47:29  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:47:45  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:48:04  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:48:08  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:48:08  [chrome.exe] YouTube - (2) Miki Martz - Golden | KPop Demon Hunters (Spanish Version) - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:48:47  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:48:59  [chrome.exe] YouTube - (2) Miki Martz - Golden | KPop Demon Hunters (Spanish Version) - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:49:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:49:01  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:49:20  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:49:20  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:49:23  [chrome.exe] YouTube - (2) Miki Martz - Golden | KPop Demon Hunters (Spanish Version) - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:49:37  [chrome.exe] YouTube - Miki Martz - Golden | KPop Demon Hunters (Spanish Version) - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:49:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:49:49  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:49:53  [chrome.exe] Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:49:57  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:50:00  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:50:00  [chrome.exe] Sin título - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:50:05  [chrome.exe] ‎Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:50:17  [chrome.exe] Asistente de Trading con IA Configurado - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:50:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:50:30  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:50:36  [chrome.exe] Asistente de Trading con IA Configurado - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:50:38  [chrome.exe] Coach Personal - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  que ta il seria para 
+  [LMB]
+
+--- WINDOW  2026/07/31 11:50:50  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:50:51  [chrome.exe] Coach Personal - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  una persina que en este caso se lincencio de mata[Bk]emaqtica'[Bk]-quiim[Bk][Bk]mica y estudio  ano[Bk]ño[Bk][Bk][Bk]ños infr[Bk]ormatica con un curso de seguridad inforamtica , luego e ha dedicado por un ano esclusivamente a trabajar en sitios web con wordpres y aplicaciones moviles y tal ... para esta persi[Bk]ona que es vaga tambien que t[Bk][Bk] tan dificil puede sera aprender a hacer trading y conseguir una rentavilida maxia d [Bk][Bk]de [Bk][Bk][Bk][Bk][Bk][Bk]ia[Bk]ma de c[Bk]ganar mil dola [Bk]r al mes s[Bk]no tieen muco[Bk]ho diner par empezar cada mes puede destinar hasta 4[Bk]50 dollar ar[Bk][Bk]para p[Bk]empeazar con el trading como seria la rentavilidad de esp[Bk]esta personas y la posibolidad de lograglo de verdad dime la vedadd 
+  [LMB]
+
+--- WINDOW  2026/07/31 11:53:33  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 11:53:34  [chrome.exe] Coach Personal - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  sin vacilacion[ENTER]
+  [LMB]
+  porque tengo q probar la estrategia de 3 a 6 meses no es u[Bk]demasiado [ENTER]
+  [LMB]
+  en ves de pasarme de 3 a 6 mese np puedo hacer back teseting y probar eso e[Bk]en 3 o 6 meses atras [ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/31 11:57:58  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:58:05  [chrome.exe] YouTube - Coolio - Gangsta's Paradise (feat. L.V.) [Video Musical Oficial] - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 11:58:06  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:09:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:09:45  [chrome.exe] YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:09:46  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:09:46  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:09:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:09:52  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:09:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:09:53  [chrome.exe] YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:10:02  [chrome.exe] YouTube - Creo un juego de Fortnite con IA y lo intento monetizar - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:10:04  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [->]
+
+--- WINDOW  2026/07/31 12:10:24  [chrome.exe] YouTube - Creo un juego de Fortnite con IA y lo intento monetizar - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [->][->][->][->][->][->][->][->][->][->][->][->][->]
+  [LMB]
+
+--- WINDOW  2026/07/31 12:11:43  [chrome.exe] YouTube - Engañé a Internet con un grupo falso de K-POP - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:11:45  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+  [->]
+  [LMB]
+
+--- WINDOW  2026/07/31 12:11:56  [chrome.exe] YouTube - Engañé a Internet con un grupo falso de K-POP - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][<-][<-][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->]
+  [LMB]
+
+--- WINDOW  2026/07/31 12:23:42  [chrome.exe] YouTube - Creo un juego de Fortnite con IA y lo intento monetizar - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:23:45  [chrome.exe] YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:23:56  [chrome.exe] YouTube - STEELROSE 스틸로즈 — "We Never Learn" | In the Practice Room - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 12:24:07  [chrome.exe] YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  sabina[ENTER]
+
+--- WINDOW  2026/07/31 12:24:15  [chrome.exe] YouTube - sabina - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:24:21  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:24:22  [ShellHost.exe] Quick Settings
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:24:22  [ShellHost.exe] Configuración rápida
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:24:23  [chrome.exe] YouTube - sabina - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:24:24  [chrome.exe] YouTube - Creo un juego de Fortnite con IA y lo intento monetizar - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:24:26  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 12:24:58  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:24:59  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  podemos hacer un scrip para que estas dos logos el de la m y el de staykiu se vean bien centrados '[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  <style>
+  /* Centra horizontalmente el widget de imagen dentro de su columna */
+  .elementor-widget-image {
+      text-align: center !important;
+      margin: 0 auto !important;
+  }
+  
+  /* Fuerza a la etiqueta <img> a ocupar el 100% de su contenedor y centrarse */
+  .elementor-widget-image img {
+      display: block !important;
+      margin: 0 auto !important;
+      max-width: 100% !important;
+      width: auto !important; /* Mantiene la proporción original */
+      height: auto !important;
+  }
+  
+  /* Ajustes específicos para las cajas de servicio para que el icono no sea enorme */
+  .elementor-element-1f98890 .elementor-widget-image img,
+  .elementor-element-9160e3d .elementor-widget-image img {
+      max-height: 60px !important; /* Ajusta este valor (60px, 80px, etc.) para que el logo se vea bien, no gigante */
+      width: auto !important;
+  }
+  </style>
+  [LMB]
+  htm
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 12:28:46  [chrome.exe] Pop-ups bloqueados
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 12:28:50  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:28:50  [chrome.exe] Sin título - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:28:50  [chrome.exe] Configuración - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:28:50  [chrome.exe] Configuración: Ventanas emergentes y redirecciones - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:28:53  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:29:00  [chrome.exe] Sin título - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:29:03  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:29:15  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  htn[Bk]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/31 12:29:51  [chrome.exe] Sin título - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:29:54  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:30:04  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:30:05  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+  59[ENTER]
+
+--- WINDOW  2026/07/31 12:30:08  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 12:30:23  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk]30[Bk][Bk][Bk]25
+
+--- WINDOW  2026/07/31 12:30:45  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:30:47  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]5
+  [LMB]
+
+--- WINDOW  2026/07/31 12:31:03  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 12:31:26  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:31:27  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+  59[ENTER]
+
+--- WINDOW  2026/07/31 12:31:29  [chrome.exe] 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 12:31:41  [chrome.exe] Beneficios – 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:31:46  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:31:49  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  @Manu  you mention three pillars, but the text is not so clear, maybe you list them under each other. @Saskia  Ik weet niet of we compassie zo moeten stellen, ik begrijp wat Manuel bedoeld, maar ik zou eerder passie voor goede zorg zetten of zo, kijk maar even wat jij ervan zou maken.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/31 12:32:05  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:32:06  [chrome.exe] Traductor de Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v[Ctrl][Bk][Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/31 12:32:29  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:32:35  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:32:35  [chrome.exe] Traductor de Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:32:36  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Eén kliniek. Drie pijlers van Prestatie.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/31 12:32:54  [chrome.exe] Traductor de Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/31 12:32:57  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Wij richten ons op kwaliteitszorg, ondersteund door drie belangrijke pijlers: expertise, technologie en compassie. Ontdek hoe deze elementen samenkomen in elke patiëntervaring.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/31 12:33:05  [chrome.exe] Traductor de Google - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+
+--- WINDOW  2026/07/31 12:33:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:33:23  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+   Performance Lab
+  c
+
+--- WINDOW  2026/07/31 12:33:35  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:33:36  [chrome.exe] Traductor de Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:33:37  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/31 12:33:55  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:33:55  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  This part looks really good, but if they have to sign for approval, we have to make a sign option on the letter they digitally send by making an appointment
+  c
+
+--- WINDOW  2026/07/31 12:34:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:34:06  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:34:07  [chrome.exe] Traductor de Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/07/31 12:34:21  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:34:22  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:34:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:34:23  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:34:24  [chrome.exe] Sin título - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:34:26  [chrome.exe] Algemene Voorwaarden & Privacy – 597PerformanceLab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:34:35  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  necesito agregar algo al formulario este que tenemos aqui como para marcar si esta de acuerdo con los terminos y d[Bk]condiciones y tal y qu[Bk][Bk]recuerda que todos lo s
+  [LMB]
+
+--- WINDOW  2026/07/31 12:35:15  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [Bk][Bk]
+
+--- WINDOW  2026/07/31 12:35:18  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk][Bk]s textos deben estare n[Bk][Bk][Bk] en holanez ye[Bk] explicame como agregar lo que me pongas , ademas si vamos a cambiar el script de[Bk][Bk]recueda que debe mantenerse hie[Bk]ndo a info[->]++[<-][Bk]
+
+--- WINDOW  2026/07/31 12:36:08  [chrome.exe] Pages ‹ 597PerformanceLab — WordPress - Google Chrome
+----------------------------------------------------------------------------
+  [->][->]
+
+--- WINDOW  2026/07/31 12:36:11  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [Bk][Bk][Bk]o2[Bk]64597performancelab.com[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 12:36:56  [chrome.exe] Edit Page “Home” ‹ 597PerformanceLab — WordPress - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:37:01  [chrome.exe] Pages ‹ 597PerformanceLab — WordPress - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:37:05  [chrome.exe] Edit Contact Form ‹ 597PerformanceLab — WordPress - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  [acceptance terminos] Ik ga akkoord met de <a href="https://www.597performancelab.com" target="_blank">algemene voorwaarden</a> en privacyverklaring. [/acceptance]
+  [LMB]
+  [ENTER]
+  [ENTER]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 12:37:47  [chrome.exe] Pages ‹ 597PerformanceLab — WordPress - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:37:51  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:38:00  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 12:38:00  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 12:38:06  [chrome.exe] Edit "Home" with Elementor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [ENTER]
+  [Bk]                      [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][ENTER]
+  [Bk][Ctrl]zzzzzz
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 12:39:46  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
