@@ -1,0 +1,409 @@
+﻿  [LMB]
+
+--- WINDOW  2026/07/30 18:24:28  [chrome.exe] lstafford1 Profile | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 18:24:30  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Yes, let's chat when you're available. Can I just call you? I travel a lot.
+  5:40 PM
+  
+  L
+  I put together an advisor committee and have two more conversations to complete before I'm going to pull the trigger. I've developed products before and it really does pay to have every detail described prior to starting.
+  c
+  [LMB]
+
+--- WINDOW  2026/07/30 18:27:53  [chrome.exe] lstafford1 Profile | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 18:27:55  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 18:27:58  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 18:27:59  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  except that I interrupted at the end...
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 18:29:22  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 18:29:39  [chrome.exe] RF Level Triggered Relay Spectrum Analyzer | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I need a 24 VDC RF power meter that detects RF signal levels in the medium frequency range (150 MHz - 960 MHz) and triggers a N.O. dry contact relay to closed when the level falls below a programmable level.
+  
+  Essential Requirements:
+  - Detect RF signal levels
+  - Frequency range: 150 MHz - 960 MHz
+  - Trigger a relay based on level detection below a programmed level
+  - Display output on LED indicators (power, alarm on/off)
+  - Powered by 24 VDC
+  - IP69 enclosure (small form factor with mounting bracket to wall/ceiling)
+  
+  Ideal Skills and Experience:
+  - Experience with RF circuit design
+  - Knowledge of spectrum analyzers
+  - Relay integration expertise
+  - Proficiency in LED display systems
+  - Electronics design and prototyping
+  ccc
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 18:30:01  [chrome.exe] Messenger | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Languages make you feel alive and allow you to talk to anyone without fear of misunderstanding. I travel a lot, so I try to learn languages.
+  [Clipboard]
+  I need a 24 VDC RF power meter that detects RF signal levels in the medium frequency range (150 MHz - 960 MHz) and triggers a N.O. dry contact relay to closed when the level falls below a programmable level.
+  
+  Essential Requirements:
+  - Detect RF signal levels
+  - Frequency range: 150 MHz - 960 MHz
+  - Trigger a relay based on level detection below a programmed level
+  - Display output on LED indicators (power, alarm on/off)
+  - Powered by 24 VDC
+  - IP69 enclosure (small form factor with mounting bracket to wall/ceiling)
+  
+  Ideal Skills and Experience:
+  - Experience with RF circuit design
+  - Knowledge of spectrum analyzers
+  - Relay integration expertise
+  - Proficiency in LED display systems
+  - Electronics design and prototyping
+  [Clipboard]
+  What would you do if every foreigner is reduced to only 5 cm high while Chinese people remain your normal size so that we are very very tiny and you are like giants to us?
+  [Clipboard]
+  This project may include personal information
+  All project contents are visible to collaborators. Personal memories are disabled for shared projects.
+  [Clipboard]
+  This project may include personal information
+  All project contents are visible to collaborators. Personal memories are disabled for shared projects.
+  [LMB]
+  [Clipboard]
+  Sharing is limited for this project
+  This project contains a conversation that can't be shared.
+  [Clipboard]
+  string
+  [Clipboard]
+  Characters : 
+  [Clipboard]
+  lazarkitfrl@gmail.com
+  [Clipboard]
+  https://chatgpt.com/g/g-p-6a2f529e551881918f1d03a97eaca002-janet/project
+  [Clipboard]
+  Words      : 
+  [Clipboard]
+  Uppercase  : 
+  [Clipboard]
+  print(f"Uppercase  : {string.upper()}")
+  [Clipboard]
+  Lowercase
+  [Clipboard]
+  Title      : 
+  [Clipboard]
+  print(f"Lowercase  : {string.lower()}")
+  [Clipboard]
+  Title      : 
+  [Clipboard]
+  lazarkitfrl@gmail.com
+  [Clipboard]
+  word_cnt  = 0
+  temp_str = string
+  while temp_str.find(" ") != -1 :
+      temp_str = temp_str[temp_str.find(" "):]
+      word_cnt += 1
+  [Clipboard]
+  temp_str = string
+  while temp_str.find(" ") != -1 :
+      temp_str = temp_str[temp_str.find(" "):]
+      word_cnt += 1
+  [Clipboard]
+  143275
+  [Clipboard]
+  Your search - temp_str = string while temp_str.find(" ") != -1 : temp_str = temp_str[temp_str.find ... - did not match any documents.
+  
+  Suggestions:
+  
+  Make sure all words are spelled correctly.
+  Try different keywords.
+  Try more general keywords.
+  Try fewer keywords.
+  
+  [Clipboard]
+  143275
+  [Clipboard]
+  087582
+  [Clipboard]
+  Your account details and chats will be included in the export.
+  The data will be sent to your registered email in a downloadable file.
+  The download link will expire 24 hours after you receive it.
+  Processing may take some time. You'll be notified when it's ready.
+  To proceed, click "Confirm export" below.
+  [Clipboard]
+  087582
+  [LMB]
+  [LMB]
+  [Clipboard]
+  temp_str = temp_str[temp_str.find(" "):]
+  [Clipboard]
+  print(f"1----{temp_str}")
+  [Clipboard]
+  temp_str = temp_str[temp_str.find(" "):]
+  print(f"2----{temp_str}")
+  [Clipboard]
+  temp_str = temp_str[temp_str.find(" "):]
+  print(f"3----{temp_str}")
+  [Clipboard]
+   + 1
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 18:54:28  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 18:54:29  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 18:54:37  [chrome.exe] Moody Adventure / Paranormal Podcast Cover Art | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 18:54:40  [chrome.exe] Java RESTful API Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  You’ll be taking charge of the server-side work for my application, and the core focus is clear: build a set of robust, well-documented RESTful APIs in Java. All persistence logic, request/response handling, and authentication layers will live in this codebase, so clean architecture and disciplined error handling matter a lot.
+  
+  Here’s what I expect to come out of this collaboration:
+  
+  • A modular Java codebase (Spring Boot or similar is fine) that exposes the required REST endpoints.
+  • Well-structured data models mapped to the underlying database of your choice, with migrations/versioning in place.
+  • Postman (or equivalent) collection and Swagger/OpenAPI documentation that let any front-end or third-party consumer hit the routes without guessing.
+  • Unit and integration tests covering the critical paths, runnable via a single command.
+  • Dockerfile or clear run instructions so I can spin the service up locally and in staging without surprises.
+  
+  Acceptance criteria: each endpoint must return the specified payload shape, pass all tests, log meaningful errors, and stay under 200 ms average response on my staging box.
+  
+  Let me know the frameworks or libraries you prefer, your timeline for the first set of endpoints, and any questions you have before we start.
+  cc
+
+--- WINDOW  2026/07/30 18:54:55  [chrome.exe] Moody Adventure / Paranormal Podcast Cover Art | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 18:55:01  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 18:55:02  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 18:55:05  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 18:55:06  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  word_cnt += 1
+  [Clipboard]
+  how did delete the all messages at once? 
+
+--- WINDOW  2026/07/30 19:05:59  [AnyDesk.exe] AnyDesk
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 19:06:01  [chrome.exe] Big Belly Bear Sewing Pattern | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 19:06:05  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 19:06:05  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 19:06:17  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 19:07:59  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 19:08:04  [chrome.exe] Fix Internal Links on Heroku | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  I'm seeking a freelancer to fix non-functional internal links on my Heroku platform.
+  
+  Requirements:
+  - Identify and repair specific non-working internal links
+  - Ensure all links direct to the correct internal pages
+  - Test and verify the functionality of all links post-fix
+  
+  Ideal skills and experience:
+  - Proficiency in Heroku and web development
+  - Strong troubleshooting skills
+  - Experience with link management and testing
+  
+  Please provide examples of similar work done and an estimated timeline for completion.
+  c[Ctrl]c
+  [Clipboard]
+  === INTERNAL ESTIMATE ===
+  Estimated Hours: 4-12
+  Estimated Budget: $120-$480 USD
+  Estimated Timeline: 1-2 weeks
+  Confidence: Medium
+  
+  === PROPOSAL ===
+  Hi — Canada-based developer here. I can start by locating why internal links are resolving incorrectly on your Heroku app (routing, environment base URLs, or template-relative vs absolute links are the usual suspects).
+  
+  From a quick read, the core challenge is identifying where links are generated (server templates, front-end router, or build-time asset paths) and ensuring they use the correct base/route in the Heroku environment. I recently fixed a Heroku site where mixed absolute/relative paths plus a CI build step caused broken internal links; the fix was a small template change and one config tweak followed by link-scan tests.
+  
+  A couple of quick questions:
+  1. Is the app based on Rails/Express/Static build (which framework)?
+  2. Do you have repo access and Heroku logs available?
+  
+  I’m available for a short video call if you prefer to walk through it. Thanks, Paul
+  [Clipboard]
+  Hi, Canada-based developer here. I can start by locating why internal links are resolving incorrectly on your Heroku app (routing, environment base URLs, or template-relative vs absolute links are the usual suspects).
+  
+  From a quick read, the core challenge is identifying where links are generated (server templates, front-end router, or build-time asset paths) and ensuring they use the correct base/route in the Heroku environment. I recently fixed a Heroku site where mixed absolute/relative paths plus a CI build step caused broken internal links; the fix was a small template change and one config tweak followed by link-scan tests.
+  
+  A couple of quick questions:
+  1. Is the app based on Rails/Express/Static build (which framework)?
+  2. Do you have repo access and Heroku logs available?
+  
+  I’m available for a short video call if you prefer to walk through it. 
+  Thanks, 
+  Paul
+  [Clipboard]
+  Hi, Canada-based developer here. I can start by locating why internal links are resolving incorrectly on your Heroku app (routing, environment base URLs, or template-relative vs absolute links are the usual suspects).
+  
+  From a quick read, the core challenge is identifying where links are generated (server templates, front-end router, or build-time asset paths) and ensuring they use the correct base/route in the Heroku environment. I recently fixed a Heroku site where mixed absolute/relative paths plus a CI build step caused broken internal links; the fix was a small template change and one config tweak followed by link-scan tests.
+  
+  A couple of quick questions:
+  1. Is the app based on Rails/Express/Static build (which framework)?
+  2. Do you have repo access and Heroku logs available?
+  
+  I’m available for a short video call if you prefer to walk through it. 
+  Thanks, 
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  5
+  [LMB]
+  [LMB]
+  [LMB]
+  50[Bk][Bk][Bk]40
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/api-developmet/Fix-Internal-Links-Heroku/details
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  United States
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Fix Internal Links on Heroku
+  
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $40.00 USD
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 19:10:26  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 19:10:27  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 19:10:28  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 19:10:29  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 19:10:49  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  필요하면 제가 현재 Plus 계정의 번역 프로젝트용으로 사용할 "Translation Master Prompt + QA Rules 문서" 형태로 만들어 드릴 수도 있습니다.
+  [Clipboard]
+  Hey Suyan, this is me. We talked earlier and I helped you with the email thing. I had to change my name and avatar for security reasons as i met a lot of scammers here lately 😓
+  [Clipboard]
+  That
+  was
+  what
+  I
+  wanted,
+  but
+  I
+  don't
+  need
+  it
+  to
+  be
+  gone.
+  [LMB]
+  [LMB]
+  [LMB]
