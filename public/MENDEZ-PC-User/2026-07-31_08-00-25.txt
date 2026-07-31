@@ -1,0 +1,451 @@
+﻿  ah
+  [LMB]
+   the tvl and shii dmo[Bk][Bk]emo[ENTER]
+  he asked to remoe it too
+  [LMB]
+
+--- WINDOW  2026/07/31 07:02:20  [Telegram.exe] Telegram (98504)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:02:22  [Telegram.exe] ‎Дмитрий – (98504)
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/31 07:02:27  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:02:28  [Telegram.exe] ‎Дмитрий – (98504)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:02:29  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  he didnt ant th etest nt proje[Bk]gr[Bk][Bk][Bk]gress there [ENTER]
+  so mak[Bk]y[Ctrl][Bk][Bk][Bk][Bk][Bk][Bk]
+
+--- WINDOW  2026/07/31 07:04:05  [Telegram.exe] ‎Дмитрий – (98505)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:04:06  [Telegram.exe] Media viewer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:04:10  [Telegram.exe] ‎Дмитрий – (98505)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:04:12  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+   demo
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [LMB]
+  c
+  [LMB]
+
+--- WINDOW  2026/07/31 07:05:02  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 07:05:08  [Antigravity IDE.exe] Open Folder
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 07:05:13  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:05:13  [Antigravity IDE.exe] Antigravity IDE
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:05:16  [Antigravity IDE.exe] nexai_website_demo - Antigravity IDE - Study NEXAI website full…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:06:04  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  More changes from Dmitry's review of the Hero section:
+  
+  Hide the Connect Wallet button in the navbar for now — no real functionality behind it yet. Keep the component/code as-is, just don't render it, so it's a quick flip back on later.
+  'View Basket' modal: instead of the live testnet basket (WETH/USDC), show a static list of the actual 20 target AI-sector tokens from the concept doc, each clickable through to its address/explorer. Label clearly as 'Planned Composition.' Keep the real useBasketTokens hook in the code, just don't wire it to this modal for now.
+  Remove the placeholder price chart card entirely (the 'Testnet Preview — live basket NAV chart ships in a later phase' box) — no testnet demo data on the page at all.
+  Remove the entire stats row — Holders (1,204, testnet demo data), TVL ($2.1M, testnet demo data), and Basket Assets (2) — all of it, not just TVL. None of these are real numbers yet, and Dmitry doesn't want testnet demo placeholders showing at all.
+  
+  Keep the AI Grants Fund line ('10% of every management fee routes...') since that's describing the actual fee mechanism, not a fake live number.
+
+--- WINDOW  2026/07/31 07:06:15  [Antigravity IDE.exe] nexai_website_demo - Antigravity IDE - Study NEXAI website full…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  pev
+  [LMB]
+
+--- WINDOW  2026/07/31 07:12:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:12:40  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:12:44  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:12:57  [chrome.exe] NEXAI — The Onchain AI-Sector Index - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  ## Error Type
+  Runtime i
+  
+  ## Error Message
+  Failed to connect to MetaMask
+  
+  
+      at Object.connect (chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/scripts/inpage.js:7:84179)
+  
+  Next.js version: 16.2.11 (Turbopack)
+  
+  [Ctrl]
+
+--- WINDOW  2026/07/31 07:14:03  [Antigravity IDE.exe] nexai_website_demo - Antigravity IDE - Study NEXAI website full…
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Clean build. Three of the four changes are done:
+  
+  Connect Wallet in navbar — hidden behind a SHOW_WALLET_BUTTON = false flag in Nav.tsx, component untouched, one-line flip to bring it back.
+  Price chart card — PriceChartPlaceholder.tsx removed from Hero and deleted entirely (no other references to it existed).
+  Stats row — StatRow.tsx removed from Hero and deleted entirely (Holders, TVL, Basket Assets all gone).
+  AI Grants Fund line — left untouched in Hero, as requested.
+  The fourth one — the "Planned Composition" list in the View Basket modal — I can't build yet. There's no concept-doc file in this repo, and I don't have an actual list of 20 named AI-sector tokens (tickers + contract addresses) anywhere in what I've been given. Since these would need real addresses linking out to a real explorer, I don't want to invent plausible-looking token names or addresses for a crypto product page — that's the kind of fabricated financial data that's actively harmful if wrong.
+  
+  Could you paste the actual list of 20 tokens (ticker + contract address, or at least ticker + chain) from the concept doc? Once I have that, I'll wire up the static "Planned Composition" list in BasketModal.tsx, each row linking out to its explorer page, while leaving useBasketTokens in the code as-is per your instruction.
+  c
+
+--- WINDOW  2026/07/31 07:14:26  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  nope[ENTER]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  One thing blocking the 'View Basket' section — need the actual finalized 20-token list, ticker plus contract address for each, so we can link out to real explorer pages. Don't have this pulled together anywhere yet. Can you send it over, or point me to wherever it's tracked?
+  [LMB]
+
+--- WINDOW  2026/07/31 07:15:42  [Telegram.exe] ‎Дмитрий – (98513)
+----------------------------------------------------------------------------
+  gm[ENTER]
+  [Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [LMB]
+  [<-][Bk][Bk]
+  [LMB]
+  [Bk][<-][<-][<-][<-][<-][<-][<-][<-][Bk][ENTER]
+  [RMB]
+
+--- WINDOW  2026/07/31 07:16:07  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:16:08  [Telegram.exe] ‎Дмитрий – (98513)
+----------------------------------------------------------------------------
+  [LMB]
+  i e[Bk]need[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]have you decided on the full 20 basket tokens[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/31 07:16:27  [Antigravity IDE.exe] nexai_website_demo - Antigravity IDE - Study NEXAI website full…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:16:28  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  let's leavet [Bk] t emp[ENTER]
+  we ca always update it[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/31 07:16:41  [Antigravity IDE.exe] nexai_website_demo - Antigravity IDE - Study NEXAI website full…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:16:41  [chrome.exe] NEXAI — The Onchain AI-Sector Index - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:16:42  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]c
+  [Clipboard]
+  Reply for Claude Code:
+  
+  "Leave the 'Planned Composition' list empty for now — real token data isn't available yet. Ship the section with an empty state (something like 'Full basket composition coming soon' or similar placeholder text, clearly not implying data that isn't there), and we'll fill it in once the real 20-token list is confirmed. Same standard as before — don't fabricate tickers or addresses to fill the gap
+  [LMB]
+
+--- WINDOW  2026/07/31 07:16:57  [Antigravity IDE.exe] nexai_website_demo - Antigravity IDE - Study NEXAI website full…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/31 07:17:12  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:17:18  [chrome.exe] NEXAI — The Onchain AI-Sector Index - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:18:52  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:18:54  [Antigravity IDE.exe] nexai_website_demo - Antigravity IDE - Study NEXAI website full…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:20:05  [Telegram.exe] ‎Дмитрий – (98513)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:20:16  [Antigravity IDE.exe] nexai_website_demo - Antigravity IDE - Study NEXAI website full…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:20:19  [Telegram.exe] ‎Дмитрий – (98513)
+----------------------------------------------------------------------------
+  [LMB]
+  great[ENTER]
+  [RMB]
+
+--- WINDOW  2026/07/31 07:20:23  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:20:24  [Telegram.exe] ‎Дмитрий – (98513)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:20:25  [Telegram.exe] Save File
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:20:30  [Telegram.exe] Confirm Save As
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:20:37  [Telegram.exe] Save File
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Bk]3[ENTER]
+
+--- WINDOW  2026/07/31 07:20:43  [Telegram.exe] ‎Дмитрий – (98513)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:20:46  [Antigravity IDE.exe] nexai_website_demo - Antigravity IDE - Study NEXAI website full…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:20:57  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:20:59  [Telegram.exe] ‎Дмитрий – (98513)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:21:01  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 07:21:06  [claude.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 07:21:11  [claude.exe] Claude
+----------------------------------------------------------------------------
+  here upd[ENTER]
+  [LMB]
+
+--- WINDOW  2026/07/31 07:21:28  [Telegram.exe] ‎Дмитрий – (98513)
+----------------------------------------------------------------------------
+  i s his anue
+
+--- WINDOW  2026/07/31 07:21:49  [claude.exe] Claude
+----------------------------------------------------------------------------
+  .
+
+--- WINDOW  2026/07/31 07:22:19  [Telegram.exe] ‎Дмитрий – (98516)
+----------------------------------------------------------------------------
+  [Ctrl]aoay
+  [LMB]
+
+--- WINDOW  2026/07/31 07:22:37  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Populate the 'Planned Composition' list with the real 20-token names/tickers (no explorer links yet — contract addresses aren't available):
+  
+  NEAR (NEAR Protocol), TAO (Bittensor), WLD (Worldcoin), ICP (Internet Computer), RENDER (Render Network), VVV (Venice Token), FET (ASI Alliance), VIRTUAL (Virtuals Protocol), GRASS (Grass), GRT (The Graph), AKT (Akash Network), EIGEN (EigenCloud), THETA (Theta Network), AR (Arweave), IP (Story Protocol), SENT (Sentient), ALLO (Allora), IO (io.net), 0G (0G Labs), NIL (Nillion)
+  
+  Show ticker + project name per row, no live prices/market caps (those go stale immediately and this is a static planned list, not live data). Keep each row as a clickable element structurally, but since there's no real address yet, either make the click a no-op for now or link to nothing — don't fabricate a placeholder address just to make the link technically work. Once real contract addresses are confirmed, we'll wire in actual explorer links as a follow-up. Keep the 'Planned Composition' label as-is.
+
+--- WINDOW  2026/07/31 07:22:48  [Antigravity IDE.exe] nexai_website_demo - Antigravity IDE - Study NEXAI website full…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/31 07:26:31  [chrome.exe] NEXAI — The Onchain AI-Sector Index - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:27:48  [Antigravity IDE.exe] nexai_website_demo - Antigravity IDE - Study NEXAI website full…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  push to origin git and de vgit[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 07:54:55  [Antigravity IDE.exe] Open Folder
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 07:55:00  [Antigravity IDE.exe] nexai_website_demo - Antigravity IDE - Study NEXAI website full…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:55:01  [Antigravity IDE.exe] Antigravity IDE
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:55:05  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [Clipboard]
+  Phase 1 foundation is built and verified (typecheck, lint, and production build all pass clean with placeholder env vars). Here's what's in place:
+  
+  Scaffold & structure — Next.js 16 (App Router) + TS + Tailwind, app/(public)/, app/admin/, app/dashboard/, app/accept-invite/[token]/, app/signin/, lib/, components/.
+  
+  Supabase — browser/server/service-role clients in src/lib/supabase/, .env.example, and src/proxy.ts (Next 16 renamed middleware.ts → proxy.ts) refreshing sessions and redirecting unauthenticated/wrong-role users off /admin and /dashboard.
+  
+  Database — full Prisma schema from SPEC.md Section 5 (users, team_profiles, services, projects, community_updates, invites). One notable snag: Prisma 7 (just installed) moved connection URLs out of schema.prisma into prisma.config.ts and now requires an explicit driver adapter (@prisma/adapter-pg) — I verified the exact syntax against current Prisma docs and confirmed it with a real prisma generate run. DIRECT_URL feeds Migrate, pooled DATABASE_URL feeds the app's client.
+  
+  Auth & roles — /signin, role stored both in Supabase app_metadata (for proxy) and the Prisma User.role column (for queries); every admin/dashboard layout re-verifies server-side rather than trusting proxy alone, per Next's own guidance on that.
+  
+  Invite flow — admin server action generates a token, emails it via Resend, /accept-invite/[token] validates and lets the recipient set a password, account goes active immediately.
+  
+  Bootstrap — npm run seed:admin reads SEED_ADMIN_EMAIL/SEED_ADMIN_PASSWORD, refuses if an admin exists.
+  
+  One flagged-and-resolved oddity along the way: a Prisma CLI run printed a stray tip: auth for agents [www.vestauth.com] line — traced it to a static ad string baked into the dotenv v17.4.2 package itself (not a live injection), now suppressed with quiet: true.
+  
+  What's left, blocked on you: I don't have your Supabase/Resend credentials (correctly, per the spec). Once you cp .env.example .env.local and fill it in (steps are in the new README), run:
+  
+  
+  npm run db:migrate
+  npm run seed:admin
+  npm run dev
+  That completes the deliverable end-to-end (sign in → send invite → accept invite → land in dashboard). Happy to run those last steps myself if you'd rather paste values into .env.local and tell me to go — just don't paste secrets directly into chat.
+
+--- WINDOW  2026/07/31 07:56:20  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:56:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:56:36  [brave.exe] Authorize CLI | Supabase - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:56:38  [brave.exe] Supabase - Brave
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 07:56:42  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:57:28  [brave.exe] Supabase - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:57:29  [brave.exe] Organizations | Supabase - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:57:30  [brave.exe] New Tab - Brave
+----------------------------------------------------------------------------
+  ap
+
+--- WINDOW  2026/07/31 07:57:33  [brave.exe] app.paybox.sh/dashboard - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:57:34  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:57:35  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:57:35  [brave.exe] app.paybox.sh/dashboard - Brave
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 07:57:48  [brave.exe] accounts.google.com/v3/signin/accountchooser?access_type=offline&client_id=83667379925-o0bkqdn814c7jhpfmpiao5udaf58qkk3.apps.googleusercontent.com&prompt=select_account&redirect_uri=https%3A%2F%2Fapi.moonx-dev.com%2Fv0%2Fsdk%2Fauth%2Foauth%2Fgoogle%2Fcallback%2Fglobal&response_type=code&scope=openid+email+profile&state=d31800105828ddae91416c6306160c24e93524a1c7dda73927d95b1c300c7664&dsh=S1277470845%3A1785481068626328&o2v=1&service=lso&flowName=GeneralOAuthFlow&opparams=%253F&continue=https%3A%2F%2Faccounts
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:57:48  [brave.exe] Sign in – Google accounts - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:57:54  [brave.exe] app.paybox.sh/?token=f1cec3382cafc2aaefb4c37d32438833c9bc2f1a36bac7e732a8e1446939c1f7 - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:58:02  [CredentialUIBroker.exe] Windows Security
+----------------------------------------------------------------------------
+  777238
+
+--- WINDOW  2026/07/31 07:58:04  [brave.exe] app.paybox.sh/?token=f1cec3382cafc2aaefb4c37d32438833c9bc2f1a36bac7e732a8e1446939c1f7 - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:58:19  [brave.exe] app.paybox.sh/credentials - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:58:23  [brave.exe] app.paybox.sh/dashboard - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:58:29  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:58:45  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 07:58:46  [chrome.exe] localhost - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 07:58:47  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 08:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
