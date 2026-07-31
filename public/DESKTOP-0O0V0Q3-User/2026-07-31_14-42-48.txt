@@ -1,0 +1,395 @@
+﻿
+--- WINDOW  2026/07/31 13:48:08  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:48:38  [chrome.exe] Machines - Tailscale - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 13:48:45  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:48:45  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 13:50:58  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:50:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:50:59  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 13:51:02  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 13:51:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:51:06  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:51:06  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+  ch[ENTER]
+
+--- WINDOW  2026/07/31 13:51:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:51:10  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 13:51:13  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]t
+
+--- WINDOW  2026/07/31 13:51:16  [chrome.exe] Cemetery Memory Sharing App Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:51:16  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:51:18  [chrome.exe] Cemetery Memory Sharing App Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 13:51:24  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:51:25  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 13:52:29  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:52:31  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 13:52:38  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 13:52:41  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:52:41  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:52:41  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  AWPSW3-104E66-5C6BE5
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 13:52:56  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 13:53:55  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 13:53:59  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:53:59  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:53:59  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 13:54:49  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:54:49  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 13:56:12  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:56:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:56:12  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 13:56:15  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:56:17  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:56:17  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:22  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:23  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:23  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 13:58:35  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:35  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:35  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:38  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 13:58:40  [ApplicationFrameHost.exe] Settings
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 13:58:49  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:51  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:51  [ApplicationFrameHost.exe] Settings
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:53  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:53  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:54  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:54  [ShellExperienceHost.exe] Windows Shell Experience Host
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:54  [ShellExperienceHost.exe] Jump List for Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:58:55  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:59:55  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 13:59:55  [ApplicationFrameHost.exe] Settings
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 14:00:03  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:00:04  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:00:04  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:00:07  [tailscale-ipn.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 14:00:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:00:10  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:00:47  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:00:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:03:51  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 14:06:42  [ApplicationFrameHost.exe] Settings
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  from bef
+
+--- WINDOW  2026/07/31 14:09:55  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:09:55  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 14:11:09  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://www.freelancer.com/projects/automation/CodeSYS-Programming-for-HED-Display/details
+  [LMB]
+
+--- WINDOW  2026/07/31 14:26:19  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/31 14:26:22  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:26:24  [chrome.exe] CodeSYS Programming for HED 713 Display | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/31 14:29:21  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 14:29:26  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:29:26  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 14:29:37  [chrome.exe] Engaging YA Fantasy Audiobook | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  and why did your project came as an .sh?
+  that's literally shell execution
+
+--- WINDOW  2026/07/31 14:31:04  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 14:31:16  [chrome.exe] Looking for a google engineer who has experience with clever. Looking for someone who can help us sync google onto clever | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 14:31:19  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:31:19  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:31:20  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  .com[ENTER]
+
+--- WINDOW  2026/07/31 14:31:26  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/07/31 14:31:54  [chrome.exe] Plataforma Comercial Independent para a Chiquê | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 14:32:00  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Home][Bk]htpts;//
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 14:32:27  [chrome.exe] Responsive Fence Configurator Build | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  https://metbron.tafira.studio/?id=00-217-347
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  https://www.freelancer.com/users/l.php?url=https:%2F%2Fmetbron.tafira.studio%2F%3Fid%3D00-217-347&sig=a0ece475ae0d8540fc488ddec0afef91eee84631d712c13eb95a7f75867c18b2
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+   https://metbron.tafira.studio/?id=00-217-347
+  [Clipboard]
+  I don't want a gap to form in our relationship.
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 14:41:41  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:41:41  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 14:41:51  [chrome.exe] Responsive Fence Configurator Build | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 14:41:58  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:41:59  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
