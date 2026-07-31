@@ -1,0 +1,461 @@
+﻿  [LMB]
+
+--- WINDOW  2026/07/30 17:23:59  [chrome.exe] LinkedIn Outreach & Lead Generation Specialist -- 2 | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 17:24:02  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  print("Strong Password")
+  [Clipboard]
+  else :
+      print("Weak Password")
+  [Clipboard]
+  -----------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 17:33:54  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 17:33:54  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 17:40:50  [chrome.exe] (1) Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  The index() method finds the first occurrence of the specified value.
+  
+  The index() method raises an exception if the value is not found.
+  
+  The index() method is almost the same as the find() method, the only difference is that the find() method returns -1 if the value is not found. (See example below)
+
+--- WINDOW  2026/07/30 17:41:11  [chrome.exe] (1) RF Level Triggered Relay Spectrum Analyzer | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 17:41:19  [chrome.exe] (1) lstafford1 Profile | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  @lstafford1
+  cc
+
+--- WINDOW  2026/07/30 17:42:19  [chrome.exe] (1) RF Level Triggered Relay Spectrum Analyzer | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 17:42:47  [chrome.exe] (1) DESARROLLO DE APLICACIÓN MÓVIL WALKPET VERSIÓN 1.0 | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  DESARROLLO DE APLICACIÓN MÓVIL WALKPET VERSIÓN 1.0
+  
+  Es para realizarla en Flutter para desarrollar una aplicación móvil para Android e iOS denominada WalkPet.
+  WalkPet será una plataforma tecnológica enfocada en el sector de mascotas que permitirá conectar propietarios de mascotas con paseadores, veterinarias y otros establecimientos especializados mediante un sistema de geolocalización, directorio comercial, reservas y pagos en línea.
+  El proyecto deberá entregarse completamente funcional, incluyendo aplicaciones móviles, panel administrativo, código fuente y publicación en Google Play Store y Apple App Store.
+  ________________________________________
+  Tecnologías Obligatorias
+  El proyecto deberá desarrollarse utilizando las siguientes tecnologías:
+  • Flutter (obligatorio)
+  • Android
+  • iOS
+  • Panel Administrativo Web Responsive
+  • API REST
+  • Base de Datos MySQL o PostgreSQL
+  • Google Maps API
+  • Firebase Cloud Messaging (Notificaciones Push)
+  • Wompi (Pasarela de Pago)
+  • GitHub
+  ________________________________________
+  MÓDULO 1 – REGISTRO DE USUARIOS
+  El sistema deberá permitir registrar tres tipos de usuarios:
+  • Propietario de mascotas.
+  • Paseador de mascotas.
+  • Empresas o establecimientos.
+  El formulario deberá solicitar:
+  • Nombre completo.
+  • Documento.
+  • Celular.
+  • Correo electrónico.
+  • Contraseña.
+  • Ciudad.
+  El sistema deberá validar usuarios duplicados y permitir recuperación de contraseña.
+  ________________________________________
+  MÓDULO 2 – PERFIL DE MASCOTAS
+  Los propietarios podrán registrar múltiples mascotas con:
+  • Fotografía.
+  • Nombre.
+  • Especie.
+  • Raza.
+  • Edad.
+  • Peso.
+  • Vacunas.
+  • Alergias.
+  • Observaciones.
+  ________________________________________
+  MÓDULO 3 – REGISTRO Y VERIFICACIÓN DE PASEADORES
+  Los paseadores deberán registrarse mediante un proceso de verificación.
+  Deberán cargar en pdf :
+  • Documento de identidad.
+  • Certificados de antecedentes.
+  • Fotografía.
+  • Dirección.
+  • Fotografía de la fachada.
+  • Ubicación GPS.
+  El administrador aprobará o rechazará cada solicitud.
+  ________________________________________
+  MÓDULO 4 – DIRECTORIO COMERCIAL
+  El Panel Administrativo permitirá registrar manualmente establecimientos.
+  Cada establecimiento tendrá:
+  • Logotipo.
+  • Imagen principal.
+  • Hasta 10 fotografías.
+  • Dirección.
+  • Coordenadas GPS.
+  • Horarios.
+  • Servicios.
+  • Teléfono.
+  • WhatsApp.
+  • Correo.
+  • Página Web.
+  • Facebook.
+  • Instagram.
+  • TikTok.
+  • Botón "Cómo llegar".
+  Categorías iniciales:
+  • Veterinarias.
+  • Clínicas Veterinarias.
+  • Hospitales Veterinarios.
+  • Veterinarias 24 horas.
+  • Peluquerías.
+  • Guarderías.
+  • Hoteles.
+  • BARF.
+  • Tiendas para mascotas.
+  • Entrenadores.
+  • Sitios Pet Friendly.
+  • EPS para mascotas.
+  • Aseguradoras.
+  • Fundaciones.
+  • Centros de adopción.
+  • Cementerios.
+  • Funerarias.
+  ________________________________________
+  MÓDULO 5 – MAPA PRINCIPAL
+  La pantalla principal será Google Maps.
+  El sistema deberá:
+  • Detectar la ubicación actual.
+  • Mostrar establecimientos cercanos.
+  • Mostrar paseadores disponibles.
+  • Permitir filtros por categoría y distancia.
+  • Mostrar rutas mediante Google Maps o Waze.
+  ________________________________________
+  MÓDULO 6 – SISTEMA DE RESERVAS
+  Permitir:
+  • Reservas inmediatas.
+  • Reservas programadas.
+  • Cancelaciones.
+  • Reprogramaciones.
+  • Historial.
+  ________________________________________
+  MÓDULO 7 – GESTIÓN DE PASEOS
+  Permitir:
+  • Solicitar paseo.
+  • Aceptar servicio.
+  • Iniciar paseo.
+  • Finalizar paseo.
+  • Registrar historial.
+  ________________________________________
+  
+  
+  MÓDULO 8 – GPS EN TIEMPO REAL
+  Durante el paseo el propietario visualizará:
+  • Ubicación del paseador.
+  • Ruta.
+  • Tiempo.
+  • Distancia.
+  ________________________________________
+  MÓDULO 9 – PAGOS
+  Integración inicial con Wompi.
+  Comisión configurable desde el Panel Administrativo.
+  ________________________________________
+  MÓDULO 10 – PANEL ADMINISTRATIVO
+  Administrar:
+  • Usuarios.
+  • Paseadores.
+  • Empresas.
+  • Categorías.
+  • Publicidad.
+  • Banners.
+  • Reservas.
+  • Pagos.
+  • Comisiones.
+  • Estadísticas.
+  • Importación mediante Excel.
+  • Exportación.
+  
+  ________________________________________
+  MÓDULO 11 – PUBLICIDAD
+  Administración de:
+  • Banner principal.
+  • Empresas destacadas.
+  • Publicidad por categorías.
+  • Campañas.
+  ________________________________________
+  MÓDULO 12 – NOTIFICACIONES PUSH
+  Enviar notificaciones por:
+  • Reservas.
+  • Pagos.
+  • Paseos.
+  • Promociones.
+  • Campañas.
+  ________________________________________
+  
+  MÓDULO 13 – CHAT
+  Chat únicamente entre propietario y paseador.
+  Las empresas utilizarán:
+  • Llamadas.
+  • WhatsApp.
+  • Correo.
+  • Página Web.
+  ________________________________________
+  ENTREGABLES
+  El proyecto deberá entregarse con:
+  • Código fuente completo.
+  • Repositorio GitHub.
+  • Aplicación Android.
+  • Aplicación iOS.
+  • Panel Administrativo.
+  • Base de datos.
+  • Documentación técnica.
+  • Manual de instalación.
+  • Publicación en Google Play Store.
+  • Publicación en Apple App Store.
+  • Garantía de corrección de errores.
+  ________________________________________
+  ccc
+  [Clipboard]
+  Hi, Canada based developer here. I'm available for a video call if you'd like to go over scope and priorities.
+  
+  The core challenge is delivering a reliable Flutter app plus a secure admin/API backend that handles real-time GPS tracking, reservations/payments (Wompi) and a searchable Google Maps directory without fragile edge cases. From what you wrote, the priorities will be: stable location streaming during walks, verification workflow for paseadores, and a clean admin to manage listings and commissions.
+  
+  I've built a pet-services marketplace before (Flutter mobile + responsive admin, real-time location and payment gateway integration). My approach would be to focus first on user flows (registration, verification, booking, live-tracking), then add payments and admin controls.
+  
+  A couple of quick questions:
+  1. Do you expect background GPS tracking on both Android and iOS (locations while app is backgrounded)?
+  2. Any preferred hosting or existing API/backend to integrate, or should I provision a new cloud API + PostgreSQL?
+  
+  Thanks,
+  Paul
+  [Clipboard]
+  GPS 
+  [Ctrl]fv
+  [Clipboard]
+  Hi, Canada based developer here.
+  
+  The core challenge is delivering a reliable Flutter app plus a secure admin/API backend that handles real-time GPS tracking, reservations/payments (Wompi) and a searchable Google Maps directory without fragile edge cases. From what you wrote, the priorities will be: stable location streaming during walks, verification workflow for paseadores, and a clean admin to manage listings and commissions.
+  
+  I've built a pet-services marketplace before (Flutter mobile + responsive admin, real-time location and payment gateway integration). My approach would be to focus first on user flows (registration, verification, booking, live-tracking), then add payments and admin controls.
+  
+  A couple of quick questions:
+  1. Do you expect background GPS tracking on both Android and iOS (locations while app is backgrounded)?
+  2. Any preferred hosting or existing API/backend to integrate, or should I provision a new cloud API + PostgreSQL?
+  
+  Thanks,
+  Paul
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  DESARROLLO DE APLICACIÓN MÓVIL WALKPET VERSIÓN 1.0
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/flutter/DESARROLLO-APLICACI-VIL-WALKPET-VERSI/details
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Colombia
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $500.00 USD
+  c[Ctrl]
+  [LMB]
+
+--- WINDOW  2026/07/30 17:45:20  [chrome.exe] (1) lstafford1 Profile | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 17:45:24  [chrome.exe] (1) DESARROLLO DE APLICACIÓN MÓVIL WALKPET VERSIÓN 1.0 | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 17:46:49  [chrome.exe] (1) Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 17:46:50  [chrome.exe] (1) Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 17:46:50  [chrome.exe] (1) Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Where in the text is the first occurrence of the letter "e" when you only search between position 5 and 10?:
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 17:53:38  [chrome.exe] (2) Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  rRl5j53H
+  [LMB]
+
+--- WINDOW  2026/07/30 17:55:42  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 17:55:43  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 17:55:44  [chrome.exe] (2) Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 17:55:53  [chrome.exe] (2) Optimise Cloudflare CDN for WordPress | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  We’re looking for a Cloudflare specialist to help optimise CDN settings for a WordPress website. The goal is to improve Core Web Vitals performance.
+  
+  Specifically, ideal candidates will have:
+  
+  1. Strong experience with Cloudflare configuration
+  2. Knowledge of CDN optimisation
+  3. Familiarity with WordPress performance tuning
+  
+  This is a small consulting project that requires quick turnaround.
+  cc
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 17:56:02  [chrome.exe] (2) Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 17:56:08  [chrome.exe] (2) DESARROLLO DE APLICACIÓN MÓVIL WALKPET VERSIÓN 1.0 | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 17:56:10  [chrome.exe] (2) Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 17:57:28  [chrome.exe] (2) RF Level Triggered Relay Spectrum Analyzer | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 18:12:48  [chrome.exe] (2) Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 18:12:49  [chrome.exe] (2) Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  😊
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 18:15:35  [chrome.exe] (2) Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 18:15:37  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 18:15:38  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 18:15:38  [chrome.exe] (2) Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 18:15:46  [chrome.exe] (2) Authorize.net Donation Form Integration | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 18:16:02  [chrome.exe] (2) Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/30 18:16:16  [chrome.exe] (2) Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Well may I know if you notice to cm?
+
+--- WINDOW  2026/07/30 18:20:54  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 18:22:12  [chrome.exe] lstafford1 Profile | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/30 18:22:16  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/30 18:22:16  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
