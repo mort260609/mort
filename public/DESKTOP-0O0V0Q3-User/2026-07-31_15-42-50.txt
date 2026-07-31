@@ -1,0 +1,343 @@
+﻿  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+  [Clipboard]
+  Anyway, really thx for your kindness
+
+--- WINDOW  2026/07/31 14:43:10  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:43:11  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:43:11  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  You seem mad
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 14:43:53  [chrome.exe] Apple & Google Subscription Integration | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 14:44:13  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:44:14  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  The number of CONNECTs has reached nearly 500.
+
+--- WINDOW  2026/07/31 14:46:28  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:46:29  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:46:29  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 14:48:51  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:48:52  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:48:52  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://www.freelancer.com/projects/automation/CodeSYS-Programming-for-HED-Display/details
+  [LMB]
+
+--- WINDOW  2026/07/31 14:55:17  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/31 14:55:20  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 14:55:22  [chrome.exe] CodeSYS Programming for HED 713 Display | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Hi, Canada-based developer here. I'm available for a video call if you'd like to walk through the HED 713 specifics.
+  
+  You need a single, fault-tolerant CodeSYS HMI that reads two CAN buses, displays a compact operator screen, and implements safe start/stop/protection logic. The core challenge is correctly mapping CAN signals + scaling and ensuring safety chains/trips are deterministic under fault conditions — not the graphics.
+  
+  I've built CodeSYS HMI/PLC projects for genset and marine control panels where I handled CAN mapping, alarm logic, and an HMI with drill-down metrics. My approach: prioritize I/O mapping and safety logic first, then a minimal, tested UI with inline comments and a short operator guide.
+  
+  A couple quick questions:
+  1. Do you have DBC files or raw CAN/ID documentation for both buses?
+  2. Will I have physical access to the HED 713 for final validation, or is this remote testing only?
+  
+  Happy to share a short sample of past CodeSYS work after a quick call or NDA.
+  
+  Thanks,
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk][Bk]120
+  [LMB]
+  [LMB]
+  [LMB]
+  [<-][ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  40
+  [LMB]
+  [LMB]
+  [LMB]
+  45
+  [LMB]
+  [LMB]
+  [<-][Bk]0
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $40.00 USD
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  CodeSYS Programming for HED 713 Display
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/automation/CodeSYS-Programming-for-HED-Display/details
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  United States
+  c
+  [LMB]
+  [Clipboard]
+  https://www.freelancer.com/projects/web-development/Chauffeur-Service-Website-Development/details
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/31 15:08:28  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 15:08:30  [chrome.exe] Chauffeur Service Website Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 15:08:36  [chrome.exe] CodeSYS Programming for HED 713 Display | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 15:12:41  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 15:12:42  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://www.freelancer.com/projects/web-development/Corporate-Website-Development-40618060/details
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/07/31 15:19:45  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 15:19:47  [chrome.exe] Corporate Website Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 15:20:02  [chrome.exe] Engaging YA Fantasy Audiobook | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 15:20:08  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 15:20:09  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 15:29:46  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 15:29:47  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 15:29:47  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 15:35:54  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 15:35:55  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 15:35:55  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 15:36:10  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 15:36:10  [ApplicationFrameHost.exe] Settings
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 15:36:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 15:37:48  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 15:37:53  [chrome.exe] Prototype Smartphone and fob Controlled Home bolt Lock | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  I need a working prototype of an electronic lock that can retrofit a standard residential dead-bolt and be controlled primarily through a dedicated smartphone app (iOS and Android). The unit should sit on the inside of the door, drive the bolt motor mechanically, and communicate over Bluetooth LE or Wi-Fi so I can lock or unlock the door from my phone whether I’m at home or away.
+  
+  Core requirements
+  • Smartphone app control is the main interface; the app must show real-time lock status and allow user management (add / revoke access codes or fobs).
+  • I also want an optional key-fob reader so family members can tap-to-unlock without the phone.
+  • The prototype has to include its own bolt-turning mechanism, powered by AA or rechargeable batteries, with a low-battery warning pushed to the app.
+  • Basic tamper detection (case opened or forced rotation) should trigger an alert in the app.
+  
+  What I expect to receive
+  1. Functional hardware prototype: motor drive, PCB, enclosure (3-D printed is fine for now), power system and any required sensors.
+  2. Firmware source code, well commented, ready for compilation on the chosen microcontroller (ESP32, nRF52 or similar).
+  3. A simple, clean mobile app (native or cross-platform) that pairs with the lock, shows status, and performs lock / unlock commands.
+  4. Circuit schematics, parts list, and mechanical drawings so I can move toward small-batch manufacturing after validation.
+  5. 5 copies of working prototype.
+  
+  I’ll be available to clarify door measurements, preferred components, or security constraints, and I’m open to your suggestions on the exact chipset, motor type, or encryption approach as long as the final build is reliable, CSA approved, secure, and ready for the next manufacturing step.
+  I will provide a confidentiality agreement to be signed and returned prior to providing details, 3D narrated and animated video, along with a milestone payment schedule.
+  Pls provide your completion budget
+  cc
+  [Clipboard]
+  Hi, Canada-based developer here. 
+  
+  I’m available for a short video call to go over door specifics and security constraints.
+  
+  You’re asking for three hard pieces: a reliable bolt-drive with predictable torque and battery life, secure BLE/Wi‑Fi communications with real-time state and alerts, and a simple user-facing app for access management. Those are the parts I’d prioritise first.
+  
+  I’ve built a retrofit deadbolt prototype before (ESP32-based, BLE+Wi‑Fi, motor controller, tamper sensors, companion cross-platform app) and shipped small batches for field testing. My immediate focus would be motor selection and gearbox tolerance, power budgeting with low-battery push notifications, and a minimal secure pairing flow for app/fob access.
+  
+  A couple of quick questions:
+  1) Do you have a preferred key-fob tech (NFC, 125kHz RFID, or BLE-based fobs)?
+  2) Will the prototypes need to fit a specific door/thickness standard or is adjustability acceptable?
+  
+  If that matches, I’ll prepare a phased plan and we can sign the NDA before sharing detailed schematics. Thanks, Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]22
+  [Clipboard]
+  Estimated Budget: $6,600
+  [LMB]
+  [ENTER]
+  [LMB]
+  [ENTER]
+  [ENTER]
+  [Ctrl]v
+  [Clipboard]
+  USD
+  [LMB]
+  [Ctrl]v[ENTER]
+  i'm [Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/embedded-systems/Prototype-Smartphone-fob-Controlled-Home/details
+  cc
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Prototype Smartphone and fob Controlled Home bolt Lock
+  
+  c
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Canada
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Home][Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  $1,125.00 USD
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/07/31 15:41:23  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/07/31 15:41:25  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 15:41:26  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/07/31 15:41:27  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
