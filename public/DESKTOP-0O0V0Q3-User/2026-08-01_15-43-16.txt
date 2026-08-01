@@ -1,0 +1,282 @@
+﻿  [Clipboard]
+  https://www.linkedin.com/in/jared-huffer-963288257
+
+--- WINDOW  2026/08/01 14:44:49  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/01 14:44:49  [chrome.exe] Instances | EC2 | ca-west-1 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/01 14:44:50  [chrome.exe] (2) Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/01 14:44:54  [chrome.exe] Bid Insights | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/01 14:44:58  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/01 14:44:59  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/01 14:45:00  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/01 14:45:00  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  But I think you might have told me one more little lie. 😄
+  
+  It seems like you might actually be older than me.
+  Your hair is pretty long now, and judging by that, it looks like it's been quite a while since you graduated from university. I don't think that would happen in such a short time.
+  So my guess is... you're older than I am.
+  
+  Am I a good detective? 😄
+  
+  I'll be offline for the rest of the day because I'm heading to the sea for a swim.
+  Take a guess where I am! 🌊
+  [Clipboard]
+  Terrific and wonderful !
+  [LMB]
+
+--- WINDOW  2026/08/01 14:53:15  [chrome.exe] Full MQ4 EA Decompilation Needed | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/01 14:53:24  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/01 14:53:48  [chrome.exe] Lebanese Directory Mobile App Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Mobile App Project (iPhone & Android)
+  
+  I am looking for an experienced developer to build a mobile application for both iPhone (iOS) and Android.
+  
+  Project Overview
+  
+  I live in Montreal, Canada, and I am part of the Lebanese community. Many Lebanese professionals and businesses are available in Montreal, but they are scattered across different Facebook groups, WhatsApp groups, websites, and personal contacts. As a result, it is often difficult to find the right person when someone needs a service.
+  
+  The purpose of this application is to create one central directory where members of the Lebanese community can easily find professionals and businesses.
+  
+  Main Features
+  
+  User Accounts
+  
+  * User registration and login.
+  * User profiles.
+  
+  Business Directory
+  
+  Businesses and professionals can create their own profile, including:
+  
+  * Name
+  * Profession or business category
+  * Description of services
+  * Phone number
+  * Email
+  * Address
+  * Website (optional)
+  * Photos
+  * Business hours
+  * Languages spoken
+  * Service area
+  
+  Search
+  
+  Users should be able to search by:
+  
+  * Profession (lawyer, plumber, electrician, doctor, accountant, etc.)
+  * Business name
+  * Keywords
+  * City
+  * Distance from their location
+  
+  Categories
+  
+  Examples:
+  
+  * Lawyers
+  * Doctors
+  * Dentists
+  * Plumbers
+  * Electricians
+  * Mechanics
+  * Contractors
+  * Restaurants
+  * Grocery stores
+  * Real estate agents
+  * Insurance brokers
+  * Financial advisors
+  * Tutors
+  * Translators
+  * And many more.
+  
+  Reviews
+  
+  Users can:
+  
+  * Rate businesses (1 to 5 stars)
+  * Leave reviews
+  * Read reviews from other users
+  
+  Map
+  
+  * Display businesses on a map.
+  * Navigation using Google Maps or Apple Maps.
+  
+  Favorites
+  
+  Users can save businesses to a favorites list.
+  
+  Contact
+  
+  Users can:
+  
+  * Call directly
+  * Send an email
+  * Visit the website
+  * Get directions
+  
+  Notifications
+  
+  Businesses can send announcements or promotions to their followers.
+  
+  Administration Panel
+  
+  An admin dashboard to:
+  
+  * Approve or reject business listings
+  * Manage users
+  * Edit categories
+  * Moderate reviews
+  * View statistics
+  
+  Future Features
+  
+  In future versions, I would like to add:
+  
+  * Paid memberships for businesses
+  * Featured listings
+  * Advertisements
+  * In-app messaging
+  * Appointment booking
+  * Coupons and promotions
+  * Multi-language support (English, French, and Arabic)
+  
+  Design
+  
+  The application should be modern, simple, fast, and easy to use.
+  
+  Platforms
+  
+  * iPhone (iOS)
+  * Android
+  
+  Questions for the Developer
+  
+  Please provide:
+  
+  1. Estimated development cost.
+  2. Estimated completion time.
+  3. Technologies you recommend.
+  4. Whether you recommend a native app or Flutter/React Native.
+  5. Whether you can also build the admin panel and backend.
+  6. Ongoing maintenance costs after launch.
+  7. Whether you can publish the app on the Apple App Store and Google Play Store.
+  
+  The goal is to create the main directory for the Lebanese community in Montreal, making it easy for people to find trusted professionals and businesses in one place
+  ccc
+  [Clipboard]
+  Hi, Canada-based developer here.
+  
+  You want a simple, trustworthy directory for Montreal’s Lebanese community. The core challenges are getting reliable listings, searchable discovery (by profession, distance, keywords) and a lightweight admin/moderation flow so the directory stays useful.
+  
+  I’ve built a handful of local business directories with map-based search, reviews, and admin dashboards. For this project I’d focus first on: (1) a solid MVP for listing creation, search/filtering and maps, (2) review & moderation workflows, and (3) an admin panel to approve/manage listings. Relevant tech I usually use for this type of work: Flutter (single codebase) and Google Maps + a simple REST backend.
+  
+  A couple of quick questions:
+  1. Do you already have any business data (CSV, website list) to seed the app?
+  2. Is email/phone verification required at launch or can that be phased?
+  
+  Happy to discuss next steps.  
+  Thanks,  
+  Paul
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  https://www.freelancer.com/projects/android/Lebanese-Directory-Mobile-App/details
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Lebanese Directory Mobile App Development
+  
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Canada
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  $500.00 CAD
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/01 14:55:25  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/01 14:55:44  [chrome.exe] Excel VBA-Based Index Option Analysis System - 01/08/2026 15:02 EDT | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/01 14:55:47  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+
+--- WINDOW  2026/08/01 14:56:12  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/01 14:56:14  [chrome.exe] Aplicativo Web de Produtividade | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/01 14:56:18  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/01 14:56:25  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/01 15:03:09  [chrome.exe] (1) Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
