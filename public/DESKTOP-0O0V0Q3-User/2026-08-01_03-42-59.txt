@@ -1,0 +1,19 @@
+﻿  [Clipboard]
+  This interface provides command line access to your account on the server.
+  [Clipboard]
+  /opt/alt/python311/bin/python3 -m venv ~/myenv
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi Siddharth,
+  
+  GLG has made the decision to discontinue your membership. The decision is final.
+  
+  Please note, you are not permitted to create new profiles moving forward, even if approached by GLG employees to do so. You may refer to our Terms and Conditions or reach out to me directly if you have questions regarding this matter.
+  
+  Regards,
+  Madison Austin
+  Member Management
+  GLG 301 Congress Avenue, Suite 300, Austin, TX 78701
+  madison.austin@glgroup.com
+  glginsights.com
