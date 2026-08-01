@@ -1,0 +1,52 @@
+﻿  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/01 11:30:21  [chrome.exe] files.fm - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/08/01 11:30:22  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  tpay[ENTER]
+
+--- WINDOW  2026/08/01 11:30:24  [chrome.exe] Global Payment Solutions & Online Payment Services | Payoneer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/01 11:30:34  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/01 11:30:35  [chrome.exe] Payoneer: My Account - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/01 11:30:38  [chrome.exe] Payoneer Login - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]a
+  [Clipboard]
+  Wzszwlbc@1234
+  ccw
+
+--- WINDOW  2026/08/01 11:30:46  [chrome.exe] Global Payment Solutions & Online Payment Services | Payoneer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/01 11:30:47  [chrome.exe] (1) Chat | Faraz Ali | Microsoft Teams - Google Chrome
+----------------------------------------------------------------------------
+  [Tab][Tab]
+
+--- WINDOW  2026/08/01 11:30:47  [chrome.exe] WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/01 11:30:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/01 11:30:51  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/01 11:30:52  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
