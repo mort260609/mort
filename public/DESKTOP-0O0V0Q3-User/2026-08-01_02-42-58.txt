@@ -1,0 +1,145 @@
+﻿  [LMB]
+
+--- WINDOW  2026/08/01 02:30:31  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/01 02:30:37  [chrome.exe] Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/01 02:30:38  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/01 02:30:38  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/01 02:31:29  [chrome.exe] Senior Python Web API Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Project Details
+  €20,000.00 – 50,000.00 EUR
+  
+   Bidding ends in 6 days, 18 hours
+  I need an experienced Python developer to build a production-ready web service/API from the ground up. The project is strictly web development focused—no data-science or desktop scripting—so I’m looking for someone who can architect clean, scalable back-end code, design intuitive RESTful endpoints, and deploy the application in a modern cloud environment.
+  
+  Here’s what you’ll be tackling:
+  • Defining the API structure, models, and authentication logic
+  • Writing robust, well-documented Python code (I’m open to Flask, FastAPI, or Django DRF—choose the stack you work best with)
+  • Integrating a relational database and setting up migrations
+  • Adding unit and integration tests to secure future maintainability
+  • Automating deployment with Docker and CI/CD so we can move fast without breaking things
+  
+  You’ll deliver the full source, documentation for every endpoint, and a concise README explaining setup and deployment. I value clean Git history and clear commit messages.
+  
+  When you apply, focus on your experience building web APIs in Python—mention the frameworks you prefer and any real-world systems you’ve shipped at scale. If you have public repos or live endpoints that illustrate your skills, feel free to include a link.
+  
+  I’m ready to start as soon as I find the right fit, and I expect steady communication throughout the build. Looking forward to seeing how your background matches the challenge.
+  cc
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/01 02:31:41  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  hire[v][v][v][v][v][v][v][ENTER]
+
+--- WINDOW  2026/08/01 02:31:46  [chrome.exe] Cloudflare Dashboard | Manage Your Account - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/01 02:31:54  [chrome.exe] Senior Python Web API Development | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Hi,  Canada-based developer here. 
+  
+  I’m available for a video call if you’d like to walk through requirements.
+  
+  From your brief the core challenge is delivering a clean, well-tested API surface with reliable auth and repeatable deployments. My usual approach is to keep the models and auth minimal and well-documented, then add test coverage and CI/CD so releases don’t regress.
+  
+  I’ve shipped production REST APIs using FastAPI with PostgreSQL (Alembic migrations), Dockerized builds, and GitHub Actions for CI/CD. For a project like yours I’d focus first on the data model + auth flows, then stabilize tests and the deployment pipeline.
+  
+  A couple of quick questions:
+  1. Which authentication method do you prefer (JWT, OAuth2, SSO)?
+  2. Is there an existing schema or third‑party API we must integrate from day one?
+  
+  If this aligns, I can prepare a short plan and demo times for a call. Thanks, 
+  Paul
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  20
+  [LMB]
+  20
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://www.freelancer.com/projects/api-developmet/Senior-Python-Web-API-Development/details
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Senior Python Web API Development
+  
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Belgium
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  €20,000.00 EUR
+  c
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/01 02:34:06  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/01 02:34:30  [chrome.exe] SampleManager LIMS C# Dashboard Tutoring | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  I have a new job that is very technical, and I'm struggling with SampleManager LIMS 21.3. I've been asked to build a custom dashboard or some other useful form that incorporates C# but I don't have any good ideas for a custom form yet. Company policy prevents me from giving anyone direct access to the live system, so I’m looking for a tutor who can help me get up to speed faster and produce something I can show my boss, while I do the typing.
+  
+  We’d meet remotely unless you are around Minneapolis. I did go to the Thermo class on Forms and C# but it's still very hard for me and I am worried about my job. I appreciate any thoughts or offers. Let me know what you would charge per hour. Thanks!
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/01 02:35:09  [chrome.exe] Browse Projects | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/01 02:35:20  [chrome.exe] Search | Freelancer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
