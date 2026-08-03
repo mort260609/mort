@@ -1,0 +1,325 @@
+﻿
+--- WINDOW  2026/08/02 19:35:13  [StartMenuExperienceHost.exe] Start
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/02 19:35:15  [WebExperienceHostApp.exe] CoreInput
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/02 19:35:15  [WebExperienceHostApp.exe] Get Started
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/02 19:35:24  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/02 19:35:25  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/02 19:35:26  [StartMenuExperienceHost.exe] Start
+----------------------------------------------------------------------------
+
+================================================================================
+ SESSION START  2026/08/03 19:51:22
+================================================================================
+
+
+--- WINDOW  2026/08/03 19:51:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:51:29  [UniKeyNT.exe] UniKey 4.6 RC2
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:51:32  [opera.exe] - Opera
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:51:32  [opera.exe] opera.com/client/welcome?utm_campaign=wpstest2/opera.exe&utm_medium=pb&utm_source=wps - Opera
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:51:32  [opera.exe] Loading… - Opera
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:51:33  [opera.exe] Speed Dial - Opera
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:51:46  [LegionSettingMenu.exe] LegionSettingMenu
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:51:46  [opera.exe] Speed Dial - Opera
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:52:20  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+  [Clipboard]
+  Just need to Immediately Fix the Spread MArkups, 
+   
+  as Manager API Bridge was working fine last time in KPMT with this feature, 
+  so please get this fix so that further more ACSFX doesn't get loss
+   
+
+--- WINDOW  2026/08/03 19:53:18  [opera.exe] Speed Dial - Opera
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:53:19  [opera.exe] Quit Opera?
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:53:23  [UniKeyNT.exe] UniKey 4.6 RC2
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:53:25  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:53:26  [UniKeyNT.exe] UniKey 4.6 RC2
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/03 19:53:27  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:53:27  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:53:28  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/03 19:53:28  [msedge.exe] Connections | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:53:29  [msedge.exe] Connections | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Quick question: what happens to your finances if your contract ends and the next one takes three months to land?
+  
+  Most IT contractors I speak to don't have a real plan for that gap.
+  Just something worth thinking about.
+  cc
+  [LMB]
+
+--- WINDOW  2026/08/03 19:54:44  [msedge.exe] Volodymyr Semenovych 🇺🇦 | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/03 19:55:01  [msedge.exe] Connections | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/03 19:55:01  [msedge.exe] (24) LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:55:01  [msedge.exe] Connections | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:55:02  [msedge.exe] Notifications | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/03 19:55:11  [msedge.exe] Connections | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 19:55:12  [msedge.exe] Grow | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/03 19:55:18  [msedge.exe] Connections | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  Hi, Dear. I’m a Senior Software Engineer / Full-Stack Developer with 9+ years of experience building scalable, high-performance systems across a wide range of industries.
+  
+  My core expertise lies in backend engineering, where I specialize in C++, PHP, Go, Rust, Python (Flask/Django), Java, and C# .NET. I’ve designed and deployed distributed systems using PostgreSQL, NoSQL, AWS, Docker, and CI/CD pipelines leveraging Kubernetes and Kafka.
+  
+  On the frontend, I bring strong experience with React.js, Next.js, Angular, Vue.js, as well as cross-platform mobile development using Kotlin, Swift, Flutter and React Native.
+  
+  Over the years, I’ve delivered impactful solutions including:
+  • AI platforms (LLM-based chatbots, voice bots, document analysis, video generation, weather forecasting)
+  • Forex & crypto trading systems (including DeFi, DApps, and DEX platforms) 
+  • AI trading platform with indicator engine, risk engine and strategy generation according to symbol
+  • Specific Video Generation engine development without any AI api using.
+  • E-commerce and digital asset management systems
+  • Booking and restaurant management platforms
+  • Healthcare applications
+  • IPTV systems across Web, Android, iOS, LG TV, and Samsung TV
+  • Shipping platforms with integrated payment systems (Payabli, PayFabric)
+  • Social and sports platforms (mobile & web)
+  • Question-Why type systems not like social media
+  • SkyDiving video production with opencv, FFmpeg, yolo, and more.
+  • Social and sports platforms (mobile & web)
+  
+  I enjoy solving complex technical challenges, optimizing system performance, and building reliable, scalable products that deliver real business value.
+  
+  I’m currently open to full-time remote opportunities or collaboration with startups, founders, and engineering teams—particularly in backend-heavy or system design-focused roles.
+  I can comfortably work across US and UK time zones.
+  Let’s connect if you’re building something ambitious or need a strong technical partner.
+  📩 Contact:
+  WhatsApp: +84 0707039301
+  Telegram: @soft_exper
+  Email: giaan9032001@gmail.com
+  LinkedIn: https://www.linkedin.com/in/tran-gia-an-050032218/
+  Thank you.
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/03 19:58:03  [msedge.exe] Grow | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  A color curve for a well-exposed photo typically features a diagonal line that runs from the bottom left to the top right, indicating a balanced range of tones. You can adjust this curve by adding points to brighten highlights or darken shadows, enhancing the overall contrast and tonal quality of the image.
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/03 20:04:41  [msedge.exe] Notifications | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  Last month a production system went down at 3 AM. By sunrise it was fixed, tested, and deployed. Nobody saw the part in between — so I made a short film about it. 🎬👇
+  
+  That invisible part is the actual job. Not the typing. The thinking.
+  
+  When everything is on fire, the skill that matters isn't knowing another framework. It's staying calm, tracing the system in your head, questioning every assumption you made when you built it — and recognizing the moment the puzzle clicks.
+  
+  Nine years of that discipline is what I bring to every system I've shipped: an AI video-generation engine built without any third-party AI APIs (OpenCV, FFmpeg, YOLO), a complete multi-terminal forex platform (C++ trade servers, MT4/5 + LMAX + PrimeXM bridges, matching engine, broker CRM), AI trading with indicator, risk, and strategy engines, plus payments, healthcare, IPTV, and enterprise logistics.
+  
+  Currently: Artificial Intelligence Engineer building ML and deep-learning video generation. Stack depth across C++, Go, Rust, Python, Java, C#/.NET, React, Next.js, Kubernetes, and AWS.
+  
+  I'm open to one serious partnership — a founder, CEO, CTO, or investor with a real market who needs an engineer that treats 3 AM like part of the craft. Remote: US, Germany, Netherlands, Cyprus, Europe.
+  
+  Engineers — what's your best 3 AM war story? Founders — who do you call when it breaks? 👇
+  
+  📩 Telegram @soft_exper · WhatsApp +84 707 039 301
+
+--- WINDOW  2026/08/03 20:05:20  [msedge.exe] Oops, something went wrong... and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  dr[ENTER]
+
+--- WINDOW  2026/08/03 20:05:25  [msedge.exe] Google Drive and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 20:05:26  [msedge.exe] Home - Google Drive and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/03 20:05:38  [msedge.exe] Notifications | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/03 20:05:42  [msedge.exe] Grow | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/03 20:05:43  [msedge.exe] Feed | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [Clipboard]
+  #SoftwareEngineering #ProblemSolving #FoundersAndCEOs #AIEngineering #StartupHiring
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/03 20:06:14  [msedge.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/03 20:06:17  [msedge.exe] Feed | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  My actual 3 AM story: latency spike, CPU normal, memory normal, only under load. Three days of hunting ended in one missing database index — p99 went from 8400ms to 42ms with one line. The fix took a minute. Knowing where to look took nine years.
+  
+  If you're building something real and want an engineer who owns the hard parts end to end — DM me. CV, code samples, and architecture deep-dives available.
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/03 20:06:54  [msedge.exe] (1) LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 20:06:54  [msedge.exe] Grow | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 20:06:55  [msedge.exe] Notifications | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  1. Broader Market Weakness & Low Beta
+  Overview: The total crypto market cap fell 0.72% in the last 24 hours, with Bitcoin down 1.01%. This modest market-wide pullback, occurring within a "Fear" sentiment environment (Fear & Greed Index at 33), often leads to outsized selling in lower-liquidity altcoins as capital seeks safety. What it means: EVAA's decline is not an isolated event but part of a cautious market phase where smaller assets are more vulnerable to sell-offs.
+  
+  2. No Clear Secondary Driver
+  Overview: The provided data shows no specific news, social media catalysts, or on-chain events for EVAA Protocol. Trading volume fell over 30%, indicating a lack of new buying interest to counter the downward drift. What it means: Without a positive catalyst, the token lacked momentum to resist the general market pressure, and low volume can exacerbate price swings.
+  
+  3. Near-term Market Outlook
+  Overview: The key near-term trigger is broader market direction, particularly Bitcoin's ability to hold above $62,000. For EVAA, immediate support is near $0.80. If this level holds and market sentiment stabilizes, the price could range between $0.80 and $0.90. A break below $0.80 with increasing volume could see a test of the 60-day uptrend support. What it means: The trend from the past two months remains intact but is under short-term pressure. Watch for: A reclaim of the $0.90 level, which would signal a return of buyer confidence.
+  
+  Conclusion
+  Market Outlook: Neutral to Bearish Pressure The drop reflects EVAA's sensitivity to broader market sentiment in the absence of its own positive developments. Key watch: Whether Bitcoin finds stability above $62k, which would be crucial for curbing further downside in altcoins like EVAA.
+
+--- WINDOW  2026/08/03 20:17:37  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 20:17:37  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 20:17:38  [msedge.exe] Notifications | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 20:17:43  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 20:17:43  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 20:17:43  [msedge.exe] Notifications | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 20:19:05  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/03 20:19:05  [msedge.exe] Notifications | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
