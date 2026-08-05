@@ -1,0 +1,997 @@
+﻿  [Clipboard]
+  The adapter is retargeted to Circle Web3 Services (Programmable Wallets) — the product your key is actually for. Everything downstream (ledger, withdrawal state machine, idempotency, webhook plumbing) is unchanged; only the Circle integration swapped.
+  
+  
+  
+  What changed
+  
+  Auth model — W3S adds an entity-secret ciphertext on every mutating call: RSA-OAEP-SHA256(CIRCLE_ENTITY_SECRET) encrypted with Circle's entity public key (fetched from /v1/w3s/config/entity/publicKey, cached). ✅ Verified the exact encryption against your real entity key in the test.
+  
+  
+  
+  Operations now hit /v1/w3s/*:
+  
+  
+  
+  Deposit address → creates a developer-controlled wallet in your wallet set → returns its address.
+  
+  Payout → resolves the tokenId from the master wallet's balances → transfers from CIRCLE_WALLET_ID.
+  
+  Webhook → parses the W3S transaction shape (state COMPLETE/CONFIRMED → settle; INBOUND → credit deposit), still signature-verified per-keyId, fail-closed.
+  
+  Fiat payout throws — Programmable Wallets has no fiat rail (that's Circle Mint), so "withdraw local currency" via Circle isn't supported.
+  
+  Host/env: one host api.circle.com; CIRCLE_ENV=sandbox → testnet chains.
+  
+  
+  
+  Chain support (important limitation): PW covers ERC20, ARBITRUM, POLYGON, BASE, SOL only. BSC, Tron, BTC, opBNB throw — Circle PW can't custody them. Withdrawals on those networks will fail clearly rather than silently mis-send.
+  
+  
+  
+  Test — ALL PASS, including the real-key RSA-OAEP, chain mapping (ERC20→ETH-SEPOLIA, BTC throws), gating, mock fallback, idempotency, and load/boot.
+  
+  
+  
+  What you still need to set (3 more W3S values)
+  
+  Your CIRCLE_API_KEY alone keeps it on mock (by design). To go live, add to .env:
+  
+  
+  
+  
+  
+  CIRCLE_ENTITY_SECRET=   # generate + register in the console → Configurator (32-byte hex)
+  
+  CIRCLE_WALLET_SET_ID=   # POST /v1/w3s/developer/walletSets (or create in console)
+  
+  CIRCLE_WALLET_ID=       # a wallet in that set to be the master payout wallet (fund it)
+  
+  Quick way to create the wallet set + master wallet (needs the entity secret registered first):
+  
+  
+  
+  Console → Configurator → generate & register entity secret → put the hex in CIRCLE_ENTITY_SECRET.
+  
+  POST /v1/w3s/developer/walletSets (with entitySecretCiphertext) → CIRCLE_WALLET_SET_ID.
+  
+  POST /v1/w3s/developer/wallets (blockchains e.g. ["ETH-SEPOLIA"], that wallet set) → use a returned wallet id as CIRCLE_WALLET_ID, and fund it with testnet tokens.
+  
+  Then restart and confirm: node -e "console.log(require('./src/config').payments.payoutProvider, require('./src/integrations/circle').enabled)" should print circle true.
+  
+  
+  
+  Two honest caveats
+  
+  Not exercised against the live W3S API (I only have your public key, not the entity secret / wallet set). The entity-secret crypto, chain mapping, signature verify, idempotency, and wiring are verified; the actual /v1/w3s/* request/response field names follow Circle's docs but should be confirmed on a real sandbox call (especially the inbound-notification token fields).
+  
+  Multi-asset reality: your app lists USDT/BTC/TRX/BNB etc., but Circle PW only custodies EVM + Solana assets. For BTC/Tron you'd need a different custody provider — worth deciding before production.
+  
+  Want me to add a small GET /health/providers endpoint (reports which rails are live + which chains Circle supports) so you can sanity-check config at a glance once the three values are in?
+  
+  
+  
+  
+
+--- WINDOW  2026/08/05 22:20:26  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://jobright.com/
+
+--- WINDOW  2026/08/05 22:21:04  [msedge.exe] Labelbox and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:21:12  [msedge.exe] Untitled and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:21:15  [msedge.exe] Labelbox and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:22:00  [msedge.exe] Tyga Project Video, Access, Setup, Evaluation and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:22:08  [msedge.exe] Labelbox and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:22:37  [msedge.exe] Untitled and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:22:38  [msedge.exe] Hubstaff App Download | Desktop, Mobile & Browser Extensions and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:22:44  [msedge.exe] Hubstaff Account and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:22:48  [msedge.exe] Hubstaff App Download | Desktop, Mobile & Browser Extensions and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:22:52  [msedge.exe] Hubstaff - Welcome and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:22:58  [msedge.exe] Tyga Project Video, Access, Setup, Evaluation and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:23:02  [msedge.exe] Labelbox and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:23:11  [msedge.exe] Untitled and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:23:11  [msedge.exe] discord.com/channels/1413160195168800778/1498858426175062170 and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:23:12  [msedge.exe] Discord and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:23:17  [msedge.exe] • Discord and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:23:19  [msedge.exe] • Discord | #worldsim-codehumanpref-channel | Alignerr Phoenix and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:23:55  [msedge.exe] Labelbox and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:24:54  [msedge.exe] • Discord | #worldsim-codehumanpref-channel | Alignerr Phoenix and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:24:55  [msedge.exe] Labelbox and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:24:59  [msedge.exe] Activity | Trần Gia Ân | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:25:06  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:25:20  [msedge.exe] Labelbox and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:25:24  [msedge.exe] New tab and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  al
+  [LMB]
+
+--- WINDOW  2026/08/05 22:25:32  [msedge.exe] Alignerr | Powered by Labelbox and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:25:41  [msedge.exe] Sign in - Google Accounts and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:25:47  [msedge.exe] Alignerr | Powered by Labelbox and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:26:08  [msedge.exe] Hubstaff Account and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  How is member eligibility retrieved?
+  [LMB]
+
+--- WINDOW  2026/08/05 22:33:05  [msedge.exe] Labelbox and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:33:10  [msedge.exe] Tyga Project Video, Access, Setup, Evaluation and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:33:38  [msedge.exe] • Discord | @Phúc and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:33:41  [msedge.exe] Discord and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:33:43  [msedge.exe] • Discord and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:33:44  [msedge.exe] • Discord | @Phúc and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:33:51  [msedge.exe] • Discord | #worldsim-codehumanpref-channel | Alignerr Phoenix and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:34:06  [msedge.exe] • Discord and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:34:14  [msedge.exe] • Discord | #worldsim-codehumanpref-channel | Alignerr Phoenix and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:34:15  [msedge.exe] • Discord | #welcome | Alignerr Phoenix and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:34:21  [msedge.exe] • Discord | #worldsim-codehumanpref-channel | Alignerr Phoenix and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:34:37  [msedge.exe] • Discord | "Access or Payment Issues" | Alignerr Phoenix and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:34:49  [msedge.exe] • Discord | "General Questions" | Alignerr Phoenix and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:34:55  [msedge.exe] • Discord | "Access or Payment Issues" | Alignerr Phoenix and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:37:20  [msedge.exe] Labelbox and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://taiga.ant.dev/
+  [LMB]
+
+--- WINDOW  2026/08/05 22:37:59  [msedge.exe] New tab and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/05 22:38:03  [msedge.exe] App unavailable in region | Claude by Anthropic and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:38:33  [msedge.exe] Supported countries and regions \ Anthropic and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:38:55  [msedge.exe] New tab and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  ip.me[ENTER]
+
+--- WINDOW  2026/08/05 22:38:59  [msedge.exe] What is my IP address? | Find my public IP address | IP.me and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:39:06  [msedge.exe] Supported countries and regions \ Anthropic and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/05 22:39:22  [msedge.exe] App unavailable in region | Claude by Anthropic and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:39:35  [msedge.exe] • Discord | "Access or Payment Issues" | Alignerr Phoenix and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  hi[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:40:24  [msedge.exe] App unavailable in region | Claude by Anthropic and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:40:50  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:40:50  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:40:50  [Taskmgr.exe] Task Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:40:55  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:41:00  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:41:04  [StartMenuExperienceHost.exe] Start
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:41:04  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:41:05  [chrome.exe] Tải Office 365 Full Crack Google Drive Mới Nhất Miễn Phí - Laptop Hải Nam - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:41:05  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:41:10  [chrome.exe] 404 Not Found - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/05 22:41:13  [chrome.exe] Đăng nhập - Tài khoản Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:41:19  [chrome.exe] stake.bet - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:41:21  [chrome.exe] Stake: Online Casino & Sports Betting - Play & Bet Online - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:41:22  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:41:23  [chrome.exe] Stake: Online Casino & Sports Betting - Play & Bet Online - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:41:25  [chrome.exe] 500 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:41:27  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:41:30  [chrome.exe] 500 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:41:34  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:41:36  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:41:36  [chrome.exe] Google Accounts - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:41:37  [chrome.exe] Sign in - Google Accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:41:40  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:41:41  [chrome.exe] Sign in - Google Accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:41:47  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:41:52  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:42:38  [chrome.exe] Sign in - Google Accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:42:41  [msedge.exe] App unavailable in region | Claude by Anthropic and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:42:45  [msedge.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:42:56  [msedge.exe] App unavailable in region | Claude by Anthropic and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:44:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:44:36  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:44:39  [StartMenuExperienceHost.exe] Start
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:44:39  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:44:40  [chrome.exe] Sign in - Google Accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:44:52  [chrome.exe] Welcome - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:45:02  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:45:05  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  giaan9032001@gmail.com
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Clipboard]
+  giaanvip123
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Clipboard]
+  Giaanvip9031
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:46:05  [CredentialUIBroker.exe] Windows Security
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:46:08  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:46:40  [chrome.exe] Welcome - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:47:25  [msedge.exe] App unavailable in region | Claude by Anthropic and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:47:29  [msedge.exe] Tyga Project Video, Access, Setup, Evaluation and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:47:50  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:47:50  [chrome.exe] Welcome - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:47:54  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:47:59  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:48:03  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  work
+  [LMB]
+
+--- WINDOW  2026/08/05 22:48:09  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://taiga.ant.dev/
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/08/05 22:48:16  [chrome.exe] Sign in - Google Accounts - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  cmsezf77c002a01wjf1go7hg9@alignerrworkforce.com
+  [Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:48:34  [chrome.exe] Welcome - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  *w94K!a7tvFfndE%
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/08/05 22:49:11  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+  [Clipboard]
+  kar
+
+--- WINDOW  2026/08/05 22:49:14  [chrome.exe] Welcome - Google Chrome
+----------------------------------------------------------------------------
+  company19910742
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:49:29  [chrome.exe] Đang chuyển hướng - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:49:29  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:49:41  [chrome.exe] App unavailable in region | Claude by Anthropic - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:49:42  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:49:46  [chrome.exe] App unavailable in region | Claude by Anthropic - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://claude.com/app-unavailable-in-region
+  cccc
+
+--- WINDOW  2026/08/05 22:51:12  [msedge.exe] Tyga Project Video, Access, Setup, Evaluation and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:51:16  [msedge.exe] App unavailable in region | Claude by Anthropic and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:51:30  [msedge.exe] Untitled and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:51:31  [msedge.exe] Claude and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:51:32  [msedge.exe] New chat - Claude and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:51:32  [msedge.exe] Claude and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:51:34  [msedge.exe] Sign in - Claude and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  alilapto
+  [Clipboard]
+  http://url9074.alignerr.com/ls/click?upn=u001.5hGaiMnolSLR3ZFescCFKjf0oiixikGbn-2FyK358QrQA7rwcLMYSpv4vExAjdyqKdd6C__JGBK6ZZc-2FHa9KicF97yABcnbRupKruzrh-2BSTAZvMKGHWYvVRc6-2BTWWH13g5KsfF2-2BCHGlARV4u-2FcgAzJsbV0LsB877-2Bzt6Vf0mJPoPLmBP8AmT42Y3MmIboiFiAP3gmDFe5E-2Fah5U4-2ByJnrsvMkkMDVN5KVqtVUOEuuVxzHyFTzThLpZIL4yGI5kRXiB1H0d-2FvvQ5YNs6weFUIc-2FUWAtwTEIGtI4kbXQp3JS5Z6ZQW-2F0EGjat3P48j97EBLKrssyCIeXY278T-2BTtbTb8wmeu1qlJ7P0j2JyGmXReN5ltCa3TpozPyvTR-2Bo06IdnwaHAyvXyP40qWVDebgvpOuvtFJ006iOk7ok3MMzXZCdgU-2FIw-3D
+  [LMB]
+
+--- WINDOW  2026/08/05 22:52:28  [msedge.exe] Tyga Project Video, Access, Setup, Evaluation and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:53:09  [chrome.exe] App unavailable in region | Claude by Anthropic - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:53:14  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:53:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:53:28  [msedge.exe] Tyga Project Video, Access, Setup, Evaluation and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:53:36  [msedge.exe] Labelbox and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:53:39  [msedge.exe] Tyga Project Video, Access, Setup, Evaluation and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:53:47  [msedge.exe] Sign in - Claude and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:53:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:53:52  [chrome.exe] App unavailable in region | Claude by Anthropic - Google Chrome
+----------------------------------------------------------------------------
+  tiaga ant[Bk][Bk][Bk][Bk]g[Bk]a.ant.dev
+
+--- WINDOW  2026/08/05 22:54:08  [chrome.exe] tiaga.ant.dev - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:54:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:54:22  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:54:22  [explorer.exe] Home - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:54:23  [msedge.exe] Sign in - Claude and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:54:27  [msedge.exe] Tyga Project Video, Access, Setup, Evaluation and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:54:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:54:32  [ApplicationFrameHost.exe] Settings
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:55:08  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:55:08  [msedge.exe] Tyga Project Video, Access, Setup, Evaluation and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:55:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:55:26  [chrome.exe] tiaga.ant.dev - Google Chrome
+----------------------------------------------------------------------------
+  taiga.antdev
+
+--- WINDOW  2026/08/05 22:55:34  [chrome.exe] App unavailable in region | Claude by Anthropic - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:55:44  [chrome.exe] Supported countries and regions \ Anthropic - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  taiga.ant.dev
+  [LMB]
+
+--- WINDOW  2026/08/05 22:58:13  [msedge.exe] Tyga Project Video, Access, Setup, Evaluation and 9 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:58:18  [msedge.exe] Hubstaff Account and 8 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:58:20  [msedge.exe] Alignerr | Powered by Labelbox and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:58:23  [msedge.exe] Alignerr | Powered by Labelbox and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:58:24  [msedge.exe] Alignerr | Powered by Labelbox and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:58:25  [msedge.exe] New tab and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl]v
+
+--- WINDOW  2026/08/05 22:58:30  [msedge.exe] App unavailable in region | Claude by Anthropic and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:58:36  [msedge.exe] Alignerr | Powered by Labelbox and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/08/05 22:58:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:58:42  [ShellExperienceHost.exe] Windows Shell Experience Host
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:58:42  [ShellExperienceHost.exe] Jump List for Profile 1 - Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:58:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:58:53  [msedge.exe] New tab - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/05 22:58:57  [msedge.exe] App unavailable in region | Claude by Anthropic - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:59:00  [msedge.exe] Alignerr | Powered by Labelbox and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:59:48  [msedge.exe] New tab and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  why clade is not owkring in my region/[ENTER]
+
+--- WINDOW  2026/08/05 23:00:00  [msedge.exe] why claude is not working in my region? - Search and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:00:49  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:00:51  [msedge.exe] Activity | Trần Gia Ân | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:00:51  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:00:52  [msedge.exe] Notifications | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:00:54  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:00:59  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  Hi, Dear. I’m a Senior Software Engineer / Full-Stack Developer with 9+ years of experience building scalable, high-performance systems across a wide range of industries.
+  
+  My core expertise lies in backend engineering, where I specialize in C++, PHP, Go, Rust, Python (Flask/Django), Java, and C# .NET. I’ve designed and deployed distributed systems using PostgreSQL, NoSQL, AWS, Docker, and CI/CD pipelines leveraging Kubernetes and Kafka.
+  
+  On the frontend, I bring strong experience with React.js, Next.js, Angular, Vue.js, as well as cross-platform mobile development using Kotlin, Swift, Flutter and React Native.
+  
+  Over the years, I’ve delivered impactful solutions including:
+  • AI platforms (LLM-based chatbots, voice bots, document analysis, video generation, weather forecasting)
+  • Forex & crypto trading systems (including DeFi, DApps, and DEX platforms) 
+  • AI trading platform with indicator engine, risk engine and strategy generation according to symbol
+  • Specific Video Generation engine development without any AI api using.
+  • E-commerce and digital asset management systems
+  • Booking and restaurant management platforms
+  • Healthcare applications
+  • IPTV systems across Web, Android, iOS, LG TV, and Samsung TV
+  • Shipping platforms with integrated payment systems (Payabli, PayFabric)
+  • Social and sports platforms (mobile & web)
+  • Question-Why type systems not like social media
+  • SkyDiving video production with opencv, FFmpeg, yolo, and more.
+  • Social and sports platforms (mobile & web)
+  
+  I enjoy solving complex technical challenges, optimizing system performance, and building reliable, scalable products that deliver real business value.
+  
+  I’m currently open to full-time remote opportunities or collaboration with startups, founders, and engineering teams—particularly in backend-heavy or system design-focused roles.
+  I can comfortably work across US and UK time zones.
+  Let’s connect if you’re building something ambitious or need a strong technical partner.
+  📩 Contact:
+  WhatsApp: +84 0707039301
+  Telegram: @soft_exper
+  Email: giaan9032001@gmail.com
+  LinkedIn: https://www.linkedin.com/in/tran-gia-an-050032218/
+  Thank you.
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/08/05 23:01:10  [msedge.exe] why claude is not working in my region? - Search and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  taiga
+
+--- WINDOW  2026/08/05 23:02:48  [msedge.exe] App unavailable in region | Claude by Anthropic and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:03:10  [msedge.exe] Claude and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:03:10  [msedge.exe] Sign in - Claude and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:03:23  [msedge.exe] New chat - Claude and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  tai
+
+--- WINDOW  2026/08/05 23:03:35  [msedge.exe] App unavailable in region | Claude by Anthropic and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:03:45  [msedge.exe] Claude and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:03:45  [msedge.exe] Sign in - Claude and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:03:46  [msedge.exe] New chat - Claude and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  app.claude.com
+
+--- WINDOW  2026/08/05 23:04:04  [msedge.exe] app.claude.com and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]ataiga[ENTER]
+
+--- WINDOW  2026/08/05 23:04:16  [msedge.exe] App unavailable in region | Claude by Anthropic and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]aca[Bk]laud.com[Ctrl]aclade.com[Del][ENTER]
+
+--- WINDOW  2026/08/05 23:04:29  [msedge.exe] Claude and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:04:34  [msedge.exe] Sign in - Claude and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:04:35  [msedge.exe] New chat - Claude and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  hw taiga.at.dev keep g[Bk][Bk][Bk] goign to unavailale region of claude.com[ENTER]
+
+--- WINDOW  2026/08/05 23:04:57  [msedge.exe] Claude and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:05:00  [msedge.exe] Taiga.ant.dev unavailable region issue - Claude and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:05:57  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:15:37  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:15:48  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:15:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://docs.google.com/document/d/1dzURn4jwgA9-Z1WeGGnpUMXVzsQ7LFvWFqomWDYrz_g/edit?tab=t.0
+
+--- WINDOW  2026/08/05 23:15:49  [chrome.exe] Supported countries and regions \ Anthropic - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:15:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:15:56  [ApplicationFrameHost.exe] Settings
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 23:16:11  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:16:16  [ApplicationFrameHost.exe] Settings
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:16:16  [chrome.exe] Supported countries and regions \ Anthropic - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:16:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:16:29  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:16:32  [msedge.exe] • Discord | "Access or Payment Issues" | Alignerr Phoenix and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   2eve[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]heo[ENTER]
+  i just[Bk][Bk][Bk][Bk][Bk][Bk][Bk]helo[ENTER]
+  when i go to[Home]whe ni got o [Bk][Bk][Bk] t otaiga.ant.dev and loginwith [Ctrl][<-][<-]login with my work email, it [Bk]redirects to 
+  [LMB]
+
+--- WINDOW  2026/08/05 23:18:04  [msedge.exe] Taiga.ant.dev unavailable region issue - Claude and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:18:09  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:18:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:18:09  [chrome.exe] Supported countries and regions \ Anthropic - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:18:12  [chrome.exe] App unavailable in region | Claude by Anthropic - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  taiga.ant.dev[ENTER]
+  [LMB]
+  [Clipboard]
+  https://claude.com/app-unavailable-in-region
+  [Ctrl]ccccc
+  [LMB]
+
+--- WINDOW  2026/08/05 23:18:30  [msedge.exe] Taiga.ant.dev unavailable region issue - Claude and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:18:32  [msedge.exe] • Discord | "Access or Payment Issues" | Alignerr Phoenix and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  ''[<-][Ctrl]v[->][ENTER]
+
+--- WINDOW  2026/08/05 23:18:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:18:44  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+  sn[ENTER]
+
+--- WINDOW  2026/08/05 23:18:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:18:48  [SnippingTool.exe] Snipping Tool
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:18:52  [msedge.exe] Taiga.ant.dev unavailable region issue - Claude and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:18:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:18:54  [chrome.exe] App unavailable in region | Claude by Anthropic - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:18:56  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:18:56  [SnippingTool.exe] Snipping Tool
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:18:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:18:59  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:19:05  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:19:05  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:19:06  [SnippingTool.exe] Snipping Tool
+----------------------------------------------------------------------------
