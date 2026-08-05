@@ -1,0 +1,560 @@
+﻿
+--- WINDOW  2026/08/05 06:15:31  [(unknown)] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:15:31  [Polaris-Win64-Shipping.exe] TEKKEN™8
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:20  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:21  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:22  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:22  [chrome.exe] Search - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:23  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:23  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:23  [chrome.exe] (89) Discord | #general | Moss Lantern Studio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 06:16:25  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:26  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:26  [ShellExperienceHost.exe] Jump List for TEKKEN™8
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:26  [ShellExperienceHost.exe] Jump List for Liana - Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:27  [chrome.exe] (89) Discord | #general | Moss Lantern Studio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:27  [chrome.exe] (88) Discord | #general | Moss Lantern Studio - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:16:28  [chrome.exe] (79) Discord | @Patsyuk - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  aura[Bk][Bk][Bk][Bk]sue sure1[ENTER]
+  aura.[Bk]luh8412[Bk][Bk]2gmail..co[Bk][Bk][Bk]com..[Bk][Bk][ENTER]
+  [LMB]
+  no worries i'm[Bk][Bk][Bk]at all..[ENTER]
+  [LMB]
+  got the vision tho..[ENTER]
+  [LMB]
+  uns[Bk]destandable1[ENTER]
+  [ENTER]
+  [LMB]
+  gt0t[Bk][Bk][Bk][Bk]gotch[Bk][Bk][Bk][Bk]toch[Bk][Bk][Bk][Bk]otcha1[ENTER]
+  [LMB]
+  ohh i see..[ENTER]
+
+--- WINDOW  2026/08/05 06:19:55  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:19:56  [Polaris-Win64-Shipping.exe] TEKKEN™8
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:43:12  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:43:12  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:43:13  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:43:13  [chrome.exe] (80) Discord | @Patsyuk - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 06:43:16  [chrome.exe] (79) Discord | @Del - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  yeah [Ctrl][Bk]ayeah it's [Ctrl]a[Bk]yeah taht [Bk][Bk][Bk][Bk]hat works [Bk][Bk][Bk]k1[ENTER]
+
+--- WINDOW  2026/08/05 06:43:35  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:43:35  [Discord.exe] @Lagalot - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  
+  Lagalot — 7/31/2026 12:39 PM
+  If you don't mind please share some progress updates along the way, at least for the first car
+  Aura lush.. [ANC],  — 7/31/2026 12:40 PM
+  Image
+  here you goo!
+  was just working on the car lol..
+  exterior is rdy..
+  and for the mesh it's 28k and the exterior is still missing..
+  so it wil be going higher fs..
+  Lagalot — 7/31/2026 12:42 PM
+  Withou the wheels, the car should be at <15k
+  Aura lush.. [ANC],  — 7/31/2026 12:42 PM
+  yup !
+  it's 15k without the wheels
+  approximately 7k without the wheels so yeah 
+  we can consider that right
+  Lagalot — 7/31/2026 12:44 PM
+  Also no brand logos etc
+  Aura lush.. [ANC],  — 7/31/2026 12:44 PM
+  gotcha will remove that !
+  now will be working on the exterior..
+  Lagalot — 7/31/2026 11:19 PM
+  The track model should reuse textures from the track in the unity package I sent you, also once you're down with the first layout I'd like to test it in the game to see if the layout works well
+  Aura lush.. [ANC],  — 8/1/2026 4:46 AM
+  noted !
+  Aura lush.. [ANC],  — 8/1/2026 3:05 PM
+  Image
+  Image
+  almost done with the interior..
+  can you send me ur gmail I'll send over the file for testing..when I'm done
+  Lagalot — 8/1/2026 10:20 PM
+  passenger seats aren't necessary and there should be a roll cage
+  marvin54613@gmail.com
+  Lagalot — 8/2/2026 12:00 AM
+  for the roll cage, you can just take one from the car models and adjust it to fit
+  Aura lush.. [ANC],  — 8/2/2026 8:16 AM
+  alright will add that!
+  Aura lush.. [ANC],  — 8/2/2026 8:16 AM
+  gotcha!
+  Lagalot — 8/3/2026 5:55 AM
+  how's it going?
+  Aura lush.. [ANC],  — 8/3/2026 9:08 AM
+  Image
+  Image
+  Lagalot — 8/3/2026 12:39 PM
+  did you send me a file?
+  Aura lush.. [ANC],  — 8/3/2026 12:45 PM
+  JUST SENDING!
+  just send the file can you confirm that ??
+  Lagalot — 8/3/2026 12:47 PM
+  i got a link earlier, but the file has been deleted
+  Aura lush.. [ANC],  — 8/3/2026 12:48 PM
+  well I send the file seperately..
+  in fbx format
+  Lagalot — 8/3/2026 12:49 PM
+  i didn't get that
+  Aura lush.. [ANC],  — 8/3/2026 1:23 PM
+  Image
+  Aura lush.. [ANC],  — 8/3/2026 1:23 PM
+  is this the correct email??
+  Lagalot — 8/3/2026 8:55 PM
+  no, this is
+  Aura lush.. [ANC],  — 8/3/2026 9:44 PM
+  okie just head me w updates I'm sending it again..
+  @Lagalot sent! 
+  Lagalot — 8/3/2026 10:07 PM
+  i'll take a look later 👍
+  Lagalot — Yesterday at 1:41 AM
+  you didn't actually create the model from scratch, right?
+  Aura lush.. [ANC],  — Yesterday at 2:35 AM
+  nope is it necessary?
+  Lagalot — Yesterday at 3:22 AM
+  ofc it is
+  Aura lush.. [ANC],  — Yesterday at 6:43 PM
+  Alright I'll make them from scratch then..
+  btw why the refund ??
+  Lagalot — Yesterday at 9:04 PM
+  because you're trying to sell other peoples models
+  Aura lush.. [ANC],  — Yesterday at 9:24 PM
+  it's not other ppl models..
+  basically those r the models which r applicable and uploaded by the ppl on sketchfeb
+  and it's no  matter for me to make the model from scratch
+  it's just time taking..
+  I'll make a new model from scratch this time but it will take upto 4 days..
+   [ANC], 
+  Lagalot — Yesterday at 9:27 PM
+  so other people's models
+  Aura lush.. [ANC],  — Yesterday at 9:27 PM
+  they r copyrighted free
+  90% of the modeler uses the same thing to save time however I'll still continue with the from scratch scenario..
+  will be working on the new model..
+  and for the refund I appreciate if you can cancel it plz..
+  @Lagalot
+  Aura lush.. [ANC],  — 12:25 AM
+  r you there ??
+  I'm still working on the model tho
+  
+  ccc
+  [LMB]
+  [Ctrl]
+
+--- WINDOW  2026/08/05 06:43:47  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:43:48  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:43:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:43:49  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 06:43:51  [chrome.exe] Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  v 98 s[Bk][Bk][Bk][Bk]09 [Bk][Bk] so lilek [Bk][Bk][Bk][Bk]ke  i wnt [Bk][Bk][Bk]an tyo ut[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]t t[Bk][Bk][Bk]nt to breif[Bk][Bk][Bk]ief me a b[Bk]message 
+
+--- WINDOW  2026/08/05 06:44:26  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:44:39  [chrome.exe] Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:44:39  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+   make 
+
+--- WINDOW  2026/08/05 06:44:41  [chrome.exe] Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  make i[Bk]me a 
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  for the f[Bk][Bk]refund taht[Bk][Bk][Bk][Bk]that it [Bk][Bk][Bk]is't[Bk][Bk][Bk]t's not fa[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]to paypal that it's not fair i provided all the thing and model a[Bk][Bk] as well but it[Bk][Bk]still i[Bk]he ef[Bk][Bk]efunded now i want a rf[Bk]fa[Bk][Bk]rf[Bk][Bk][Bk]favor message to explain everytihng[Bk][Bk][Bk][Bk]hin t [Bk][Bk][Bk]g to payapol [Bk][Bk][Bk][Bk][Bk]pal so taht i [Bk][Bk][Bk][Bk][Bk][Bk]hat i cna [Bk][Bk][Bk]an proof myelf ykk 0[ENTER]
+
+--- WINDOW  2026/08/05 06:46:17  [chrome.exe] 3D Model Dispute and Refund Request - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Subject: Dispute Response: Case #[Insert Case ID] — Custom 3D Asset Optimization & Delivery
+  
+  To PayPal Dispute Review Team,
+  
+  I am writing to formally dispute the refund request submitted by the buyer for 3D modeling and asset optimization services. The buyer’s claim of unauthorized asset usage is inaccurate, as all work provided strictly followed standard asset customization practices using royalty-free/Creative Commons materials, with continuous direct communication and custom modifications provided throughout the project.
+  
+  Key Facts & Project Details:
+  
+  Deliverables & Progress: Per the client’s instructions, I optimized, scaled, and customized the 3D vehicle model for game readiness (including custom interior adjustments, poly-count reduction below 15k, roll cage fitting, and FBX export). The completed file was delivered directly to the buyer's specified email on August 3, 2026.
+  
+  License & Usage Compliance: The base assets utilized for initial layout and testing were publicly available, copyright-free / royalty-free assets (e.g., Sketchfab CC-licensed models). Using base meshes for rapid iteration and technical fitting is a standard workflow practice in 3D production unless explicitly restricted in advance.
+  
+  Good Faith Commitment: Upon the buyer expressing a preference for 100% scratch-built geometry on August 4, 2026, I immediately agreed to rebuild the model from scratch to satisfy their specific request within a 4-day timeframe.
+  
+  Unjust Dispute: The buyer initiated a full refund while retaining the delivered files and communication history, despite work being actively performed and customized to their exact specifications.
+  
+  Requested Resolution:
+  I have fulfilled the agreed-upon tasks, delivered usable files, and offered full revisions to meet the buyer's expectations. I respectfully request that PayPal reject this dispute/chargeback and release the funds for the work rendered.
+  
+  Attached Evidence:
+  
+  Screenshots of project brief, progress updates, and file delivery confirmation.
+  
+  Communication logs demonstrating ongoing collaboration and agreement to fulfill revisions.
+  
+  Advice for Submitting:
+  Attach Screenshots: Make sure to include full screenshots of the chat logs showing you delivered the FBX file to their Gmail, as well as the screenshots showing you adjusted the poly count, added the roll cage, and offered to remake the model from scratch.
+  
+  Keep It Fact-Based: Avoid emotional language in PayPal disputes—stick strictly to dates, deliverables, and proof of work delivered.
+  cc
+
+--- WINDOW  2026/08/05 06:46:26  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:46:26  [chrome.exe] Search - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:46:27  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:46:27  [chrome.exe] WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk][Bk][Bk][Bk] th
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]dl[Bk]e[Ctrl]zzzzzzzzzzzzzzzz
+  [LMB]
+  [LMB]
+  [Bk]de[Bk][Bk]d
+  [LMB]
+  [Bk][Bk]n 
+  [LMB]
+  [Bk]p
+  [LMB]
+  [Bk][Bk] 
+  [LMB]
+  [Bk][Bk][Bk][Bk]p[er[Bk][Bk][Bk]e 
+  [RMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Bk] 
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk] with 
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk] 
+  [LMB]
+  [Bk][Bk][Bk] 
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]t
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  License & Usage Compliance: The base assets utilized for initial layout and testing were publicly available, copyright-free / royalty-free assets (e.g., Sketchfab CC-licensed models). Using base meshes for rapid iteration and technical fitting is a standard workflow practice in 3D production unless explicitly restricted in advance.
+  
+  Good Faith Commitment: Upon the buyer expressing a preference for 100% scratch-built geometry on August 4, 2026, I immediately agreed to rebuild the model from scratch to satisfy their specific request within a 4-day timeframe.
+  
+  Unjust Dispute: The buyer initiated a full refund while retaining the delivered files and communication history, despite work being actively performed and customized to their exact specifications.
+  
+  Requested Resolution:
+  I have fulfilled the agreed-upon tasks, delivered usable files, and offered full revisions to meet the buyer's expectations. I respectfully request that PayPal reject this dispute/chargeback and release the funds for the work rendered.
+  
+  Attached Evidence:
+  
+  Screenshots of project brief, progress updates, and file delivery confirmation.
+  
+  Communication logs demonstrating ongoing collaboration and agreement to fulfill revisions.
+  
+  Advice for Submitting:
+  Attach Screenshots: Make sure to include full screenshots of the chat logs showing you delivered the FBX file to their Gmail, as well as the screenshots showing you adjusted the poly count, added the roll cage, and offered to remake the model from scratch.
+  
+  Keep It Fact-Based: Avoid emotional language in PayPal disputes—stick strictly to dates, deliverables, and proof of work delivered.
+  ccc[Bk][ENTER]
+  v
+  [LMB]
+  [Bk][Bk]e
+  [LMB]
+  [Bk][Bk] a[Bk][Bk]and [Bk][Bk][Bk]s for the l
+  [LMB]
+  [Bk]t
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk]for example [Bk]
+  [LMB]
+  [Bk][Bk] and [Bk][Bk][Bk][Bk].[Bk]and
+  [LMB]
+  [LMB]
+  [Bk]u
+  [LMB]
+  [LMB]
+  [Bk][Bk] 
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Good Faith Commitment: Upon the buyer expressing a preference for 100% scratch-built geometry on August 4, 2026, I immediately agreed to rebuild the model from scratch to satisfy their specific request within a 4-day timeframe.
+  
+  Unjust Dispute: The buyer initiated a full refund while retaining the delivered files and communication history, despite work being actively performed and customized to their exact specifications.
+  
+  Requested Resolution:
+  I have fulfilled the agreed-upon tasks, delivered usable files, and offered full revisions to meet the buyer's expectations. I respectfully request that PayPal reject this dispute/chargeback and release the funds for the work rendered.
+  
+  Attached Evidence:
+  
+  Screenshots of project brief, progress updates, and file delivery confirmation.
+  
+  Communication logs demonstrating ongoing collaboration and agreement to fulfill revisions.
+  
+  Advice for Submitting:
+  Attach Screenshots: Make sure to include full screenshots of the chat logs showing you delivered the FBX file to their Gmail, as well as the screenshots showing you adjusted the poly count, added the roll cage, and offered to remake the model from scratch.
+  
+  Keep It Fact-Based: Avoid emotional language in PayPal disputes—stick strictly to dates, deliverables, and proof of work delivered.
+  c[Bk][ENTER]
+  [Ctrl]v
+  [LMB]
+  [Bk][Bk] 
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Unjust Dispute: The buyer initiated a full refund while retaining the delivered files and communication history, despite work being actively performed and customized to their exact specifications.
+  
+  Requested Resolution:
+  I have fulfilled the agreed-upon tasks, delivered usable files, and offered full revisions to meet the buyer's expectations. I respectfully request that PayPal reject this dispute/chargeback and release the funds for the work rendered.
+  
+  Attached Evidence:
+  
+  Screenshots of project brief, progress updates, and file delivery confirmation.
+  
+  Communication logs demonstrating ongoing collaboration and agreement to fulfill revisions.
+  
+  Advice for Submitting:
+  Attach Screenshots: Make sure to include full screenshots of the chat logs showing you delivered the FBX file to their Gmail, as well as the screenshots showing you adjusted the poly count, added the roll cage, and offered to remake the model from scratch.
+  
+  Keep It Fact-Based: Avoid emotional language in PayPal disputes—stick strictly to dates, deliverables, and proof of work delivered.
+  cc[Bk][ENTER]
+  [Ctrl]v
+  [LMB]
+  [Bk] [Bk]
+  [LMB]
+  [Bk]t
+  [LMB]
+  [Bk]u
+  [LMB]
+  [Bk]d
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]r
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [Bk][Bk] 
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  ttached Evidence:
+  
+  Screenshots of project brief, progress updates, and file delivery confirmation.
+  
+  Communication logs demonstrating ongoing collaboration and agreement to fulfill revisions.
+  
+  Advice for Submitting:
+  Attach Screenshots: Make sure to include full screenshots of the chat logs showing you delivered the FBX file to their Gmail, as well as the screenshots showing you adjusted the poly count, added the roll cage, and offered to remake the model from scratch.
+  
+  Keep It Fact-Based: Avoid emotional language in PayPal disputes—stick strictly to dates, deliverables, and proof of work delivered.
+  c[Bk][Ctrl]z
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Attached Evidence:
+  
+  Screenshots of project brief, progress updates, and file delivery confirmation.
+  
+  Communication logs demonstrating ongoing collaboration and agreement to fulfill revisions.
+  
+  Advice for Submitting:
+  Attach Screenshots: Make sure to include full screenshots of the chat logs showing you delivered the FBX file to their Gmail, as well as the screenshots showing you adjusted the poly count, added the roll cage, and offered to remake the model from scratch.
+  
+  Keep It Fact-Based: Avoid emotional language in PayPal disputes—stick strictly to dates, deliverables, and proof of work delivered.
+  xx
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk] 
+  [LMB]
+  [Bk][Bk][Bk] r
+  [LMB]
+  [ENTER]
+  [Ctrl]v[Ctrl]vvvvvvvvv
+  [LMB]
+  [Clipboard]
+  ttached Evidence:
+  
+  Screenshots of project brief, progress updates, and file delivery confirmation.
+  
+  Communication logs demonstrating ongoing collaboration and agreement to fulfill revisions.
+  
+  Advice for Submitting:
+  Attach Screenshots: Make sure to include full screenshots of the chat logs showing you delivered the FBX file to their Gmail, as well as the screenshots showing you adjusted the poly count, added the roll cage, and offered to remake the model from scratch.
+  
+  Keep It Fact-Based: Avoid emotional language in PayPal disputes—stick strictly to dates, deliverables, and proof of work delivered.
+  [Ctrl]
+  [LMB]
+  [Bk]=[Bk][Bk][Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [Bk][Bk] 
+  [LMB]
+  [Bk]a
+  [LMB]
+  kindly 
+  [LMB]
+  [Bk]k
+  [LMB]
+  [LMB]
+  [Bk] 
+  [LMB]
+  [LMB]
+  [ENTER]
+  te [Bk][Bk][Bk]ye lijiye[ENTER]
+
+--- WINDOW  2026/08/05 06:53:26  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 06:53:26  [Polaris-Win64-Shipping.exe] TEKKEN™8
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 07:04:55  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 07:04:55  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 07:04:56  [Polaris-Win64-Shipping.exe] TEKKEN™8
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 07:05:00  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 07:05:02  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 07:05:02  [chrome.exe] (79) Discord | @Del - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 07:05:19  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 07:05:19  [Polaris-Win64-Shipping.exe] TEKKEN™8
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 07:14:26  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 07:15:01  [Polaris-Win64-Shipping.exe] TEKKEN™8
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 07:15:28  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
