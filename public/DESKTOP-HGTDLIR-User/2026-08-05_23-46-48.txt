@@ -1,0 +1,411 @@
+﻿
+--- WINDOW  2026/08/05 22:48:36  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:49:14  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:49:15  [chrome.exe] Hotel Website Demo Prompt - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:49:17  [chrome.exe] WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:49:23  [chrome.exe] (6) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  khushbugupta9977@gmail.com
+  [LMB]
+  [LMB]
+  1
+
+--- WINDOW  2026/08/05 22:50:08  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+
+--- WINDOW  2026/08/05 22:51:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:51:41  [Cursor.exe] Prime Alpha Research | Trading Platform - khushboo-project - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:51:45  [Cursor.exe] seedAdmin.ts - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  alpharesearch555@gmail.com
+  c
+
+--- WINDOW  2026/08/05 22:51:51  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+
+--- WINDOW  2026/08/05 22:51:53  [Cursor.exe] seedAdmin.ts - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Admin@123
+
+--- WINDOW  2026/08/05 22:51:58  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/05 22:52:04  [chrome.exe] Save password?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 22:52:05  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:52:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:52:11  [Cursor.exe] seedAdmin.ts - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 22:52:22  [Antigravity IDE.exe] barber - Antigravity IDE - window.svg
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:52:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:52:32  [Cursor.exe] Cursor Settings - barber - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:54:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:54:51  [Cursor.exe] hotel - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:56:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:56:29  [Cursor.exe] seedAdmin.ts - khushboo-project - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 22:56:38  [Cursor.exe] Cursor Settings - barber - Cursor
+----------------------------------------------------------------------------
+  nb[Bk]ipp not showig give onl[Bk]y err 
+
+--- WINDOW  2026/08/05 22:58:30  [Cursor.exe] hotel - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:03:13  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:03:19  [Cursor.exe] hotel - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  cd g:\hotel
+  npm install
+  
+  # Configure environment
+  copy apps\api\.env.example apps\api\.env
+  copy apps\web\.env.example apps\web\.env.local
+  
+  # Database (requires PostgreSQL)
+  npm run db:push
+  npm run db:seed
+  
+  # Run both frontend + API
+  npm run dev
+  [Ctrl][Ctrl][Ctrl]`
+
+--- WINDOW  2026/08/05 23:05:46  [Cursor.exe] Browser Tab - hotel - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 23:06:06  [Cursor.exe] hotel - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl]c
+  [LMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  fix this [ENTER]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  docker compose up -d    # Start PostgreSQL
+  npm run db:setup          # Generate + push + seed
+  npm run dev               # Start both servers
+  [LMB]
+
+--- WINDOW  2026/08/05 23:18:05  [Cursor.exe] Cursor
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:18:08  [Cursor.exe] hotel - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]ccc
+
+--- WINDOW  2026/08/05 23:18:15  [Cursor.exe] Cursor
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:18:17  [Cursor.exe] hotel - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  fix this [ENTER]
+  [LMB]
+  [Clipboard]
+  Get-NetTCPConnection -LocalPort 3000,4000 | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force }
+  [LMB]
+  [Ctrl]ccccccls[ENTER]
+  [RMB]
+  .[Bk][ENTER]
+  [LMB]
+  [LMB]
+  [^][^][^][^][ENTER]
+  npm run dev 
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  admin@aurumgrand.com / admin123
+  c[ENTER]
+  [LMB]
+  [Ctrl][Ctrl]v
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  http://localhost:3000
+  c
+  [LMB]
+
+--- WINDOW  2026/08/05 23:23:06  [chrome.exe] Domain portfolio | Hostinger - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:23:07  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/05 23:23:11  [chrome.exe] Aurum Grand | Luxury Hotel & Resort - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 23:25:41  [chrome.exe] Rooms & Suites | Aurum Grand - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:26:26  [chrome.exe] Aurum Grand | Luxury Hotel & Resort - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:33:07  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:33:08  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:33:08  [chrome.exe] Aurum Grand | Luxury Hotel & Resort - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:33:11  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:33:12  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:33:12  [chrome.exe] Aurum Grand | Luxury Hotel & Resort - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:35:09  [chrome.exe] Domain portfolio | Hostinger - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:35:11  [Cursor.exe] hotel - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+   fix this[ENTER]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/05 23:35:43  [chrome.exe] Domain portfolio | Hostinger - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/08/05 23:35:46  [chrome.exe] Aurum Grand | Luxury Hotel & Resort - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:35:49  [chrome.exe] localhost - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:35:51  [chrome.exe] Domain portfolio | Hostinger - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:35:53  [Cursor.exe] hotel - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 23:36:39  [Cursor.exe] seedAdmin.ts - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+
+--- WINDOW  2026/08/05 23:36:44  [Antigravity IDE.exe] barber - Antigravity IDE - window.svg
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]cccccc
+  [LMB]
+
+--- WINDOW  2026/08/05 23:37:25  [Cursor.exe] seedAdmin.ts - khushboo-project - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:37:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:37:42  [Cursor.exe] hotel - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  npm run dev
+
+--- WINDOW  2026/08/05 23:46:21  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:46:21  [Cursor.exe] seedAdmin.ts - khushboo-project - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:46:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:46:24  [Cursor.exe] hotel - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]ccc
+  [RMB]
+  [ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+   16,
+  [0]   TYPE_MISMATCH_ERR: 17,
+  [0]   SECURITY_ERR: 18,
+  [0]   NETWORK_ERR: 19,
+  [0]   ABORT_ERR: 20,
+  [0]   URL_MISMATCH_ERR: 21,
+  [0]   QUOTA_EXCEEDED_ERR: 22,
+  [0]   TIMEOUT_ERR: 23,
+  [0]   INVALID_NODE_TYPE_ERR: 24,
+  [0]   DATA_CLONE_ERR: 25
+  [0] }
+  [0] ○ Compiling /_error ...
+  [0]  GET /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1578683010236-d716f9a3f461%3Fw%3D1200%26q%3D80&w=1080&q=75 500 in 13.1s (next.js: 13.0s, application-code: 104ms)
+  [0]  GET /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1578683010236-d716f9a3f461%3Fw%3D1200%26q%3D80&w=1080&q=75 500 in 13.1s (next.js: 13.0s, application-code: 104ms)
+  [0] ⨯ upstream image response failed for https://images.unsplash.com/photo-1540555700478-4be289fbec59?w=1200&q=80 404
+  [0] [browser] Image with src "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+  [0] [browser] Image with src "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+  [0] ⨯ upstream image response failed for https://images.unsplash.com/photo-1566073770669-4134c2271a85?w=800&q=80 404
+  [0] ⨯ upstream image response failed for https://images.unsplash.com/photo-1540555700478-4be289fbec59?w=800&q=80 404
+  [0] ⨯ upstream image response failed for https://images.unsplash.com/photo-1571902943202-507ec2618ae8?w=800&q=80 404
+  [0] ○ Compiling /book ...
+  [0]  GET /rooms 200 in 5.8s (next.js: 4.2s, application-code: 1622ms)
+  [0]  GET /rooms 200 in 1291ms (next.js: 64ms, application-code: 1226ms)
+  [0]  GET /rooms 200 in 367ms (next.js: 17ms, application-code: 350ms)
+  [0]  GET /rooms 200 in 383ms (next.js: 161ms, application-code: 223ms)
+  [0] [browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+  [0]  GET / 200 in 101ms (next.js: 21ms, application-code: 80ms)
+  [0]  GET /book 200 in 78ms (next.js: 17ms, application-code: 60ms)
+  [0] ⨯ upstream image response failed for https://images.unsplash.com/photo-1566073770669-4134c2271a85?w=1920&q=80 404
+  [0] Terminate batch job (Y/N)?
+  [1] Terminate batch job (Y/N)?
+  PS G:\hotel>
+  [0]
+               ^C
+  PS G:\hotel> [1] npm run dev:api exited with code 1
+  [0] npm run dev:web exited with code 1
+               ^C
+  PS G:\hotel> ^C
+  PS G:\hotel> ^C
+  PS G:\hotel> npm run dev
+  
+  > aurum-grand-hotel@1.0.0 dev
+  > concurrently "npm run dev:web" "npm run dev:api"
+  
+  [0] 
+  [0] > aurum-grand-hotel@1.0.0 dev:web
+  [0] > npm run dev --workspace=web
+  [0]
+  [1]
+  [1] > aurum-grand-hotel@1.0.0 dev:api
+  [1] > npm run dev --workspace=api
+  [1]
+  [0] 
+  [0] > web@0.1.0 dev
+  [0] > next dev
+  [0]
+  [1]
+  [1] > api@1.0.0 dev
+  [1] > tsx watch src/index.ts
+  [1]
+  [1] node:events:487
+  [1]       throw er; // Unhandled 'error' event
+  [1]       ^
+  [1]
+  [1] Error: listen EADDRINUSE: address already in use :::4000
+  [1]     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+  [1]     at listenInCluster (node:net:2065:12)
+  [1]     at Server.listen (node:net:2170:7)
+  [1]     at app.listen (G:\hotel\node_modules\express\lib\application.js:635:24)
+  [1]     at rateLimit (G:\hotel\apps\api\src\index.ts:61:5)
+  [1]     at Object.<anonymous> (G:\hotel\apps\api\src\index.ts:65:16)
+  [1]     at Module._compile (node:internal/modules/cjs/loader:1854:14)
+  [1]     at Object.transformer (G:\hotel\node_modules\tsx\dist\register-CRHZwkwo.cjs:9:3339)
+  [1]     at Module.load (node:internal/modules/cjs/loader:1577:32)
+  [1]     at Module._load (node:internal/modules/cjs/loader:1379:12)
+  [1] Emitted 'error' event on Server instance at:
+  [1]     at emitErrorNT (node:net:2044:8)
+  [1]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  [1]   code: 'EADDRINUSE',
+  [1]   errno: -4091,
+  [1]   syscall: 'listen',
+  [1]   address: '::',
+  [1]   port: 4000
+  [1] }
+  [1]
+  [1] Node.js v24.16.0
+  [0] ▲ Next.js 16.3.0 (Turbopack)
+  [0] - Local:         http://localhost:3000
+  [0] - Network:       http://10.158.214.2:3000
+  [0] - Environments: .env.local
+  [0] ✓ Ready in 1095ms
+  [0] ✓ Running next.config.ts took 156ms
+  [0] ⚠ Slow filesystem detected. The benchmark took 390ms. If \\?\G:\hotel\apps\web\.next\dev is a network drive, consider moving it to a local folder.
+  [0] See more: https://nextjs.org/docs/app/guides/local-development
+  [0] 
+  ccls[ENTER]
+  cls[ENTER]
