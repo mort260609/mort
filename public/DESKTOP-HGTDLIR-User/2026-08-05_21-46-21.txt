@@ -1,0 +1,189 @@
+﻿  [LMB]
+
+--- WINDOW  2026/08/05 20:52:59  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 20:53:01  [chrome.exe] Share on WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 20:53:04  [chrome.exe] Kiyara Hair Studio & Salon | Hair Salon in Vijay Nagar, Indore - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 20:53:07  [OpenWith.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 20:53:10  [chrome.exe] Kiyara Hair Studio & Salon | Hair Salon in Vijay Nagar, Indore - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 20:53:11  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 20:53:12  [chrome.exe] Google Maps - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 20:53:14  [chrome.exe] Rajat Jayanti Complex, Scheme No. 54, Vijay Nagar, Indore, Madhya Pradesh - Google Maps - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 20:53:26  [chrome.exe] Kiyara Hair Studio & Salon | Hair Salon in Vijay Nagar, Indore - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 20:53:31  [Antigravity IDE.exe] barber - Antigravity IDE - window.svg
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  ccd[Bk][Bk]d [Tab][ENTER]
+  npm start[ENTER]
+  a
+  [LMB]
+
+--- WINDOW  2026/08/05 21:02:45  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+  cu
+  [LMB]
+
+--- WINDOW  2026/08/05 21:02:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 21:03:01  [Cursor.exe] Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 21:03:15  [chrome.exe] Sign in to Cursor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 21:03:27  [chrome.exe] Sign in to Cursor desktop — Cursor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 21:04:00  [Cursor.exe] Cursor Settings - barber - Cursor
+----------------------------------------------------------------------------
+  [Clipboard]
+  > Task :gradle-plugin:react-native-gradle-plugin:jar
+  
+  > Configure project :react-native-async-storage_async-storage
+  [AsyncStorage] Min. supported version of Kotlin is 2.1.0, current: 1.9.25.
+  [AsyncStorage] Could not find ksp version for 1.9.25. Min. supported kotlin is 2.1.0. Using default ksp: 2.1.0-1.0.28
+  [AsyncStorage] Min. supported version of Kotlin is 2.1.0, current: 1.9.25.
+  [AsyncStorage] Could not find ksp version for 1.9.25. Min. supported kotlin is 2.1.0. Using default ksp: 2.1.0-1.0.28
+  ksp-2.1.0-1.0.28 is too new for kotlin-1.9.25. Please upgrade kotlin-gradle-plugin to 2.1.0.
+  ksp-2.1.0-1.0.28 is too new for kotlin-1.9.25. Please upgrade kotlin-gradle-plugin to 2.1.0.
+  ksp-2.1.0-1.0.28 is too new for kotlin-1.9.25. Please upgrade kotlin-gradle-plugin to 2.1.0.
+  ksp-2.1.0-1.0.28 is too new for kotlin-1.9.25. Please upgrade kotlin-gradle-plugin to 2.1.0.
+  ksp-2.1.0-1.0.28 is too new for kotlin-1.9.25. Please upgrade kotlin-gradle-plugin to 2.1.0.
+  ksp-2.1.0-1.0.28 is too new for kotlin-1.9.25. Please upgrade kotlin-gradle-plugin to 2.1.0.
+  ksp-2.1.0-1.0.28 is too new for kotlin-1.9.25. Please upgrade kotlin-gradle-plugin to 2.1.0.
+  ksp-2.1.0-1.0.28 is too new for kotlin-1.9.25. Please upgrade kotlin-gradle-plugin to 2.1.0.
+  ksp-2.1.0-1.0.28 is too new for kotlin-1.9.25. Please upgrade kotlin-gradle-plugin to 2.1.0.
+  ksp-2.1.0-1.0.28 is too new for kotlin-1.9.25. Please upgrade kotlin-gradle-plugin to 2.1.0.
+  
+  > Configure project :react-native-firebase_app
+  :react-native-firebase_app package.json found at G:\barber\admin-app\node_modules\@react-native-firebase\app\package.json
+  :react-native-firebase_app:firebase.bom using default value: 34.16.0
+  :react-native-firebase_app:play.play-services-auth using default value: 21.5.0
+  :react-native-firebase_app package.json found at G:\barber\admin-app\node_modules\@react-native-firebase\app\package.json
+  :react-native-firebase_app:version set from package.json: 26.1.0 (26,1,0 - 26001000)
+  :react-native-firebase_app:android.compileSdk using custom value: 35
+  :react-native-firebase_app:android.targetSdk using custom value: 34
+  :react-native-firebase_app:android.minSdk using custom value: 24
+  :react-native-firebase_app:reactNativeAndroidDir G:\barber\admin-app\node_modules\react-native\android
+  
+  > Configure project :react-native-firebase_messaging
+  :react-native-firebase_messaging package.json found at G:\barber\admin-app\node_modules\@react-native-firebase\messaging\package.json
+  :react-native-firebase_app package.json found at G:\barber\admin-app\node_modules\@react-native-firebase\app\package.json
+  :react-native-firebase_messaging:firebase.bom using default value: 34.16.0
+  :react-native-firebase_messaging package.json found at G:\barber\admin-app\node_modules\@react-native-firebase\messaging\package.json
+  :react-native-firebase_messaging:version set from package.json: 26.1.0 (26,1,0 - 26001000)
+  :react-native-firebase_messaging:android.compileSdk using custom value: 35
+  :react-native-firebase_messaging:android.targetSdk using custom value: 34
+  :react-native-firebase_messaging:android.minSdk using custom value: 24
+  :react-native-firebase_messaging:reactNativeAndroidDir G:\barber\admin-app\node_modules\react-native\android
+  
+  > Configure project :react-native-reanimated
+  Android gradle plugin: 8.6.0
+  Gradle: 8.10.2
+  
+  > Task :app:checkKotlinGradlePluginConfigurationErrors
+  > Task :app:generateAutolinkingNewArchitectureFiles
+  > Task :app:generateAutolinkingPackageList
+  > Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+  > Task :app:generateCodegenArtifactsFromSchema SKIPPED
+  > Task :app:preBuild
+  > Task :app:preDebugBuild
+  > Task :app:generateDebugBuildConfig
+  > Task :react-native-async-storage_async-storage:generateCodegenSchemaFromJavaScript
+  > Task :react-native-async-storage_async-storage:generateCodegenArtifactsFromSchema
+  > Task :react-native-async-storage_async-storage:preBuild
+  > Task :react-native-async-storage_async-storage:preDebugBuild
+  > Task :react-native-firebase_app:preBuild UP-TO-DATE
+  > Task :react-native-firebase_app:preDebugBuild UP-TO-DATE
+  > Task :react-native-firebase_messaging:preBuild UP-TO-DATE
+  > Task :react-native-firebase_messaging:preDebugBuild UP-TO-DATE
+  > Task :react-native-async-storage_async-storage:writeDebugAarMetadata
+  > Task :react-native-firebase_app:writeDebugAarMetadata
+  > Task :react-native-firebase_messaging:writeDebugAarMetadata
+  > Task :react-native-gesture-handler:generateCodegenSchemaFromJavaScript
+  > Task :react-native-gesture-handler:generateCodegenArtifactsFromSchema
+  > Task :react-native-gesture-handler:preBuild
+  > Task :react-native-gesture-handler:preDebugBuild
+  > Task :react-native-reanimated:assertLatestReactNativeWithNewArchitectureTask SKIPPED
+  > Task :react-native-reanimated:assertMinimalReactNativeVersionTask SKIPPED
+  > Task :react-native-gesture-handler:writeDebugAarMetadata
+  > Task :react-native-reanimated:generateCodegenSchemaFromJavaScript
+  > Task :react-native-reanimated:generateCodegenArtifactsFromSchema
+  > Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs
+  > Task :react-native-reanimated:prepareWorkletsHeadersForPrefabs
+  > Task :react-native-reanimated:preBuild
+  > Task :react-native-reanimated:preDebugBuild
+  > Task :react-native-reanimated:writeDebugAarMetadata
+  > Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript
+  > Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema
+  > Task :react-native-safe-area-context:preBuild
+  > Task :react-native-safe-area-context:preDebugBuild
+  > Task :react-native-safe-area-context:writeDebugAarMetadata
+  
+  > Task :react-native-screens:generateCodegenSchemaFromJavaScript FAILED
+  34 actionable tasks: 34 executed
+  
+  info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+  
+  G:\barber\admin-app\node_modules\@react-native\codegen\lib\parsers\typescript\components\componentsUtils.js:410
+        throw new Error(`Unknown prop type for "${name}": "${type}"`);
+        ^
+  
+  Error: Unknown prop type for "accessibilityContainerViewIsModal": "undefined"
+      at getTypeAnnotation (G:\barber\admin-app\node_modules\@react-native\codegen\lib\parsers\typescript\components\componentsUtils.js:410:13)
+      at buildPropSchema (G:\barber\admin-app\node_modules\@react-native\codegen\lib\parsers\parsers-commons.js:1109:21)
+      at G:\barber\admin-app\node_modules\@react-native\codegen\lib\parsers\typescript\parser.js:471:26 
+      at Array.map (<anonymous>)
+      at TypeScriptParser.getProps (G:\barber\admin-app\node_modules\@react-native\codegen\lib\parsers\typescript\parser.js:471:10)
+      at buildComponentSchema (G:\barber\admin-app\node_modules\@react-native\codegen\lib\parsers\typescript\components\index.js:38:35)
+      at buildSchemaFromConfigType (G:\barber\admin-app\node_modules\@react-native\codegen\lib\parsers\parsers-commons.js:634:34)
+      at buildSchema (G:\barber\admin-app\node_modules\@react-native\codegen\lib\parsers\parsers-commons.js:698:10)
+      at TypeScriptParser.parseString (G:\barber\admin-app\node_modules\@react-native\codegen\lib\parsers\typescript\parser.js:134:12)
+      at TypeScriptParser.parseFile (G:\barber\admin-app\node_modules\@react-native\codegen\lib\parsers\typescript\parser.js:131:17)
+  
+  Node.js v24.16.0
+  
+  FAILURE: Build failed with an exception.
+  
+  * What went wrong:
+  Execution failed for task ':react-native-screens:generateCodegenSchemaFromJavaScript'.
+  > Process 'command 'cmd'' finished with non-zero exit value 1
+  
+  * Try:
+  > Run with --stacktrace option to get the stack trace.
+  > Run with --info or --debug option to get more log output.
+  > Run with --scan to get full insights.
+  > Get more help at https://help.gradle.org.
+  
+  BUILD FAILED in 4m 28s
+  info Run CLI with --verbose flag for more details.
+
+--- WINDOW  2026/08/05 21:33:19  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 21:33:22  [Cursor.exe] Cursor Settings - barber - Cursor
+----------------------------------------------------------------------------
