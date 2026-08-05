@@ -1,0 +1,130 @@
+﻿  [LMB]
+
+--- WINDOW  2026/08/05 18:49:42  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 18:49:43  [Antigravity IDE.exe] barber - Antigravity IDE - window.svg
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 18:50:08  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 18:50:09  [Antigravity IDE.exe] barber - Antigravity IDE - window.svg
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 18:50:31  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 18:50:32  [Antigravity IDE.exe] barber - Antigravity IDE - window.svg
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 18:50:51  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 18:50:52  [Antigravity IDE.exe] barber - Antigravity IDE - window.svg
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 18:52:43  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 18:52:45  [Antigravity IDE.exe] barber - Antigravity IDE - window.svg
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/05 19:01:11  [chrome.exe] (6) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  /[ENTER]
+
+--- WINDOW  2026/08/05 19:03:07  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:03:08  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:03:08  [chrome.exe] (6) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:03:11  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:03:11  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:03:12  [chrome.exe] (6) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:33:08  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:33:08  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:33:08  [chrome.exe] (6) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:33:11  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:33:12  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:33:12  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:33:12  [chrome.exe] (6) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 19:40:16  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+  docker[ENTER]
+
+--- WINDOW  2026/08/05 19:40:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:40:25  [Docker Desktop.exe] Dashboard - Docker Desktop
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:40:31  [msrdc.exe] RemoteApp
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:43:06  [Docker Desktop.exe] Containers - Docker Desktop
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:43:07  [chrome.exe] (6) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:43:08  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 19:43:09  [Antigravity IDE.exe] barber - Antigravity IDE - window.svg
+----------------------------------------------------------------------------
+  [LMB]
+  cd [Tab][Tab][ENTER]
+  npm run dev[ENTER]
+  [LMB]
+  [LMB]
+  cd [Tab][Tab][Tab][ENTER]
+  npm run dev[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  http://localhost:3000
+  c
+  [LMB]
+
+--- WINDOW  2026/08/05 19:44:17  [chrome.exe] (6) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 19:44:18  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][ENTER]
+
+--- WINDOW  2026/08/05 19:45:40  [chrome.exe] Kiyara Hair Studio & Salon | Hair Salon in Vijay Nagar, Indore - Google Chrome
+----------------------------------------------------------------------------
