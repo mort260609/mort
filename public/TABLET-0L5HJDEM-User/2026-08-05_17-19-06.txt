@@ -1,0 +1,485 @@
+﻿  [Clipboard]
+  TX3qwgArfE67QbS9V5yAaAgbPj2Un3FRGW
+  [LMB]
+
+--- WINDOW  2026/08/05 16:20:29  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/05 16:27:58  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 16:28:07  [msedge.exe] Eyal Blecer Kahn, Adv | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 16:29:26  [msedge.exe] • Discord | @Ak and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 16:29:35  [msedge.exe] • Discord | @James and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 16:29:38  [msedge.exe] • Discord | @Michael Papadopoulos and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  yes[ENTER]
+  [Clipboard]
+  skyedit_mac.spec
+  [LMB]
+
+--- WINDOW  2026/08/05 16:33:12  [msedge.exe] Eyal Blecer Kahn, Adv | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 16:33:15  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  build_mac.sh and skyedit_mac.spec
+  [Clipboard]
+  Root cause
+  
+  v7.23 added YOLOv8 (ultralytics + PyTorch) for people-detection in photos, with yolov8_enabled = True by default. But:
+  
+  build_mac.sh never installs ultralytics, and
+  skyedit_mac.spec never bundles torch/ultralytics or yolov8n.pt.
+  
+  PyTorch is ~2GB and notoriously breaks PyInstaller macOS .app bundles. The result is the classic symptom: the app shows the launch/verify progress bar, hits a fatal error during startup, and quits without opening.
+  
+  Fix applied (safe, keeps photos working)
+  
+  YOLO is only a photo-quality booster; photo selection already has a full fallback (YuNet + subject/sharpness scoring), so it's not core to the reel.
+  
+  Engine auto-disables YOLO in frozen builds. New _yolov8_default_enabled():
+  OFF when frozen (packaged .app/.exe)
+  OFF from source unless ultralytics is importable
+  Override anytime with SKYEDIT_ENABLE_YOLO=1 / =0
+  No online model download in a frozen app. _get_yolo_model() now loads a LOCAL yolov8n.pt only (a download attempt could hang a windowless app).
+  Spec excludes the torch/ultralytics stack (skyedit_mac.spec) so PyInstaller cleanly skips them instead of failing to collect them.
+  build_mac.sh notes that YOLO/torch are intentionally excluded.
+  Result
+  The .app no longer tries to load torch at startup → builds and launches reliably.
+  Photos still avoid empty-sky frames via the YuNet/subject-scoring fallback.
+  YuNet face detection is UNAFFECTED (it uses OpenCV's DNN, cv2.FaceDetectorYN, not the excluded onnxruntime package).
+  If you WANT YOLO later
+  
+  Run from source with pip install ultralytics (keep yolov8n.pt next to the app or in models/), or set SKYEDIT_ENABLE_YOLO=1. For a bundled app it's not recommended — the size/fragility isn't worth a photo-scoring boost.
+  [Clipboard]
+  please what 
+  [Clipboard]
+  ╔════════════════════════════════════════════╗
+  
+  ║     SkyEdit v7 — macOS Build Script       ║
+  
+  ║     Produces SkyEdit.app + optional DMG   ║
+  
+  ╚════════════════════════════════════════════╝
+  
+  
+  
+  
+  
+  ═══ STEP 1: Homebrew ═══
+  
+  
+  
+  [OK] Homebrew installed: Homebrew 4.5.0
+  
+  
+  
+  ═══ STEP 2: FFmpeg ═══
+  
+  
+  
+  [OK] FFmpeg found: ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  
+  [INFO] Checking FFmpeg codecs...
+  
+  [OK]   libx264 encoder: OK
+  
+  [OK]   AAC encoder: OK
+  
+  [OK]   scale filter: OK
+  
+  
+  
+  ═══ STEP 3: Python ═══
+  
+  
+  
+  [OK] Found: Python 3.14.6
+  
+  
+  
+  ═══ STEP 4: Virtual Environment ═══
+  
+  
+  
+  [WARN] Existing venv found at /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac — removing for clean build...
+  
+  [INFO] Creating virtual environment...
+  
+  [OK] Virtual environment created: /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac
+  
+  [OK] Virtual environment activated
+  
+  
+  
+  ═══ STEP 5: Python Dependencies ═══
+  
+  
+  
+  [INFO] Upgrading pip...
+  
+  [INFO] Installing PyInstaller...
+  
+  [INFO] Installing OpenCV...
+  
+  [INFO] Installing NumPy...
+  
+  [INFO] Installing imageio-ffmpeg (bundled FFmpeg for the .app)...
+  
+  [INFO] Installing Flask...
+  
+  [INFO] Installing boto3 (S3 uploads)...
+  
+  [INFO] Installing Jinja2...
+  
+  [INFO] Installing MarkupSafe...
+  
+  [INFO] Installing Werkzeug...
+  
+  [INFO] Installing pyzbar (optional, for QR fallback)...
+  
+  [OK] pyzbar installed
+  
+  [OK] All dependencies installed
+  
+  
+  
+  ═══ STEP 6: Fix Source Files ═══
+  
+  
+  
+  [INFO] Fixing FFmpeg paths in reviewer.py...
+  
+  [OK] reviewer.py paths fixed
+  
+  [INFO] Fixing FFmpeg paths in skydive_editor_v7.py...
+  
+  [OK] skydive_editor_v7.py paths fixed
+  
+  
+  
+  ═══ STEP 7: Verify Files ═══
+  
+  
+  
+  [OK]   ✓ skydive_editor_v7.py
+  
+  [OK]   ✓ reviewer.py
+  
+  [OK]   ✓ s3_upload.py
+  
+  [OK]   ✓ skyedit_paths.py
+  
+  [OK]   ✓ video_organizer.py
+  
+  [OK]   ✓ skyedit_mac.spec
+  
+  [OK]   ✓ templates/reviewer.html
+  
+  
+  
+  ═══ STEP 8: Clean Previous Build ═══
+  
+  
+  
+  [INFO] Removing dist/
+  
+  [OK] Clean
+  
+  
+  
+  ═══ STEP 9: PyInstaller Build ═══
+  
+  
+  
+  [INFO] Starting PyInstaller (this takes 2-5 minutes)...
+  
+  [INFO]  
+  
+  234 INFO: PyInstaller: 6.21.0, contrib hooks: 2026.6
+  
+  235 INFO: Python: 3.14.6
+  
+  255 INFO: Platform: macOS-15.7.7-x86_64-i386-64bit-Mach-O
+  
+  255 INFO: Python environment: /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac
+  
+  276 INFO: Removing temporary files and cleaning cache in /Users/a1/Library/Application Support/pyinstaller
+  
+  [spec] Bundled FFmpeg: /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-x86_64-v7.1
+  
+  [spec] Templates: /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/templates
+  
+         _legacy_setup.html.unused
+  
+         reviewer.html
+  
+  [spec] CV2 Haar cascades: 0 files from /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/cv2
+  
+  [spec] Model: face_detection_yunet.onnx
+  
+  [spec] Asset: fear_crushed_slam.mp4
+  
+  [spec] Bundled FFmpeg: /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-x86_64-v7.1 -> ./
+  
+  [spec] Audio asset: music.m4a
+  
+  9194 INFO: Module search paths (PYTHONPATH):
+  
+  ['/Library/Frameworks/Python.framework/Versions/3.14/lib/python314.zip',
+  
+   '/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14',
+  
+   '/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/lib-dynload',
+  
+   '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages',
+  
+   '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2']
+  
+  9599 INFO: Appending 'binaries' from .spec
+  
+  9600 INFO: Appending 'datas' from .spec
+  
+  9606 INFO: checking Analysis
+  
+  9606 INFO: Building Analysis because Analysis-00.toc is non existent
+  
+  9606 INFO: Looking for Python shared library...
+  
+  9619 INFO: Using Python shared library: /Library/Frameworks/Python.framework/Versions/3.14/Python
+  
+  9619 INFO: Running Analysis Analysis-00.toc
+  
+  9619 INFO: Target bytecode optimization level: 0
+  
+  9619 INFO: Initializing module dependency graph...
+  
+  9621 INFO: Initializing module graph hook caches...
+  
+  9633 INFO: Analyzing modules for base_library.zip ...
+  
+  10476 INFO: Processing standard module hook 'hook-encodings.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks'
+  
+  12271 INFO: Processing standard module hook 'hook-math.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks'
+  
+  14703 INFO: Processing standard module hook 'hook-difflib.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks'
+  
+  14724 INFO: Processing standard module hook 'hook-heapq.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks'
+  
+  14921 INFO: Processing standard module hook 'hook-pickle.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks'
+  
+  17483 INFO: Caching module dependency graph...
+  
+  17527 INFO: Analyzing /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/skydive_editor_v7.py
+  
+  18386 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks'
+  
+  18568 INFO: Processing standard module hook 'hook-xml.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks'
+  
+  19051 INFO: Processing standard module hook 'hook-sysconfig.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks'
+  
+  19075 INFO: Processing standard module hook 'hook-_osx_support.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks'
+  
+  19082 INFO: Processing standard module hook 'hook-_ctypes.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks'
+  
+  19250 INFO: Processing standard module hook 'hook-platform.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks'
+  
+  19323 INFO: Processing standard module hook 'hook-cv2.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/_pyinstaller_hooks_contrib/stdhooks'
+  
+  19817 INFO: Processing standard module hook 'hook-numpy.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks'
+  
+  20418 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks/pre_safe_import_module'
+  
+  20419 INFO: SetuptoolsInfo: initializing cached setuptools info...
+  
+  25416 INFO: Processing standard module hook 'hook-imageio_ffmpeg.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/_pyinstaller_hooks_contrib/stdhooks'
+  
+  25693 INFO: Processing standard module hook 'hook-webbrowser.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks'
+  
+  27744 INFO: Processing standard module hook 'hook-jinja2.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/_pyinstaller_hooks_contrib/stdhooks'
+  
+  29033 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks/pre_safe_import_module'
+  
+  29034 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+  
+  30003 INFO: Processing standard module hook 'hook-boto3.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/_pyinstaller_hooks_contrib/stdhooks'
+  
+  32752 INFO: Processing standard module hook 'hook-botocore.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/_pyinstaller_hooks_contrib/stdhooks'
+  
+  34250 INFO: Processing standard module hook 'hook-dateutil.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/_pyinstaller_hooks_contrib/stdhooks'
+  
+  34509 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks/pre_safe_import_module'
+  
+  35049 INFO: Processing standard module hook 'hook-urllib3.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/_pyinstaller_hooks_contrib/stdhooks'
+  
+  35254 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks/pre_safe_import_module'
+  
+  35254 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+  
+  35907 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks'
+  
+  38121 INFO: Analyzing hidden import 'logging.config'
+  
+  38185 INFO: Analyzing hidden import 'email.mime'
+  
+  38186 INFO: Analyzing hidden import 'email.mime.multipart'
+  
+  38192 INFO: Analyzing hidden import 'email.mime.text'
+  
+  38196 INFO: Analyzing hidden import 'collections.abc'
+  
+  38196 ERROR: Hidden import 'collections.abc' not found
+  
+  38196 INFO: Analyzing hidden import 'cv2.config'
+  
+  38198 INFO: Analyzing hidden import 'cv2.config-3'
+  
+  38201 INFO: Analyzing hidden import 'cv2.cv2'
+  
+  38201 INFO: Analyzing hidden import 'cv2.data'
+  
+  38202 INFO: Analyzing hidden import 'cv2.load_config_py2'
+  
+  38203 INFO: Analyzing hidden import 'cv2.mat_wrapper'
+  
+  38206 INFO: Analyzing hidden import 'cv2.misc'
+  
+  38208 INFO: Analyzing hidden import 'cv2.typing'
+  
+  38216 INFO: Analyzing hidden import 'cv2.utils'
+  
+  38218 INFO: Processing module hooks (post-graph stage)...
+  
+  38557 INFO: Performing binary vs. data reclassification (2050 entries)
+  
+  38959 INFO: Looking for ctypes DLLs
+  
+  39040 WARNING: Library user32 required via ctypes not found
+  
+  39214 INFO: Analyzing run-time hooks ...
+  
+  39219 INFO: Including run-time hook 'pyi_rth_inspect.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks/rthooks'
+  
+  39223 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks/rthooks'
+  
+  39226 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from '/Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/hooks/rthooks'
+  
+  39353 INFO: Creating base_library.zip...
+  
+  39389 INFO: Looking for dynamic libraries
+  
+  40353 INFO: Warnings written to /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/build/skyedit_mac/warn-skyedit_mac.txt
+  
+  40412 INFO: Graph cross-reference written to /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/build/skyedit_mac/xref-skyedit_mac.html
+  
+  40960 INFO: checking PYZ
+  
+  40960 INFO: Building PYZ because PYZ-00.toc is non existent
+  
+  40960 INFO: Building PYZ (ZlibArchive) /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/build/skyedit_mac/PYZ-00.pyz
+  
+  41874 INFO: Building PYZ (ZlibArchive) /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/build/skyedit_mac/PYZ-00.pyz completed successfully.
+  
+  41891 INFO: EXE target arch: x86_64
+  
+  41891 INFO: Code signing identity: None
+  
+  41896 INFO: checking PKG
+  
+  41896 INFO: Building PKG because PKG-00.toc is non existent
+  
+  41896 INFO: Building PKG (CArchive) SkyEdit.pkg
+  
+  42224 INFO: Building PKG (CArchive) SkyEdit.pkg completed successfully.
+  
+  42225 INFO: Bootloader /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/venv_mac/lib/python3.14/site-packages/PyInstaller/bootloader/Darwin-64bit/runw
+  
+  42225 INFO: checking EXE
+  
+  42225 INFO: Building EXE because EXE-00.toc is non existent
+  
+  42225 INFO: Building EXE from EXE-00.toc
+  
+  42225 INFO: Copying bootloader EXE to /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/build/skyedit_mac/SkyEdit
+  
+  42228 INFO: Converting EXE to target arch (x86_64)
+  
+  42272 INFO: Removing signature(s) from EXE
+  
+  42307 INFO: Modifying Mach-O image UUID(s) in EXE
+  
+  42332 INFO: Appending PKG archive to EXE
+  
+  42349 INFO: Fixing EXE headers for code signing
+  
+  42386 INFO: Re-signing the EXE
+  
+  42541 INFO: Building EXE from EXE-00.toc completed successfully.
+  
+  42583 INFO: checking COLLECT
+  
+  42583 INFO: Building COLLECT because COLLECT-00.toc is non existent
+  
+  42584 INFO: Building COLLECT COLLECT-00.toc
+  
+  60133 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+  
+  60224 INFO: checking BUNDLE
+  
+  60224 INFO: Building BUNDLE because BUNDLE-00.toc is non existent
+  
+  60224 INFO: Building BUNDLE BUNDLE-00.toc
+  
+  71213 INFO: Signing the BUNDLE...
+  
+  72716 INFO: Building BUNDLE BUNDLE-00.toc completed successfully.
+  
+  72772 INFO: Build complete! The results are available in: /Users/a1/Documents/upwork_bid/for_mac_v1.0.2/dist
+  
+  
+  
+  [OK] PyInstaller build completed successfully
+  [LMB]
+
+--- WINDOW  2026/08/05 17:05:23  [msedge.exe] (1) LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 17:05:23  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 17:05:24  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  Filtering the log data using "process == "SkyEdit""
+  Skipping info and debug messages, pass --info and/or --debug to include.
+  Timestamp                       Thread     Type        Activity             PID    TTL  
+  2026-08-05 14:04:57.207875+0400 0x6f0859   Default     0x0                  4366   0    SkyEdit: [PYI-4366:ERROR] Failed to execute script 'skydive_editor_v7' due to unhandled exception: No module named 'PIL'
+  2026-08-05 14:04:57.207900+0400 0x6f0859   Default     0x0                  4366   0    SkyEdit: [PYI-4366:ERROR] Traceback:
+  Traceback (most recent call last):
+    File "skydive_editor_v7.py", line 113, in <module>
+  ModuleNotFoundError: No module named 'PIL'
+  --------------------------------------------------------------------------------------------------------------------
+  Log      - Default:          2, Info:                0, Debug:             0, Error:          0, Fault:          0
+  Activity - Create:           0, Transition:          0, Actions:           0
+
+--- WINDOW  2026/08/05 17:19:05  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 17:19:06  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
