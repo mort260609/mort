@@ -1,0 +1,107 @@
+﻿  [LMB]
+
+--- WINDOW  2026/08/06 16:13:22  [chrome.exe] Inbox - syedalirizvi749@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 16:13:24  [chrome.exe] Inbox - syedaunrizvi77@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 16:13:27  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 16:13:30  [chrome.exe] Feed | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 16:13:34  [chrome.exe] LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 16:13:38  [chrome.exe] (56) LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 16:13:39  [chrome.exe] (55) Messaging | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 16:13:47  [chrome.exe] Inbox - syedaunrizvi77@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 16:42:21  [chrome.exe] Inbox - syedalirizvi749@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 16:42:22  [chrome.exe] • Discord | @IB - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 16:42:24  [chrome.exe] Talented Freelancer Required - Jobs - three.js forum - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 16:42:24  [chrome.exe] Inbox - syedaunrizvi77@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 16:43:53  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 16:44:01  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 16:44:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 16:44:09  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 16:44:09  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+  wah
+
+--- WINDOW  2026/08/06 16:44:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 16:44:13  [WhatsApp.Root.exe] WhatsApp
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  Hi Kyung, thanks for the detail. Addressing your questions directly:
+  
+  1) I don't have a live video-analysis AI project to link to that's directly comparable, I want to be honest rather than stretch something unrelated. What I do have is real experience building AI-powered SaaS platforms, video upload and processing pipelines, and integrating AI vision APIs. I'd rather show you a quick prototype or technical approach than oversell a portfolio piece that isn't a true match.
+  
+  2) Yes, comfortable with clean, user friendly design, the feedback interface especially needs to be simple and clear for athletes.
+  
+  3) both AI vision APIs and motion tracking are likely needed. AI vision alone (OpenAI Vision, Google Video Intelligence) can identify sport type and give general feedback. For truly accurate pose specific feedback  'your elbow is dropping on release' you'd want a pose estimation layer (MediaPipe or similar). I have exposure to this but would be transparent that this is a technically challenging piece that needs proper scoping.
+  
+  4) For a solid MVP (video upload, AI sport detection, per-sport feedback, user history, clean report UI):
+  Timeline: 6–8 weeks
+  Budget: $2,500–$3,500 fixed, milestone-based
+  
+  Happy to discuss scope in more detail on a call
+  
+  — Ali
+
+--- WINDOW  2026/08/06 16:44:28  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 16:44:28  [chrome.exe] Messages - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk][Bk], [->][Bk]s[Bk]a
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 16:44:52  [chrome.exe] Upwork - Google Chrome
+----------------------------------------------------------------------------
