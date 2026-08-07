@@ -1,0 +1,894 @@
+﻿  [LMB]
+  [Ctrl]
+  [Clipboard]
+  PS G:\hotel> npm run dev
+  
+  > aurum-grand-hotel@1.0.0 dev
+  > concurrently "npm run dev:web" "npm run dev:api"
+  
+  [1] 
+  [1] > aurum-grand-hotel@1.0.0 dev:api
+  [1] > npm run dev --workspace=api
+  [1] 
+  [0] 
+  [0] > aurum-grand-hotel@1.0.0 dev:web
+  [0] > npm run dev --workspace=web
+  [0] 
+  [0] 
+  [0] > web@0.1.0 dev
+  [0] > next dev
+  [0] 
+  [1] 
+  [1] > api@1.0.0 dev
+  [1] > tsx watch src/index.ts
+  [1]
+  [1] node:events:487
+  [1]       throw er; // Unhandled 'error' event
+  [1]       ^
+  [1]
+  [1] Error: listen EADDRINUSE: address already in use :::4000
+  [1]     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+  [1]     at listenInCluster (node:net:2065:12)
+  [1]     at Server.listen (node:net:2170:7)
+  [1]     at app.listen (G:\hotel\node_modules\express\lib\application.js:635:24)
+  [1]     at rateLimit (G:\hotel\apps\api\src\index.ts:61:5)
+  [1]     at Object.<anonymous> (G:\hotel\apps\api\src\index.ts:65:16)
+  [1]     at Module._compile (node:internal/modules/cjs/loader:1854:14)
+  [1]     at Object.transformer (G:\hotel\node_modules\tsx\dist\register-CRHZwkwo.cjs:9:3339)
+  [1]     at Module.load (node:internal/modules/cjs/loader:1577:32)
+  [1]     at Module._load (node:internal/modules/cjs/loader:1379:12)
+  [1] Emitted 'error' event on Server instance at:
+  [1]     at emitErrorNT (node:net:2044:8)
+  [1]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  [1]   code: 'EADDRINUSE',
+  [1]   errno: -4091,
+  [1]   syscall: 'listen',
+  [1]   address: '::',
+  [1]   port: 4000
+  [1] }
+  [1]
+  [1] Node.js v24.16.0
+  [0] ▲ Next.js 16.3.0 (Turbopack)
+  [0] - Local:         http://localhost:3000
+  [0] - Network:       http://10.158.214.2:3000
+  [0] - Environments: .env.local
+  [0] ✓ Ready in 843ms
+  [0] ✓ Running next.config.ts took 68ms
+  [0] ⚠ Slow filesystem detected. The benchmark took 407ms. If \\?\G:\hotel\apps\web\.next\dev is a network drive, consider moving it to a local folder.
+  [0] See more: https://nextjs.org/docs/app/guides/local-development
+  [0] 
+  
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]ccccls[ENTER]
+  [LMB]
+  [^][ENTER]
+  [^][^][ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  PS G:\hotel> npm run dev
+  
+  > aurum-grand-hotel@1.0.0 dev
+  > concurrently "npm run dev:web" "npm run dev:api"
+  
+  [0] 
+  [0] > aurum-grand-hotel@1.0.0 dev:web
+  [0] > npm run dev --workspace=web
+  [0] 
+  [1] 
+  [1] > aurum-grand-hotel@1.0.0 dev:api
+  [1] > npm run dev --workspace=api
+  [1] 
+  [0] 
+  [0] > web@0.1.0 dev
+  [0] > next dev
+  [0] 
+  [1] 
+  [1] > api@1.0.0 dev
+  [1] > tsx watch src/index.ts
+  [1]
+  [1] node:events:487
+  [1]       throw er; // Unhandled 'error' event
+  [1]       ^
+  [1]
+  [1] Error: listen EADDRINUSE: address already in use :::4000
+  [1]     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+  [1]     at listenInCluster (node:net:2065:12)
+  [1]     at Server.listen (node:net:2170:7)
+  [1]     at app.listen (G:\hotel\node_modules\express\lib\application.js:635:24)
+  [1]     at rateLimit (G:\hotel\apps\api\src\index.ts:61:5)
+  [1]     at Object.<anonymous> (G:\hotel\apps\api\src\index.ts:65:16)
+  [1]     at Module._compile (node:internal/modules/cjs/loader:1854:14)
+  [1]     at Object.transformer (G:\hotel\node_modules\tsx\dist\register-CRHZwkwo.cjs:9:3339)
+  [1]     at Module.load (node:internal/modules/cjs/loader:1577:32)
+  [1]     at Module._load (node:internal/modules/cjs/loader:1379:12)
+  [1] Emitted 'error' event on Server instance at:
+  [1]     at emitErrorNT (node:net:2044:8)
+  [1]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  [1]   code: 'EADDRINUSE',
+  [1]   errno: -4091,
+  [1]   syscall: 'listen',
+  [1]   address: '::',
+  [1]   port: 4000
+  [1] }
+  [1]
+  [1] Node.js v24.16.0
+  [0] ▲ Next.js 16.3.0 (Turbopack)
+  [0] - Local:         http://localhost:3000
+  [0] - Network:       http://10.158.214.2:3000
+  [0] - Environments: .env.local
+  [0] ✓ Ready in 920ms
+  [0] ✓ Running next.config.ts took 67ms
+  [0] ⚠ Slow filesystem detected. The benchmark took 322ms. If \\?\G:\hotel\apps\web\.next\dev is a network drive, consider moving it to a local folder.
+  [0] See more: https://nextjs.org/docs/app/guides/local-development
+  [0] 
+  c
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]ccccccccccc
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl]cccccls[ENTER]
+  [LMB]
+  [^][^][ENTER]
+  [LMB]
+  [Ctrl]cls\[ENTER]
+  cls[ENTER]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  npm run dev
+  [LMB]
+  [RMB]
+  [ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  PS G:\hotel> npm run dev
+  
+  > aurum-grand-hotel@1.0.0 predev
+  > powershell -ExecutionPolicy Bypass -File scripts/free-ports.ps1
+  
+  Cannot overwrite variable PID because it is read-only or constant.
+  At G:\hotel\scripts\free-ports.ps1:6 char:5
+  +     $pid = $conn.OwningProcess
+  +     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      + CategoryInfo          : WriteError: (PID:String) [], SessionStateUnauthorizedAccessException
+      + FullyQualifiedErrorId : VariableNotWritable
+   
+  Freeing port 4000 (PID 23028)...
+  PS G:\hotel> 
+  c
+
+--- WINDOW  2026/08/05 23:52:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:52:10  [chrome.exe] (6) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:52:12  [chrome.exe] Hotel Website Demo Prompt - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:52:15  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/05 23:52:19  [chrome.exe] NPM run dev error - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:52:22  [chrome.exe] PowerShell PID Error - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  $pid = $conn.OwningProcess
+  [LMB]
+
+--- WINDOW  2026/08/05 23:52:40  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+  powe[ENTER]
+
+--- WINDOW  2026/08/05 23:52:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:52:43  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:52:44  [WindowsTerminal.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/08/05 23:52:47  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:52:47  [chrome.exe] PowerShell PID Error - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:52:50  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:52:50  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:52:50  [WindowsTerminal.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/08/05 23:52:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:52:54  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:52:54  [chrome.exe] PowerShell PID Error - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  $PID
+
+--- WINDOW  2026/08/05 23:52:59  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:52:59  [WindowsTerminal.exe] Windows PowerShell
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/08/05 23:53:02  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:53:02  [chrome.exe] PowerShell PID Error - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  $processId = $conn.OwningProcess
+
+--- WINDOW  2026/08/05 23:53:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:53:42  [Cursor.exe] hotel - Cursor
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/08/05 23:53:46  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:53:46  [chrome.exe] PowerShell PID Error - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:53:51  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:53:51  [Cursor.exe] hotel - Cursor
+----------------------------------------------------------------------------
+  [^][^][ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  PS G:\hotel> npm run dev
+  
+  > aurum-grand-hotel@1.0.0 predev
+  > powershell -ExecutionPolicy Bypass -File scripts/free-ports.ps1
+  
+  Cannot overwrite variable PID because it is read-only or constant.
+  At G:\hotel\scripts\free-ports.ps1:6 char:5
+  +     $pid = $conn.OwningProcess
+  +     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      + CategoryInfo          : WriteError: (PID:String) [], SessionStateUnauthorizedAccessException  
+      + FullyQualifiedErrorId : VariableNotWritable
+  
+  Freeing port 4000 (PID 24628)...
+  PS G:\hotel> 
+  c
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]v[ENTER]
+  [^]
+  [LMB]
+  [^][ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  http://localhost:3000
+  c
+
+--- WINDOW  2026/08/05 23:56:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:56:16  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:56:16  [chrome.exe] Domain portfolio | Hostinger - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:56:18  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/05 23:56:22  [chrome.exe] Aurum Grand | Luxury Hotel & Resort - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:58:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/05 23:58:35  [Cursor.exe] hotel - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:58:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/05 23:58:38  [Cursor.exe] Cursor Settings - barber - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  l
+
+--- WINDOW  2026/08/05 23:58:44  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:19:44  [LockApp.exe] Windows Default Lock Screen
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:20:12  [Cursor.exe] Cursor Settings - barber - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:20:30  [chrome.exe] PowerShell PID Error - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:21:11  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:21:13  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:21:14  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:21:16  [chrome.exe] Developer Life Instagram Post - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Split-screen showing an empty code editor transforming into a polished web application with smooth animations, dashboards, responsive design, and mobile compatibility.
+  Text: "From zero to launch."
+  [LMB]
+
+--- WINDOW  2026/08/06 10:21:54  [chrome.exe] Google Flow - Jul 17, 03:09 PM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:21:58  [chrome.exe] Google Flow - AI Creative Studio for Video, Images & Custom Tools - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:22:00  [chrome.exe] Google Flow - Jul 17, 03:09 PM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  make video [ENTER]
+  [LMB]
+  make video[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  make video [ENTER]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:27:32  [chrome.exe] Developer Life Instagram Post - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:27:44  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:27:44  [Cursor.exe] Cursor Settings - barber - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:27:45  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:27:45  [chrome.exe] Developer Life Instagram Post - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:27:47  [chrome.exe] Google Flow - Jul 17, 03:09 PM - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [ENTER]
+  make vide[Bk]eo[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  make vidoo [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:31:33  [chrome.exe] (8) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:31:36  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:33:07  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:33:08  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:33:11  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:33:11  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:33:11  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:39:40  [chrome.exe] Official Hostinger coupon codes | 83% off (August 2026) - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:39:42  [chrome.exe] Cart | Hostinger - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:39:44  [chrome.exe] Domain name search – check and buy a domain in minutes - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:39:45  [chrome.exe] Web Hosting — Fast, Secure & Affordable | Hostinger - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:39:47  [chrome.exe] Kling AI: Next-Gen AI Video & Image Generator - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:39:47  [chrome.exe] Kling AI: Next-Generation AI Creative Studio - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:39:53  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:43:14  [chrome.exe] Gmail - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:43:17  [chrome.exe] Welcome to Prime Alpha Research — Your account credentials - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:43:23  [chrome.exe] Inbox (3,954) - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:43:25  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  link[ENTER]
+
+--- WINDOW  2026/08/06 10:43:29  [chrome.exe] Feed | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:44:01  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:44:01  [chrome.exe] Feed | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:44:02  [OpenWith.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:44:08  [chrome.exe] Feed | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:44:10  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:44:10  [chrome.exe] Feed | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:44:16  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:44:34  [chrome.exe] Feed | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:44:35  [chrome.exe] Inbox (3,954) - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:44:52  [chrome.exe] Feed | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  achourasiya@bestpeers.com
+  c
+  [LMB]
+
+--- WINDOW  2026/08/06 10:45:05  [chrome.exe] Inbox (3,954) - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  applicatio [Bk] [Bk]n for mern[Bk][Bk][Bk][Bk]mern st[Bk]tack[Bk][Bk]ck developer postion 
+  [LMB]
+  a
+
+--- WINDOW  2026/08/06 10:45:47  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi,
+  
+  I hope this message finds you well.
+  
+  I came across your LinkedIn post regarding the open NodeJS Developer position and believe that my skills and experience make me a strong fit for this role.
+  
+  I have hands-on experience in Node.js, TypeScript, React.js, PostgreSQL, JavaScript, and backend development. I have worked on developing scalable web applications, REST APIs, payment gateway integrations, authentication systems, and database-driven solutions. My technical expertise, combined with my problem-solving abilities, enables me to contribute effectively to development teams and deliver high-quality solutions.
+  
+  I am very interested in applying for this position and am available to start immediately. Please find my resume attached for your review. I would welcome the opportunity to discuss how my background, technical skills, and experience align with your requirements.
+  
+  Thank you for your time and consideration. I look forward to hearing from you.
+  
+  Best regards,
+  
+  Deepak Sharma
+  📧 Deepaksharmacs45@gmail.com
+  📞 +91 8770918364
+  🔗 GitHub: https://github.com/deepaksharma0000
+  🔗 LinkedIn: https://www.linkedin.com/in/deepak-sharma-b46102232
+  [LMB]
+
+--- WINDOW  2026/08/06 10:46:17  [chrome.exe] Inbox (3,954) - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/08/06 10:46:24  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:46:39  [chrome.exe] Inbox (3,954) - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:46:40  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  sy[Bk]ubh
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:47:00  [chrome.exe] Save As
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:47:10  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:47:12  [chrome.exe] Inbox (3,954) - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:47:15  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:47:24  [chrome.exe] Inbox (3,954) - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:47:59  [chrome.exe] Inbox (3,955) - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:48:10  [chrome.exe] Application for MERN STACK developer postion - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:48:24  [chrome.exe] Feed | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:48:27  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:48:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:48:33  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:48:33  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:48:34  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:48:34  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 10:48:34  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:48:36  [chrome.exe] Feed | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  sachourasiya@bestpeers.com
+  c
+  [LMB]
+
+--- WINDOW  2026/08/06 10:48:42  [chrome.exe] Application for MERN STACK developer postion - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Application for MERN STACK developer postion
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Hi,
+  
+  I hope this message finds you well.
+  
+  I came across your LinkedIn post regarding the open NodeJS Developer position and believe that my skills and experience make me a strong fit for this role.
+  
+  I have hands-on experience in Node.js, TypeScript, React.js, PostgreSQL, JavaScript, and backend development. I have worked on developing scalable web applications, REST APIs, payment gateway integrations, authentication systems, and database-driven solutions. My technical expertise, combined with my problem-solving abilities, enables me to contribute effectively to development teams and deliver high-quality solutions.
+  
+  I am very interested in applying for this position and am available to start immediately. Please find my resume attached for your review. I would welcome the opportunity to discuss how my background, technical skills, and experience align with your requirements.
+  
+  Thank you for your time and consideration. I look forward to hearing from you.
+  
+  Best regards,
+  
+  Deepak Sharma
+  📧 Deepaksharmacs45@gmail.com
+  📞 +91 8770918364
+  🔗 GitHub: https://github.com/deepaksharma0000
+  🔗 LinkedIn: https://www.linkedin.com/in/deepak-sharma-b46102232
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:50:17  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:50:21  [chrome.exe] Application for MERN STACK developer postion - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [ENTER]
+  [Ctrl]z
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:50:32  [chrome.exe] Inbox (3,954) - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:50:38  [chrome.exe] Application for MERN STACK developer postion - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:50:51  [chrome.exe] Inbox (3,954) - deepaksharmacs45@gmail.com - Gmail - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 10:51:13  [chrome.exe] Feed | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  lait
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 10:54:09  [chrome.exe] Notifications | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 11:05:20  [Notepad.exe] *hargan.txt - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  ssh root@147.93.28.231
+  c
+
+--- WINDOW  2026/08/06 11:05:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 11:05:38  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/06 11:05:40  [Notepad.exe] *hargan.txt - Notepad
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/06 11:05:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/06 11:05:48  [Notepad.exe] *hargan.txt - Notepad
+----------------------------------------------------------------------------
+
+================================================================================
+ SESSION START  2026/08/07 22:31:15
+================================================================================
+
+
+--- WINDOW  2026/08/07 22:31:15  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:31:26  [msedge.exe] New tab - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:32:31  [mshta.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:32:31  [msedge.exe] New tab - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:32:31  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:32:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:32:35  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:32:36  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/07 22:32:49  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/07 22:33:04  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:33:08  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:33:09  [chrome.exe] Restore pages?
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:33:10  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:33:11  [chrome.exe] Restore pages?
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:33:12  [chrome.exe] KVM 2 server deployment - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:33:13  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:33:18  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/07 22:33:21  [chrome.exe] Restore pages?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/07 22:33:23  [chrome.exe] (6) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:33:24  [chrome.exe] WhatsApp Web - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:33:26  [chrome.exe] WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/07 22:33:30  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:33:57  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  cosr 
+  [LMB]
+
+--- WINDOW  2026/08/07 22:35:14  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/07 22:35:51  [cmd.exe] C:\WINDOWS\system32\cmd.EXE
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/07 22:35:51  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
