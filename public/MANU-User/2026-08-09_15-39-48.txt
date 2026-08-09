@@ -1,0 +1,4557 @@
+﻿
+--- WINDOW  2026/08/09 11:39:51  [chrome.exe] Asesor de Trading con IA: Inicio - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  ME GUSTA MAS LA OPCIO A PERO SE PODRIAN HACER LAS ENTRADA SEN 3M Y NO EN 1 P CUESTION DE QUE SI EL INET[Bk]TERNEF[Bk]T ME FALLA O ALGO PUEDO CAGARLA SABES[ENTER]
+  OK PERO QUIERO ARREISGAR [Del][v]0.20 POR OPERAACION [ENTER]
+
+--- WINDOW  2026/08/09 11:43:54  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 11:44:33  [chrome.exe] Asesor de Trading con IA: Inicio - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  A VER A VER NO ENTE¿[Bk][Bk]IENDA NADA DE ESTO ULTIMO QUE DME[Bk][Bk]ICES PUEDES EXPLICARME LA ESTRATEGIA DETALLADAMENTE SIN TANTO TECNICISMO Y RECUERDA QUE QUIERO ALEJARME LO QUE MAS PUEDA DEL APALANCAMIENTO PARA O+[Bk][Bk]NO PERDER TODO E UN TRADE [ENTER]
+  [LMB]
+  CON ESTA MATEMATICA CUANTOS TRADES PODRIA HACER AL DIA SUPONIENDO QUE GANE LA MITAD JUGANDO CN[Bk]O[Bk]ON MIS 4 HORAS TRATANGO DE GANAR CLARO CUANTO HARIA EN UN DIA [ENTER]
+  DE ECHO ME PARECE MUY LOGICO AUNQUE QUISIERA HACER MAS DE 4 TRADES AL DIA [ENTER]
+  OK PERFECTO IREMOS CON ESA ESTRATEGIA , CAUNTOS NECESEITARIA PARA MI META DE 300 AL MES Y USANDO LA ESTRATEGIA QUE CREAMOS QUE TIEMO¿[Bk][Bk]PO NECESITARE¿RIA APROXIMADAMENTE CLARO [ENTER]
+  [LMB]
+  [LMB]
+  OK PRIMERO PODRIAS CREAR UN SCRIPT PARA TRADINVIUWE QUE ME DIA[Bk]GA EXACR[Bk]TTAMENTE DE [Bk][Bk][Bk]EN CUANTO DEBO ENTRA[Bk][Bk][Bk][Bk][Bk]PONER MI SL Y TP Y SI LA A[Bk]HAGO EN ENTRA[Bk][Bk][Bk][Bk][Bk]CON[Bk]MPRA O VENTA , ADEMAS QUE ANALICE BIEN EL GRAFICO PARA QUE DE UNA RESPUESTA ASERTADA QUE ANALICE TANTO LAS VELAS DE 4[Bk]3 MIN COMO LAS DE  HORA OK [ENTER]
+  [LMB]
+  [Clipboard]
+  //@version=5
+  indicator("Scalping M3 + Filtro H1 (Asesor IA)", overlay=true)
+  
+  // --- CONFIGURACIÓN DE PARÁMETROS ---
+  multiplicadorATR = input.float(1.5, title="Sensibilidad Stop Loss (Multiplicador ATR)")
+  rrRatio          = input.float(2.0, title="Ratio Riesgo:Beneficio (1:2)")
+  
+  // --- ANÁLISIS DE TENDENCIA DE 1 HORA (H1) ---
+  // Obtenemos la media móvil de 50 periodos en la temporalidad de 1 Hora
+  emaH1 = request.security(syminfo.tickerid, "60", ta.ema(close, 50))
+  
+  // --- ANÁLISIS DE ESTRUCTURA Y MOMENTUM EN 3 MINUTOS (M3) ---
+  emaRapida = ta.ema(close, 9)
+  emaLenta  = ta.ema(close, 21)
+  atr       = ta.atr(14)
+  
+  // --- CONDICIONES DE ENTRADA (M3 alineado con H1) ---
+  // COMPRA (LONG): Tendencia M3 es alcista Y el precio de M3 está por encima de la tendencia H1
+  condicionCompra = ta.crossover(emaRapida, emaLenta) and close > emaH1
+  
+  // VENTA (SHORT): Tendencia M3 es bajista Y el precio de M3 está por debajo de la tendencia H1
+  condicionVenta = ta.crossunder(emaRapida, emaLenta) and close < emaH1
+  
+  // --- CÁLCULO DE NIVELES DE SL Y TP ---
+  var float slCompra = na
+  var float tpCompra = na
+  var float slVenta  = na
+  var float tpVenta  = na
+  
+  if (condicionCompra)
+      slCompra := close - (atr * multiplicadorATR)
+      tpCompra := close + ((close - slCompra) * rrRatio)
+  
+  if (condicionVenta)
+      slVenta := close + (atr * multiplicadorATR)
+      tpVenta := close - ((slVenta - close) * rrRatio)
+  
+  // --- DIBUJO EN EL GRÁFICO DE ALERTAS Y NIVELES ---
+  plotshape(condicionCompra, title="Señal COMPRA", style=shape.triangleup, location=location.belowbar, color=color.green, size=size.small, text="COMPRA (LONG)")
+  plotshape(condicionVenta, title="Señal VENTA", style=shape.triangledown, location=location.abovebar, color=color.red, size=size.small, text="VENTA (SHORT)")
+  
+  // Dibujar la tendencia de H1 en el gráfico de M3 como una línea de referencia
+  plot(emaH1, title="Tendencia H1 (Filtro)", color=color.orange, linewidth=2)
+  
+  // Alertas visuales para los niveles de TP y SL de la última señal
+  plot(condicionCompra ? slCompra : na, title="SL Compra", color=color.red, style=plot.style_linebr, linewidth=2)
+  plot(condicionCompra ? tpCompra : na, title="TP Compra", color=color.green, style=plot.style_linebr, linewidth=2)
+  
+  plot(condicionVenta ? slVenta : na, title="SL Venta", color=color.red, style=plot.style_linebr, linewidth=2)
+  plot(condicionVenta ? tpVenta : na, title="TP Venta", color=color.green, style=plot.style_linebr, linewidth=2)
+  [LMB]
+
+--- WINDOW  2026/08/09 11:54:46  [chrome.exe] BTCUSDT 65,193.01 ▲ +0.35% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Ctrl]V
+
+--- WINDOW  2026/08/09 11:54:55  [chrome.exe] BTCUSDT 65,193.00 ▲ +0.35% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 11:54:57  [chrome.exe] BTCUSDT 65,193.01 ▲ +0.35% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:55:04  [chrome.exe] BTCUSDT 65,193.00 ▲ +0.35% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 11:55:07  [chrome.exe] BTCUSDT 65,199.45 ▲ +0.36% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:55:07  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 11:55:08  [chrome.exe] BTCUSDT 65,199.45 ▲ +0.36% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:55:09  [chrome.exe] BTCUSDT 65,199.46 ▲ +0.36% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 11:55:13  [chrome.exe] BTCUSDT 65,199.99 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:55:15  [chrome.exe] BTCUSDT 65,200.00 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 11:55:19  [chrome.exe] BTCUSDT 65,199.99 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:55:20  [chrome.exe] BTCUSDT 65,200.00 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 11:55:37  [chrome.exe] BTCUSDT 65,199.99 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:55:40  [chrome.exe] BTCUSDT 65,200.00 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 11:55:42  [chrome.exe] BTCUSDT 65,200.66 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  OK MIRA LO QU
+
+--- WINDOW  2026/08/09 11:55:46  [chrome.exe] BTCUSDT 65,201.01 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  E HIZO ESAT[Bk]TA[Bk][Bk][Bk]TA CO
+
+--- WINDOW  2026/08/09 11:55:52  [chrome.exe] BTCUSDT 65,201.00 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  OL PERO QUIERO
+
+--- WINDOW  2026/08/09 11:55:54  [chrome.exe] BTCUSDT 65,201.07 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+   QUE ME PONGA COMO UNA 
+
+--- WINDOW  2026/08/09 11:55:59  [chrome.exe] BTCUSDT 65,201.08 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  TABLITA QUE ME DIGA 
+
+--- WINDOW  2026/08/09 11:56:05  [chrome.exe] BTCUSDT 65,201.50 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  LOS DATOS SABES Y QUE ME DIGA TAMBIEN
+
+--- WINDOW  2026/08/09 11:56:11  [chrome.exe] BTCUSDT 65,204.00 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+   EL TIP
+
+--- WINDOW  2026/08/09 11:56:13  [chrome.exe] BTCUSDT 65,205.31 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  O 
+
+--- WINDOW  2026/08/09 11:56:14  [chrome.exe] BTCUSDT 65,205.30 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  QU ESTAMOS 
+
+--- WINDOW  2026/08/09 11:56:16  [chrome.exe] BTCUSDT 65,205.87 ▲ +0.37% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  BIENDO SI ESTA CRECIEDO O DECENDIENDO S
+
+--- WINDOW  2026/08/09 11:56:23  [chrome.exe] BTCUSDT 65,209.00 ▲ +0.38% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Bk]
+
+--- WINDOW  2026/08/09 11:56:24  [chrome.exe] BTCUSDT 65,208.99 ▲ +0.38% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  NO SE CM[Bk]
+
+--- WINDOW  2026/08/09 11:56:26  [chrome.exe] BTCUSDT 65,209.00 ▲ +0.38% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  OM SE LLAMA ESO [ENTER]
+
+--- WINDOW  2026/08/09 11:56:34  [chrome.exe] BTCUSDT 65,211.26 ▲ +0.38% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:56:37  [chrome.exe] BTCUSDT 65,213.98 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:56:39  [chrome.exe] BTCUSDT 65,214.00 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:56:41  [chrome.exe] BTCUSDT 65,215.81 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:56:45  [chrome.exe] BTCUSDT 65,216.34 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:56:47  [chrome.exe] BTCUSDT 65,218.63 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:56:49  [chrome.exe] BTCUSDT 65,218.74 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:56:51  [chrome.exe] BTCUSDT 65,220.42 ▲ +0.4% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:56:52  [chrome.exe] BTCUSDT 65,220.41 ▲ +0.4% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 11:56:52  [chrome.exe] Asesor de Trading con IA: Inicio - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  //@version=5
+  indicator("Scalping M3 + Panel IA", overlay=true)
+  
+  // --- CONFIGURACIÓN DE PARÁMETROS ---
+  multiplicadorATR = input.float(1.5, title="Sensibilidad Stop Loss (ATR)")
+  rrRatio          = input.float(2.0, title="Ratio Riesgo:Beneficio")
+  
+  // --- ANÁLISIS DE TENDENCIA (H1) Y M3 ---
+  emaH1     = request.security(syminfo.tickerid, "60", ta.ema(close, 50))
+  emaRapida = ta.ema(close, 9)
+  emaLenta  = ta.ema(close, 21)
+  atr       = ta.atr(14)
+  
+  // --- CONDICIONES DE ENTRADA ---
+  condicionCompra = ta.crossover(emaRapida, emaLenta) and close > emaH1
+  condicionVenta  = ta.crossunder(emaRapida, emaLenta) and close < emaH1
+  
+  // --- CÁLCULO DE NIVELES ---
+  var float slNivel    = na
+  var float tpNivel    = na
+  var float precioEnt  = na
+  var string ultimaSen = "ESPERANDO"
+  
+  if (condicionCompra)
+      precioEnt := close
+      slNivel   := close - (atr * multiplicadorATR)
+      tpNivel   := close + ((close - slNivel) * rrRatio)
+      ultimaSen := "COMPRA (LONG)"
+  
+  if (condicionVenta)
+      precioEnt := close
+      slNivel   := close + (atr * multiplicadorATR)
+      tpNivel   := close - ((slNivel - close) * rrRatio)
+      ultimaSen := "VENTA (SHORT)"
+  
+  // --- GRÁFICOS ---
+  plotshape(condicionCompra, title="Señal COMPRA", style=shape.triangleup, location=location.belowbar, color=color.green, size=size.small, text="COMPRA")
+  plotshape(condicionVenta, title="Señal VENTA", style=shape.triangledown, location=location.abovebar, color=color.red, size=size.small, text="VENTA")
+  plot(emaH1, title="Tendencia H1", color=color.orange, linewidth=2)
+  
+  // --- TABLA DE DATOS EN PANTALLA ---
+  var table panel = table.new(position = position.top_right, columns = 2, rows = 5, bgcolor = color.new(color.black, 20), border_width = 1)
+  
+  if barstate.islast
+      string estadoTendencia = close > emaH1 ? "ALCISTA (CRECIENDO)" : "BAJISTA (DESCENDIENDO)"
+      color colorTendencia   = close > emaH1 ? color.green : color.red
+      
+      // Encabezado
+      table.cell(panel, 0, 0, "PANEL DE TRADING IA", bgcolor=color.blue, text_color=color.white)
+      table.cell(panel, 1, 0, "DATOS EXPORTADOS", bgcolor=color.blue, text_color=color.white)
+      
+      // Fila 1: Tendencia
+      table.cell(panel, 0, 1, "Tendencia General:", text_color=color.white)
+      table.cell(panel, 1, 1, estadoTendencia, text_color=colorTendencia)
+      
+      // Fila 2: Última Señal
+      table.cell(panel, 0, 2, "Señal Actual:", text_color=color.white)
+      table.cell(panel, 1, 2, ultimaSen, text_color=ultimaSen == "COMPRA (LONG)" ? color.green : ultimaSen == "VENTA (SHORT)" ? color.red : color.yellow)
+      
+      // Fila 3: Stop Loss (SL)
+      table.cell(panel, 0, 3, "Stop Loss (Freno):", text_color=color.white)
+      table.cell(panel, 1, 3, na(slNivel) ? "-" : str.tostring(slNivel, "#.##"), text_color=color.red)
+      
+      // Fila 4: Take Profit (TP)
+      table.cell(panel, 0, 4, "Take Profit (Meta):", text_color=color.white)
+      table.cell(panel, 1, 4, na(tpNivel) ? "-" : str.tostring(tpNivel, "#.##"), text_color=color.green)
+  [LMB]
+
+--- WINDOW  2026/08/09 11:57:14  [chrome.exe] BTCUSDT 65,245.21 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 11:57:17  [chrome.exe] BTCUSDT 65,245.20 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 11:57:19  [chrome.exe] BTCUSDT 65,245.21 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Bk][Ctrl]V
+
+--- WINDOW  2026/08/09 11:57:21  [chrome.exe] BTCUSDT 65,245.20 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 11:57:23  [chrome.exe] BTCUSDT 65,245.21 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:57:24  [chrome.exe] BTCUSDT 65,245.20 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 11:57:29  [chrome.exe] BTCUSDT 65,245.21 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 11:57:31  [chrome.exe] BTCUSDT 65,245.99 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:57:32  [chrome.exe] BTCUSDT 65,246.00 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 11:57:34  [chrome.exe] BTCUSDT 65,246.12 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 11:57:36  [chrome.exe] BTCUSDT 65,248.00 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/08/09 11:57:41  [chrome.exe] BTCUSDT 65,248.76 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 11:57:44  [chrome.exe] BTCUSDT 65,250.00 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:57:47  [chrome.exe] BTCUSDT 65,251.15 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:57:52  [chrome.exe] BTCUSDT 65,260.86 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:57:54  [chrome.exe] BTCUSDT 65,282.63 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 11:57:56  [chrome.exe] BTCUSDT 65,279.83 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:57:58  [chrome.exe] BTCUSDT 65,279.82 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:58:05  [chrome.exe] BTCUSDT 65,278.01 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 11:58:07  [chrome.exe] BTCUSDT 65,278.00 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 11:58:18  [chrome.exe] BTCUSDT 65,278.01 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:58:22  [chrome.exe] BTCUSDT 65,278.00 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:58:25  [chrome.exe] BTCUSDT 65,278.01 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:58:27  [chrome.exe] BTCUSDT 65,278.00 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:58:30  [chrome.exe] BTCUSDT 65,278.01 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:58:34  [chrome.exe] BTCUSDT 65,278.00 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:58:37  [chrome.exe] BTCUSDT 65,278.01 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:58:40  [chrome.exe] BTCUSDT 65,280.00 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 11:58:42  [chrome.exe] BTCUSDT 65,290.00 ▲ +0.5% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:58:45  [chrome.exe] BTCUSDT 65,289.99 ▲ +0.5% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:58:48  [chrome.exe] BTCUSDT 65,290.00 ▲ +0.5% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:58:50  [chrome.exe] BTCUSDT 65,292.19 ▲ +0.51% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 11:58:54  [chrome.exe] BTCUSDT 65,293.89 ▲ +0.51% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:58:56  [chrome.exe] BTCUSDT 65,293.90 ▲ +0.51% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:59:00  [chrome.exe] BTCUSDT 65,293.89 ▲ +0.51% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:59:05  [chrome.exe] BTCUSDT 65,294.11 ▲ +0.51% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:59:07  [chrome.exe] BTCUSDT 65,299.00 ▲ +0.52% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:59:09  [chrome.exe] BTCUSDT 65,300.00 ▲ +0.52% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:59:16  [chrome.exe] BTCUSDT 65,299.99 ▲ +0.52% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:59:18  [chrome.exe] BTCUSDT 65,286.25 ▲ +0.5% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:59:20  [chrome.exe] BTCUSDT 65,286.24 ▲ +0.5% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:59:22  [chrome.exe] BTCUSDT 65,286.25 ▲ +0.5% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:59:24  [chrome.exe] BTCUSDT 65,286.24 ▲ +0.5% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:59:26  [chrome.exe] BTCUSDT 65,278.66 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  ESTAS SE
+
+--- WINDOW  2026/08/09 11:59:32  [chrome.exe] BTCUSDT 65,278.65 ▲ +0.49% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  GURO QUE 
+
+--- WINDOW  2026/08/09 11:59:34  [chrome.exe] BTCUSDT 65,273.03 ▲ +0.48% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  ESTO ESTA BIEN [ENTER]
+
+--- WINDOW  2026/08/09 11:59:41  [chrome.exe] BTCUSDT 65,260.00 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 11:59:43  [chrome.exe] BTCUSDT 65,260.01 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:00:03  [chrome.exe] BTCUSDT 65,263.99 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:00:05  [chrome.exe] BTCUSDT 65,264.00 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:00:09  [chrome.exe] BTCUSDT 65,256.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  PERO ENCESITO QUE TAMBIE N[Bk][Bk]
+
+--- WINDOW  2026/08/09 12:00:22  [chrome.exe] BTCUSDT 65,256.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  N ME DIGA EN CUANTO DEBO ENTRAR
+
+--- WINDOW  2026/08/09 12:00:28  [chrome.exe] BTCUSDT 65,256.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/09 12:00:30  [chrome.exe] BTCUSDT 65,256.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  Y NO 
+
+--- WINDOW  2026/08/09 12:00:31  [chrome.exe] BTCUSDT 65,256.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  SE COMO PONER EL APALANCAMIENTO EPR ESO LO VEMO SDESPUES[ENTER]
+
+--- WINDOW  2026/08/09 12:00:42  [chrome.exe] BTCUSDT 65,256.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:00:44  [chrome.exe] BTCUSDT 65,256.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:00:46  [chrome.exe] BTCUSDT 65,256.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:00:47  [chrome.exe] BTCUSDT 65,256.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:00:48  [chrome.exe] Asesor de Trading con IA: Inicio - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  //@version=5
+  indicator("Scalping M3 + Panel IA (Completo)", overlay=true)
+  
+  // --- PARÁMETROS ---
+  multiplicadorATR = input.float(1.5, title="Sensibilidad Stop Loss (ATR)")
+  rrRatio          = input.float(2.0, title="Ratio Riesgo:Beneficio")
+  
+  // --- DATOS TENDENCIA Y M3 ---
+  emaH1     = request.security(syminfo.tickerid, "60", ta.ema(close, 50))
+  emaRapida = ta.ema(close, 9)
+  emaLenta  = ta.ema(close, 21)
+  atr       = ta.atr(14)
+  
+  // --- CONDICIONES ---
+  condicionCompra = ta.crossover(emaRapida, emaLenta) and close > emaH1
+  condicionVenta  = ta.crossunder(emaRapida, emaLenta) and close < emaH1
+  
+  // --- NIVELES MEMORIZADOS ---
+  var float precioEnt  = na
+  var float slNivel    = na
+  var float tpNivel    = na
+  var string ultimaSen = "BUSCANDO..."
+  
+  if (condicionCompra)
+      precioEnt := close
+      slNivel   := close - (atr * multiplicadorATR)
+      tpNivel   := close + ((close - slNivel) * rrRatio)
+      ultimaSen := "COMPRA (LONG)"
+  
+  if (condicionVenta)
+      precioEnt := close
+      slNivel   := close + (atr * multiplicadorATR)
+      tpNivel   := close - ((slNivel - close) * rrRatio)
+      ultimaSen := "VENTA (SHORT)"
+  
+  // --- PLOTS ---
+  plotshape(condicionCompra, title="Señal COMPRA", style=shape.triangleup, location=location.belowbar, color=color.green, size=size.small, text="COMPRA")
+  plotshape(condicionVenta, title="Señal VENTA", style=shape.triangledown, location=location.abovebar, color=color.red, size=size.small, text="VENTA")
+  plot(emaH1, title="Tendencia H1", color=color.orange, linewidth=2)
+  
+  // --- TABLA EN PANTALLA ---
+  var table panel = table.new(position = position.top_right, columns = 2, rows = 6, bgcolor = color.new(color.black, 15), border_width = 1)
+  
+  if barstate.islast
+      string estadoTendencia = close > emaH1 ? "ALCISTA (CRECIENDO)" : "BAJISTA (DESCENDIENDO)"
+      color colorTendencia   = close > emaH1 ? color.green : color.red
+      
+      // Encabezado
+      table.cell(panel, 0, 0, "PANEL TRADING IA", bgcolor=color.blue, text_color=color.white)
+      table.cell(panel, 1, 0, "DATOS EN VIVO", bgcolor=color.blue, text_color=color.white)
+      
+      // Filas
+      table.cell(panel, 0, 1, "Tendencia H1:", text_color=color.white)
+      table.cell(panel, 1, 1, estadoTendencia, text_color=colorTendencia)
+      
+      table.cell(panel, 0, 2, "Última Señal:", text_color=color.white)
+      table.cell(panel, 1, 2, ultimaSen, text_color=ultimaSen == "COMPRA (LONG)" ? color.green : ultimaSen == "VENTA (SHORT)" ? color.red : color.yellow)
+      
+      table.cell(panel, 0, 3, "Entrada Sugerida:", text_color=color.white)
+      table.cell(panel, 1, 3, na(precioEnt) ? "Esperando..." : str.tostring(precioEnt, "#.##"), text_color=color.white)
+  
+      table.cell(panel, 0, 4, "Stop Loss (SL):", text_color=color.white)
+      table.cell(panel, 1, 4, na(slNivel) ? "Esperando..." : str.tostring(slNivel, "#.##"), text_color=color.red)
+      
+      table.cell(panel, 0, 5, "Take Profit (TP):", text_color=color.white)
+      table.cell(panel, 1, 5, na(tpNivel) ? "Esperando..." : str.tostring(tpNivel, "#.##"), text_color=color.green)
+
+--- WINDOW  2026/08/09 12:01:10  [chrome.exe] BTCUSDT 65,256.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Ctrl]V
+  [LMB]
+
+--- WINDOW  2026/08/09 12:01:20  [chrome.exe] BTCUSDT 65,248.01 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:01:22  [chrome.exe] BTCUSDT 65,246.70 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Bk]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:01:24  [chrome.exe] BTCUSDT 65,244.00 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:01:26  [chrome.exe] BTCUSDT 65,244.01 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:01:29  [chrome.exe] BTCUSDT 65,244.00 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:01:31  [chrome.exe] BTCUSDT 65,244.01 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:01:32  [chrome.exe] BTCUSDT 65,244.00 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:01:40  [chrome.exe] BTCUSDT 65,236.51 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:01:45  [chrome.exe] BTCUSDT 65,236.50 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:01:47  [chrome.exe] BTCUSDT 65,236.51 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:01:54  [chrome.exe] BTCUSDT 65,236.50 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:01:56  [chrome.exe] BTCUSDT 65,236.51 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:02:02  [chrome.exe] BTCUSDT 65,236.50 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:02:04  [chrome.exe] BTCUSDT 65,236.51 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:02:07  [chrome.exe] BTCUSDT 65,236.50 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:02:09  [chrome.exe] BTCUSDT 65,236.51 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:02:24  [chrome.exe] BTCUSDT 65,233.31 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:02:25  [chrome.exe] BTCUSDT 65,233.30 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:02:27  [chrome.exe] BTCUSDT 65,233.31 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:02:36  [chrome.exe] BTCUSDT 65,233.30 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:02:41  [chrome.exe] BTCUSDT 65,233.31 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:02:44  [chrome.exe] BTCUSDT 65,232.64 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:02:46  [chrome.exe] BTCUSDT 65,215.12 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:02:50  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:02:52  [chrome.exe] BTCUSDT 65,215.11 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  ER
+
+--- WINDOW  2026/08/09 12:02:54  [chrome.exe] BTCUSDT 65,215.12 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  P ESTO AMPOCO 
+
+--- WINDOW  2026/08/09 12:02:57  [chrome.exe] BTCUSDT 65,215.11 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  TIEN LOGICA PARA M
+
+--- WINDOW  2026/08/09 12:03:00  [chrome.exe] BTCUSDT 65,215.12 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  I [ENTER]
+
+--- WINDOW  2026/08/09 12:03:03  [chrome.exe] BTCUSDT 65,215.11 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:03:05  [chrome.exe] BTCUSDT 65,215.12 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:03:10  [chrome.exe] BTCUSDT 65,215.11 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:03:13  [chrome.exe] BTCUSDT 65,215.12 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:03:16  [chrome.exe] BTCUSDT 65,215.11 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:03:18  [chrome.exe] BTCUSDT 65,215.12 ▲ +0.39% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:03:20  [chrome.exe] BTCUSDT 65,223.50 ▲ +0.4% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:03:23  [chrome.exe] BTCUSDT 65,229.40 ▲ +0.41% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:03:25  [chrome.exe] BTCUSDT 65,229.39 ▲ +0.41% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:03:27  [chrome.exe] BTCUSDT 65,229.40 ▲ +0.41% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:03:31  [chrome.exe] BTCUSDT 65,229.39 ▲ +0.41% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:03:37  [chrome.exe] BTCUSDT 65,229.40 ▲ +0.41% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:03:43  [chrome.exe] BTCUSDT 65,229.39 ▲ +0.41% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Bk]
+
+--- WINDOW  2026/08/09 12:03:48  [chrome.exe] Asesor de Trading con IA: Inicio - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  OYE Y SI LE DCIMOS QUE MARCE L[Bk]EL SOPORT EY LA RESISTENCIA AL PINE SCRITP NO TRABAAJAR MEJOR ¿[Bk][ENTER]
+  [LMB]
+  [Clipboard]
+  oye y si le decimos que marce el soport ey la resistencia al pine scritp no trabaajar mejor ?
+  [LMB]
+  [Clipboard]
+  //@version=5
+  indicator("Scalping M3 + S/R + Panel IA", overlay=true)
+  
+  // --- PARÁMETROS DE CONFIGURACIÓN ---
+  multiplicadorATR = input.float(1.5, title="Sensibilidad Stop Loss (ATR)")
+  rrRatio          = input.float(2.0, title="Ratio Riesgo:Beneficio")
+  pivotLen         = input.int(5, title="Fuerza S/R (Velas de referencia)")
+  
+  // --- DATOS TENDENCIA Y M3 ---
+  emaH1     = request.security(syminfo.tickerid, "60", ta.ema(close, 50))
+  emaRapida = ta.ema(close, 9)
+  emaLenta  = ta.ema(close, 21)
+  atr       = ta.atr(14)
+  
+  // --- CÁLCULO DILUYENTE DE SOPORTES Y RESISTENCIAS (PIVOTS) ---
+  ph = ta.pivothigh(pivotLen, pivotLen)
+  pl = ta.pivotlow(pivotLen, pivotLen)
+  
+  var float resistencia = na
+  var float soporte     = na
+  
+  if not na(ph)
+      resistencia := ph
+  if not na(pl)
+      soporte := pl
+  
+  // --- CONDICIONES DE ENTRADA CON ESTRUCTURA ---
+  // COMPRA: Cruce M3 + Precio sobre H1 + Precio rebotando sobre soporte
+  condicionCompra = ta.crossover(emaRapida, emaLenta) and close > emaH1 and close > soporte
+  
+  // VENTA: Cruce M3 + Precio bajo H1 + Precio rebotando bajo resistencia
+  condicionVenta  = ta.crossunder(emaRapida, emaLenta) and close < emaH1 and close < resistencia
+  
+  // --- VARIABLES CONGELADAS PARA EL PANEL ---
+  var float entradaFija = na
+  var float slFijo      = na
+  var float tpFijo      = na
+  var string tipoSenal  = "BUSCANDO ENTRADA..."
+  
+  if (condicionCompra)
+      entradaFija := close
+      // Coloca el SL debajo del soporte o ATR (el que sea más protegido)
+      slFijo      := math.min(close - (atr * multiplicadorATR), soporte)
+      tpFijo      := close + ((close - slFijo) * rrRatio)
+      tipoSenal   := "COMPRA (LONG)"
+  
+  if (condicionVenta)
+      entradaFija := close
+      // Coloca el SL encima de la resistencia o ATR
+      slFijo      := math.max(close + (atr * multiplicadorATR), resistencia)
+      tpFijo      := close - ((slFijo - close) * rrRatio)
+      tipoSenal   := "VENTA (SHORT)"
+  
+  // --- PLOTS VISUALES EN EL GRÁFICO ---
+  plot(resistencia, title="Resistencia (Techo)", color=color.red, linewidth=2, style=plot.style_linebr)
+  plot(soporte, title="Soporte (Piso)", color=color.green, linewidth=2, style=plot.style_linebr)
+  plot(emaH1, title="Tendencia H1", color=color.orange, linewidth=2)
+  
+  plotshape(condicionCompra, title="Señal COMPRA", style=shape.triangleup, location=location.belowbar, color=color.green, size=size.small, text="COMPRA")
+  plotshape(condicionVenta, title="Señal VENTA", style=shape.triangledown, location=location.abovebar, color=color.red, size=size.small, text="VENTA")
+  
+  // --- TABLA COMPLETA EN PANTALLA ---
+  var table panel = table.new(position = position.top_right, columns = 2, rows = 8, bgcolor = color.new(color.black, 10), border_width = 1)
+  
+  if barstate.islast
+      string estadoTendencia = close > emaH1 ? "ALCISTA (CRECIENDO)" : "BAJISTA (DESCENDIENDO)"
+      color colorTendencia   = close > emaH1 ? color.green : color.red
+      
+      // Encabezado
+      table.cell(panel, 0, 0, "ESTRUCTURA + IA", bgcolor=color.blue, text_color=color.white)
+      table.cell(panel, 1, 0, "DATOS TÉCNICOS", bgcolor=color.blue, text_color=color.white)
+      
+      // Filas
+      table.cell(panel, 0, 1, "Tendencia H1:", text_color=color.white)
+      table.cell(panel, 1, 1, estadoTendencia, text_color=colorTendencia)
+      
+      table.cell(panel, 0, 2, "Resistencia (Techo):", text_color=color.white)
+      table.cell(panel, 1, 2, na(resistencia) ? "-" : str.tostring(resistencia, "#.##"), text_color=color.red)
+  
+      table.cell(panel, 0, 3, "Soporte (Piso):", text_color=color.white)
+      table.cell(panel, 1, 3, na(soporte) ? "-" : str.tostring(soporte, "#.##"), text_color=color.green)
+  
+      table.cell(panel, 0, 4, "Tipo de Orden:", text_color=color.white)
+      table.cell(panel, 1, 4, tipoSenal, text_color=tipoSenal == "COMPRA (LONG)" ? color.green : tipoSenal == "VENTA (SHORT)" ? color.red : color.yellow)
+      
+      table.cell(panel, 0, 5, "Entrada Exacta:", text_color=color.white)
+      table.cell(panel, 1, 5, na(entradaFija) ? "Esperando..." : str.tostring(entradaFija, "#.##"), text_color=color.white)
+  
+      table.cell(panel, 0, 6, "Stop Loss (SL):", text_color=color.white)
+      table.cell(panel, 1, 6, na(slFijo) ? "Esperando..." : str.tostring(slFijo, "#.##"), text_color=color.red)
+      
+      table.cell(panel, 0, 7, "Take Profit (TP):", text_color=color.white)
+      table.cell(panel, 1, 7, na(tpFijo) ? "Esperando..." : str.tostring(tpFijo, "#.##"), text_color=color.green)
+  [LMB]
+
+--- WINDOW  2026/08/09 12:04:51  [chrome.exe] BTCUSDT 65,257.45 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Ctrl]V
+
+--- WINDOW  2026/08/09 12:04:56  [chrome.exe] BTCUSDT 65,257.44 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:04:58  [chrome.exe] BTCUSDT 65,257.45 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:05:03  [chrome.exe] BTCUSDT 65,258.33 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:05:05  [chrome.exe] BTCUSDT 65,258.32 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:05:09  [chrome.exe] BTCUSDT 65,258.33 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:05:19  [chrome.exe] BTCUSDT 65,258.32 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  Y CO
+
+--- WINDOW  2026/08/09 12:05:21  [chrome.exe] BTCUSDT 65,258.33 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  N ESTOS DATOS QUE CREES[ENTER]
+
+--- WINDOW  2026/08/09 12:05:33  [chrome.exe] BTCUSDT 65,260.00 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:05:36  [chrome.exe] BTCUSDT 65,259.99 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:05:39  [chrome.exe] BTCUSDT 65,260.00 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:05:51  [chrome.exe] BTCUSDT 65,259.99 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:05:54  [chrome.exe] BTCUSDT 65,260.00 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:05:59  [chrome.exe] BTCUSDT 65,259.99 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:06:02  [chrome.exe] BTCUSDT 65,260.00 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:06:23  [chrome.exe] BTCUSDT 65,259.99 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:06:25  [chrome.exe] BTCUSDT 65,260.00 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:06:26  [chrome.exe] BTCUSDT 65,259.99 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:06:29  [chrome.exe] BTCUSDT 65,260.00 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:06:31  [chrome.exe] BTCUSDT 65,259.99 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:06:44  [chrome.exe] BTCUSDT 65,260.00 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:06:47  [chrome.exe] BTCUSDT 65,257.44 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:06:50  [chrome.exe] BTCUSDT 65,257.45 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:06:50  [chrome.exe] BTCUSDT 65,257.44 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:06:53  [chrome.exe] BTCUSDT 65,252.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  EN ES¿[Bk][Bk][Bk]
+
+--- WINDOW  2026/08/09 12:06:58  [chrome.exe] BTCUSDT 65,252.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  SERIO
+
+--- WINDOW  2026/08/09 12:06:59  [chrome.exe] BTCUSDT 65,252.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+   ESTO ESTA BIEN ¿
+
+--- WINDOW  2026/08/09 12:07:03  [chrome.exe] BTCUSDT 65,252.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Bk]'
+
+--- WINDOW  2026/08/09 12:07:05  [chrome.exe] BTCUSDT 65,252.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/08/09 12:07:07  [chrome.exe] BTCUSDT 65,252.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:07:10  [chrome.exe] BTCUSDT 65,251.34 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:07:12  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:07:23  [chrome.exe] BTCUSDT 65,248.81 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:07:30  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  PERO YO NECESITO QUE TRABAJE EN TIEMPO REAL QUE ESTE ANAL
+
+--- WINDOW  2026/08/09 12:07:46  [chrome.exe] BTCUSDT 65,248.91 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  IZADNO TODO EL 
+
+--- WINDOW  2026/08/09 12:07:48  [chrome.exe] BTCUSDT 65,248.90 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  TIEMPO Y ME DIGA AHIRA MISMO SI EN
+
+--- WINDOW  2026/08/09 12:07:54  [chrome.exe] BTCUSDT 65,248.91 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  TOR O NO SABS[ENTER]
+
+--- WINDOW  2026/08/09 12:08:10  [chrome.exe] BTCUSDT 65,248.90 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:08:12  [chrome.exe] BTCUSDT 65,248.91 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:08:15  [chrome.exe] BTCUSDT 65,248.90 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:08:18  [chrome.exe] BTCUSDT 65,248.91 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:08:26  [chrome.exe] BTCUSDT 65,248.90 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:08:28  [chrome.exe] BTCUSDT 65,248.91 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  LA TABLA ME ESTA DICEINDO COMPRA 
+
+--- WINDOW  2026/08/09 12:08:44  [chrome.exe] BTCUSDT 65,248.90 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  NO
+
+--- WINDOW  2026/08/09 12:08:45  [chrome.exe] BTCUSDT 65,248.91 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+   BUSCANDO [ENTER]
+
+--- WINDOW  2026/08/09 12:08:55  [chrome.exe] BTCUSDT 65,248.90 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:09:01  [chrome.exe] BTCUSDT 65,248.91 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  //@version=5
+  indicator("Scalping M3 + Panel Tiempo Real IA", overlay=true)
+  
+  // --- PARÁMETROS ---
+  multiplicadorATR = input.float(1.5, title="Sensibilidad Stop Loss (ATR)")
+  rrRatio          = input.float(2.0, title="Ratio Riesgo:Beneficio")
+  pivotLen         = input.int(5, title="Fuerza S/R")
+  
+  // --- DATOS TENDENCIA Y M3 ---
+  emaH1     = request.security(syminfo.tickerid, "60", ta.ema(close, 50))
+  emaRapida = ta.ema(close, 9)
+  emaLenta  = ta.ema(close, 21)
+  atr       = ta.atr(14)
+  
+  ph = ta.pivothigh(pivotLen, pivotLen)
+  pl = ta.pivotlow(pivotLen, pivotLen)
+  
+  var float resistencia = na
+  var float soporte     = na
+  
+  if not na(ph)
+      resistencia := ph
+  if not na(pl)
+      soporte := pl
+  
+  // --- CONDICIONES DE ENTRADA ---
+  condicionCompra = ta.crossover(emaRapida, emaLenta) and close > emaH1 and close > soporte
+  condicionVenta  = ta.crossunder(emaRapida, emaLenta) and close < emaH1 and close < resistencia
+  
+  // --- NIVELES Y CONTROL DE ENTRADA EN TIEMPO REAL ---
+  var float entradaFija = na
+  var float slFijo      = na
+  var float tpFijo      = na
+  var string estadoAccion = "ESPERANDO NUEVA SEÑAL..."
+  var color colorAccion  = color.yellow
+  
+  if (condicionCompra)
+      entradaFija  := close
+      slFijo       := math.min(close - (atr * multiplicadorATR), soporte)
+      tpFijo       := close + ((close - slFijo) * rrRatio)
+      estadoAccion := "¡ENTRAR EN COMPRA YA!"
+      colorAccion  := color.green
+  
+  else if (condicionVenta)
+      entradaFija  := close
+      slFijo       := math.max(close + (atr * multiplicadorATR), resistencia)
+      tpFijo       := close - ((slFijo - close) * rrRatio)
+      estadoAccion := "¡ENTRAR EN VENTA YA!"
+      colorAccion  := color.red
+  
+  else
+      // Si la señal no ocurrió en las últimas 2 velas, el mercado está en espera
+      if ta.barssince(condicionCompra) > 2 and ta.barssince(condicionVenta) > 2
+          estadoAccion := "NO ENTRAR (EN ESPERA)"
+          colorAccion  := color.gray
+  
+  // --- DIBUJOS ---
+  plot(resistencia, title="Resistencia", color=color.red, linewidth=2, style=plot.style_linebr)
+  plot(soporte, title="Soporte", color=color.green, linewidth=2, style=plot.style_linebr)
+  plot(emaH1, title="Tendencia H1", color=color.orange, linewidth=2)
+  
+  plotshape(condicionCompra, title="Señal COMPRA", style=shape.triangleup, location=location.belowbar, color=color.green, size=size.small, text="COMPRA")
+  plotshape(condicionVenta, title="Señal VENTA", style=shape.triangledown, location=location.abovebar, color=color.red, size=size.small, text="VENTA")
+  
+  // --- TABLA COMPLETA ---
+  var table panel = table.new(position = position.top_right, columns = 2, rows = 7, bgcolor = color.new(color.black, 10), border_width = 1)
+  
+  if barstate.islast
+      string estadoTendencia = close > emaH1 ? "ALCISTA" : "BAJISTA"
+      color colorTendencia   = close > emaH1 ? color.green : color.red
+      
+      // Encabezado
+      table.cell(panel, 0, 0, "ESTADO EN VIVO", bgcolor=color.blue, text_color=color.white)
+      table.cell(panel, 1, 0, "ORDEN IA", bgcolor=color.blue, text_color=color.white)
+      
+      // Filas
+      table.cell(panel, 0, 1, "Tendencia H1:", text_color=color.white)
+      table.cell(panel, 1, 1, estadoTendencia, text_color=colorTendencia)
+      
+      table.cell(panel, 0, 2, "Acción Ahora:", text_color=color.white)
+      table.cell(panel, 1, 2, estadoAccion, text_color=colorAccion, bgcolor=color.new(colorAccion, 80))
+      
+      table.cell(panel, 0, 3, "Precio Entrada:", text_color=color.white)
+      table.cell(panel, 1, 3, na(entradaFija) ? "-" : str.tostring(entradaFija, "#.##"), text_color=color.white)
+  
+      table.cell(panel, 0, 4, "Stop Loss (SL):", text_color=color.white)
+      table.cell(panel, 1, 4, na(slFijo) ? "-" : str.tostring(slFijo, "#.##"), text_color=color.red)
+      
+      table.cell(panel, 0, 5, "Take Profit (TP):", text_color=color.white)
+      table.cell(panel, 1, 5, na(tpFijo) ? "-" : str.tostring(tpFijo, "#.##"), text_color=color.green)
+  [LMB]
+
+--- WINDOW  2026/08/09 12:09:04  [chrome.exe] BTCUSDT 65,248.90 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:09:05  [chrome.exe] BTCUSDT 65,248.91 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk][Ctrl]V
+
+--- WINDOW  2026/08/09 12:09:08  [chrome.exe] BTCUSDT 65,248.90 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:09:11  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  MR[Bk]
+
+--- WINDOW  2026/08/09 12:09:23  [chrome.exe] BTCUSDT 65,248.81 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  IRA LO QUE
+
+--- WINDOW  2026/08/09 12:09:28  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+   ME ESTA DICIENDO
+
+--- WINDOW  2026/08/09 12:09:30  [chrome.exe] BTCUSDT 65,248.81 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+   AHOR A[ENTER]
+
+--- WINDOW  2026/08/09 12:09:38  [chrome.exe] BTCUSDT 65,252.07 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:09:40  [chrome.exe] BTCUSDT 65,254.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:09:42  [chrome.exe] BTCUSDT 65,255.90 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:09:45  [chrome.exe] BTCUSDT 65,257.33 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:09:47  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:09:49  [chrome.exe] BTCUSDT 65,248.81 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:09:50  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:09:59  [chrome.exe] BTCUSDT 65,248.81 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:10:02  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:10:04  [chrome.exe] BTCUSDT 65,248.81 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  //@version=5
+  indicator("Scalping M3 + Panel Tiempo Real IA (Corregido)", overlay=true)
+  
+  // --- PARÁMETROS ---
+  multiplicadorATR = input.float(1.5, title="Sensibilidad Stop Loss (ATR)")
+  rrRatio          = input.float(2.0, title="Ratio Riesgo:Beneficio")
+  pivotLen         = input.int(5, title="Fuerza S/R")
+  
+  // --- DATOS TENDENCIA Y M3 ---
+  emaH1     = request.security(syminfo.tickerid, "60", ta.ema(close, 50))
+  emaRapida = ta.ema(close, 9)
+  emaLenta  = ta.ema(close, 21)
+  atr       = ta.atr(14)
+  
+  ph = ta.pivothigh(pivotLen, pivotLen)
+  pl = ta.pivotlow(pivotLen, pivotLen)
+  
+  var float resistencia = na
+  var float soporte     = na
+  
+  if not na(ph)
+      resistencia := ph
+  if not na(pl)
+      soporte := pl
+  
+  // --- CONDICIONES DE ENTRADA ---
+  condicionCompra = ta.crossover(emaRapida, emaLenta) and close > emaH1 and close > soporte
+  condicionVenta  = ta.crossunder(emaRapida, emaLenta) and close < emaH1 and close < resistencia
+  
+  // --- VARIABLES ---
+  var float entradaFija  = na
+  var float slFijo       = na
+  var float tpFijo       = na
+  var int barEntrada     = na
+  var string tipoOrden   = "-"
+  
+  if (condicionCompra)
+      entradaFija := close
+      slFijo      := math.min(close - (atr * multiplicadorATR), soporte)
+      tpFijo      := close + ((close - slFijo) * rrRatio)
+      barEntrada  := bar_index
+      tipoOrden   := "COMPRA (LONG)"
+  
+  if (condicionVenta)
+      entradaFija := close
+      slFijo      := math.max(close + (atr * multiplicadorATR), resistencia)
+      tpFijo      := close - ((slFijo - close) * rrRatio)
+      barEntrada  := bar_index
+      tipoOrden   := "VENTA (SHORT)"
+  
+  // --- EVALUACIÓN TIEMPO REAL ---
+  // Solo si la señal ocurrió en la vela actual o en la inmediatamente anterior (máximo 1 vela de retraso)
+  bool esSenalReciente = not na(barEntrada) and (bar_index - barEntrada <= 1)
+  
+  string estadoAccion = "NO ENTRAR (EN ESPERA)"
+  color colorAccion   = color.gray
+  
+  if (esSenalReciente)
+      if (tipoOrden == "COMPRA (LONG)")
+          estadoAccion := "¡ENTRAR EN COMPRA YA!"
+          colorAccion  := color.green
+      else if (tipoOrden == "VENTA (SHORT)")
+          estadoAccion := "¡ENTRAR EN VENTA YA!"
+          colorAccion  := color.red
+  
+  // --- DIBUJOS ---
+  plot(resistencia, title="Resistencia", color=color.red, linewidth=2, style=plot.style_linebr)
+  plot(soporte, title="Soporte", color=color.green, linewidth=2, style=plot.style_linebr)
+  plot(emaH1, title="Tendencia H1", color=color.orange, linewidth=2)
+  
+  plotshape(condicionCompra, title="Señal COMPRA", style=shape.triangleup, location=location.belowbar, color=color.green, size=size.small, text="COMPRA")
+  plotshape(condicionVenta, title="Señal VENTA", style=shape.triangledown, location=location.abovebar, color=color.red, size=size.small, text="VENTA")
+  
+  // --- TABLA COMPLETA ---
+  var table panel = table.new(position = position.top_right, columns = 2, rows = 7, bgcolor = color.new(color.black, 10), border_width = 1)
+  
+  if barstate.islast
+      string estadoTendencia = close > emaH1 ? "ALCISTA" : "BAJISTA"
+      color colorTendencia   = close > emaH1 ? color.green : color.red
+      
+      // Encabezado
+      table.cell(panel, 0, 0, "ESTADO EN VIVO", bgcolor=color.blue, text_color=color.white)
+      table.cell(panel, 1, 0, "ORDEN IA", bgcolor=color.blue, text_color=color.white)
+      
+      // Filas
+      table.cell(panel, 0, 1, "Tendencia H1:", text_color=color.white)
+      table.cell(panel, 1, 1, estadoTendencia, text_color=colorTendencia)
+      
+      table.cell(panel, 0, 2, "Acción Ahora:", text_color=color.white)
+      table.cell(panel, 1, 2, estadoAccion, text_color=colorAccion, bgcolor=color.new(colorAccion, 80))
+      
+      table.cell(panel, 0, 3, "Precio Entrada:", text_color=color.white)
+      table.cell(panel, 1, 3, na(entradaFija) ? "-" : str.tostring(entradaFija, "#.##"), text_color=color.white)
+  
+      table.cell(panel, 0, 4, "Stop Loss (SL):", text_color=color.white)
+      table.cell(panel, 1, 4, na(slFijo) ? "-" : str.tostring(slFijo, "#.##"), text_color=color.red)
+      
+      table.cell(panel, 0, 5, "Take Profit (TP):", text_color=color.white)
+      table.cell(panel, 1, 5, na(tpFijo) ? "-" : str.tostring(tpFijo, "#.##"), text_color=color.green)
+  [LMB]
+  [LMB]
+  [Bk][Ctrl]V
+
+--- WINDOW  2026/08/09 12:10:11  [chrome.exe] BTCUSDT 65,249.21 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:10:13  [chrome.exe] BTCUSDT 65,249.24 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:10:14  [chrome.exe] BTCUSDT 65,249.58 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:10:17  [chrome.exe] BTCUSDT 65,254.64 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk]
+
+--- WINDOW  2026/08/09 12:10:19  [chrome.exe] BTCUSDT 65,254.63 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:10:22  [chrome.exe] BTCUSDT 65,254.64 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/08/09 12:10:29  [chrome.exe] BTCUSDT 65,255.30 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:10:30  [chrome.exe] ¿Quieres volver a cargar el sitio web?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:10:31  [chrome.exe] BTCUSDT 65,255.30 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:10:35  [chrome.exe] Live stock, index, futures, Forex and Bitcoin charts on TradingView - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:10:38  [chrome.exe] EURUSD - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:10:41  [chrome.exe] EURUSD 1.15580 ▲ +0.29% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:10:52  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:10:54  [chrome.exe] EURUSD 1.15580 ▲ +0.29% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  BTCUSDT
+  [LMB]
+
+--- WINDOW  2026/08/09 12:11:02  [chrome.exe] BTCUSDT - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:11:03  [chrome.exe] BTCUSDT 65,260.20 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:11:05  [chrome.exe] BTCUSDT 65,260.21 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+
+--- WINDOW  2026/08/09 12:11:10  [chrome.exe] BTCUSDT 65,260.20 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/08/09 12:11:11  [chrome.exe] BTCUSDT 65,260.21 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/08/09 12:11:14  [chrome.exe] BTCUSDT 65,260.20 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  A VER 
+
+--- WINDOW  2026/08/09 12:11:16  [chrome.exe] BTCUSDT 65,260.21 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  PORQUE ME CI[Bk]
+
+--- WINDOW  2026/08/09 12:11:18  [chrome.exe] BTCUSDT 65,260.20 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Bk]DICE QUE COMPRE 
+
+--- WINDOW  2026/08/09 12:11:20  [chrome.exe] BTCUSDT 65,260.21 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  EN 65 SI EL PRECIO ESTA EN 65[ENTER]
+
+--- WINDOW  2026/08/09 12:11:29  [chrome.exe] BTCUSDT 65,260.20 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:11:29  [chrome.exe] BTCUSDT 65,260.21 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:11:32  [chrome.exe] BTCUSDT 65,260.19 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:11:34  [chrome.exe] BTCUSDT 65,260.20 ▲ +0.46% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:11:36  [chrome.exe] BTCUSDT 65,258.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:11:39  [chrome.exe] BTCUSDT 65,258.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  ESE ES EL CODIGO QUE ME DISTE [ENTER]
+
+--- WINDOW  2026/08/09 12:11:49  [chrome.exe] BTCUSDT 65,258.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/08/09 12:11:54  [chrome.exe] BTCUSDT 65,258.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:12:06  [chrome.exe] BTCUSDT 65,258.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:12:08  [chrome.exe] BTCUSDT 65,258.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:12:16  [chrome.exe] BTCUSDT 65,258.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:12:18  [chrome.exe] BTCUSDT 65,258.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  NO DA
+
+--- WINDOW  2026/08/09 12:12:21  [chrome.exe] BTCUSDT 65,258.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  ME UN CODIGO 
+
+--- WINDOW  2026/08/09 12:12:23  [chrome.exe] BTCUSDT 65,258.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  NNUEB[Bk]VO QUE SI FUNCIONE [ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:12:36  [chrome.exe] BTCUSDT 65,258.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:12:38  [chrome.exe] BTCUSDT 65,258.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  //@version=5
+  indicator("Scalping M3 - Panel Tiempo Real v2", overlay=true)
+  
+  // --- PARÁMETROS ---
+  multiplicadorATR = input.float(1.5, title="Sensibilidad Stop Loss (ATR)")
+  rrRatio          = input.float(2.0, title="Ratio Riesgo:Beneficio")
+  pivotLen         = input.int(5, title="Fuerza S/R")
+  
+  // --- INDICADORES TÉCNICOS ---
+  emaH1     = request.security(syminfo.tickerid, "60", ta.ema(close, 50))
+  emaRapida = ta.ema(close, 9)
+  emaLenta  = ta.ema(close, 21)
+  atr       = ta.atr(14)
+  
+  ph = ta.pivothigh(pivotLen, pivotLen)
+  pl = ta.pivotlow(pivotLen, pivotLen)
+  
+  var float resistencia = na
+  var float soporte     = na
+  
+  if not na(ph)
+      resistencia := ph
+  if not na(pl)
+      soporte := pl
+  
+  // --- DETECCIÓN DE CRUCE EN LA VELA ACTUAL ---
+  cruceAlcista  = ta.crossover(emaRapida, emaLenta)
+  cruceBajista  = ta.crossunder(emaRapida, emaLenta)
+  
+  // Condiciones estrictas
+  esCompra = cruceAlcista and close > emaH1 and close > soporte
+  esVenta  = cruceBajista and close < emaH1 and close < resistencia
+  
+  // --- EVALUACIÓN DE ESTADO EN TIEMPO REAL ---
+  string accionTexto = "NO ENTRAR (EN ESPERA)"
+  color accionColor  = color.gray
+  float entradaVal   = na
+  float slVal        = na
+  float tpVal        = na
+  
+  // Solo si la señal ocurre EN ESTE MOMENTO (vela actual o la inmediatamente anterior)
+  if esCompra or (cruceAlcista[1] and close[1] > emaH1[1])
+      accionTexto := "¡ENTRAR EN COMPRA YA!"
+      accionColor := color.green
+      entradaVal  := close
+      slVal       := math.min(close - (atr * multiplicadorATR), soporte)
+      tpVal       := close + ((close - slVal) * rrRatio)
+  
+  else if esVenta or (cruceBajista[1] and close[1] < emaH1[1])
+      accionTexto := "¡ENTRAR EN VENTA YA!"
+      accionColor := color.red
+      entradaVal  := close
+      slVal       := math.max(close + (atr * multiplicadorATR), resistencia)
+      tpVal       := close - ((slVal - close) * rrRatio)
+  
+  // --- DIBUJOS ---
+  plot(resistencia, title="Resistencia", color=color.red, linewidth=2, style=plot.style_linebr)
+  plot(soporte, title="Soporte", color=color.green, linewidth=2, style=plot.style_linebr)
+  plot(emaH1, title="Tendencia H1", color=color.orange, linewidth=2)
+  
+  plotshape(esCompra, title="Señal COMPRA", style=shape.triangleup, location=location.belowbar, color=color.green, size=size.small, text="COMPRA")
+  plotshape(esVenta, title="Señal VENTA", style=shape.triangledown, location=location.abovebar, color=color.red, size=size.small, text="VENTA")
+  
+  // --- TABLA DE CONTROL ---
+  var table panel = table.new(position = position.top_right, columns = 2, rows = 7, bgcolor = color.new(color.black, 15), border_width = 1)
+  
+  if barstate.islast
+      string estadoTendencia = close > emaH1 ? "ALCISTA (SUBIENDO)" : "BAJISTA (BAJANDO)"
+      color colorTendencia   = close > emaH1 ? color.green : color.red
+      
+      // Encabezado
+      table.cell(panel, 0, 0, "PANEL EN VIVO", bgcolor=color.blue, text_color=color.white)
+      table.cell(panel, 1, 0, "ESTADO ACTUAL", bgcolor=color.blue, text_color=color.white)
+      
+      // Filas
+      table.cell(panel, 0, 1, "Tendencia H1:", text_color=color.white)
+      table.cell(panel, 1, 1, estadoTendencia, text_color=colorTendencia)
+      
+      table.cell(panel, 0, 2, "Acción Ahora:", text_color=color.white)
+      table.cell(panel, 1, 2, accionTexto, text_color=color.white, bgcolor=accionColor)
+      
+      table.cell(panel, 0, 3, "Precio Entrada:", text_color=color.white)
+      table.cell(panel, 1, 3, na(entradaVal) ? "-" : str.tostring(entradaVal, "#.##"), text_color=color.white)
+  
+      table.cell(panel, 0, 4, "Stop Loss (SL):", text_color=color.white)
+      table.cell(panel, 1, 4, na(slVal) ? "-" : str.tostring(slVal, "#.##"), text_color=color.red)
+      
+      table.cell(panel, 0, 5, "Take Profit (TP):", text_color=color.white)
+      table.cell(panel, 1, 5, na(tpVal) ? "-" : str.tostring(tpVal, "#.##"), text_color=color.green)
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Ctrl]V
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:12:52  [chrome.exe] BTCUSDT 65,258.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:12:54  [chrome.exe] BTCUSDT 65,258.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:12:55  [chrome.exe] BTCUSDT 65,258.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:12:57  [chrome.exe] BTCUSDT 65,258.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:12:59  [chrome.exe] BTCUSDT 65,258.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:13:02  [chrome.exe] BTCUSDT 65,258.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl]
+
+--- WINDOW  2026/08/09 12:13:16  [chrome.exe] BTCUSDT 65,258.00 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/08/09 12:13:17  [chrome.exe] BTCUSDT 65,258.01 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:13:20  [chrome.exe] BTCUSDT 65,255.59 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:13:22  [chrome.exe] BTCUSDT 65,255.57 ▲ +0.45% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/08/09 12:13:25  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:13:42  [chrome.exe] BTCUSDT 65,248.81 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:13:44  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:13:47  [chrome.exe] BTCUSDT 65,248.81 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  SI ESA ENTRADA QUE YO PUSE SERA BUEAN O MALA [ENTER]
+
+--- WINDOW  2026/08/09 12:14:18  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:14:21  [chrome.exe] BTCUSDT 65,248.81 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:14:23  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:14:25  [chrome.exe] BTCUSDT 65,248.81 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:14:29  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:14:30  [chrome.exe] BTCUSDT 65,248.81 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:14:37  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:14:39  [chrome.exe] BTCUSDT 65,250.70 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:14:42  [chrome.exe] BTCUSDT 65,250.69 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:14:44  [chrome.exe] BTCUSDT 65,250.70 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:14:49  [chrome.exe] BTCUSDT 65,250.69 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  AS
+
+--- WINDOW  2026/08/09 12:14:51  [chrome.exe] BTCUSDT 65,250.70 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:14:54  [chrome.exe] BTCUSDT 65,250.69 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:14:57  [chrome.exe] BTCUSDT 65,250.70 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:14:59  [chrome.exe] BTCUSDT 65,250.69 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:15:02  [chrome.exe] BTCUSDT 65,250.70 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:15:05  [chrome.exe] BTCUSDT 65,250.69 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:15:07  [chrome.exe] BTCUSDT 65,250.70 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:15:13  [chrome.exe] BTCUSDT 65,250.69 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:15:15  [chrome.exe] BTCUSDT 65,250.09 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:15:20  [chrome.exe] BTCUSDT 65,250.08 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:15:23  [chrome.exe] BTCUSDT 65,250.09 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  A VER SI UBI
+
+--- WINDOW  2026/08/09 12:15:28  [chrome.exe] BTCUSDT 65,247.47 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [Bk][Bk][Bk]
+
+--- WINDOW  2026/08/09 12:15:31  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  E
+
+--- WINDOW  2026/08/09 12:15:31  [chrome.exe] BTCUSDT 65,248.81 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  SA ENTRADA SE DA Y YO UBIESE ENTRADLO 
+
+--- WINDOW  2026/08/09 12:15:38  [chrome.exe] BTCUSDT 65,248.80 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  CON 0.1
+
+--- WINDOW  2026/08/09 12:15:40  [chrome.exe] BTCUSDT 65,248.81 ▲ +0.44% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  0[Bk][Bk]20
+
+--- WINDOW  2026/08/09 12:15:42  [chrome.exe] BTCUSDT 65,244.24 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+   CAUNTO ME ABRU[Bk]IA GAMADO [ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:15:57  [chrome.exe] BTCUSDT 65,244.23 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:15:59  [chrome.exe] BTCUSDT 65,239.91 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:16:33  [chrome.exe] BTCUSDT 65,236.64 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:16:35  [chrome.exe] BTCUSDT 65,236.63 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  PERO ESTA BA
+
+--- WINDOW  2026/08/09 12:16:40  [chrome.exe] BTCUSDT 65,236.64 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  JANDO ASI QUE PIERDO [ENTER]
+
+--- WINDOW  2026/08/09 12:16:45  [chrome.exe] BTCUSDT 65,236.63 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:16:48  [chrome.exe] BTCUSDT 65,236.64 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:16:50  [chrome.exe] BTCUSDT 65,236.63 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:16:51  [chrome.exe] BTCUSDT 65,236.64 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:16:58  [chrome.exe] BTCUSDT 65,236.63 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:16:59  [chrome.exe] BTCUSDT 65,236.64 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:17:06  [chrome.exe] BTCUSDT 65,236.63 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:17:08  [chrome.exe] BTCUSDT 65,236.64 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:17:15  [chrome.exe] BTCUSDT 65,236.63 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:17:17  [chrome.exe] BTCUSDT 65,236.64 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:17:27  [chrome.exe] BTCUSDT 65,236.63 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:17:30  [chrome.exe] BTCUSDT 65,236.64 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:17:40  [chrome.exe] BTCUSDT 65,236.63 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:17:42  [chrome.exe] BTCUSDT 65,236.64 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:17:45  [chrome.exe] BTCUSDT 65,236.63 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:17:47  [chrome.exe] BTCUSDT 65,236.64 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:17:49  [chrome.exe] BTCUSDT 65,236.63 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:17:50  [chrome.exe] BTCUSDT 65,236.64 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:17:53  [chrome.exe] 63,937 | SILVER (xyz) | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:17:54  [chrome.exe] 63,934 | SILVER (xyz) | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:17:59  [chrome.exe] 63,937 | SILVER (xyz) | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:18:05  [chrome.exe] 63,936 | SILVER (xyz) | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:18:09  [chrome.exe] 63,935 | SILVER (xyz) | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:18:16  [chrome.exe] 63,932 | SILVER (xyz) | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:18:18  [chrome.exe] 63,931 | SILVER (xyz) | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:18:19  [chrome.exe] 63,932 | SILVER (xyz) | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/08/09 12:18:22  [chrome.exe] 63,934 | SILVER (xyz) | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:18:23  [chrome.exe] 63,935 | SILVER (xyz) | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/08/09 12:18:24  [chrome.exe] 63,933 | SILVER (xyz) | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+  BTCUSDT
+
+--- WINDOW  2026/08/09 12:18:29  [chrome.exe] 63,931 | SILVER (xyz) | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:18:30  [chrome.exe] 63,930 | SILVER (xyz) | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+
+--- WINDOW  2026/08/09 12:18:31  [chrome.exe] 63,931 | SILVER (xyz) | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]BTC
+  [LMB]
+
+--- WINDOW  2026/08/09 12:18:49  [chrome.exe] 65.200 | BTC | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:19:05  [chrome.exe] BTCUSDT 65,243.69 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:19:08  [chrome.exe] 65.200 | BTC | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:19:21  [chrome.exe] BTCUSDT 65,243.69 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:19:24  [chrome.exe] BTCUSDT 65,243.70 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:19:25  [chrome.exe] BTCUSDT 65,243.69 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:19:28  [chrome.exe] BTCUSDT 65,243.70 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:19:30  [chrome.exe] 65.200 | BTC | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:19:32  [chrome.exe] BTCUSDT 65,243.70 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:19:34  [chrome.exe] BTCUSDT 65,243.69 ▲ +0.43% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:19:35  [chrome.exe] 65.200 | BTC | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  MIRA AQUI EN HYPERLIQUID NO ME SALE BTCUSDT SINO USDC [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:21:27  [chrome.exe] BTCUSDT 65,229.40 ▲ +0.41% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:21:32  [chrome.exe] BTCUSDT 65,229.39 ▲ +0.41% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:21:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:21:34  [chrome.exe] YouTube - (1) Oasis Ministry - Si Tu Presencia Conmigo No Va (Hijos Live) Feat ‪@marcosyaroideoficial6868‬ - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:21:35  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:33:05  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:33:05  [chrome.exe] BTCUSDT 65,236.01 ▲ +0.42% Unnamed - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:33:12  [chrome.exe] 65.202 | BTC | Hyperliquid - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:33:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:33:20  [TC2021.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:33:20  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:33:21  [Totalcmd.exe] Total Commander 2021  (x64)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:33:24  [Tauri Launcher.exe] launcher
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:33:25  [Tauri Launcher.exe] Tauri Launcher
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:33:30  [Totalcmd.exe] Total Commander 2021  (x64)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:33:30  [Tauri Launcher.exe] Tauri Launcher
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:34:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:34:09  [UWowSA-64.exe] World of Warcraft
+----------------------------------------------------------------------------
+  VIKI9621*[ENTER]
+  [LMB]
+  [ENTER]
+  [RMB]
+  [RMB]
+  WWWWWWWAWAAAA
+  [LMB]
+  [Esc]B
+  [RMB]
+  BI
+  [LMB]
+  [Esc]I
+  [RMB]
+  [LMB]
+  [Esc]DDWD[Esc]
+  [RMB]
+  DDDDDA[Esc]
+  [RMB]
+  AAAAAAAAAADDD
+  [RMB]
+  W
+  [RMB]
+  [RMB]
+  WWWWWWWW[Tab]W
+  [RMB]
+  DDD
+  [RMB]
+   DAAA
+  [RMB]
+  DDDA
+  [RMB]
+  AAAAAAWW WDD
+  [RMB]
+  AAAAAAAAAAAAAAAD
+  [RMB]
+  [LMB]
+  [LMB]
+  DD
+  [RMB]
+  DWDDA
+  [LMB]
+  [Esc]WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWADD
+  [RMB]
+  AWWWWWWWWW WAAAAAAD
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  [Esc]AWA
+  [RMB]
+  [Esc]AWWWADAW
+  [RMB]
+  ADDD
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [Esc]
+  [RMB]
+  [Esc]B
+  [RMB]
+  [RMB]
+  [LMB]
+  [Esc]
+  [RMB]
+  DW
+  [RMB]
+  AASD
+  [RMB]
+  WWWWWWWWWWWWWWWWDWDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+  [LMB]
+  [Esc]
+  [RMB]
+  DBB
+  [RMB]
+  AAAAAAADAWADD
+  [RMB]
+  DDDDDDDDDDWDDDDDDDDDDDDDDDDAADDAA
+  [RMB]
+  [LMB]
+  SSSSS
+  [RMB]
+  WS
+
+--- WINDOW  2026/08/09 12:39:47  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  S
+  [LMB]
+
+--- WINDOW  2026/08/09 12:39:48  [Tauri Launcher.exe] Tauri Launcher
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:39:50  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:39:50  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:39:50  [UWowSA-64.exe] World of Warcraft
+----------------------------------------------------------------------------
+  A
+  [LMB]
+  DS
+  [RMB]
+  SSSSSS 
+  [RMB]
+  WWSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  [RMB]
+  SSSSSSSSSSSSSSSSSS
+  [RMB]
+  [Tab]
+  [RMB]
+  DASDDW111111112222333FEEE111FFRRRR12FFFR
+  [RMB]
+  W
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]W
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  AWWB
+  [RMB]
+  D
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW[Esc]
+  [RMB]
+  AAAAAAAAAAAAAAAAAAAAAD
+  [RMB]
+  AAAA D [Esc]  D
+  [RMB]
+  DDDDDDDWW
+  [RMB]
+  WAAASSSSSSSSSSSSSSSSSSSSSSSSSSDSDWAA
+  [LMB]
+  AAAWWWWWWWWW[Esc]
+  [RMB]
+  DWD
+  [RMB]
+  AD
+  [RMB]
+  DD[Tab]DDDDDAD
+  [RMB]
+           A
+  [RMB]
+  AAAAAA
+  [RMB]
+  AAAAAAWA
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWDDDW
+  [RMB]
+  AAAAAAAAAA
+  [RMB]
+  [RMB]
+   WWWWWWWWWWWWWWWWWWWAW
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  DAD
+  [RMB]
+  DW
+  [RMB]
+  [LMB]
+  [LMB]
+  SWAAAAAAAWAA
+  [X1]
+  [RMB]
+  [RMB]
+    DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDB
+  [RMB]
+  AAAAAAAAAAAAAAAAAVCS
+  [LMB]
+  [Esc]
+  [RMB]
+  AAAAAAAAAAAA
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Esc]
+  [RMB]
+  DWWWWWDAADDDDODWWWWWWDWO
+  [RMB]
+  A
+  [RMB]
+  DDDDDDDDDDDDDDDDDDA
+  [RMB]
+  ADA
+  [RMB]
+  DW
+  [RMB]
+  AAAADWWWWWWWWWWWWWWWAADWAAWAWADDDDDDDDWWWWWWWWWWWWWWA
+  [RMB]
+  W
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [RMB]
+  W   
+  [LMB]
+  [RMB]
+                                 
+  [RMB]
+                              A D A [Esc] [Esc]D 
+  [LMB]
+   
+  [RMB]
+      [Tab]
+
+--- WINDOW  2026/08/09 12:44:15  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:44:16  [Tauri Launcher.exe] Tauri Launcher
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:44:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:44:17  [UWowSA-64.exe] World of Warcraft
+----------------------------------------------------------------------------
+  W  
+  [RMB]
+          
+  [RMB]
+  [RMB]
+  [LMB]
+  [Esc]
+  [RMB]
+  D 
+  [RMB]
+                                                                              WWWWWWWWWW[Esc]WAMM A
+  [RMB]
+  S1S
+  [RMB]
+  AW11111
+  [RMB]
+  22V22RRRR
+  [RMB]
+  DW         
+  [RMB]
+                                                                                                                 C
+  [LMB]
+  [Esc]
+  [RMB]
+     
+  [LMB]
+         
+  [RMB]
+  CW[Esc]
+  [RMB]
+  AD
+  [RMB]
+  [RMB]
+  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+  [RMB]
+  DDA
+  [RMB]
+  D WD WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAWA A
+  [RMB]
+  D[Tab]WAA 
+
+--- WINDOW  2026/08/09 12:45:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:46:00  [Tauri Launcher.exe] Tauri Launcher
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:46:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:46:02  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+  CL[Bk]AL ES LA LINEA DE MISIONES COMPLETA DE LA SEDE DEL CAZADOR EN WOW LEGION ES CAZADOR OUNTERUA[Bk][Bk]IA[ENTER]
+
+--- WINDOW  2026/08/09 12:46:26  [chrome.exe] cual es la linea de misiones completa de la sede del cazador en wow legion es cazador ounteria - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:46:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:46:28  [UWowSA-64.exe] World of Warcraft
+----------------------------------------------------------------------------
+   
+  [RMB]
+                                                                                                                               
+
+--- WINDOW  2026/08/09 12:46:36  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:46:36  [explorer.exe] Conmutación de tareas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:46:36  [chrome.exe] cual es la linea de misiones completa de la sede del cazador en wow legion es cazador ounteria - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  SI PERO DIME TODAS LAS MISIONES CUALS SON[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  I PERO TENGO SOLO 3 SEGUIDORE SY NO ME APRECEN MAS MIIONES CMADA S LAS ERO ECEURDO [ENTER]
+  TENGO UN TAUREN LOREN PENZUNA , UN ELFO QUE SE LLAMA EMMANUEK[Bk]L Y UN ORCO QUE SE LLAAM REZARC [ENTER]
+
+--- WINDOW  2026/08/09 12:52:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:52:37  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:52:37  [UWowSA-64.exe] World of Warcraft
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  AA W
+  [RMB]
+  DWWWWWWWWWWWWW W
+  [RMB]
+
+--- WINDOW  2026/08/09 12:52:56  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:52:57  [explorer.exe] Conmutación de tareas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:52:57  [chrome.exe] cual es la linea de misiones completa de la sede del cazador en wow legion es cazador ounteria - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  GRACIAS ,[Bk]MI AMOR [ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:53:08  [Tauri Launcher.exe] Tauri Launcher
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 12:53:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 12:53:14  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 12:53:14  [UWowSA-64.exe] World of Warcraft
+----------------------------------------------------------------------------
+  W
+  [RMB]
+         
+  [RMB]
+           
+  [RMB]
+  [RMB]
+    
+  [LMB]
+    
+  [LMB]
+      I
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  WWWWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[Tab]
+  [LMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  D                                 WDD
+  [LMB]
+  [LMB]
+  [RMB]
+  WWWWWWWWDW 
+  [RMB]
+  WWWWWWWAW  M
+  [RMB]
+  WWWWWWW[Esc]
+  [RMB]
+     AAAAAAAAAAAAAAAAAAAA                                  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW W  WWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWNNMM
+  [RMB]
+  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  [RMB]
+  [X1]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+                                                           
+  [RMB]
+  W
+  [RMB]
+  W
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWGW 11DS11111A222DDDDDDD3DWRRARRFFFFFFFFFFRRRR
+  [RMB]
+  AAAAWA[Tab]
+  [RMB]
+  [LMB]
+  [Esc]S
+  [RMB]
+  AWWWWWWWWWWWWW   
+  [LMB]
+  B
+  [LMB]
+  [RMB]
+  BBBDWDDDD
+  [RMB]
+  DDDDAAAAADAD
+  [RMB]
+  [LMB]
+  [LMB]
+  SSS
+  [RMB]
+  DSS
+  [LMB]
+  JEFE [Bk][Bk][Bk][Bk][Bk][Bk]YO TENGO PARA HELEAR PERO SOY MALO MUUYY MALO PERO SI QUIEREN INTENTAMOS [ENTER]
+  [RMB]
+  DS[ENTER]
+  A COL[ENTER]
+  [RMB]
+  AA
+  [RMB]
+  D
+  [RMB]
+  DW
+  [RMB]
+  J
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [RMB]
+  WWDWSSSSSSSSSSSSSSS
+  [RMB]
+  DW[ENTER]
+  INTENTAMOS A VER [ENTER]
+  BN
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc][Esc]
+  [LMB]
+  [Esc]
+  [RMB]
+  DWWW
+  [LMB]
+  [RMB]
+  DWAWD
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [RMB]
+  DWAA
+  [RMB]
+  [RMB]
+  [RMB]
+  [Esc]
+  [RMB]
+  [LMB]
+  [RMB]
+  AW
+  [RMB]
+  DWAW
+  [RMB]
+  [RMB]
+  W
+  [RMB]
+  SAA
+  [RMB]
+  [Esc]
+  [RMB]
+  DWDWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWDWAAA
+  [RMB]
+  [LMB]
+  WWWWWWWWWWWWWWWAW
+  [RMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  SADW
+  [RMB]
+  SDMM
+  [RMB]
+  AWWWWWWWWWWWWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWWWWWWWWWWWWWDW
+  [LMB]
+  MM
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWA
+  [RMB]
+  AW
+  [RMB]
+  DDWD
+  [RMB]
+  D
+  [RMB]
+  [RMB]
+  A
+  [LMB]
+  [RMB]
+  DDDDDDDDWDD
+  [LMB]
+  [LMB]
+  AA
+  [LMB]
+  [RMB]
+  DW
+  [RMB]
+  DS
+  [LMB]
+  [RMB]
+  DWA
+  [LMB]
+  MM
+  [RMB]
+  W
+  [RMB]
+  [Tab]ADDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADD
+  [RMB]
+          A  D      AAAAAAAAAAAAAAAAAAAAA A     D A D  AASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  [RMB]
+  [RMB]
+  QSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  [RMB]
+  WDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDAADD
+  [RMB]
+  WWW
+  [RMB]
+  WDDDDDDDDDDD[Esc]DDDDDDDDDDDDDWWWWWWWWWWDWAD
+  [RMB]
+  W
+  [RMB]
+  WD
+  [RMB]
+  SAW
+  [RMB]
+  AWA
+  [LMB]
+  W
+  [RMB]
+  AAWAAAAWWWWR111122
+  [RMB]
+  DDDDDDDDDDDAWW1
+  [RMB]
+  S A
+  [LMB]
+  1
+  [RMB]
+  [LMB]
+  R
+  [LMB]
+  RRRR1111111111
+  [LMB]
+  [LMB]
+  111111111
+  [RMB]
+  AWWWWWWWWWW[Esc]WWWWW
+  [RMB]
+  RWAAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWEWW
+  [LMB]
+  [RMB]
+  AWWW
+  [LMB]
+  1333RRRRR41122R
+  [RMB]
+  AWWWWD
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [LMB]
+  R
+  [RMB]
+  WD
+  [RMB]
+  DW[Tab]D
+  [LMB]
+  [RMB]
+  DWADDWDDDDDDWAAAAAAAAAAAAAAAAAAAAAWADW
+  [LMB]
+  E
+  [LMB]
+  1R22133
+  [LMB]
+  111111R2WWWWWWWWWWWWWWR
+  [RMB]
+  DWW
+  [RMB]
+  DW
+  [RMB]
+  S
+  [RMB]
+  Q
+  [LMB]
+  R1111111122
+  [RMB]
+  WWWWWWWWWWW[Tab]WDDDDDDDDDDDDDDDDDDD[Esc]
+  [LMB]
+  1
+  [RMB]
+  WW
+  [LMB]
+  WWWWWWWWWWWWWWWWWWWRR
+  [RMB]
+  D112E
+  [LMB]
+  [RMB]
+  R
+  [RMB]
+  DS
+  [RMB]
+  W1[Esc]
+  [LMB]
+  11
+  [RMB]
+  S
+  [LMB]
+  11
+  [LMB]
+  [RMB]
+  AWDW[Esc][Esc]
+  [RMB]
+  D
+  [RMB]
+  DW
+  [RMB]
+  AWDA[ENTER]
+  Y YO JAJA[ENTER]
+  WD
+  [RMB]
+  DWWAWAADD
+  [RMB]
+  WD[Tab]
+  [RMB]
+  [LMB]
+  D 
+  [RMB]
+   DDRDDDDDDDDS11RR2
+  [RMB]
+  SADDWD
+  [RMB]
+  [RMB]
+  DW[Tab]DDDDDDDDDDDDDDDWADDDWDWWDDADWWWS
+  [RMB]
+  WE
+  [LMB]
+  RRR111111111111111111122233333RRRRRRRR
+  [RMB]
+  DDDDDDDDDD[ENTER]
+  AHHH [ENTER]
+  [ENTER]
+  SORRY [ENTER]
+  [LMB]
+  [RMB]
+  WW[Tab]
+  [RMB]
+  AAAAAAAADDDD  DDDDD
+  [RMB]
+  WWW
+  [RMB]
+  WWWWWWWWDDDDDDDDWDDD D WAAAAAWWWWW
+  [LMB]
+  R[ENTER]
+  OK[ENTER]
+  WW1R
+  [RMB]
+  D11111111111111111111111111122SSSSSSSSSSSSS
+  [RMB]
+  [RMB]
+  W[Tab]
+  [RMB]
+  D
+  [RMB]
+  DDDD
+  [RMB]
+  D
+  [RMB]
+  DAAAA
+  [RMB]
+  A
+  [LMB]
+  [RMB]
+  AA1RRRRR
+  [RMB]
+  AW2
+  [LMB]
+  1
+  [LMB]
+  RRRRRR1111111RR
+  [LMB]
+  R
+  [RMB]
+  DWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWDWDWD
+  [RMB]
+  WDWW
+  [RMB]
+  DWDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDWWWW
+  [LMB]
+  [RMB]
+  SD1RRRRR
+  [RMB]
+  11222
+  [LMB]
+  [LMB]
+  [RMB]
+  111
+  [RMB]
+  A R
+  [RMB]
+  R111111111111
+  [LMB]
+  [RMB]
+  AAAAAAAS11
+  [LMB]
+  RRRB
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  D WRRQ
+  [LMB]
+  QQQQ
+  [LMB]
+  [Esc][Esc]2RRR
+  [RMB]
+  DW
+  [LMB]
+  [RMB]
+  DWDW
+  [RMB]
+  BBAAA
+  [LMB]
+  A
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWW
+  [LMB]
+  WWWWWWDWD
+  [RMB]
+  A
+  [LMB]
+  D
+  [RMB]
+  RRRRR1111111111111111122222
+  [LMB]
+  R
+  [RMB]
+  D
+  [RMB]
+  WD
+  [LMB]
+  1[Esc]11
+  [LMB]
+  WR
+  [RMB]
+  DW
+  [LMB]
+  11111W[Tab]
+  [RMB]
+  WWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWDWDDDDD AA
+  [LMB]
+  [RMB]
+  AWWAAWWWDAWDDAWWWWWWWWDWD11
+  [RMB]
+  SDWA
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  Q
+  [LMB]
+  RRR11111
+  [RMB]
+  111
+  [LMB]
+  111111111111111
+  [LMB]
+  11
+  [RMB]
+  DWWWWWWWWWWWWWWWWWWWW  RRDDDDDDDDDDDDDDDDDS
+  [LMB]
+  RR
+  [RMB]
+  SDQ1
+  [RMB]
+  1111111111
+  [LMB]
+  1111111111
+  [LMB]
+  R
+  [LMB]
+  1
+  [LMB]
+  R1
+  [RMB]
+  A [Esc]
+  [RMB]
+  ASS1
+  [LMB]
+  R11
+  [LMB]
+  1111111111111111RRRRRRRRRRR
+  [LMB]
+  11
+  [LMB]
+  11
+  [RMB]
+  2
+  [RMB]
+  WWWWWWWWWWWWWWWWWWA
+  [RMB]
+  [RMB]
+  SSSSSSSSSSSSSSSSSSSSSSSSWAA
+  [LMB]
+  W
+  [RMB]
+  D1RRR11
+  [RMB]
+  [RMB]
+  SSSSSSSASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASD
+  [LMB]
+  [Esc]R
+  [LMB]
+  1
+  [RMB]
+  112
+  [RMB]
+  D  SDD[Esc]RDW
+  [LMB]
+  [RMB]
+  234441RRR
+  [RMB]
+  WA11
+  [RMB]
+  AAAAAAAAR
+  [RMB]
+  A W[Esc]AR111
+  [LMB]
+  2111RRR11112443122R1[Esc]R1
+  [LMB]
+  W
+  [RMB]
+  WWAW
+  [RMB]
+  W
+  [RMB]
+  DDDDDDDW
+  [RMB]
+  [Tab]DW
+  [RMB]
+  DWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [LMB]
+  WWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWAWWW1
+  [RMB]
+  [RMB]
+  DW1
+  [RMB]
+  AWWWWWWWW11RRRRRRR
+  [RMB]
+  SRSR1
+  [RMB]
+  SD A
+  [LMB]
+  11RRRR2211111111111
+  [RMB]
+  SD RWWWWWWWWWD
+  [RMB]
+  A
+  [RMB]
+  WA
+  [RMB]
+  DDDD[Tab]DDDDDDA
+  [RMB]
+  DDDWWWDD
+  [LMB]
+  RR111111122222
+  [RMB]
+  SAA43
+  [LMB]
+  1WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWDW
+  [RMB]
+  AWD
+  [LMB]
+  [RMB]
+  DRWWWWW
+  [LMB]
+  [LMB]
+  [RMB]
+  DW1
+  [RMB]
+  AWRRAA111111E
+  [LMB]
+  [RMB]
+  DWR
+  [RMB]
+  DDDDDDW11
+  [LMB]
+  RRR
+  [LMB]
+  1
+  [RMB]
+  [LMB]
+  2211RRR22
+  [RMB]
+  1
+  [RMB]
+  DW1D1
+  [LMB]
+  1
+  [LMB]
+  1
+  [RMB]
+  AAAASSAR 
+  [LMB]
+  1
+  [LMB]
+  111RRRR
+  [RMB]
+  A [Esc]R11
+  [LMB]
+  WD
+  [LMB]
+  [LMB]
+  [RMB]
+  DWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  SA
+  [RMB]
+  [LMB]
+  WR
+  [RMB]
+  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD1
+  [RMB]
+  R
+  [RMB]
+  AWAAAAAAAAAAAAA[Tab]
+  [RMB]
+  AADWDDDDDDDDDDDDWDWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  ASDW
+  [LMB]
+  RR1111111111112222RR11122222333333333111144444RRRRRRRW
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WD
+  [RMB]
+  [Tab]DA
+  [LMB]
+  [RMB]
+  D   AAAAAAAAAAAS
+  [LMB]
+  RR
+  [RMB]
+  111111111111111222222333333RR111111222224W
+  [RMB]
+  AWA
+  [RMB]
+  [LMB]
+  1RRRRRRR
+  [RMB]
+  WWWWWWWWWWWWRRR2
+  [RMB]
+  SSS111
+  [LMB]
+  1RRR
+  [RMB]
+  D W111
+  [LMB]
+  [RMB]
+  WW[Tab]MWMDAWWWWWWWWWWWWWWWDWBDAD
+  [RMB]
+  [LMB]
+  WWW
+  [LMB]
+  WWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWWWWWWD[Esc]
+  [RMB]
+  DDDDDDDDDDDDDDDDMMA
+  [RMB]
+  [LMB]
+  AA
+  [RMB]
+  D
+  [RMB]
+  DDAAAAAAAAAAAAAAAAAAAAAAAAAAAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAWAMMAAAAAAAAAAAAAAAD
+  [LMB]
+  [RMB]
+       AAAAARDDAWD
+  [RMB]
+  DWWDWWWWWWDD
+  [RMB]
+  DWWW12221R
+  [LMB]
+  [LMB]
+  111
+  [LMB]
+  R
+  [LMB]
+  112
+  [RMB]
+  WWWWWWWWWWWW WDAW 11   [Tab]    [Tab]W A   [Esc]RR
+  [RMB]
+  RRDD RR
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [LMB]
+  MM
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWDWDD
+  [RMB]
+  D[Esc][Esc]DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDAAA
+  [RMB]
+  DDDA
+  [RMB]
+  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[Tab]DDDAAAAAAAWAADD
+  [RMB]
+  W
+  [RMB]
+  WWWWWAAAAAWWWWWWWWWWWWWWWWW[Esc]R
+  [RMB]
+  1
+  [LMB]
+  11111111111111
+  [RMB]
+  DW[Tab]DSSSSSSSSSSSSSSSSSS
+  [LMB]
+  R
+  [RMB]
+  1
+  [LMB]
+  R11111111111111111111111
+  [RMB]
+  AW
+  [LMB]
+  R111DWW
+  [RMB]
+  WAWAWAAAAAAAAAAAAAAAAAAAW[Tab]DDDW
+  [RMB]
+  WWWWR122223331111111111RRRRRR411111111
+  [RMB]
+  A WWWWWWWWWWWWWWWDW[Esc]ARDW111W
+  [RMB]
+  WWWWWWWWWWWWWWWW
+  [LMB]
+  WWWWWWWWWWWWWWRWR
+  [RMB]
+  DDDDDDDDDD1111111111111111111111
+  [LMB]
+  RR221111111WW
+  [LMB]
+  RW
+  [RMB]
+  [RMB]
+  DWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  W[Tab]
+  [RMB]
+  AA
+  [RMB]
+  D
+  [RMB]
+  DWW
+  [RMB]
+  DWW
+  [RMB]
+  WWDWDW1
+  [RMB]
+  1
+  [RMB]
+  111
+  [LMB]
+  RRRRRRR
+  [RMB]
+  RRARR11111111111111111
+  [LMB]
+  RWWWWWWWWWWWWWW
+  [RMB]
+  DWWWWWWWW
+  [RMB]
+  WWD
+  [RMB]
+  DDDD   AD
+  [RMB]
+  W
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWAD
+  [LMB]
+  W
+  [RMB]
+  WA
+  [RMB]
+  DSAAWDWR111111111111111111111222RRRRR
+  [RMB]
+  ASDDDDDADWA
+  [RMB]
+  WAWWWWWWWWWWWWWWWWWWWAW
+  [RMB]
+  WA
+  [RMB]
+  [RMB]
+  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDA
+  [RMB]
+  DW
+  [LMB]
+  [LMB]
+  E
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWW
+  [LMB]
+  11111111111111111RRRRRR111111122222
+  [LMB]
+  [LMB]
+  RRRRR1144442222111111111
+  [RMB]
+  DWDWADDW
+  [RMB]
+  Q
+  [LMB]
+  1
+  [LMB]
+  11111111111111
+  [LMB]
+  RRR
+  [RMB]
+  AAAAAAAAAAAD1[Esc]
+  [RMB]
+  AWR
+  [RMB]
+  DW
+  [LMB]
+  [RMB]
+  AW RAR1122
+  [RMB]
+  DDDDDDDDDDDDDD11111
+  [RMB]
+  AAAAAAAAAAAAA11111111111123123WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWA
+  [RMB]
+  D
+  [RMB]
+  DDDDDDDDDDDDDDDDD[ENTER]
+  PERDON POR TODO JAJAJA[ENTER]
+  D
+  [RMB]
+  DDDDDDDDDDDDDDSSS
+  [LMB]
+  [RMB]
+  ASDADDWAAAAAAAWDWB
+  [RMB]
+  B
+  [RMB]
+  SB
+  [RMB]
+  B
+  [RMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  B
+
+--- WINDOW  2026/08/09 13:39:46  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 13:39:46  [explorer.exe] Conmutación de tareas
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 13:39:46  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 13:39:46  [Tauri Launcher.exe] Tauri Launcher
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 13:39:47  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 13:39:48  [Tauri Launcher.exe] Tauri Launcher
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 13:39:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 13:39:51  [UWowSA-64.exe] World of Warcraft
+----------------------------------------------------------------------------
+  [RMB]
+  N
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]BC
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  BBN
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  CN
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  DWDAADDWA
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]AWAA[Tab]DDDD
+  [RMB]
+  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD
+  [RMB]
+  DWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWDDAA
+  [RMB]
+  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  [RMB]
+  DD
+  [RMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [RMB]
+  D
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWI
+  [LMB]
+  WWW[Esc]WAD
+  [RMB]
+  [LMB]
+  [RMB]
+  D
+  [RMB]
+  AAAAAAAAADDDD
+  [RMB]
+  AAADDDDDDDDD DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDAD
+  [RMB]
+  DDDAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+  [LMB]
+  [RMB]
+  AADD|
+  [RMB]
+  [RMB]
+  D
+  [RMB]
+  [RMB]
+  DAD
+  [RMB]
+  [RMB]
+  DDD
+  [RMB]
+  WDDWWWWWWWWWWWAAADDDDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWWWWWWWWWWWWWWAADWADADAAAAAA
+  [RMB]
+  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+  [RMB]
+  DDDDDDDD
+  [RMB]
+  S
+  [RMB]
+  SSSSSSSSDWWWWWWWWDDDDDDDDDDDDDDDDDDDAWWWWWWWWWDADDD
+  [RMB]
+  AAAAWA
+  [RMB]
+  AAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAW
+  [RMB]
+  DDD
+  [RMB]
+  [RMB]
+  AW11DDDDDDDWWWWWWWWWWWWWWWWWWWWAWAAAAAAA[Tab]ASAWDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+  [RMB]
+  D
+  [RMB]
+  [RMB]
+  DWWWWWWWWWWWWWWWWWWWWWWWWWWWWAWAAAADDD
+  [RMB]
+  1QD111111
+  [RMB]
+  S1
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAAWAA
+  [RMB]
+  DD[Tab]AAAAAAAAAAAADDDDDAADAADAA
+  [RMB]
+  AWAAA1QQQQQQQQQQQQAA1ASDDDDWD
+  [RMB]
+  D[Tab]WAAAA
+  [RMB]
+  DAAAAAAAAAAAAAAAAAAW DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWDDADD
+  [RMB]
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWAD
+  [RMB]
+  DDDDDDDD  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+  [RMB]
+  ADWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAAAAD
+  [RMB]
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAW
+  [RMB]
+  DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  [LMB]
+  [RMB]
+  DWDA
+  [RMB]
+  [RMB]
+  DWWWWWWWWDW
+  [RMB]
+  [LMB]
+  [RMB]
+  SAW[Esc][Esc]B
+  [RMB]
+  [RMB]
+  B
+  [RMB]
+  [RMB]
+  [LMB]
+  EEDDDDDDDDDDW
+  [LMB]
+  WD
+  [RMB]
+  D
+  [RMB]
+  [RMB]
+  QQQ
+  [RMB]
+  QQQQQQ
+  [RMB]
+  QQQ11D111D1111SAEEDWFW11111111DW11DW11WDS1AFFSEAEEEDW1ADWFFASFFFDW11D111WRARSD11DSAFFA
+  [RMB]
+  S11AW11
+  [RMB]
+  1RRRRRRFFFFFF111
+  [RMB]
+  SDDDDDDDDDDDDDDDDDDD
+  [RMB]
+  [RMB]
+  WWWWWWW
+  [RMB]
+  W
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWDWAADDD
+  [RMB]
+  [RMB]
+  DWWW
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWQ1111111S222222WRR
+  [RMB]
+  DSSDWFFSDAED11DDW11ARRRRR
+  [RMB]
+  FFF11RRR
+  [RMB]
+  DWR
+  [RMB]
+  SA1111
+  [RMB]
+  AW22
+  [RMB]
+  DARR
+  [RMB]
+  ARRDD
+  [RMB]
+  [RMB]
+  WDD
+  [RMB]
+  [RMB]
+  [RMB]
+  DDDDDDDDDDDDDDDDDDDDDWGDWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW11D11D11SDFFF22222223
+  [RMB]
+  33111EEEEEE
+  [RMB]
+  SDDFFFF
+  [RMB]
+  RRRRRAR111DWFFFFFFFDW11DS1DARRDSA111Q
+  [RMB]
+  RRRRRREEEEEEFFFFFFFFDW11WAWS1ASSSSSFSFDSFFAFDDAD11DWD11ASRRDAWAFFS1SA11WAEFW11WWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WDWWD
+  [RMB]
+  [LMB]
+  AWAD
+  [LMB]
+  BABD11
+  [RMB]
+  AEWDW1111ASDW1ASFAWFFRR
+  [RMB]
+  DW1111
+  [RMB]
+  DFF
+  [RMB]
+  AAAA1AAAAAAAAAARRWDW11DWEDSAD11DFFFRRRW1S
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWDW
+  [RMB]
+  DDW
+  [RMB]
+  W1
+  [RMB]
+  D111S22222333EEEEEFFFFFFF11111111D1FFFFFD        QQWWWWWWWWW11FFFFFFFFF
+  [RMB]
+  AAAAAAAAAAAWWWW
+  [RMB]
+  WWDWDDDDDDWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWDDDDWDWWWWWWWWWWWWAAAAAAAAA11AWEEEW11ASFFF
+  [RMB]
+  DS1ASA11RRRRRFFFFF11111111112222
+  [RMB]
+  WFR
+  [RMB]
+  EEFFFF
+  [RMB]
+  WAA
+  [RMB]
+  DDDDDW
+  [RMB]
+  WWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWW
+  [RMB]
+  WWDWWWW1W11SEAWWWWWWFFFFFFFFFFDW11111SAFFFFF11FFFFRR111
+  [RMB]
+  WRRR
+  [RMB]
+  WA
+  [RMB]
+  DDAAAA[Tab]D
+  [RMB]
+  [RMB]
+  W
+  [LMB]
+  [RMB]
+  WDWWWDD
+  [LMB]
+  D
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWDWDAAAD1
+  [RMB]
+  W1111111
+  [RMB]
+  SFAADSDW1DDDDD11
+  [RMB]
+  1D
+  [RMB]
+  1
+  [RMB]
+  SSSSRRARRS11SAWWFFFEEE
+  [RMB]
+  1111FFFRRRR111111111221112
+  [RMB]
+  DDDDDDDD
+  [RMB]
+  DWWA
+  [RMB]
+  [RMB]
+  GD11AS11DW1DSAD2223333333
+  [RMB]
+  EWFFFFFF
+  [RMB]
+  FFFFRRRRRR1111111
+  [RMB]
+  RRR
+  [RMB]
+  DWRRR1111
+  [RMB]
+  DS QWAD1DAFFFSFAWWWWWWWWDD[Tab]A
+  [RMB]
+  DDDDDDDDDDDD
+  [RMB]
+  DD|
+  [RMB]
+  [LMB]
+  D
+  [RMB]
+  AAAAAAAAAAAAAAAAAAAAAAAAAA1111111111111DSEEEAD11WDFFFFFDW111WWEEDWFFFFFAS11AWWFFAFFD111SAFFRW111111
+  [RMB]
+  11D
+  [RMB]
+  2
+  [RMB]
+  RRRRRRRR
+  [RMB]
+  WRRRRR
+  [RMB]
+  AWA
+  [RMB]
+  A
+  [RMB]
+  DDDDDDQAW11SA11AWS22ASSSSRRDWDFFFEEEEEE1111111
+  [RMB]
+  DFFFRRRRRR1111111111
+  [RMB]
+  DWA1QS1WAAS1D1AFFFSFFDWRRRRRR
+  [RMB]
+  SFFFDFFFFFF11111112
+  [RMB]
+  12212112FFFFRD
+  [RMB]
+  W111D
+  [RMB]
+  DBDW[Esc]
+  [RMB]
+  WWWWWWWW[Tab]W
+  [LMB]
+  [X1]
+  ADADADAADAA
+  [RMB]
+  DA A    AAAAAAAAAAAAAAAAAAAAAADDWA
+  [RMB]
+  [RMB]
+  WA[Tab]DDDAADDDAAADWWWWWWWWWWAW11WASEEDW1111FFWWWRR RR111122222AFFAWDSWWWWWW1W1D1111111D11SFFFFFFRRRRRRF
+  [RMB]
+  FFFFDQ1SRRSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADWWWWWWWWWWWWWW11111D111DRRRRRRRRRRRRR
+  [RMB]
+  DDDWWWWWWWWWWWWWWWWWWWWWWWAAW
+  [RMB]
+  [RMB]
+  DWQWWWWWWWWWWWWWWW1W11D1111SEEDFFFFFFRRRRR1111111111111FFFFRRRR11WD
+  [RMB]
+  [RMB]
+  W
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWQAQA11S11S11W1EEEE
+  [RMB]
+  FFFFFFFRRRRRR111111
+  [RMB]
+  11A22DSFFFFRRDS1DAW
+  [RMB]
+  D
+  [RMB]
+  WD
+  [RMB]
+  W
+  [RMB]
+  DWWWWWWWW
+  [RMB]
+  W
+  [RMB]
+  DWWD
+  [RMB]
+  AWWWWWWW1AS1111DEEWFFFFFFFFFWDRRRR111111111
+  [RMB]
+  DWFFFFF
+  [RMB]
+  FF
+  [RMB]
+  WFFARRRARA1111111W
+  [RMB]
+  AAAA
+  [RMB]
+  DWWW
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWDW1DS11W22222
+  [RMB]
+  AS3
+  [RMB]
+  AWFF
+  [RMB]
+  DSEEEE1111111FFFFFRRRRRRRRRRRRR
+  [RMB]
+  RRRRASADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDQWWWWWWWWWWWWWWWQA1111111
+  [LMB]
+  111
+  [RMB]
+  WARRARFFFFFRRRRRRRD
+  [RMB]
+  DDWWWWWWWW
+  [RMB]
+  WWWAWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  [RMB]
+  [RMB]
+  AAAAAAAAAAAD
+  [RMB]
+  A1AS1D1111W223333FFFFFFEEEEERRRRRS
+  [RMB]
+  111111122222222
+  [RMB]
+  DWFFF
+  [RMB]
+  WRRRRFF1FFFFFFFFFFF111111RR22FFFDD
+  [RMB]
+  DWWWWWWWWWWWWWWWWWWSSS
+  [RMB]
+  [RMB]
+  DWWWWWWDSADADADADADADDDWAWGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA111AW111222222333333333E
+  [RMB]
+  AEEE
+  [RMB]
+  DDD1DWFFFFFFRRRRRRRR1111111111
+  [RMB]
+  DSFFFFRRRR1111111111122RRR1111
+  [LMB]
+  FF
+  [RMB]
+  RRRR111111111FA
+  [RMB]
+  RWRRRRRRRRARA1ASDFFFFF
+  [RMB]
+  SAARRRR1FF
+  [RMB]
+  FWFFDDW
+  [RMB]
+  DDWBAADDDDADADAC
+  [RMB]
+  [LMB]
+  WD
+  [RMB]
+  DWWWWWWWWWWWWWWWWWWWWWWW[Esc]WADDDDDDDDDDDDDDDDWWWWWWWWWWWWWWWWWWWWWWWWW|
+  [RMB]
+  [Tab]
+  [RMB]
+  [LMB]
+  [RMB]
+  DDDAAAAAAAAADDDDDDDDDDDDDWA D WWWWWWW
+  [RMB]
+  [RMB]
+  AAAAAW111DSD111SRSFFFFFF11111DRRR
+  [RMB]
+  AFFWFFFW1112
+  [RMB]
+  2222
+  [RMB]
+  WDFFFFFRRRR111111111FFF
+  [RMB]
+  DW
+  [RMB]
+  D
+  [RMB]
+  [RMB]
+  DDWDW1AAAAAAS1DW2223333333EEE
+  [RMB]
+  SFFF
+  [RMB]
+  FFFDWRRRRRRRRRD1FFFFFF111
+  [RMB]
+  DW111D11QDDQ
+  [RMB]
+  W
+  [RMB]
+  A
+  [RMB]
+  1
+  [RMB]
+  W1
+  [RMB]
+  11
+  [RMB]
+  SAEEDSF
+  [RMB]
+  FFFDW111111
+  [RMB]
+  W111FFFW
+  [RMB]
+  FFDASDFFFAFRRRARSD1111122222
+  [RMB]
+  DWFFFRRRRRR1111
+  [RMB]
+  111111
+  [RMB]
+  11
+  [RMB]
+  ASDW1
+  [RMB]
+  S2FRRRRRRRRRRRRRRRRRRRR111111111111D
+  [RMB]
+  AAAWA
+  [RMB]
+  AAAAAAAAAAAAAAAWWA
+  [RMB]
+  DW
+  [RMB]
+  DW
+  [RMB]
+  DD
+  [RMB]
+  [RMB]
+  AA
+  [RMB]
+  SA
+  [RMB]
+  [RMB]
+  AWWGGS
+  [RMB]
+  1DWDDS1DW11D2223333
+  [RMB]
+  EEEAW11111DSFFFDWRRRRRRRA1111
+  [LMB]
+  [RMB]
+  11DW111S11DSFAFAFFRRADWWWWWWWWWDDQQQDWQQQQA1111111111112222FF
+  [RMB]
+  Q
+  [RMB]
+  RR
+  [RMB]
+  DWAFFFF
+  [RMB]
+  SD11AWS1D111W2DAFFE
+  [RMB]
+  RRRASD11SAWASFFFFF
+  [RMB]
+  S111111FFFFFFFFRRRRRRR
+  [RMB]
+  AW11SFF
+  [RMB]
+  SD
+  [LMB]
+  [RMB]
+  DSFFFF1
+  [RMB]
+  DW
+  [RMB]
+  [LMB]
+  [RMB]
+  WWWWWWW[Tab]WW
+  [RMB]
+  [LMB]
+  D
+  [LMB]
+  ADAADADADADWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAD
+  [RMB]
+  [RMB]
+  DDDDDDDDDAAAAAAAD
+  [RMB]
+  [RMB]
+  SAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  [RMB]
+  [Tab]
+  [RMB]
+  AWWWWWW
+  [RMB]
+  WWAAAAASGDWA1AS112222222DW3333
+  [RMB]
+  WE
+  [RMB]
+  EFFFF
+  [RMB]
+  SRRRRRRRRRRRRRRR11FFFFFFF
+  [RMB]
+  FFFFFFD11DA11SFRASRRDW1D1111WFFARRSR111AW[Tab]| DASDDDWWWWWA
+  [RMB]
+  WQQQQQ
+  [RMB]
+  Q
+  [RMB]
+                 SSSSSSSSWWWWWW W                    DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDWWWWWWWWWWWWWWWWWWWWWWWWAWDAADAWWW
+  [RMB]
+  AWAW
+  [RMB]
+  WWWWW
+  [RMB]
+  WWAW1ASDW1DDD2222233333333SAEEFFFFF
+  [RMB]
+  D WRRRDWRR111111SA AAW11D222SDEEFFFFF
+  [RMB]
+  ASD
+  [RMB]
+  D11W11111SARRRRSD1111W[Tab]WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW W       DDDDDD
+  [RMB]
+  Q
+  [RMB]
+  AAAAAQQQQQQQQQQQQA
+  [LMB]
+  [RMB]
+  11111111111111112222222ERRRRRRRARRSRRSDDFDDDDDDDDDDDDDWFFAFFFFAW11SDW[Tab]DAWA
+  [RMB]
+  QQQQ
+  [RMB]
+  QQDSA
+  [RMB]
+  AAAAAAAAAAAAAAAAAAAAAAWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWAW
+  [RMB]
+  DDDDDDDDDDDDDDW
+  [RMB]
+  [LMB]
+  DD
+  [RMB]
+  DWWWWWWWWAWAAAAAAASSSSSSSSS
+  [RMB]
+  [LMB]
+  B
+  [RMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  W
+  [RMB]
+  [RMB]
+  [Esc]
+  [RMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  [Esc]
+  [RMB]
+  SAAWWWWWWWWWWWWWAI
+  [LMB]
+  [LMB]
+  DW
+  [RMB]
+  DD
+  [RMB]
+  BBDW
+  [RMB]
+  WWWWWWWAAAAAAADDDAWA
+  [RMB]
+  DLL
+  [RMB]
+  D[Tab] A
+  [RMB]
+  AAAAAAAAAAAAAAAAAAAAAAAAAAWDDDDDDDDWWWWWWWWWWWWWWW W DCDAACAAAAA
+  [RMB]
+  AAD  DDDDDDDDD          A A A DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDWDA
+  [RMB]
+  S
+  [LMB]
+  [RMB]
+  A
+  [RMB]
+  DWW
+  [RMB]
+  S
+  [RMB]
+  DA
+  [LMB]
+  [RMB]
+  [RMB]
+  W
+  [RMB]
+  [RMB]
+  SA
+  [LMB]
+  [RMB]
+  [RMB]
+  AAAAW
+  [RMB]
+  [RMB]
+  SDW
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  AWW
+  [RMB]
+  [RMB]
+  DSSDS
+  [LMB]
+  [RMB]
+  DW
+  [RMB]
+  [RMB]
+  SAWB
+  [RMB]
+  B[Esc][Esc]
+  [RMB]
+  AWWWWWWWWWWWWD    DW AAAAAAD   D                                   DWWWWDWSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDD             A     D A  D      A D D           
+  [RMB]
+  [RMB]
+  WWWWW WI
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  DDDDDDD
+  [RMB]
+  VVB
+  [RMB]
+  BDDWAWA
+  [RMB]
+  WAD
+  [RMB]
+  D
+  [LMB]
+  AAAWWWWWWWWWWWWWWWDWDDDDDDDDDDDDDWAAOA
+  [RMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  D[Tab]DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDH
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  H
+  [LMB]
+  W
+  [RMB]
+  WWWWWWWWWWWWWWW[Esc]     
+  [LMB]
+  DDDDDDDADAA     
+  [RMB]
+  DW
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  AWBB
+  [RMB]
+  WW  
+  [RMB]
+  [RMB]
+  ADADADADADADADADADADDADADADADADADADADADADADADADADADADADDAADDADAAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWWWAWWWW
+  [RMB]
+  [RMB]
+  DWWDDDDDDDDDDDDDDDDDDDDDDDDDDWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAWA
+  [RMB]
+  DDDDDDDDDDDDDDDDDDWWWWWWWWWWWWWWWWWWWWWWSAWWWWWWWWWWWWWWWWWWWWWWWWWDDDDDDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWWWWWWWWWWWWWWWWWDSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWDD
+  [LMB]
+  D
+  [RMB]
+  WWD
+  [RMB]
+  ASAD
+  [LMB]
+  [RMB]
+  SSDWWWWWWW
+  [RMB]
+  [RMB]
+  DDDDDWDDSDDDDDDDDDDDDDAAAAAAAAAAWWWWWW1DDQQQS
+  [RMB]
+  SSSSSSSFS
+  [RMB]
+  DDDDDDDDDDDDDDDDDDDDDDDGDWAAAAQASSDQQQQWQDQ111111 1WEDSWF[Tab]
+  [LMB]
+  [LMB]
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWD
+  [RMB]
+  AAAAAAAAAAAAAAAAAAD
+  [RMB]
+  DDDDDDDDDDD[Tab]D[Tab]
+  [RMB]
+  [Tab]DDDDDDDDDDDDDDDDDDDDWWWWWWWWWWWWWWWWWWWWWWWWWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWDWSAAAAAWA
+  [RMB]
+  AAAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAAADDWDSSSSSSSSSSSSSSSSSSSSSSSSDASWWWWWWWWWWWAWAAAA|AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  [RMB]
+  SDS 111D111S11AFFRRRR
+  [LMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWDDAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  [RMB]
+  [RMB]
+  DD
+  [RMB]
+  DDDDDDDDDDDDDDWWWWWWWWWWWWWWWWWWWWDW1111DASFFRRRRRDW2WWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWWWW[Tab]AAAAAAAAAAA||||||||
+  [RMB]
+  [LMB]
+  [LMB]
+  DDD
+  [RMB]
+  WW
+  [LMB]
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAAADDDDDDD
+  [RMB]
+  ADAA 
+  [RMB]
+  [RMB]
+  DDDDDDD1111DDAS1ARRRRRRSD111AW11DFDS1111SAESAFFRRRRW1W  1111 111 DW11AW1W
+  [RMB]
+  111
+  [RMB]
+  1
+  [RMB]
+  SD111AFFFRRWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWWWDWQ
+  [LMB]
+  [RMB]
+  11D11
+  [LMB]
+  [RMB]
+  WDW
+  [LMB]
+  [RMB]
+  WWWWWWWDA
+  [RMB]
+  [RMB]
+  AA
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  H
+  [LMB]
+  [Esc]
+  [RMB]
+  WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWWWWWWDW
+  [RMB]
+  [LMB]
+  DWWWWWAWAAAAAAAAAAAAAAAAAAAWADDDDDDDDDDDDDDDDDWADDADDAAWD
+  [RMB]
+  [LMB]
+    
+  [RMB]
+   
+  [LMB]
+  [Esc]DA
+  [LMB]
+  S
+  [RMB]
+  DAS[Esc][Esc]
+  [RMB]
+  AD
+  [RMB]
+  DW
+  [RMB]
+  SADA
+  [LMB]
+  [Esc]
+  [RMB]
+  W
+  [RMB]
+  WWWWDWDDWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAD
+  [RMB]
+  [RMB]
+  DW[Tab]
+  [RMB]
+  D
+  [LMB]
+  [RMB]
+  WWWWWWWWWDWDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDAADWWWWWWWWWWWWWWSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 
+  [RMB]
+  WDSDWASSSSSSSWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWDDDDDDDDWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW              AAAAAWWWWWWDD
+  [RMB]
+  DAD
+  [RMB]
+   CAACCDCA
+  [RMB]
+  [RMB]
+  [RMB]
+                                  
+  [RMB]
+  [RMB]
+         GGGGGGGGGAGGAA111D111111112222WEWEEDWDFFFRRD1111111DQ
+  [RMB]
+  [RMB]
+  DQDQDQQQQ11111W11WARAWRAFFFAFRRDW111D1111SRAFEWD1111ARRSRD11
+  [LMB]
+  [RMB]
+  111111WFAFSFFFARRWR
+  [RMB]
+  R11111D1QQQQQQQQ1111111EEDSFFARRWRRRRRRRFFD
+  [RMB]
+  FFFFA1111111RRRRRRRRRFFF111111F111AWWWWWWWDW
+  [RMB]
+  11111FFFFAFWF
+  [RMB]
+  FFWFFFFFFFFFAFFFRRRRFFF11QQQQQQQQD WA[Tab]D11111111111111111RRRRFFFFFFFFFFFFFFFWA[Tab]
+  [RMB]
+  |111111AFFFFFSFARRRWRRARRRRD11D11W1DSAWDQQQQQQQQQQQQQQQQ[Tab][Tab]11111111DASFFFFFFFFRRWRRRR1111122222RRRRRRAFFFARRAR11111111122222FAFFFARRRWR11RRRRRRRRRRREEEEEEAW1111QQDQQQ
+  [RMB]
+  W
+  [RMB]
+  111111111111AFFA11111111EAERRRRRRRSRRRRRRRRRRWRWRWFFFFFFFF1GGGAGADSAFFFW111RRRRRRRRRRRRRRF
+  [RMB]
+  WFFFFFF11DS1111ARRRRDW11AWFFFWFFSFFSFFFDW111DWWRRSDFFFFAW111111RRRRRW11DAWAFASFAFFFFW111W
+  [RMB]
+  W  [Tab] 11111AWFFFRWRRRWD1111122222233333WWWWWFFFAFFRRWRWRDWWD1111WD11W11SQAFFFRRRR11111
+  [RMB]
+  1W11111QQDFFSFFADWRRRR11111122WFFFADS1D11SAR22WA  SRR RRSW11 11  11 11 D1111111111AFFFFFR
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  W     
+  [RMB]
+  MMA
+  [RMB]
+  DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDWDDDAAAD
+  [RMB]
+  DD
+  [RMB]
+  SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  [RMB]
+  SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSASW
+  [RMB]
+  W
+  [RMB]
+  WQQQQQQQQQQQQQQQQQQ11SD1W11S1111SAW11DSFFAFFFRRREEDWFFF1111D111
+  [LMB]
+  [RMB]
+  N
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [RMB]
+  WWW WMM  A
+  [RMB]
+  DDDDD
+  [RMB]
+  AAAAAAAAAAAAAAAAAAWWWWWWWWWWWWWWWAW               
+  [RMB]
+  [RMB]
+  DDD1111D1111SAFF333333
+  [RMB]
+  DSRRRRRA1ADAWFWFAFFFFFFFEEFWFFSFFFFFAW11AW111111AW112123123
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  MMW
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWDDAAADDDAAAADDADAADADAD
+  [RMB]
+  D
+  [RMB]
+  [RMB]
+  D  11111111Q1AGGGWD11112DSA34WAWRRRDWFFFFSFAFFW111111AWRRWRRRRR111ARWFFF11D2SRRRRW111EEEEEFAWFFFRRR111111111 1111RRRRRRRARW2FFWFF111111111QQQQQQQQQQS
+  [RMB]
+  SSDSAW11111111111FFFRRRRRF
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  WWWW 
+  [RMB]
+  [RMB]
+  DWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWWWWWWWA
+  [RMB]
+  11111111A11DWRRRRRDSAWWFFFFFSD1D11SA22RRDAWAWW
+  [RMB]
+  WWWWWDDW
+  [LMB]
+  WWWDAAAD
+  [RMB]
+  DAA
+  [RMB]
+  [RMB]
+  [RMB]
+  ADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDWA
+  [RMB]
+  [RMB]
+  SSA
+  [RMB]
+  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW111DW1W111WRRRRRREDWFSD11WWWWWQWQS11112WQWAAS11111D111111SAWD11WDWRRDSWSAWRRASSFFDWAWFQQQQQQQQQQAFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF11EEWD[Tab]AD
+  [RMB]
+  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAW
+  [RMB]
+  [RMB]
+  DW
+  [RMB]
+  1D11111
+  [LMB]
+  [RMB]
+  DW
+  [LMB]
+  [LMB]
+  N
+  [LMB]
+  [LMB]
+  [LMB]
+  CCH
+  [LMB]
+  [LMB]
+  [LMB]
+  N
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [RMB]
+  DA
+  [RMB]
+  SA
+  [RMB]
+  WDDDDDDDDDDDDDDDDDDDAAA
+  [RMB]
+  A
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [RMB]
+  DWADD
+  [RMB]
+  A
+  [LMB]
+  AWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+  [RMB]
+  WWWWWWWWWWWWWAWAAAAAAAAAAAAAAAAWWWWWWW[Esc][Esc]OOI
+  [LMB]
+  O[Esc]C
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 14:39:47  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:39:47  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 14:39:48  [Tauri Launcher.exe] Tauri Launcher
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 14:39:52  [UWowSA-64.exe] World of Warcraft
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc][Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 14:40:29  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:40:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 14:40:31  [explorer.exe] Ventana de desbordamiento de la bandeja del sistema.
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 14:40:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:40:32  [SearchHost.exe] Buscar
+----------------------------------------------------------------------------
+  S[ENTER]
+
+--- WINDOW  2026/08/09 14:40:36  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:40:44  [Tauri Launcher.exe] Tauri Launcher
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:40:44  [ShellExperienceHost.exe] Nueva notificación
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 14:40:46  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:40:46  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:40:46  [explorer.exe] Ventana de desbordamiento de la bandeja del sistema.
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:40:47  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:40:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/08/09 14:40:49  [steamwebhelper.exe] Iniciar sesión en Steam
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:40:49  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/08/09 14:40:50  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 14:40:51  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:41:03  [steamwebhelper.exe] Steam
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:41:04  [steamwebhelper.exe] Ofertas especiales
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 14:41:07  [steamwebhelper.exe] Steam
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/09 14:44:22  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:44:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:44:24  [explorer.exe] Ventana de desbordamiento de la bandeja del sistema.
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/08/09 14:44:25  [steamwebhelper.exe] Menu
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 14:44:26  [explorer.exe] Ventana de desbordamiento de la bandeja del sistema.
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:44:26  [steamwebhelper.exe] Steam
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:44:26  [steamwebhelper.exe] Cerrar
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:44:27  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:44:43  [explorer.exe] Ventana de desbordamiento de la bandeja del sistema.
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:44:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 14:44:43  [MonsterHunterWorld.exe] MONSTER HUNTER: WORLD(421471)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 15:11:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 15:11:24  [MonsterHunterWorld.exe] MONSTER HUNTER: WORLD(421471)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 15:11:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 15:11:27  [explorer.exe] Vista de tareas
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 15:11:31  [MonsterHunterWorld.exe] Mensajes del sistema
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/09 15:11:31  [MonsterHunterWorld.exe] MONSTER HUNTER: WORLD(421471)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 15:11:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 15:11:40  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/09 15:39:46  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
