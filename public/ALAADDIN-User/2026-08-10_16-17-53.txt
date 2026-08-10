@@ -1,0 +1,197 @@
+﻿  [LMB]
+  [RMB]
+  [Ctrl]
+  [RMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [RMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl]
+  [RMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [RMB]
+  [LMB]
+  [Ctrl]
+  [RMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [RMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [RMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]z[Ctrl]
+  [RMB]
+  [Ctrl]
+  [RMB]
+  [Ctrl]
+  [LMB]
+  [X1]
+  [Ctrl]
+  [RMB]
+  [Ctrl]
+  [RMB]
+  [Ctrl]
+  [LMB]
+  [Ctrl]
+  [RMB]
+  [RMB]
+  [Ctrl]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [Ctrl]
+  [RMB]
+  [RMB]
+  [Ctrl]
+  [RMB]
+  [RMB]
+  [LMB]
+  [Ctrl]
+  [RMB]
+  [RMB]
+
+--- WINDOW  2026/08/10 15:36:33  [ZBrush.exe] Export Mesh...
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 15:36:36  [explorer.exe] Meshs - File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 15:36:36  [explorer.exe] SP - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 15:36:36  [explorer.exe] Cowboy - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 15:36:37  [explorer.exe] Maya - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 15:36:38  [explorer.exe] MeshForRetopo - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+  c
+  [Clipboard]
+  D:\3DBlur\ClientWork\Proto\Cowboy\Maya\MeshForRetopo
+
+--- WINDOW  2026/08/10 15:36:40  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 15:36:40  [ZBrush.exe] Export Mesh...
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  head-high
+  [LMB]
+
+--- WINDOW  2026/08/10 15:36:50  [ZBrush.exe] ZBrush
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 15:36:56  [chrome.exe] (1353) Oscar & Deep - More than Once - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 15:37:01  [maya.exe] Retopo1.mb* - Autodesk MAYA 2022: D:\3DBlur\ClientWork\Proto\Cowboy\Maya\Save\Retopo1.mb
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 15:37:03  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 15:37:03  [maya.exe] Retopo1.mb* - Autodesk MAYA 2022: D:\3DBlur\ClientWork\Proto\Cowboy\Maya\Save\Retopo1.mb
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 15:37:03  [ShellHost.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 15:37:05  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 15:37:08  [maya.exe] Retopo1.mb* - Autodesk MAYA 2022: D:\3DBlur\ClientWork\Proto\Cowboy\Maya\Save\Retopo1.mb
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 15:37:11  [maya.exe] Retopo1.mb* - Autodesk MAYA 2022: D:\3DBlur\ClientWork\Proto\Cowboy\Maya\Save\Retopo1.mb   ---   Scale
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [MMB]
+  [RMB]
+  [MMB]
+  [RMB]
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 15:37:20  [maya.exe] Retopo1.mb* - Autodesk MAYA 2022: D:\3DBlur\ClientWork\Proto\Cowboy\Maya\Save\Retopo1.mb   ---   Head_High:Group20531
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 15:37:21  [maya.exe] Retopo1.mb* - Autodesk MAYA 2022: D:\3DBlur\ClientWork\Proto\Cowboy\Maya\Save\Retopo1.mb   ---   Scale
+----------------------------------------------------------------------------
+  [LMB]
+  f
+  [LMB]
+  [MMB]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 15:37:24  [maya.exe] Retopo1.mb* - Autodesk MAYA 2022: D:\3DBlur\ClientWork\Proto\Cowboy\Maya\Save\Retopo1.mb
+----------------------------------------------------------------------------
+  [MMB]
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 15:37:29  [maya.exe] Retopo1.mb* - Autodesk MAYA 2022: D:\3DBlur\ClientWork\Proto\Cowboy\Maya\Save\Retopo1.mb   ---   Head_High:Group20531
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+  [->][Bk]3[ENTER]
+  [MMB]
+  [Ctrl]z
+  [LMB]
+  [LMB]
+  [LMB]
+  0[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 15:37:50  [maya.exe] Retopo1.mb* - Autodesk MAYA 2022: D:\3DBlur\ClientWork\Proto\Cowboy\Maya\Save\Retopo1.mb
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 15:37:51  [maya.exe] Retopo1.mb* - Autodesk MAYA 2022: D:\3DBlur\ClientWork\Proto\Cowboy\Maya\Save\Retopo1.mb   ---   Done1|CharacterBody:Head
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [Ctrl]1
+  [RMB]
+
+--- WINDOW  2026/08/10 15:38:00  [maya.exe] Retopo1.mb* - Autodesk MAYA 2022: D:\3DBlur\ClientWork\Proto\Cowboy\Maya\Save\Retopo1.mb
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 15:38:02  [maya.exe] Retopo1.mb* - Autodesk MAYA 2022: D:\3DBlur\ClientWork\Proto\Cowboy\Maya\Save\Retopo1.mb   ---   Done1|CharacterBody:Head
+----------------------------------------------------------------------------
+  [Ctrl]1
+  [RMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 15:39:21  [maya.exe] Retopo1.mb* - Autodesk MAYA 2022: D:\3DBlur\ClientWork\Proto\Cowboy\Maya\Save\Retopo1.mb
+----------------------------------------------------------------------------
+  [Ctrl]s
+
+--- WINDOW  2026/08/10 15:39:28  [maya.exe] Retopo1.mb - Autodesk MAYA 2022: D:\3DBlur\ClientWork\Proto\Cowboy\Maya\Save\Retopo1.mb
+----------------------------------------------------------------------------
