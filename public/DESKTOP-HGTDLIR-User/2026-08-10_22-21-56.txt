@@ -1,0 +1,1605 @@
+﻿  s
+
+--- WINDOW  2026/08/10 21:22:10  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:22:13  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:22:17  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:22:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:22:17  [chrome.exe] Bot Strategy Improvement - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:22:17  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:22:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:22:18  [chrome.exe] Bot Strategy Improvement - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:22:23  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:22:26  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  v
+  [LMB]
+
+--- WINDOW  2026/08/10 21:22:31  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  pr[ENTER]
+
+--- WINDOW  2026/08/10 21:22:36  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  s
+
+--- WINDOW  2026/08/10 21:22:56  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:23:03  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:23:07  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:23:07  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:23:08  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:23:08  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:23:08  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:23:10  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:23:11  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  vjo mene first me sreen shi[Bk]or diu[Bk]ya hi[Bk]ai wo rakhana hai mujhbe[Bk][Bk]e admin side trade lagate hai tn[Bk]b 
+
+--- WINDOW  2026/08/10 21:23:42  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:23:43  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:23:43  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/08/10 21:23:44  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:23:45  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/08/10 21:23:46  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:23:48  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk]
+
+--- WINDOW  2026/08/10 21:23:55  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:23:55  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:23:56  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/08/10 21:23:58  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:23:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:23:59  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/08/10 21:24:00  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:24:03  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+   tar[Bk]rgate or stop loss remove krna hai [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  mujhe eske liye prompt bana kr do cusrr[Bk][Bk]or ke liye 
+  [LMB]
+  [LMB]
+  [LMB]
+   admin side ase [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][ENTER]
+  [LMB]
+  [Clipboard]
+  I need you to modify the Admin Trading Dashboard trade creation form.
+  
+  IMPORTANT:
+  Do not change the existing trading logic, API flow, user selection, broker execution, authentication, or any unrelated functionality. Only make the required UI/form changes and update the backend payload/validation if necessary.
+  
+  CURRENT ADMIN TRADE FORM:
+  The form currently contains fields such as:
+  - Stock Name
+  - Symbol
+  - Buy/Sell
+  - Buy Price
+  - Quantity
+  - Stop Loss
+  - Target
+  - Exchange
+  - Execute on connected broker accounts for selected users
+  - Select All Users / individual users
+  - Assign & Execute Trade
+  
+  REQUIREMENT:
+  Based on the provided reference screenshot/handwritten requirement, when the admin creates a trade, REMOVE:
+  1. Target
+  2. Stop Loss
+  
+  The admin trade form should NOT display Target or Stop Loss fields anymore.
+  
+  KEEP THESE FIELDS:
+  - Stock Name
+  - Symbol
+  - Buy/Sell
+  - Buy Price
+  - Quantity
+  - Exchange
+  - User selection
+  - Execute on connected broker accounts for selected users
+  - Assign & Execute Trade button
+  
+  IMPORTANT UI REQUIREMENT:
+  Make the form clean and properly aligned after removing Target and Stop Loss. Do not leave empty spaces or broken grid alignment.
+  
+  BACKEND REQUIREMENT:
+  First inspect the complete admin trade flow.
+  
+  Search for:
+  - Admin Trading Dashboard component
+  - Create & Assign Trade form
+  - Target field
+  - Stop Loss field
+  - trade creation API
+  - trade DTO/interface/types
+  - validation/schema
+  - controller
+  - service
+  - database model/entity
+  - broker execution/order payload
+  
+  Then determine whether Target and Stop Loss are actually required by the backend.
+  
+  If they are only UI/form fields and not required for the current admin trade execution:
+  - Remove them from the frontend form and request payload.
+  
+  If backend currently requires them:
+  - Update the relevant DTO/validation/schema safely so Target and Stop Loss are optional/not required for admin trade creation.
+  - Do NOT break existing database records or unrelated trading functionality.
+  - Do NOT remove old database columns unless absolutely necessary. This task is primarily about removing Target/Stop Loss from the admin trade creation flow.
+  
+  TRADE EXECUTION:
+  After the changes, admin should still be able to:
+  1. Select Stock Name
+  2. Enter Symbol
+  3. Select BUY/SELL
+  4. Enter Buy/Entry Price
+  5. Enter Quantity
+  6. Select Exchange
+  7. Select users
+  8. Execute/assign the trade
+  
+  The existing broker execution flow must continue working exactly as before.
+  
+  VALIDATION:
+  Make sure the form does NOT reject the trade because Target or Stop Loss are missing.
+  
+  Do not add dummy values such as:
+  - target: 0
+  - stopLoss: 0
+  - target: null
+  - stopLoss: null
+  
+  unless the existing API contract genuinely requires them. Prefer removing them from the request entirely if they are no longer needed.
+  
+  UI:
+  - Match the existing dashboard design.
+  - Maintain the current dark theme.
+  - Keep responsive layout.
+  - Ensure the remaining fields are properly aligned.
+  - Keep the "Assign & Execute Trade" button.
+  - Keep user selection exactly as it currently works.
+  
+  IMPORTANT:
+  Do not modify:
+  - User trading permissions
+  - Admin trading permissions
+  - Broker connection logic
+  - AngelOne integration
+  - Order execution logic
+  - Authentication
+  - WebSocket
+  - Market data
+  - Option chain
+  - Instrument sync
+  - Redis
+  - Database structure unnecessarily
+  
+  After implementation:
+  
+  1. Search the entire frontend/backend codebase for all references to Target and Stop Loss related specifically to ADMIN TRADE CREATION.
+  2. Remove only the unnecessary references from this flow.
+  3. Make sure no TypeScript errors remain.
+  4. Run frontend build.
+  5. Run backend build if backend files were changed.
+  6. Fix any build/type errors caused by this change.
+  7. Review the final diff and make sure no unrelated files/features were changed.
+  
+  Finally, provide me a short report:
+  - Files changed
+  - Target/Stop Loss removed from where
+  - Whether backend payload was changed
+  - Whether API validation was changed
+  - Build result
+  - Confirmation that existing admin trade execution remains intact
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 21:25:55  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:25:55  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:25:56  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:25:56  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:25:56  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:25:57  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:25:58  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:25:58  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:25:59  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/08/10 21:26:00  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 21:28:47  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:28:48  [chrome.exe] cursor.com/loginDeepControl?challenge=jqVUbh0-hpk2KiaEh89iWK79fwtVPMIDX96Ie4e4OCA&uuid=9f69dd76-20c8-4f69-a607-9cf69401f5cc&mode=login&supportsSelectedTeamLogin=true - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:28:48  [chrome.exe] Sign in to Cursor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:28:51  [chrome.exe] Sign in to Cursor — Cursor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:28:55  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:28:57  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:28:58  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:29:00  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:29:01  [chrome.exe] cursor.com/loginDeepControl?challenge=bbAt30q7FR6es-hly5FjfE4bPbfyhNgJuiYDb30Dqbk&uuid=effd4280-98a9-4e32-822f-c6d59920c7f0&mode=login&supportsSelectedTeamLogin=true - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:29:01  [chrome.exe] Sign in to Cursor - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:29:04  [chrome.exe] Sign in to Cursor desktop — Cursor - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:29:08  [chrome.exe] Auth | Cursor - The best way to code with AI - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:29:14  [Cursor.exe] Cursor Agents
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:29:18  [Cursor.exe] Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:29:34  [chrome.exe] Auth | Cursor - The best way to code with AI - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:29:44  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:30:10  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:30:10  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:30:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:30:11  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/08/10 21:30:12  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 21:30:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:30:25  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:30:25  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:30:25  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/08/10 21:30:26  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:30:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:30:34  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:30:34  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:30:35  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:30:35  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/08/10 21:30:36  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:31:02  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:31:02  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:31:03  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/08/10 21:31:04  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   or entru[Bk]i[Bk]y
+
+--- WINDOW  2026/08/10 21:33:08  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:33:08  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:33:08  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:33:08  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:33:12  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:33:12  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:33:12  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+   
+  [LMB]
+
+--- WINDOW  2026/08/10 21:44:17  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:44:27  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:44:28  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  price [<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][->][->] mujhe trade side me ye bhj[Bk]i aad[Bk][Bk]d [Bk]d ikrn[Bk][Bk][Bk][Bk]krn ahai [->][->][->][->][->][->][->][->][->][->][->][->][->] or exti[Bk][Bk]ite 
+
+--- WINDOW  2026/08/10 21:47:43  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:47:44  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:47:45  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:47:45  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:47:46  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  price bhi 
+  [LMB]
+  [LMB]
+  [Clipboard]
+  I need to update the Admin Trading Dashboard UI and trade data flow.
+  
+  IMPORTANT:
+  Before making changes, inspect the existing frontend and backend implementation carefully. Reuse the existing trade APIs, models, services, validation, and execution logic wherever possible. Do not break existing admin trading, user assignment, broker execution, or view-only user functionality.
+  
+  REFERENCE UI:
+  I have provided a screenshot of the current Admin Trading Dashboard and a handwritten requirement image. Use them as the reference for the required fields and terminology.
+  
+  CURRENT ADMIN TRADE FORM:
+  - Stock Name
+  - Symbol
+  - BUY / SELL
+  - Buy Price
+  - Quantity
+  - Stop Loss
+  - Target
+  - Exchange
+  - Execute on connected broker accounts
+  - User selection
+  
+  REQUIRED CHANGES:
+  
+  1. REMOVE TARGET AND STOP LOSS FROM ADMIN TRADE CREATION
+  
+  When admin creates/assigns a trade:
+  - Remove the "Target" field from the Admin Trading form.
+  - Remove the "Stop Loss" field from the Admin Trading form.
+  - Do NOT send target or stop-loss values in the trade creation request.
+  - Remove target/stop-loss validation from this specific admin trade creation flow if it is no longer required.
+  - Do not remove target/stop-loss functionality from unrelated existing features unless the codebase proves it is only used for this admin trade flow.
+  
+  2. KEEP ENTRY PRICE
+  
+  The admin must enter an "Entry Price".
+  
+  Use the terminology:
+  - Entry Price
+  
+  This should represent the price at which the trade is intended to be entered.
+  
+  The form should contain:
+  - Stock Name
+  - Symbol
+  - BUY / SELL
+  - Entry Price
+  - Quantity
+  - Exchange
+  - Execute on connected broker accounts
+  - User selection
+  
+  3. ADD EXIT PRICE
+  
+  Add an "Exit Price" field to the admin trade side/form.
+  
+  Use the exact terminology:
+  - Exit Price
+  
+  The admin should be able to specify the expected/defined exit price.
+  
+  The final form should have:
+  
+  Stock Name
+  Symbol
+  BUY / SELL
+  Entry Price
+  Exit Price
+  Quantity
+  Exchange
+  Execute on connected broker accounts
+  User selection
+  
+  4. IMPORTANT TRADE LOGIC
+  
+  Do not blindly implement this only in the UI.
+  
+  Trace the complete flow:
+  
+  Admin UI
+  → API request
+  → Controller
+  → Service
+  → Trade model/schema
+  → Database
+  → User assignment
+  → Broker execution
+  → Trade status/history
+  
+  Make sure Entry Price and Exit Price are correctly supported throughout the flow wherever required.
+  
+  Determine from the existing architecture whether:
+  - entryPrice already exists under another name such as buyPrice, price, executionPrice, etc.
+  - exitPrice already exists
+  - trade history already stores entry/exit prices
+  
+  If an existing field already represents the same concept, reuse it instead of creating duplicate fields.
+  
+  5. ADMIN TRADE UI
+  
+  Update the Admin Trading Dashboard professionally.
+  
+  Remove:
+  - Stop Loss
+  - Target
+  
+  Add:
+  - Entry Price
+  - Exit Price
+  
+  Keep the existing:
+  - Stock Name
+  - Symbol
+  - BUY/SELL
+  - Quantity
+  - Exchange
+  - User selection
+  - Execute on connected broker accounts
+  
+  Maintain the current dark theme, spacing, responsive layout, and visual style.
+  
+  Do not redesign the entire dashboard unnecessarily.
+  
+  6. BUY / SELL BEHAVIOR
+  
+  Check existing BUY/SELL logic carefully.
+  
+  For BUY:
+  - Entry Price should represent the buy/entry price.
+  - Exit Price should represent the exit price.
+  
+  For SELL:
+  - Entry Price should represent the sell/entry price.
+  - Exit Price should represent the exit price.
+  
+  Do not introduce incorrect assumptions about actual broker execution price.
+  
+  If the broker returns the actual execution/fill price, preserve that as the actual execution price and do not overwrite it incorrectly with the admin-entered Entry Price.
+  
+  7. DATABASE / BACKEND
+  
+  Inspect existing trade-related schemas/models first.
+  
+  If entryPrice and exitPrice already exist:
+  - reuse them.
+  
+  If they do not exist:
+  - add them using the project's existing ORM/database conventions.
+  - create the required migration if the project uses migrations.
+  
+  Do NOT create duplicate columns such as:
+  - buyPrice
+  - entryPrice
+  - executionPrice
+  
+  unless they have clearly different meanings in the existing architecture.
+  
+  Preserve existing historical trade records.
+  
+  8. API
+  
+  Update the admin trade creation API request/DTO/schema accordingly.
+  
+  Expected conceptual payload:
+  
+  {
+    stockName,
+    symbol,
+    side,
+    entryPrice,
+    exitPrice,
+    quantity,
+    exchange,
+    executeOnBroker,
+    selectedUsers
+  }
+  
+  Use the actual naming conventions already used by the project if they differ.
+  
+  Do not expose or require target/stopLoss for this admin trade creation flow.
+  
+  9. VALIDATION
+  
+  Add proper validation:
+  
+  - Entry Price must be a valid positive number.
+  - Exit Price must be a valid positive number.
+  - Quantity must be a valid positive number.
+  - Symbol is required.
+  - Stock Name is required if currently required.
+  - BUY/SELL is required.
+  - Exchange is required.
+  - At least one user must be selected when the current workflow requires user assignment.
+  
+  Do not allow invalid negative prices.
+  
+  10. TRADE HISTORY / ADMIN VIEW
+  
+  Inspect existing admin trade/history screens.
+  
+  Where trade details are displayed, make sure they use:
+  
+  Entry Price
+  Exit Price
+  
+  instead of showing Target / Stop Loss for this trade flow.
+  
+  Do not remove useful actual execution/fill price information if it is already tracked separately.
+  
+  11. USER SIDE
+  
+  Do NOT add Buy/Sell controls to normal users.
+  
+  The existing view-only behavior must remain unchanged.
+  
+  Users should only receive/view the trade information that the existing architecture allows.
+  
+  If the existing user-side trade/history UI displays entry/exit information, update it appropriately.
+  
+  12. BROKER EXECUTION SAFETY
+  
+  IMPORTANT:
+  Do not change the existing broker execution architecture unnecessarily.
+  
+  Before modifying execution logic, inspect how the current system handles:
+  - broker order placement
+  - order status
+  - fill/execution price
+  - trade assignment
+  - user broker connections
+  - AngelOne/API execution
+  
+  The admin-entered Entry Price must not incorrectly be treated as the actual broker fill price if the broker returns a different execution price.
+  
+  Preserve the existing broker execution behavior unless changes are required to support the new fields.
+  
+  13. SEARCH THE CODEBASE FIRST
+  
+  Before editing, search for:
+  
+  - target
+  - stopLoss
+  - buyPrice
+  - sellPrice
+  - entryPrice
+  - exitPrice
+  - executionPrice
+  - trade creation API
+  - admin trade controller
+  - admin trade service
+  - trade schema/model
+  - trade history
+  - broker order execution
+  
+  Identify all affected files.
+  
+  Then implement the smallest clean set of changes.
+  
+  14. BUILD AND TEST
+  
+  After implementation:
+  
+  Backend:
+  npm run build
+  
+  Frontend:
+  npm run build
+  
+  Fix all TypeScript/build errors.
+  
+  Also test:
+  
+  A. BUY trade
+  - Entry Price works
+  - Exit Price works
+  - Target/Stop Loss are absent
+  
+  B. SELL trade
+  - Entry Price works
+  - Exit Price works
+  - Target/Stop Loss are absent
+  
+  C. User assignment works
+  
+  D. Broker execution behavior remains unchanged
+  
+  E. Existing trade history still works
+  
+  F. Normal users remain view-only
+  
+  15. FINAL REPORT
+  
+  After completing the changes, provide a concise report containing:
+  
+  1. Files changed
+  2. UI changes
+  3. Backend/API changes
+  4. Database changes/migration if any
+  5. Trade execution impact
+  6. Validation changes
+  7. Build results
+  8. Any remaining risks/issues
+  
+  IMPORTANT:
+  Do not make unrelated changes.
+  Do not remove existing trading functionality.
+  Do not modify user authentication.
+  Do not modify broker authentication.
+  Do not modify option-chain functionality.
+  Do not modify instrument sync.
+  Do not modify the existing view-only restriction.
+  Do not introduce target/stop-loss back into the admin trade creation form.
+
+--- WINDOW  2026/08/10 21:48:39  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:48:39  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  v[ENTER]
+  [LMB]
+  [LMB]
+  v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 21:51:13  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+  an
+  [LMB]
+
+--- WINDOW  2026/08/10 21:51:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:51:24  [Antigravity IDE.exe] Antigravity IDE
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:51:30  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - index.ts
+----------------------------------------------------------------------------
+  v[ENTER]
+
+--- WINDOW  2026/08/10 21:56:17  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 21:56:18  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - index.ts
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 21:56:46  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 22:03:13  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:03:14  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 22:03:23  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+  docker[ENTER]
+
+--- WINDOW  2026/08/10 22:03:27  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:03:42  [Docker Desktop.exe] Dashboard - Docker Desktop
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:03:44  [msrdc.exe] Remote Desktop
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:03:44  [msrdc.exe] RemoteApp
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:04:29  [Docker Desktop.exe] Containers - Docker Desktop
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:04:30  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  cd [Tab][ENTER]
+  cd [Tab][Tab][Tab][ENTER]
+  npm run dev[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  cd [Tab][Tab][Bk][Bk][Bk][Bk][Bk][ENTER]
+  cd [Tab][Tab][Tab][Tab][Tab][Tab][ENTER]
+  npm run dev[ENTER]
+  [LMB]
+  [Clipboard]
+  http://localhost:3001
+  c
+
+--- WINDOW  2026/08/10 22:07:31  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:07:31  [Docker Desktop.exe] Containers - Docker Desktop
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:07:32  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:07:32  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab][Tab]
+
+--- WINDOW  2026/08/10 22:07:34  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 22:07:36  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/10 22:07:46  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  rhe app me ek or ch add rk[Bk][Bk]jn[Bk][Bk]krna hia [Bk][Bk][Bk]ai a[Bk]user apna account permaneta[Bk][Bk]taly delete bhi kr ske usng app b[Bk][Bk][Bk][Bk][Bk]bie[Bk]le app [ENTER]
+  [ENTER]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/10 22:09:42  [chrome.exe] localhost:3001/admin/dashboard - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:11:50  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:11:50  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:11:52  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:11:52  [chrome.exe] localhost:3001/admin/dashboard - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [ENTER]
+
+--- WINDOW  2026/08/10 22:11:56  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:12:01  [chrome.exe] localhost:3001/admin/dashboard - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:12:01  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 22:12:08  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  http://localhost:3001/user/dashboard
+
+--- WINDOW  2026/08/10 22:12:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:12:17  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 22:12:19  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/08/10 22:12:20  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:12:27  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:12:27  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 22:12:50  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - seedAdmin.ts
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  c
+  [Clipboard]
+  alpharesearch555@gmail.com
+
+--- WINDOW  2026/08/10 22:12:57  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:12:57  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  v
+
+--- WINDOW  2026/08/10 22:13:01  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:13:02  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - seedAdmin.ts
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Admin@123
+  c
+
+--- WINDOW  2026/08/10 22:13:07  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:13:07  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 22:13:13  [chrome.exe] Save password?
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:13:13  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:13:15  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 22:13:15  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  s
+
+--- WINDOW  2026/08/10 22:13:37  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 22:13:42  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 22:13:44  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - seedAdmin.ts
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 22:13:46  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:13:47  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  v[ENTER]
+
+--- WINDOW  2026/08/10 22:16:00  [chrome.exe] (8) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:16:03  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 22:18:15  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - seedAdmin.ts
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/10 22:18:20  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:18:21  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:18:23  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/08/10 22:18:24  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:18:25  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  I need you to modify the existing project based on the current codebase. Before making changes, inspect the existing backend, admin frontend, and mobile app architecture and understand the current trade flow and authentication/account system.
+  
+  IMPORTANT:
+  - Do not break any existing trading functionality.
+  - Do not change unrelated features.
+  - Reuse the existing APIs, services, database models, authentication, validation, and UI components wherever possible.
+  - Follow the existing project coding style.
+  - Do not create duplicate logic if an existing service/API can be extended.
+  
+  ==================================================
+  PART 1 — ADMIN TRADING DASHBOARD CHANGES
+  ==================================================
+  
+  I have provided a reference screenshot of the desired admin trade form.
+  
+  Current admin trade form contains fields such as:
+  - Stock Name
+  - Symbol
+  - BUY/SELL
+  - Buy Price
+  - Quantity
+  - Stop Loss
+  - Target
+  - Exchange
+  - User selection
+  - Execute on connected broker accounts
+  
+  I want to change the admin trading form as follows.
+  
+  1. REMOVE TARGET AND STOP LOSS
+  
+  Remove these fields completely from the admin trade creation/assignment UI:
+  
+  - Target
+  - Stop Loss
+  
+  They should NOT be displayed when admin creates a new trade.
+  
+  Also inspect the backend:
+  - Remove target/stop-loss as required fields from the admin trade creation flow if they are currently required.
+  - Do not break old trade records that may already contain target/stop-loss data.
+  - Existing historical records should continue to work.
+  - Do not remove database columns blindly if they are used elsewhere.
+  
+  2. ADD ENTRY PRICE
+  
+  Add a new field:
+  
+  Entry Price
+  
+  This should represent the actual price at which the trade is entered.
+  
+  Requirements:
+  - Admin should be able to enter Entry Price while creating a trade.
+  - Validate it as a positive number.
+  - Use the existing validation pattern.
+  - Store it correctly in the trade record.
+  - Use the existing trade model/schema if an equivalent field already exists.
+  - Do not create duplicate fields such as buyPrice + entryPrice if the current architecture already has an appropriate entry-price field. First inspect the existing model and determine the cleanest implementation.
+  
+  3. ADD EXIT PRICE
+  
+  Add:
+  
+  Exit Price
+  
+  This represents the actual price at which the trade is exited/closed.
+  
+  Important:
+  - Exit Price should NOT be mandatory while creating a new/open trade.
+  - A new trade normally has an Entry Price but no Exit Price.
+  - Exit Price should be populated when the trade is closed/exited.
+  - Validate it as a positive number when provided.
+  - Do not force admin to enter Exit Price during initial trade creation.
+  
+  If the existing system already has close/exit functionality, integrate Exit Price into that flow instead of creating a separate duplicate flow.
+  
+  4. BUY / SELL SUPPORT
+  
+  The form must continue supporting:
+  - BUY
+  - SELL
+  
+  Entry/exit logic must work correctly for both BUY and SELL trades.
+  
+  Do not hard-code BUY-only logic.
+  
+  5. ADMIN UI
+  
+  Update the admin trading dashboard so the form is clean and simple.
+  
+  Suggested layout:
+  
+  Row 1:
+  - Stock Name
+  - Symbol
+  - BUY / SELL
+  
+  Row 2:
+  - Entry Price
+  - Quantity
+  - Exchange
+  
+  Do NOT show:
+  - Target
+  - Stop Loss
+  
+  Exit Price should generally be handled during the exit/close-trade flow rather than required during creation.
+  
+  Keep:
+  - User selection
+  - Select All Users
+  - Execute on connected broker accounts
+  - Assign & Execute Trade
+  
+  unless code inspection shows a better existing flow.
+  
+  6. TRADE LIST / DETAILS
+  
+  Inspect all admin trade list/detail/table components.
+  
+  Where appropriate, display:
+  
+  - Stock Name
+  - Symbol
+  - BUY / SELL
+  - Entry Price
+  - Exit Price
+  - Quantity
+  - Status
+  - Entry Time
+  - Exit Time
+  
+  Do not display Target/Stop Loss in new trade UI.
+  
+  For an OPEN trade:
+  Exit Price can show:
+  - "-"
+  
+  For a CLOSED/EXITED trade:
+  Exit Price should show the actual exit price.
+  
+  7. BACKEND
+  
+  Trace the complete flow:
+  
+  Admin UI
+  → API
+  → Controller
+  → Service
+  → Database
+  → Broker execution
+  → User trade assignment
+  
+  Make sure Entry Price and Exit Price are correctly handled throughout the complete flow.
+  
+  Do not only modify the frontend.
+  
+  Check:
+  - DTOs
+  - validation
+  - controllers
+  - services
+  - database schema/models
+  - trade creation
+  - trade update
+  - exit/close trade
+  - broker execution
+  - user trade assignment
+  - admin trade history
+  
+  8. EXISTING TRADING BEHAVIOR
+  
+  Do NOT change:
+  - Admin trade execution logic
+  - User assignment logic
+  - Broker connection logic
+  - AngelOne integration
+  - Existing authentication
+  - Existing user permissions
+  - Existing view-only market functionality
+  - Existing option-chain functionality
+  
+  Only modify the required trade fields and account deletion functionality described below.
+  
+  ==================================================
+  PART 2 — PERMANENT USER ACCOUNT DELETION
+  ==================================================
+  
+  I also want to add a feature in the MOBILE APP where a logged-in user can permanently delete their account.
+  
+  The user should be able to delete their own account from the mobile app.
+  
+  IMPORTANT:
+  This must be a real backend account deletion, NOT just removing the user from the mobile UI or logging them out.
+  
+  1. MOBILE APP UI
+  
+  Find the existing:
+  - Profile
+  - Settings
+  - Account
+  - User Settings
+  
+  screen.
+  
+  Add:
+  
+  "Delete Account"
+  
+  Preferably under a clearly separated "Danger Zone" or account management section.
+  
+  Example:
+  
+  Account
+  ----------------
+  Profile
+  Settings
+  Change Password
+  
+  Danger Zone
+  ----------------
+  Delete Account
+  
+  2. DELETE ACCOUNT CONFIRMATION
+  
+  When the user taps "Delete Account":
+  
+  Show a clear confirmation dialog/screen.
+  
+  Example:
+  
+  Delete Account?
+  
+  This action is permanent and cannot be undone.
+  Your account and associated data will be permanently deleted.
+  
+  Buttons:
+  
+  Cancel
+  Delete Account
+  
+  Do NOT delete immediately after the first tap.
+  
+  3. OPTIONAL EXTRA CONFIRMATION
+  
+  If the existing authentication/security architecture supports it, use an additional confirmation such as:
+  - password confirmation
+  - OTP
+  - current session verification
+  
+  Do not invent a new authentication system if the project already has one.
+  
+  Use the existing authentication mechanism where appropriate.
+  
+  4. BACKEND DELETE API
+  
+  Inspect the current backend authentication/user architecture.
+  
+  Create or extend an authenticated endpoint such as:
+  
+  DELETE /api/users/me
+  
+  or follow the existing API naming convention.
+  
+  The endpoint must:
+  - Require authentication.
+  - Identify the user from the authenticated session/JWT.
+  - NEVER accept a userId from the client as the authority for deletion.
+  - Prevent a user from deleting another user's account.
+  - Permanently delete/deactivate the authenticated user's account according to the project's existing data policy.
+  
+  5. DATABASE / RELATED DATA
+  
+  Before implementing deletion, inspect all user-related models and relationships.
+  
+  Determine what should happen to:
+  - User profile
+  - User sessions/tokens
+  - Broker connections
+  - AngelOne credentials/tokens
+  - User trades
+  - User preferences
+  - Notifications
+  - Watchlists
+  - Other user-owned records
+  
+  Use the existing database relationship/cascade strategy if available.
+  
+  IMPORTANT:
+  Do NOT blindly delete shared/reference data.
+  
+  If some historical trading records must be retained for audit/compliance purposes, preserve them according to the existing project's architecture and anonymize/detach them from the deleted account where appropriate.
+  
+  Do not delete admin/global/system data.
+  
+  6. BROKER / ANGELONE CLEANUP
+  
+  Before permanently deleting the user, inspect whether the user has:
+  - AngelOne broker connection
+  - access tokens
+  - refresh tokens
+  - broker API credentials
+  - broker account metadata
+  
+  Ensure sensitive broker/session credentials are removed or invalidated appropriately.
+  
+  Do not expose any credentials in API responses or logs.
+  
+  7. AUTHENTICATION AFTER DELETE
+  
+  After successful deletion:
+  
+  Backend should return a clear success response.
+  
+  Mobile app should:
+  - clear access token
+  - clear refresh token/session data
+  - clear locally cached user data
+  - clear sensitive local storage
+  - disconnect active WebSocket/socket connections
+  - navigate to Login/Welcome screen
+  
+  The deleted user must not remain logged in.
+  
+  8. ERROR HANDLING
+  
+  Handle cases such as:
+  - already deleted account
+  - invalid/expired session
+  - database failure
+  - broker cleanup failure
+  - network failure
+  
+  Show user-friendly messages.
+  
+  Never expose stack traces, database errors, tokens, passwords, or sensitive credentials to the mobile app.
+  
+  9. SECURITY
+  
+  Account deletion must be protected against:
+  - deleting another user
+  - unauthenticated deletion
+  - IDOR
+  - accidental deletion
+  - duplicate deletion requests
+  - CSRF where applicable
+  - replay/expired authentication
+  
+  Use the existing authentication middleware and security patterns.
+  
+  10. AUDIT / LOGGING
+  
+  If the project has an audit log system, record:
+  - account deletion requested
+  - account deletion completed
+  
+  Do NOT log:
+  - passwords
+  - JWTs
+  - API keys
+  - broker credentials
+  - TOTP secrets
+  
+  ==================================================
+  PART 3 — DATABASE SAFETY
+  ==================================================
+  
+  Before changing database schema:
+  
+  1. Inspect existing schema/models.
+  2. Identify whether Entry Price / Exit Price already exist under different names.
+  3. Identify all relations connected to User.
+  4. Avoid unnecessary migrations.
+  5. If a migration is required, create a proper migration.
+  6. Do not destroy production data.
+  7. Do not remove existing columns unless you have verified they are no longer used anywhere.
+  
+  ==================================================
+  PART 4 — TESTING
+  ==================================================
+  
+  After implementation, test the complete flow.
+  
+  ADMIN TRADE:
+  
+  1. Login as admin.
+  2. Open Admin Trading Dashboard.
+  3. Confirm Target is removed.
+  4. Confirm Stop Loss is removed.
+  5. Confirm Entry Price exists.
+  6. Confirm Exit Price is NOT required when creating a new trade.
+  7. Create BUY trade.
+  8. Create SELL trade.
+  9. Assign trade to selected user.
+  10. Verify trade is saved correctly.
+  11. Verify broker execution still works.
+  12. Close/exit the trade.
+  13. Enter/receive Exit Price.
+  14. Verify Exit Price appears in trade history/details.
+  
+  ACCOUNT DELETION:
+  
+  1. Login as normal user in mobile app.
+  2. Open Profile/Settings.
+  3. Find Delete Account.
+  4. Tap Delete Account.
+  5. Confirm warning dialog.
+  6. Cancel and verify nothing happens.
+  7. Repeat and confirm deletion.
+  8. Verify backend deletes/deactivates the correct account.
+  9. Verify related user data is handled correctly.
+  10. Verify tokens/session are cleared.
+  11. Verify socket/WebSocket disconnects.
+  12. Verify app returns to Login screen.
+  13. Try using the old session/token and confirm it cannot access protected user APIs.
+  14. Verify another user's account cannot be deleted.
+  
+  ==================================================
+  PART 5 — BUILD & REGRESSION CHECK
+  ==================================================
+  
+  After changes:
+  
+  Backend:
+  - npm run build
+  
+  Web frontend:
+  - npm run build
+  
+  Mobile:
+  - Run the existing Android build command.
+  - Verify there are no TypeScript/React Native errors.
+  
+  Also inspect for:
+  - TypeScript errors
+  - lint errors
+  - broken imports
+  - API contract mismatches
+  - database migration issues
+  
+  Do not modify unrelated functionality.
+  
+  ==================================================
+  FINAL REPORT
+  ==================================================
+  
+  After completing the implementation, provide a concise report containing:
+  
+  1. Root cause / current architecture found
+  2. Files changed
+  3. Admin trade changes
+  4. Entry Price implementation
+  5. Exit Price implementation
+  6. Target/Stop Loss removal
+  7. Account deletion implementation
+  8. Backend API added/modified
+  9. Database changes/migrations
+  10. Security considerations
+  11. Tests performed
+  12. Build results
+  13. Any remaining issues
+  
+  IMPORTANT:
+  Do not just report what should be changed. Actually inspect the repository and implement the changes.
+  
+  Before finishing, search the entire codebase for:
+  - target
+  - stopLoss
+  - entryPrice
+  - exitPrice
+  - buyPrice
+  - trade creation
+  - trade exit/close
+  - user deletion
+  - delete account
+  - User model
+  - authentication/session cleanup
+  
+  This is necessary to make sure the changes are complete and do not leave broken references.
+
+--- WINDOW  2026/08/10 22:18:44  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/08/10 22:18:45  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - seedAdmin.ts
+----------------------------------------------------------------------------
+  [LMB]
+  v[ENTER]
+
+--- WINDOW  2026/08/10 22:18:55  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:18:56  [chrome.exe] (7) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 22:19:04  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - seedAdmin.ts
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:19:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/10 22:19:06  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 22:19:15  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/10 22:19:19  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  app deplyment ke liye jo chije chahiye wo che[Bk][Bk][Bk]mer app ke andar chah[Bk]ah[Bk][Bk]hiye wo chck [Bk][Bk][Bk]eck kro adr [Bk][Bk][Bk]gae [Bk][Bk][Bk]ar nhi ho to add kr dena appke ana[Bk][Bk][Bk]andar hi add krna hia [Bk][Bk][Bk]ai mujhe [ENTER]
+  [ENTER]
+  to c[Bk]dock ke andar bhit chije hai to a[Bk]mobile app ke liye jo chnages uske liye prompt ban [Bk]a kr do [ENTER]
