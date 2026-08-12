@@ -1,0 +1,365 @@
+﻿  [v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][v][v][v][v]
+  [Clipboard]
+  <section class="elara-categories">
+    <div class="elara-categories__header">
+      <p class="elara-categories__eyebrow">EXPLORE ELARA</p>
+      <h2>Shop by Category</h2>
+      <p>Timeless pieces, designed to be worn and remembered.</p>
+    </div>
+  
+    <div class="elara-categories__grid">
+  
+      <a href="/collections/rings" class="elara-category">
+        <div class="elara-category__image">
+          <div class="elara-category__placeholder">RINGS</div>
+        </div>
+        <h3>Rings</h3>
+        <span>Discover</span>
+      </a>
+  
+      <a href="/collections/earrings" class="elara-category">
+        <div class="elara-category__image">
+          <div class="elara-category__placeholder">EARRINGS</div>
+        </div>
+        <h3>Earrings</h3>
+        <span>Discover</span>
+      </a>
+  
+      <a href="/collections/necklaces" class="elara-category">
+        <div class="elara-category__image">
+          <div class="elara-category__placeholder">NECKLACES</div>
+        </div>
+        <h3>Necklaces</h3>
+        <span>Discover</span>
+      </a>
+  
+      <a href="/collections/bracelets" class="elara-category">
+        <div class="elara-category__image">
+          <div class="elara-category__placeholder">BRACELETS</div>
+        </div>
+        <h3>Bracelets</h3>
+        <span>Discover</span>
+      </a>
+  
+    </div>
+  </section>
+  
+  <style>
+    .elara-categories {
+      background: #f5f0e6;
+      padding: 100px 40px;
+    }
+  
+    .elara-categories__header {
+      text-align: center;
+      max-width: 650px;
+      margin: 0 auto 55px;
+    }
+  
+    .elara-categories__eyebrow {
+      font-size: 11px;
+      letter-spacing: 3px;
+      margin-bottom: 18px;
+    }
+  
+    .elara-categories__header h2 {
+      font-family: Georgia, serif;
+      font-size: 42px;
+      font-weight: 400;
+      margin: 0 0 15px;
+      color: #1c1a17;
+    }
+  
+    .elara-categories__header p:last-child {
+      font-size: 14px;
+      color: #6d665d;
+    }
+  
+    .elara-categories__grid {
+      max-width: 1400px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+  
+    .elara-category {
+      text-decoration: none;
+      color: #1c1a17;
+      text-align: center;
+    }
+  
+    .elara-category__image {
+      aspect-ratio: 3 / 4;
+      overflow: hidden;
+      background: #e7dfd2;
+      margin-bottom: 20px;
+    }
+  
+    .elara-category__placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Georgia, serif;
+      font-size: 24px;
+      letter-spacing: 4px;
+      color: #81786c;
+      transition: transform 0.5s ease;
+    }
+  
+    .elara-category:hover .elara-category__placeholder {
+      transform: scale(1.04);
+    }
+  
+    .elara-category h3 {
+      font-family: Georgia, serif;
+      font-size: 22px;
+      font-weight: 400;
+      margin: 0 0 8px;
+    }
+  
+    .elara-category span {
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+  
+    @media screen and (max-width: 749px) {
+      .elara-categories {
+        padding: 65px 18px;
+      }
+  
+      .elara-categories__header h2 {
+        font-size: 32px;
+      }
+  
+      .elara-categories__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px 12px;
+      }
+  
+      .elara-category__image {
+        margin-bottom: 14px;
+      }
+  
+      .elara-category h3 {
+        font-size: 18px;
+      }
+    }
+  </style>
+  
+  {% schema %}
+  {
+    "name": "Elara Categories",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Elara Categories"
+      }
+    ]
+  }
+  {% endschema %}
+  [LMB]
+  [Clipboard]
+  <section class="elara-categories">
+    <div class="elara-categories__header">
+      <p class="elara-categories__eyebrow">EXPLORE ELARA</p>
+  
+      <h2>Shop by Category</h2>
+  
+      <p class="elara-categories__description">
+        Timeless pieces, designed to be worn and remembered.
+      </p>
+    </div>
+  
+    <div class="elara-categories__grid">
+  
+      <a href="/collections/rings" class="elara-category">
+        <div class="elara-category__image">
+          <span>RINGS</span>
+        </div>
+        <h3>Rings</h3>
+        <p>Discover</p>
+      </a>
+  
+      <a href="/collections/earrings" class="elara-category">
+        <div class="elara-category__image">
+          <span>EARRINGS</span>
+        </div>
+        <h3>Earrings</h3>
+        <p>Discover</p>
+      </a>
+  
+      <a href="/collections/necklaces" class="elara-category">
+        <div class="elara-category__image">
+          <span>NECKLACES</span>
+        </div>
+        <h3>Necklaces</h3>
+        <p>Discover</p>
+      </a>
+  
+      <a href="/collections/bracelets" class="elara-category">
+        <div class="elara-category__image">
+          <span>BRACELETS</span>
+        </div>
+        <h3>Bracelets</h3>
+        <p>Discover</p>
+      </a>
+  
+    </div>
+  </section>
+  
+  <style>
+    .elara-categories {
+      background: #f5f0e6;
+      padding: 90px 40px;
+    }
+  
+    .elara-categories__header {
+      text-align: center;
+      max-width: 650px;
+      margin: 0 auto 55px;
+    }
+  
+    .elara-categories__eyebrow {
+      margin: 0 0 18px;
+      font-family: Arial, sans-serif;
+      font-size: 11px;
+      letter-spacing: 3px;
+    }
+  
+    .elara-categories__header h2 {
+      margin: 0 0 16px;
+      font-family: Georgia, serif;
+      font-size: 42px;
+      font-weight: 400;
+      color: #1c1a17;
+    }
+  
+    .elara-categories__description {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #6d665d;
+    }
+  
+    .elara-categories__grid {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+  
+    .elara-category {
+      display: block;
+      color: #1c1a17;
+      text-decoration: none;
+      text-align: center;
+    }
+  
+    .elara-category__image {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      background: #e7dfd2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      margin-bottom: 20px;
+      transition: transform 0.4s ease;
+    }
+  
+    .elara-category__image span {
+      font-family: Georgia, serif;
+      font-size: 23px;
+      letter-spacing: 4px;
+      color: #81786c;
+    }
+  
+    .elara-category:hover .elara-category__image {
+      transform: scale(1.02);
+    }
+  
+    .elara-category h3 {
+      margin: 0 0 8px;
+      font-family: Georgia, serif;
+      font-size: 22px;
+      font-weight: 400;
+    }
+  
+    .elara-category p {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+  
+    @media screen and (max-width: 749px) {
+      .elara-categories {
+        padding: 60px 18px;
+      }
+  
+      .elara-categories__header h2 {
+        font-size: 32px;
+      }
+  
+      .elara-categories__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px 12px;
+      }
+  
+      .elara-category__image {
+        margin-bottom: 14px;
+      }
+  
+      .elara-category__image span {
+        font-size: 16px;
+        letter-spacing: 2px;
+      }
+  
+      .elara-category h3 {
+        font-size: 18px;
+      }
+    }
+  </style>
+  
+  {% schema %}
+  {
+    "name": "Elara Categories",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Elara Categories"
+      }
+    ]
+  }
+  {% endschema %}
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [v][v][v][v][^]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-12 12:10:43  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-12 12:12:07  [msedge.exe] Fiverr / Inbox and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]r
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
