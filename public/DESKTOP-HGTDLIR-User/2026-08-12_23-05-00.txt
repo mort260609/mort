@@ -1,0 +1,300 @@
+﻿
+--- WINDOW  2026/08/12 22:05:22  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 22:05:22  [chrome.exe] • Discord | @TopWay - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 22:05:30  [chrome.exe] • Discord | #jobs | discord.gg/job - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 22:06:42  [chrome.exe] • Discord | #report-scams | discord.gg/job - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+
+--- WINDOW  2026/08/12 22:06:52  [chrome.exe] discord.com - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 22:08:17  [chrome.exe] Discord - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 22:08:22  [chrome.exe] • Discord - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 22:08:24  [chrome.exe] • Discord | #report-scams | discord.gg/job - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 22:09:59  [chrome.exe] • Discord | #jobs | discord.gg/job - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 22:30:00  [Cursor.exe] next.config.ts - porfolio - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  cccccls[ENTER]
+  n
+
+--- WINDOW  2026/08/12 22:31:03  [Cursor.exe] Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 22:31:11  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  cplease check the code i f found any issue please fixx [Bk][Bk] this [Bk][Bk][Bk][Bk][Bk][ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 22:32:51  [chrome.exe] • Discord | #jobs | discord.gg/job - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 22:32:53  [chrome.exe] Deepak Sharma | Full-Stack Developer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 22:37:19  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Reviewed the codebase and fixed the highest-impact bugs. Backend tsc build passes.
+  
+  Critical fixes
+  Withdrawals could over-pay — availableBalance no longer includes unrealized P&L (cash only, after locked + margin).
+  Hardcoded job secret — /api/orders/* was bypassing auth with the literal 'INTERNAL_JOB_SECRET'. Now uses INTERNAL_JOB_SECRET from env (timing-safe).
+  Fake deposits — invalid Razorpay signatures are always rejected unless ALLOW_PAYMENT_MOCK=true in non-production.
+  Brokerage charges — calcTradeCharges now uses configured rate/cap instead of hardcoded ₹10.
+  Other fixes
+  Withdrawals require a bank account, bank details, or UPI
+  Approval no longer clamps negative balances to 0 (fails instead)
+  Mongo sessions are aborted on early validation returns
+  Sub-admins get full user detail payload (wallet/banks/trades)
+  Mobile wallet query key unified (['wallet'])
+  Trading overview open-count uses the same Active Trades source
+  Instrument lookup requires auth
+  Local setup note
+  For mock mobile deposits in development, add to backend/.env:
+  
+  ALLOW_PAYMENT_MOCK=true
+  Without that (or with live Razorpay enabled), mock deposits will be rejected — which is intentional.
+  c
+
+--- WINDOW  2026/08/12 22:39:03  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 22:39:03  [chrome.exe] Deepak Sharma | Full-Stack Developer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 22:39:06  [chrome.exe] Portfolio Website Prompt - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 22:39:10  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 22:39:16  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+  v[ENTER]
+
+--- WINDOW  2026/08/12 22:41:00  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 22:41:00  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  okay[ENTER]
+  yes[ENTER]
+  1[ENTER]
+  [LMB]
+  [Clipboard]
+  adb install -r "g:\khushboo-project\alpha-research\mobile-app\prime-alpha-test.apk"
+  `
+  [RMB]
+  [ENTER]
+  [LMB]
+  [LMB]
+  fix [ENTER]
+  [LMB]
+  [Clipboard]
+  adb devices
+  adb install -r "C:\Users\DELL\Desktop\prime-alpha-test.apk"
+  [LMB]
+  [LMB]
+  cd [Tab][Tab][Tab][Tab][Tab][Tab][ENTER]
+  [RMB]
+
+--- WINDOW  2026/08/12 22:53:04  [Cursor.exe] Cursor
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 22:53:06  [Cursor.exe] Cursor Settings - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  [LMB]
+  now thsi[Bk][Bk][Bk][Bk]fix[ENTER]
+  [LMB]
+  [Clipboard]
+  adb install -r "C:\Users\DELL\Desktop\prime-alpha-test.apk"
+  [LMB]
+  [RMB]
+  [ENTER]
+  [LMB]
+  done[ENTER]
+  n
+
+--- WINDOW  2026/08/12 22:59:27  [Cursor.exe] Cursor
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 22:59:39  [chrome.exe] Admin Panel Trade & User Management - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 22:59:49  [chrome.exe] Deepak Sharma | Full-Stack Developer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 23:00:00  [Cursor.exe] next.config.ts - porfolio - Cursor
+----------------------------------------------------------------------------
+  [Bk][Bk]erience in 5+ 30+
+  [LMB]
+
+--- WINDOW  2026/08/12 23:00:58  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 23:00:59  [Cursor.exe] next.config.ts - porfolio - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+   projecgt [Bk][Bk][Bk][Bk][Bk]ect[ENTER]
+
+--- WINDOW  2026/08/12 23:01:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 23:01:12  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 23:01:12  [chrome.exe] Deepak Sharma | Full-Stack Developer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 23:01:13  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 23:01:13  [Cursor.exe] next.config.ts - porfolio - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  npm run dev[ENTER]
+
+--- WINDOW  2026/08/12 23:02:06  [chrome.exe] Deepak Sharma | Full-Stack Developer - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 23:02:07  [chrome.exe] Domains – Vercel - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 23:02:08  [chrome.exe] localhost - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 23:02:10  [chrome.exe] Deepak Sharma | Full-Stack Developer - Google Chrome
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/08/12 23:02:19  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 23:02:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 23:02:19  [Cursor.exe] Deepak Sharma | Full-Stack Developer - porfolio - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  git sa[Bk][Bk]add .[ENTER]
+  git p[Bk]commit -m 'code fix'[ENTER]
+  git pi[Bk]ush origin[ENTER]
+
+--- WINDOW  2026/08/12 23:03:34  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 23:03:34  [chrome.exe] Deepak Sharma | Full-Stack Developer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 23:03:36  [chrome.exe] Domains – Vercel - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 23:03:39  [chrome.exe] vercel.com/deepaksharma0000s-projects/~/settings/environment-variables - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 23:03:40  [chrome.exe] Environment Variables – Vercel - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 23:03:42  [chrome.exe] Deepak Sharma | Full-Stack Developer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 23:03:51  [chrome.exe] Environment Variables – Vercel - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 23:03:55  [chrome.exe] vercel.com/deepaksharma0000s-projects - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 23:03:56  [chrome.exe] Vercel - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 23:04:02  [chrome.exe] Deepak Sharma | Full-Stack Developer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 23:04:04  [chrome.exe] Vercel - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 23:04:09  [chrome.exe] New Project - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 23:04:16  [chrome.exe] Deepak Sharma | Full-Stack Developer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 23:04:20  [chrome.exe] New Project - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 23:04:24  [chrome.exe] Deepak Sharma | Full-Stack Developer - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
