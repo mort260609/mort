@@ -1,0 +1,483 @@
+﻿  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  Our travel company’s new website is fully designed and built on the front end: a dozen-plus hand-coded HTML/CSS/JS pages, in two views, desktop and mobile. We need the engineering behind it: real form handling (our forms are currently pre-filled emails), deployment on our existing GoDaddy hosting, and a partner login area with member-only pages enforced server-side. No design work. Full written brief and mockups ready to share with shortlisted sellers.
+  
+  Show less
+  
+  Scope of work
+  - Replace the current mailto (pre-filled email) forms with real server-side submission: validation, spam protection, routing to our sales desk inbox, and a confirmation email to the sender. Covers the inquiry, newsletter, and trip-brief forms.
+  - Deploy on our existing GoDaddy hosting account, where our domain and business email already live. If our current plan cannot support the build, tell us which GoDaddy plan it needs. Moving off GoDaddy is not an option.
+  - Build the partner member area: real sign-in, a request-a-code flow with admin sign-off, partner-only pages enforced server-side (the current gate is a front-end demo), and saved trip briefs tied to each partner's login.
+  
+  Show less
+  
+  References
+  - A complete written brief with page-by-page specs, and visual mockups of every page in both views, desktop and mobile. Shared by message with shortlisted sellers.
+  
+  Additional information
+  - No design work. The front end is finished on Claude Design, hand-coded HTML and CSS, with vanilla JavaScript. While you can rebuild it in React, WordPress, Vue, or anything else, the job is really more wiring a backend to what exists.
+  - At handoff, we own all code, the repo, and every credential. No lock-in.
+  - Optional items to quote separately: a lightweight CMS for our non-technical team, and an English + Traditional Chinese version of the site.
+  - Clear written English required; Traditional Chinese a plus.
+  - In your offer, please include an itemized price for the three scope items, the stack and GoDaddy plan you would use, and two or three live member/login sites you have built. Generic template offers will be skipped.
+  
+  Read more
+  
+  Company details
+  Beneficial Travel Inc. (dba BTI Tourism FZCO)
+  
+  beneficialdubai.com (our current site, which this project replaces; the new front end is not public yet)
+  
+  We are a destination management company (DMC): travel agencies and corporate group planners hire us to run their UAE programs, hotels, tours, and MICE events, on the ground across the UAE and GCC. Our core competencies are Dubai and Abu Dhabi.
+  
+  Established in 1987, with offices in Dubai, Los Angeles, and Taipei.
+  
+  Industry: travel, tourism, and hospitality.
+  
+  Small non-technical team, one decision-maker on this project, fast answers.
+  
+  Read more
+  
+  Ideal Candidate
+  PHP and MySQL. Member/login areas with server-side access control, not front-end gating. Form backends with reliable email delivery (SPF, DKIM, DMARC). GoDaddy and cPanel deployment, including DNS cutover without interrupting business email. Web security: password hashing, session handling, rate limiting, spam protection. Comfortable working from a finished front end without rebuilding it.
+  
+  Developer expertise
+  Databases, Security, Source control, Design, Performance
+  
+  Programming language
+  HTML & CSS, JavaScript, PHP
+  
+  Fixed price
+  Up to $5,000
+  
+  Delivery timeline
+  September 19, 2026
+  
+  Client questions
+  Responding will help the client understand if you fit their needs.
+  
+  What similar projects have you worked on before?
+  How do you provide updates and show progress during projects?
+  What type of support do you offer after you deliver projects?
+  Client preferences
+  If you think you’re a good fit but don’t meet every requirement, you can still send a custom offer.
+  
+  Freelancer speaks
+  
+  English: Fluent or better
+  
+  Level
+  
+  At least Level 1
+  
+  Type
+  
+  Prefers Vetted pro
+  [LMB]
+
+--- WINDOW  2026-08-12 17:29:55  [msedge.exe] Brief response and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  Hi!   
+  You’ve officially reached the 🏅 #1 Expert on Fiverr!   
+   You haven’t just messaged a developer; you’ve contacted the ✅ #1 Ranked Top Rated Seller in Website Development on this platform which is why premium brands choose us over thousands of other agencies.
+  🎬 https://www.youtube.com/@DigitalMarketingHeroes
+  We are the team behind✅ 2.5 MILLION Subscribers on our YouTube channel, where we teach the world how to build and scale million-dollar brands. When you work with us, you get the same expertise trusted by global industry leaders like Hostinger, Loox, Minea and 2000+ More.
+  Why you can stop your search here:
+  -Unmatched Authority
+  -Your Vision, Perfected: We want you to point out every single inch of detail you desire. We build for your brand, and we offer unlimited revisions until it is 100% perfect.
+  -Zero Risk: We provide full support until you are 100% happy and satisfied.
+  Take a look at what we deliver: 
+  👉 Our Brand Deck & Portfolio: https://portfolio.digitalheroes.co.in
+  Now, you can officially 😴 SIT BACK and RELAX. You are in the best hands in the industry.
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  Backend Developer for a Finished Travel Website
+  [LMB]
+
+--- WINDOW  2026-08-12 17:33:46  [msedge.exe] Briefs and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-12 17:33:49  [msedge.exe] Fiverr / Inbox and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-12 17:43:56  [msedge.exe] Briefs and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-12 17:44:11  [msedge.exe] Brief response and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Hi!   
+  You’ve officially reached the 🏅 #1 Expert on Fiverr!   
+   You haven’t just messaged a developer; you’ve contacted the ✅ #1 Ranked Top Rated Seller in Website Development on this platform which is why premium brands choose us over thousands of other agencies.
+  🎬 https://www.youtube.com/@DigitalMarketingHeroes
+  We are the team behind✅ 2.5 MILLION Subscribers on our YouTube channel, where we teach the world how to build and scale million-dollar brands. When you work with us, you get the same expertise trusted by global industry leaders like Hostinger, Loox, Minea and 2000+ More.
+  Why you can stop your search here:
+  -Unmatched Authority
+  -Your Vision, Perfected: We want you to point out every single inch of detail you desire. We build for your brand, and we offer unlimited revisions until it is 100% perfect.
+  -Zero Risk: We provide full support until you are 100% happy and satisfied.
+  Take a look at what we deliver: 
+  👉 Our Brand Deck & Portfolio: https://portfolio.digitalheroes.co.in
+  Now, you can officially 😴 SIT BACK and RELAX. You are in the best hands in the industry.
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Roughly how many partner accounts do you expect at launch, and do partners self-register (with admin approval) or are all accounts created manually by your team via the "request-a-code" flow?
+  Saved trip briefs – What does a "saved trip brief" contain (just form data, or file uploads/attachments too), and do partners need to edit/resubmit past briefs, or just view history
+  [RMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  we provide post launch support upto 3 months. 
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  we provide the y[Bk]updates and progress during the project with[Bk][Bk][Bk][Bk]on the fiverr chat, emails. 
+  [LMB]
+  we had worked with many p[Bk]such projects before.
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  bti_tourism
+  [LMB]
+
+--- WINDOW  2026-08-12 17:50:15  [msedge.exe] Briefs and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  Shopify Redesign & CRO for Wellness Brand
+  Posted 14 minutes ago
+  
+  6 responses
+  
+  Description
+  About the client
+  Overview
+  I need help redesigning and optimizing our Shopify store for Romancy, a wellness and self-care brand. The goal is to create a professional, conversion-focused site that can transform traffic into loyal customers.
+  
+  Scope of work
+  - Redesign Shopify homepage with premium and trustworthy elements
+  - Optimize for conversion rate with CRO tactics
+  - Enhance brand messaging and value proposition
+  - Improve customer journey and navigation
+  - Develop high-converting product pages
+  - Ensure mobile-first design and optimization
+  - Incorporate trust elements like reviews and guarantees
+  - Implement upsells, bundles, and cross-sells to increase AOV
+  - Define clear calls-to-action throughout the site
+  - Enhance site speed and overall user experience
+  - Create SEO-friendly structure
+  - Establish email/SMS capture strategy
+  
+  Show less
+  
+  References
+  - Shopromancy.com needs reviewing to identify conversion issues
+  
+  Additional information
+  - I’m open to ongoing collaboration as the brand grows
+  - Experience with e-commerce strategy and CRO is highly important
+  
+  Company details
+  - Company name: Romancy
+  - Company website: shopromancy.com
+  - Wellness and self-care
+  - Romancy is a wellness and self-care brand selling magnesium bath bombs, recovery products, and other wellness items. Currently, the Shopify site generates minimal sales, and the goal is to convert more traffic into customers.
+  
+  Show less
+  
+  Website features
+  Payment, Marketing, Analytics, Form
+  
+  Fixed price
+  Up to $600
+  
+  Delivery timeline
+  Flexible
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-12 17:52:32  [msedge.exe] Freelancer dashboard and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-12 17:52:35  [msedge.exe] Briefs and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-12 17:52:37  [msedge.exe] Fiverr / Inbox and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-12 17:53:43  [anty.exe] Fiverr navya new + Upwork Shreyansh + Trenzio 13/04/2026
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-12 17:53:46  [msedge.exe] Fiverr / Inbox and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  hahmedbp
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi! I wanted to give you some time to review the questions I shared earlier. If you've had a chance to go through them, we can discuss them now and move forward with the project
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  adrianoc12
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi, wanted to check in.if you've had any more thoughts on the proposal. I'd love to hear your feedback. If there's anything you'd like to adjust regarding the scope, pricing, or approach, I'm happy to discuss it and find the best solution for you
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  karrotbites
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  nickadsconsult
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  derricklove554
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  gabe_garcia26
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  alimerali1314
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi, wanted to check in.if you've had any more thoughts on the proposal. I'd love to hear your feedback. If there's anything you'd like to adjust regarding the scope, pricing, or approach, I'm happy to discuss it and find the best solution for you
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  joseph2765
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi, wanted to check in.if you've had any more thoughts on the proposal. I'd love to hear your feedback. If there's anything you'd like to adjust regarding the scope, pricing, or approach, I'm happy to discuss it and find the best solution for you
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Limouges I
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  hi, 
+  [Clipboard]
+  Hi, wanted to check in.if you've had any more thoughts on the proposal. I'd love to hear your feedback. If there's anything you'd like to adjust regarding the scope, pricing, or approach, I'm happy to discuss it and find the best solution for you
+  [RMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk][ENTER]
+  [Clipboard]
+  aidenbaby620
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  shyiek
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  akashdubey401
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  frontiermd
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  If you've had a chance to go through them, we can discuss them now and move forward with the project
+  [LMB]
+  hi , just checking in v[Ctrl][Bk][Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  Mogankab
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi, wanted to check in.if you've had any more thoughts on the proposal. I'd love to hear your feedback. If there's anything you'd like to adjust regarding the scope, pricing, or approach, I'm happy to discuss it and find the best solution for you
+  
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  danielletm_ct
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi, wanted to check in.if you've had any more thoughts on the proposal. I'd love to hear your feedback. If there's anything you'd like to adjust regarding the scope, pricing, or approach, I'm happy to discuss it and find the best solution for you
+  
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  gudgettree
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  breno94
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Dorkobaz
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  mclaypost
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi, wanted to check in.if you've had any more thoughts on the proposal. I'd love to hear your feedback. If there's anything you'd like to adjust regarding the scope, pricing, or approach, I'm happy to discuss it and find the best solution for you
+  
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-12 18:22:38  [anty.exe] Fiverr navya new + Upwork Shreyansh + Trenzio 13/04/2026
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-12 18:22:48  [msedge.exe] Fiverr / Inbox and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  vickyv718
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  tjlenterprise
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi! I wanted to give you some time to review the questions I shared earlier. If you've had a chance to go through them, we can discuss them now and move forward with the project
+  [LMB]
+  [RMB]
+  [LMB]
+  [ENTER]
