@@ -1,0 +1,767 @@
+﻿  [LMB]
+  [Clipboard]
+  hello claude mujhe apna product page change krna hai and mei tmhe abhi ek product template dungi uske according mujhe liquid code and json code dedo
+  [LMB]
+  [LMB]
+  [Clipboard]
+  {
+    "sections": {
+      "main": {
+        "type": "main-product-lystre",
+        "blocks": {
+          "eyebrow": {
+            "type": "eyebrow",
+            "settings": {
+              "text": "NEW SEASON"
+            }
+          },
+          "title": {
+            "type": "title",
+            "settings": {}
+          },
+          "price": {
+            "type": "price",
+            "settings": {
+              "show_installments": true
+            }
+          },
+          "variant_picker": {
+            "type": "variant_picker",
+            "settings": {
+              "show_size_guide": true,
+              "size_guide_url": ""
+            }
+          },
+          "buy_buttons": {
+            "type": "buy_buttons",
+            "settings": {
+              "button_label": "ADD TO BAG"
+            }
+          },
+          "perk_delivery": {
+            "type": "perk",
+            "settings": {
+              "text": "Order now: complimentary express delivery within 3–5 days"
+            }
+          },
+          "perk_returns": {
+            "type": "perk",
+            "settings": {
+              "text": "Order now: complimentary returns & exchanges available"
+            }
+          },
+          "accordion_description": {
+            "type": "accordion",
+            "settings": {
+              "heading": "Product description",
+              "content_source": "description",
+              "content": "",
+              "metafield_key": "",
+              "open_default": false
+            }
+          },
+          "accordion_details": {
+            "type": "accordion",
+            "settings": {
+              "heading": "Product details",
+              "content_source": "custom",
+              "content": "<p>Composition, care instructions and fit notes yahan add karein — ya metafield option use karein per-product details ke liye.</p>",
+              "metafield_key": "product_details",
+              "open_default": false
+            }
+          },
+          "accordion_commitment": {
+            "type": "accordion",
+            "settings": {
+              "heading": "Our commitment",
+              "content_source": "custom",
+              "content": "<p>Brand sustainability / quality commitment ka text yahan add karein.</p>",
+              "metafield_key": "",
+              "open_default": false
+            }
+          }
+        },
+        "block_order": [
+          "eyebrow",
+          "title",
+          "price",
+          "variant_picker",
+          "buy_buttons",
+          "perk_delivery",
+          "perk_returns",
+          "accordion_description",
+          "accordion_details",
+          "accordion_commitment"
+        ],
+        "settings": {}
+      }
+    },
+    "order": ["main"]
+  }
+  [LMB]
+  [Clipboard]
+  dude, im so sorry.  but I was hoping for the link to be sent yesterday itself.  Anyway, give me a time now for today. will coordinate
+  [Ctrl]c
+  [Clipboard]
+  No worries at all. 😊 I’m sorry we couldn’t get the meeting arranged yesterday.
+  
+  Please let me know a time that works best for you today, and I’ll coordinate accordingly. Looking forward to speaking with you.
+  
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  or do u want me to host it, just give me a time
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]c
+  [Clipboard]
+  tushardasgupta
+  
+  Aug 12, 12:49 PM
+  how about 1330 ist,  works for u?
+  
+  T
+  tushardasgupta
+  
+  Aug 12, 12:49 PM
+  thats 41 mins from now
+  [Clipboard]
+  Yes, sure! 1:30 PM IST works perfectly for me. I'll be available and ready for the meeting.
+  
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  bhai, link bhej de abhi I will forward it
+  
+  T
+  tushardasgupta
+  
+  Aug 12, 12:53 PM
+  1330 confirmed, I wish this app had a call function. the messages on phone turn up a bit late
+  [Ctrl]c
+  [Clipboard]
+  Yes, 1:30 PM IST is confirmed. 👍
+  
+  No worries, I completely understand. I'll send the meeting link shortly so you can forward it. Looking forward to speaking with you then!
+  
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-12 13:06:12  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-12 13:06:18  [msedge.exe] Fiverr / Inbox and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-12 13:06:20  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-12 13:06:27  [msedge.exe] Fiverr / Inbox and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  hi how are you /[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  sure , i will be d[Bk]sending you the quotation [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]proposal shortly [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  💻 Hey Shreyansh Singh, I'm looking for website development work for my website.
+  
+  i already have my website listed on Hostinger 
+  
+  need to do the setup  and maintain under hostinger platform.
+  
+  This message relates to:
+  
+  Related item image
+  I will create wordpress website design, redesign, ecommerce website development
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 11, 3:56 PM
+  Hi! ryantan1013  
+  You’ve officially reached the 🏅 #1 Expert on Fiverr!
+  
+  You haven’t just messaged a developer; you’ve contacted the ✅ #1 Ranked Top Rated Seller in Website Development on this platform which is why premium brands choose us over thousands of other agencies.
+  
+  🎬 https://www.youtube.com/@DigitalMarketingHeroes
+  We are the team behind✅ 2.5 MILLION Subscribers on our YouTube channel, where we teach the world how to build and scale million-dollar brands. When you work with us, you get the same expertise trusted by global industry leaders like Hostinger, Loox, Minea and 2000+ More.
+  
+  Why you can stop your search here:
+  -Unmatched Authority
+  -Your Vision, Perfected: We want you to point out every single inch of detail you desire. We build for your brand, and we offer unlimited revisions until it is 100% perfect.
+  -Zero Risk: We provide full support until you are 100% happy and satisfied.
+  
+  Take a look at what we deliver: 
+  👉 Our Brand Deck & Portfolio: https://portfolio.digitalheroes.co.in
+  
+  Now, you can officially 😴 SIT BACK and RELAX. You are in the best hands in the industry. Please share your project details or check out our portfolio above this will help us clarify your requirements and move forward quickly to exceed your expectations!
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 11, 3:56 PM
+  hi how are you ?
+  
+  R
+  ryantan1013
+  
+  Aug 11, 3:57 PM
+  Hi
+  
+  R
+  ryantan1013
+  
+  Aug 11, 3:57 PM
+  i have a registered domain , would like to setup my webstore under hostinger platform ,
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 11, 3:57 PM
+  Great! I'd be happy to help.
+  
+  Just a few quick questions so I can understand the scope:
+  
+  • What type of website are you looking to build (business, eCommerce, portfolio, booking, etc.)?
+  • Do you already have the content, images, and logo ready?
+  • Do you have any reference websites you like?
+  • Will this be a brand-new website or do you already have an existing site that needs redesigning?
+  • Approximately how many pages do you need?
+  
+  R
+  ryantan1013
+  
+  Aug 11, 3:57 PM
+  is it something you comfortable to work with ?
+  
+  R
+  ryantan1013
+  
+  Aug 11, 3:59 PM
+  1) ecommerce + content
+  2) Yes , 50% ready 
+  3) Yes , Apple.com 
+  4) Brand New
+  5) 5pages
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 11, 4:01 PM
+  Absolutely, I'm comfortable working with Hostinger.
+  
+  In fact, we can build your webstore on WordPress + WooCommerce directly on your Hostinger hosting account, which gives you full ownership and makes it easy to manage products, orders, and content in the future.
+  
+  Could you tell me a little more about what you'll be selling and approximately how many products you plan to have at launch?
+  
+  R
+  ryantan1013
+  
+  Aug 11, 4:02 PM
+  i only have 2 SKUs , is a exoskeleton
+  
+  R
+  ryantan1013
+  
+  Aug 11, 4:02 PM
+  by end of this month
+  
+  R
+  ryantan1013
+  
+  Aug 11, 4:02 PM
+  4 Files
+  
+  Download All
+  
+  photobank (1).jpg
+  
+  (234.85 kB)
+  
+  
+  photobank (9).jpg
+  
+  (534.89 kB)
+  
+  
+  photobank.jpg
+  
+  (526.9 kB)
+  
+  
+  photobank (15).jpg
+  
+  (170.5 kB)
+  
+  R
+  ryantan1013
+  
+  Aug 11, 4:02 PM
+  these are some photos
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 11, 4:04 PM
+  Perfect, that's great. With only 2 SKUs and the images already available, we can definitely have everything ready before the end of the month.
+  
+  One quick question: do you have any reference website you like in terms of design and user experience, or would you like us to create a modern, professional layout based on your brand?
+  
+  R
+  ryantan1013
+  
+  Aug 11, 4:05 PM
+  we are still doing the photo shooting and video shooting , everything should be ready in another 2 weeks
+  
+  R
+  ryantan1013
+  
+  Aug 11, 4:07 PM
+  something like this , but would prefer a white background , modern and proffesional design
+  
+  stablego_website_v4_linked_1.html
+  
+  (283.5 kB)
+  
+  R
+  ryantan1013
+  
+  Aug 11, 4:07 PM
+  also it need to support multiple laungagues
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 11, 4:07 PM
+  Perfect, that makes sense. The ongoing photoshoot and video shoot timing works well.
+  
+  A clean white background with a modern, professional look would be an excellent fit for a premium product like an exoskeleton. Once your final media assets are ready in the next couple of weeks, we can build everything around them for the best result.
+  
+  Could you please resend the reference website link? It looks like the preview didn't come through on my end.
+  
+  R
+  ryantan1013
+  
+  Aug 11, 4:12 PM
+  2 Files
+  
+  Download All
+  stablego_website_v3_3.html
+  
+  (282.17 kB)
+  
+  stablego_website_v3_4.html
+  
+  (283.5 kB)
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 11, 4:51 PM
+  Thanks for sharing let me go through the files.
+  
+  R
+  ryantan1013
+  
+  Aug 11, 4:54 PM
+  alright
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 11, 4:57 PM
+  Went through both files, v3.4 is the more complete one. Really like the direction: white background, gold accents, clean Apple-style layout, and it's great that it already covers EN/Chinese/Malay since that matches what you need.
+  
+  This is very doable on WordPress + WooCommerce on your Hostinger hosting. Before I put together your proposal, a few quick things:
+  
+  I saw the reference has both "Buy" and "Rent" options do you need both live for your 2 SKUs? If rent, what's the process (deposit, delivery, contract)?
+  Selling in MYR only, or SGD too?
+  Shipping calculated automatically, or handled manually on your end?
+  
+  Since your photos/videos are still 2 weeks out, I can start building the structure and pages now with placeholders, then drop in final media once it's ready keeps us on track for end of month.
+  
+  Once I hear back on the above, I'll send the scope.
+  
+  R
+  ryantan1013
+  
+  Aug 11, 5:27 PM
+  hold the rent program 1st , just the direct selling, but we can have a register page to register customer interest 
+  put multi currecy for now MYR and SGD
+  shipping cost will bear by us , can leave it for now
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 11, 5:31 PM
+  Thanks for confirming that i will be shortly sending you the scope.you can also tell me if you want to add something?
+  
+  R
+  ryantan1013
+  
+  Aug 12, 1:15 PM
+  I think that all for now
+  
+  R
+  ryantan1013
+  
+  Aug 12, 1:15 PM
+  Kindly share the quotation
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 1:20 PM
+  sure , i will be sending you the proposal shortly
+  [Clipboard]
+  Wordpress, WooCommerce features reference
+  
+  Here's what we will be going to provide you:
+  
+  ◉ PREMIUM FRONT-END TRANSFORMATION
+  • Transform the current flat, static experience into a premium, interactive website
+  • Framer-inspired motion design and micro-interactions
+  • Clean GSAP, Custom CSS, and JavaScript implementation
+  • Premium, subtle animations that feel luxurious rather than distracting
+  • Consistent animation language across all pages
+  • Fully responsive experience across desktop, tablet, and mobile
+  
+  ◉ HOMEPAGE PREMIUM EXPERIENCE
+  • Cinematic hero section animations
+  • Scroll-triggered content reveals
+  • Staggered text and image animations
+  • Smooth section transitions
+  • Animated trust indicators and guarantee sections
+  • Marquee/ticker trust bar animations
+  • Dynamic CTA interactions
+  • Premium hover effects and micro-interactions
+  • Scroll progress indicators (optional)
+  • Advanced section entrance animations
+  
+  ◉ PRODUCT DETAIL PAGE (HIGHEST PRIORITY)
+  • Premium image carousel transitions
+  • Sticky Add-to-Cart interactions
+  • Product gallery animations
+  • Scroll-triggered content reveals
+  • Smooth tab switching animations
+  • Animated specification sections
+  • Premium comparison tables
+  • Trust badge pulse animations
+  • Subscription plan interaction effects
+  • Bundle selection animations
+  • Dynamic pricing transitions
+  • Quantity selector interactions
+  • Cross-sell recommendation animations
+  • Recently viewed products section
+  • Smooth Add-to-Cart feedback animations
+  
+  ◉ ADVANCED PRODUCT STORYTELLING
+  • Section-by-section product storytelling reveals
+  • Animated ingredients and benefits presentation
+  • Science-backed feature sections
+  • Progressive content loading
+  • Before-and-after visual sections
+  • Interactive comparison experiences
+  • Benefit highlight animations
+  
+  ◉ SHOP ALL & COLLECTION EXPERIENCE
+  • Premium product grid animations
+  • Product card hover-lift effects
+  • Smooth shadow transitions
+  • Category navigation animations
+  • Collection filtering transitions
+  • Search experience enhancements
+  • Quick-view interactions (if required)
+  • Infinite scroll or load-more animations (optional)
+  
+  
+  ◉ MEMBERSHIP EXPERIENCE
+  • 3D Vanilla Tilt effects
+  • Interactive membership cards
+  • Premium pricing section animations
+  • Membership comparison interactions
+  • Dynamic plan highlighting
+  • Subscription CTA enhancements
+  
+  ◉ FAQ & INFORMATION PAGES
+  • Smooth accordion animations
+  • Scroll reveal effects
+  • Interactive content blocks
+  • Premium transitions between sections
+  • Enhanced readability and information hierarchy
+  
+  ◉ ADVANCED CRO (CONVERSION RATE OPTIMIZATION)
+  • Strategic CTA placements
+  • Purchase psychology implementation
+  • Visual attention guidance
+  • Reduced conversion friction
+  • Enhanced trust positioning
+  • Optimized customer journey flows
+  • Premium conversion-focused interactions
+  • Exit-intent readiness
+  • Sticky conversion elements
+  • Mobile-first conversion optimization
+  • Enhanced subscription conversion flow
+  • Conversion-focused PDP architecture
+  
+  ◉ PREMIUM MICRO-INTERACTIONS
+  • Cyan glow hover effects
+  • Button pulse animations
+  • Cursor interactions (optional)
+  • Image zoom effects
+  • Card lifting and floating effects
+  • Icon interactions
+  • Loading state animations
+  • Form interaction animations
+  • Navigation transitions
+  • Hover feedback throughout the website
+  
+  ◉ PERFORMANCE & TECHNICAL ARCHITECTURE
+  • Lightweight code implementation
+  • Clean GSAP architecture
+  • Minimal dependency approach
+  • Core Web Vitals optimization
+  • Browser compatibility testing
+  • Animation performance optimization
+  • Lazy loading implementation
+  • Optimized script execution
+  
+  ◉ WORDPRESS & WOOCOMMERCE ENHANCEMENTS
+  • Existing WooCommerce functionality preserved
+  • Plugin conflict prevention
+  • Future scalability planning
+  • Theme compatibility assurance
+  • WooCommerce performance optimization
+  • Checkout experience optimization
+  
+  ◉ E-MAIL & RETENTION SYSTEM
+  • Newsletter integrations
+  • Klaviyo or Mailchimp integration support
+  • Abandoned cart recovery integrations
+  • Subscription email flow readiness
+  • Lead capture optimization
+  • Email popup interaction design
+  
+  ◉ SEO & TECHNICAL FOUNDATION
+  • SEO-friendly implementation
+  • Heading structure optimization
+  • Image optimization
+  • Speed optimization
+  • Mobile SEO optimization
+  • Search engine-friendly architecture
+  
+  ◉ ANALYTICS & TRACKING
+  • Google Analytics integration support
+  • Google Tag Manager readiness
+  • Conversion tracking preparation
+  • Heatmap integration readiness
+  • Customer behavior tracking preparation
+  • Funnel tracking support
+  
+  ◉ POST-LAUNCH SUPPORT
+  • Full deployment assistance
+  • Priority bug fixes
+  • Up to 6 months of post-launch support
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Website Features — Exoskeleton eCommerce Store (WordPress + WooCommerce on Hostinger)
+  
+  ◉ CORE PLATFORM SETUP
+  
+  Full setup and configuration on your existing Hostinger hosting account
+  WordPress + WooCommerce installation, optimized for performance
+  Domain connection and SSL configuration
+  5-page structure: Home, Product Detail, About/Technology, Register Interest (Rent), Contact
+  
+  ◉ HOMEPAGE — PREMIUM APPLE-STYLE EXPERIENCE
+  
+  Clean white background with gold accent detailing, minimal Apple-inspired layout
+  Cinematic hero section for the exoskeleton with smooth image/video reveal
+  Scroll-triggered content reveals for product highlights
+  Trust indicators bar (brand credibility, technology highlights)
+  Smooth section transitions and subtle premium hover effects
+  Fully responsive across desktop, tablet, and mobile
+  
+  ◉ PRODUCT DETAIL PAGE (HIGHEST PRIORITY — 2 SKUs)
+  
+  Premium image/video gallery carousel for each of the 2 SKUs
+  Sticky "Add to Cart / Buy Now" bar while scrolling
+  Section-by-section storytelling: technology, benefits, specifications
+  Animated spec/comparison tables between the two exoskeleton models
+  Smooth tab switching for details, specs, and FAQs
+  Quantity selector and dynamic pricing display in MYR/SGD
+  Placeholder media slots now, swapped with final photos/videos once your shoot is ready in 2 weeks
+  
+  ◉ MULTI-CURRENCY & MULTI-LANGUAGE
+  
+  MYR and SGD currency switcher with accurate conversion display
+  Multi-language support: English, Chinese, Malay (as per your reference site)
+  Language switcher in header, consistent translation across all pages
+  SEO-friendly hreflang setup for each language version
+  
+  ◉ REGISTER INTEREST PAGE (FOR FUTURE RENT PROGRAM)
+  
+  Dedicated lead-capture form for customers interested in the rental option
+  Fields for name, contact, product interest, and preferred rental duration
+  Data collected into a manageable list (CSV/CRM-ready) for when rent program launches
+  Confirmation email automation on submission
+  
+  ◉ WOOCOMMERCE STORE FUNCTIONALITY
+  
+  Direct "Buy Now" checkout flow for both SKUs
+  Manual shipping (cost absorbed by you, so simplified checkout — no shipping calculator needed for now)
+  Secure payment gateway integration (card, and local MYR/SGD options as needed)
+  Order management dashboard for easy tracking
+  Clean, distraction-free checkout experience to reduce drop-off
+  
+  ◉ SHOP & COLLECTION EXPERIENCE
+  
+  Elegant product grid for the 2 SKUs with hover-lift effects
+  Smooth shadow transitions and card animations
+  Category framing ready to scale if more SKUs are added later
+  
+  ◉ PREMIUM MICRO-INTERACTIONS
+  
+  Gold-accent hover effects consistent with brand tone
+  Button pulse animations for CTAs (Buy Now, Register Interest)
+  Image zoom on product photos
+  Smooth form interaction animations
+  Subtle loading states for a polished feel
+  
+  ◉ PERFORMANCE & TECHNICAL FOUNDATION
+  
+  Lightweight, clean code implementation
+  Core Web Vitals optimization for fast load times
+  Lazy loading for images/videos once final media is added
+  Cross-browser and cross-device compatibility testing
+  
+  ◉ SEO & FOUNDATION
+  
+  SEO-friendly page structure and heading hierarchy
+  Image/video optimization for speed
+  Mobile SEO optimization
+  Multi-language SEO structure (EN/Chinese/Malay)
+  
+  ◉ ANALYTICS & TRACKING
+  
+  Google Analytics integration
+  Google Tag Manager setup readiness
+  Conversion tracking for Buy Now and Register Interest actions
+  [LMB]
+  [Ctrl][Ctrl]v
+  [LMB]
+  [^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][^][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][v]
+  [LMB]
+  [Bk]
+  [LMB]
+  [^][^][^][^][^][^][^][^][^]
+  [LMB]
+  [Bk]
+  [LMB]
+  [^][^][^][^][^][^][^][^][^][^][^][^][^][^][^]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [Clipboard]
+  ◉ PREMIUM MICRO-INTERACTIONS
+  
+  Gold-accent hover effects consistent with brand tone
+  Button pulse animations for CTAs (Buy Now, Register Interest)
+  Image zoom on product photos
+  Smooth form interaction animations
+  Subtle loading states for a polished feel
+  
+  ◉ PERFORMANCE & TECHNICAL FOUNDATION
+  
+  Lightweight, clean code implementation
+  Core Web Vitals optimization for fast load times
+  Lazy loading for images/videos once final media is added
+  Cross-browser and cross-device compatibility testing
+  
+  ◉ SEO & FOUNDATION
+  
+  SEO-friendly page structure and heading hierarchy
+  Image/video optimization for speed
+  Mobile SEO optimization
+  Multi-language SEO structure (EN/Chinese/Malay)
+  
+  ◉ ANALYTICS & TRACKING
+  
+  Google Analytics integration
+  Google Tag Manager setup readiness
+  Conversion tracking for Buy Now and Register Interest actions
+  
+  ◉ CONTENT & MEDIA WORKFLOW
+  
+  Build starts immediately using placeholder content/structure
+  Final photos and videos integrated once your shoot is complete (within the 2-week window)
+  No delay to the end-of-month launch timeline
+  
+  ◉ POST-LAUNCH SUPPORT
+  
+  Full deployment and go-live assistance
+  Priority bug fixes after launch
+  Guidance on managing products, orders, and content going forward
+  Support window included to ensure everything runs smoothly after handover
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
