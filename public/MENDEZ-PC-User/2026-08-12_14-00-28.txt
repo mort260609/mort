@@ -1,0 +1,1122 @@
+﻿  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:00:43  [Spotify.exe] Lana Del Rey - Young And Beautiful
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:00:52  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:04:45  [Spotify.exe] Twenty One Pilots - Doubt (demo)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:07:39  [Spotify.exe] HARDKNOCK - ANIMA CHRISTI
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:07:53  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl]c
+  [Clipboard]
+  Pushed (30969d0). Summary:
+  
+  Built: two new Storage buckets (project-images, community-images, both via the same idempotent setup-storage.ts that already manages team-photos), real upload buttons in /admin/projects (cover + multi-file gallery) and /admin/community (image), sharing a common upload/validate helper (src/lib/storage.ts) so the three actions don't triplicate the same file-type/size checks. The manual paste-a-URL fields stayed put alongside the buttons — upload is the new normal path, not a replacement for the fallback.
+  
+  Verified properly, not assumed: uploaded a real file through all three points in a live admin session, confirmed each produced a genuine Supabase Storage URL, and confirmed the images actually render on the corresponding public page — cover, gallery (both images, including the "Gallery" section correctly appearing only once real data existed), and the community update image. One thing worth being upfront about: my first pass at checking the gallery upload gave a confusing "0 images" reading — turned out to be my own test script reading the field before the second upload's round-trip finished, not a real bug. I checked the actual database directly rather than trust that reading, which is what caught it.
+  
+  Cleanup: test DB rows and the resulting Storage files both removed afterward — deleting the database row doesn't delete the underlying file, so that took a separate pass.
+  
+  Minor, non-blocking thing I noticed while testing: the hint text I added under each field is inside the same <label> as the input, which makes the label's accessible name longer than just the field name (e.g. a screen reader would announce the hint text too, not just "Cover image URL"). Not broken, just a little verbose — didn't seem worth restructuring for this pass, but flagging it since I noticed it firsthand rather than staying quiet about a real (if small) rough edge.
+  
+  
+
+--- WINDOW  2026/08/12 13:08:03  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:08:04  [chrome.exe] 44Craft - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:08:05  [brave.exe] localhost - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:08:07  [Telegram.exe] ‎MZ HUSTLE FORUM – (128956)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:08:12  [chrome.exe] 44Craft - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:08:12  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:12:37  [chrome.exe] 44Craft - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:12:41  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl]c
+  [Clipboard]
+  Small a11y fix: the hint text under the cover/gallery/community image fields is inside the same <label> as the input, making the accessible name too verbose. Move the hint into a separate element linked via aria-describedby instead of nesting it inside the label.
+  [LMB]
+  [Ctrl]
+
+--- WINDOW  2026/08/12 13:12:48  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  v[ENTER]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:13:53  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:13:54  [chrome.exe] 44Craft - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:14:12  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:14:12  [chrome.exe] 44Craft - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  n[Bk][Bk]ewb[Bk]web3/[Bk][ENTER]
+
+--- WINDOW  2026/08/12 13:17:01  [chrome.exe] web3.career - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:17:02  [chrome.exe] Web3 Jobs: Blockchain, Smart Contract and Crypto Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:17:12  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:17:14  [chrome.exe] wxrk.ai/?utm_source=web3.career&utm_medium=banner&utm_campaign=wxrk_talent - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:17:14  [chrome.exe] WxRK — Stop applying for jobs. Get discovered instead. - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:17:24  [chrome.exe] talent.wxrk.ai/talent/onboarding/handover?fallback=cv&utm_source=wxrk-landing&utm_medium=referral&utm_campaign=talent_cv&utm_content=continue - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:17:24  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:17:26  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:17:32  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:18:22  [Spotify.exe] auritni - Drained - Super Slowed
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:18:29  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:20:03  [chrome.exe] discord.com/oauth2/authorize?response_type=code&client_id=1529775186281369640&redirect_uri=https%3A%2F%2Ftalent.wxrk.ai%2Ftalent%2Fonboarding%2Fdiscord-connected&scope=identify&state=3f6fa5da-fa5d-4471-ac1d-f7d1a8f8319c - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:20:04  [chrome.exe] Discord - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:20:17  [chrome.exe] Discord | Authorise access to your account - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:20:41  [chrome.exe] talent.wxrk.ai/talent/onboarding/discord-connected?code=c0MbEHV32GPFKnS9iIQ1D9mGkOUQ2y&state=3f6fa5da-fa5d-4471-ac1d-f7d1a8f8319c - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:20:41  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:20:52  [chrome.exe] oauth.telegram.org/auth?bot_id=8949896369&origin=https%3A%2F%2Ftalent.wxrk.ai&request_access=write&return_to=https%3A%2F%2Ftalent.wxrk.ai%2Ftalent%2Fonboarding%2Ftelegram-connected - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:20:52  [chrome.exe] Telegram Authorization - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:20:57  [chrome.exe] Web3 Jobs: Blockchain, Smart Contract and Crypto Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:21:04  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:21:05  [chrome.exe] wxrk.ai/?utm_source=web3.career&utm_medium=banner&utm_campaign=wxrk_talent - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:21:06  [chrome.exe] WxRK — Stop applying for jobs. Get discovered instead. - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:21:08  [chrome.exe] talent.wxrk.ai/talent/onboarding/auth?utm_source=wxrk-landing&utm_medium=referral&utm_campaign=talent_login - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:21:09  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:21:19  [chrome.exe] oauth.telegram.org/auth/push?bot_id=8949896369&origin=https%3A%2F%2Ftalent.wxrk.ai&request_access=write&return_to=https%3A%2F%2Ftalent.wxrk.ai%2Ftalent%2Fonboarding%2Ftelegram-connected - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:21:20  [chrome.exe] Web3 Jobs: Blockchain, Smart Contract and Crypto Jobs - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:21:27  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:21:28  [chrome.exe] wxrk.ai/?utm_source=web3.career&utm_medium=banner&utm_campaign=wxrk_talent - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:21:28  [chrome.exe] WxRK — Stop applying for jobs. Get discovered instead. - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:21:30  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:21:39  [chrome.exe] x.com/i/oauth2/authorize?response_type=code&client_id=V1ZiSnh2aExESWdqOFVBRm9VbTA6MTpjaQ&redirect_uri=https%3A%2F%2Ftalent.wxrk.ai%2Ftalent%2Fonboarding%2Ftwitter-connected&scope=tweet.read users.read follows.read offline.access&state=d98d2731-d882-4502-84c3-e735b3c12c65&code_challenge=sH2NZ8M-xbVAqlkOlqacOVu9sVNt2-ygfRRTtJevFTo&code_challenge_method=S256 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:21:42  [chrome.exe] X - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:21:46  [chrome.exe] (4) X - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:21:49  [chrome.exe] talent.wxrk.ai/talent/onboarding/twitter-connected?state=d98d2731-d882-4502-84c3-e735b3c12c65&code=STM5anBNWm90NzJPQkc2V0tvOVdEWFBwUURjYUlhczFqeHJQZU42ellBQktWOjE3ODY1MzczMDk0NzQ6MToxOmFjOjE - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:21:49  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:22:00  [chrome.exe] github.com/login/oauth/authorize?client_id=Ov23lirUQHeSUc0hkziH&redirect_uri=https%3A%2F%2Ftalent.wxrk.ai%2Ftalent%2Fonboarding%2Fgithub-connected&scope=read:user&state=c439d652-c8fb-47ce-92e8-59f3cc5588b3 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:22:01  [chrome.exe] Authorize application - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:22:08  [chrome.exe] github.com/login/oauth/authorize - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:22:09  [chrome.exe] OAuth application authorized - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:22:09  [chrome.exe] talent.wxrk.ai/talent/onboarding/github-connected?code=415e9c79d63e6cf0917f&state=c439d652-c8fb-47ce-92e8-59f3cc5588b3 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:22:11  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  mendezbuilds
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  funllstack
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  nexai
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  i'm a 
+  [LMB]
+
+--- WINDOW  2026/08/12 13:23:53  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  i ned  [Bk] description for my role on nexai
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Stephen Mendez — Technical Co-Founder
+  
+  Stephen leads protocol engineering and security infrastructure for NEXAI, architecting the smart contract system that powers the platform's dual-token index and governance model on Base.
+  
+  His work spans the full technical stack: designing and implementing the core in-kind mint/redeem mechanism, building a governance token system with linear voting, staking-based rewards, and Sablier-integrated vesting, and architecting a multisig-and-timelock administrative structure with independent emergency safeguards to secure protocol operations against single points of failure.
+  
+  Stephen brings a rigorous, security-first approach to development — every deployment is independently verified on-chain, every architectural decision weighed against real tradeoffs before implementation. He is based in Lagos, Nigeria.
+  c
+  [LMB]
+
+--- WINDOW  2026/08/12 13:26:05  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]av[Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]a
+  [Clipboard]
+  Stephen Mendez — Technical Co-Founder
+  
+  Stephen leads protocol engineering and security infrastructure for NEXAI, architecting the smart contract system that powers the platform's dual-token index and governance model on Base.
+  
+  His work spans the full technical stack: designing and implementing the c
+  x
+  [LMB]
+
+--- WINDOW  2026/08/12 13:26:14  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  soething of thi[Bk]s length[ENTER]
+  [ENTER]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  im taking about e [Bk]m enit[Bk][Bk][Bk][Bk][ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:27:32  [Telegram.exe] ‎MZ HUSTLE FORUM – (128988)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:27:34  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:27:35  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:28:47  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:28:48  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  hp[Bk][Bk]httpd[Bk]s;//g.co/revover[Bk][Bk][Bk][Bk]cover
+
+--- WINDOW  2026/08/12 13:29:07  [chrome.exe] accounts.google.com/v3/signin/recoveryidentifier?source=esir&flowName=GlifWebSignIn&dsh=S-518059923%3A1786537751090390 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:29:08  [chrome.exe] Sign in - Google Accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk]krativz2gma[Bk]il.com[ENTER]
+
+--- WINDOW  2026/08/12 13:29:23  [chrome.exe] Account recovery - Google Chrome
+----------------------------------------------------------------------------
+  2mandela1[ENTER]
+
+--- WINDOW  2026/08/12 13:29:29  [chrome.exe] Couldn’t sign you in - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:29:42  [chrome.exe] Sign in - Google Accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:29:46  [chrome.exe] Account recovery - Google Chrome
+----------------------------------------------------------------------------
+  2mandel1[ENTER]
+  [LMB]
+  2madne=[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]2mandela
+  [LMB]
+  [LMB]
+  gotermall
+  [LMB]
+  hercnescal
+  [LMB]
+  2mandela1
+  [LMB]
+
+--- WINDOW  2026/08/12 13:30:26  [chrome.exe] Couldn’t sign you in - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:30:29  [brave.exe] localhost - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:30:34  [chrome.exe] Couldn’t sign you in - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://accounts.google.com/v3/signin/rejected?TL=AE6FvyacnEddrXfegrrfO8BoKyK_1IfGXJLW8xteh0gcRK9xkS_toWVkB3H1PO2k&checkConnection=youtube%3A687&checkedDomains=youtube&dsh=S-518059923%3A1786537751090390&flowName=GlifWebSignIn&pstMsg=1&rhlk=rec&rrk=91&source=esir
+  c
+  [LMB]
+
+--- WINDOW  2026/08/12 13:30:38  [brave.exe] localhost - Brave
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/12 13:30:40  [brave.exe] accounts.google.com/v3/signin/rejected?TL=AE6FvyacnEddrXfegrrfO8BoKyK_1IfGXJLW8xteh0gcRK9xkS_toWVkB3H1PO2k&checkConnection=youtube%3A687&checkedDomains=youtube&dsh=S-518059923%3A1786537751090390&flowName=GlifWebSignIn&pstMsg=1&rhlk=rec&rrk=91&source=esir - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:30:40  [brave.exe] Sign in – Google accounts - Brave
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  mm[Bk]endezkrativz[Bk][Bk][Bk][Bk][Bk][Bk]ativz2gmail.com
+  [LMB]
+  undowpodda
+  [LMB]
+
+--- WINDOW  2026/08/12 13:31:10  [brave.exe] Account recovery - Brave
+----------------------------------------------------------------------------
+  2mandela1[ENTER]
+  2mandela1
+  [LMB]
+  [LMB]
+  gadersci
+  [LMB]
+  [LMB]
+  2mandea[Bk]la
+  [LMB]
+  reabmica[ENTER]
+  [LMB]
+  2mandea[Bk]a[Bk]la1
+  [LMB]
+  airetswoun[ENTER]
+
+--- WINDOW  2026/08/12 13:32:00  [brave.exe] Couldn't sign you in - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:32:35  [brave.exe] Sign in – Google accounts - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:33:27  [brave.exe] Save password?
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:33:27  [brave.exe] Sign in – Google accounts - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:34:49  [chrome.exe] Couldn’t sign you in - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:34:50  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:34:54  [brave.exe] Sign in – Google accounts - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:34:55  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  so redo it[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Stephen Mendez — Technical Co-Founder
+  
+  Stephen is the Technical Co-Founder of NEXAI, responsible for the protocol's smart contract architecture and security infrastructure. He built the core mint/redeem mechanism, the governance token system, and the multisig-and-timelock structure that secures administrative control of the protocol.
+  [LMB]
+
+--- WINDOW  2026/08/12 13:35:36  [brave.exe] Sign in – Google accounts - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:35:37  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[Ctrl]a
+  [Clipboard]
+  Stephen Mendez — Technical Co-Founder
+  
+  Stephen is the Technical Co-Founder of NEXAI, responsible for the protocol's smart contract architecture and security infrastructure. He built the core mint/redeem mechanism, the governance token system, and the multisig-and-timelock structure that secures admi
+  x
+
+--- WINDOW  2026/08/12 13:35:45  [claude.exe] Claude
+----------------------------------------------------------------------------
+  it still cut [ENTER]
+  [ENTER]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:35:53  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:35:53  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:35:55  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:35:56  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  maxx [Bk][Bk] of 300 characters[ENTER]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Stephen Mendez — Technical Co-Founder
+  
+  Technical Co-Founder of NEXAI, responsible for smart contract architecture and security. Built the core mint/redeem mechanism, the governance token system, and the multisig-and-timelock structure securing protocol administration.
+  [LMB]
+
+--- WINDOW  2026/08/12 13:36:17  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:39:16  [chrome.exe] Web3 Jobs: Blockchain, Smart Contract and Crypto Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:39:22  [chrome.exe] web3.career/users/sign_in - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:39:27  [chrome.exe] auth.bondex.app/auth/login?uid=_j_9ZVButx8DGkVIkft24jvL5yAh65b8fXVJaBss4Ym - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:39:28  [chrome.exe] Sign in – Bondex - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  3
+  [LMB]
+  398380
+
+--- WINDOW  2026/08/12 13:40:22  [chrome.exe] web3.career/users/edit - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:40:23  [chrome.exe] Edit profile - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:40:40  [chrome.exe] checkout.stripe.com/c/pay/cs_live_a1aouNwinFXBoloBxsToybDJ0880ZPIRlJmdfReFVgUWIzoc7sgCa5awL9#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSd2cGd2ZndsdXFsamtQa2x0cGBrYHZ2QGtkZ2lgYSc%2FY2RpdmApJ2JwZGZkaGppYFNkd2xka3EnPydmamtxd2ppJyknZHVsTmB8Jz8ndW5aaWxzYFowNEtJNWJvTUNJM05jYFFsQWFHZnU0YWJ%2FXF98ZjJSZmBdbUBITH9qQUNWdz0yQjJhUm9CRzBqc0ZGMldtbFVrU3dCZm5Dc2ZQbkpdTVdEQnJ9N2BqXTJQSjU1aF0zS31WTzQnKSdjd2poVmB3c2B3Jz9xd3BgKSdnZGZuYndqcGthRmppancnPycmNTU1NTU1JyknaWR8anBxUXx1YCc%2FJ3Zsa2JpYFpscWBoJyknYGtkZ2lgVWlkZmBtamlhYHd2Jz9xd3
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:40:41  [chrome.exe] Stripe Checkout - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:40:42  [chrome.exe] Web3 Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:40:49  [chrome.exe] Edit profile - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  era
+  [LMB]
+  [LMB]
+  rea
+  [LMB]
+  flt[Bk][ENTER]
+  nex[ENTER]
+  sol[v][^][ENTER]
+  sol[ENTER]
+  type[ENTER]
+  supa[Bk][Bk][v][Bk][Bk]types[ENTER]
+  a[Bk][Bk]view[Bk][Bk]ew[Bk]m[Bk][Bk][Bk][Bk]har[v][v][ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:42:43  [chrome.exe] web3.career/users/edit - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:42:43  [chrome.exe] Edit profile - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:42:59  [chrome.exe] web3.career/users/edit - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:42:59  [chrome.exe] Edit profile - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  mend[Bk][Bk][Bk][Bk]mendezbuilds
+  [LMB]
+  mendez
+  [LMB]
+
+--- WINDOW  2026/08/12 13:43:21  [chrome.exe] web3.career/users/edit - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:43:21  [chrome.exe] Edit profile - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:43:27  [chrome.exe] web3.career/users/edit - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:43:28  [chrome.exe] Edit profile - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:43:45  [chrome.exe] Web3 Developer Salary - Aug 2026 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:44:00  [chrome.exe] web3.career - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:44:00  [chrome.exe] Web3 Jobs: Blockchain, Smart Contract and Crypto Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:44:10  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:44:11  [chrome.exe] web3.career/i/xcDMxUTM - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:44:12  [chrome.exe] Web3 Product Design Lead Remote at Stokr - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:44:13  [chrome.exe] talent.wxrk.ai/jobs/job/stokr/product-design-lead/1473877?source=web3.career - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:44:14  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:44:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:44:28  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:44:32  [explorer.exe] Downloads
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:44:41  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:44:47  [explorer.exe] Downloads
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:44:48  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:44:55  [chrome.exe] Couldn’t sign you in - Google Chrome
+----------------------------------------------------------------------------
+  men[Ctrl]
+
+--- WINDOW  2026/08/12 13:45:02  [chrome.exe] mendezbuilds.vercel.app - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:45:03  [chrome.exe] Mendez | Web2 & Web3 Developer - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://mendezbuilds.vercel.app/
+
+--- WINDOW  2026/08/12 13:45:06  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:45:23  [chrome.exe] Mendez | Web2 & Web3 Developer - Google Chrome
+----------------------------------------------------------------------------
+  len[v]
+
+--- WINDOW  2026/08/12 13:45:29  [chrome.exe] google.com/search?gs_ssp=eJzj4tVP1zc0TDMwKE9LKzRUYDRgdGDw4khOzEnNS8mpBAByBwga&q=calendly&oq=calen&gs_lcrp=EgZjaHJvbWUqEwgBEC4YgwEYxwEYsQMY0QMYgAQyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDIKCAIQABixAxiABDIKCAMQABixAxiABDINCAQQABiDARixAxiABDIHCAUQABiABDIKCAYQABixAxiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiPAtIBCDQ0NzVqMGo0qAIAsAIA&sourceid=chrome&source=chrome.ob&ie=UTF-8 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:45:30  [chrome.exe] calendly - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:45:31  [chrome.exe] calendly.com - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:45:32  [chrome.exe] Free Online Appointment Scheduling Software | Calendly - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:45:47  [chrome.exe] Welcome back to Calendly. Log in to your account here. | Calendly - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:45:53  [chrome.exe] accounts.google.com/v3/signin/accountchooser?access_type=online&client_id=797340822162.apps.googleusercontent.com&code_challenge=PSiu30iH9OIvI_0ucmf6adfn-2CLxPSZiq-kLss1Gw8&code_challenge_method=S256&include_granted_scopes=true&prompt=select_account&redirect_uri=https%3A%2F%2Fcalendly.com%2Fusers%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar&state=ac7f319d849a5a6ce49f138777ea0759130c4edffc6eafe0&dsh=S-402222411%3A1786538756568534
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:45:53  [chrome.exe] Sign in - Google Accounts - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:46:01  [chrome.exe] calendly.com/app/scheduling/meeting_types/user/me - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:46:01  [chrome.exe] Calendly - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:46:08  [chrome.exe] Event types - Scheduling - Calendly - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://calendly.com/capmendez078/30min
+  [LMB]
+
+--- WINDOW  2026/08/12 13:46:20  [chrome.exe] Single-use links - Scheduling - Calendly - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:46:25  [chrome.exe] Event types - Scheduling - Calendly - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:46:26  [chrome.exe] Single-use links - Scheduling - Calendly - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:46:27  [chrome.exe] Event types - Scheduling - Calendly - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:46:27  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  ste
+  [LMB]
+  phen
+  [LMB]
+  mendez
+  [LMB]
+  [LMB]
+  laho[Bk][Bk]gos
+  [LMB]
+  [LMB]
+  50000
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:47:18  [chrome.exe] Web3 Jobs: Blockchain, Smart Contract and Crypto Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:47:27  [chrome.exe] quiz.metana.io/web3/?utm_source=web3.career&utm_medium=web3.career&ref=web3.career - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:47:27  [chrome.exe] Metana Tech Career Quiz | Find Your Ideal Bootcamp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  mendez
+  [LMB]
+  [LMB]
+  capm
+  [LMB]
+  8149314784
+  [LMB]
+  [LMB]
+  [LMB]
+  fullstsck [Bk][Bk][Bk][Bk]ak[Bk]ck develper[Bk][Bk][Bk]p[Bk]
+  [LMB]
+  [Bk]oper
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:49:22  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:49:23  [chrome.exe] metana.io/pre-booking/?utm_source=web3.career&utm_medium=web3.career&autofill=true&rp-name=Mendez&a1=Mendez&rp-email=capmendez078%40gmail.com&a2=capmendez078%40gmail.com&a3=%2B2348149314784&country=NG&a4=NG - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:49:24  [chrome.exe] Pre Meeting - Metana - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:50:11  [chrome.exe] url.metana.io - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:50:34  [chrome.exe] Metana Tech Career Quiz | Find Your Ideal Bootcamp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:51:48  [chrome.exe] Web3 Jobs: Blockchain, Smart Contract and Crypto Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:52:14  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:52:15  [chrome.exe] web3.career/i/xgTNyUTM - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:52:15  [chrome.exe] Web3 Blockchain Developer / Blockchain Developer Lead (Java) $77k - $91k United States New Jersey US at Wisehead - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:52:17  [chrome.exe] linkedin.com/jobs/view/blockchain-developer-blockchain-developer-lead-java-at-wisehead-4449874238?source=web3.career - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:52:17  [chrome.exe] Wisehead hiring Blockchain Developer / Blockchain Developer Lead (Java) in New Jersey, United States | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:52:24  [chrome.exe] Security Verification | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  1mandela2
+
+--- WINDOW  2026/08/12 13:52:33  [chrome.exe] linkedin.com/checkpoint/challengesV3/verifyV3 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:52:33  [chrome.exe] Security Verification | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  2mandw[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]2mandla1
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:52:52  [chrome.exe] Reset Password | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:52:58  [chrome.exe] Security Verification | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  7[Bk]976118
+  [LMB]
+
+--- WINDOW  2026/08/12 13:53:25  [chrome.exe] linkedin.com/checkpoint/lg/login-restricted?userName=AgGq-UmvoCcVMAAAAZ_2CO4yR04V1ixk8SzMjoeytyVlh6k1AITKGC3i7z9KaYVsLhoFZeKpQDM&idVerificationMemberToken=AQHzBpdGymezxw&submissionId=Pwd-Reset%3Abc9c4a0c-069d-4b00-9b64-c5d58cf03cd5&ut=0L3XOUlaUBlYo1 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:53:25  [chrome.exe] Restriction | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:53:28  [chrome.exe] Security Verification | LinkedIn - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:53:35  [chrome.exe] Web3 Jobs: Blockchain, Smart Contract and Crypto Jobs - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:53:36  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  nexai
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  n[Bk]chief techno[Bk]ical officer
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:54:39  [brave.exe] Sign in – Google accounts - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:54:40  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/08/12 13:54:42  [brave.exe] Sign in – Google accounts - Brave
+----------------------------------------------------------------------------
+  [Clipboard]
+  Stephen Mendez — Technical Co-Founder
+  
+  Technical Co-Founder of NEXAI, responsible for smart contract architecture and security. Built the core mint/redeem mechanism, the governance token system, and the multisig-and-timelock structure securing protocol administration.
+
+--- WINDOW  2026/08/12 13:54:45  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  gate[Bk][Bk][Bk]44craft
+  [LMB]
+  a 
+
+--- WINDOW  2026/08/12 13:55:35  [chrome.exe] 44craft – Deployments – Vercel - Google Chrome
+----------------------------------------------------------------------------
+  [v][Ctrl]aca
+
+--- WINDOW  2026/08/12 13:55:48  [chrome.exe] 44craft-140c4u5rs-capmendezs-projects.vercel.app - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:55:50  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:55:54  [Telegram.exe] ‎MZ HUSTLE FORUM – (129016)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:55:55  [TradingView.exe] EURUSD ▲ 1.15589 +0.15% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:56:03  [chrome.exe] 44Craft - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  44Craft is two things at once: a craft-driven agency delivering real client work — web3, marketing, social media management, and more — and a growing community for self-made builders. Craftsmen figuring it out with no handouts.
+  [Ctrl]
+
+--- WINDOW  2026/08/12 13:56:08  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]vav44fhs;/
+
+--- WINDOW  2026/08/12 13:56:26  [chrome.exe] 44Craft - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:56:56  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:57:01  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 13:57:16  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:57:18  [chrome.exe] 44Craft - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 13:57:43  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  nexai
+  [LMB]
+
+--- WINDOW  2026/08/12 13:58:05  [brave.exe] Sign in – Google accounts - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:58:07  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:58:08  [chrome.exe] 44Craft - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  nexai[Bk]nexaindex.c
+
+--- WINDOW  2026/08/12 13:58:18  [chrome.exe] nexaindex.com - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 13:58:18  [chrome.exe] NEXAI — The Onchain AI-Sector Index - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Deposit approved tokens, mint $NEXAI, and hold a proportional, in-kind share of a basket of AI-sector crypto assets — no swaps, no price oracle in the core math, no picking winners.
+  [Ctrl]v
+
+--- WINDOW  2026/08/12 13:58:55  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://www.nexaindex.com/
+  [Ctrl]
+  [LMB]
+  [LMB]
+  full[Bk][Bk][Bk][Bk]ra
+  [LMB]
+  [Bk][Bk][Bk]type
+  [LMB]
+  next
+  [LMB]
+  [Bk][Bk][Bk]next
+  [LMB]
+  [LMB]
+  [Bk]supabase
+  [LMB]
+  [LMB]
+  node
+  [LMB]
+  go
+  [LMB]
+  go
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  soli
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk][Bk]we[Bk][Bk][Bk]wb[Bk]eb3 inter[Bk][Bk][Bk][Bk][Bk]int
+
+--- WINDOW  2026/08/12 14:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  er
+
+--- WINDOW  2026/08/12 14:00:26  [chrome.exe] WxRK Talent - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
