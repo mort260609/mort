@@ -1,0 +1,173 @@
+﻿
+--- WINDOW  2026/08/12 15:29:23  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+  [Clipboard]
+  A. The AI Software Supply Chain
+  An agent’s supply chain spans four artifact classes that
+  differ in form but share a trust deficit. Skills bundle natural
+  language instructions, scripts, and tool bindings, and are loaded
+  directly into an agent’s reasoning. MCP servers expose tools
+  to an agent through a standard protocol, sitting between the
+  agent and external systems. Packages are libraries drawn from
+  registries such as npm and PyPI, executed at install and import
+  time. Repositories are the source trees that agents and their
+  dependencies are built from. Each is composed and executed
+  with little or no review, and each can carry malice in a different
+  place.
+  B. Why Static and Language Model Analysis Fall Short
+  Two dominant approaches fail for distinct reasons. Static
+  inspection parses an artifact without running it, so it never observes the behavior that defines maliciousness, and obfuscation
+  readily defeats it because the damaging action is only assembled
+  at runtime. A scanner that delegates judgment to a language
+  model inherits the model’s own weakness: the artifact’s text is
+  consumed as reasoning context, so a crafted description can
+  prompt inject the very scanner meant to catch it, and the output
+  is prose a human reads rather than a verdict a runtime can
+  enforce. Recent behavioral detectors that execute artifacts and
+  compare observed behavior against declared intent substantially
+  outperform static and pattern based tools, by margins reported
+  in the tens of F1 points for malicious MCP server detection [1],
+  1
+  which is direct evidence that grounding analysis in execution is
+  the stronger basis for a verdict. Phylax builds on that evidence
+  and makes the resulting verdict cryptographically verifiable
+  and economically incentivised.
+
+--- WINDOW  2026/08/12 15:29:34  [msedge.exe] Notifications | Handshake and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:29:39  [msedge.exe] Fellow Dashboard | Handshake AI and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:29:40  [msedge.exe] Projects | Handshake AI and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:29:45  [msedge.exe] Handshake and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:29:46  [msedge.exe] Notifications | Handshake and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:29:54  [msedge.exe] Johnson & Johnson post: Interested in how your data science career can shape the future of… | Handshake and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:30:23  [msedge.exe] Notifications | Handshake and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:30:47  [msedge.exe] Handshake and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:30:49  [msedge.exe] Machine Learning Engineer | Neurohire.ai | Handshake and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:31:06  [msedge.exe] • Discord | @Jan and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:31:06  [msedge.exe] Discord and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:31:11  [msedge.exe] (3) Discord | @Jan and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 15:31:59  [msedge.exe] (3) Discord | @Phúc and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:31:59  [msedge.exe] • Discord | @Phúc and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:32:43  [msedge.exe] • Discord | @Jan and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:32:45  [msedge.exe] Labelbox and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:32:50  [msedge.exe] Sign in to Alignerr and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  ali
+
+--- WINDOW  2026/08/12 15:33:04  [msedge.exe] Alignerr | Powered by Labelbox and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 15:33:13  [msedge.exe] Sign in - Google Accounts and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:33:18  [msedge.exe] Alignerr | Powered by Labelbox and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:33:32  [msedge.exe] app.labelbox.com/signin?ref=alignerr&signature=s%252FnialUikFq7rwXNJpgBGEfckRvSW7xG3ryLyZzGmY7ErW5SvEd5zBpBlFuStZqFftynxbnnrV9sraFEm42jo58o74hSI0wl6386z7fuCCPwPtfUK4xWl%252FuQc21LVdqdYaDTvINaKHa0%252Fcm1y4Fgn%252BpLmIbri3N21ERjsNut9zicBcKFdotuLqxN4%252FCxeSnSOw8%252FXKjwM9%252FkR0%252FXlphp881mctUqcfzf3e8Ce6Z8kI18HzcDaKxI%252FMhAEVImTsHrVWBajMCE5jyClo7SO1YMHwmotvwpcqgCdtSq55tqSoYDofKE7eF9LrLPDTwR2qImI0iqNuVrtKdaTmE8yBf1xg%253D%253D&payload=%7B"alignerrUserId"%3A"3d44f374-8059-490d-8dba-eca69e86e000"%2C"dis
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:33:32  [msedge.exe] Labelbox and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:33:40  [msedge.exe] app.labelbox.com/callback?ref=alignerr&signature=s%252FnialUikFq7rwXNJpgBGEfckRvSW7xG3ryLyZzGmY7ErW5SvEd5zBpBlFuStZqFftynxbnnrV9sraFEm42jo58o74hSI0wl6386z7fuCCPwPtfUK4xWl%252FuQc21LVdqdYaDTvINaKHa0%252Fcm1y4Fgn%252BpLmIbri3N21ERjsNut9zicBcKFdotuLqxN4%252FCxeSnSOw8%252FXKjwM9%252FkR0%252FXlphp881mctUqcfzf3e8Ce6Z8kI18HzcDaKxI%252FMhAEVImTsHrVWBajMCE5jyClo7SO1YMHwmotvwpcqgCdtSq55tqSoYDofKE7eF9LrLPDTwR2qImI0iqNuVrtKdaTmE8yBf1xg%253D%253D&payload=%7B"alignerrUserId"%3A"3d44f374-8059-490d-8dba-eca69e86e000"%2C"d
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:33:41  [msedge.exe] Labelbox and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:33:46  [msedge.exe] app.labelbox.com/projects?pageIndex=0 and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:33:46  [msedge.exe] Labelbox and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:33:56  [msedge.exe] Connections | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 15:34:12  [msedge.exe] Connections | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Michael
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 15:34:34  [msedge.exe] Search | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v williford[ENTER]
+  [LMB]
+  [Bk][Bk][Bk][Bk]illi[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Oklahoma 
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 15:35:55  [msedge.exe] Connections | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 16:19:06  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 16:19:06  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 16:19:06  [msedge.exe] Connections | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
