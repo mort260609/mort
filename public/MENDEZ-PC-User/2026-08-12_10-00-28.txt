@@ -1,0 +1,457 @@
+﻿
+--- WINDOW  2026/08/12 09:00:29  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]c
+  [Clipboard]
+  Pushed (feaccf9). Summary of what's live now:
+  
+  Homepage team teaser, below ~601px: the grid is replaced by a single full-width card you swipe or slide through (dots below to jump directly too). Filter chips still work — swiping/filtering both operate on the same filtered set. Desktop/tablet keep the exact grid + spark-burst you had before, and the full /team roster page is untouched at every width.
+  
+  The compact mobile card: ~70/30 photo-to-info split — photo on top (real 4:3 crop, not a distorted sliver), name + a row of social icons below (github/linkedin/x/website, whichever the member has set). Tapping the card goes to their full profile.
+  
+  Two things worth flagging since they were real, would-have-shipped bugs I caught by actually testing rather than trusting the math or the API:
+  
+  My first pass at the ratio math produced a 2.8:1 image crop that cut off most of a face — fixed by using an actual photo-friendly ratio and getting the rest of 70/30 from the info strip's own layout instead.
+  My first carousel implementation had drag and Framer's animate prop fighting over the same position — clicking a dot moved the dot but not the card. Only visible with more than one team member, which the dev DB didn't have — I seeded temporary test profiles, found it with a real headless-browser test, rewrote it, then cleaned everything up.
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:06:08  [brave.exe] localhost:3000 wants to open
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:06:12  [ChatGPT Classic.exe] ChatGPT Classic
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:06:31  [ChatGPT Classic.exe] Save As
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:06:33  [ChatGPT Classic.exe] ChatGPT Classic
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:06:34  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:06:34  [brave.exe] localhost:3000 wants to open
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:06:36  [brave.exe] localhost - Brave
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:06:43  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:06:44  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  np[->][ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:07:51  [brave.exe] localhost - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:08:07  [brave.exe] 44Craft - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:08:12  [brave.exe] localhost:3000 wants to open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:08:15  [brave.exe] 44Craft - Brave
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:08:31  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  we ned to add that [ENTER]
+   aplace so team can add their socials[ENTER]
+  [ENTER]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Add a socials step/section to the member profile editor (/dashboard/profile) — fields for the platforms already in the team_profiles data model (github, linkedin, x, website), all optional. Should follow the same pattern as the rest of the editor (saves into the pendingVersion, goes through the normal review flow like any other edit) and display on the public /team/[slug] page per the original spec — check whether the profile page is already rendering a socials section expecting this data (it may have been built assuming the field would eventually get populated) or whether that needs building too.
+  [LMB]
+
+--- WINDOW  2026/08/12 09:10:06  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:12:32  [brave.exe] 44Craft - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:12:49  [brave.exe] localhost:3000/dashboard - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:21:39  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:29:28  [Antigravity IDE.exe] 44Craft - Antigravity IDE - screenshot-socials-stuck-1.png
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:29:46  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:35:20  [Telegram.exe] Telegram (128222)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:35:25  [Telegram.exe] ‎Дмитрий – (128222)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:35:28  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:35:30  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:37:38  [Telegram.exe] ‎Дмитрий – (128227)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:37:38  [Telegram.exe] (1) ‎Justsol – (128227)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:37:38  [Telegram.exe] ‎Justsol – (128226)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:37:43  [Telegram.exe] ‎NEXAI Chat – (128223)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:37:48  [Telegram.exe] ‎Justsol – (128223)
+----------------------------------------------------------------------------
+  hey buddy[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:38:04  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:38:07  [brave.exe] localhost:3000/dashboard - Brave
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:38:13  [brave.exe] localhost - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:38:16  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:38:17  [brave.exe] localhost - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:38:18  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]cn[->][ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:38:54  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:38:54  [Telegram.exe] ‎Justsol – (128223)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:38:59  [Telegram.exe] ‎MZ HUSTLE FORUM – (128223)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:39:03  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:39:06  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:39:10  [brave.exe] localhost - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:39:14  [brave.exe] 44Craft - Brave
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  https;//x.com/mendezbuilds
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]1
+  [LMB]
+  [Bk]m
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [->]
+  [LMB]
+  [LMB]
+  [->][Bk][Bk][Bk][Bk][Bk]admin[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [->][Bk][Bk][Bk][Bk][Bk][ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:41:34  [brave.exe] localhost:3000 - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:41:37  [brave.exe] 44Craft - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:41:53  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  now fr st[Bk][Bk][Bk] last phas[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]what's next pahse[ENTER]
+  [LMB]
+  what's in pahse 7[ENTER]
+  oay send prompt[ENTER]
+  [LMB]
+  [Clipboard]
+  # 44Craft — Phase 7: Projects, Services & Community Pages
+  
+  ## Context
+  Read SPEC.md before starting, particularly Section 6 (page specs)
+  and Section 5 (data models). Phases 1, 2, 3, 5, and 6 are complete —
+  auth/invites, design system, homepage, real team system, and the
+  real admin dashboard (with CRUD for projects/services/community
+  updates) are all live. This phase builds the public-facing pages
+  that render the content admin can already create.
+  
+  ## Assumption — flag if wrong
+  No confirmation yet on whether there are real projects to populate
+  `/projects` with. Building this with a "coming soon" empty state as
+  the default (same pattern already established on `/team` — clean,
+  intentional-looking, not a broken/blank page), swappable the moment
+  real projects get entered through the Phase 6 admin CRUD. If real
+  projects already exist in the DB, just render them instead of the
+  empty state — check before assuming zero.
+  
+  ## 1. `/projects` (index) + `/projects/[slug]` (detail)
+  **Index:** grid of project cards — cover image, title, service tags,
+  avatar stack of team members involved (pulled from `teamMembers` on
+  the project data model, linking to their `/team/[slug]` pages).
+  Empty state per the assumption above if nothing's published yet.
+  
+  **Detail:** banner/cover image, title, description, tags that link
+  back to the matching `/services/[slug]` page, a "Built by" avatar row
+  linking to each team member's `/team/[slug]`, image gallery if the
+  project has one, "Visit live site" external link if applicable,
+  next/prev navigation between projects.
+  
+  ## 2. `/services/[slug]` (detail pages)
+  The `/services` index already exists from Phase 3 and links out to
+  these — build the pages it's pointing at:
+  - Full description, deliverables list
+  - "Who you'd work with" — team members whose skills match this
+    service (reuse the reverse-link logic already built for
+    `/team/[slug]`'s "services covered" section, just inverted)
+  - Related past projects tagged under this service (empty state if
+    none yet, same principle as above)
+  
+  ## 3. `/community`
+  Per SPEC.md Section 6:
+  - Vision statement front and center — reuse the real brand-voice copy
+    already used in the homepage About section, don't write new copy
+    that might drift from it
+  - Partners showcase — Chronara AI Africa and Starmark, real depth per
+    partner (not a logo strip), tone matching the actual "official
+    partnership, aligned for the long term" language from the brand's
+    own X posts (SPEC.md Section 1)
+  - Real, honestly-scaled stats — no inflated numbers, consistent with
+    the project's standing "early but real" principle
+  - Join CTA (Discord/Telegram) — if the actual link isn't available
+    yet, use a clearly-marked placeholder and flag it rather than
+    linking nowhere or guessing a URL
+  - Updates/highlights feed — pulls from the community_updates data
+    admin can already create via the Phase 6 CRUD; empty state if
+    nothing's been posted yet
+  
+  ## Design consistency
+  All of this follows the same system as everything else at this
+  point — dark canvas, gold accents on objects/icons only, the
+  established card language (border glow, hover lift), entrance motion
+  on scroll (`riseIn`/`Reveal` — use the on-mount-safe version, not the
+  scroll-trigger version that caused the invisible-button bug in
+  admin, if any of this renders content that could be in-viewport on
+  load).
+  
+  ## Explicitly out of scope
+  - Email notifications (Phase 8)
+  - Any admin-side changes — the CRUD for these already exists from
+    Phase 6, this phase is display-only
+  - The homepage skill-filter/spark-burst teaser, if it's still not
+    built (separate, already-flagged item)
+  
+  ## Deliverable
+  Working `/projects`, `/projects/[slug]`, `/services/[slug]`, and
+  `/community` pages, all rendering real data from the admin CRUD (or
+  clean empty states where nothing exists yet), fully cross-linked with
+  `/team/[slug]` and each other. Confirm typecheck/lint/build pass
+  clean, and check on a real mobile device — not just resize-the-browser
+  — given mobile issues have been missed by build-only checks before on
+  this project.
+  [LMB]
+
+--- WINDOW  2026/08/12 09:43:25  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 09:59:27  [TradingView.exe] NAS100 ▲ 29,707.11 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:59:28  [TradingView.exe] NAS100 ▲ 29,707.23 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:59:30  [TradingView.exe] NAS100 ▲ 29,707.48 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:59:33  [TradingView.exe] NAS100 ▲ 29,707.23 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:59:35  [TradingView.exe] NAS100 ▲ 29,707.36 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:59:37  [TradingView.exe] NAS100 ▲ 29,707.23 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:59:40  [TradingView.exe] NAS100 ▲ 29,707.36 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 09:59:43  [TradingView.exe] NAS100 ▲ 29,707.23 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:59:48  [TradingView.exe] NAS100 ▲ 29,707.36 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:59:50  [TradingView.exe] NAS100 ▲ 29,708.11 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:59:53  [TradingView.exe] NAS100 ▲ 29,706.61 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:59:55  [TradingView.exe] NAS100 ▲ 29,705.36 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:59:57  [TradingView.exe] NAS100 ▲ 29,706.98 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 09:59:59  [TradingView.exe] NAS100 ▲ 29,706.11 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 10:00:02  [TradingView.exe] NAS100 ▲ 29,706.86 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 10:00:02  [TradingView.exe] NAS100 ▲ 29,706.98 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 10:00:04  [TradingView.exe] NAS100 ▲ 29,707.23 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 10:00:06  [TradingView.exe] NAS100 ▲ 29,707.11 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 10:00:11  [TradingView.exe] NAS100 ▲ 29,706.86 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 10:00:16  [TradingView.exe] NAS100 ▲ 29,707.61 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 10:00:18  [TradingView.exe] NAS100 ▲ 29,708.11 +0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 10:00:20  [TradingView.exe] NAS100 ▲ 29,708.86 +0.52% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 10:00:22  [TradingView.exe] NAS100 ▲ 29,708.36 +0.52% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 10:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
