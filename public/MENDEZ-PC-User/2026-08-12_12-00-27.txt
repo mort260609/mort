@@ -1,0 +1,77 @@
+﻿
+--- WINDOW  2026/08/12 11:00:42  [brave.exe] 44Craft - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 11:28:04  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]c
+  [Clipboard]
+  Pushed (712e24d).
+  
+  Both gaps closed, verified for real:
+  
+  Services wired to the database — scripts/migrate-services-to-db.ts carried the static content over (nothing lost, rerunnable/safe), both public pages now read from Prisma, and admin's create/update/delete actions revalidate the right public paths. I actually edited a service through a real admin session, confirmed the change showed up on the public page, then reverted it — this surfaced a real problem in my own first test script (a URL-match check that resolved before the form submission actually completed, so I nearly reported the fix as broken when it wasn't). Worth being upfront about: I almost shipped a false "still broken" finding here before catching my own test bug.
+  
+  Project gallery field — real migration, admin form field, and clean rendering (nothing shown when empty). Testing with actual seeded data caught a real edge case: using the image URL as a React key collapsed duplicate URLs into one rendered image. Small, fixed.
+  
+  Along the way, fixed the identical bug for Projects and Community too — their admin actions had the exact same "never revalidates the public page" gap Services had; it just hadn't surfaced yet because those pages didn't exist until Phase 7. Fixing it here rather than leaving a known duplicate of the bug I was hired to fix.
+  
+  One thing flagged, not fixed: gallery/cover/community-update images only work if hosted on Supabase Storage — next.config.ts's image allowlist doesn't cover anything else, and a pasted external URL will throw a runtime error, not just fail to load. Widening that allowlist is a real security tradeoff (an open image-optimization proxy is a mild SSRF/abuse vector), so I left it as a flagged decision rather than quietly changing it.
+  [LMB]
+
+--- WINDOW  2026/08/12 11:54:06  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/12 11:55:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 11:56:00  [explorer.exe] Task View
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 11:56:12  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 11:56:12  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Keep the image allowlist restricted to Supabase Storage only — don't widen it. If a gallery/cover/community-update image needs to come from elsewhere, the workflow is upload-to-Supabase-first, not paste-any-URL.
+  [Ctrl]
+
+--- WINDOW  2026/08/12 11:57:33  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/08/12 12:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
