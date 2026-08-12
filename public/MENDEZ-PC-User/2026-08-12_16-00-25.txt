@@ -1,0 +1,383 @@
+﻿
+--- WINDOW  2026/08/12 15:00:30  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:02:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:02:52  [ApplicationFrameHost.exe] Microsoft Store
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 15:03:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:03:29  [CredentialUIBroker.exe] Windows Security
+----------------------------------------------------------------------------
+  77738
+
+--- WINDOW  2026/08/12 15:03:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:03:37  [ApplicationFrameHost.exe] Microsoft Store
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:04:34  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:04:44  [ApplicationFrameHost.exe] Microsoft Store
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:05:06  [MovieBoxClient.exe] StartingWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:05:08  [MovieBoxClient.exe] RRClientPlayerWindowClass
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:05:09  [MovieBoxClient.exe] PlayerSimplifiedCoverWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:05:10  [MovieBoxClient.exe] MovieBox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:05:18  [MovieBoxClient.exe] RRClientLoginWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:05:24  [MovieBoxClient.exe] RRClientUpdateWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:05:43  [MovieBoxClient.exe] RRClientObscureCoverWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:06:41  [MovieBoxClient.exe] RRClientLoginWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:07:41  [MovieBoxClient.exe] RRClientRegisterAccountWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:07:43  [MovieBoxClient.exe] RRClientLoginWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:07:46  [MovieBoxClient.exe] MovieBox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:07:48  [brave.exe] Untitled - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:07:50  [brave.exe] MovieBox provides the latest official version download- download moviebox - Brave
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  movie-box.co
+
+--- WINDOW  2026/08/12 15:08:28  [brave.exe] MovieBox - Watch Movies Free Online, Watch TV Series Online - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:09:03  [ApplicationFrameHost.exe] Microsoft Store
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:09:07  [explorer.exe] Downloads
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:09:09  [brave.exe] MovieBox - Watch Movies Free Online, Watch TV Series Online - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:09:13  [brave.exe] Recent download history
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:09:16  [brave.exe] MovieBox - Watch Movies Free Online, Watch TV Series Online - Brave
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  spiderm
+  [LMB]
+
+--- WINDOW  2026/08/12 15:09:52  [brave.exe] Watch Movies Online, movies search, movies search result - Moviebox - Brave
+----------------------------------------------------------------------------
+  -[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 15:10:38  [brave.exe] MovieBox - Watch Movies Free Online, Watch TV Series Online - Brave
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 15:11:57  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]c
+  [Clipboard]
+  Pushed (b9c92f7).
+  
+  Fixed exactly what was asked — the hint text (<span id="coverImage-hint"> / gallery-hint / image-hint) now lives outside the <label>, wired via aria-describedby. Verified for real in a live browser session, not just by trusting the structural change: read back each field's actual aria-describedby attribute and confirmed the hint sentence is no longer part of the label's text. Layout/spacing unchanged (screenshots confirmed).
+  
+  One thing the verification surfaced that's worth flagging rather than staying quiet about: the upload button is still nested inside the <label>, so its own text still gets folded in too — e.g. the cover field's accessible name currently reads as "Cover image URLUpload image", not just "Cover image URL". That's a smaller amount of noise than the full hint sentence was, and you specifically named the hint text as the problem, so I left it as-is rather than assume you wanted the button restructured too. Say the word if you want that cleaned up as well.
+  [LMB]
+
+--- WINDOW  2026/08/12 15:12:03  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:12:08  [Telegram.exe] ‎MZ HUSTLE FORUM – (129068)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:12:10  [chrome.exe] Event types - Scheduling - Calendly - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:12:11  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:12:17  [MovieBoxClient.exe] MovieBox
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:12:21  [brave.exe] MovieBox - Watch Movies Free Online, Watch TV Series Online - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:12:22  [brave.exe] Recent download history
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:12:23  [brave.exe] Window Dialog
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:12:27  [brave.exe] MovieBox - Watch Movies Free Online, Watch TV Series Online - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:12:30  [MovieBox.exe] MovieBox Setup
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:12:44  (no active window)
+----------------------------------------------------------------------------
+  ft
+
+--- WINDOW  2026/08/12 15:13:16  [brave.exe] New Tab - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:13:22  [brave.exe] Redirecting... - Brave
+----------------------------------------------------------------------------
+  [LMB]
+  [<-][<-][<-][<-]
+
+--- WINDOW  2026/08/12 15:14:38  [MovieBox.exe] MovieBox - Watch Movies Free Online, Watch TV Series Online
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  sman bra ew 
+  [LMB]
+
+--- WINDOW  2026/08/12 15:15:05  [MovieBox.exe] Watch Movies Online, movies search, movies search result - Moviebox
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:15:43  [brave.exe] fzmovies - Google Search - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:15:57  [brave.exe] Fzmovies: Movies and Series Download - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:16:25  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [LMB]
+  should i sdend anythign to claude [Bk]ci[Bk] cide/[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Also move the upload button out of the <label> so its text doesn't fold into the accessible name either — same treatment as the hint text.
+  c
+  [LMB]
+
+--- WINDOW  2026/08/12 15:18:14  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 15:28:00  [Telegram.exe] ‎MZ HUSTLE FORUM – (129080)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:28:03  [chrome.exe] Event types - Scheduling - Calendly - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:28:05  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:28:05  [chrome.exe] Event types - Scheduling - Calendly - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:28:06  [Telegram.exe] ‎MZ HUSTLE FORUM – (129080)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:28:08  [Discord.exe] #💼｜jobs | Base - Discord
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 15:28:44  [Discord.exe] @c… - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:28:46  [Discord.exe] @Roman - Discord
+----------------------------------------------------------------------------
+  can youtell me more/[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 15:28:57  [Discord.exe] @spik - Discord
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:28:58  [Discord.exe] @c… - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:29:05  [Discord.exe] @! @ William - Discord
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:29:10  [Discord.exe] @ＳＣＡＲ 彡⁹²²⁸ - Discord
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:29:13  [Discord.exe] @barmsweb3 - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:29:15  [chrome.exe] Event types - Scheduling - Calendly - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:29:16  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:29:18  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Pushed (7ad59f8). <label> now wraps only each field's own text and control across all three fields — the button row and hint are both plain siblings in the same wrapper.
+  
+  Verified the actual computed accessible names in a live browser session (not just the structural change):
+  
+  Cover: "Cover image URL"
+  Gallery: "Gallery (one image URL per line, optional)"
+  Community image: "Image URL (optional)"
+  No folded-in button or hint text on any of them, and the visual layout is pixel-identical to before both fixes.
+  c
+  [LMB]
+
+--- WINDOW  2026/08/12 15:34:45  [chrome.exe] Event types - Scheduling - Calendly - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:34:46  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][ENTER]
+  doain will be sorted on friday[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 15:36:26  [chrome.exe] Event types - Scheduling - Calendly - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:36:28  [Antigravity IDE.exe] 44Craft - Antigravity IDE - Build 44Craft project sp…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:36:30  [Discord.exe] @barmsweb3 - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:36:36  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:36:36  [explorer.exe] Downloads
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:36:39  [ApplicationFrameHost.exe] Microsoft Store
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 15:36:40  [MovieBoxClient.exe] RRClientPlayerSidebar
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:36:40  [TradingView.exe] EURUSD ▲ 1.15474 +0.05% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:36:41  [MovieBoxClient.exe] RRClientPlayerSidebar
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:36:42  [WhatsApp.Root.exe] WhatsApp Beta
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:36:42  [MovieBoxClient.exe] RRClientPlayerSidebar
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:36:45  [Spotify.exe] EKKSTACY - i walk this earth all by myself
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:38:42  [Spotify.exe] Dj Samir - LUNA VEM
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:40:00  [Spotify.exe] daniel.mp3 - childhood
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:41:10  [Spotify.exe] CASAP - FUNK MAMACITA (Slowed)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:42:46  [Spotify.exe] M4XXX - Bajo La Luz - SUPER SLOWED
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:44:36  [Spotify.exe] trusteki - MONTAGEM JANIYA
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:46:05  [Spotify.exe] Irokz - FUNK ESTRELAS - Slowed
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:48:47  [Spotify.exe] Justin Bieber - Beauty And A Beat
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:52:36  [Spotify.exe] DJ SKZ - COMO TU
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:54:21  [Spotify.exe] Killswitch Memories - Missing Pieces - Slowed
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 15:58:14  [Spotify.exe] Flawed Mangoes - Missing Pieces
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 16:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
