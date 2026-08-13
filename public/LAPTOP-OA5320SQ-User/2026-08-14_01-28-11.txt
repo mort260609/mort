@@ -1,0 +1,745 @@
+﻿  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  
+  domore47
+  
+  Aug 14, 12:14 AM
+  https://sciencebasedresearch.com.au/
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 14, 12:19 AM
+  Your catalogue includes Semaglutide, Tirzepatide and Retatrutide. The first two are prescription-only medicines in Australia and the third isn't approved anywhere yet. Melanotan 2 is on there too, which the TGA has issued warnings about specifically.
+  
+  D
+  domore47
+  
+  Aug 14, 12:22 AM
+  They are research compounds, they are not marketed as prescription medications.
+  [Clipboard]
+  The difficulty is that Australian scheduling attaches to the substance rather than to how it's described, so the labelling doesn't change how the TGA treats it. That's their stated view rather than mine.
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  hi, how are you/[ENTER]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Could you share a reference website, so I can understand what you are after?
+  [Ctrl]v[ENTER]
+  and also could you share requirements as well/[ENTER]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  That pricing is out of date and due to be updated shortly. It reflects a much smaller scope than what you've described, and I'd rather tell you that now than let you plan around a number that doesn't apply.
+  
+  Pricing on a build like this depends on scope. 
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  
+  itsautomated
+  [LMB]
+
+--- WINDOW  2026-08-14 00:35:26  [anty.exe] Fiverr Divyansh
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-14 00:35:27  [anty.exe] Fiverr navya new + Upwork Shreyansh + Trenzio 13/04/2026
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-14 00:36:27  [msedge.exe] Fiverr / Inbox and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-14 00:36:49  [remoting_host.exe] Download File
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-14 00:36:53  [msedge.exe] Fiverr / Inbox and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-14 00:36:57  [remoting_host.exe] Download File
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-14 00:37:00  [msedge.exe] Fiverr / Inbox and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  list all the features  under 5000 charachter in detail that he need and we provide 
+  
+  [LMB]
+  hi, thank you for the detailed brief;0[ENTER]
+  [LMB]
+  [Clipboard]
+  Let me send you the full feature breakdown first so you can see exactly what is included before we move forward
+  
+  [Ctrl]v[ENTER]
+  [Clipboard]
+  ARGUS ZERO — Here's everything the build covers:
+  
+  ◉ SETUP
+  * WordPress installed on your Hostinger plan
+  * Netzon theme installed and configured, with Elementor
+  * SSL/HTTPS enforced site-wide
+  * Caching plugin and security plugin installed and properly configured, not left on defaults
+  * Yoast or Rank Math configured
+  
+  ◉ THE DARK/LIGHT PATTERN
+  Built as the deliberate hybrid you specified, not a whole-site toggle.
+  * Dark: hero with the network-diagram background, Coming Soon app teaser, Argus Red panel, nav and footer
+  * Light: all pricing cards and the tier comparison table, contact form, team cards, the monitor/never-do trust section, Resources
+  * Transitions built as gradient fades with a rounded top edge and dark-to-transparent overlay across roughly the first 140px, matching your current live site rather than stacking flat blocks
+  
+  ◉ HOME
+  * Hero with your network-diagram image and "The Threat Stops Here" headline
+  * Human-monitoring-first subhead
+  * Three pricing tiers: Shield Basic $24.99, Shield Pro $59.99, Argus Enterprise $249.99
+  * Promo banner for the equipment/three-months-free offer
+  * Coming Soon app teaser
+  * "See What Argus Sees" alert section, static mockup if animation is not feasible in the theme
+  * "What we monitor. What we never do." trust section
+  * Resources preview, three cards linking to the real PDFs
+  
+  ◉ ARGUS ZERO PRODUCT PAGE
+  * Same three tiers with the full comparison table, every row as supplied
+  * Argus Red breach-simulation panel with standalone quote and Enterprise-subscriber discount
+  
+  ◉ INFRASTRUCTURE SERVICES
+  * Three property sizes across two tiers each, six combinations
+  * Cabling shown as a separate line item using your exact supplied copy, unaltered
+  * Per-category "Get a quote" CTA routing to Contact
+  
+  ◉ REMAINING PAGES
+  * What Is Argus Zero Monitoring: what's monitored, four-step how-it-works flow, screenshot placeholders for the future app
+  * Cybersecurity: stats page with every source kept attached to its figure
+  * Resources: four real PDFs with working downloads, not placeholder links
+  * Team: origin story above the grid, initials-in-circle avatars, no stock photos, no badges section
+  * Contact with a working form
+  [Ctrl]
+  [LMB]
+  v[ENTER]
+  [Clipboard]
+  ◉ ACCOUNT TAGGING
+  Built now rather than retrofitted, as you asked.
+  * Membership/user-role plugin installed and configured
+  * All sixteen fields set up on every account from day one: plan tier, referral source, sign-up date, system, renewal date, contract length, network access level, network management add-on, server patch add-on, Argus Red status, infrastructure purchase record, founding member status, subscription status, active discount code and duration, seat count, hardware asset ID
+  * Structured so your future customer app can read them without rework
+  
+  ◉ TECHNICAL
+  * Fully mobile-responsive
+  * Hamburger nav below 860px, since eight items plus a CTA is too many to leave uncollapsed
+  * Contact form submissions routed to your monitored inbox
+  * Page speed optimised
+  
+  ◉ WHAT WE WILL NOT DO
+  * No hardware vendor names in visible copy anywhere
+  * No RTBS branding of any kind
+  * No invented copy for anything marked placeholder or coming soon
+  * No substituting the theme
+  
+  ◉ TESTING & HANDOVER
+  * Every page tested on desktop, tablet and mobile
+  * All four PDF downloads tested
+  * Contact form tested through to your inbox
+  * Account field creation tested
+  * Cross-browser testing
+  * Walkthrough plus written notes, so your non-technical team member can manage content confidently
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  hi, how are you/[ENTER]
+  [LMB]
+  [Clipboard]
+  muzamilmian696
+  [Ctrl]c
+  [Clipboard]
+  RED TEAM BLUE SHIELD — Here's everything the build covers:
+  
+  ◉ SETUP
+  * WordPress installed and configured
+  * Redlens theme installed, built on Gutenberg rather than Elementor, so a different approach from the Argus Zero build
+  * SSL/HTTPS enforced
+  * Caching and security plugins installed and configured properly, which matters more on a site taking payments
+  * Your palette applied: RTBS Red #C8102E, Blue #003087, Dark #0D0D0D, White #F5F5F5, Gold #D4A017
+  * Bebas Neue headlines, Inter body
+  
+  ◉ HOME / CONTENT HUB
+  * Latest video embeds pulling from your channel
+  * Channel description and social links
+  * Email signup feeding Zoho Campaigns
+  * Circular RS monogram logo placed throughout
+  * "The Threat Stops Here." tagline included on-site, pending your confirmation on whether it belongs there as well as on thumbnails
+  
+  ◉ MERCHANDISE STORE
+  * WooCommerce installed and configured
+  * Product pages, variants, inventory, images
+  * Cart and checkout set up and styled to the theme
+  * Payment processing configured
+  * Shipping zones and rates
+  * Products added once you supply them
+  
+  ◉ DIGITAL DOWNLOADS
+  * Delivered through WooCommerce's native download system
+  * Files attached to products, delivered automatically on purchase
+  * Download limits and expiry configured as you prefer
+  
+  ◉ SWEEPSTAKES
+  Built to comply, not just to function.
+  * RafflePress installed and configured for monthly draws
+  * Free Alternate Method of Entry via mail-in to your company address
+  * Mail-in entries weighted equally to online and purchase-linked entries, since that is a legal requirement rather than a preference
+  * Official rules page covering entry methods, odds statement, prize value and ARV, winner selection method and notification deadline
+  * Rules page will not be published with placeholder copy. It goes live only once you have finalised the wording.
+  * Note: the sweepstakes cannot legally launch until your company mailing address exists, so this is the last element switched on
+  
+  ◉ AFFILIATE PROGRAMME
+  * AffiliateWP installed and configured
+  * Tracked links for anyone promoting RTBS or Argus Zero content
+  * Affiliate registration and dashboard
+  * Commission structure set to your specification
+  
+  ◉ ARGUS ZERO CROSS-PROMOTION
+  * Outbound link and button hosted with tracking parameters attached
+  * 25% first-cycle monitoring discount and 10% one-time equipment discount presented
+  * The discount itself is processed at the Argus Zero end through Stripe. This site hosts the tracked link only, exactly as specified.
+  
+  ◉ BRAND SEPARATION
+  * No Argus Zero branding anywhere on this site
+  * No Argus Zero pricing, tiers or hardware details, since cross-promotion happens through the tracked link alone
+  * Hex values checked against this brief rather than reused from the Argus Zero build, since the palettes are similar but not identical
+  * About page copy left as a clearly marked placeholder. We will not reuse the Argus Zero origin story or invent replacement copy.
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk][ENTER]
+  [Clipboard]
+  ◉ AFFILIATE PROGRAMME
+  * AffiliateWP installed and configured
+  * Tracked links for anyone promoting RTBS or Argus Zero content
+  * Affiliate registration and dashboard
+  * Commission structure set to your specification
+  
+  ◉ ARGUS ZERO CROSS-PROMOTION
+  * Outbound link and button hosted with tracking parameters attached
+  * 25% first-cycle monitoring discount and 10% one-time equipment discount presented
+  * The discount itself is processed at the Argus Zero end through Stripe. This site hosts the tracked link only, exactly as specified.
+  
+  ◉ BRAND SEPARATION
+  * No Argus Zero branding anywhere on this site
+  * No Argus Zero pricing, tiers or hardware details, since cross-promotion happens through the tracked link alone
+  * Hex values checked against this brief rather than reused from the Argus Zero build, since the palettes are similar but not identical
+  * About page copy left as a clearly marked placeholder. We will not reuse the Argus Zero origin story or invent replacement copy.
+  
+  ◉ EMAIL
+  * Zoho Campaigns connected to your existing account
+  * Signup forms feeding the correct lists
+  
+  ◉ TECHNICAL
+  * Fully mobile-responsive across every page
+  * Store and checkout tested on mobile specifically
+  * Page speed optimised
+  
+  ◉ TESTING & HANDOVER
+  * Full purchase tested end to end, physical and digital
+  * Digital download delivery tested
+  * Sweepstakes entry tested through both online and mail-in routes
+  * Affiliate tracking tested with a real link
+  * Zoho signup tested through to your list
+  * Cross-browser and cross-device testing
+  * Walkthrough plus written guide covering products, orders, downloads and running a monthly draw
+  
+  What we need: the logo file, products with images and inventory when available, y
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk][ENTER]
+  [LMB]
+  [Clipboard]
+  Give me a movement I will send you a Proposal with pricing and timeline.
+  
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Me
+  
+  Aug 14, 12:44 AM
+  Hi, thank you for the detailed brief:)
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 14, 12:44 AM
+  Let me send you the full feature breakdown first so you can see exactly what is included before we move forward
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 14, 12:45 AM
+  ARGUS ZERO — Here's everything the build covers:
+  
+  ◉ SETUP
+  * WordPress installed on your Hostinger plan
+  * Netzon theme installed and configured, with Elementor
+  * SSL/HTTPS enforced site-wide
+  * Caching plugin and security plugin installed and properly configured, not left on defaults
+  * Yoast or Rank Math configured
+  
+  ◉ THE DARK/LIGHT PATTERN
+  Built as the deliberate hybrid you specified, not a whole-site toggle.
+  * Dark: hero with the network-diagram background, Coming Soon app teaser, Argus Red panel, nav and footer
+  * Light: all pricing cards and the tier comparison table, contact form, team cards, the monitor/never-do trust section, Resources
+  * Transitions built as gradient fades with a rounded top edge and dark-to-transparent overlay across roughly the first 140px, matching your current live site rather than stacking flat blocks
+  
+  ◉ HOME
+  * Hero with your network-diagram image and "The Threat Stops Here" headline
+  * Human-monitoring-first subhead
+  * Three pricing tiers: Shield Basic $24.99, Shield Pro $59.99, Argus Enterprise $249.99
+  * Promo banner for the equipment/three-months-free offer
+  * Coming Soon app teaser
+  * "See What Argus Sees" alert section, static mockup if animation is not feasible in the theme
+  * "What we monitor. What we never do." trust section
+  * Resources preview, three cards linking to the real PDFs
+  
+  ◉ ARGUS ZERO PRODUCT PAGE
+  * Same three tiers with the full comparison table, every row as supplied
+  * Argus Red breach-simulation panel with standalone quote and Enterprise-subscriber discount
+  
+  ◉ INFRASTRUCTURE SERVICES
+  * Three property sizes across two tiers each, six combinations
+  * Cabling shown as a separate line item using your exact supplied copy, unaltered
+  * Per-category "Get a quote" CTA routing to Contact
+  
+  ◉ REMAINING PAGES
+  * What Is Argus Zero Monitoring: what's monitored, four-step how-it-works flow, screenshot placeholders for the future app
+  * Cybersecurity: stats page with every source kept attached to its figure
+  * Resources: four real PDFs with working downloads, not placeholder links
+  * Team: origin story above the grid, initials-in-circle avatars, no stock photos, no badges section
+  * Contact with a working form
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Me
+  
+  Aug 14, 12:46 AM
+  ◉ ACCOUNT TAGGING
+  Built now rather than retrofitted, as you asked.
+  * Membership/user-role plugin installed and configured
+  * All sixteen fields set up on every account from day one: plan tier, referral source, sign-up date, system, renewal date, contract length, network access level, network management add-on, server patch add-on, Argus Red status, infrastructure purchase record, founding member status, subscription status, active discount code and duration, seat count, hardware asset ID
+  * Structured so your future customer app can read them without rework
+  
+  ◉ TECHNICAL
+  * Fully mobile-responsive
+  * Hamburger nav below 860px, since eight items plus a CTA is too many to leave uncollapsed
+  * Contact form submissions routed to your monitored inbox
+  * Page speed optimised
+  
+  ◉ WHAT WE WILL NOT DO
+  * No hardware vendor names in visible copy anywhere
+  * No RTBS branding of any kind
+  * No invented copy for anything marked placeholder or coming soon
+  * No substituting the theme
+  
+  ◉ TESTING & HANDOVER
+  * Every page tested on desktop, tablet and mobile
+  * All four PDF downloads tested
+  * Contact form tested through to your inbox
+  * Account field creation tested
+  * Cross-browser testing
+  * Walkthrough plus written notes, so your non-technical team member can manage content confidently
+  
+  I
+  itsautomated
+  
+  Aug 14, 12:47 AM
+  So how much to do both sites
+  c
+  [LMB]
+  [Clipboard]
+  Me
+  
+  Aug 14, 12:47 AM
+  RED TEAM BLUE SHIELD — Here's everything the build covers:
+  
+  ◉ SETUP
+  * WordPress installed and configured
+  * Redlens theme installed, built on Gutenberg rather than Elementor, so a different approach from the Argus Zero build
+  * SSL/HTTPS enforced
+  * Caching and security plugins installed and configured properly, which matters more on a site taking payments
+  * Your palette applied: RTBS Red #C8102E, Blue #003087, Dark #0D0D0D, White #F5F5F5, Gold #D4A017
+  * Bebas Neue headlines, Inter body
+  
+  ◉ HOME / CONTENT HUB
+  * Latest video embeds pulling from your channel
+  * Channel description and social links
+  * Email signup feeding Zoho Campaigns
+  * Circular RS monogram logo placed throughout
+  * "The Threat Stops Here." tagline included on-site, pending your confirmation on whether it belongs there as well as on thumbnails
+  
+  ◉ MERCHANDISE STORE
+  * WooCommerce installed and configured
+  * Product pages, variants, inventory, images
+  * Cart and checkout set up and styled to the theme
+  * Payment processing configured
+  * Shipping zones and rates
+  * Products added once you supply them
+  
+  ◉ DIGITAL DOWNLOADS
+  * Delivered through WooCommerce's native download system
+  * Files attached to products, delivered automatically on purchase
+  * Download limits and expiry configured as you prefer
+  
+  ◉ SWEEPSTAKES
+  Built to comply, not just to function.
+  * RafflePress installed and configured for monthly draws
+  * Free Alternate Method of Entry via mail-in to your company address
+  * Mail-in entries weighted equally to online and purchase-linked entries, since that is a legal requirement rather than a preference
+  * Official rules page covering entry methods, odds statement, prize value and ARV, winner selection method and notification deadline
+  * Rules page will not be published with placeholder copy. It goes live only once you have finalised the wording.
+  * Note: the sweepstakes cannot legally launch until your company mailing address exists, so this is the last element switched on
+  [Ctrl]c
+  [LMB]
+  [Clipboard]
+  Me
+  
+  Aug 14, 12:48 AM
+  ◉ AFFILIATE PROGRAMME
+  * AffiliateWP installed and configured
+  * Tracked links for anyone promoting RTBS or Argus Zero content
+  * Affiliate registration and dashboard
+  * Commission structure set to your specification
+  
+  ◉ ARGUS ZERO CROSS-PROMOTION
+  * Outbound link and button hosted with tracking parameters attached
+  * 25% first-cycle monitoring discount and 10% one-time equipment discount presented
+  * The discount itself is processed at the Argus Zero end through Stripe. This site hosts the tracked link only, exactly as specified.
+  
+  ◉ BRAND SEPARATION
+  * No Argus Zero branding anywhere on this site
+  * No Argus Zero pricing, tiers or hardware details, since cross-promotion happens through the tracked link alone
+  * Hex values checked against this brief rather than reused from the Argus Zero build, since the palettes are similar but not identical
+  * About page copy left as a clearly marked placeholder. We will not reuse the Argus Zero origin story or invent replacement copy.
+  
+  ◉ EMAIL
+  * Zoho Campaigns connected to your existing account
+  * Signup forms feeding the correct lists
+  
+  ◉ TECHNICAL
+  * Fully mobile-responsive across every page
+  * Store and checkout tested on mobile specifically
+  * Page speed optimised
+  
+  ◉ TESTING & HANDOVER
+  * Full purchase tested end to end, physical and digital
+  * Digital download delivery tested
+  * Sweepstakes entry tested through both online and mail-in routes
+  * Affiliate tracking tested with a real link
+  * Zoho signup tested through to your list
+  * Cross-browser and cross-device testing
+  * Walkthrough plus written guide covering products, orders, downloads and running a monthly draw
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 14, 12:48 AM
+  Give me a movement I will send you a Proposal with pricing and timeline.
+  [Ctrl]c
+  [Clipboard]
+  Argus- make proposal 27,29,32
+  
+  1 month, 2, 3
+  
+  recommend growth 
+  
+  2500,3200,4000
+  [LMB]
+  [LMB]
+  hi, how are you/[ENTER]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Could you share a reference website, so I can understand what you are after?
+  
+  v[Bk][Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  dkainth
+  [Ctrl]c
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi, just checking in, hoping that you have gone through with the proposal if you have any doubts or require adjustment please lert me know. Hoping to be hearing back from you:)
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  meet
+  [LMB]
+  [ENTER]
+  [LMB]
+  [Clipboard]
+   I'll send the meeting link about 10 minutes before we start. Looking forward to it ,we'll get everything sorted smoothly.
+  
+  [Ctrl]v[ENTER]
+  hoping to get this smoothly [Bk];0[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-14 01:02:27  [msedge.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-14 01:02:30  [msedge.exe] Fiverr / Inbox and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-14 01:02:55  [msedge.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-14 01:02:58  [msedge.exe] Fiverr / Inbox and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Perfect! In the meantime, could you please download the proposal by clicking the downward arrow (⬇️) button on the left? Once you've downloaded it, you'll be able to review the complete scope of work, the different plans, pricing, and timelines in detail.
+  
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  Please go through with this and let me know if you have any questions. Happy to answer.
+  
+  
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  no worries, hoping to be hearing back from you;0[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  robert
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  
+  Me
+  
+  Aug 13, 11:40 PM
+  Replied
+  
+  maskedalais
+  
+  Aug 13, 11:38 PM
+  
+  Ok. The mystery balls are only for safety boxes. Zyia mystery for The scoops in options up to 5 but pretense of the 3 categories. Snack mystery box would be advertised as 1 scoop per box.
+  
+  okay noted:)
+  
+  M
+  maskedalais
+  
+  Aug 13, 11:43 PM
+  And I am so sorry I need a section also that says join us. And that will be for digital creators and affiliate programs.
+  
+  M
+  maskedalais
+  
+  Aug 13, 11:44 PM
+  I do have rough draft of everything that I need on the website. That should make your job a little easier.
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 13, 11:44 PM
+  Yes please share the draft:)
+  
+  M
+  maskedalais
+  
+  Aug 13, 11:45 PM
+  I will after I finish reading everything
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 13, 11:46 PM
+  Sure no worries:)
+  Could you confirm When to expect?
+  
+  M
+  maskedalais
+  
+  Aug 13, 11:49 PM
+  Middle of September
+  
+  
+  c
+  [LMB]
+  [Clipboard]
+  Middle of September is a fair way out, and I don't think you need to wait that long.
+  
+  You said you already have a rough draft. Send it rough. Genuinely. I'd rather work from something messy now than something polished in a month, because most of the build doesn't depend on your copy at all.
+  [Ctrl]
+  [LMB]
+  v[ENTER]
+  [Clipboard]
+  What I can start on without it: the store setup, the theme, the design direction, the product structure for the scoops and mystery balls with their options, the snack box, the cart and checkout, shipping zones, and the age gate on the safety products. That's the bulk of it.
+  
+  What genuinely waits for your copy: the homepage wording, the About page, the FAQ answers, and the party favor form fields.
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  gowrichidanand
+  
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  hi, any update/ hoping to n[Bk]be hearing back from you;0[ENTER]
+  [LMB]
+  [Clipboard]
+  gowrichidanand
+  [Ctrl]c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  domore47
+  
+  Aug 14, 12:12 AM
+  Hello Shreyansh
+  
+  I am just wondering if you might be interested in helping me fix up my web site, its been recently made through a friend but it needs some improvement. 
+  
+  Its a Wordpress site, its also a e-commerce
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 14, 12:12 AM
+  Hi! domore47  
+  You’ve officially reached the 🏅 #1 Expert on Fiverr!
+  
+  You haven’t just messaged a developer; you’ve contacted the ✅ #1 Ranked Top Rated Seller in Website Development on this platform which is why premium brands choose us over thousands of other agencies.
+  
+  🎬 https://www.youtube.com/@DigitalMarketingHeroes
+  We are the team behind✅ 2.5 MILLION Subscribers on our YouTube channel, where we teach the world how to build and scale million-dollar brands. When you work with us, you get the same expertise trusted by global industry leaders like Hostinger, Loox, Minea and 2000+ More.
+  
+  Why you can stop your search here:
+  -Unmatched Authority
+  -Your Vision, Perfected: We want you to point out every single inch of detail you desire. We build for your brand, and we offer unlimited revisions until it is 100% perfect.
+  -Zero Risk: We provide full support until you are 100% happy and satisfied.
+  
+  Take a look at what we deliver: 
+  👉 Our Brand Deck & Portfolio: https://portfolio.digitalheroes.co.in
+  
+  Now, you can officially 😴 SIT BACK and RELAX. You are in the best hands in the industry. Please share your project details or check out our portfolio above this will help us clarify your requirements and move forward quickly to exceed your expectations!
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 14, 12:13 AM
+  Hi, how are you?
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 14, 12:13 AM
+  Could you share your existing website so I can take a look and understand where you're starting from?
+  
+  D
+  domore47
+  
+  Aug 14, 12:14 AM
+  I am well, hope you are well too.
+  
+  D
+  domore47
+  
+  Aug 14, 12:14 AM
+  https://sciencebasedresearch.com.au/
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 14, 12:19 AM
+  Your catalogue includes Semaglutide, Tirzepatide and Retatrutide. The first two are prescription-only medicines in Australia and the third isn't approved anywhere yet. Melanotan 2 is on there too, which the TGA has issued warnings about specifically.
+  
+  D
+  domore47
+  
+  Aug 14, 12:22 AM
+  They are research compounds, they are not marketed as prescription medications.
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://sciencebasedresearch.com.au/
+  c
+  [LMB]
+  [LMB]
+  [Clipboard]
+  peteherard
+  
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  hi, are we still in touch/[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  okay sure , ;0[ENTER]
