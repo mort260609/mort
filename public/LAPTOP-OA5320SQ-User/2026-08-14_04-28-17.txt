@@ -1,0 +1,385 @@
+﻿  [LMB]
+  [LMB]
+  [LMB]
+  hi, how are you/[ENTER]
+  [LMB]
+  [LMB]
+  hi, how are you/[ENTER]
+  [LMB]
+  [Clipboard]
+  phasenl
+  
+  PROMOTED
+  
+  Aug 14, 3:40 AM
+  Hi,
+  
+  I’m looking for a designer/developer to build the e-commerce website for my new luxury streetwear brand, PHASE Collective.
+  
+  Shopify is a requirement. I want to continue managing products, collections, inventory, orders and general website content myself after the website is completed.
+  
+  I will upload and manage all products and collections myself, so this does not need to be included in your work.
+  
+  I’m looking for someone who can preferably handle both UI/UX design and Shopify development and create something more custom than a standard Shopify theme.
+  
+  Our main reference is Odd Ritual Golf. We don’t want to copy the website 1:1, but we really like its overall direction: strong imagery, typography, spacing, editorial feeling and the balance between storytelling and e-commerce.
+  
+  The goal is to create something with a similar level of creativity and attention to detail, but with its own PHASE Collective identity. It should feel like entering the world of the brand rather than simply entering a standard Shopify store.
+  
+  For the initial design phase, you can use placeholder/stock imagery and temporary copy. Our final campaign and product photography will be added later. I can provide our logo and current visual assets.
+  
+  The website should include the essential e-commerce pages:
+  – Homepage
+  – Shop/collection pages
+  – Product pages
+  – Cart & checkout
+  – About/brand story
+  – Contact/information pages
+  – Navigation
+  – Mobile versions
+  
+  The mobile experience is especially important.
+  
+  Before moving forward, could you please let me know:
+  
+  – Do you handle both UI/UX design and Shopify development?
+  – Do you design in Figma first?
+  – Can you create/customize Shopify themes beyond standard layouts?
+  – Will I be able to easily change images, text and content myself afterwards?
+  – Can you share relevant fashion/e-commerce websites you have built?
+  – What would be your estimated timeframe and total price?
+  
+  Thank you,
+  
+  Michael
+  PHASE Collective
+  [Ctrl]c
+  [LMB]
+  [LMB]
+  hi, how are you/[ENTER]
+  [LMB]
+  [Clipboard]
+  Hello I have a shopify store that I connected to external website so never put any effort in designing the shopify site. Can you check out the basic site at https://my-e-bike-3.myshopify.com/ and how to optimize for sales.
+  [Ctrl]c
+  [Clipboard]
+  How many products and collections at launch?
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Hi James, I went through the store properly, including all nine products in the Vegas Inventory collection. Here is what I would change, in the order I think it matters commercially.
+  
+  ◉ THE BIGGEST ONE: THE DOMAIN
+  
+  Your customers start on mye-bike.com and get sent to my-e-bike-3.myshopify.com to pay. That is a different domain, and it visibly says myshopify.com in the address bar.
+  
+  On a $999 purchase that is a trust break at the exact moment someone is deciding to hand over a card. A buyer who has never heard of you sees the brand disappear and a generic platform URL appear.
+  
+  The fix is cheap. Point a subdomain like shop.mye-bike.com at the Shopify store. Same store, same everything, but the brand stays intact through checkout. This is the single highest-return change on the list and it is close to free.
+  
+  ◉ YOUR STORE HOMEPAGE TELLS PEOPLE TO LEAVE
+  
+  There is a link on the store homepage that says “Go Back to Homepage” pointing at mye-bike.com. So someone who has arrived ready to shop is being invited to go somewhere else instead of seeing bikes.
+  
+  That should be a button that says something like “See the Vegas inventory.” Right now the store homepage shows no products and no prices at all, which on a nine-product catalogue is a lot of empty space doing no work.
+  
+  ◉ NO SPECIFICATIONS ANYWHERE — THIS IS COSTING YOU THE MOST SALES
+  
+  I could not find motor wattage, battery capacity, range, top speed or weight on any of the nine bikes.
+  
+  That is the entire buying decision in this category. Someone weighing your $799 E-Bandit against a $799 bike from Lectric or Ride1Up has nothing to compare. And the moment they cannot find the numbers on your site, they go and find them somewhere else — and they usually buy where they found them.
+  
+  Every product needs motor watts, battery voltage and amp hours, stated range, top speed, weight, and the e-bike class. Ideally a comparison table across all nine so someone can pick in one screen instead of opening nine tabs.
+  
+  ◉ EVERYTHING IS ON SALE, PERMANENTLY
+  
+  All nine products show a sale price against a higher regular price. Every single one.
+  
+  When everything is always discounted, the discount stops meaning anything, and a sharp buyer reads the “regular” price as decoration. Worth knowing too that in the US, advertising a former price generally requires that price to have been a genuine, recent selling price — so permanent sale pricing carries some exposure as well as costing you credibility.
+  
+  I would price the bikes honestly and sell on what you actually offer instead, which brings me to the next point.
+  
+  ◉ YOU ARE COMPETING ON PRICE WHEN YOUR ADVANTAGE IS LOCAL
+  
+  This is the strategic thing and I think it matters more than any design change.
+  
+  You cannot win a price war against national online brands. You can offer something none of them can: free delivery anywhere in the Las Vegas Valley, pickup today, and an owner who answers his own phone and is twenty minutes away when something needs fixing.
+  
+  Right now free Vegas delivery sits in a scrolling announcement bar, and your name and number are at the very bottom of the page. Those should be central. “Delivered free to your door in Las Vegas, today” is a much stronger reason to buy from you than $200 off a price nobody can verify.
+  
+  ◉ FINANCING IS MENTIONED BUT NEVER SHOWN
+  
+  The announcement bar says flexible financing. Nothing on the product pages does anything with it.
+  
+  On a $999 bike, showing roughly $83 a month next to the price is one of the highest-impact changes available in this category. It moves the decision from a large one-off number to a small monthly one. You already have the financing — it just is not visible where people decide.
+  
+  ◉ YOU ONLY HAVE A PRIVACY POLICY
+  
+  No refund policy, no shipping policy, no warranty, no terms of service.
+  
+  At this price point, with a lithium battery and a product that needs occasional service, buyers genuinely look for these. What happens if it arrives damaged, what the warranty covers, who fixes it, how returns work. Their absence reads as risk. Shopify also expects a refund policy for some payment methods.
+  
+  ◉ SMALLER THINGS I NOTICED
+  
+  No reviews or customer photos anywhere. For a local business with real customers riding around Vegas, that is free credibility going unused.
+  
+  No test ride offer. You are local. That is a conversion tool an online-only seller physically cannot match.
+  
+  Product URLs do not match their names — E-Cafe lives at /products/e-traveler and E-Explorer at /products/e-voyager. Cosmetic, but worth tidying.
+  
+  Your logo is a JPG, so it cannot have a transparent background and will show compression edges. A PNG or SVG would look noticeably cleaner.
+  
+  The navigation says E-Bikes but the page is titled Vegas Inventory and contains a scooter and a trike. Worth making consistent, and “E-Vehicles” might serve you better since you sell more than bikes.
+  
+  ◉ IF I WERE PRIORITISING
+  
+  First, the subdomain and the specs. Those two alone would change your conversion rate more than everything else combined.
+  Second, financing shown per product, and the policies written.
+  Third, rebuild the homepage around the bikes and the local offer.
+  Fourth, reviews and test rides.
+  
+  Two questions so I can be more useful. What is the external site built on, and would you rather keep it and connect the store properly, or move everything onto Shopify and run one site? And do you have the specs from your supplier, or would those need gathering?
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][ENTER]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  ◉ YOU ARE COMPETING ON PRICE WHEN YOUR ADVANTAGE IS LOCAL
+  
+  This is the strategic thing and I think it matters more than any design change.
+  
+  You cannot win a price war against national online brands. You can offer something none of them can: free delivery anywhere in the Las Vegas Valley, pickup today, and an owner who answers his own phone and is twenty minutes away when something needs fixing.
+  
+  Right now free Vegas delivery sits in a scrolling announcement bar, and your name and number are at the very bottom of the page. Those should be central. “Delivered free to your door in Las Vegas, today” is a much stronger reason to buy from you than $200 off a price nobody can verify.
+  
+  ◉ FINANCING IS MENTIONED BUT NEVER SHOWN
+  
+  The announcement bar says flexible financing. Nothing on the product pages does anything with it.
+  
+  On a $999 bike, showing roughly $83 a month next to the price is one of the highest-impact changes available in this category. It moves the decision from a large one-off number to a small monthly one. You already have the financing — it just is not visible where people decide.
+  
+  ◉ YOU ONLY HAVE A PRIVACY POLICY
+  
+  No refund policy, no shipping policy, no warranty, no terms of service.
+  
+  At this price point, with a lithium battery and a product that needs occasional service, buyers genuinely look for these. What happens if it arrives damaged, what the warranty covers, who fixes it, how returns work. Their absence reads as risk. Shopify also expects a refund policy for some payment methods.
+  
+  
+  [Bk]
+  [LMB]
+  [Clipboard]
+  ◉ EVERYTHING IS ON SALE, PERMANENTLY
+  
+  All nine products show a sale price against a higher regular price. Every single one.
+  
+  When everything is always discounted, the discount stops meaning anything, and a sharp buyer reads the “regular” price as decoration. Worth knowing too that in the US, advertising a former price generally requires that price to have been a genuine, recent selling price — so permanent sale pricing carries some exposure as well as costing you credibility.
+  
+  I would price the bikes honestly and sell on what you actually offer instead, which brings me to the next point.
+  
+  
+  [Ctrl]c[Bk][ENTER]
+  [Clipboard]
+  ◉ EVERYTHING IS ON SALE, PERMANENTLY
+  
+  All nine products show a sale price against a higher regular price. Every single one.
+  
+  When everything is always discounted, the discount stops meaning anything, and a sharp buyer reads the “regular” price as decoration. Worth knowing too that in the US, advertising a former price generally requires that price to have been a genuine, recent selling price — so permanent sale pricing carries some exposure as well as costing you credibility.
+  
+  I would price the bikes honestly and sell on what you actually offer instead, which brings me to the next point.
+  
+  ◉ YOU ARE COMPETING ON PRICE WHEN YOUR ADVANTAGE IS LOCAL
+  
+  This is the strategic thing and I think it matters more than any design change.
+  
+  You cannot win a price war against national online brands. You can offer something none of them can: free delivery anywhere in the Las Vegas Valley, pickup today, and an owner who answers his own phone and is twenty minutes away when something needs fixing.
+  
+  Right now free Vegas delivery sits in a scrolling announcement bar, and your name and number are at the very bottom of the page. Those should be central. “Delivered free to your door in Las Vegas, today” is a much stronger reason to buy from you than $200 off a price nobody can verify.
+  
+  ◉ FINANCING IS MENTIONED BUT NEVER SHOWN
+  
+  The announcement bar says flexible financing. Nothing on the product pages does anything with it.
+  
+  On a $999 bike, showing roughly $83 a month next to the price is one of the highest-impact changes available in this category. It moves the decision from a large one-off number to a small monthly one. You already have the financing — it just is not visible where people decide.
+  
+  ◉ YOU ONLY HAVE A PRIVACY POLICY
+  
+  No refund policy, no shipping policy, no warranty, no terms of service.
+  
+  At this price point, with a lithium battery and a product that needs occasional service, buyers genuinely look for these. What happens if it arrives damaged, what the warranty covers, who fixes it, how returns work. Their absence reads as risk. Shopify also expects a refund policy for some payment methods.
+  
+  ◉ SMALLER THINGS I NOTICED
+  
+  No reviews or customer photos anywhere. For a local business with real customers riding around Vegas, that is free credibility going unused.
+  
+  No test ride offer. You are local. That is a conversion tool an online-only seller physically cannot match.
+  
+  Product URLs do not match their names — E-Cafe lives at /products/e-traveler and E-Explorer at /products/e-voyager. Cosmetic, but worth tidying.
+  
+  Your logo is a JPG, so it cannot have a transparent background and will show compression edges. A PNG or SVG would look noticeably cleaner.
+  
+  The navigation says E-Bikes but the page is titled Vegas Inventory and contains a scooter and a trike. Worth making consistent, and “E-Vehicles” might serve you better since you sell more than bikes.
+  
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [Bk][Bk][ENTER]
+  [Clipboard]
+   Vegas only, or do you ship outside the valley?
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Me
+  
+  Aug 14, 3:56 AM
+  ◉ EVERYTHING IS ON SALE, PERMANENTLY
+  
+  All nine products show a sale price against a higher regular price. Every single one.
+  
+  When everything is always discounted, the discount stops meaning anything, and a sharp buyer reads the “regular” price as decoration. Worth knowing too that in the US, advertising a former price generally requires that price to have been a genuine, recent selling price — so permanent sale pricing carries some exposure as well as costing you credibility.
+  
+  
+  ◉ YOU ARE COMPETING ON PRICE WHEN YOUR ADVANTAGE IS LOCAL
+  
+  This is the strategic thing and I think it matters more than any design change.
+  
+  You cannot win a price war against national online brands. You can offer something none of them can: free delivery anywhere in the Las Vegas Valley, pickup today, and an owner who answers his own phone and is twenty minutes away when something needs fixing.
+  
+  
+  ◉ FINANCING IS MENTIONED BUT NEVER SHOWN
+  
+  The announcement bar says flexible financing. Nothing on the product pages does anything with it.
+  
+  On a $999 bike, showing roughly $83 a month next to the price is one of the highest-impact changes available in this category. It moves the decision from a large one-off number to a small monthly one. You already have the financing — it just is not visible where people decide.
+  
+  ◉ YOU ONLY HAVE A PRIVACY POLICY
+  
+  No refund policy, no shipping policy, no warranty, no terms of service.
+  
+  At this price point, with a lithium battery and a product that needs occasional service, buyers genuinely look for these. What happens if it arrives damaged, what the warranty covers, who fixes it, how returns work. Their absence reads as risk. Shopify also expects a refund policy for some payment methods.
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 14, 3:57 AM
+  Vegas only, or do you ship outside the valley?
+  
+  K
+  Profile Image
+  James S
+  
+  Aug 14, 3:59 AM
+  Yes this info is on the original website: all bikes are guaranteed and can be shipped anywhere in US in 3-5 days
+  
+  
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  kakakakakakkkkk
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  phasenl
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  domore47
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Australia
+  [Ctrl]c
+  [Clipboard]
+  muzamilmian696
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Pakistan
+  [Ctrl]c
+  [Clipboard]
+  itsautomated
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Clipboard]
+  Shopify
+  [LMB]
+  [LMB]
+  [Clipboard]
+  dkainth
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Clipboard]
+  genis13
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  kakakakakakkkkk
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  phasenl
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Netherlands
+  [LMB]
+  [Clipboard]
+  14/08/2026
+  [LMB]
+  [LMB]
+  [LMB]
+  myc
+  [LMB]
+  [LMB]
+  hi, are we still in touch/[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
