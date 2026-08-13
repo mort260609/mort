@@ -1,0 +1,1043 @@
+﻿  [Clipboard]
+  list all the features  under 5000 charachter in detail that he need and we provide 
+  
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  genis13
+  
+  Aug 14, 2:25 AM
+  I don't think I rename the page
+  
+  G
+  genis13
+  
+  Aug 14, 2:26 AM
+  it seems like the3 hopping cart pages are not structure correctly
+  
+  G
+  genis13
+  
+  Aug 14, 2:27 AM
+  shopping cart pages
+  c
+  [LMB]
+  [Clipboard]
+  kd134354
+  
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [Clipboard]
+  rallystorm
+  
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Here's everything the work covers:
+  
+  ◉ DIAGNOSIS FIRST
+  Before fixing anything, working out why your changes aren't appearing.
+  * Checking whether the site has been republished, since Wix needs an explicit publish before edits go live
+  * Confirming you're editing the live version rather than an older saved one
+  * Checking whether your product display is actually connected to the Wix Stores catalogue, or whether it's a static element that doesn't pull live data
+  * That last one is my main suspicion, and it would explain both the variants not updating and the cart pages behaving oddly
+  
+  ◉ STORE STRUCTURE — LIKELY THE REAL PROBLEM
+  Your products currently sit on a page named "blank" with a scrollToProduct parameter. That isn't how Wix Stores normally works.
+  * Proper Wix Stores pages set up: Product Page, Cart, Checkout, Thank You
+  * Products given their own individual pages with real URLs and titles, rather than anchors on one shared page
+  * Cart and checkout flow connected correctly end to end
+  * Page renamed from "blank" to something meaningful, with redirects if anything already links to the old address
+  * This is the piece that makes everything else work, so it comes first
+  
+  ◉ VARIANTS: 2OZ AND 5OZ
+  * All eight products set up with both sizes as proper variants rather than options
+  * Individual price per size
+  * Individual shipping weight per size, which matters because postage on meat is weight-driven and a 5oz pack costs more to send than a 2oz
+  * Separate stock tracking per size, so you know what you actually have
+  * Sixteen variants total, all verified working on the live site rather than just in the dashboard
+  
+  ◉ SHIPPING
+  * Shipping zones configured for where you actually ship
+  * Weight-based rates set up using your real variant weights
+  * Rates checked against actual carrier costs so you're not subsidising postage on every order
+  * Handling for the fact that biltong is shelf-stable, which gives you more options than perishable goods
+  
+  ◉ PAYMENTS & TAX
+  * Payment processing verified and tested with a real transaction
+  * US sales tax configured, since Wix can handle this automatically by state
+  * Order confirmation emails checked, both to you and to the customer
+  * Abandoned cart recovery enabled if you want it
+  
+  ◉ PRODUCT CONTENT
+  * Your nutrition and allergen information added across all sixteen variants
+  * Ingredient lists added
+  * Weight and serving information shown clearly on product pages
+  * You have this data already, so it's entry rather than research
+  
+  ◉ COPY FIXES
+  * "Tradicional Biltong" corrected to Traditional
+  * The affiliate section, which currently reads with the placeholder quote marks still visible: Affiliate Partner Program" or "Become an Affiliate
+  * Bites section titles and descriptions checked so they pair correctly rather than sitting in separate containers
+  * Product slug containing the word "jerky" corrected, since your whole brand argument is that biltong isn't jerky
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk][Bk][ENTER]
+  [Clipboard]
+  ◉ COPY FIXES
+  * "Tradicional Biltong" corrected to Traditional
+  * The affiliate section, which currently reads with the placeholder quote marks still visible: Affiliate Partner Program" or "Become an Affiliate
+  * Bites section titles and descriptions checked so they pair correctly rather than sitting in separate containers
+  * Product slug containing the word "jerky" corrected, since your whole brand argument is that biltong isn't jerky
+  
+  ◉ MOBILE
+  * Every page checked on phone and tablet
+  * Cart and checkout tested on mobile specifically, since that's where most people will buy
+  * Product galleries and the Bites grid checked for alignment
+  
+  ◉ TESTING
+  * Real test order placed end to end, both sizes, through to payment confirmation
+  * Every button and link on every page tested
+  * Variant switching tested to confirm price, weight and stock all change correctly
+  * Shipping calculation tested against different addresses and both sizes
+  * Cross-browser check
+  
+  ◉ HANDOVER
+  * Short walkthrough of what was wrong and what changed
+  * Written notes on adding a new product with variants, so you can expand without hitting the same problem
+  * Guidance on publishing changes properly, since that may be part of the current issue
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [ENTER]
+  [ENTER]
+  price [Bk]- 41600[ENTER]
+  timeline- 25 days[ENTER]
+  1[Bk]support- 1 month post launch support 
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  hi, i have mentioned pricing here, i[Bk]if it suits you well, i will share custom offer right away.[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  could you tell me what budget you are aiming for/[ENTER]
+  [LMB]
+  [LMB]
+  why
+  [LMB]
+  [LMB]
+  [Bk][ENTER]
+  [LMB]
+  no worries;0[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-14 02:50:25  [anty.exe] Fiverr navya new + Upwork Shreyansh + Trenzio 13/04/2026
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-14 02:50:39  [msedge.exe] Fiverr / Inbox and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Me
+  
+  Aug 13, 6:10 PM
+  Before I put together that version could you share a quick sense of your current budget range for the initial build?
+  
+  W
+  will1157
+  
+  Aug 13, 6:17 PM
+  For our hand built site we paid 2500—I am will to spend around that but thought it would be less expensive given the different build style. So far you are the most expensive with all the top rated freelancers coming in below 1k. I’ve asked them all for scope writes so I can compare the inclusions better.
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 13, 6:23 PM
+  I understand your concern and yes, we sit higher than most. That's the trilingual build, the right-to-left work for Arabic, the accessibility pass and three months of support after launch. Those are the lines a sub-1k quote won't have in it.
+  
+  You mentioned 2,500 is where you're comfortable. I can work with that.
+  
+  W
+  will1157
+  
+  Aug 13, 6:28 PM
+  I am not looking to have you reduce your fees. You’ve built your business in a way that attributes and identifies the value of your service. The field however looks different. I want to pay reasonable due diligence to that. But please quote me for the Webflow path. Our systems admin seems preferential to that.
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 13, 6:34 PM
+  Thank you that's a generous way to put it, and I appreciate you saying it.
+  
+  Happy to quote the Webflow path. I'll be upfront that I expect it to land a little higher than the WordPress version rather than lower, and I'll show you exactly where the difference sits so you and your admin can weigh it properly. I'll break out the recurring side too — Webflow's hosting plus their per-language charge so you're comparing the full cost of both routes, not just my invoice.
+  
+  One question before I start once it's live, is your systems admin looking after it day to day, or still you? That changes how I set up the editing side.
+  
+  W
+  will1157
+  
+  Aug 14, 1:52 AM
+  It will be me maintaining and updating it. He believes Webflow to be the easier platform for that.
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 14, 2:02 AM
+  Take your time comparing. The Webflow analysis is yours to keep either way , if it helps your admin weigh it up, use it.
+  
+  W
+  will1157
+  
+  Aug 14, 2:56 AM
+  You sent it?
+  
+  
+  [Clipboard]
+  Your admin is right about one thing, and I'll say it before I complicate it. Webflow's Editor is genuinely easier than WordPress for day-to-day content updates. You click text on the page and change it. No dashboard, no plugin screens, no theme settings to get lost in. Since you're the one maintaining this, that's a real advantage and I won't argue against it.
+  
+  The complication is Arabic.
+  
+  Webflow has improved on right-to-left. Their own documentation confirms it now applies RTL direction automatically for Arabic locales, so the basics work out of the box. But independent analysis as recently as last month still documents constraints on bidirectional text rendering for Arabic and Hebrew, and most people building Arabic Webflow sites end up adding a third-party tool called RTLflow on top to handle it properly.
+  
+  WordPress has been doing RTL for well over a decade. It's mature, well-trodden, and there's nothing to work around.
+  
+  So the trade-off cuts both ways. Webflow is better at the thing you'll do every week, which is editing. WordPress is better at the thing that has to be right once and stay right, which is Arabic.
+  
+  THE NUMBERS
+  
+  Webflow build: $2,900
+  WordPress build: $2,500
+  
+  The $400 difference is the RTL work. On WordPress it's largely handled by the platform. On Webflow it needs per-locale style overrides, more custom CSS, probably RTLflow, and more testing to confirm the Arabic layout holds across every page.
+  
+  RECURRING, which matters more over time than the build does:
+  
+  Webflow charges for the site plan plus Localization, which is an add-on billed per locale. With three languages you're paying for two additional locales indefinitely. I'd ask you or your admin to check their current pricing directly rather than take a figure from me, because localization pricing is genuinely the thing people get caught out by and I'd rather you saw it from source.
+  
+  WordPress is hosting only. Translation handled by a plugin whose free tier comfortably covers three languages. No per-language charge, ever.
+  
+  MY HONEST VIEW
+  
+  If Arabic weren't in the mix I'd tell you to take Webflow and enjoy the easier editing. It's a good platform and your admin's instinct is sound.
+  
+  But Arabic is in the mix, and it's the one requirement where Webflow asks you to accept documented limitations and add a third-party dependency. That's the risk you'd be carrying, and it sits on the part of the site that's hardest to fix later.
+  
+  That said, you're the one maintaining it. If editing simplicity matters more to you than a marginally cleaner Arabic implementation, that's a legitimate call and I'll build it well either way.
+  
+  Happy to get on a short call with your admin if it would help him weigh the RTL point. He may have hands-on experience with Webflow's recent releases that I don't, and I'd rather be corrected than have you build on my assumption.
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Clipboard]
+  will1157
+  [Ctrl]c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  will1157
+  
+  PROMOTED
+  
+  Aug 12, 8:02 PM
+  I’m looking to update and refresh our website, PsyGenics.org. We are a behavioral health organization, and the current site was originally designed in 2018 using a fairly standard WordPress builder. It has served us well, but we’re ready for something more modern, engaging, and user-friendly.
+  
+  I’d like the new site to have a much stronger visual experience, including things like subtle object/element movement, animated counters, interactive sections, smooth transitions, and other modern design elements without making the site feel overly busy.
+  
+  Most of the information and content currently on PsyGenics.org would need to be carried over and incorporated into the newly designed site, although I’m open to recommendations on reorganizing the content and improving the overall flow and user experience.
+  
+  The site would also need to remain easy for our team to manage and update after launch, preferably within WordPress.
+  
+  Could you take a look at the current site and provide a quote for the redesign? I’d also be interested in seeing examples of similar websites you’ve designed, particularly sites that incorporate the type of movement and interactive elements I described.
+  
+  www.psygenics.org - This is a brochure site not ecommerce
+  
+  This message relates to:
+  
+  Related item image
+  I will create wordpress website design, redesign, ecommerce website development
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:02 PM
+  Hi! will1157  
+  You’ve officially reached the 🏅 #1 Expert on Fiverr!
+  
+  You haven’t just messaged a developer; you’ve contacted the ✅ #1 Ranked Top Rated Seller in Website Development on this platform which is why premium brands choose us over thousands of other agencies.
+  
+  🎬 https://www.youtube.com/@DigitalMarketingHeroes
+  We are the team behind✅ 2.5 MILLION Subscribers on our YouTube channel, where we teach the world how to build and scale million-dollar brands. When you work with us, you get the same expertise trusted by global industry leaders like Hostinger, Loox, Minea and 2000+ More.
+  
+  Why you can stop your search here:
+  -Unmatched Authority
+  -Your Vision, Perfected: We want you to point out every single inch of detail you desire. We build for your brand, and we offer unlimited revisions until it is 100% perfect.
+  -Zero Risk: We provide full support until you are 100% happy and satisfied.
+  
+  Take a look at what we deliver: 
+  👉 Our Brand Deck & Portfolio: https://portfolio.digitalheroes.co.in
+  
+  Now, you can officially 😴 SIT BACK and RELAX. You are in the best hands in the industry. Please share your project details or check out our portfolio above this will help us clarify your requirements and move forward quickly to exceed your expectations!
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:02 PM
+  Hi, how are you?
+  
+  W
+  will1157
+  
+  Aug 12, 8:03 PM
+  Hello, I'm well. Yourself?
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:03 PM
+  good as well , thanks for asking
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:03 PM
+  thanks for sharing the brief about your requirements.
+  
+  Edited
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:04 PM
+  Can you please share any reference website that aligns with your requirements and also the link of your current site.
+  
+  W
+  will1157
+  
+  Aug 12, 8:05 PM
+  I will send in one moment. I actually can get these templates myself. Which should equate to less work for you. Hold please.
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:06 PM
+  Yeah sure am here please take your time.
+  
+  W
+  will1157
+  
+  Aug 12, 8:07 PM
+  https://preview.themeforest.net/item/vitalease-health-care-medical-elementor-template-kit/full_screen_preview/53882397?_gl=1*1g949k4*_gcl_au*ODg1NDQzNTU2LjE3ODY1NDU0MDY.*_ga*MTc5ODY4ODcwOS4xNzg2NTQ1NDA3*_ga_ZKBVC1X78F*czE3ODY1NDU0MDYkbzEkZzAkdDE3ODY1NDU0MDYkajYwJGwwJGgw
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:08 PM
+  thanks for sharing let me go through it.
+  
+  Edited
+  
+  W
+  will1157
+  
+  Aug 12, 8:10 PM
+  https://prohealth-wp.laralink.com/?storefront=envato-elements here is another
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:20 PM
+  thanks for sharing i have looked through both of the sites and here is what i found:
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:24 PM
+  They sit at slightly different ends of that though. ProHealth is the livelier one, especially the water ripple and video background homepages. Vitalease is quieter and simpler. Both are achievable it would help to know which end of that range feels right for PsyGenics.
+  
+  One thing to mention: both are built for a private clinic, so their layouts are appointments, doctor profiles and hospital departments. Your content is programs and services, member resources, careers, rights information. So we'd take the look and feel from these and build your own page structure underneath it, rather than copy their layout.
+  
+  Also worth flagging your current site was hand-built rather than made with a drag-and-drop system, which is why edits feel restrictive. The new one would be set up so your team can update pages themselves.
+  
+  W
+  will1157
+  
+  Aug 12, 8:29 PM
+  Yes is was hand built. I manage it now and update everything myself. I often use ChatGpt to help me with CSS code changes. Although the backend is fairly simple to made page additions etc
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:31 PM
+  That makes sense, and it explains how the site's put together.
+  
+  You'd keep that control. Most of what you're doing in CSS now becomes point-and-click, and there's still somewhere to drop custom CSS when you want something specific. Just a different habit editing on the page instead of the stylesheet.
+  
+  I'd build it on a staging copy first so you can get in and break things before it goes live.
+  
+  W
+  will1157
+  
+  Aug 12, 8:36 PM
+  So I would need more engaging pictures for the services. The icons are old and less engaging. I'd want to drop the facebook carosel on the right and move to a more modern insta carosel before the footer. thoguths?
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:38 PM
+  Love this direction all three make sense to me.
+  
+  Photos will lift those service cards so much more than the icons. Just worth having the six shot in a similar way so the grid feels tidy.
+  
+  And yes, an Instagram strip before the footer will feel far more current than the Facebook box. Two little thoughts: how often do you post? A live feed can look a bit bare if it's not fairly regular. And sitting it right before the footer does send people off to Instagram just as they reach the end so maybe a referral or careers link just above it, and you get the best of both.
+  
+  W
+  will1157
+  
+  Aug 12, 8:39 PM
+  We are working to post 2-3 times per week.
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:40 PM
+  Just three things and I'll have everything I need to put a proper number together for you:
+  
+  On the photos — do you have a shoot planned, or anything recent of the two offices and the team I could work with? Happy to source images if not, just good to know.
+  
+  On the content — does it come across mostly as it is, or would you like it tidied up and reorganised while we're in there? Either is completely fine, it just shapes the quote.
+  
+  And the languages — do Spanish and Arabic need to be live on day one, or would English first suit you better? That one makes the biggest difference of the three.
+  
+  W
+  will1157
+  
+  Aug 12, 8:41 PM
+  The Spanish and Arabic are moot. The Google addition I found takes care of a few languages
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:41 PM
+  Replied
+  
+  will1157
+  
+  Aug 12, 8:39 PM
+  
+  We are working to post 2-3 times per week.
+  
+  That's plenty two to three a week will keep the feed looking alive. Happy to go with the Instagram strip before the footer then, with a referral or careers link sitting just above it.
+  
+  W
+  will1157
+  
+  Aug 12, 8:43 PM
+  I do not have an photos planned so they will need to be sourced and possibly edited for flow. I do like our current home page family a lot. I actually use a verison of it on a private practice website I manage for my fiance.
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:44 PM
+  Replied
+  
+  will1157
+  
+  Aug 12, 8:41 PM
+  
+  The Spanish and Arabic are moot. The Google addition I found takes care of a few languages
+  
+  That helps a lot .One thing is those tools translate on the fly, so Arabic still reads left to right rather than flipping the layout, and PDFs aren't picked up at all.
+  
+  You've got WPML installed at the moment too keep it, or drop it now the Google one's doing the job?
+  
+  W
+  will1157
+  
+  Aug 12, 8:44 PM
+  The content is mostly where is should be
+  
+  W
+  will1157
+  
+  Aug 12, 8:45 PM
+  I you saying that Google tool I use in the upper right is good or bad?
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:46 PM
+  Replied
+  
+  will1157
+  
+  Aug 12, 8:43 PM
+  
+  I do not have an photos planned so they will need to be sourced and possibly edited for flow. I do like our current home page family a lot. I actually use a verison of it on a private practice website I manage for my fiance.
+  
+  No problem, I'll handle the sourcing  all from one collection and colour graded to match, so the service cards feel like a set. I'd also look for images that reflect Dearborn and Trenton rather than generic clinic stock.
+  
+  And happy to keep the family photo, it's a lovely image and can anchor the palette. Just worth checking the file size, as a full-width hero needs a bigger original than what's on there now.
+  
+  W
+  will1157
+  
+  Aug 12, 8:48 PM
+  I got that from of the stock photo sites. I can also take some photos of Dearborn and Trenton based on what you think would elevate the site,
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:48 PM
+  Replied
+  
+  will1157
+  
+  Aug 12, 8:45 PM
+  
+  I you saying that Google tool I use in the upper right is good or bad?
+  
+  On the Google tool: neither, really. It's fine for someone reading the site in their own language. It just doesn't flip the layout for Arabic, doesn't touch PDFs, and the wording is machine-generated, so accuracy varies on things like the rights handbook.
+  
+  W
+  will1157
+  
+  Aug 12, 8:49 PM
+  understood. keeping the Google tool works because that is what our funding source uses.
+  
+  W
+  will1157
+  
+  Aug 12, 8:50 PM
+  Sorry I misspoke. Here is our funding source website - https://dwihn.org/
+  
+  W
+  will1157
+  
+  Aug 12, 8:50 PM
+  They no longer use the Google tool
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:50 PM
+  Replied
+  
+  will1157
+  
+  Aug 12, 8:48 PM
+  
+  I got that from of the stock photo sites. I can also take some photos of Dearborn and Trenton based on what you think would elevate the site,
+  
+  That would help a lot your own spaces beat stock every time.
+  
+  The shots that get used most are: the outside of both buildings with the entrance, reception and waiting areas empty, a counseling room and a therapy room, staff mid-task rather than posed, and a few close-ups of signage or artwork for filling gaps between sections.
+  
+  A recent phone is fine. A wide and a tall version of each gives me more to work with. Nothing with members' faces unless releases are on file.
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:52 PM
+  Replied
+  
+  will1157
+  
+  Aug 12, 8:50 PM
+  
+  Sorry I misspoke. Here is our funding source website - https://dwihn.org/
+  
+  Yeah that's useful  and their site is a good reference in its own right.
+  
+  A few things I noticed. They've got a proper EN/ES/AR switcher in the header, so those are three genuinely translated versions rather than a translate tool sitting on top. Their counters are also exactly what you described at the start lives touched, members served, broken down by group. And their "You may be here because…" section is lovely thinking, sorting people by what they're going through rather than by department.
+  
+  The crisis line is pinned to the top of every page too, which is worth borrowing.
+  
+  So back to the language question, sorry do you want to match their three-language setup, or stay with the Google tool for now?
+  
+  W
+  will1157
+  
+  Aug 12, 8:53 PM
+  The vitalease theme is an elemnetor pro theme. What are your thoughts on wordpress vs another platform to build the site?
+  
+  W
+  will1157
+  
+  Aug 12, 8:53 PM
+  for this quote - match the 3 language set up
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 8:56 PM
+  Replied
+  
+  will1157
+  
+  Aug 12, 8:53 PM
+  
+  The vitalease theme is an elemnetor pro theme. What are your thoughts on wordpress vs another platform to build the site?
+  
+  Both references are WordPress builds and you're already on it, so nothing would need moving  content, URLs and your own familiarity stay put.
+  
+  For comparison: Webflow gives finer animation control but ties you to their hosting and editor. Drupal is what DWIHN runs on, sturdier but needs a developer for most changes. Squarespace and Wix are easiest to run, most limited on movement.
+  
+  The movement you want works on any of them, so it comes down to who's maintaining it and how much freedom you want underneath.
+  
+  W
+  will1157
+  
+  Aug 12, 8:58 PM
+  I would be maintaining it. I have not had a problem doing most of what I've wanted to do on wordpress. Our current site use a standard builder. Elementor is a bit different but I've had some experience with it. I have not used webflow at all
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 9:01 PM
+  That settles it then WordPress with Elementor. You've already got a feel for it, so it'll be a much shorter jump than moving to something like Webflow.
+  
+  And since you're the one maintaining it, I'll put together a short walkthrough at handover showing where everything lives, so you're not hunting around for things.
+  scope coming over shortly.
+  
+  Edited
+  
+  W
+  will1157
+  
+  Aug 12, 9:02 PM
+  Shreyansh I appreciate the time you have spent with me on this. I like your energy.
+  
+  W
+  will1157
+  
+  Aug 12, 9:03 PM
+  Do you have the tentative cost for this with the information I've given you.
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 9:04 PM
+  Replied
+  
+  will1157
+  
+  Aug 12, 9:02 PM
+  
+  Shreyansh I appreciate the time you have spent with me on this. I like your energy.
+  
+  Thanks for your time too..i really appreciate it! and i am sending you the scope shortly if that confirms i will send you the proposal.
+  
+  W
+  will1157
+  
+  Aug 12, 9:04 PM
+  okay thank you
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 9:05 PM
+  Here's what the build covers:
+  
+  ◉ CORE BUILD
+  • WordPress + Elementor Pro on the Hello parent theme
+  • Full staging environment first — nothing touches the live site until you approve it
+  • All existing pages migrated with content in place
+  • URL structure preserved plus a full redirect map, so indexed pages and linked PDFs keep working
+  • Reusable templates so new program and resource pages inherit the design automatically
+  • Custom CSS panel retained for your own tweaks after launch
+  
+  ◉ MOTION & INTERACTION
+  • Subtle scroll-triggered reveals, staggered rather than all at once
+  • Animated counters — members served, years operating, staff, languages supported
+  • Smooth section and page transitions
+  • Gentle element movement across hero and program sections
+  • Hover lift and micro-interactions on cards, buttons and links
+  • Testimonial slider for member and family quotes
+  • Animated accreditation strip — CARF, DWIHN, MDHHS, Autism Alliance, Detroit Chamber
+  • Reduced-motion support, so visitors who need stillness get it automatically
+  
+  ◉ HOMEPAGE
+  • New hero built around your family photograph, with the palette drawn from it
+  • Audience-path section routing visitors by what they need rather than by department
+  • Six program cards rebuilt with photography replacing the current icons
+  • 988 and crisis contact pinned and reachable from every page
+  • Instagram carousel before the footer, with referral and careers links above it
+  • Facebook sidebar carousel removed
+  
+  ◉ MULTILINGUAL (EN / ES / AR)
+  • Language switcher in the header, matching DWIHN's setup
+  • Three genuinely translated versions rather than an on-the-fly tool
+  • Full right-to-left mirroring of every template for Arabic — layout, navigation, forms
+  • Arabic-appropriate typography and line spacing
+  • Translated content loaded and checked across all three versions
+  • Translation copy supplied by your translator or bilingual staff
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 9:06 PM
+  ◉ PROGRAMS & SERVICES
+  • Six program pages on a shared template — Nursing, Case Management, Speech & OT, Counselling, Psychiatric, Peer Services
+  • Interlinked so related programs surface on each page
+  • Language availability shown clearly on each
+  
+  ◉ CAREER CENTRE
+  • Job listings moved out of the current single-page pop-ups into managed posts
+  • Filterable by location and discipline
+  • Add, edit and close roles yourself without a developer
+  • Application form routed to your hiring inbox
+  
+  ◉ RESOURCE LIBRARY
+  • Handbooks, brochures, media kit and guides in one searchable library
+  • Filter by audience, topic and language
+  • Replaces the PDF links currently buried in dropdown menus
+  
+  ◉ MEMBERS
+  • Member landing page with CEHR, rights handbook and support links
+  • Recipient rights, sliding fee and quality documents given proper pages
+  • External partner links clearly marked as leaving the site
+  
+  ◉ LOCATIONS
+  • Dearborn and Trenton pages with maps, hours and direct dial numbers
+  • Trenton Matterport virtual tour embedded
+  • Building exterior and reception photography so first-time visitors recognise where they're going
+  
+  ◉ FORMS
+  • Single Service Referral, Sliding Fee and Contact rebuilt
+  • Kept free of clinical detail, with sensitive information routed to your secure channels
+  • Spam protection and submission notifications
+  
+  ◉ ACCESSIBILITY
+  • WCAG 2.1 AA pass — contrast, focus states, keyboard navigation, alt text
+  • Screen-reader tested navigation
+  • Readable type sizes and generous spacing throughout
+  • Motion built to be safe for members with sensory and cognitive sensitivities
+  
+  ◉ IMAGERY
+  • Photography sourced from a single collection for consistency
+  • Colour graded so everything sits together
+  • Reflecting Dearborn and Trenton rather than generic clinic stock
+  • Your own photographs edited and integrated
+  • Everything compressed and served in modern formats
+  
+  ◉ CONTENT & STRUCTURE
+  • Navigation restructured from nine top-level items into clear audience paths
+  • Existing copy carried across as written
+  • Blog and Events retained and restyled
+  
+  ◉ PERFORMANCE & SEO
+  • Core Web Vitals optimisation, lazy loading, lightweight scripts
+  • Heading structure, meta and alt text reviewed across all pages
+  • hreflang set up across all three language versions
+  
+  ◉ HANDOVER & SUPPORT
+  • Recorded walkthrough showing where everything lives
+  • Written guide for adding pages, jobs, resources and posts
+  • Backups and security hardening in place
+  • Upto three months post-launch support and priority bug fixes
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 9:06 PM
+  Here are the list of features please go through it and let me know if you want to add or remove anythin?
+  
+  W
+  will1157
+  
+  Aug 12, 9:10 PM
+  I would also need our employment application which is under the careers page rebuilt and mapped to our actual application. Right now is mapped to a gravity form pdf template. I would be a leadership carousel for the executive team (4 members) - DWIHN does these by adding a thumbnail picture a quote from their CEO with a link to leadership (on their home page). This could also be linked under the about us.
+  
+  W
+  will1157
+  
+  Aug 12, 9:11 PM
+  adding those into the scope you can quote me
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 9:12 PM
+  Thanks for sharing it now let me add this in a scope , i will be sending you the quote shortly .
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 9:29 PM
+  Hi! I've prepared a detailed proposal for your project please find it attached above. It covers the full scope, three clear plans with pricing, timeline, and everything we discussed. Have a read through and let me know which plan works best for you, or if you have any questions before we move forward!"
+  
+  
+  PsyGenics-Redesign-Proposal-DigitalHeroes.pdf
+  
+  (485.64 kB)
+  
+  Edited
+  
+  W
+  will1157
+  
+  Aug 12, 9:32 PM
+  I will review and get back with this afternoon.
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 12, 9:33 PM
+  Yeah sure please take youe time and let me know!
+  
+  W
+  will1157
+  
+  Aug 13, 6:05 PM
+  Hello — does the cost change if I opt to use the Webflow building apparatus and hosting?
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 13, 6:10 PM
+  Before I put together that version could you share a quick sense of your current budget range for the initial build?
+  
+  W
+  will1157
+  
+  Aug 13, 6:17 PM
+  For our hand built site we paid 2500—I am will to spend around that but thought it would be less expensive given the different build style. So far you are the most expensive with all the top rated freelancers coming in below 1k. I’ve asked them all for scope writes so I can compare the inclusions better.
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 13, 6:23 PM
+  I understand your concern and yes, we sit higher than most. That's the trilingual build, the right-to-left work for Arabic, the accessibility pass and three months of support after launch. Those are the lines a sub-1k quote won't have in it.
+  
+  You mentioned 2,500 is where you're comfortable. I can work with that.
+  
+  W
+  will1157
+  
+  Aug 13, 6:28 PM
+  I am not looking to have you reduce your fees. You’ve built your business in a way that attributes and identifies the value of your service. The field however looks different. I want to pay reasonable due diligence to that. But please quote me for the Webflow path. Our systems admin seems preferential to that.
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 13, 6:34 PM
+  Thank you that's a generous way to put it, and I appreciate you saying it.
+  
+  Happy to quote the Webflow path. I'll be upfront that I expect it to land a little higher than the WordPress version rather than lower, and I'll show you exactly where the difference sits so you and your admin can weigh it properly. I'll break out the recurring side too — Webflow's hosting plus their per-language charge so you're comparing the full cost of both routes, not just my invoice.
+  
+  One question before I start once it's live, is your systems admin looking after it day to day, or still you? That changes how I set up the editing side.
+  
+  W
+  will1157
+  
+  Aug 14, 1:52 AM
+  It will be me maintaining and updating it. He believes Webflow to be the easier platform for that.
+  
+  S
+  Profile Image
+  Me
+  
+  Aug 14, 2:02 AM
+  Take your time comparing. The Webflow analysis is yours to keep either way , if it helps your admin weigh it up, use it.
+  
+  W
+  will1157
+  
+  Aug 14, 2:56 AM
+  You sent it?
+  
+  
+  [Clipboard]
+  Your admin is right about one thing, and I'll say it before I complicate it. Webflow's Editor is genuinely easier than WordPress for day-to-day content updates. You click text on the page and change it. No dashboard, no plugin screens, no theme settings to get lost in. Since you're the one maintaining this, that's a real advantage and I won't argue against it.
+  
+  The complication is Arabic.
+  
+  Webflow has improved on right-to-left. Their own documentation confirms it now applies RTL direction automatically for Arabic locales, so the basics work out of the box. But independent analysis as recently as last month still documents constraints on bidirectional text rendering for Arabic and Hebrew, and most people building Arabic Webflow sites end up adding a third-party tool called RTLflow on top to handle it properly.
+  
+  WordPress has been doing RTL for well over a decade. It's mature, well-trodden, and there's nothing to work around.
+  
+  So the trade-off cuts both ways. Webflow is better at the thing you'll do every week, which is editing. WordPress is better at the thing that has to be right once and stay right, which is Arabic.
+  
+  THE NUMBERS
+  
+  Webflow build: $2,900
+  WordPress build: $2,500
+  
+  The $400 difference is the RTL work. On WordPress it's largely handled by the platform. On Webflow it needs per-locale style overrides, more custom CSS, probably RTLflow, and more testing to confirm the Arabic layout holds across every page.
+  
+  RECURRING, which matters more over time than the build does:
+  
+  Webflow charges for the site plan plus Localization, which is an add-on billed per locale. With three languages you're paying for two additional locales indefinitely. I'd ask you or your admin to check their current pricing directly rather than take a figure from me, because localization pricing is genuinely the thing people get caught out by and I'd rather you saw it from source.
+  
+  WordPress is hosting only. Translation handled by a plugin whose free tier comfortably covers three languages. No per-language charge, ever.
+  
+  MY HONEST VIEW
+  
+  If Arabic weren't in the mix I'd tell you to take Webflow and enjoy the easier editing. It's a good platform and your admin's instinct is sound.
+  
+  But Arabic is in the mix, and it's the one requirement where Webflow asks you to accept documented limitations and add a third-party dependency. That's the risk you'd be carrying, and it sits on the part of the site that's hardest to fix later.
+  
+  That said, you're the one maintaining it. If editing simplicity matters more to you than a marginally cleaner Arabic implementation, that's a legitimate call and I'll build it well either way.
+  
+  Happy to get on a short call with your admin if it would help him weigh the RTL point. He may have hands-on experience with Webflow's recent releases that I don't, and I'd rather be corrected than have you build on my assumption.
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk]
+  [LMB]
+  [Clipboard]
+  RECURRING, which matters more over time than the build does:
+  
+  Webflow charges for the site plan plus Localization, which is an add-on billed per locale. With three languages you're paying for two additional locales indefinitely. I'd ask you or your admin to check their current pricing directly rather than take a figure from me, because localization pricing is genuinely the thing people get caught out by and I'd rather you saw it from source.
+  
+  WordPress is hosting only. Translation handled by a plugin whose free tier comfortably covers three languages. No per-language charge, ever.
+  
+  MY HONEST VIEW
+  
+  If Arabic weren't in the mix I'd tell you to take Webflow and enjoy the easier editing. It's a good platform and your admin's instinct is sound.
+  
+  But Arabic is in the mix, and it's the one requirement where Webflow asks you to accept documented limitations and add a third-party dependency. That's the risk you'd be carrying, and it sits on the part of the site that's hardest to fix later.
+  
+  That said, you're the one maintaining it. If editing simplicity matters more to you than a marginally cleaner Arabic implementation, that's a legitimate call and I'll build it well either way.
+  
+  Happy to get on a short call with your admin if it would help him weigh the RTL point. He may have hands-on experience with Webflow's recent releases that I don't, and I'd rather be corrected than have you build on my assumption.
+  [Ctrl]c[Bk][ENTER]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [<-][Bk] 
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [Bk][ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  abdiwasa62
+  [LMB]
+  no worries, take care.;0[ENTER]
+  [LMB]
+  [Clipboard]
+   I'll send the meeting link about 10 minutes before we start. Looking forward to it ,we'll get everything sorted smoothly.
+  
+  [Ctrl]v[ENTER]
+  [Clipboard]
+  Meeting scheduled for today
+  Fiverr Shreyansh 
+  Client : abdiwasa62
+  Timing: 2:30PM (IST) 
+  country: Australia
+  Project:  Shopify
+  Host : Kashish
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-14 03:14:09  [anty.exe] Fiverr navya new + Upwork Shreyansh + Trenzio 13/04/2026
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-14 03:14:17  [msedge.exe] Fiverr / Inbox and 3 more pages - Profile 2 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  quantumcode_
+  
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Clipboard]
+  Needs analysis
+  [Clipboard]
+  muzamilmian696
+  itsautomated
+  dkainth
+  genis13
+  
+  [LMB]
