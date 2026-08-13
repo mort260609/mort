@@ -1,0 +1,1722 @@
+﻿  [LMB]
+  windows[ENTER]
+  espera y si lo consrtruimos en una ia tipo lvoable o blor[Bk]t[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  "Create a 3D isometric ARPG game prototype using Three.js and React. Features needed:
+  
+  Isometric camera angle (45 degrees, fixed view like Albion Online / Torchlight).
+  
+  A 3D ground plane with a grid.
+  
+  A simple 3D character (a capsule or simple toon mesh) in the center.
+  
+  Click-to-move mechanics: when I click on the ground, the character smoothly walks to that point.
+  
+  Anime / Cel-Shading style: Use a custom Toon Shader or outline effect so it looks like anime/manga.
+  
+  A clean UI showing player health bar and a mini-map at the top right."
+  c
+  [LMB]
+
+--- WINDOW  2026/08/13 18:42:46  [chrome.exe] Home - Replit - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/13 18:42:56  [chrome.exe] Loading... - Replit - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:42:57  [chrome.exe] Anime ARPG - Replit - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 18:43:16  [chrome.exe] replit.com quiere
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 18:43:18  [chrome.exe] Anime ARPG - Replit - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:43:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:43:26  [chrome.exe] Anime ARPG - Replit - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:43:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:43:26  [chrome.exe] YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 18:43:31  [chrome.exe] YouTube - (1) YouTube
+----------------------------------------------------------------------------
+  armas en albion que hace cada una [ENTER]
+
+--- WINDOW  2026/08/13 18:43:38  [chrome.exe] YouTube - (1) armas en albion que hace cada una - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 18:43:56  [chrome.exe] YouTube - (1) YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:43:57  [chrome.exe] YouTube - (1) Albion Online | Weapon Spotlight/Presentacion de Habilidades | Cursed Mage/Mago Maldito - YouTube
+----------------------------------------------------------------------------
+  [->]
+
+--- WINDOW  2026/08/13 18:44:08  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+  [->]
+
+--- WINDOW  2026/08/13 18:44:14  [chrome.exe] YouTube - (1) Albion Online | Weapon Spotlight/Presentacion de Habilidades | Cursed Mage/Mago Maldito - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [->][->]
+  [LMB]
+
+--- WINDOW  2026/08/13 18:44:19  [chrome.exe] YouTube - (1) armas en albion que hace cada una - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 18:44:34  [chrome.exe] YouTube - (1) 🔥 Las VERDADERAS Armas META que Dominan Albion Online ✅ - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 18:44:37  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:44:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:44:54  [chrome.exe] Anime ARPG - Replit - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:44:57  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:44:57  [chrome.exe] YouTube - (1) 🔥 Las VERDADERAS Armas META que Dominan Albion Online ✅ - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:44:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:45:00  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 18:45:02  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:45:05  [chrome.exe] YouTube - (1) 🔥 Las VERDADERAS Armas META que Dominan Albion Online ✅ - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:45:05  [chrome.exe] YouTube - (1) armas en albion que hace cada una - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  albion mazas[ENTER]
+
+--- WINDOW  2026/08/13 18:46:03  [chrome.exe] YouTube - (1) albion mazas - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 18:46:05  [chrome.exe] YouTube - (1) 🔥 Las VERDADERAS Armas META que Dominan Albion Online ✅ - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:46:07  [chrome.exe] YouTube - (1) Guia MAZAS 2025 Albion Online + Builds para Mazas en Albion Online - YouTube
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:46:10  [chrome.exe] Subtítulos automáticos
+----------------------------------------------------------------------------
+  [LMB]
+  [->]
+
+--- WINDOW  2026/08/13 18:46:20  [chrome.exe] YouTube - (1) Guia MAZAS 2025 Albion Online + Builds para Mazas en Albion Online - YouTube
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [->][->][->][->][->][->][->][->][->]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 18:46:44  [chrome.exe] Anime ARPG - Replit - Google Chrome
+----------------------------------------------------------------------------
+  s
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 18:46:59  [chrome.exe] Legado Cyberoth | Encantador - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 18:47:00  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+  como[Bk][Bk][Bk][Bk]q[Bk][Bk]cuales son las armas de pvp [Bk][Bk][Bk][Bk]dps , heler y tanke en albion[ENTER]
+
+--- WINDOW  2026/08/13 18:47:20  [chrome.exe] cuales son las armas de dps , heler y tanke en albion - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  com puedo escoger mi arma[ENTER]
+  ayida[Bk][Bk][Bk]udame a escoger mi arma vengo de j[Bk]ww [Bk][Bk]ow y siempre he jugado chaman tanto elemental como mejora que me recomiedas[ENTER]
+  emm no se no me gusta mucho la idea [ENTER]
+  [LMB]
+  no quiero jugar como rango pero cn echizos y poder jugar melee si es necesario [ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/13 18:50:53  [chrome.exe] (1) Discord | #ideas | Proyecto WoW 3.3.5a - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 18:50:57  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 18:51:03  [SearchHost.exe] Buscar
+----------------------------------------------------------------------------
+  e
+
+--- WINDOW  2026/08/13 18:51:05  [explorer.exe] Inicio - Explorador de archivos
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 18:51:07  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:51:07  [SearchHost.exe] Buscar
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:51:08  [StartMenuExperienceHost.exe] Inicio
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:51:09  [SearchHost.exe] Buscar
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:51:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:51:10  [AlbionLauncher.exe] Albion Online Launcher
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 18:51:19  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:51:19  [Albion-Online_BE.exe] BattlEye Launcher
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:51:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 18:51:30  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+  dame invetar una viuil[Bk][Bk][Bk][Bk][Bk]build par aalbion [ENTER]
+
+--- WINDOW  2026/08/13 18:51:43  [chrome.exe] ayudame a inventar una build para albion - Buscar con Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  alguien ha jugado con mazas sin ser tanke[ENTER]
+  [LMB]
+  persecundria n br semuyloo
+  [LMB]
+
+--- WINDOW  2026/08/13 18:53:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 18:53:55  [Albion-Online.exe] Albion Online Client
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  qw
+  [LMB]
+  e
+  [LMB]
+  qqfdqqqqw
+  [LMB]
+  eqqqqqqq
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  qwew
+  [LMB]
+  eqdqqqqqqqqe
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  f
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  r
+  [RMB]
+  [Esc]qqq
+  [RMB]
+  [RMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  we
+  [LMB]
+  e
+  [LMB]
+  q
+  [RMB]
+  [RMB]
+  qw
+  [LMB]
+  eqeqqqw
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc][Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  i
+  [RMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  iii
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  a
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [RMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  a
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  qa
+  [RMB]
+  [RMB]
+  ew
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  w
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  ii
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  l[Esc]b
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]a
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]i
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  aq
+  [LMB]
+  [LMB]
+  w
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  i
+  [LMB]
+  [Esc]
+  [LMB]
+  w
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  w
+  [LMB]
+  ww
+  [LMB]
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  ew
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  b
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  q
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  fdq
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  dq
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  eq
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  d
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  w
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  qqq
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  w
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  w
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  w
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  w
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  b
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  qqq
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  w
+  [LMB]
+  w
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  dq
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  w
+  [LMB]
+  w
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  q
+  [LMB]
+  qq
+  [LMB]
+  [LMB]
+  ee
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  b
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  eq
+  [LMB]
+  [LMB]
+  [LMB]
+  w
+  [LMB]
+  q
+  [LMB]
+  ee
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  td
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  qqqe
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  w
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  e
+  [LMB]
+  q
+  [LMB]
+  w
+  [LMB]
+  w
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  e
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  e
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  d
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  eq
+  [LMB]
+  e
+  [LMB]
+  ee
+  [LMB]
+  qw
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  d
+  [RMB]
+  [RMB]
+  [RMB]
+  d
+  [RMB]
+  d
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  e
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  e
+  [RMB]
+  [RMB]
+  [RMB]
+  w
+  [LMB]
+  [RMB]
+  [RMB]
+  e
+  [LMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  qw
+  [LMB]
+  [RMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  eew
+  [LMB]
+  eee
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  q
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  e
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 19:26:34  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 19:26:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 20:07:34  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 20:07:35  [LockApp.exe] Pantalla de bloqueo predeterminada de Windows
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/08/13 20:07:37  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 20:07:37  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
