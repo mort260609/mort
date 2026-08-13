@@ -1,0 +1,2122 @@
+﻿  ta[Bk]ay, car rental, flg[ENTER]
+  looks goodsat[Bk][Bk]till waiting for th enode mules to[Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]a[Bk]
+  [LMB]
+
+--- WINDOW  2026/08/12 19:01:20  [Antigravity IDE.exe] travelworld-2026 - Antigravity IDE - Install npm dependencies…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 19:01:59  [Telegram.exe] ‎Дмитрий – (129172)
+----------------------------------------------------------------------------
+  [Ctrl]a[Bk]
+  [LMB]
+
+--- WINDOW  2026/08/12 19:02:03  [Discord.exe] @!powerful! - Discord
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 19:02:09  [Antigravity IDE.exe] travelworld-2026 - Antigravity IDE - Install npm dependencies…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 19:03:00  [Antigravity IDE.exe] travelworld-2026 - Antigravity IDE - ✻ [Claude Code] c:\Users\USER\Desktop\travelworld-2026\server\controllers\user.controller.js (user.controller.js)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 19:03:06  [Antigravity IDE.exe] travelworld-2026 - Antigravity IDE - ui-10-addproperty.png
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:03:08  [Telegram.exe] ‎Дмитрий – (129173)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:03:29  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  For example
+  Scenario A:you lose your own key (lost device, whatever), you're still around:
+  you call requestRecovery(yourBackupAddress) from your backup wallet. 6-month timer starts. if you show up any time before it ends and call checkIn() (or cancelRecovery()) from your main wallet, it resets/cancels. if 6 months pass with zero activity from your main wallet, executeRecovery() swaps your outer Safe slot from main-backup. same threshold, same timelock, nothing else changes.
+  
+  Scenario B:one of us is gone for good (death, etc.) and the other needs the project to keep functioning:
+  say you go fully dark. I call requestRecovery(myBackupAddress) from my backup wallet, targeting your slot. 12-month timer starts (longer than scenario A on purpose-higher stakes, less reversible). if your main wallet does anything at all during those 12 months:checkIn(), cancelRecovery(), or honestly any signed tx-it resets. only if 12 months pass with zero signal does your slot swap to my backup. exact same mechanism applies to me if I go dark-you'd request from your backup targeting my slot.
+  
+  contract stays minimal, 4 functions total: requestRecovery(), cancelRecovery(), checkIn(), executeRecovery(). that's it, nothing fancier, smaller surface area for something this high-stakes.
+  
+  for visibility: the module emits a RecoveryRequested event with the target and the unlock timestamp, public, anyone can read it, we can surface that on the website so it's not something only we know about. for actually triggering/cancelling/checking in day to day, thinking a simple private panel just for the two of us, basically a thin UI wrapper calling those same 4 functions, doesn't need the same review depth as the module itself since it's not deciding anything, just reading/calling what's already there...
+  
+  want your take before this goes anywhere near a script.
+
+--- WINDOW  2026/08/12 19:03:30  [Telegram.exe] ‎Дмитрий – (129173)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 19:03:31  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Honestly, I think my thoughts are paranoid. Do we even need such a system for our project?
+  
+  If you have an idea on how to make this simpler, so the project could function without us in such "emergencies," let me know...
+
+--- WINDOW  2026/08/12 19:07:35  [Telegram.exe] ‎Дмитрий – (129180)
+----------------------------------------------------------------------------
+  thg[Bk]evw p o[Bk]private[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]i put my privat ekey on esrow..[ENTER]
+  [Bk] incase whatever that
+
+--- WINDOW  2026/08/12 19:08:30  [Telegram.exe] ‎Дмитрий – (129181)
+----------------------------------------------------------------------------
+   happens whicbeliee vt ha[Bk][Bk][Bk][Bk], appensi[Bk][Bk]you cb[Bk][Bk]n be blains to  [Bk]sin no't be usedfr nded[Bk]in btst toprotr
+  [Clipboard]
+  I just thought of something
+  why don't we have a legal agreement..
+  I put my private key on escrow.. incase whatever that happens which i believe wil not, happens
+  you can be able to gain access to it since it won't be used for funding but just to approve transactions
+
+--- WINDOW  2026/08/12 19:09:25  [claude.exe] Claude
+----------------------------------------------------------------------------
+  of this[ENTER]
+  [ENTER]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/12 19:09:31  [Antigravity IDE.exe] travelworld-2026 - Antigravity IDE - ui-10-addproperty.png
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:09:48  [chrome.exe] travelworld-2026/UI at main · dennis-booking/travelworld-2026 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 19:09:50  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 19:09:51  [Antigravity IDE.exe] travelworld-2026 - Antigravity IDE - ui-10-addproperty.png
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 19:09:56  [Antigravity IDE.exe] travelworld-2026 - Antigravity IDE - Welcome
+----------------------------------------------------------------------------
+  [LMB]
+  [->][ENTER]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  PS C:\Users\USER\Desktop\travelworld-2026> npm run dev
+  
+  > TravelWorld@0.1.0 dev
+  > nodemon server.js
+  
+  [nodemon] 3.1.14
+  [nodemon] to restart at any time, enter `rs`
+  [nodemon] watching path(s): server\**\* server.js
+  [nodemon] watching extensions: js,json
+  [nodemon] starting `node server.js`
+  ◇ injected env (9) from .env // tip: ⌘ enable debugging { debug: true }
+  ◇ injected env (0) from .env.local // tip: ⌘ enable debugging { debug: true }
+  ◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+  ◇ injected env (0) from .env.local // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+  info  - Loaded env from C:\Users\USER\Desktop\travelworld-2026\.env
+  event - compiled client and server successfully in 5.5s (1138 modules)
+  error - uncaughtException: Error: listen EADDRINUSE: address already in use ::1:3000
+      at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+      at listenInCluster (node:net:1997:12)
+      at GetAddrInfoReqWrap.callback (node:net:2206:7)
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:134:8) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::1',
+    port: 3000
+  }
+  c
+  [LMB]
+
+--- WINDOW  2026/08/12 19:10:34  [Antigravity IDE.exe] travelworld-2026 - Antigravity IDE - Install npm dependencies…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 19:10:38  [chrome.exe] travelworld-2026/UI at main · dennis-booking/travelworld-2026 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:10:41  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  as
+
+--- WINDOW  2026/08/12 19:10:53  [Telegram.exe] ‎Дмитрий – (129185)
+----------------------------------------------------------------------------
+  ht 
+
+--- WINDOW  2026/08/12 19:10:59  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:11:02  [Antigravity IDE.exe] travelworld-2026 - Antigravity IDE - Install npm dependencies…
+----------------------------------------------------------------------------
+  [LMB]
+  m d[Ctrl]c
+  [LMB]
+  nrudev
+
+--- WINDOW  2026/08/12 19:11:58  [chrome.exe] localhost - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 19:12:08  [Antigravity IDE.exe] travelworld-2026 - Antigravity IDE - Install npm dependencies…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 19:12:19  [chrome.exe] localhost - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 19:12:20  [brave.exe] mendezbuilds (Stephen Mendez) / Repositories · GitHub - Brave
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 19:12:22  [chrome.exe] localhost - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:12:35  [Antigravity IDE.exe] travelworld-2026 - Antigravity IDE - Install npm dependencies…
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  PS C:\Users\USER\Desktop\travelworld-2026> npm run dev
+  
+  > TravelWorld@0.1.0 dev
+  > nodemon server.js
+  
+  [nodemon] 3.1.14
+  [nodemon] to restart at any time, enter `rs`
+  [nodemon] watching path(s): server\**\* server.js
+  [nodemon] watching extensions: js,json
+  [nodemon] starting `node server.js`
+  ◇ injected env (9) from .env // tip: ⌘ enable debugging { debug: true }
+  ◇ injected env (0) from .env.local // tip: ⌘ enable debugging { debug: true }
+  ◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+  ◇ injected env (0) from .env.local // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+  info  - Loaded env from C:\Users\USER\Desktop\travelworld-2026\.env
+  event - compiled client and server successfully in 12.1s (1138 modules)
+  > Ready on http://localhost:3000
+  
+  wait  - compiling / (client and server)...
+  
+
+--- WINDOW  2026/08/12 19:13:03  [chrome.exe] localhost - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:13:06  [Telegram.exe] ‎Дмитрий – (129186)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 19:13:22  [Antigravity IDE.exe] travelworld-2026 - Antigravity IDE - Install npm dependencies…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:13:24  [chrome.exe] localhost - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:13:33  [brave.exe] New Tab - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:13:46  [brave.exe] localhost:3000 - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:16:11  [brave.exe] localhost:3000/# - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:16:28  [brave.exe] localhost:3000/carrental - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:17:24  [Antigravity IDE.exe] travelworld-2026 - Antigravity IDE - Install npm dependencies…
+----------------------------------------------------------------------------
+  .ild veradn mb
+  [LMB]
+
+--- WINDOW  2026/08/12 19:17:58  [chrome.exe] localhost:3000/property?city=Dubai - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:18:04  [chrome.exe] travelworld-2026/UI at main · dennis-booking/travelworld-2026 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 19:18:07  [brave.exe] localhost:3000/carrental - Brave
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:18:10  [chrome.exe] travelworld-2026/UI at main · dennis-booking/travelworld-2026 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 19:18:11  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+================================================================================
+ SESSION START  2026/08/12 21:23:48
+================================================================================
+
+
+--- WINDOW  2026/08/12 21:23:48  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 21:23:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 21:24:06  [opera.exe] Speed Dial - Opera
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 21:24:49  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 21:26:19  [Telegram.exe] ‎Дмитрий – (129258)
+----------------------------------------------------------------------------
+  [Clipboard]
+  that doesnt quite add up, an actual ADMIN_ROLE transfer has to be a real transaction (grantRole/revokeRole), same as every other role change we've checked so far. it cant "only happen in the terminal, not on the blockchain", if nothing was broadcast to the chain, nothing actually changed...
+  
+  is it possible you're thinking of a cast call check (read-only, local, doesn't touch chain state) rather than the actual migration transaction (cast send or forge script --broadcast)? if so, that would mean the admin role hasnt actually moved yet, NexaiCore's ADMIN_ROLE might still be on the EOA. can you check tonight, even just a quick cast call NexaiCore hasRole(ADMIN_ROLE, timelockAddress), if that comes back false, the migration hasnt happened yet and we shouldn't treat it as done
+  oush the orug[Bk][Bk][Bk][Bk]
+  [LMB]
+
+--- WINDOW  2026/08/12 21:29:46  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 21:29:50  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  cd /mnt/c/Users/USER/Desktop/NEXAI/contracts
+
+--- WINDOW  2026/08/12 21:29:56  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/12 21:29:59  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  cast call 0x7A7a78F5A28830025023EaBC8ad9cddb7c3d579c "hasRole(bytes32,address)(bool)" 0x0000000000000000000000000000000000000000000000000000000000000000 0x7635Df7c7cF94A4610F619B5B57bD6f682e84428 --rpc-url https://sepolia.base.org
+
+--- WINDOW  2026/08/12 21:30:19  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ cast call 0x7A7a78F5A28830025023EaBC8ad9cddb7c3d579c "hasRole(bytes32,address)(bool)" 0x0000000000000000000000000000000000000000000000000000000000000000 0x7635Df7c7cF94A4610F619B5B57bD6f682e84428 --rpc-url https://sepolia.base.org
+  true
+  c
+  [LMB]
+
+--- WINDOW  2026/08/12 21:30:33  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 21:30:34  [Telegram.exe] ‎Дмитрий – (129258)
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 21:30:38  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 21:30:40  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  grantRole (DEFAULT_ADMIN_ROLE to timelock): 0x73789ad39b533100b751036609cf9a078b678cb7b729d3ced402cdda32dccc2c
+  grantRole (ADMIN_ROLE to timelock): 0xa4e61db880755017d2a074b5337e916f015930e3fa86f7d25cfb0c528c24a972
+  revokeRole (ADMIN_ROLE from deployer): 0x6e8489bd7cff893c176a4ae051dc9a1e3350d460aad08d91e83e52e19f9eef48
+  revokeRole (DEFAULT_ADMIN_ROLE from deployer): 0x56d90cecb94e853fac17c20302539bfe63335c0b17cca7885bb956c13cb2dea9
+  [LMB]
+
+--- WINDOW  2026/08/12 21:30:47  [Telegram.exe] ‎Дмитрий – (129258)
+----------------------------------------------------------------------------
+  thi[Bk]ese are the real broadcast transactio [Bk]n hash..[ENTER]
+  [ENTER]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/08/12 21:31:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 21:31:01  [wps.exe] (untitled)
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/08/12 21:31:03  [wps.exe] WPS Office
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 21:31:05  [wps.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 21:31:06  [Telegram.exe] ‎Дмитрий – (129258)
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/12 21:31:24  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 21:31:25  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 21:31:26  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  s what's next now[ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 21:31:36  [Telegram.exe] ‎Дмитрий – (129258)
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/08/12 21:31:41  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  that doesnt quite add up, an actual ADMIN_ROLE transfer has to be a real transaction (grantRole/revokeRole), same as every other role change we've checked so far. it cant "only happen in the terminal, not on the blockchain", if nothing was broadcast to the chain, nothing actually changed...
+  
+  is it possible you're thinking of a cast call check (read-only, local, doesn't touch chain state) rather than the actual migration transaction (cast send or forge script --broadcast)? if so, that would mean the admin role hasnt actually moved yet, NexaiCore's ADMIN_ROLE might still be on the EOA. can you check tonight, even just a quick cast call NexaiCore hasRole(ADMIN_ROLE, timelockAddress), if that comes back false, the migration hasnt happened yet and we shouldn't treat it as done
+
+--- WINDOW  2026/08/12 21:31:43  [Telegram.exe] ‎Дмитрий – (129258)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 21:31:43  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 21:31:44  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][ENTER]
+  [Ctrl]a[Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [Ctrl]v[Ctrl]a[Bk]
+  [LMB]
+
+--- WINDOW  2026/08/12 21:31:58  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  grantRole (DEFAULT_ADMIN_ROLE to timelock): 0x73789ad39b533100b751036609cf9a078b678cb7b729d3ced402cdda32dccc2c
+  grantRole (ADMIN_ROLE to timelock): 0xa4e61db880755017d2a074b5337e916f015930e3fa86f7d25cfb0c528c24a972
+  revokeRole (ADMIN_ROLE from deployer): 0x6e8489bd7cff893c176a4ae051dc9a1e3350d460aad08d91e83e52e19f9eef48
+  revokeRole (DEFAULT_ADMIN_ROLE from deployer): 0x56d90cecb94e853fac17c20302539bfe63335c0b17cca7885bb956c13cb2dea9
+  [LMB]
+
+--- WINDOW  2026/08/12 21:32:01  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [Ctrl][ENTER]
+  [ENTER]
+  are these broadcast transaction hash corrcet[ENTER]
+
+--- WINDOW  2026/08/12 21:32:29  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 21:32:54  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [ENTER]
+  are these boadcast transaction hase[Bk]es c[Bk][Bk][Bk]hes cr[Bk]orrect/[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  mendez@Mendez-PC:/mnt/c/Users/USER/Desktop/NEXAI/contracts$ cast call 0x7A7a78F5A28830025023EaBC8ad9cddb7c3d579c "hasRole(bytes32,address)(bool)" 0x0000000000000000000000000000000000000000000000000000000000000000 0x7635Df7c7cF94A4610F619B5B57bD6f682e84428 --rpc-url https://sepolia.base.org
+  true
+  c
+  [LMB]
+
+--- WINDOW  2026/08/12 21:33:39  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/12 21:34:09  [Telegram.exe] ‎Дмитрий – (129261)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 21:34:52  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/12 21:34:53  [StartMenuExperienceHost.exe] Start
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/12 21:34:54  (no active window)
+----------------------------------------------------------------------------
+
+================================================================================
+ SESSION START  2026/08/13 07:27:03
+================================================================================
+
+
+--- WINDOW  2026/08/13 07:27:09  [WhatsApp.Root.exe] WhatsApp
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:27:41  [TradingView.exe] EURUSD ▼ 1.15186 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:27:44  [TradingView.exe] EURUSD ▼ 1.15185 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:27:46  [TradingView.exe] EURUSD ▼ 1.15184 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:27:48  [TradingView.exe] EURUSD ▼ 1.15183 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:27:51  [TradingView.exe] EURUSD ▼ 1.15182 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:27:56  [TradingView.exe] EURUSD ▼ 1.15181 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:27:58  [TradingView.exe] EURUSD ▼ 1.15182 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:28:08  [TradingView.exe] EURUSD ▼ 1.15184 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:11  [TradingView.exe] EURUSD ▼ 1.15183 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:13  [TradingView.exe] EURUSD ▼ 1.15184 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:20  [TradingView.exe] EURUSD ▼ 1.15187 −0.02% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:22  [TradingView.exe] EURUSD ▼ 1.15189 −0.02% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:26  [TradingView.exe] EURUSD ▼ 1.15188 −0.02% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:26  [TradingView.exe] EURUSD ▼ 1.15189 −0.02% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:30  [TradingView.exe] EURUSD ▼ 1.15188 −0.02% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:30  [TradingView.exe] EURUSD ▼ 1.15187 −0.02% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:33  [TradingView.exe] EURUSD ▼ 1.15189 −0.02% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:35  [TradingView.exe] EURUSD ▼ 1.15187 −0.02% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:40  [TradingView.exe] EURUSD ▼ 1.15188 −0.02% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:44  [TradingView.exe] EURUSD ▼ 1.15187 −0.02% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:46  [TradingView.exe] EURUSD ▼ 1.15186 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:49  [TradingView.exe] EURUSD ▼ 1.15185 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:53  [TradingView.exe] EURUSD ▼ 1.15184 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:54  [TradingView.exe] EURUSD ▼ 1.15183 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:56  [TradingView.exe] EURUSD ▼ 1.15182 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:28:58  [TradingView.exe] EURUSD ▼ 1.15183 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:00  [TradingView.exe] EURUSD ▼ 1.15179 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:03  [TradingView.exe] EURUSD ▼ 1.15178 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:04  [TradingView.exe] EURUSD ▼ 1.15177 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:07  [TradingView.exe] EURUSD ▼ 1.15174 −0.04% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:09  [TradingView.exe] EURUSD ▼ 1.15176 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:11  [TradingView.exe] EURUSD ▼ 1.15177 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:17  [TradingView.exe] EURUSD ▼ 1.15174 −0.04% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:19  [TradingView.exe] EURUSD ▼ 1.15177 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:24  [TradingView.exe] EURUSD ▼ 1.15178 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:33  [TradingView.exe] EURUSD ▼ 1.15179 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:35  [TradingView.exe] EURUSD ▼ 1.15178 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:38  [TradingView.exe] EURUSD ▼ 1.15179 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:40  [TradingView.exe] EURUSD ▼ 1.15178 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:42  [TradingView.exe] EURUSD ▼ 1.15179 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:49  [TradingView.exe] EURUSD ▼ 1.15178 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:51  [TradingView.exe] EURUSD ▼ 1.15180 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:54  [TradingView.exe] EURUSD ▼ 1.15178 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:56  [TradingView.exe] EURUSD ▼ 1.15179 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:29:59  [TradingView.exe] EURUSD ▼ 1.15177 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:30:00  [TradingView.exe] EURUSD ▼ 1.15178 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:30:02  [TradingView.exe] EURUSD ▼ 1.15177 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:30:06  [TradingView.exe] EURUSD ▼ 1.15173 −0.04% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:30:08  [TradingView.exe] EURUSD ▼ 1.15174 −0.04% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:30:14  [TradingView.exe] EURUSD ▼ 1.15169 −0.04% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:30:17  [TradingView.exe] EURUSD ▼ 1.15161 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:30:19  [TradingView.exe] EURUSD ▼ 1.15160 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:30:22  [TradingView.exe] EURUSD ▼ 1.15159 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:30:25  [TradingView.exe] EURUSD ▼ 1.15177 −0.03% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:30:26  [TradingView.exe] EURUSD ▼ 1.15159 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:30:26  [TradingView.exe] EURUSD ▼ 1.15158 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:30:28  [TradingView.exe] EURUSD ▼ 1.15159 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:30:30  [TradingView.exe] EURUSD ▼ 1.15155 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:30:31  [TradingView.exe] EURUSD ▼ 1.15156 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:30:33  [TradingView.exe] EURUSD ▼ 1.15157 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:30:37  [TradingView.exe] EURUSD ▼ 1.15152 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:30:39  [TradingView.exe] EURUSD ▼ 1.15150 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:30:42  [TradingView.exe] EURUSD ▼ 1.15143 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:30:44  [TradingView.exe] EURUSD ▼ 1.15142 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:30:46  [TradingView.exe] EURUSD ▼ 1.15134 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:30:48  [TradingView.exe] EURUSD ▼ 1.15132 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:30:51  [TradingView.exe] EURUSD ▼ 1.15129 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:30:53  [TradingView.exe] EURUSD ▼ 1.15133 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:30:56  [TradingView.exe] EURUSD ▼ 1.15136 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:30:58  [TradingView.exe] EURUSD ▼ 1.15137 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:31:01  [TradingView.exe] EURUSD ▼ 1.15136 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:31:03  [TradingView.exe] EURUSD ▼ 1.15137 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:31:10  [TradingView.exe] EURUSD ▼ 1.15138 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:31:12  [TradingView.exe] EURUSD ▼ 1.15137 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:31:20  [TradingView.exe] EURUSD ▼ 1.15136 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:31:23  [TradingView.exe] EURUSD ▼ 1.15137 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:31:27  [powershell.exe] Select C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:31:29  [TradingView.exe] EURUSD ▼ 1.15136 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:31:34  [TradingView.exe] EURUSD ▼ 1.15137 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:31:34  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:31:35  [TradingView.exe] EURUSD ▼ 1.15137 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:31:36  [TradingView.exe] EURUSD ▼ 1.15141 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:31:38  [TradingView.exe] EURUSD ▼ 1.15142 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:31:41  [TradingView.exe] EURUSD ▼ 1.15137 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:31:42  [TradingView.exe] EURUSD ▼ 1.15138 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:31:46  [TradingView.exe] EURUSD ▼ 1.15137 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:31:52  [TradingView.exe] EURUSD ▼ 1.15138 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:32:00  [TradingView.exe] EURUSD ▼ 1.15140 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:01  [TradingView.exe] EURUSD ▼ 1.15141 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:03  [TradingView.exe] EURUSD ▼ 1.15142 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:06  [TradingView.exe] EURUSD ▼ 1.15141 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:11  [TradingView.exe] EURUSD ▼ 1.15140 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:13  [TradingView.exe] EURUSD ▼ 1.15153 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:17  [TradingView.exe] EURUSD ▼ 1.15152 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:18  [TradingView.exe] EURUSD ▼ 1.15151 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:21  [TradingView.exe] EURUSD ▼ 1.15148 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:25  [TradingView.exe] EURUSD ▼ 1.15152 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:27  [TradingView.exe] EURUSD ▼ 1.15151 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:30  [TradingView.exe] EURUSD ▼ 1.15155 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:33  [TradingView.exe] EURUSD ▼ 1.15156 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:37  [TradingView.exe] EURUSD ▼ 1.15153 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:40  [TradingView.exe] EURUSD ▼ 1.15154 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:32:43  [TradingView.exe] EURUSD ▼ 1.15152 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:32:45  [TradingView.exe] EURUSD ▼ 1.15150 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:32:47  [TradingView.exe] EURUSD ▼ 1.15149 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [Del]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:32:51  [TradingView.exe] EURUSD ▼ 1.15151 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:32:54  [TradingView.exe] EURUSD ▼ 1.15152 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:32:58  [TradingView.exe] EURUSD ▼ 1.15153 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:33:01  [TradingView.exe] EURUSD ▼ 1.15152 −0.05% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:33:04  [TradingView.exe] EURUSD ▼ 1.15148 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:33:06  [TradingView.exe] EURUSD ▼ 1.15149 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:33:09  [TradingView.exe] EURUSD ▼ 1.15147 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:33:15  [TradingView.exe] EURUSD ▼ 1.15144 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:33:18  [TradingView.exe] EURUSD ▼ 1.15142 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:33:21  [TradingView.exe] EURUSD ▼ 1.15144 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:33:24  [TradingView.exe] EURUSD ▼ 1.15143 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:33:29  [TradingView.exe] EURUSD ▼ 1.15142 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:33:32  [TradingView.exe] EURUSD ▼ 1.15141 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:33:38  [TradingView.exe] EURUSD ▼ 1.15142 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:33:42  [TradingView.exe] EURUSD ▼ 1.15137 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:33:47  [TradingView.exe] EURUSD ▼ 1.15142 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:33:53  [TradingView.exe] EURUSD ▼ 1.15141 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:33:55  [TradingView.exe] EURUSD ▼ 1.15137 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:33:59  [TradingView.exe] EURUSD ▼ 1.15122 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:33:59  [TradingView.exe] EURUSD ▼ 1.15121 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:34:03  [TradingView.exe] EURUSD ▼ 1.15118 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:34:10  [TradingView.exe] EURUSD ▼ 1.15119 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:34:14  [TradingView.exe] EURUSD ▼ 1.15118 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:34:22  [TradingView.exe] EURUSD ▼ 1.15117 −0.09% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:34:24  [TradingView.exe] EURUSD ▼ 1.15119 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:34:27  [TradingView.exe] EURUSD ▼ 1.15122 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:34:27  [TradingView.exe] EURUSD ▼ 1.15117 −0.09% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:34:29  [TradingView.exe] EURUSD ▼ 1.15118 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:34:33  [TradingView.exe] EURUSD ▼ 1.15120 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:34:35  [TradingView.exe] EURUSD ▼ 1.15121 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:34:37  [TradingView.exe] EURUSD ▼ 1.15127 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:34:42  [TradingView.exe] EURUSD ▼ 1.15128 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:34:44  [TradingView.exe] EURUSD ▼ 1.15124 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:34:56  [TradingView.exe] EURUSD ▼ 1.15123 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:35:02  [TradingView.exe] EURUSD ▼ 1.15121 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:35:04  [TradingView.exe] EURUSD ▼ 1.15124 −0.08% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:35:06  [TradingView.exe] EURUSD ▼ 1.15129 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:35:08  [TradingView.exe] EURUSD ▼ 1.15130 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:35:14  [TradingView.exe] EURUSD ▼ 1.15133 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:35:17  [TradingView.exe] EURUSD ▼ 1.15131 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:35:19  [TradingView.exe] EURUSD ▼ 1.15132 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:35:22  [TradingView.exe] EURUSD ▼ 1.15131 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:35:24  [TradingView.exe] EURUSD ▼ 1.15129 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:35:27  [TradingView.exe] EURUSD ▼ 1.15130 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:35:29  [TradingView.exe] EURUSD ▼ 1.15133 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:35:31  [TradingView.exe] EURUSD ▼ 1.15134 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:35:33  [TradingView.exe] EURUSD ▼ 1.15131 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:35:36  [TradingView.exe] EURUSD ▼ 1.15132 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:35:36  [TradingView.exe] EURUSD ▼ 1.15133 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:35:38  [TradingView.exe] EURUSD ▼ 1.15134 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:35:41  [TradingView.exe] EURUSD ▼ 1.15138 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:35:50  [TradingView.exe] EURUSD ▼ 1.15139 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:36:00  [TradingView.exe] EURUSD ▼ 1.15142 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:36:02  [TradingView.exe] EURUSD ▼ 1.15140 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:36:03  [TradingView.exe] EURUSD ▼ 1.15139 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:36:10  [TradingView.exe] EURUSD ▼ 1.15138 −0.07% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:36:16  [TradingView.exe] EURUSD ▼ 1.15142 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:36:21  [TradingView.exe] EURUSD ▼ 1.15143 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:36:35  [TradingView.exe] GBPUSD ▼ 1.15143 −0.06% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:36:37  [TradingView.exe] GBPUSD ▼ 1.34781 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:36:37  [TradingView.exe] GBPUSD ▼ 1.34778 −0.13% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:36:38  [TradingView.exe] GBPUSD ▼ 1.34777 −0.13% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:36:38  [TradingView.exe] GBPUSD ▼ 1.34776 −0.13% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:36:41  [TradingView.exe] GBPUSD ▼ 1.34781 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:36:41  [TradingView.exe] GBPUSD ▼ 1.34776 −0.13% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:36:42  [TradingView.exe] GBPUSD ▼ 1.34779 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:36:44  [TradingView.exe] GBPUSD ▼ 1.34787 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:36:44  [TradingView.exe] GBPUSD ▼ 1.34786 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:36:46  [TradingView.exe] GBPUSD ▼ 1.34783 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:36:49  [TradingView.exe] GBPUSD ▼ 1.34785 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:36:51  [TradingView.exe] GBPUSD ▼ 1.34783 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:36:56  [TradingView.exe] GBPUSD ▼ 1.34781 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:36:58  [TradingView.exe] GBPUSD ▼ 1.34785 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:03  [TradingView.exe] GBPUSD ▼ 1.34782 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:06  [TradingView.exe] GBPUSD ▼ 1.34784 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:09  [TradingView.exe] GBPUSD ▼ 1.34785 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:11  [TradingView.exe] GBPUSD ▼ 1.34781 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:15  [TradingView.exe] GBPUSD ▼ 1.34780 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:18  [TradingView.exe] GBPUSD ▼ 1.34779 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:20  [TradingView.exe] GBPUSD ▼ 1.34780 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:28  [TradingView.exe] GBPUSD ▼ 1.34779 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:29  [TradingView.exe] GBPUSD ▼ 1.34781 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:32  [TradingView.exe] GBPUSD ▼ 1.34784 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:33  [TradingView.exe] GBPUSD ▼ 1.34782 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:35  [TradingView.exe] GBPUSD ▼ 1.34781 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:40  [TradingView.exe] GBPUSD ▼ 1.34778 −0.13% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:42  [TradingView.exe] GBPUSD ▼ 1.34776 −0.13% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:42  [TradingView.exe] GBPUSD ▼ 1.34777 −0.13% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:45  [TradingView.exe] GBPUSD ▼ 1.34780 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:47  [TradingView.exe] GBPUSD ▼ 1.34782 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:53  [TradingView.exe] GBPUSD ▼ 1.34789 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:54  [TradingView.exe] GBPUSD ▼ 1.34788 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:56  [TradingView.exe] GBPUSD ▼ 1.34789 −0.12% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:37:59  [TradingView.exe] GBPUSD ▼ 1.34793 −0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:38:05  [TradingView.exe] GBPUSD ▼ 1.34799 −0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:38:07  [TradingView.exe] GBPUSD ▼ 1.34793 −0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:38:10  [TradingView.exe] GBPUSD ▼ 1.34798 −0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:38:12  [TradingView.exe] GBPUSD ▼ 1.34800 −0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:38:14  [TradingView.exe] GBPUSD ▼ 1.34801 −0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:38:20  [TradingView.exe] GBPUSD ▼ 1.34802 −0.11% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:38:20  [TradingView.exe] NZDUSD ▼ 1.34802 −0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:38:21  [TradingView.exe] NZDUSD ▼ 0.58249 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:38:21  [TradingView.exe] NZDUSD ▼ 0.58257 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:38:33  [TradingView.exe] NZDUSD ▼ 0.58258 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:38:35  [TradingView.exe] NZDUSD ▼ 0.58256 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:38:38  [TradingView.exe] NZDUSD ▼ 0.58255 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:38:46  [TradingView.exe] NZDUSD ▼ 0.58257 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:38:49  [TradingView.exe] NZDUSD ▼ 0.58249 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:38:49  [TradingView.exe] NZDUSD ▼ 0.58257 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:38:49  [TradingView.exe] NZDUSD ▼ 0.58256 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:38:52  [TradingView.exe] NZDUSD ▼ 0.58249 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:38:52  [TradingView.exe] NZDUSD ▼ 0.58256 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:39:01  [TradingView.exe] NZDUSD ▼ 0.58255 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:39:03  [TradingView.exe] NZDUSD ▼ 0.58256 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:39:07  [TradingView.exe] NZDUSD ▼ 0.58257 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:39:14  [TradingView.exe] NZDUSD ▼ 0.58256 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:39:19  [TradingView.exe] NZDUSD ▼ 0.58255 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:39:21  [TradingView.exe] NZDUSD ▼ 0.58252 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:39:24  [TradingView.exe] NZDUSD ▼ 0.58254 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:39:27  [TradingView.exe] NZDUSD ▼ 0.58256 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:39:30  [TradingView.exe] NZDUSD ▼ 0.58255 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:39:34  [TradingView.exe] NZDUSD ▼ 0.58256 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:39:36  [TradingView.exe] NZDUSD ▼ 0.58258 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:39:39  [TradingView.exe] NZDUSD ▼ 0.58259 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:39:47  [TradingView.exe] NZDUSD ▼ 0.58258 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:39:50  [TradingView.exe] NZDUSD ▼ 0.58256 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:39:52  [TradingView.exe] NZDUSD ▼ 0.58254 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:01  [TradingView.exe] NZDUSD ▼ 0.58247 −0.56% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:10  [TradingView.exe] NZDUSD ▼ 0.58246 −0.56% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:12  [TradingView.exe] NZDUSD ▼ 0.58248 −0.56% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:15  [TradingView.exe] NZDUSD ▼ 0.58249 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:17  [TradingView.exe] NZDUSD ▼ 0.58252 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:20  [TradingView.exe] NZDUSD ▼ 0.58250 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:24  [TradingView.exe] NZDUSD ▼ 0.58251 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:27  [TradingView.exe] NZDUSD ▼ 0.58254 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:30  [TradingView.exe] NZDUSD ▼ 0.58258 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:34  [TradingView.exe] NZDUSD ▼ 0.58259 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:38  [TradingView.exe] NZDUSD ▼ 0.58258 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:40  [TradingView.exe] NZDUSD ▼ 0.58253 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:45  [TradingView.exe] NZDUSD ▼ 0.58252 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:49  [TradingView.exe] NZDUSD ▼ 0.58251 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:49  [TradingView.exe] NZDUSD ▼ 0.58252 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:52  [TradingView.exe] NZDUSD ▼ 0.58253 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:54  [TradingView.exe] NZDUSD ▼ 0.58252 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:56  [TradingView.exe] NZDUSD ▼ 0.58251 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:40:59  [TradingView.exe] NZDUSD ▼ 0.58254 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:41:01  [TradingView.exe] NZDUSD ▼ 0.58253 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:41:07  [TradingView.exe] NZDUSD ▼ 0.58254 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:41:15  [TradingView.exe] NZDUSD ▼ 0.58252 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:41:18  [TradingView.exe] NZDUSD ▼ 0.58253 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:41:20  [TradingView.exe] NZDUSD ▼ 0.58252 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:41:21  [TradingView.exe] NZDUSD ▼ 0.58251 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:41:23  [TradingView.exe] NZDUSD ▼ 0.58252 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:41:26  [TradingView.exe] NZDUSD ▼ 0.58253 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:41:28  [TradingView.exe] NZDUSD ▼ 0.58252 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:41:29  [TradingView.exe] NZDUSD ▼ 0.58253 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:41:33  [TradingView.exe] NZDUSD ▼ 0.58252 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:41:38  [TradingView.exe] NZDUSD ▼ 0.58251 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:41:42  [TradingView.exe] NZDUSD ▼ 0.58252 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:41:46  [TradingView.exe] NZDUSD ▼ 0.58253 −0.55% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:42:01  [TradingView.exe] NZDUSD ▼ 0.58255 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:42:15  [TradingView.exe] NZDUSD ▼ 0.58256 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:42:19  [TradingView.exe] NZDUSD ▼ 0.58258 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:42:22  [TradingView.exe] NZDUSD ▼ 0.58259 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:42:22  [TradingView.exe] NZDUSD ▼ 0.58261 −0.53% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:42:26  [TradingView.exe] NZDUSD ▼ 0.58262 −0.53% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:42:32  [TradingView.exe] NZDUSD ▼ 0.58261 −0.53% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:42:34  [TradingView.exe] NZDUSD ▼ 0.58260 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:42:38  [TradingView.exe] NZDUSD ▼ 0.58259 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:42:40  [TradingView.exe] NZDUSD ▼ 0.58258 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:42:42  [TradingView.exe] NZDUSD ▼ 0.58259 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:42:54  [TradingView.exe] NZDUSD ▼ 0.58260 −0.54% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:42:59  [TradingView.exe] NZDUSD ▼ 0.58274 −0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:43:01  [TradingView.exe] NZDUSD ▼ 0.58273 −0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:43:05  [TradingView.exe] NZDUSD ▼ 0.58274 −0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:43:14  [TradingView.exe] NZDUSD ▼ 0.58273 −0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:43:18  [TradingView.exe] NZDUSD ▼ 0.58272 −0.52% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:43:29  [TradingView.exe] NZDUSD ▼ 0.58273 −0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:43:31  [TradingView.exe] NZDUSD ▼ 0.58274 −0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:43:35  [TradingView.exe] NZDUSD ▼ 0.58278 −0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:43:37  [TradingView.exe] NZDUSD ▼ 0.58277 −0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:43:41  [TradingView.exe] NZDUSD ▼ 0.58278 −0.51% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:43:42  [TradingView.exe] NZDUSD ▼ 0.58279 −0.5% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:43:45  [TradingView.exe] NZDUSD ▼ 0.58280 −0.5% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:43:45  [TradingView.exe] NZDUSD ▼ 0.58281 −0.5% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:43:48  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:52:47  [TradingView.exe] NZDUSD ▼ 0.58298 −0.47% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:52:50  [TradingView.exe] NZDUSD ▼ 0.58299 −0.47% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:52:54  [TradingView.exe] NZDUSD ▼ 0.58298 −0.47% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:52:55  [TradingView.exe] NZDUSD ▼ 0.58299 −0.47% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:01  [TradingView.exe] USDCAD ▼ 0.58299 −0.47% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:53:03  [TradingView.exe] USDCAD ▲ 1.39534 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:53:05  [TradingView.exe] USDCAD ▲ 1.39535 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:07  [TradingView.exe] USDCAD ▲ 1.39534 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:09  [TradingView.exe] USDCAD ▲ 1.39535 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:11  [TradingView.exe] USDCAD ▲ 1.39534 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:12  [TradingView.exe] USDCAD ▲ 1.39535 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:18  [TradingView.exe] USDCAD ▲ 1.39534 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:21  [TradingView.exe] USDCAD ▲ 1.39533 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:53:22  [TradingView.exe] USDCAD ▲ 1.39535 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:24  [TradingView.exe] USDCAD ▲ 1.39533 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:32  [TradingView.exe] USDCAD ▲ 1.39534 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:35  [TradingView.exe] USDCAD ▲ 1.39533 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:41  [TradingView.exe] USDCAD ▲ 1.39534 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:49  [TradingView.exe] USDCAD ▲ 1.39533 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:51  [TradingView.exe] USDCAD ▲ 1.39534 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:55  [TradingView.exe] USDCAD ▲ 1.39535 +0.1% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:53:59  [TradingView.exe] USDCAD ▲ 1.39544 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]z
+
+--- WINDOW  2026/08/13 07:54:02  [TradingView.exe] USDCAD ▲ 1.39545 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:07  [TradingView.exe] USDCAD ▲ 1.39546 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:09  [TradingView.exe] USDCAD ▲ 1.39545 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:54:12  [TradingView.exe] USDCAD ▲ 1.39546 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:54:12  [TradingView.exe] USDCAD ▲ 1.39547 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:18  [TradingView.exe] USDCAD ▲ 1.39545 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:21  [TradingView.exe] USDCAD ▲ 1.39544 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:24  [TradingView.exe] USDCAD ▲ 1.39545 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:25  [TradingView.exe] USDCAD ▲ 1.39544 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:30  [TradingView.exe] USDCAD ▲ 1.39545 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:36  [TradingView.exe] USDCAD ▲ 1.39546 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:41  [TradingView.exe] USDCAD ▲ 1.39545 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:42  [TradingView.exe] JP225YJPY ▲ 1.39545 +0.11% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:54:43  [TradingView.exe] JP225YJPY ▼ 68,290.7 −0.33% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:54:44  [TradingView.exe] JP225YJPY ▼ 68,295.7 −0.32% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:44  [TradingView.exe] GER30 ▼ 68,295.7 −0.32% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:54:45  [TradingView.exe] GER30 ▲ 26,432.13 +0.16% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:54:45  [TradingView.exe] GER30 ▲ 26,434.12 +0.17% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:54:46  [TradingView.exe] GER30 ▲ 26,433.61 +0.17% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:49  [TradingView.exe] GER30 ▲ 26,435.61 +0.17% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:54:51  [TradingView.exe] GER30 ▲ 26,434.13 +0.17% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:52  [TradingView.exe] GER30 ▲ 26,432.13 +0.16% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:54:53  [TradingView.exe] GER30 ▲ 26,434.13 +0.17% / MENDEZ
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:54  [TradingView.exe] GER30 ▲ 26,436.12 +0.18% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:57  [TradingView.exe] GER30 ▲ 26,437.63 +0.18% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:54:59  [TradingView.exe] GER30 ▲ 26,437.62 +0.18% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:54:59  [TradingView.exe] GER30 ▲ 26,438.62 +0.19% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:03  [TradingView.exe] GER30 ▲ 26,434.12 +0.17% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:05  [TradingView.exe] GER30 ▲ 26,434.13 +0.17% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:06  [TradingView.exe] GER30 ▲ 26,436.63 +0.18% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:08  [TradingView.exe] GER30 ▲ 26,435.61 +0.17% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:11  [TradingView.exe] GER30 ▲ 26,437.62 +0.18% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:13  [TradingView.exe] GER30 ▲ 26,435.61 +0.17% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:55:15  [TradingView.exe] GER30 ▲ 26,437.62 +0.18% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:18  [TradingView.exe] GER30 ▲ 26,436.62 +0.18% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:24  [TradingView.exe] GER30 ▲ 26,436.13 +0.18% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:26  [TradingView.exe] GER30 ▲ 26,436.62 +0.18% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:28  [TradingView.exe] GER30 ▲ 26,437.61 +0.18% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:30  [TradingView.exe] GER30 ▲ 26,438.12 +0.18% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:35  [TradingView.exe] GER30 ▲ 26,438.61 +0.19% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:39  [TradingView.exe] GER30 ▲ 26,438.12 +0.18% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:43  [TradingView.exe] GER30 ▲ 26,439.12 +0.19% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:45  [TradingView.exe] GER30 ▲ 26,439.61 +0.19% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:55:45  [TradingView.exe] GER30 ▲ 26,439.11 +0.19% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:48  [TradingView.exe] GER30 ▲ 26,441.63 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:55:50  [TradingView.exe] GER30 ▲ 26,441.12 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:52  [TradingView.exe] GER30 ▲ 26,444.62 +0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:55:55  [TradingView.exe] GER30 ▲ 26,444.11 +0.21% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:57  [TradingView.exe] GER30 ▲ 26,443.11 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:55:59  [TradingView.exe] GER30 ▲ 26,442.61 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:01  [TradingView.exe] GER30 ▲ 26,442.11 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:03  [TradingView.exe] GER30 ▲ 26,441.62 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:56:06  [TradingView.exe] GER30 ▲ 26,441.61 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:06  [TradingView.exe] GER30 ▲ 26,443.12 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:56:10  [TradingView.exe] GER30 ▲ 26,442.61 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:10  [TradingView.exe] GER30 ▲ 26,443.61 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:56:12  [TradingView.exe] GER30 ▲ 26,444.61 +0.21% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:56:16  [TradingView.exe] GER30 ▲ 26,443.61 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:56:21  [TradingView.exe] GER30 ▲ 26,442.61 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:24  [TradingView.exe] GER30 ▲ 26,443.63 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:26  [TradingView.exe] GER30 ▲ 26,442.12 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:27  [TradingView.exe] GER30 ▲ 26,442.61 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:35  [TradingView.exe] GER30 ▲ 26,442.62 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:38  [TradingView.exe] GER30 ▲ 26,441.12 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:41  [TradingView.exe] GER30 ▲ 26,441.61 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:46  [TradingView.exe] GER30 ▲ 26,441.63 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:49  [TradingView.exe] GER30 ▲ 26,441.62 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:51  [TradingView.exe] GER30 ▲ 26,442.63 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:53  [TradingView.exe] GER30 ▲ 26,442.62 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:55  [TradingView.exe] GER30 ▲ 26,443.12 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:58  [TradingView.exe] GER30 ▲ 26,444.11 +0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:56:58  [TradingView.exe] GER30 ▲ 26,443.63 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:01  [TradingView.exe] GER30 ▲ 26,442.63 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:04  [TradingView.exe] GER30 ▲ 26,442.62 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:06  [TradingView.exe] GER30 ▲ 26,442.63 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:07  [TradingView.exe] GER30 ▲ 26,443.12 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:10  [TradingView.exe] GER30 ▲ 26,442.62 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:11  [TradingView.exe] GER30 ▲ 26,442.13 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:13  [TradingView.exe] GER30 ▲ 26,441.12 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:15  [TradingView.exe] GER30 ▲ 26,441.61 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:18  [TradingView.exe] GER30 ▲ 26,441.11 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:31  [TradingView.exe] GER30 ▲ 26,441.63 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:37  [TradingView.exe] GER30 ▲ 26,442.13 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:40  [TradingView.exe] GER30 ▲ 26,444.11 +0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:51  [TradingView.exe] GER30 ▲ 26,442.62 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:53  [TradingView.exe] GER30 ▲ 26,442.11 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:56  [TradingView.exe] GER30 ▲ 26,441.62 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:59  [TradingView.exe] GER30 ▲ 26,441.63 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:57:59  [TradingView.exe] GER30 ▲ 26,441.11 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:03  [TradingView.exe] GER30 ▲ 26,441.62 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:08  [TradingView.exe] GER30 ▲ 26,441.12 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:11  [TradingView.exe] GER30 ▲ 26,441.63 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:14  [TradingView.exe] GER30 ▲ 26,443.62 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:17  [TradingView.exe] GER30 ▲ 26,443.13 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:19  [TradingView.exe] GER30 ▲ 26,443.63 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:21  [TradingView.exe] GER30 ▲ 26,443.62 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:25  [TradingView.exe] GER30 ▲ 26,443.13 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:28  [TradingView.exe] GER30 ▲ 26,442.61 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:36  [TradingView.exe] GER30 ▲ 26,441.61 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:39  [TradingView.exe] GER30 ▲ 26,442.13 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:42  [TradingView.exe] GER30 ▲ 26,442.61 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:44  [TradingView.exe] GER30 ▲ 26,444.13 +0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:48  [TradingView.exe] GER30 ▲ 26,445.62 +0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:51  [TradingView.exe] GER30 ▲ 26,444.13 +0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:53  [TradingView.exe] GER30 ▲ 26,443.63 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:53  [TradingView.exe] GER30 ▲ 26,444.13 +0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:58:57  [TradingView.exe] GER30 ▲ 26,443.63 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:00  [TradingView.exe] GER30 ▲ 26,443.61 +0.2% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:02  [TradingView.exe] GER30 ▲ 26,444.62 +0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:04  [TradingView.exe] GER30 ▲ 26,446.61 +0.22% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:07  [TradingView.exe] GER30 ▲ 26,446.63 +0.22% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:09  [TradingView.exe] GER30 ▲ 26,446.11 +0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:10  [TradingView.exe] GER30 ▲ 26,445.61 +0.21% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:13  [TradingView.exe] GER30 ▲ 26,447.11 +0.22% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:15  [TradingView.exe] GER30 ▲ 26,448.62 +0.22% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:17  [TradingView.exe] GER30 ▲ 26,449.62 +0.23% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:21  [TradingView.exe] GER30 ▲ 26,451.63 +0.23% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:24  [TradingView.exe] GER30 ▲ 26,450.13 +0.23% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:25  [TradingView.exe] GER30 ▲ 26,450.63 +0.23% / MENDEZ
+----------------------------------------------------------------------------
+  [RMB]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 07:59:32  [TradingView.exe] GER30 ▲ 26,450.62 +0.23% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:59:35  [TradingView.exe] GER30 ▲ 26,448.63 +0.22% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:35  [TradingView.exe] GER30 ▲ 26,449.11 +0.23% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 07:59:38  [TradingView.exe] GER30 ▲ 26,448.62 +0.22% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:42  [TradingView.exe] GER30 ▲ 26,452.11 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:44  [TradingView.exe] GER30 ▲ 26,454.62 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:47  [TradingView.exe] GER30 ▲ 26,458.12 +0.26% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:49  [TradingView.exe] GER30 ▲ 26,456.61 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:51  [TradingView.exe] GER30 ▲ 26,456.63 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:51  [TradingView.exe] GER30 ▲ 26,455.63 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:54  [TradingView.exe] GER30 ▲ 26,456.63 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:56  [TradingView.exe] GER30 ▲ 26,454.61 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 07:59:58  [TradingView.exe] GER30 ▲ 26,485.97 +0.37% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 08:00:01  [TradingView.exe] GER30 ▲ 26,484.46 +0.36% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 08:00:03  [TradingView.exe] GER30 ▲ 26,494.96 +0.4% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 08:00:05  [TradingView.exe] GER30 ▲ 26,494.46 +0.4% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 08:00:07  [TradingView.exe] GER30 ▲ 26,493.47 +0.39% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 08:00:09  [TradingView.exe] GER30 ▲ 26,491.97 +0.39% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 08:00:12  [TradingView.exe] GER30 ▲ 26,498.96 +0.41% / MENDEZ
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/08/13 08:00:14  [TradingView.exe] GER30 ▲ 26,499.96 +0.42% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 08:00:14  [TradingView.exe] GER30 ▲ 26,500.46 +0.42% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 08:00:17  [TradingView.exe] GER30 ▲ 26,502.46 +0.43% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 08:00:19  [TradingView.exe] GER30 ▲ 26,501.96 +0.43% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 08:00:21  [TradingView.exe] GER30 ▲ 26,504.96 +0.44% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/13 08:00:23  [TradingView.exe] GER30 ▲ 26,502.47 +0.43% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/13 08:00:24  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 08:00:25  [TradingView.exe] GER30 ▲ 26,506.48 +0.44% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/13 08:00:27  [TradingView.exe] GER30 ▲ 26,500.97 +0.42% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
