@@ -1,0 +1,1243 @@
+﻿
+================================================================================
+ SESSION START  2026/08/15 21:16:15
+================================================================================
+
+
+--- WINDOW  2026/08/15 21:16:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/15 21:16:31  [ms-teams.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/15 21:16:32  [ms-teams.exe] about:blank?entityType=identity&windowId=82eb50fc-df1b-4760-90be-2447d4a0bdf6&customframetheme=main&window=main
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/15 21:16:32  [ms-teams.exe] Microsoft Teams
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/15 21:16:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/15 21:16:33  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/15 21:16:33  [ShellExperienceHost.exe] Network Connections
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/15 21:17:43  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/15 21:17:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/15 21:17:44  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/15 21:17:44  [ShellExperienceHost.exe] Network Connections
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/15 21:17:55  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/15 21:17:55  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+  re[ENTER]
+
+--- WINDOW  2026/08/15 21:17:56  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/15 21:17:56  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026/08/15 21:20:05  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026/08/15 21:20:31  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026/08/15 21:22:57  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/15 21:25:19  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 00:26:54  [LockApp.exe] Windows Default Lock Screen
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/08/16 03:43:26  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:43:28  [explorer.exe] Input Occlusion Window
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/08/16 03:43:28  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 03:44:25  [ms-teams.exe] Microsoft Teams
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:50:01  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:50:25  [ms-teams.exe] Microsoft Teams
+----------------------------------------------------------------------------
+  [Esc]
+
+--- WINDOW  2026/08/16 03:51:20  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:51:20  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+  re[ENTER]
+
+--- WINDOW  2026/08/16 03:51:21  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:51:21  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026/08/16 03:53:04  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 03:53:08  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026/08/16 03:53:10  [explorer.exe] Delete Multiple Items
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:10  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:11  [explorer.exe] Progress
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:11  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:12  [explorer.exe] 74% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:12  [explorer.exe] 79% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:12  [explorer.exe] 80% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:12  [explorer.exe] 82% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:13  [explorer.exe] 88% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:13  [explorer.exe] 100% complete
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:13  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026/08/16 03:53:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 03:53:49  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:49  [ShellExperienceHost.exe] Network Connections
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:49  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:49  [ShellExperienceHost.exe] Date and Time Information
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:50  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:50  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:50  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:53:50  [ShellExperienceHost.exe] Network Connections
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 03:54:01  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+  [Esc]
+
+--- WINDOW  2026/08/16 03:54:01  [ms-teams.exe] Microsoft Teams
+----------------------------------------------------------------------------
+  [Esc]
+
+--- WINDOW  2026/08/16 03:54:02  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:54:02  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 03:54:03  [chrome.exe] SVG Export is disabled
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:54:03  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 03:54:15  [chrome.exe] Restore pages?
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:54:15  [chrome.exe] (1) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:54:16  [chrome.exe] WhatsApp Web - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 03:54:17  [chrome.exe] SVG Export is disabled
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:54:17  [chrome.exe] WhatsApp Web - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:54:17  [chrome.exe] WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 03:54:18  [ms-teams.exe] Microsoft Teams
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:54:18  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 03:54:19  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:54:19  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+  re[ENTER]
+
+--- WINDOW  2026/08/16 03:54:20  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:54:20  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+  [ENTER]
+   [ENTER]
+  [ENTER]
+  [LMB]
+   [Ctrl]z[ENTER]
+
+--- WINDOW  2026/08/16 03:54:28  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:54:28  [chrome.exe] WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 03:54:29  [chrome.exe] Managing your orders: A freelancer's guide to the Fiverr order process - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:54:32  [chrome.exe] youtube.com/results?search_query=+Managing+your+orders%3A+A+freelancer%27s+guide+to+the+Fiverr+order+process+ - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:54:32  [chrome.exe] Managing your orders: A freelancer's guide to the Fiverr order process - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 03:54:40  [chrome.exe] (5) Instagram - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 03:54:43  [chrome.exe] YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [MMB]
+  [MMB]
+
+--- WINDOW  2026/08/16 03:54:49  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026/08/16 03:54:56  [chrome.exe] YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 03:55:32  [chrome.exe] EMIWAY ON LEGACY😱KING HINT❗HUSTLE VS LEGACY, KR$NA 50M+, AGSY & GRAVITY REACTS, KARMA - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:55:34  [mstsc.exe] Remote Desktop Connection
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026/08/16 03:56:08  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 03:56:10  [chrome.exe] EMIWAY ON LEGACY😱KING HINT❗HUSTLE VS LEGACY, KR$NA 50M+, AGSY & GRAVITY REACTS, KARMA - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:56:12  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+  [MMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl]
+  [Clipboard]
+  main apko offer bhejudi to apko fiverr requirment form milega apko wo fill karna hoga jis main login credentials dengy domain ke aur kuch project rewquoentn deni hogi wese almost apne kafi details de di thi to ager ap wo fill bhi nahi karte ho mere pass chat hai apki main wahan sai bhi aik jagah kardungi usko 
+
+--- WINDOW  2026/08/16 03:57:55  [chrome.exe] EMIWAY ON LEGACY😱KING HINT❗HUSTLE VS LEGACY, KR$NA 50M+, AGSY & GRAVITY REACTS, KARMA - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [MMB]
+
+--- WINDOW  2026/08/16 03:57:57  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 03:57:58  [chrome.exe] Project Follow-Up and Service Offer - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  "Once I send over the offer, you'll receive a Fiverr requirements form to fill out. It'll ask for your domain login credentials and a few project details. That said, you've already shared most of the info here, so if you'd rather skip it, I can easily gather everything directly from our chat history!"
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 03:58:10  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:58:11  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl]
+  [Clipboard]
+  hello sorry weekend ki wajah sai main thoria late reply kar rahi hoon mene apko offer bhjeu hui thi ap usko accept karlein main mentoin kardeti hoon 
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 03:59:50  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/08/16 03:59:51  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:59:52  [chrome.exe] Project Follow-Up and Service Offer - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  "Hi! Sorry for the delayed reply—I was away for the weekend. I sent the offer over to you, so please go ahead and accept it when you get a chance, and I'll keep an eye out for it!"
+  c
+
+--- WINDOW  2026/08/16 03:59:57  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:59:58  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:59:58  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:59:58  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 03:59:58  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 04:00:53  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:00:54  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:00:54  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  I saw on your page that a standard site will be $232.75 and a premium will be $375.25, will this project likely fall somewhere in between?
+
+--- WINDOW  2026/08/16 04:02:24  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:02:24  [chrome.exe] Client Questions for Website Design - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:02:26  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 04:02:34  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:02:34  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:02:35  [chrome.exe] (2) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:02:36  [chrome.exe] TJ | WIX | michellemahowal on Hashsoft Websites | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:02:37  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:02:40  [chrome.exe] Project Follow-Up and Service Offer - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+
+--- WINDOW  2026/08/16 04:02:41  (no active window)
+----------------------------------------------------------------------------
+  [Ctrl]
+
+--- WINDOW  2026/08/16 04:02:41  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/08/16 04:02:41  (no active window)
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/08/16 04:02:41  [chrome.exe] Project Follow-Up and Service Offer - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/08/16 04:02:41  (no active window)
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl]
+
+--- WINDOW  2026/08/16 04:02:41  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+
+--- WINDOW  2026/08/16 04:02:42  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 04:02:44  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:02:46  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:02:46  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:02:51  [chrome.exe] Data Issue Concern - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  *isko roman urdu main explain karo *
+  [LMB]
+   [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/16 04:02:58  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:02:59  [chrome.exe] (5) Instagram - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:03:00  [chrome.exe] Data Issue Concern - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:03:01  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 04:03:02  [chrome.exe] Data Issue Concern - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 04:03:20  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl]
+  [Clipboard]
+  pehly ap mujahi sari details share kardein takai main apko uske acording pricing bata sakun aur apne jo mere packages dikhyen hain ager apka proejct us main hoskata to main apko wohi recommend karungi 
+
+--- WINDOW  2026/08/16 04:04:27  [chrome.exe] Data Issue Concern - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/16 04:04:30  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:04:37  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:04:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:04:38  [chrome.exe] Project Follow-Up and Service Offer - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:04:40  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:04:40  [chrome.exe] Data Issue Concern - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Sure! First, please share all the project details and requirements with me so I can review everything and provide you with the most accurate pricing.
+  
+  Also, if your project fits within one of the packages you saw on my page, I’ll definitely recommend that package rather than overcharging you for something you don’t need.
+  c
+
+--- WINDOW  2026/08/16 04:04:48  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:04:49  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:04:49  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 04:05:18  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:05:31  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  ap mujaih share kardein credentails main mondauy ko apko update dungi ke
+  [LMB]
+
+--- WINDOW  2026/08/16 04:06:27  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:06:27  [chrome.exe] Project Follow-Up and Service Offer - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/16 04:06:29  [chrome.exe] (5) Instagram - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:06:31  [chrome.exe] Dhruv Rathee OPEN WARNING to YouTuber! ⚠️ Fukra Vs Munawar 😡 Purav Jha, Sohail Khan, Subhashree | - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 04:06:32  [chrome.exe] Project Follow-Up and Service Offer - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  "Just send over the credentials and I'll follow up with an update on Monday!"
+  c
+
+--- WINDOW  2026/08/16 04:06:38  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:06:38  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+
+--- WINDOW  2026/08/16 04:06:48  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:06:48  [chrome.exe] (3) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:06:49  [chrome.exe] (2) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:06:52  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  oh to ap mujahi phely phir mujhai project ki deitals share kareni main abhi review kake apko foran jawab dungi 
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 04:07:51  [chrome.exe] (2) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:07:52  [chrome.exe] Project Follow-Up and Service Offer - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  v[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  "Oh, got it! Go ahead and send over the project details first. I'll review everything right away and get back to you immediately."
+  c
+
+--- WINDOW  2026/08/16 04:07:57  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:07:58  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  can I login
+
+--- WINDOW  2026/08/16 04:11:49  [chrome.exe] (2) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:11:49  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  tra[ENTER]
+
+--- WINDOW  2026/08/16 04:11:51  [chrome.exe] translate.google.com/?sl=auto&tl=en&text=oui exactement&op=translate - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:11:51  [chrome.exe] Google Translate - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]av
+  [LMB]
+  [LMB]
+  [Ctrl]w
+
+--- WINDOW  2026/08/16 04:11:58  [chrome.exe] (2) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:11:59  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  main apko moday ko us par update karti hoon theek hai 
+
+--- WINDOW  2026/08/16 04:12:36  [chrome.exe] (2) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:12:36  [chrome.exe] MM Co Decor - Page 8 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:12:36  [chrome.exe] Data Issue Concern - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:12:37  [chrome.exe] MM Co Decor - Page 8 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:12:37  [chrome.exe] TJ | WIX | michellemahowal on Hashsoft Websites | Trello - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:12:40  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:12:40  [chrome.exe] TJ | WIX | michellemahowal on Hashsoft Websites | Trello - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:12:41  [chrome.exe] Project Follow-Up and Service Offer - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/16 04:12:45  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:12:45  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:12:48  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:12:48  [chrome.exe] Project Follow-Up and Service Offer - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  c
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  "I'll give you an update on that on Monday, sound good?"
+  c
+
+--- WINDOW  2026/08/16 04:12:52  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:12:52  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  jaqcampbell
+  [LMB]
+
+--- WINDOW  2026/08/16 04:13:08  [chrome.exe] Project Follow-Up and Service Offer - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:13:08  [chrome.exe] Hashsoft Websites | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:13:09  [chrome.exe] TJ | Wordpress | marriagestudio on Hashsoft Websites | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [MMB]
+
+--- WINDOW  2026/08/16 04:13:10  [chrome.exe] TJ | WIX | michellemahowal on Hashsoft Websites | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [MMB]
+
+--- WINDOW  2026/08/16 04:13:11  [chrome.exe] MM Co Decor - Page 8 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [MMB]
+
+--- WINDOW  2026/08/16 04:13:12  [chrome.exe] Data Issue Concern - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:13:13  [chrome.exe] Hashsoft Websites | Trello - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/08/16 04:13:16  [chrome.exe] TJ | Webflow | jaqcampbell on Hashsoft Websites | Trello - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:13:18  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Custom homepage inspired by the bold, modern feel of Team Rubicon while using your own branding and identity.
+  Responsive mega menu.
+  All requested pages, including Volunteer, Mentor, Corporate Partnerships, Contact, Newsletter, and a hidden Veteran Application page ready for future activation.
+  GiveWP configured with Stripe and PayPal for one-time and recurring donations.
+  WooCommerce-ready structure for your future merchandise store.
+  Content refinement and organization for better readability and donor engagement.
+  Mobile responsiveness, speed optimization, image optimization, security, backups, Google Analytics, Google Search Console, and 301 redirects to preserve existing SEO where applicable.
+  Standard Privacy Policy, Terms & Conditions, Cookie Policy, and Donation/Refund Policy pages (any organization-specific legal wording should be reviewed by your legal advisor).
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  What I would do is make that ripple subtly alive: when the page first loads, the droplet falls, touches the surface, and the rings gently expand. Perhaps a very soft water-drop sound is available, but the site initially loads silent.
+  
+  Then a tiny, tasteful sound control could sit unobtrusively in a corner:
+  
+  ◯ Sound
+  
+  If the visitor activates it, they hear extremely subtle water ambience—not a waterfall or spa soundtrack. More like an occasional drop and gentle movement of water.
+  
+  Then, once they enter The Word or media areas, that’s where worship music/video/audio belongs.
+  
+  For this opening screen, I think silence is actually part of the luxury.
+  
+  Light moves slightly.
+  One drop falls.
+  The water responds.
+  REFRESHING remains still.
+
+--- WINDOW  2026/08/16 04:16:05  [chrome.exe] TJ | Webflow | jaqcampbell on Hashsoft Websites | Trello - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:16:05  [chrome.exe] Data Issue Concern - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:16:07  [chrome.exe] Project Follow-Up and Service Offer - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:16:08  [chrome.exe] Data Issue Concern - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  v[ENTER]
+  [ENTER]
+  [ENTER]
+  78[Bk][Bk]8c[Bk]ye cleint ke [Bk][Ctrl][Bk][Bk][Bk][Bk]i[Bk]e[Bk][Bk]ient ke oro[Ctrl][Bk]project ki t[Bk]detia[Bk][Bk]ail hain muajih ye clearly explaion [Bk][Bk][Bk][Bk]i[Bk]ain karo8[ENTER]
+
+--- WINDOW  2026/08/16 04:16:36  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][Ctrl]
+  [Clipboard]
+  ye aik complete custom webiste banegi muajhiye batiaye apko ye chahiye kab tak aur apne kya socha hai ke apko kis stack par chahiye kiyn ke ye wordpress par mumkin nahi hai 
+
+--- WINDOW  2026/08/16 04:18:18  [chrome.exe] Data Issue Concern - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 04:18:19  [chrome.exe] Project Follow-Up and Service Offer - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/16 04:18:24  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:18:26  [chrome.exe] Project Follow-Up and Service Offer - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  c
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  "This will be a fully custom website build. Could you let me know your ideal timeline for completion? Also, what tech stack do you have in mind? A custom build like this won't be possible on WordPress."
+  c
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  "This will need to be a fully custom-built site. What's your target deadline, and do you have a specific tech stack in mind? Keep in mind that WordPress won't work for a project like this."
+  c
+
+--- WINDOW  2026/08/16 04:18:32  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 04:20:01  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:20:28  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 04:21:04  [mstsc.exe] BBar
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 04:21:04  [mstsc.exe] 3.141.152.223 - Remote Desktop Connection
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
