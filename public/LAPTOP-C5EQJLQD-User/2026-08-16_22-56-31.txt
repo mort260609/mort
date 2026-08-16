@@ -1,0 +1,124 @@
+﻿  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][ENTER]
+  [LMB]
+  [MMB]
+  [MMB]
+  [MMB]
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 22:03:51  [idialog.exe] idialog
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 22:03:51  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 22:03:52  [idialog.exe] idialog
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 22:03:52  [idialog.exe] Houdini
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 22:03:53  [idialog.exe] Interrupt
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 22:16:05  (no active window)
+----------------------------------------------------------------------------
+  [LMB]
+  [Esc][Esc][Esc][Esc][Esc]
+
+--- WINDOW  2026/08/16 22:16:12  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [RMB]
+  [Esc][Esc][Esc][Esc][Esc][Esc]
+  [MMB]
+  [MMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk]1[ENTER]
+  [Esc]
+  [LMB]
+  [Esc][Esc][Esc][Esc]
+  [LMB]
+  [RMB]
+  [RMB]
+
+--- WINDOW  2026/08/16 22:24:25  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 22:24:54  [.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 22:24:54  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [Bk]07[Bk]5[ENTER]
+
+--- WINDOW  2026/08/16 22:39:20  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 22:39:20  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 22:39:23  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 22:39:23  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [Ctrl][Esc]
+
+--- WINDOW  2026/08/16 22:39:28  [Taskmgr.exe] Task Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 22:39:31  (no active window)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 22:39:32  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 22:39:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 22:39:56  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 22:39:56  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 22:39:56  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 22:39:57  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
