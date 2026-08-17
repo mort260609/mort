@@ -1,0 +1,838 @@
+﻿  [LMB]
+
+--- WINDOW  2026-08-17 13:41:24  [chrome.exe] Systematic proposal from chat context - Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:41:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:41:37  [msedge.exe] Automotive ERP Customization and 2 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:42:49  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:42:49  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 13:42:54  [chrome.exe] Systematic proposal from chat context - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 13:44:00  [AcroRd32.exe] Site audit — momcozy.pdf - Adobe Acrobat Reader (32-bit)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:44:00  [AcroRd32.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 13:44:00  [chrome.exe] (73) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:44:00  [AcroRd32.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:44:01  [AcroRd32.exe] Site audit — momcozy.pdf - Adobe Acrobat Reader (32-bit)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:44:01  [AcroRd32.exe] Proposal-lobofootwear-DH-LOBOFOOTWEAR-20260816-R1 (2).pdf - Adobe Acrobat Reader (32-bit)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 13:44:02  [AcroRd32.exe] Adobe Acrobat
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 13:44:04  [AcroRd32.exe] Proposal-lobofootwear-DH-LOBOFOOTWEAR-20260816-R1 (2).pdf - Adobe Acrobat Reader (32-bit)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:44:04  [AcroRd32.exe] Adobe Acrobat Reader (32-bit)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:44:04  [chrome.exe] (73) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-17 13:44:09  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-17 13:44:20  [chrome.exe] (73) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  plra[Bk][Bk]ease look thjr[Bk][Bk][Bk]h[Bk]r[Bk]hrough this proposal sor[Bk][Bk]ir[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-17 13:44:55  [chrome.exe] (72) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 13:45:02  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  
+  Me
+  
+  Aug 17, 12:39 PM
+  I understand. We can definitely have a meeting and try to align the scope around the $1,300 budget based on the requirements document. I’ve gone through the brief and have a good understanding of the overall requirements, but I’d like to discuss a few details with you directly so we can prioritize what’s most important and structure the project accordingly.
+  Let’s connect, align on the scope, and see how we can make the best possible version work within your budget.
+  
+  M
+  Profile Image
+  moayadalhajali
+  
+  Aug 17, 1:29 PM
+  could you point out what areas concern you
+  c
+
+--- WINDOW  2026-08-17 13:45:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:45:18  [chrome.exe] Systematic proposal from chat context - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 13:45:21  [chrome.exe] Bilingual careers portal with admin management system - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [ENTER]
+  give me the list of work on the backend thew work needs and bavked fixes can 
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-17 13:46:41  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-17 13:46:44  [msedge.exe] Automotive ERP Customization and 2 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:46:46  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:46:47  [chrome.exe] Bilingual careers portal with admin management system - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 13:46:49  [chrome.exe] Systematic proposal from chat context - Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:51:58  [chrome.exe] Bilingual careers portal with admin management system - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Yes — these are the areas I'd want to talk through.
+  
+  **1. Security — the main one**
+  
+  Right now there's nothing to review. It's a static prototype, so there is no auth layer, no server-side validation, no session handling and no access control. All of it gets built from zero rather than audited. And the moment the system holds CVs, employee records, certificate requests and leave data, you're handling personal data under Saudi PDPL. The pieces carrying the most risk:
+  
+  - Role-based access control with an editable permission matrix (you confirmed editable, which is meaningfully harder than fixed roles)
+  - Preventing one employee from reading another's record by changing an ID or a URL
+  - Secure file uploads — CVs and employee documents need MIME and magic-byte validation, size limits, storage outside the web root, and protection against executables disguised as PDFs
+  - Internal HR notes that must never leak into the applicant-facing API
+  - Secure password reset, sessions, cookies and rate limiting
+  
+  **2. The frontend is a design prototype, not a working frontend**
+  
+  The current build is one page with anchor links (#about, #projects, #careers). Your brief needs dedicated project pages, dedicated job pages, breadcrumbs, a sitemap and valid JobPosting schema — none of which can exist on a single URL. Converting anchors into real routes rewrites the navigation, the scroll animations, the language switcher and the project map filters. That's a restructure rather than a fix, and it's why the code structure changes the moment a backend goes in.
+  
+  **3. Things that read as built but aren't**
+  
+  - Careers: "Apply now" is a mailto link. No accounts, no CV upload, no tracking UI exists.
+  - Employee Portal: the link is href="#", in both the desktop and mobile nav.
+  - Contact form: the live site itself says it's a prototype and nothing is sent.
+  - Projects: the map is labelled "Sample project set (swap in RCC's real project list)" — 10 hardcoded pins.
+  - News and Team: section shells with no records.
+  
+  **4. Existing bugs, and why they cascade**
+  
+  - Three stat counters render 0 (team, disciplines, sectors)
+  - A stuck 00 counter near the top of the page
+  - Est. 2021 in the hero contradicts Founded 1994 in the About section
+  - Empty alt attributes on the logo and gallery images
+  - Hero video is self-hosted with no poster or CDN; gallery images are injected by JS, so they aren't in the markup
+  
+  These share dependencies. Getting the gallery images into the markup affects load performance and the lightbox; making the counters fire correctly touches the same scroll observer the section reveals rely on. Each pass needs regression testing, not a one-line patch.
+  
+  **5. Backend build list**
+  
+  Foundation: unified account system (applicant / employee / manager / HR / content / website / super admin), authentication, editable permissions matrix, audit logging.
+  
+  CMS: homepage, about, services, projects, news, team, contact details, media library, editable SEO fields.
+  
+  Projects: around 20 fields per record, categories, gallery, video, timelapse and drone footage, filtering by sector, region and city.
+  
+  Careers: job CRUD with publish / unpublish / close / reopen, deadlines, one page per job, applicant registration, reusable profiles, CV and document upload, seven-state application tracking, HR review with internal notes, search and filter, document download.
+  
+  Employee portal: around 200 employees, profiles, vacation balances and accrual, leave calendar, and a generic request engine rather than hardcoded request types, with manager/HR approval and notifications.
+  
+  Cross-cutting: dynamic Schema.org generated from the database, SEO, hreflang for Arabic and English, performance and image pipeline, backups for both database and uploads, deployment, documentation and handover into RCC's own accounts.
+  
+  **6. Bilingual**
+  
+  The Arabic toggle appears to be a client-side switch, which means Arabic has no URL of its own and search engines can't see it. Doing it properly means separate routes with hreflang, an RTL audit, and Arabic fields on every project, news item, service and job — which roughly doubles the admin forms and the content entry work.
+  
+  ---
+  
+  None of this is a blocker. But the pieces interact, and the order we build them in changes both the timeline and the cost. That's why I'd rather give it 30 minutes on a call — I can walk you through which of these are essential for launch and which can sit in phase two, so we shape a version that fits your budget without leaving the platform insecure.
+  
+  Let me know a time that works and I'll send a Google Meet link.
+  [LMB]
+
+--- WINDOW  2026-08-17 13:52:05  [chrome.exe] (73) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 13:52:06  [msedge.exe] Automotive ERP Customization and 2 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:52:07  [msedge.exe] Project Scope and Budget and 2 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk]tell these in few words to the client in points'[ENTER]
+  [LMB]
+  [Clipboard]
+  Absolutely. I’ve gone through the requirements in detail, and these are the key areas I’d like us to discuss:
+  
+  * **Security & User Roles:** Authentication, permissions, employee/applicant data protection, secure file uploads, sessions, and access control.
+  * **Frontend Structure:** The current site is a static one-page prototype, so we’ll need to convert it into a proper multi-page, database-driven platform.
+  * **Careers & Employee Portal:** Job management, applications, CV uploads, employee profiles, leave management, and approval workflows.
+  * **CMS & Admin Panel:** Managing projects, news, team, services, media, SEO, and other website content.
+  * **Existing Issues:** Counters, navigation, forms, content inconsistencies, image handling, and performance improvements.
+  * **Bilingual Support:** Proper Arabic/English routes, RTL support, SEO, and bilingual CMS content.
+  * **Backend & Scalability:** Database structure, notifications, audit logs, backups, deployment, and documentation.
+  
+  These are all manageable, but we should prioritize what is essential for the initial launch and what can be moved to **Phase 2** so we can work realistically within your **$1,500 budget**.
+  
+  That’s why I’d prefer we discuss these points on a short meeting and finalize the scope together before getting started.
+  
+
+--- WINDOW  2026-08-17 13:53:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:53:26  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [Ctrl]v[Ctrl]a[Bk]
+  [LMB]
+
+--- WINDOW  2026-08-17 13:53:36  [msedge.exe] Project Scope and Budget and 2 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  I’ve gone through the requirements in detail, and these are the key areas I’d like us to discuss:
+  
+  Security & User Roles: Authentication, permissions, employee/applicant data protection, secure file uploads, sessions, and access control.
+  Frontend Structure: The current site is a static one-page prototype, so we’ll need to convert it into a proper multi-page, database-driven platform.
+  Careers & Employee Portal: Job management, applications, CV uploads, employee profiles, leave management, and approval workflows.
+  CMS & Admin Panel: Managing projects, news, team, services, media, SEO, and other website content.
+  Existing Issues: Counters, navigation, forms, content inconsistencies, image handling, and performance improvements.
+  Bilingual Support: Proper Arabic/English routes, RTL support, SEO, and bilingual CMS content.
+  Backend & Scalability: Database structure, notifications, audit logs, backups, deployment, and documentation.
+  
+  These are all manageable, but we should prioritize what is essential for the initial launch and what can be moved to Phase 2 so we can work realistically within your $1,500 budget.
+  
+  That’s why I’d prefer we discuss these points on a short meeting and finalize the scope together before getting started.
+  ccccccc
+  [LMB]
+
+--- WINDOW  2026-08-17 13:53:49  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:53:49  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk][Bk][ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  golf
+  [LMB]
+  [LMB]
+  yes, there are 4 themes we have in this store the 1 which is in f[Bk]live right now and the o[Bk]another one which w are working on.[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-17 13:56:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:56:16  [msedge.exe] Project Scope and Budget and 2 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 13:56:17  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:56:17  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:56:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 13:56:24  [chrome.exe] Bilingual careers portal with admin management system - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-17 13:56:26  [chrome.exe] Systematic proposal from chat context - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-17 14:09:35  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:09:35  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:09:35  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:09:36  [chrome.exe] Systematic proposal from chat context - Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:09:38  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:09:38  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:09:38  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:09:38  [chrome.exe] Systematic proposal from chat context - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  i think i [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]please remove p
+  [RMB]
+  hase
+  [LMB]
+  se1 word this is not done in phases... this is the entire project not just phases...[ENTER]
+
+--- WINDOW  2026-08-17 14:15:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:15:59  [msedge.exe] Project Scope and Budget and 2 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 14:16:02  [msedge.exe] Automotive ERP Customization and 2 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  give me in simple terms this client requirements with an example app or websitr[Bk]e[ENTER]
+  in 3 lines [ENTER]
+  any example website and apps/[ENTER]
+  okay so they want erp system with inventory msnagement[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-17 14:18:22  [chrome.exe] Systematic proposal from chat context - Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:18:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:18:32  [chrome.exe] (73) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 14:18:38  [chrome.exe] Systematic proposal from chat context - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 14:18:55  [chrome.exe] (72) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 14:18:56  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-17 14:20:05  [PSExpressCore.exe] ScreenshotWindow
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 14:20:09  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 14:20:10  [msedge.exe] Automotive ERP Customization and 2 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 14:20:12  [msedge.exe] New tab and 3 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  ch[ENTER]
+
+--- WINDOW  2026-08-17 14:20:15  [msedge.exe] ChatGPT: Chat, Work, Create & Code with AI and 3 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl]v
+
+--- WINDOW  2026-08-17 14:20:18  [msedge.exe] ChatGPT and 3 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]vhoe[Bk]w do i extend tha t[Bk][Bk]t table without effecting the data in the de[Bk][Bk]below/[ENTER]
+
+--- WINDOW  2026-08-17 14:20:46  [msedge.exe] Extending table without data impact and 3 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:20:52  [msedge.exe] Extend Table Formatting and 3 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  noo i need to extend the table...[ENTER]
+
+--- WINDOW  2026-08-17 14:21:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:21:59  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026-08-17 14:22:34  [msedge.exe] Extend Table Formatting and 3 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  there is no table menu ...[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-17 14:22:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 14:22:49  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-17 14:23:25  [msedge.exe] Extend Table Formatting and 3 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:24:07  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:24:07  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-17 14:24:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:24:48  [msedge.exe] Extend Table Formatting and 3 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 14:25:14  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:25:14  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  17/08/2026																																		
+  c
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [Ctrl]z
+  [LMB]
+
+--- WINDOW  2026-08-17 14:25:57  [msedge.exe] Extend Table Formatting and 3 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  huhhh 
+
+--- WINDOW  2026-08-17 14:26:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:26:40  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]z[Ctrl]z
+  [LMB]
+
+--- WINDOW  2026-08-17 14:27:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:27:47  [msedge.exe] Extend Table Formatting and 3 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+
+--- WINDOW  2026-08-17 14:27:58  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:27:58  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:27:58  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:28:08  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:28:08  [ShellHost.exe] Quick Settings
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:28:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:28:10  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:28:10  [ShellExperienceHost.exe] Windows Shell Experience Host
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 14:28:27  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]ccc
+  [Clipboard]
+  10/08/2026	10 PM to 4 AM	dragostars	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	shopify			Need analysis 	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	France		
+  10/08/2026	10 PM to 4 AM	ziovespa	Promoted	Quoted	New Enquiry	Custom 		9800, 11000, 12500	waiting for response 	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Isha	Isha	Albania		
+  10/08/2026	10 PM to 4 AM	suffolklabs	Not promoted	Quoted	New Enquiry	Wordpress		1600 , 2200 , 3000	If he replies lmk ~ Vaishanvi 	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Isha	Vaishnavi 	US		
+  10/08/2026	4 AM to 10 AM 	jayj31	Not promoted	Quoted	New Enquiry	Shopify 		1800 , 2400 , 3200 	Indian client with  1 product store so quoted 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	US		
+  10/08/2026	4 AM to 10 AM 	shawaizbashir	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify 			Needs to reply sent 2 questions 	FALSE	TRUE	TRUE	TRUE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	Italy 		
+  10/08/2026	4 AM to 10 AM 	zlambra	Not promoted	Quoted	New Enquiry	Shopify		1200 , 1800 , 2400	Quoted by Vaishnavi wanted in 10 days 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	Australia 		
+  10/08/2026	4 AM to 10 AM 	"babatunes805
+  "	Not promoted	Needs Analysis (Not yet quoted)	Brief	Custom			Middle man 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Custom (Shreyansh)	Vaishnavi	Vaishnavi 	US		
+  10/08/2026	4 AM to 10 AM 	confidential111	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Custom			He wanted us to do implementation plan for him 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Custom (Shreyansh)	Vaishnavi	Vaishnavi 	US		
+  10/08/2026	4 AM to 10 AM 	roopgill279	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress			No response 	FALSE	TRUE	TRUE	TRUE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Vaishnavi	Isha	Canada		
+  10/08/2026	4 AM to 10 AM 	frankcn_2026	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Said will br looking into the protfolio and will get back	FALSE	TRUE	TRUE	TRUE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	US		
+  10/08/2026	4 AM to 10 AM 	jadeyl	Not promoted	Quoted	New Enquiry	Wordpress		3600,4800 ,6200	Requiremetns are beign analysed and features are pitched if he replies lmk	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Vaishnavi	Vaishnavi 	New Zealand		
+  10/08/2026	10 AM to 4 PM	tyreeanthony	Not promoted	No contact	New Enquiry	app development			spam client	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Mobile app development	Khushi Agrawal	Khushi Agrawal	US		
+  10/08/2026	10 AM to 4 PM	Saad	Not promoted	No contact	New Enquiry	shopify			not a client	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Not a Client	Khushi Agrawal	Khushi Agrawal	Pakistan		
+  10/08/2026	10 AM to 4 PM	Chaman R	Not promoted	Quoted	In Discussion	shopify		2400,3000,3600	quoted by khushi	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Khushi Agrawal	Khushi Agrawal	UK		
+  10/08/2026	10 AM to 4 PM	thomaskerrig814	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			No response 	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Tanishka	Tanishka	UK		
+  10/08/2026	10 AM to 4 PM	nirmala187	Not promoted	Quoted	New Enquiry	Custom		11000,12500,14000	Negotiating	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Tanishka	Tanishka	India		
+  10/08/2026	4 PM to 10 PM	raghav001endra	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress			Pitched a meet T 5: 30 PM 	TRUE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Vaishnavi	Vaishnavi 	India 		
+  10/08/2026	4 PM to 10 PM	hahmedbp	Not promoted	Needs Analysis (Not yet quoted)	Brief	Wordpress			not replied	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Sakshi	Sakshi	UK		
+  10/08/2026	4 PM to 10 PM	Mira Headhunter	Not promoted	Quoted	New Enquiry	Wordpress		1600,2200,2800	Quoted (AI)	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Wordpress(Shreyansh)	Kashish	Kashish	U.S		
+  10/08/2026	4 PM to 10 PM	adrianoc12	Not promoted	Quoted	New Enquiry	Shopify		2800, 3500, 4400	quoted by isha	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Sakshi	Isha	Canada		
+  10/08/2026	4 PM to 10 PM	nutraver	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	U.S		
+  10/08/2026	4 PM to 10 PM	karrotbites	Not promoted	Quoted	New Enquiry	Shopify		1800, 2400, 3500	low budget	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Sakshi	Sakshi	Egypt		
+  10/08/2026	4 PM to 10 PM	sandileshange	Not promoted	Quoted	New Enquiry	Shopify		2200,2800,3400	Quoted 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	South Africa		
+  10/08/2026	4 PM to 10 PM	gowrichidanand	Not promoted	Quoted	New Enquiry	Shopify		2200,2800,3400	nego and custom offer sent by isha 	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Isha	U.A.E		
+  10/08/2026	4 PM to 10 PM	kd134354	Not promoted	Quoted	New Enquiry	Shopify		1400,2000,2800	quoted+feat by isha requoted by Vaishnavi for 1400 , 2000 , 2800	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Isha	Australia		
+  10/08/2026	4 PM to 10 PM	yasminebattist	Not promoted	Quoted	In Discussion	Shopify		3200,,3800,4400/ 2800,5200,6400/2600,4900,6200	Quoted twice	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Khushi Agrawal	Kashish	Canada		
+  10/08/2026	10 PM to 4 AM	solartechnika	Not promoted	Quoted	New Enquiry	Wordpress		4400,5000,5700	quoted by isha, budget concern 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Wordpress(Shreyansh)	Isha	Isha	Poland		
+  11/08/2026	10 PM to 4 AM	itsavababy	Not promoted	Quoted	New Enquiry	Shopify		1600,2200,2800	quoted by isha	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	U.S		
+  11/08/2026	10 PM to 4 AM	larrybscott	Not promoted	Quoted	New Enquiry	Custom		4900, 5800, 6600	quoted by isha	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Isha	Isha	U.S		
+  11/08/2026	10 PM to 4 AM	cpaul4you	Not promoted	Quoted	New Enquiry	Shopify		1200,1500,1800	quoted by isha	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	UK		
+  11/08/2026	10 PM to 4 AM	totalguideto	Not promoted	Needs Analysis (Not yet quoted)	Brief	Wordpress			Needs analysis	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Isha	Isha	UK		
+  11/08/2026	10 PM to 4 AM	maravilloz	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress			Needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Isha	Isha	France		
+  11/08/2026	10 PM to 4 AM	ceciliadeavila	Promoted	Quoted	New Enquiry	Shopify		1800,2400,3000	quoted by isha	FALSE	TRUE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	Panama		
+  11/08/2026	10 PM to 4 AM	dreamkbansal	Not promoted	Quoted	New Enquiry	Wordpress			quoted by isha, 2 proposal sent 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Wordpress(Shreyansh)	Isha	Isha	Canada		
+  11/08/2026	10 PM to 4 AM	xpdesigninc	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress			Needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Isha	Isha	U.S		
+  11/08/2026	10 PM to 4 AM	ashboss01	Promoted	Quoted	New Enquiry	Wordpress			quoted by khushi 	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Isha	Khushi Agrawal	Saudi Arabia		
+  11/08/2026	10 PM to 4 AM	dexterus	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	U.S		
+  11/08/2026	4 AM to 10 AM 	mobasher_reza10	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Custom			Want to hire me as full time....	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Vaishnavi	Vaishnavi 	Bangladesh		
+  11/08/2026	4 AM to 10 AM 	multiplay2024	Not promoted	Quoted	New Enquiry	custom 			Middle man 	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Vaishnavi	Vaishnavi 	US		
+  11/08/2026	4 AM to 10 AM 	simplefinds07	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Sshopify			Wanted us to do product research 	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	Beliguim		
+  11/08/2026	4 AM to 10 AM 	Mira Headhunter	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			MDDLE MAN A AI IN EXACT!!!!! what... in  AI IS GOING ONNNN!!!!	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	us		
+  11/08/2026	4 AM to 10 AM 	nathanjbn	Not promoted	Quoted	New Enquiry	Custom 		5600 , 6800 , 10000	Quoted by Vaishnavi	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Vaishnavi	Vaishnavi 	HAITI(cARRIBEAN, nORTH aMERICA)		
+  11/08/2026	4 AM to 10 AM 	hadas42	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Asked questions wating for reply 	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	Australia		
+  11/08/2026	4 AM to 10 AM 	pgill08_	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress			Asked questions wating for reply 	FALSE	TRUE	TRUE	FALSE	LOST	Fiverr Shreyansh	Wordpress(Shreyansh)	Vaishnavi	Vaishnavi 	US		
+  11/08/2026	4 AM to 10 AM 	regostudio	Not promoted	Quoted	In Discussion	Custom		20,000, 28000	quoted	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Custom (Shreyansh)	Vaishnavi	Kashish	India 		
+  11/08/2026	4 AM to 10 AM 	imaima26	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	YT 			Need youtube content help	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Sakshi	US		
+  11/08/2026	4 AM to 10 AM 	timmash	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Odoo			Wanted Odoo	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Vaishnavi	Vaishnavi 	US		
+  11/08/2026	10 AM to 4 PM	tushardasgupta	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	Custom			wants a meeting	FALSE	TRUE	FALSE	TRUE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Tanishka	Tanishka	India		
+  11/08/2026	10 AM to 4 PM	nalkari	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	YT 				FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Platform unknown	Tanishka	Tanishka	India		
+  11/08/2026	10 AM to 4 PM	mira36671436559	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Duda content implentation			duda 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Platform unknown	Tanishka	Tanishka	US		
+  11/08/2026	10 AM to 4 PM	ibrahimerrami	Not promoted	Quoted	New Enquiry	shopify		180024003000	quoted by khushi	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Khushi Agrawal	Khushi Agrawal	Morocco		
+  11/08/2026	10 AM to 4 PM	ajclothing0	Promoted	Quoted	New Enquiry	shopify		1200,1800,2400	quoted by Tanishka	TRUE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Tanishka	Tanishka	Austraila		
+  11/08/2026	10 AM to 4 PM	ysremoteservice	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	shopify			middleman	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Tanishka	Tanishka	Geramany		
+  11/08/2026	10 AM to 4 PM	ryantan1013	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	wordpress			in discussion	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Tanishka	Tanishka	Singapore		
+  11/08/2026	4 PM to 10 PM	aditya_soni2727	Not promoted	No contact	New Enquiry	Not a client			Not a client	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Not a Client	Kashish	Kashish	India		
+  11/08/2026	10 AM to 4 PM	dexterus	Not promoted	Quoted	Brief	Shopify		1800,2400,3000	quoted by khushi(middle man)	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Khushi Agrawal	Khushi Agrawal	US		
+  11/08/2026	4 PM to 10 PM	sbroersma	Not promoted	Quoted	New Enquiry	Shopify		2000,2600,3200	 Referred to vivek	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	Netherland		
+  11/08/2026	4 PM to 10 PM	sabha_mahmood	Not promoted	Quoted	New Enquiry	Shopify		1200,1800,2400	 Referred to vivek	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	U.K		
+  11/08/2026	4 PM to 10 PM	rallystorm	Not promoted	Quoted	New Enquiry	Shopify			feat+quoted by isha	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Isha	U.S		
+  11/08/2026	4 PM to 10 PM	jonhern93	Not promoted	Quoted	New Enquiry	Shopify		1200,1800,2200	Needs analysis	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	U.S		
+  11/08/2026	4 PM to 10 PM	olotuah_esther	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Custom				FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	Nigeria		
+  11/08/2026	4 PM to 10 PM	peace__oyin	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress			Needs analysis	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Kashish	Kashish	Nigeria		
+  11/08/2026	4 PM to 10 PM	joshbrunommg	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	Canada		
+  11/08/2026	4 PM to 10 PM	geneticsoldier	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	Netherland		
+  12/08/2026	10 PM to 4 AM	artflex_1	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry				not a client 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Not a Client	Isha	Isha	U.S		
+  12/08/2026	10 PM to 4 AM	lawrencetsan755	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	custom			Needs analysis	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Isha	Isha	U.K		
+  12/08/2026	10 PM to 4 AM	kartikeya_gu	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry				not a client 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Not a Client	Isha	Isha	U.S		
+  12/08/2026	10 PM to 4 AM	clintlam87	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	custom			Needs analysis	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Isha	Isha	U.S		
+  12/08/2026	10 PM to 4 AM	peteherard	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress			Needs analysis	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Isha	Isha	U.S		
+  12/08/2026	10 PM to 4 AM	jellevo	Not promoted	Quoted	New Enquiry	Shopify		3900, 4500, 5100, requote-1500	quoted- isha he replies lmk-isha	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	Netherland		
+  12/08/2026	10 PM to 4 AM	susanhoffman329	Not promoted	No contact	New Enquiry				not a client 	FALSE	TRUE	FALSE	FALSE	LOST	Fiverr Shreyansh	Not a Client	Isha	Isha	U.S		
+  12/08/2026	10 PM to 4 AM	rohitsingh469	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	India		
+  12/08/2026	4 AM to 10 AM 	scottpahl	Not promoted	Quoted	New Enquiry	Wordppress		1200 , 1800 , 2400	Quoted by vaishnavi 	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Isha	Vaishnavi 	Australia		
+  12/08/2026	4 AM to 10 AM 	lobofootwear	Not promoted	Quoted	New Enquiry	Shopify		1200 , 1800 , 2400	Features are pitched need to quoteLink for the proposal to send ->  (https://res.cloudinary.com/doeonqrwd/image/upload/v1786502668/sbsoltilcevdgto2lfsy.pdf)	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Navya	Shopify (Navya )	Vaishnavi	Vaishnavi 	Australia		
+  12/08/2026	4 AM to 10 AM 	wordcraft___	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress			Was to have a website to see a couching call on saturday 6pm est - 3:30 am ist	TRUE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Vaishnavi	Vaishnavi 	India 		
+  12/08/2026	4 AM to 10 AM 	santosh_pawar89	Not promoted	Quoted	New Enquiry	Wordpress		3400 , 4200 ,5200	Budget 4k - 5k 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Wordpress(Shreyansh)	Vaishnavi	Vaishnavi 	India		
+  12/08/2026	4 AM to 10 AM 	brandall1983	Not promoted	Quoted	New Enquiry	Shopify		1200,1800,2400	Requirements are beign discussed	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	Australia 		
+  12/08/2026	4 AM to 10 AM 	kingofjerk	Not promoted	Quoted	New Enquiry	Shopify		1200,1800,2400	QUOTED BY TANISHKA	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Tanishka	US		
+  12/08/2026	10 AM to 4 PM	onewebfund	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Middleman	TRUE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Tanishka	Tanishka	US		
+  12/08/2026	10 AM to 4 PM	surajithazra571	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	unknown			need analysis	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Khushi Agrawal	Khushi Agrawal	India		
+  12/08/2026	10 AM to 4 PM	bobbybob18	Not promoted	Quoted	New Enquiry	wordpress			quoted by khushi	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Khushi Agrawal	Khushi Agrawal	Geramany		
+  12/08/2026	10 AM to 4 PM	watchovers	Not promoted	Quoted	New Enquiry	wordpress		1600,2200,2800	quoted by khushi	FALSE	TRUE	FALSE	FALSE	LOST	Fiverr Shreyansh	Custom (Shreyansh)	Khushi Agrawal	Khushi Agrawal	Ireland		
+  12/08/2026	4 PM to 10 PM	bti_tourism	Not promoted	Needs Analysis (Not yet quoted)	Brief	wordpress			question sent	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Sakshi	Sakshi	US		
+  12/08/2026	4 PM to 10 PM	neset123	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress.			Needs analysis	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Kashish	Kashish	Australia		
+  12/08/2026	4 PM to 10 PM	abdiwasa62	Not promoted	Quoted	New Enquiry	Shopify		2000,2600,3200	Quoted by Kashish	TRUE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	Australia		
+  12/08/2026	4 PM to 10 PM	rudi_pullen	Not promoted	No contact	New Enquiry	wordpress			audit, integration	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Not a Client	Sakshi	Sakshi	South Africa		
+  12/08/2026	4 PM to 10 PM	chris_romerosp	Not promoted	Needs Analysis (Not yet quoted)	Brief	shopify			question sent	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Sakshi	Sakshi	US		
+  12/08/2026	4 PM to 10 PM	maniicole	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	shopify			no response	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Sakshi	Kashish	Phillipines		
+  12/08/2026	4 PM to 10 PM	catdcruz11	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	wordpress			need analysis	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Sakshi	Sakshi	US		
+  12/08/2026	4 PM to 10 PM	mcotto1995	Not promoted	Quoted	New Enquiry	Shopify		1400,2000,2600	Quoted	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	U.S		
+  12/08/2026	4 PM to 10 PM	will1157	Promoted	Quoted	New Enquiry	Shopify		2400,,3000,3600	Quoted	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	U.S		
+  12/08/2026	10 PM to 4 AM	dolphshop	Promoted	Quoted	New Enquiry	Shopify		3500,4800,6200	quoted by khushi	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Khushi Agrawal	U.S		
+  12/08/2026	10 PM to 4 AM	willgusn	Not promoted	Quoted	New Enquiry	Shopify			quoted by isha 	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	U.S		
+  12/08/2026	10 PM to 4 AM	xpdesigninc	Not promoted	Quoted	Brief	Wordpress		1800,2800,4200	quoted by khushi	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Isha	Khushi Agrawal	US		
+  12/08/2026	10 PM to 4 AM	lawrencejoshua1	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			need analysis	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Khushi Agrawal	U.S		
+  13/08/2026	10 PM to 4 AM	epling20	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			need analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Khushi Agrawal	Khushi Agrawal	US		
+  13/08/2026	10 PM to 4 AM	eksu234	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			low budget	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Khushi Agrawal	Khushi Agrawal	Finland		
+  13/08/2026	10 PM to 4 AM	yorkelispea	Not promoted	No contact	New Enquiry	wordpress			need analysis	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Not a Client	Khushi Agrawal	Khushi Agrawal	Venezuela		
+  13/08/2026	4 AM to 10 AM 	alexisgreat64	Not promoted	Quoted	New Enquiry	Shopify		2400 , 3200 , 3800	Said was expensive was too focused on the budget 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	US		
+  13/08/2026	4 AM to 10 AM 	cwhite5759	Not promoted	Quoted	New Enquiry	Shopify		2400 , 3000 , 3800	Black client 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Navya	Shopify (Navya )	Vaishnavi	Vaishnavi 	US		
+  13/08/2026	4 AM to 10 AM 	nataliawebsite	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Awaitng for the response 	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Navya	Shopify (Navya )	Vaishnavi	Vaishnavi 	UK		
+  13/08/2026	4 AM to 10 AM 	sergioyahvh	Not promoted	Quoted	New Enquiry	Shopify		1200, 1800 , 2400	Peptide website	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	Puerto Rico		
+  13/08/2026	10 AM to 4 PM	simmonsmaria	Not promoted	Needs Analysis (Not yet quoted)	In Discussion	Shopify			ENQUIRY WAS ON JULY 29  and she came again today	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Navya	Shopify (Navya )	Khushi	Vaishnavi 	US		
+  13/08/2026	10 AM to 4 PM	mazzardo	Not promoted	Quoted	New Enquiry	Shopify		2400,3200,3800	Quoted by vaishnavi, Middle man unable to send message says try again in all devices 	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Vaishnavi 	Italy 		
+  13/08/2026	10 AM to 4 PM	steven_aldridge	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	wordpress			timeout fixes 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Wordpress(Shreyansh)	Khushi Agrawal	Khushi Agrawal	UK		
+  13/08/2026	10 AM to 4 PM	shoaibshah1214	Not promoted	Quoted	New Enquiry	wordpress		1600,2200,2800	need analysis	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Khushi Agrawal	Kashish	Pakistan		
+  13/08/2026	10 AM to 4 PM	heavydays_uk	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			need analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Navya	Shopify (Navya )	Sakshi	Sakshi	UK		
+  13/08/2026	10 AM to 4 PM	pmelanicolle	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	shopify			needs analysis	TRUE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Tanishka	Tanishka	Brazil		
+  13/08/2026	10 AM to 4 PM	mathteacher123	Not promoted	Quoted	New Enquiry	wordpress		6400,8200,10200	quoted by Tanishka	TRUE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Tanishka	Tanishka	US		
+  13/08/2026	10 AM to 4 PM	frisco75035	Not promoted	Quoted	New Enquiry	Shopify		1200,1800,2400	quoted by Tanishka	TRUE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Tanishka	Tanishka	US		
+  13/08/2026	4 PM to 10 PM	mvicars4	Not promoted	Quoted	New Enquiry	wordpress		2800,3400,4000	quoted by isha 	FALSE	FALSE	FALSE	FALSE	WON (Order Placed)	Fiverr Shreyansh	Wordpress(Shreyansh)	Sakshi	Isha	US		
+  13/08/2026	4 PM to 10 PM	hamzasebt	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			need analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Sakshi	Sakshi	Morocco		
+  13/08/2026	4 PM to 10 PM	oliver8213	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			google merchant	FALSE	TRUE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Sakshi	Kashish	Canada		
+  13/08/2026	4 PM to 10 PM	johneriksson977	Not promoted	Quoted	New Enquiry	Wordpress		2400,3000,3600	Features pitched	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Kashish	Kashish	Sweden		
+  13/08/2026	4 PM to 10 PM	eggsnchees	Not promoted	Quoted	New Enquiry	Shopify		2400,3000,3600	Middleman	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Isha	U.S		
+  13/08/2026	4 PM to 10 PM	acusimano	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	U.S		
+  13/08/2026	10 PM to 4 AM	maskedalais	Promoted	Quoted	In Discussion	Shopify		2000,2800,3600	quoted by isha , if he replies lmk	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	U.S		
+  13/08/2026	10 PM to 4 AM	quantumcode_	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	Kenya		
+  13/08/2026	10 PM to 4 AM	domore47	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress			Needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Isha	Isha	Australia		
+  13/08/2026	10 PM to 4 AM	muzamilmian696	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	Pakistan		
+  14/08/2026	10 PM to 4 AM	itsautomated	Not promoted	Quoted	New Enquiry	Shopify			quoted by isha	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	U.S		
+  14/08/2026	10 PM to 4 AM	dkainth	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Custom			meeting will be taken by khushi gupta	TRUE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Isha	Isha	UK		
+  14/08/2026	10 PM to 4 AM	genis13	Not promoted	Quoted	New Enquiry	Shopify			lost	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	U.S		
+  14/08/2026	10 PM to 4 AM	kakakakakakkkkk	Not promoted	Quoted	New Enquiry	Shopify		2400 , 3200 , 3800	middle man 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Vaishnavi 	U.S		
+  14/08/2026	10 PM to 4 AM	phasenl	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	Netherlands		
+  14/08/2026	4 AM to 10 AM 	evermistclean	Not promoted	Quoted	New Enquiry	Wordpress			Requirements are being analysed 	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Vaishnavi	Vaishnavi 	US		
+  14/08/2026	4 AM to 10 AM 	so1opreneur	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Requirements are being analysed 	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Navya	Shopify (Navya )	Vaishnavi	Vaishnavi 	US		
+  14/08/2026	4 AM to 10 AM 	tinaap1996	Not promoted	Quoted	New Enquiry	Shopify			Questions asked need to wait for the response 	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	Canada 		
+  14/08/2026	4 AM to 10 AM 	bharr18	Not promoted	Needs Analysis (Not yet quoted)	In Discussion	Shopify			SENDING DETAILS BY MONDAY	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Tanishka	US		
+  14/08/2026	4 AM to 10 AM 	seobigred	Not promoted	Needs Analysis (Not yet quoted)	Awaiting Reply	Wordpress			MIDDLEMAN WITH BAD RATINGS	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Vaishnavi	Vaishnavi 	US		
+  14/08/2026	4 AM to 10 AM 	mamelam610	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress			Needs assistance??	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Vaishnavi	Vaishnavi 	US		
+  14/08/2026	4 AM to 10 AM 	supastar88	Not promoted	Quoted	New Enquiry	Wordpress		1200 , 1800 , 2400	Black client i believe 	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Vaishnavi	Vaishnavi 	US		
+  14/08/2026	10 AM to 4 PM	asapmoney823	Not promoted	No contact	New Enquiry	wordpress			wants telegram contact	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Wordpress(Shreyansh)	Khushi Agrawal	Khushi Agrawal	Nigeria		
+  14/08/2026	10 AM to 4 PM	gabrielpanorama	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	wordpress			needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Tanishka	Tanishka	Germany		
+  14/08/2026	10 AM to 4 PM	ab0486	Promoted	Quoted	New Enquiry	shopify		1600,2800,4200	quoted by tanishka	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Tanishka	Sakshi	Canada		
+  14/08/2026	10 AM to 4 PM	matiensarvari	Not promoted	Quoted	New Enquiry	shopify		1500,2100,2700	quoted by khushi	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Khushi Agrawal	Khushi Agrawal	Netherlands		
+  14/08/2026	4 PM to 10 PM	benjid8	Not promoted	Quoted	New Enquiry	Shopify		1600,2200,2800	Quoted by Kashish	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	Australia		
+  14/08/2026	4 PM to 10 PM	pazato	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			need analysis	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Sakshi	Sakshi	crotia		
+  14/08/2026	4 PM to 10 PM	dlmagnolia	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress			Needs analysis	FALSE	TRUE	TRUE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	Canada		
+  14/08/2026	4 PM to 10 PM	camelus966	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			no idea for the store	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Sakshi	Sakshi	Saudi Arabia		
+  14/08/2026	10 PM to 4 AM	jenviaog	Not promoted	Quoted	New Enquiry	Wordpress		1400, 1800, 2400	quoted by isha 	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Isha	Isha	Netherlands		
+  14/08/2026	10 PM to 4 AM	immortelleskin	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	US		
+  14/08/2026	10 PM to 4 AM	tresor1912	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	Congo [DRC]		
+  14/08/2026	10 PM to 4 AM	islandrefinery	Not promoted	Quoted	New Enquiry	Shopify		1500,2100,2700	quoted	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	U.S		
+  14/08/2026	10 PM to 4 AM	amanpreetkau412	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress			Needs analysis	FALSE	TRUE	TRUE	TRUE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	Canada		
+  14/08/2026	4 AM to 10 AM 	yeedesigns	Promoted	Quoted	New Enquiry	Shopify		1500,2100,2700	Quoted 	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Navya	Shopify (Navya )	Sakshi	Kashish	US		
+  14/08/2026	10 PM to 4 AM	aseemgupta514	Not promoted	Quoted	New Enquiry	Shopify		1600,2200,2800	Quoted	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	US		
+  14/08/2026	4 AM to 10 AM 	aayushkapp1	Not promoted	Quoted	New Enquiry	Custom		6500,12000,18000	Quoted	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Kashish	Vaishnavi 	India		
+  15/08/2026	4 AM to 10 AM 	getsweatmate	Not promoted	Quoted	In Discussion	Shopify		1600,2200,2800	Quoted	FALSE	TRUE	FALSE	FALSE	WON (Order Placed)	Fiverr Navya	Shopify (Navya )	Vaishnavi	Kashish	U.S		
+  15/08/2026	4 AM to 10 AM 	Tray	Not promoted	Quoted	New Enquiry	Custom		2600,3600,4200	quoted by khushi	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Khushi Agrawal	Khushi Agrawal	U.S		
+  15/08/2026	4 AM to 10 AM 	markhansotia	Not promoted	Quoted	New Enquiry	wordpress		3200 , 4000 , 5000	convo by vaishanvi	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Wordpress(Shreyansh)	Sakshi	Sakshi	US		
+  15/08/2026	4 AM to 10 AM 	oghenekaroesiri	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	custom			need analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Sakshi	Sakshi	nigeria		
+  15/08/2026	4 AM to 10 AM 	pyoor_candles	Not promoted	Quoted	New Enquiry	Shopify		1600,2100,3100	quoted, nego by-isha 	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Navya	Shopify (Navya )	Sakshi	Isha	US		
+  15/08/2026	4 AM to 10 AM 	omairnaz	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			need analysis	FALSE	TRUE	TRUE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Sakshi	Sakshi	UK		
+  15/08/2026	4 AM to 10 AM 	rujiraburke	Not promoted	Quoted	New Enquiry	Shopify		1800, 2400,3100	waiting for response	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Sakshi	Sakshi	australia		
+  15/08/2026	4 AM to 10 AM 	mwdc77	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	wordpress			waiting for response	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Sakshi	Sakshi	canada		
+  15/08/2026	10 AM to 4 PM	petegordon1981	Not promoted	Quoted	New Enquiry	shopify		1200 , 1800 , 2400	Said will accpet offer monday 	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	Spain		
+  15/08/2026	10 AM to 4 PM	anujain98	Not promoted	Quoted	New Enquiry	Shopify		2400 , 3200 , 3800	Budget was 1000 ad was referred to Fiverr Vivek	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	Kuwait		
+  15/08/2026	10 AM to 4 PM	unknowntech	Not promoted	Quoted	New Enquiry	Shopify		1800 , 2600 , 3600	Sent proposal needs to reply	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	Canada		
+  15/08/2026	10 AM to 4 PM	vaibhavsingh291	Not promoted	Needs Analysis (Not yet quoted)	Awaiting Reply	Shopify			Hasn't responded  :(	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	India 		
+  15/08/2026	10 AM to 4 PM	swty_01	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Sounded like a scammer himself 	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Navya	Shopify (Navya )	Vaishnavi	Vaishnavi 	India 		
+  15/08/2026	4 PM to 10 PM	capri18	Not promoted	Quoted	New Enquiry	Shopify		1200 , 1800  2400	Sais will reply to mme tommorrow 	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	US		
+  15/08/2026	4 PM to 10 PM	sameerwebstudio	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress			SAID NO ...NO FOR IDK WHATT :(	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Vaishnavi	Vaishnavi 	India 		
+  15/08/2026	4 PM to 10 PM	growcert	Not promoted	Quoted	New Enquiry	Wordpress		2600,3400 , 4600	Indian client 	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Vaishnavi	Vaishnavi 	India 		
+  15/08/2026	4 PM to 10 PM	john077	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Gave me his number 9007145763	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	India 		9007145763
+  15/08/2026	4 PM to 10 PM	haytham10__	Not promoted	Quoted	New Enquiry	Shopify		1200 , 1800 , 2400	Proposal sent waiting for his reply 	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Vaishnavi	Vaishnavi 	Morocco		
+  15/08/2026	4 PM to 10 PM	samiajahan249	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	custom			BETTING GAMEEE HE WANTS	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Vaishnavi	Vaishnavi 	Bangladesh 		
+  15/08/2026	10 PM to 4 AM	ansartech01	Not promoted	No contact	New Enquiry	N/A			not a client 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Not a Client	Kashish	Kashish	Pakistan		
+  15/08/2026	10 PM to 4 AM	hishamqureshi26	Not promoted	Quoted	New Enquiry	Custom		13500, 8500	quoted by Isha 	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Kashish	Isha	Qatar		
+  15/08/2026	10 PM to 4 AM	azizedelam	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	Sweden		
+  15/08/2026	10 PM to 4 AM	kaaleen1956	Not promoted	Quoted	New Enquiry	Shopify		2400 , 3400 , 4400	Quoted by Vaishanvi	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Isha	India		
+  15/08/2026	10 PM to 4 AM	kaaleen1956	Not promoted	Quoted	New Enquiry	Shopify		1600,2100,3100	quoted by sakshi	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Navya	Shopify (Navya )	Kashish	Sakshi	India		
+  15/08/2026	10 PM to 4 AM	gabcod	Not promoted	Quoted	New Enquiry	Shopify		2440,,3000,3600	Quoted	TRUE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Kashish	Kashish	Canada		
+  15/08/2026	10 PM to 4 AM	davidnibbs	Not promoted	Quoted	Brief	Wordpress		1800,2400,3000	lost	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Wordpress(Shreyansh)	Isha	Isha	UK		
+  15/08/2026	10 PM to 4 AM	kappy1	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Wordpress			Needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Isha	Isha	US		
+  15/08/2026	10 PM to 4 AM	avia_paz	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	US		
+  15/08/2026	10 PM to 4 AM	zlatkap	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	Slovenia		
+  15/08/2026	10 PM to 4 AM	rizzy234	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Shopify			Needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	UK		
+  16/08/2026	4 AM to 10 AM 	saad_designerd	Not promoted	No contact	New Enquiry	no a client			not a client 	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Not a Client	Tanishka	Tanishka	Pakistan		
+  16/08/2026	4 AM to 10 AM 	stephenakanb807	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	shopify			needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Tanishka	Tanishka	Nigeria		
+  16/08/2026	4 AM to 10 AM 	aarondouglasbas	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	Custom			needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Tanishka	Tanishka	US		
+  16/08/2026	4 AM to 10 AM 	alex_miller1589	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	Custom			needs analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Tanishka	Tanishka	US		
+  16/08/2026	4 AM to 10 AM 	waynedixon7	Promoted	Quoted	New Enquiry	shopify			quoted by tanishka	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Tanishka	Sakshi	US		
+  16/08/2026	10 AM to 4 PM	marciacross	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	shopify			need analysis	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Sakshi	Sakshi	US		
+  16/08/2026	10 AM to 4 PM	moayadalhajali	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	Custom			need analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Sakshi	Sakshi	Saudi Arabia		
+  16/08/2026	10 AM to 4 PM	nbc_bv	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	shopify			advertisement	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Not a Client	Sakshi	Sakshi	Netherlands		
+  16/08/2026	10 AM to 4 PM	sim79_8888	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	shopify			shopify	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Sakshi	Isha	US		
+  16/08/2026	10 AM to 4 PM	harpartapsingh7	Promoted	Needs Analysis (Not yet quoted)	New Enquiry				need work	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Not a Client	Sakshi	Sakshi	India		
+  16/08/2026	10 AM to 4 PM	deliveryatsite	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	wordpress			CHEAP CLIENT, AVOID	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Not a Client	Tanishka	Sakshi	INDIA		
+  16/08/2026	10 AM to 4 PM	mame8895	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	shopify			need analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Sakshi	Sakshi	Netherlands		
+  16/08/2026	4 PM to 10 PM	kylegabriel918	Promoted	Quoted	New Enquiry	wordpress		1200,1800,2400	low budget, refered	FALSE	FALSE	FALSE	FALSE	LOST	Fiverr Shreyansh	Shopify (Shreyansh)	Khushi Agrawal	Khushi Agrawal	Trinidad and Tobago		
+  16/08/2026	4 PM to 10 PM	sanansananan	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	custom			need analysis	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Khushi Agrawal	Khushi Agrawal	Turkey		
+  16/08/2026	4 PM to 10 PM	nomar_farouq85	Promoted	Quoted	Brief	shopify		1500,2100,2700	quoted by khushi	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Khushi Agrawal	Khushi Agrawal	France		
+  16/08/2026	4 PM to 10 PM	phoenixlyo	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	custom			handel by sir	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Custom (Shreyansh)	Khushi Agrawal	Khushi Agrawal	United Kingdom		
+  16/08/2026	4 PM to 10 PM	rizzy234	Not promoted	Quoted	New Enquiry	wordpress		1500,2100,2700	quoted by khushi	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Wordpress(Shreyansh)	Khushi Agrawal	Khushi Agrawal	United Kingdom		
+  16/08/2026	4 PM to 10 PM	wailhn	Promoted	Quoted	New Enquiry	custom			handel by sir	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Khushi Agrawal	Isha	Morocco		
+  16/08/2026	4 PM to 10 PM	mashajo	Not promoted	Needs Analysis (Not yet quoted)	New Enquiry	shopify			need analysis	FALSE	TRUE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Khushi Agrawal	Khushi Agrawal	Ukraine		
+  16/08/2026	10 PM to 4 AM	dicleytk_	Promoted	Quoted	New Enquiry	shopify		1800,2400,3000	need analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	Switzerland		
+  16/08/2026	10 PM to 4 AM	farhadbazleh	Promoted	Needs Analysis (Not yet quoted)	New Enquiry	shopify			need analysis	FALSE	FALSE	FALSE	FALSE	PENDING	Fiverr Shreyansh	Shopify (Shreyansh)	Isha	Isha	Germany		
+  c
+  [LMB]
+
+--- WINDOW  2026-08-17 14:38:14  [chrome.exe] Systematic proposal from chat context - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 14:38:15  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 14:38:18  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  c;[Bk]l[ENTER]
+
+--- WINDOW  2026-08-17 14:38:26  [chrome.exe] claude ai - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-17 14:38:30  [chrome.exe] Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:38:31  [chrome.exe] New chat - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  weekly report
+  [LMB]
+
+--- WINDOW  2026-08-17 14:39:10  [chrome.exe] Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:39:11  [chrome.exe] Monthly and weekly reports generation - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026-08-17 14:39:23  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+
+--- WINDOW  2026-08-17 14:39:35  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:39:36  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:39:36  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:39:36  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  f
+
+--- WINDOW  2026-08-17 14:39:38  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:39:38  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:39:38  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-17 14:39:39  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  10/08[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk]760
+  [LMB]
+  [<-][Bk]4
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
