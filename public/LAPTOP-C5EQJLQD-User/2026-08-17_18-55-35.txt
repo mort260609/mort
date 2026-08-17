@@ -1,0 +1,1397 @@
+﻿
+--- WINDOW  2026/08/16 23:19:59  [houdini.exe] Quit
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:20:02  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:20:02  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+  [RMB]
+  [MMB]
+
+--- WINDOW  2026/08/16 23:20:08  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:20:09  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:20:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:20:09  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:20:09  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:20:10  [explorer.exe] New folder
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:20:11  [explorer.exe] This PC
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:20:12  [explorer.exe] Elements (D:)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:20:13  [explorer.exe] Mithil
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:20:16  [explorer.exe] RBD DES GEO
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:20:20  [explorer.exe] Vornoi frac.RBD_DES_GEO
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [X1]
+
+--- WINDOW  2026/08/16 23:20:25  [explorer.exe] RBD DES GEO
+----------------------------------------------------------------------------
+  [X1]
+
+--- WINDOW  2026/08/16 23:20:26  [explorer.exe] Mithil
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:20:27  [explorer.exe] Vdb Coll
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   [Ctrl][ENTER]
+
+--- WINDOW  2026/08/16 23:20:29  [explorer.exe] Ground Properties
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:20:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:20:31  [explorer.exe] Vdb Coll
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:20:31  [explorer.exe] Character
+----------------------------------------------------------------------------
+  [X1]
+
+--- WINDOW  2026/08/16 23:20:32  [explorer.exe] Vdb Coll
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:20:32  [explorer.exe] Ground
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:20:33  [explorer.exe] untitled.filecache1
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:20:34  [explorer.exe] v1
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 23:21:25  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:21:27  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:21:27  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [MMB]
+  [MMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 23:21:48  [idialog.exe] idialog
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:21:48  [idialog.exe] Houdini
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:21:50  [idialog.exe] idialog
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:21:50  [idialog.exe] Interrupt
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:24:24  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:24:54  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:24:54  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [MMB]
+
+--- WINDOW  2026/08/16 23:29:39  [idialog.exe] Interrupt
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:29:40  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:29:43  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [MMB]
+  [LMB]
+  [MMB]
+  [MMB]
+  [MMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Esc]
+
+--- WINDOW  2026/08/16 23:31:23  [Taskmgr.exe] Task Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 23:31:29  (no active window)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 23:31:29  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+
+================================================================================
+ SESSION START  2026/08/17 05:12:47
+================================================================================
+
+
+--- WINDOW  2026/08/17 05:12:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:13:03  [GoogleDriveFS.exe] C:\Program Files\Google\Drive File Stream\129.0.1.0\GoogleDriveFS.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:17:17  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:18:47  [houdini.exe] Houdini Error
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 05:18:47  [houdini.exe] untitled.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:18:47  [houdini.exe] Houdini Console
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:18:57  [houdini.exe] houdini
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:18:57  [houdini.exe] untitled.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:19:12  [houdini.exe] Houdini Console
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:19:12  [houdini.exe] untitled.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 05:19:17  [houdini.exe] houdini
+----------------------------------------------------------------------------
+  [LMB]
+  [Esc][Esc][Esc]
+
+--- WINDOW  2026/08/17 05:19:31  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+   
+  [RMB]
+    
+  [RMB]
+    
+  [MMB]
+                    
+  [RMB]
+                    
+  [MMB]
+   
+  [LMB]
+   
+  [RMB]
+        
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]z
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [MMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [MMB]
+  [Del] f
+  [MMB]
+  [LMB]
+  [Del]
+  [RMB]
+   f 
+  [LMB]
+    
+  [RMB]
+               
+  [LMB]
+                     
+  [MMB]
+              
+  [LMB]
+                               
+  [LMB]
+                    
+  [MMB]
+                   
+  [RMB]
+             
+  [MMB]
+             
+  [RMB]
+                 
+  [LMB]
+              
+  [LMB]
+                      
+  [MMB]
+             
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:20:37  [houdini.exe] houdini
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:21:24  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+   
+  [LMB]
+   
+  [MMB]
+                 
+  [LMB]
+             
+  [MMB]
+             
+  [RMB]
+               
+  [MMB]
+             
+  [RMB]
+           
+  [LMB]
+               
+  [MMB]
+                
+  [MMB]
+  [LMB]
+  [MMB]
+  [MMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:21:38  [houdini.exe] houdini
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:21:38  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:21:38  [houdini.exe] houdini
+----------------------------------------------------------------------------
+   
+  [LMB]
+
+--- WINDOW  2026/08/17 05:21:39  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+    f
+  [LMB]
+  [MMB]
+  [RMB]
+  [RMB]
+  [MMB]
+  [RMB]
+  [LMB]
+   
+  [MMB]
+      
+  [LMB]
+  [LMB]
+  [Tab]box[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+   
+  [LMB]
+             
+  [MMB]
+                 
+  [LMB]
+  [LMB]
+  [LMB]
+   
+  [LMB]
+            
+  [LMB]
+            
+  [LMB]
+    
+  [LMB]
+   
+  [LMB]
+    
+  [LMB]
+   
+  [LMB]
+                
+  [LMB]
+                
+  [LMB]
+   [Tab]boolean[ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+   f 
+  [LMB]
+     
+  [RMB]
+                 
+  [LMB]
+              
+  [LMB]
+                           
+  [LMB]
+             
+  [LMB]
+
+--- WINDOW  2026/08/17 05:22:52  [houdini.exe] houdini
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 05:22:53  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:22:57  [houdini.exe] houdini
+----------------------------------------------------------------------------
+  [LMB]
+   
+
+--- WINDOW  2026/08/17 05:22:57  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+   
+  [LMB]
+           
+  [RMB]
+                    
+  [LMB]
+                               
+  [LMB]
+                        
+  [LMB]
+                                               
+  [LMB]
+  [LMB]
+   
+  [LMB]
+                        
+  [LMB]
+       
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Tab]mpm sour[ENTER]
+  [ENTER]
+  [LMB]
+  [Tab]m
+
+--- WINDOW  2026/08/17 05:23:26  [houdini.exe] houdini
+----------------------------------------------------------------------------
+  p
+
+--- WINDOW  2026/08/17 05:23:26  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  m contain[ENTER]
+  [LMB]
+   
+  [LMB]
+     
+  [LMB]
+   
+  [MMB]
+            
+  [LMB]
+   
+  [LMB]
+       
+  [LMB]
+  [LMB]
+  [Ctrl]z 
+  [LMB]
+  [LMB]
+   
+  [LMB]
+              
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  /obj/Ground/mpmcontainer1
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+   f 
+  [LMB]
+         
+  [RMB]
+                
+  [MMB]
+                
+  [LMB]
+                 
+  [LMB]
+  [LMB]
+   
+  [LMB]
+                  
+  [RMB]
+                        
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:24:15  [houdini.exe] houdini
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:24:25  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:24:27  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:24:33  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:24:33  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+   
+  [LMB]
+         
+  [RMB]
+                            
+  [RMB]
+                                 
+  [RMB]
+           
+  [LMB]
+                
+  [MMB]
+     
+  [RMB]
+            
+  [MMB]
+  [Tab]mpm solve[ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [Esc]
+
+--- WINDOW  2026/08/17 05:25:00  [houdini.exe] Houdini Console
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:25:00  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:25:02  [houdini.exe] Houdini Console
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:25:02  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:25:04  [houdini.exe] Houdini Console
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:25:04  [dwm.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11 (Not Responding)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:25:05  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:25:06  [houdini.exe] Houdini Console
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:25:06  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+     
+  [LMB]
+                                 
+  [RMB]
+                          
+  [MMB]
+                        
+  [LMB]
+                                                             
+  [LMB]
+  [LMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [Tab]object m
+
+--- WINDOW  2026/08/17 05:25:32  [houdini.exe] houdini
+----------------------------------------------------------------------------
+  e
+
+--- WINDOW  2026/08/17 05:25:32  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  r[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:25:36  [houdini.exe] houdini
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:25:36  [houdini.exe] Choose Operator:
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+   
+
+--- WINDOW  2026/08/17 05:25:49  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [RMB]
+      
+  [RMB]
+      
+  [LMB]
+                
+  [LMB]
+    
+  [MMB]
+          
+  [LMB]
+
+--- WINDOW  2026/08/17 05:25:53  [houdini.exe] houdini
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 05:25:53  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:25:53  [houdini.exe] houdini
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 05:25:55  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+   
+  [LMB]
+   
+  [MMB]
+   [Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Esc][Ctrl]z
+  [LMB]
+  [LMB]
+  [MMB]
+  [MMB]
+  [Tab]mpm colli[ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Tab]object mere[ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:26:23  [houdini.exe] Choose Operator:
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:26:31  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:26:31  [houdini.exe] Choose Operator:
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 05:26:32  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [Tab]merge[ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+  r
+  [LMB]
+  [LMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:26:57  [houdini.exe] houdini
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:27:01  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:27:14  [houdini.exe] houdini
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 05:27:16  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 05:27:21  [houdini.exe] houdini
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 05:27:24  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [MMB]
+  [MMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:28:22  [houdini.exe] houdini
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:28:29  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [MMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:28:42  [houdini.exe] Choose Operator:
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 05:28:44  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:28:44  [houdini.exe] Choose Operator:
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:28:45  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [RMB]
+  [RMB]
+  [MMB]
+  [MMB]
+  [MMB]
+  [RMB]
+  [MMB]
+  [MMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [MMB]
+  [RMB]
+  [MMB]
+  [MMB]
+  [RMB]
+  [MMB]
+  [MMB]
+  [RMB]
+  [MMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [MMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Del][Esc]
+  [MMB]
+  [MMB]
+  [LMB]
+  [LMB]
+   
+  [LMB]
+    
+  [MMB]
+                 
+  [RMB]
+          
+  [LMB]
+                           
+  [MMB]
+        
+  [MMB]
+   
+  [LMB]
+                                                      
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:30:18  [houdini.exe] houdini
+----------------------------------------------------------------------------
+   
+  [MMB]
+
+--- WINDOW  2026/08/17 05:30:21  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [MMB]
+  [Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl] 
+  [LMB]
+               
+  [MMB]
+  [LMB]
+  [Ctrl][Bk][Ctrl][Bk][Bk]2[ENTER]
+  [LMB]
+  [Bk]3[ENTER]
+   
+  [LMB]
+                
+  [RMB]
+              
+  [MMB]
+                 
+  [LMB]
+                             
+  [MMB]
+               
+  [RMB]
+             
+  [LMB]
+  [Bk]10[ENTER]
+   
+  [LMB]
+                           
+  [MMB]
+  [MMB]
+  [LMB]
+  [Ctrl][Bk]20[Ctrl][Bk][Bk]10[ENTER]
+  [LMB]
+  [Ctrl][Bk]50[ENTER]
+  [LMB]
+  [Ctrl]a[Bk]0[ENTER]
+  [LMB]
+  [Bk]10[ENTER]
+  [LMB]
+  [Bk][Bk]-2[ENTER]
+  [LMB]
+  [Bk]1[ENTER]
+   
+  [LMB]
+                                                
+  [LMB]
+  3[ENTER]
+  [LMB]
+  [Bk].5[ENTER]
+   
+  [LMB]
+                                                                                                                         
+  [LMB]
+  [Bk]3[Bk]4[ENTER]
+   
+  [LMB]
+                
+  [MMB]
+          
+  [LMB]
+  [LMB]
+   
+  [LMB]
+       f 
+  [RMB]
+      
+  [LMB]
+               
+  [LMB]
+  [LMB]
+  [->] 
+  [LMB]
+         
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Del]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [RMB]
+                     
+  [RMB]
+         
+  [LMB]
+                                      
+  [RMB]
+                     
+  [LMB]
+
+--- WINDOW  2026/08/17 05:32:49  [houdini.exe] houdini
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:32:49  [houdini.exe] Display Options:  world
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:32:51  [houdini.exe] houdini
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 05:32:52  [houdini.exe] Display Options:  world
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/17 05:32:52  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+           
+  [RMB]
+                
+  [LMB]
+              
+  [LMB]
+   
+  [LMB]
+        
+  [RMB]
+          
+  [RMB]
+                
+  [LMB]
+              
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:33:03  [houdini.exe] houdini
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 05:33:04  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 05:33:05  [houdini.exe] houdini
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 05:33:05  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:33:05  [houdini.exe] houdini
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:33:14  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk]2[ENTER]
+  [LMB]
+  [Bk]01[ENTER]
+
+--- WINDOW  2026/08/17 05:33:45  [dwm.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:33:46  [dwm.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11 (Not Responding)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:33:46  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:34:27  [dwm.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11 (Not Responding)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:36:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 05:36:20  [dwm.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11 (Not Responding)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:36:21  [dwm.exe] Microsoft Windows
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:36:21  [dwm.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11 (Not Responding)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:36:23  [dwm.exe] Microsoft Windows
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:36:23  [dwm.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11 (Not Responding)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:36:24  [dwm.exe] Microsoft Windows
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:36:24  [dwm.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11 (Not Responding)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:36:25  [dwm.exe] Microsoft Windows
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 05:36:25  [dwm.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11 (Not Responding)
+----------------------------------------------------------------------------
+
+================================================================================
+ SESSION START  2026/08/17 18:50:35
+================================================================================
+
+
+--- WINDOW  2026/08/17 18:50:35  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:50:37  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:50:44  [GoogleDriveFS.exe] C:\Program Files\Google\Drive File Stream\129.0.1.0\GoogleDriveFS.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:51:02  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 18:51:12  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:51:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:51:12  [msedge.exe] New tab - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  y[ENTER]
+
+--- WINDOW  2026/08/17 18:51:16  [msedge.exe] YouTube - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:51:23  [msedge.exe] (268) YouTube - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  how t[Bk]debris source node works in houdii[Bk]ni[Ctrl]a
+  [Clipboard]
+  how debris source node works in houdini
+  ct
+
+--- WINDOW  2026/08/17 18:51:36  [msedge.exe] New tab and 1 more page - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  v[ENTER]
+  [Ctrl][Tab]
+
+--- WINDOW  2026/08/17 18:51:37  [msedge.exe] (268) YouTube and 1 more page - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026/08/17 18:51:37  [msedge.exe] (268) how debris source node works in houdini - YouTube and 1 more page - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Tab]
+
+--- WINDOW  2026/08/17 18:51:39  [msedge.exe] New tab and 1 more page - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:51:40  [msedge.exe] how debris source node works in houdini - Search and 1 more page - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:51:47  [msedge.exe] (268) how debris source node works in houdini - YouTube and 1 more page - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:51:56  [msedge.exe] (268) YouTube and 1 more page - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:51:57  [msedge.exe] (268) Houdini Debris Source - YouTube and 1 more page - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [->]f[->][->][->][->][<-][->][->][->][->][->][->][->][->][->]
+
+--- WINDOW  2026/08/17 18:52:21  [houdini.exe] Houdini Error
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:21  [msedge.exe] (268) Houdini Debris Source - YouTube and 1 more page - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:21  [houdini.exe] Houdini Console
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:52:22  [msedge.exe] (268) Houdini Debris Source - YouTube and 1 more page - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [->][->][->][->][->]
+
+--- WINDOW  2026/08/17 18:52:27  [houdini.exe] untitled.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:28  [houdini.exe] Houdini Console
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:28  [houdini.exe] untitled.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:29  [houdini.exe] houdini
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:29  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:29  [msedge.exe] (268) Houdini Debris Source - YouTube and 1 more page - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 18:52:32  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:32  [houdini.exe] untitled.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 18:52:35  [houdini.exe] houdini
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:36  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:36  [msedge.exe] (268) Houdini Debris Source - YouTube and 1 more page - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:41  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:45  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:52:46  [msedge.exe] (268) Houdini Debris Source - YouTube and 1 more page - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:52:46  [GoogleDriveFS.exe] Can’t save to Drive
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:48  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:48  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:52:48  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:48  [explorer.exe] New folder
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:52:50  [explorer.exe] Houdini
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:52:51  [explorer.exe] flipbook
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:52:53  [explorer.exe] Earth bending
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:52:55  [vlc.exe] VLC media player
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:55  [vlc.exe] untitled.mp4 - VLC media player
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:52:59  [explorer.exe] Earth bending
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:53:00  [vlc.exe] VLC media player
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:53:00  [vlc.exe] Proxy Geo .mp4 - VLC media player
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:53:05  [vlc.exe] VLC media player
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:53:07  [GoogleDriveFS.exe] Can’t save to Drive
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:53:07  [vlc.exe] VLC media player
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 18:53:09  [explorer.exe] Earth bending
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 18:53:11  [vlc.exe] VLC media player
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:53:11  [vlc.exe] Finalest.mp4 - VLC media player
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:53:16  [vlc.exe] VLC media player
+----------------------------------------------------------------------------
+  [LMB]
+   
+
+--- WINDOW  2026/08/17 18:53:17  [vlc.exe] Finalest.mp4 - VLC media player
+----------------------------------------------------------------------------
+      
+
+--- WINDOW  2026/08/17 18:53:23  [vlc.exe] VLC media player
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/17 18:53:24  [vlc.exe] Finalest.mp4 - VLC media player
+----------------------------------------------------------------------------
+    
+
+--- WINDOW  2026/08/17 18:53:29  [vlc.exe] VLC media player
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/17 18:53:29  [vlc.exe] Finalest.mp4 - VLC media player
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/17 18:53:35  [explorer.exe] Earth bending
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 18:53:37  [vlc.exe] VLC media player
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:53:37  [vlc.exe] Final Geo Break.mp4 - VLC media player
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:53:41  [explorer.exe] Earth bending
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:53:43  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:53:43  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
+  [RMB]
+  [MMB]
+  [RMB]
+  [MMB]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 18:54:01  [dwm.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11 (Not Responding)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:54:26  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:54:38  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:54:38  [msedge.exe] (268) Houdini Debris Source - YouTube and 1 more page - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:54:39  [msedge.exe] how debris source node works in houdini - Search - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:54:40  [dwm.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11 (Not Responding)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:54:41  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:54:41  [explorer.exe] Earth bending
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:54:42  [explorer.exe] This PC
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:54:45  [explorer.exe] Elements (D:)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:54:47  [explorer.exe] Mithil
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl][ENTER]
+
+--- WINDOW  2026/08/17 18:54:51  [explorer.exe] RBD Properties
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:54:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:54:54  [explorer.exe] Mithil
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:54:54  [dwm.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11 (Not Responding)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:54:57  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:54:57  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:54:57  [msedge.exe] New tab - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  y[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/17 18:55:01  [dwm.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11 (Not Responding)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:55:12  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:55:12  [msedge.exe] YouTube - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 18:55:16  [msedge.exe] (268) YouTube - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]w
+
+--- WINDOW  2026/08/17 18:55:17  [dwm.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11 (Not Responding)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 18:55:33  [houdini.exe] C:/Users/Mithil/Desktop/New folder/Client/Gauntlet of GODS/Projects/Houdini/Vornoi frac.hip - Houdini FX 21.0.440 - Py3.11
+----------------------------------------------------------------------------
