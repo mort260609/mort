@@ -1,0 +1,556 @@
+﻿
+--- WINDOW  2026/08/17 21:20:35  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:21:43  [(unknown)] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:21:43  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:27:24  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:27:48  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:28:51  [msedge.exe] Connections | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:28:52  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:29:43  [msedge.exe] Connor E. | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  drive.
+
+--- WINDOW  2026/08/17 21:30:11  [msedge.exe] Google Drive and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:30:12  [msedge.exe] Home - Google Drive and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Deep-dive #2, as voted: how I built a complete forex broker platform from scratch — servers, bridges, matching engine, terminals, CRM. The whole stack. 🏗️👇
+  
+  Most "trading platform" projects are integrations — a UI on top of someone else's engine. This was the other thing: building the engine itself, where every bug costs somebody real money.
+  
+  The architecture, layer by layer (video walkthrough below):
+  
+  The servers — C++. Main Trade Server, History Server, Access Server, Backup Server. Separated so that a reporting query can never slow an order, and a crash can never lose the book.
+  
+  The liquidity layer. Custom data-feed repository integrating LP providers, plus MT4/5, LMAX, and PrimeXM bridges. This is where trading platforms quietly die — reconnects, sequence gaps, price sanity checks. The unglamorous 80%.
+  
+  The matching engine + risk dealer. Easy to write. Brutally hard to make correct under concurrency. Price-time priority, partial fills, and a risk dealer deciding what to internalize versus hedge.
+  
+  The terminals. Web, Kotlin Android, Swift iOS, desktop — plus Admin and Manager terminals in Qt. Social and copy trading built on the MT5 Manager API.
+  
+  The broker CRM. KYC, clients, IBs, transactions, trade reports, payment settings, roles, locations, login history, email logs. Boring? Yes. Also where the broker actually lives every day.
+  
+  Three lessons from building it: correctness beats cleverness when money moves. The bridges, not the engine, are where the hard bugs hide. And the backup server you hope is wasted effort is the one that saves the business.
+  
+  I build systems like this end to end — and I'm looking for one serious partnership: a founder, CEO, CTO, or investor with a real market. Remote: US, Germany, Netherlands, Cyprus, Europe.
+  
+  Fintech people: what's the hardest component in a trading stack, in your experience? 👇
+  
+  📩 Telegram @soft_exper · WhatsApp +84 707 039 301
+  [LMB]
+
+--- WINDOW  2026/08/17 21:30:29  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [Clipboard]
+  #Fintech #TradingSystems #SystemDesign #FoundersAndCEOs #SoftwareEngineering
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:30:50  [msedge.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:30:54  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Happy to go deeper on any layer — the matching engine's concurrency model, bridge failover, or how the risk dealer decides to internalize vs hedge. Building in fintech and need someone who's shipped the whole stack? DM me.
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:31:30  [msedge.exe] (1) LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:31:30  [msedge.exe] Connections | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:31:30  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:31:52  [msedge.exe] Connections | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:31:53  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:32:00  [msedge.exe] Grow | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:32:02  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/08/17 21:32:04  [msedge.exe] Grow | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl]
+
+--- WINDOW  2026/08/17 21:32:04  [msedge.exe] Grow | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl]
+
+--- WINDOW  2026/08/17 21:32:05  [msedge.exe] Grow | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:32:06  [msedge.exe] Kathryn S. | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:32:11  [msedge.exe] Jeffrey Prag | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:32:15  [msedge.exe] Rohan Shravan | LinkedIn and 7 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:32:20  [msedge.exe] Jessica L. | LinkedIn and 6 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:32:35  [msedge.exe] Jeffrey Prag | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:32:47  [msedge.exe] Kathryn S. | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:32:58  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:33:35  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:33:49  [msedge.exe] Mao Chen | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:33:56  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://www.linkedin.com/help/linkedin/answer/a9306168
+  [LMB]
+
+--- WINDOW  2026/08/17 21:34:07  [msedge.exe] New tab and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/17 21:34:12  [msedge.exe] Become an AI trainer | LinkedIn Help and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:35:31  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:35:33  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:35:37  [msedge.exe] (7) Discord | @Phúc and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:35:38  [msedge.exe] (1) Discord | @Phúc and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:35:42  [msedge.exe] (1) Discord | @Фук and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:35:57  [msedge.exe] (1) Discord | @Jan and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:35:58  [msedge.exe] • Discord | @Jan and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:36:10  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:47:38  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:47:38  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:47:38  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:47:44  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:47:44  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:47:44  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:49:51  [msedge.exe] Connections | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Hi, How is it going well? I’m a Senior Software Engineer / Full-Stack Developer with 9+ years of experience building scalable, high-performance systems across a wide range of industries.
+  
+  My core expertise lies in backend engineering, where I specialize in C++, PHP, Go, Rust, Python (Flask/Django), Java, and C# .NET. I’ve designed and deployed distributed systems using PostgreSQL, NoSQL, AWS, Docker, and CI/CD pipelines leveraging Kubernetes and Kafka.
+  
+  On the frontend, I bring strong experience with React.js, Next.js, Angular, Vue.js, as well as cross-platform mobile development using Kotlin, Swift, Flutter and React Native.
+  
+  Over the years, I’ve delivered impactful solutions including:
+  • AI platforms (LLM-based chatbots, voice bots, document analysis, video generation, weather forecasting)
+  • Forex & crypto trading systems (including DeFi, DApps, and DEX platforms) 
+  • AI trading platform with indicator engine, risk engine and strategy generation according to symbol
+  • Specific Video Generation engine development without any AI api using.
+  • E-commerce and digital asset management systems
+  • Booking and restaurant management platforms
+  • Healthcare applications
+  • IPTV systems across Web, Android, iOS, LG TV, and Samsung TV
+  • Shipping platforms with integrated payment systems (Payabli, PayFabric)
+  • Social and sports platforms (mobile & web)
+  • Question-Why type systems not like social media
+  • SkyDiving video production with opencv, FFmpeg, yolo, and more.
+  • Social and sports platforms (mobile & web)
+  
+  I enjoy solving complex technical challenges, optimizing system performance, and building reliable, scalable products that deliver real business value.
+  
+  I’m currently open to full-time remote opportunities or collaboration with startups, founders, and engineering teams—particularly in backend-heavy or system design-focused roles.
+  I can comfortably work across US and UK time zones.
+  Let’s connect if you’re building something ambitious or need a strong technical partner.
+  📩 Contact:
+  WhatsApp: +84 0707039301
+  Telegram: @soft_exper
+  Email: giaan9032001@gmail.com
+  LinkedIn: https://www.linkedin.com/in/tran-gia-an-050032218/
+  Thank you.
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:51:14  [msedge.exe] (1) LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:51:14  [msedge.exe] Connections | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:51:15  [msedge.exe] Notifications | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:51:22  [msedge.exe] Connections | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:51:22  [msedge.exe] Post analytics | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:51:25  [msedge.exe] Connections | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:51:26  [msedge.exe] Post | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:51:40  [msedge.exe] Connections | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:51:41  [msedge.exe] Feed | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:52:18  [msedge.exe] Connections | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 21:52:19  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl]
+
+--- WINDOW  2026/08/17 21:52:28  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:52:30  [msedge.exe] Amit Arvind | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:52:35  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/08/17 21:52:50  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+  [Ctrl]
+
+--- WINDOW  2026/08/17 21:52:51  [msedge.exe] Grow | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:52:53  [msedge.exe] Devan Wyka | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:52:57  [msedge.exe] Grow | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:53:00  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:53:02  [msedge.exe] Reginald Alvarez | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:53:05  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:56:35  [msedge.exe] Shawn Muthraja | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:56:45  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:56:50  [msedge.exe] Connections | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 21:56:54  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 21:57:34  [msedge.exe] Feed | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  648609
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 22:12:55  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 22:12:56  [msedge.exe] Notifications | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 22:13:01  [msedge.exe] Grow | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 22:15:02  [msedge.exe] Rohan Mani | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 22:17:38  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 22:17:38  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 22:17:38  [msedge.exe] Rohan Mani | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 22:17:44  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 22:17:44  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 22:17:44  [msedge.exe] Rohan Mani | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  what about mobile and vertical web screens? how to show the image?
+
+--- WINDOW  2026/08/17 22:19:06  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 22:19:06  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 22:19:06  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 22:19:06  [msedge.exe] Rohan Mani | LinkedIn and 3 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
