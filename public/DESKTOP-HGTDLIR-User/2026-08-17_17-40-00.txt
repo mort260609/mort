@@ -1,0 +1,3373 @@
+﻿
+--- WINDOW  2026/08/16 20:52:07  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 20:52:08  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 20:52:10  [chrome.exe] Trade Name Display Issue - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+
+--- WINDOW  2026/08/16 20:52:18  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 20:52:24  [chrome.exe] Trade Name Display Issue - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  The existing application is working correctly overall. **Do not break or unnecessarily modify the existing wallet, trading, P&L, withdrawal, deposit, or settlement logic.**
+  
+  I need three specific changes:
+  
+  ## 1. Fix Incorrect Net Balance
+  
+  In the User Wallet screen, the current Net Balance is incorrect.
+  
+  For example, the screen currently shows:
+  
+  * Available Balance: ₹9,898.66
+  * Realized Profit: ₹10,000
+  * Charges: ₹101.34
+  * Net Balance: ₹19,797.32
+  
+  The Net Balance calculation needs to be reviewed because the same amounts may be getting counted more than once.
+  
+  ### Requirement
+  
+  Audit the existing wallet/balance calculation and identify exactly how:
+  
+  * Cash Ledger
+  * Available Balance
+  * Realized Profit
+  * Realized Loss
+  * Current P&L
+  * Charges
+  * Deposits
+  * Withdrawals
+  * Pending Withdrawals
+  
+  are being used.
+  
+  Make sure the Net Balance represents the **actual account value** and does not double-count profit, cash balance, or charges.
+  
+  Do not simply change the frontend number. Fix the underlying calculation/source of truth.
+  
+  ### Important
+  
+  Do not create a new balance calculation that conflicts with the existing wallet ledger.
+  
+  There must be a single consistent calculation used across:
+  
+  * Wallet
+  * Portfolio
+  * Trade settlement
+  * Withdrawal eligibility
+  * Admin User Profile
+  * Transaction History
+  
+  After fixing it, verify the same balance is consistent everywhere.
+  
+  ---
+  
+  # 2. Reduce Trading Charges
+  
+  The current trading charges are too high.
+  
+  For example, the screenshot shows:
+  
+  **TRADING CHARGES: ₹101.34**
+  
+  I want the trading charge to be **₹10 or less per trade**.
+  
+  ### Requirement
+  
+  Set the maximum trading charge to:
+  
+  **₹10 per trade**
+  
+  or lower if the existing configuration supports a lower amount.
+  
+  The charge must be calculated **per completed trade**, not as an unexpectedly large percentage of the trade value.
+  
+  For example:
+  
+  * 1 trade → maximum ₹10
+  * 2 trades → maximum ₹20
+  * 10 trades → maximum ₹100
+  
+  Do not allow a single trade to generate ₹50, ₹100, ₹500, etc. in charges unless there is an explicitly configured separate fee that already exists.
+  
+  ### Important
+  
+  Before changing the calculation:
+  
+  1. Find the existing trading charge configuration.
+  2. Find where brokerage/fees/GST/other charges are calculated.
+  3. Understand how the current ₹101.34 was generated.
+  4. Modify the minimum required logic/configuration.
+  
+  Do not hardcode the charge in the frontend.
+  
+  The charge must be calculated correctly in the backend/ledger.
+  
+  Also make sure the reduced charge is reflected consistently in:
+  
+  * Wallet
+  * Transaction History
+  * Trade Settlement
+  * Admin User Profile
+  * P&L/Net Balance
+  
+  Do not double-charge the same trade.
+  
+  ---
+  
+  # 3. Add Demo Client With Expiry
+  
+  I also want a proper **Demo Client** system.
+  
+  An Admin should be able to mark/provide an account as a Demo Client and define its expiry date/time.
+  
+  ### Admin Side
+  
+  When creating or configuring a demo client, Admin should be able to select:
+  
+  **Demo Start Date & Time**
+  
+  and
+  
+  **Demo Expiry Date & Time**
+  
+  Example:
+  
+  Demo Start:
+  `16/08/2026 10:00 AM`
+  
+  Demo Expiry:
+  `23/08/2026 11:59 PM`
+  
+  The demo expiry must be stored in the backend/database.
+  
+  ### User Side
+  
+  When the user is a Demo Client:
+  
+  * Clearly show that the account is Demo.
+  * Show the Demo Expiry Date/Time.
+  * Show how much time is remaining, if the existing UI supports it.
+  * The user can use the trading functionality allowed for Demo users.
+  
+  Example:
+  
+  **Demo Account**
+  
+  Expires:
+  `23 Aug 2026, 11:59 PM`
+  
+  ### Automatic Expiry
+  
+  When the Demo Expiry Date/Time is reached:
+  
+  * The Demo account must automatically become expired.
+  * The user must no longer be allowed to perform demo trading.
+  * New demo trades must be blocked.
+  * Demo-specific actions should be disabled.
+  * Existing demo data must remain isolated from real-account data.
+  
+  Do not rely only on the frontend timer for expiry.
+  
+  The backend must validate the expiry before allowing a demo trade.
+  
+  ---
+  
+  # 4. Demo → Real Client Conversion
+  
+  When Admin converts a Demo Client into a Real Client, the demo data must **NOT be carried into the real account**.
+  
+  This is very important.
+  
+  When conversion happens, the user's real account should start clean.
+  
+  ### Demo Data That Must NOT Carry Forward
+  
+  Do not carry demo:
+  
+  * Demo trades
+  * Demo trade history
+  * Demo P&L
+  * Demo profit
+  * Demo loss
+  * Demo wallet balance
+  * Demo deposits
+  * Demo withdrawals
+  * Demo charges
+  * Demo transactions
+  * Demo positions
+  * Demo orders
+  * Demo portfolio values
+  * Demo statistics
+  * Demo realized P&L
+  * Demo unrealized P&L
+  
+  The real account must not show any of the above demo activity.
+  
+  For example:
+  
+  If the user made:
+  
+  `50 Demo Trades`
+  
+  and generated:
+  
+  `₹25,000 Demo Profit`
+  
+  then after converting to Real Client:
+  
+  **Real Trade History = 0**
+  
+  **Real P&L = ₹0**
+  
+  **Real Wallet/Trading Balance = based only on real-account data**
+  
+  The demo activity must not affect the real account.
+  
+  ---
+  
+  # 5. Data Isolation
+  
+  Prefer a proper account-mode/status separation such as:
+  
+  `DEMO`
+  
+  and
+  
+  `REAL`
+  
+  or the equivalent structure already used by the project.
+  
+  Every relevant:
+  
+  * Trade
+  * Order
+  * Transaction
+  * Wallet entry
+  * P&L entry
+  * Position
+  * Charge
+  
+  must be associated with the correct account mode.
+  
+  A Demo transaction must never appear in Real account calculations.
+  
+  A Real transaction must never appear in Demo calculations.
+  
+  ---
+  
+  # 6. Conversion Safety
+  
+  Before implementing the conversion flow, inspect the current database relationships and determine whether Demo and Real data are stored separately.
+  
+  Do not blindly delete the entire user's database record.
+  
+  **Only remove/clear the demo-specific trading and financial data.**
+  
+  Preserve legitimate permanent user information such as:
+  
+  * User account
+  * Login credentials
+  * Profile
+  * KYC information
+  * PAN/Aadhaar information
+  * Bank details
+  * UPI details
+  * Other permanent account information
+  
+  unless the existing business logic explicitly requires otherwise.
+  
+  The goal is:
+  
+  **Convert the same user from Demo → Real while starting the financial/trading side with a clean Real account.**
+  
+  ---
+  
+  # 7. Admin Panel
+  
+  On the Admin User Profile, clearly show:
+  
+  **Account Type: DEMO / REAL**
+  
+  For Demo users show:
+  
+  * Demo Start Date
+  * Demo Expiry Date
+  * Demo Status
+  * Remaining Time/Days, if available
+  * Convert to Real Client action
+  
+  After conversion:
+  
+  **Account Type: REAL**
+  
+  and all Demo trading/financial statistics should no longer appear in the Real account.
+  
+  ---
+  
+  # 8. Important Rules
+  
+  Do not:
+  
+  * Break existing trading execution.
+  * Change BUY/SELL behavior.
+  * Change symbol/instrument mapping.
+  * Change existing withdrawal functionality.
+  * Change existing deposit functionality unnecessarily.
+  * Double-count P&L.
+  * Double-count charges.
+  * Carry Demo P&L into Real.
+  * Carry Demo balance into Real.
+  * Use frontend-only expiry validation.
+  * Hardcode demo expiry dates.
+  * Hardcode trading charges in the UI.
+  
+  First inspect the existing architecture, database schema, wallet ledger, trade settlement logic, charge calculation, and user account model.
+  
+  Then make the **minimum required changes**.
+  
+  ---
+  
+  # Final Testing
+  
+  Test all of the following:
+  
+  ### Wallet
+  
+  * Deposit
+  * Profit
+  * Loss
+  * Charges
+  * Withdrawal
+  * Net Balance
+  * Available Balance
+  
+  Verify that all values are mathematically consistent.
+  
+  ### Charges
+  
+  Test:
+  
+  * 1 trade → charge ≤ ₹10
+  * 2 trades → total charge ≤ ₹20
+  * 10 trades → total charge ≤ ₹100
+  
+  Verify that one trade is never charged multiple times.
+  
+  ### Demo
+  
+  1. Create Demo Client.
+  2. Set Demo Expiry Date/Time.
+  3. Place demo trades.
+  4. Verify Demo P&L and Demo balance.
+  5. Wait/reach expiry.
+  6. Verify new Demo trades are blocked.
+  7. Convert Demo → Real.
+  8. Verify Demo trades are not visible in Real Trade History.
+  9. Verify Demo P&L is not included in Real P&L.
+  10. Verify Demo balance is not included in Real balance.
+  11. Verify Demo charges are not included in Real charges.
+  12. Verify the Real account starts with clean financial/trading data.
+  
+  The final result should be:
+  
+  **Correct Net Balance + Maximum ₹10 per trade charge + Proper Demo Expiry + Clean Demo-to-Real Conversion without carrying any Demo financial/trading data into the Real account.**
+  
+
+--- WINDOW  2026/08/16 20:52:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 20:52:41  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 20:52:41  [chrome.exe] (22) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 20:52:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 20:52:42  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026/08/16 20:52:44  [Cursor.exe] docker-compose.dev.yml - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  v[ENTER]
+
+--- WINDOW  2026/08/16 21:03:08  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:03:08  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:03:08  [Cursor.exe] docker-compose.dev.yml - khushboo-project - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:03:12  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:03:12  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:03:14  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:03:14  [Cursor.exe] docker-compose.dev.yml - khushboo-project - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:05:05  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:05:05  [chrome.exe] (22) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  RAJYO TECHNOLOGY
+  c
+  [LMB]
+
+--- WINDOW  2026/08/16 21:05:15  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:05:16  [Cursor.exe] docker-compose.dev.yml - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 21:05:17  [chrome.exe] (22) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 21:05:20  [chrome.exe] Trade Name Display Issue - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 21:05:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:05:24  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:05:24  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 21:05:24  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:05:24  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:05:24  [explorer.exe] new-client - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  v[ENTER]
+
+--- WINDOW  2026/08/16 21:05:39  [chrome.exe] Trade Name Display Issue - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 21:05:43  [chrome.exe] (22) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  🚀 RAJYO TECHNOLOGY
+  
+  🌐 Demo: https://ngo.rajyo.in/
+  🔑 Admin Login
+  Username: admin
+  Password: admin123
+  
+  🚀 DIGITAL NGO SOFTWARE 3.0
+  
+  ✨ Complete Digital Solution for NGO, Trust, Society & Foundation
+  
+  अब अपनी संस्था की Website, Membership, Donation, Certificates, Projects, Events, Expenses और सभी महत्वपूर्ण कार्यों को एक ही Advanced Software से Manage करें।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  📌 WEBSITE SETUP & INTEGRATION SERVICES
+  
+  1. 🌐 .in Domain Setup
+     Domain आपके नाम एवं आपकी ID से Purchase किया जाएगा, जिससे Domain का पूरा अधिकार हमेशा आपके पास रहेगा।
+  2. 🔐 SSL Certificate Installation
+     Website पर Secure HTTPS Browsing के लिए SSL Certificate लगाया जाएगा।
+  3. 📧 Business Email IDs
+     संस्था के नाम से 2 Official Business Email IDs उपलब्ध कराई जाएंगी।
+  4. 🌍 Multi-Language Website
+     Main Website को किसी भी भाषा में Translate करने की सुविधा उपलब्ध रहेगी।
+  5. 📱 Responsive Website
+     Website Mobile, Tablet, Laptop एवं Desktop सभी Devices पर सही तरीके से दिखाई देगी।
+  6. 🔳 Website QR Code
+     Website का QR Code उपलब्ध कराया जाएगा, जिसे Poster, Banner, Visiting Card, Social Media एवं Events में इस्तेमाल किया जा सकेगा।
+  7. ✍️ Unique Content Creation
+     Website के लिए आवश्यक Unique एवं Professional Content हमारी टीम द्वारा तैयार किया जाएगा।
+  8. 🔗 Social Media Integration
+     Facebook, Instagram, YouTube, LinkedIn एवं अन्य Social Media Links Website से जोड़े जाएंगे।
+  9. 💬 WhatsApp Chat & Call Button
+     Website से Direct WhatsApp Chat एवं Calling की सुविधा उपलब्ध रहेगी।
+  10. 📧 Automatic Email Notifications
+      Website पर होने वाले महत्वपूर्ण Actions की Automatic Email Notification भेजी जाएगी।
+  11. 📩 Quick Enquiry Form
+      Visitors Website से सीधे Enquiry भेज सकेंगे।
+  12. 📜 Donation History
+      Donor अपने द्वारा किए गए सभी Donations की Date, Amount, Purpose एवं Receipt एक ही जगह देख सकेगा।
+  ━━━━━━━━━━━━━━━━━━
+  
+  👥 MEMBERSHIP MANAGEMENT MODULE
+  
+  1. 📝 संस्था में Online Membership लेने के लिए Registration Form उपलब्ध रहेगा।
+  2. 🏅 सदस्य Registration के समय अपनी पसंद का Designation चुन सकेगा।
+  3. 💳 प्रत्येक Designation के अनुसार अलग Membership Fee निर्धारित की जा सकेगी।
+  4. 🧾 Membership Fee जमा होने के बाद Automatic Membership Receipt जारी होगी।
+  5. 🔳 Membership Receipt में QR Code उपलब्ध रहेगा।
+  6. 📧 Membership Receipt Automatic Email पर भेजी जाएगी।
+  7. 📥 सदस्य Receipt को PDF में Download कर सकेगा।
+  8. 🪪 सदस्य का Professional ID Card जारी किया जा सकेगा।
+  9. 🔍 ID Card में QR Code रहेगा, जिसे Scan करके Verify किया जा सकेगा।
+  10. 📄 सदस्य का Appointment Letter जारी किया जा सकेगा।
+  11. 🔳 Appointment Letter में QR Verification की सुविधा उपलब्ध रहेगी।
+  12. 🎓 सदस्य का Membership Certificate जारी किया जा सकेगा।
+  13. 🔍 Certificate को QR Code Scan करके Verify किया जा सकेगा।
+  14. 🔗 प्रत्येक सदस्य को अपना Membership Referral Link मिलेगा।
+  15. 👥 Admin देख सकेगा कि किस सदस्य ने कितने नए Members जोड़े हैं।
+  16. 🤝 प्रत्येक सदस्य को Donation Referral Link दिया जाएगा।
+  17. 💰 Admin देख सकेगा कि किस Member ने संस्था के लिए कितना Donation Collect कराया है।
+  18. 🎂 सदस्य के Birthday पर Automatic Birthday Wish Dashboard एवं Email पर भेजी जाएगी।
+  19. 💬 Admin किसी एक Member या सभी Members को एक साथ Message भेज सकेगा।
+  20. 📧 Message Member के Dashboard एवं Email दोनों पर प्राप्त होगा।
+  21. 🚫 Member Block / Unblock
+      Admin किसी भी Member की Membership को Block या Unblock कर सकेगा।
+  22. 📊 सभी Members की Complete Reports एवं Records उपलब्ध रहेंगे।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  🏛️ MANAGEMENT BODY MANAGEMENT FEATURE – NEW
+  
+  1. संस्था की Management Body, Core Team एवं Executive Members की जानकारी Website पर दिखाई जा सकेगी।
+  2. प्रत्येक सदस्य का:
+  
+  * नाम
+  * फोटो
+  * पद
+  * संक्षिप्त परिचय
+  
+  जोड़ने की सुविधा उपलब्ध रहेगी।
+  
+  3. सभी Members Website के Professional Management Team Section में दिखाई देंगे।
+  4. Admin किसी भी Team Member को Add, Edit या Delete कर सकेगा।
+  5. यह Section Mobile एवं Desktop दोनों पर Responsive रहेगा।
+  6. इससे संस्था की Transparency एवं Visitors का Trust बढ़ेगा।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  🏅 MEMBER ACHIEVEMENT CERTIFICATE FEATURE
+  
+  1. अच्छा कार्य करने वाले Members को Achievement Certificate जारी किया जा सकेगा।
+  2. Certificate में QR Code Verification उपलब्ध रहेगा।
+  3. Certificate को QR Scan करके Online Verify किया जा सकेगा।
+  4. Generated Certificate Member के Email पर Automatic भेजा जाएगा।
+  5. सभी Certificates का Record Admin Panel में सुरक्षित रहेगा।
+  ━━━━━━━━━━━━━━━━━━
+  
+  👤 VISITOR CERTIFICATE GENERATION FEATURE
+  
+  1. Non-Members एवं Visitors को भी Certificate जारी किया जा सकेगा।
+  2. Certificate सीधे Recipient के Email पर भेजा जा सकेगा।
+  3. सभी Issued Certificates का Record Admin Panel में सुरक्षित रहेगा।
+  4. Certificate के लिए 6 Professional Templates उपलब्ध रहेंगी।
+  5. प्रत्येक Certificate में QR Code Verification उपलब्ध रहेगा।
+  6. Certificate को PDF में Download एवं Print किया जा सकेगा।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  💰 DONATION MANAGEMENT MODULE
+  
+  1. 💳 Website से Online Donation Receive करने की सुविधा।
+  2. 💵 Admin Panel से Cash Donation दर्ज करने की सुविधा।
+  3. 🏦 Bank Transfer, UPI एवं अन्य माध्यम से प्राप्त Donation की Entry करने की सुविधा।
+  4. 🧾 प्रत्येक Donation की Professional Receipt तैयार होगी।
+  5. 🔳 Donation Receipt में QR Code Verification उपलब्ध रहेगा।
+  6. 📧 Donation होते ही Receipt Donor के Email पर Automatic भेजी जाएगी।
+  7. 📥 Donor Receipt को PDF में Download कर सकेगा।
+  8. 📊 Online, Cash, UPI एवं Bank Donations की अलग-अलग Reports उपलब्ध रहेंगी।
+  9. 🔍 Donor Name, Mobile Number, Date एवं Receipt Number से Donation Search किया जा सकेगा।
+  10. 📜 Donor अपनी Complete Donation History देख सकेगा।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  🔄 AUTO PAY DONATION MANAGEMENT FEATURE – NEW
+  
+  1. Donor हर महीने निश्चित राशि का Recurring Donation शुरू कर सकेगा।
+  2. केवल एक बार Setup करने के बाद निर्धारित तारीख पर Donation Automatic संस्था के खाते में जमा होगा।
+  3. प्रत्येक सफल Transaction के बाद Automatic Donation Receipt Email पर भेजी जाएगी।
+  4. Admin Panel में सभी Auto Pay Donations का पूरा Record उपलब्ध रहेगा।
+  5. Donor Auto Donation को Start, Pause या Stop कर सकेगा।
+  6. आवश्यकता पड़ने पर Admin भी Auto Donation Disable कर सकेगा।
+  7. सभी Payments Secure Payment Gateway के माध्यम से Process होंगे।
+  8. Failed एवं Successful Auto Payments का Status Track किया जा सकेगा।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  📦 OTHER DONATION MANAGEMENT FEATURE – NEW
+  
+  इस Module में पैसे के अलावा प्राप्त होने वाली वस्तुओं का पूरा Record रखा जा सकेगा।
+  
+  जैसे:
+  
+  * कपड़े
+  * राशन
+  * पुस्तकें
+  * दवाइयां
+  * स्टेशनरी
+  * कंबल
+  * व्हीलचेयर
+  * भोजन सामग्री
+  * अन्य उपयोगी वस्तुएं
+  
+  1. प्रत्येक Item का Name, Quantity, Estimated Value एवं Donation Date दर्ज की जा सकेगी।
+  2. Item Donation की Digital Receipt तैयार की जा सकेगी।
+  3. Receipt Donor के Email पर भेजी जा सकेगी।
+  4. Category Wise एवं Date Wise Reports उपलब्ध रहेंगी।
+  5. किसी भी पुराने Item Donation को आसानी से Search किया जा सकेगा।
+  6. सभी Donated Items का Digital Record सुरक्षित रहेगा।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  👨‍💼 COORDINATOR MANAGEMENT FEATURE – NEW
+  
+  1. Admin संस्था के लिए एक या एक से अधिक Coordinators बना सकेगा।
+  2. Coordinator घर-घर जाकर Donation Collection, Membership एवं Social Activities कर सकेगा।
+  3. प्रत्येक Coordinator का अलग Login एवं Dashboard उपलब्ध कराया जा सकेगा।
+  4. Coordinator द्वारा Collect किए गए Donation का Complete Record उपलब्ध रहेगा।
+  5. Coordinator Wise Collection Report उपलब्ध रहेगी।
+  6. Daily, Weekly एवं Monthly Reports देखी जा सकेंगी।
+  7. किस Coordinator ने कितने Donors एवं Members जोड़े हैं, इसकी जानकारी उपलब्ध रहेगी।
+  8. Admin प्रत्येक Coordinator की Performance Track कर सकेगा।
+  9. Coordinator की Complete Activity History सुरक्षित रहेगी।
+  10. Coordinator द्वारा बनाई गई Donation Receipt का Record उपलब्ध रहेगा।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  🤝 BENEFICIARY MANAGEMENT MODULE
+  
+  1. संस्था से जुड़े सभी Beneficiaries का पूरा Digital Record सुरक्षित रखा जा सकेगा।
+  2. नए Beneficiary का Name, Address, Contact एवं आवश्यक जानकारी दर्ज की जा सकेगी।
+  3. Beneficiary की जानकारी कभी भी Edit एवं Update की जा सकेगी।
+  4. किस Beneficiary को कब और किस प्रकार की सहायता दी गई, उसका पूरा History Record उपलब्ध रहेगा।
+  5. Name एवं Location के अनुसार Fast Search एवं Filter सुविधा उपलब्ध रहेगी।
+  6. Beneficiary Reports Generate की जा सकेंगी।
+  7. Reports PDF एवं Excel में Download की जा सकेंगी।
+  8. Beneficiary Data पूरी तरह Secure एवं Confidential रहेगा।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  💳 MULTIPLE PAYMENT GATEWAY FEATURE
+  
+  1. संस्था अपनी सुविधा अनुसार Multiple Payment Gateways में से किसी एक का चयन कर सकेगी।
+  2. उपलब्ध Payment Gateway Options:
+  * PhonePe
+  * Razorpay
+  * PayU Money
+  * अन्य Supported Gateways
+  
+  3. Admin किसी भी Payment Gateway को Activate या Change कर सकेगा।
+  4. Transactions Secure एवं Encrypted रहेंगे।
+  5. Payment का Real-Time Status Admin Panel में दिखाई देगा।
+  6. Successful, Pending एवं Failed Payments का अलग Record उपलब्ध रहेगा।
+  7. Payment Gateway बदलने के लिए अतिरिक्त Software Development Charge नहीं लिया जाएगा।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  🤲 CROWD FUNDING MANAGEMENT MODULE
+  
+  1. संस्था Multiple Fundraising Campaigns Launch कर सकेगी।
+  2. प्रत्येक Campaign के लिए Goal Amount Set किया जा सकेगा।
+  3. Campaign की Start Date एवं End Date निर्धारित की जा सकेगी।
+  4. Campaign का Description, Images एवं उद्देश्य Website पर दिखाया जा सकेगा।
+  5. प्रत्येक Donor के Contribution का पूरा Record उपलब्ध रहेगा।
+  6. प्रत्येक Donation पर Automatic Receipt Email पर भेजी जाएगी।
+  7. Eligible संस्थाओं के लिए 80G Receipt जारी करने की सुविधा उपलब्ध रहेगी।
+  8. Campaign Progress Bar Real-Time में Fund Collection दिखाएगा।
+  9. Multiple Payment Gateways से Donation लिया जा सकेगा।
+  10. Donor अपनी Donation History एवं Receipt Download कर सकेगा।
+  11. Admin को Total Collection, Pending Goal एवं Donors की Analytics मिलेगी।
+  12. Completed एवं Active Campaigns का अलग-अलग Record उपलब्ध रहेगा।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  🌟 ACTIVITY POST MANAGEMENT MODULE
+  
+  1. NGO की Activities की Photos एवं Captions Upload किए जा सकेंगे।
+  2. Website पर Facebook जैसी Dynamic Activity Feed उपलब्ध रहेगी।
+  3. Visitors संस्था के Real-Time कार्यों को देख सकेंगे।
+  4. Admin किसी भी Activity Post को Add, Edit या Delete कर सकेगा।
+  5. Activities Mobile एवं Desktop दोनों पर आकर्षक तरीके से दिखाई देंगी।
+  6. इस Feature से संस्था की Transparency एवं Public Engagement बढ़ेगी।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  📂 PROJECT MANAGEMENT FEATURE
+  
+  1. संस्था नए Projects Create कर सकेगी।
+  2. प्रत्येक Project का Name, Description, Start Date एवं End Date दर्ज किया जा सकेगा।
+  3. Project में प्राप्त Funds का Record उपलब्ध रहेगा।
+  4. Project पर किए गए Expenses का Complete Record सुरक्षित रहेगा।
+  5. Donors को दिखाया जा सकेगा कि Donation का उपयोग कहां किया गया।
+  6. Project Wise Income एवं Expense Report उपलब्ध रहेगी।
+  7. Admin Real-Time Project Progress Track कर सकेगा।
+  8. Project Reports PDF एवं Excel में Download की जा सकेंगी।
+  9. इससे संस्था में Complete Accountability एवं Transparency बनी रहेगी।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  🎉 EVENT MANAGEMENT FEATURE
+  
+  1. Blood Donation Camp, Health Camp एवं अन्य Social Events बनाए जा सकेंगे।
+  2. Events Website पर Publish किए जा सकेंगे।
+  3. Participants Website से Online Registration कर सकेंगे।
+  4. Paid Event के लिए Registration Fee Collect की जा सकेगी।
+  5. Event Registration Receipt Automatic जारी होगी।
+  6. Admin Event के सभी Registered Participants देख सकेगा।
+  7. Event की Date, Venue, Timing एवं Complete Details Manage की जा सकेंगी।
+  8. सभी Events का Record Future Reference के लिए सुरक्षित रहेगा।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  🎓 INTERNSHIP MANAGEMENT FEATURE
+  
+  1. संस्था नए Internship Programs Launch कर सकेगी।
+  2. Students Website से Online Apply कर सकेंगे।
+  3. Student Registration एवं Payment का Record उपलब्ध रहेगा।
+  4. Internship Complete होने पर Completion Certificate जारी किया जा सकेगा।
+  5. Certificate Student के Email पर Automatic भेजा जाएगा।
+  6. Certificate में QR Code Verification उपलब्ध रहेगा।
+  7. सभी Internship Applications एवं Certificates का Record सुरक्षित रहेगा।
+  8. Internship Data Future Reference एवं Reports के लिए उपलब्ध रहेगा।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  💸 EXPENSE MANAGEMENT FEATURE
+  
+  1. संस्था के सभी Expenses का Digital Record रखा जा सकेगा।
+  2. Category Wise Expenses दर्ज किए जा सकेंगे।
+  
+  जैसे:
+  
+  * Travel
+  * Events
+  * Utilities
+  * Staff
+  * Office
+  * Project Expense
+  * अन्य खर्च
+  
+  3. प्रत्येक Expense की Date, Amount एवं Purpose दर्ज किया जा सकेगा।
+  4. Expense से संबंधित Bill एवं Document Upload किए जा सकेंगे।
+  5. Income vs Expense Balance Report Automatic Generate होगी।
+  6. Expense Reports PDF एवं Excel में Download की जा सकेंगी।
+  7. Date Wise एवं Category Wise Filter उपलब्ध रहेगा।
+  8. इससे Complete Financial Transparency बनी रहेगी।
+  ━━━━━━━━━━━━━━━━━━
+  
+  🏅 DESIGNATION MANAGEMENT FEATURE
+  
+  1. Admin अलग-अलग Designations बना सकेगा।
+  
+  जैसे:
+  
+  * Member
+  * Volunteer
+  * Coordinator
+  * District President
+  * State President
+  * अन्य पद
+  
+  2. प्रत्येक Designation के लिए अलग Membership Fee Set की जा सकेगी।
+  3. Registration के समय Member अपनी पसंद का Designation चुन सकेगा।
+  4. Admin किसी भी Designation को Add, Edit या Delete कर सकेगा।
+  5. Designation Wise Members की Listing एवं Reports उपलब्ध रहेंगी।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  📄 LETTER HEAD MANAGEMENT FEATURE – NEW
+  
+  1. Admin संस्था के Official Letter Head पर अलग-अलग Letters तैयार कर सकेगा।
+  2. संस्था के Logo, Name, Address एवं Contact Details के साथ Professional Letter Head उपलब्ध रहेगा।
+  3. Letter का Subject एवं Complete Content लिखा जा सकेगा।
+  4. Letter भेजने से पहले Edit एवं Preview किया जा सकेगा।
+  5. तैयार Letter को संबंधित व्यक्ति के Email पर भेजा जा सकेगा।
+  6. सभी Generated Letters का Record Admin Panel में सुरक्षित रहेगा।
+  7. Letter को PDF Format में Download एवं Print किया जा सकेगा।
+  
+  8. अलग-अलग प्रकार के Official Letters तैयार किए जा सकेंगे।
+  ━━━━━━━━━━━━━━━━━━
+  
+  📰 NEWS MANAGEMENT MODULE
+  
+  1. संस्था से जुड़ी News एवं Updates Website पर Publish की जा सकेंगी।
+  2. News के साथ Image, Title, Description एवं Date जोड़ी जा सकेगी।
+  3. Admin किसी भी News को Edit या Delete कर सकेगा।
+  4. सभी News Main Website एवं User Dashboard पर दिखाई देंगी।
+  5. Visitors संस्था के Latest Updates से जुड़े रहेंगे।
+  ━━━━━━━━━━━━━━━━━━
+  
+  📢 COMPLAINT MANAGEMENT FEATURE – NEW
+  
+  1. कोई भी व्यक्ति Website के माध्यम से Complaint या Suggestion Submit कर सकेगा।
+  2. Complaint Submit होते ही उसकी जानकारी Admin Panel में प्राप्त होगी।
+  3. प्रत्येक Complaint का Unique Reference Number Generate किया जा सकेगा।
+  4. Admin Complaint का Status Update कर सकेगा:
+  
+  * Pending
+  * In Progress
+  * On Hold
+  * Resolved
+  
+  5. Complaint करने वाले व्यक्ति को Status Update Email एवं Dashboard पर प्राप्त होगा।
+  6. Admin Complaint का Direct Reply भेज सकेगा।
+  7. सभी Complaints एवं Replies का Complete Record सुरक्षित रहेगा।
+  8. Complaint Wise Reports एवं Analytics उपलब्ध रहेंगी।
+  9. पुराने Complaints को Search एवं Filter किया जा सकेगा।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  📩 ENQUIRY MANAGEMENT FEATURE
+  
+  1. Website से आने वाली सभी Enquiries Admin Panel में दिखाई देंगी।
+  2. Enquiry Submit करने वाले व्यक्ति को Automatic Email Response भेजा जाएगा।
+  3. Admin Panel से Direct Reply भेजा जा सकेगा।
+  4. Admin का Reply User के Email पर प्राप्त होगा।
+  5. सभी Enquiries का Record Future Reference के लिए सुरक्षित रहेगा।
+  6. पुरानी Enquiries को Search एवं Filter किया जा सकेगा।
+  7. Enquiry Status एवं Follow-Up Manage किया जा सकेगा।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  📑 CUSTOM RECEIPT FEATURE
+  
+  1. Admin किसी भी प्रकार की Custom Receipt तैयार कर सकेगा।
+  2. Receipt में निम्न जानकारी दर्ज की जा सकेगी:
+  
+  * व्यक्ति का नाम
+  * राशि
+  * तारीख
+  * उद्देश्य
+  * Payment Method
+  * Transaction Details
+  
+  3. Receipt में QR Code उपलब्ध रहेगा।
+  4. तैयार Receipt सीधे संबंधित व्यक्ति के Email पर भेजी जा सकेगी।
+  5. Receipt PDF में Download एवं Print की जा सकेगी।
+  6. सभी Custom Receipts का Record सुरक्षित रहेगा।
+  
+  ━━━━━━━━━━━━━━━━━━
+  
+  🧾 RECEIPT MANAGEMENT FEATURE
+  
+  सभी प्रकार की Receipts एक ही जगह उपलब्ध रहेंगी:
+  * Membership Payment Receipt
+  * Online Donation Receipt
+  * Cash Donation Receipt
+  * UPI एवं Bank Donation Receipt
+  * Event Registration Receipt
+  * Internship Payment Receipt
+  * Crowd Funding Receipt
+  * Coordinator Donation Receipt
+  * Other Item Donation Receipt
+  * Custom Receipt
+  
+  1. सभी Receipts को Search एवं Filter किया जा सकेगा।
+  2. Receipt को PDF में Download किया जा सकेगा।
+  3. Receipt Email पर दोबारा भेजी जा सकेगी।
+  4. सभी Receipts का Complete Digital Record उपलब्ध रहेगा।
+  ━━━━━━━━━━━━━━━━━━
+  
+  📊 REPORT MANAGEMENT FEATURE
+  
+  1. सभी प्रकार की Reports PDF एवं Excel Format में Download की जा सकेंगी।
+  2. Dashboard पर Real-Time Analytics उपलब्ध रहेगा।
+  3. निम्न Reports उपलब्ध रहेंगी:
+  * Membership Reports
+  * Donation Reports
+  * Coordinator Reports
+  * Beneficiary Reports
+  * Project Reports
+  * Expense Reports
+  * Event Reports
+  * Internship Reports
+  * Crowd Funding Reports
+  * Auto Pay Donation Reports
+  * Other Donation Reports
+  * Complaint Reports
+  * Payment Reports
+  
+  4. Date Wise Reports उपलब्ध रहेंगी।
+  
+  5. Category Wise Reports उपलब्ध रहेंगी।
+  6. User एवं Coordinator Wise Reports उपलब्ध रहेंगी।
+  7. Daily, Weekly, Monthly एवं Yearly Reports देखी जा सकेंगी।
+  8. सभी महत्वपूर्ण Records को एक Click में Export किया जा सकेगा।
+  ━━━━━━━━━━━━━━━━━━
+  
+  🔐 SECURITY & DATA MANAGEMENT
+  
+  ✅ Secure Admin Panel
+  ✅ Role-Based Access
+  ✅ Secure Payment Processing
+  ✅ SSL Protected Website
+  ✅ Data Backup Support
+  ✅ Complete Activity Records
+  ✅ Search एवं Filter System
+  ✅ Mobile Friendly Dashboard
+  ✅ Real-Time Notifications
+  ✅ Automatic Email System
+  [LMB]
+
+--- WINDOW  2026/08/16 21:06:01  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:06:01  [chrome.exe] Trade Name Display Issue - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:06:03  [chrome.exe] (22) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:06:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:06:06  [explorer.exe] new-client - File Explorer
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 21:06:10  [explorer.exe] RAJYO TECHNOLOGY - File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:06:12  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:06:12  [explorer.exe] RAJYO TECHNOLOGY - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  requremnt.txt[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/16 21:06:32  [explorer.exe] requremnt.txt - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 21:06:41  [explorer.exe] RAJYO TECHNOLOGY - File Explorer
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [Del]
+
+--- WINDOW  2026/08/16 21:06:57  [explorer.exe] Delete Folder
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:06:57  [explorer.exe] RAJYO TECHNOLOGY - File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:07:00  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:07:00  [Cursor.exe] docker-compose.dev.yml - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  n
+
+--- WINDOW  2026/08/16 21:07:20  [Cursor.exe] Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 21:07:28  [Cursor.exe] Open Folder
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 21:07:36  [Cursor.exe] Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:07:38  [Cursor.exe] RAJYO TECHNOLOGY - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:07:44  [Cursor.exe] ● 🚀 RAJYO TECHNOLOGY • Untitled-1 - RAJYO TECHNOLOGY - Cursor
+----------------------------------------------------------------------------
+  s
+
+--- WINDOW  2026/08/16 21:07:47  [Cursor.exe] Save As
+----------------------------------------------------------------------------
+  [Bk]reeurem[Bk][Bk][Bk][Bk][Bk]quremnt[ENTER]
+
+--- WINDOW  2026/08/16 21:08:00  [Cursor.exe] requremnt.ini - RAJYO TECHNOLOGY - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  accc
+
+--- WINDOW  2026/08/16 21:08:21  [Cursor.exe] docker-compose.dev.yml - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 21:08:22  [chrome.exe] Trade Name Display Issue - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 21:08:25  [chrome.exe] ChatGPT: Chat, Work, Create & Code with AI - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:08:25  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  vye meri client ki requrement hai mujhe sae ye [Bk] banana hai wo bji [Bk][Bk][Bk]hi next jes [Bk][Bk][Bk]s or nok[Bk]de.js tu[Bk]ypes[Bk] sripts [<-][<-][<-][<-][<-][<-]c[->][->][->][->][->] mongodb use kr ke or cursor k[Bk]pr prompt bana kr d [Bk]o mujhe [ENTER]
+
+--- WINDOW  2026/08/16 21:09:40  [chrome.exe] Next.js Node.js MongoDB Script - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 21:09:40  [chrome.exe] (1) Discord | @qazxsw - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 21:09:49  [chrome.exe] (1) Discord | @Nora Rose - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 21:09:52  [chrome.exe] (1) Discord | #hire | Gold Job - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/16 21:10:08  [chrome.exe] (1) Discord | #general | Gold Job - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:10:11  [chrome.exe] • Discord | #general | Gold Job - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:10:22  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:10:22  [Cursor.exe] docker-compose.dev.yml - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  cd [Tab][ENTER]
+  git ass[Bk][Bk]dd .[ENTER]
+  gt[Bk]it commit -m 'code fix'[ENTER]
+  git puy[Bk]us[Bk][Bk]sh origin'[Bk][ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/16 21:11:06  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:11:06  [chrome.exe] • Discord | #general | Gold Job - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 21:11:09  [chrome.exe] NGO Management System Prompt - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  # NGO DIGITAL MANAGEMENT SOFTWARE — MASTER DEVELOPMENT PROMPT
+  
+  You are a senior full-stack architect and developer.
+  
+  Build a production-ready **Digital NGO / Trust / Society / Foundation Management Platform** based strictly on the client requirements provided in this project.
+  
+  The reference requirement contains:
+  
+  * Public NGO website
+  * Admin panel
+  * Member portal
+  * Coordinator dashboard
+  * Donations
+  * Membership
+  * Certificates
+  * QR verification
+  * Projects
+  * Events
+  * Internship
+  * Expenses
+  * Beneficiaries
+  * Complaints
+  * Enquiries
+  * News
+  * Reports
+  * Payment gateways
+  * Auto-pay donations
+  * Other-item donations
+  * Letter head management
+  * Receipt management
+  * Notifications
+  * Role-based access
+  * Security and activity logs
+  
+  IMPORTANT:
+  Do NOT build a fake/demo-only UI.
+  Do NOT use hardcoded data for the actual application.
+  Do NOT create placeholder buttons that do nothing.
+  Every major feature must have working frontend + backend + database integration.
+  
+  ==================================================
+  
+  1. TECHNOLOGY STACK
+     ==================================================
+  
+  Frontend:
+  
+  * Next.js latest stable version
+  * TypeScript
+  * App Router
+  * React
+  * Tailwind CSS
+  * shadcn/ui or equivalent professional component system
+  * React Hook Form
+  * Zod validation
+  * TanStack Query where appropriate
+  * Responsive design
+  * Server Components where useful
+  * Client Components only where required
+  
+  Backend:
+  
+  * Node.js
+  * TypeScript
+  * Express.js
+  * REST API architecture
+  * MongoDB
+  * Mongoose
+  * JWT authentication
+  * Refresh token mechanism
+  * bcrypt/argon2 password hashing
+  * Role Based Access Control
+  
+  Architecture:
+  
+  /apps
+  /web
+  /api
+  
+  /packages
+  /types
+  /config
+  /utils
+  
+  OR use a clean equivalent monorepo architecture.
+  
+  The frontend and backend must be independently deployable.
+  
+  ==================================================
+  2. DATABASE
+  ===========
+  
+  Use MongoDB with Mongoose.
+  
+  Create properly normalized/document-oriented schemas for:
+  
+  User
+  Member
+  Designation
+  ManagementTeam
+  Membership
+  MembershipPayment
+  Donation
+  DonationReceipt
+  AutoPayDonation
+  OtherDonation
+  Coordinator
+  CoordinatorActivity
+  Beneficiary
+  Campaign
+  Project
+  ProjectFund
+  ProjectExpense
+  Expense
+  Event
+  EventRegistration
+  Internship
+  InternshipApplication
+  Certificate
+  CertificateTemplate
+  Complaint
+  ComplaintReply
+  Enquiry
+  News
+  ActivityPost
+  Letter
+  CustomReceipt
+  PaymentTransaction
+  Notification
+  EmailLog
+  Message
+  Referral
+  ReferralCommission/Tracking
+  AuditLog
+  OrganizationSettings
+  WebsiteSettings
+  SocialLinks
+  ContactSettings
+  ReportExport
+  FileUpload
+  
+  Use:
+  
+  * createdAt
+  * updatedAt
+  * createdBy
+  * updatedBy
+  
+  where appropriate.
+  
+  Use indexes for:
+  
+  * email
+  * mobile
+  * receiptNumber
+  * membershipNumber
+  * certificateNumber
+  * referenceNumber
+  * transactionId
+  * QR verification ID
+  * dates
+  * status
+  * campaign/project IDs
+  
+  Avoid duplicate records and race conditions.
+  
+  ==================================================
+  3. AUTHENTICATION
+  =================
+  
+  Implement complete authentication.
+  
+  Roles:
+  
+  SUPER_ADMIN
+  ADMIN
+  COORDINATOR
+  MEMBER
+  DONOR
+  USER
+  
+  Admin must be able to create/manage users and assign roles.
+  
+  Features:
+  
+  * Login
+  * Logout
+  * Register
+  * Forgot password
+  * Reset password
+  * Email verification
+  * Refresh token
+  * Password hashing
+  * Session/token expiration
+  * Protected API routes
+  * Protected Next.js routes
+  * Role-based route protection
+  * Account block/unblock
+  
+  Never store plain-text passwords.
+  
+  ==================================================
+  4. ADMIN DASHBOARD
+  ==================
+  
+  Create a professional admin dashboard.
+  
+  Dashboard cards:
+  
+  * Total Members
+  * Active Members
+  * Blocked Members
+  * Total Donations
+  * Today's Donations
+  * Monthly Donations
+  * Total Expenses
+  * Total Projects
+  * Active Campaigns
+  * Total Beneficiaries
+  * Total Coordinators
+  * Total Events
+  * Pending Complaints
+  * Pending Enquiries
+  * AutoPay Donations
+  * Recent Transactions
+  
+  Charts:
+  
+  * Donation trend
+  * Expense trend
+  * Income vs Expense
+  * Membership growth
+  * Campaign progress
+  * Coordinator performance
+  * Monthly collection
+  * Payment status
+  
+  Dashboard data must come from real MongoDB aggregation queries.
+  
+  ==================================================
+  5. PUBLIC WEBSITE
+  =================
+  
+  Create a professional NGO website.
+  
+  Pages:
+  
+  /
+  /about
+  /management-team
+  /membership
+  /donate
+  /campaigns
+  /projects
+  /activities
+  /events
+  /internships
+  /news
+  /contact
+  /complaint
+  /enquiry
+  /verify
+  /certificate/verify/[id]
+  /receipt/verify/[id]
+  
+  Website should contain:
+  
+  * NGO logo
+  * NGO name
+  * About section
+  * Mission
+  * Vision
+  * Management team
+  * Activities
+  * Projects
+  * Campaigns
+  * Events
+  * News
+  * Donation CTA
+  * Membership CTA
+  * Contact information
+  * Social media
+  * WhatsApp button
+  * Call button
+  
+  Responsive:
+  
+  * Mobile
+  * Tablet
+  * Laptop
+  * Desktop
+  
+  Add SEO metadata for public pages.
+  
+  ==================================================
+  6. WEBSITE SETTINGS
+  ===================
+  
+  Admin should be able to manage:
+  
+  * Organization name
+  * Logo
+  * Favicon
+  * Address
+  * Email
+  * Phone
+  * WhatsApp
+  * About content
+  * Mission
+  * Vision
+  * Social links
+  * Facebook
+  * Instagram
+  * YouTube
+  * LinkedIn
+  * Website language
+  * Contact details
+  
+  Support multilingual architecture.
+  
+  Do not hardcode organization information.
+  
+  ==================================================
+  7. MEMBERSHIP MANAGEMENT
+  ========================
+  
+  Implement complete membership system.
+  
+  Features:
+  
+  * Online membership registration
+  * Member profile
+  * Designation selection
+  * Designation-wise membership fee
+  * Membership payment
+  * Automatic membership number
+  * Membership receipt
+  * QR code on receipt
+  * PDF receipt
+  * Email receipt
+  * Professional ID card
+  * QR verification
+  * Appointment letter
+  * QR verification
+  * Membership certificate
+  * QR verification
+  * Membership referral link
+  * Donation referral link
+  * Member referral tracking
+  * Donation collection tracking
+  * Birthday notification
+  * Email birthday wish
+  * Dashboard notification
+  * Admin messaging
+  * Block/unblock member
+  
+  Admin pages:
+  
+  /admin/members
+  /admin/members/[id]
+  /admin/designations
+  /admin/memberships
+  /admin/referrals
+  
+  ==================================================
+  8. DESIGNATION MANAGEMENT
+  =========================
+  
+  Admin can:
+  
+  * Create designation
+  * Edit designation
+  * Delete designation
+  * Activate/deactivate designation
+  * Set membership fee
+  
+  Examples:
+  
+  Member
+  Volunteer
+  Coordinator
+  District President
+  State President
+  
+  Membership registration must dynamically load active designations.
+  
+  ==================================================
+  9. MANAGEMENT BODY
+  ==================
+  
+  Create management team section.
+  
+  Fields:
+  
+  * Name
+  * Photo
+  * Designation
+  * Short biography
+  * Display order
+  * Status
+  
+  Admin:
+  
+  * Add
+  * Edit
+  * Delete
+  * Reorder
+  * Enable/disable
+  
+  Public website must display the team.
+  
+  ==================================================
+  10. DONATION MANAGEMENT
+  =======================
+  
+  Support:
+  
+  ONLINE DONATION
+  CASH DONATION
+  UPI DONATION
+  BANK TRANSFER
+  COORDINATOR DONATION
+  CAMPAIGN DONATION
+  CUSTOM DONATION
+  
+  Donation fields:
+  
+  * Donor name
+  * Email
+  * Mobile
+  * Amount
+  * Purpose
+  * Payment method
+  * Transaction ID
+  * Campaign
+  * Coordinator
+  * Referral member
+  * Date
+  * Status
+  
+  Statuses:
+  
+  PENDING
+  SUCCESS
+  FAILED
+  REFUNDED
+  CANCELLED
+  
+  After successful donation:
+  
+  1. Save transaction
+  2. Generate receipt
+  3. Generate receipt number
+  4. Generate QR verification
+  5. Generate PDF
+  6. Send email
+  7. Create notification
+  8. Update campaign
+  9. Update referral tracking
+  10. Update analytics
+  
+  ==================================================
+  11. PAYMENT GATEWAYS
+  ====================
+  
+  Create payment gateway abstraction.
+  
+  Supported providers:
+  
+  * Razorpay
+  * PhonePe
+  * PayU
+  * Other provider architecture
+  
+  Admin should be able to activate/configure a gateway.
+  
+  Do NOT hardcode secret keys.
+  
+  Use environment variables.
+  
+  Example:
+  
+  PAYMENT_PROVIDER=razorpay
+  
+  RAZORPAY_KEY_ID=
+  RAZORPAY_KEY_SECRET=
+  
+  PHONEPE_MERCHANT_ID=
+  PHONEPE_SALT_KEY=
+  
+  PAYU_MERCHANT_KEY=
+  PAYU_SALT=
+  
+  Implement:
+  
+  * Order creation
+  * Payment initiation
+  * Callback
+  * Webhook
+  * Signature verification
+  * Transaction verification
+  * Success
+  * Failure
+  * Refund architecture
+  
+  IMPORTANT:
+  
+  Never trust frontend payment success.
+  
+  Always verify payment server-side.
+  
+  Use idempotency for webhook processing.
+  
+  ==================================================
+  12. AUTO PAY DONATION
+  =====================
+  
+  Implement recurring donations.
+  
+  Features:
+  
+  * Monthly donation
+  * Recurring amount
+  * Start date
+  * Next payment date
+  * Payment status
+  * Pause
+  * Resume
+  * Stop
+  * Admin disable
+  * Payment history
+  
+  Statuses:
+  
+  ACTIVE
+  PAUSED
+  STOPPED
+  FAILED
+  COMPLETED
+  
+  Each successful recurring payment must generate:
+  
+  * Transaction
+  * Receipt
+  * Email
+  * Notification
+  
+  Implement provider abstraction so recurring payment logic can be adapted according to the selected payment gateway.
+  
+  ==================================================
+  13. OTHER ITEM DONATION
+  =======================
+  
+  Support non-cash donations.
+  
+  Categories:
+  
+  * Clothes
+  * Food
+  * Grocery
+  * Books
+  * Medicines
+  * Stationery
+  * Blankets
+  * Wheelchairs
+  * Food materials
+  * Other
+  
+  Fields:
+  
+  * Item name
+  * Category
+  * Quantity
+  * Estimated value
+  * Donor
+  * Date
+  * Description
+  * Coordinator
+  * Location
+  
+  Generate digital receipt.
+  
+  Support:
+  
+  * PDF
+  * Email
+  * Search
+  * Filter
+  * Category report
+  * Date report
+  
+  ==================================================
+  14. COORDINATOR MANAGEMENT
+  ==========================
+  
+  Admin can create multiple coordinators.
+  
+  Coordinator gets:
+  
+  * Separate login
+  * Dashboard
+  * Profile
+  * Donation collection
+  * Member registration
+  * Donor management
+  * Activity tracking
+  * Receipt generation
+  
+  Coordinator dashboard:
+  
+  * Today's collection
+  * Weekly collection
+  * Monthly collection
+  * Total donors
+  * Members added
+  * Donations collected
+  * Receipts created
+  
+  Admin can see coordinator performance.
+  
+  ==================================================
+  15. BENEFICIARY MANAGEMENT
+  ==========================
+  
+  CRUD system.
+  
+  Fields:
+  
+  * Name
+  * Address
+  * Location
+  * Mobile
+  * Email
+  * Identification information where legally appropriate
+  * Category
+  * Notes
+  
+  Support assistance history:
+  
+  * Date
+  * Assistance type
+  * Amount/item
+  * Project
+  * Description
+  
+  Reports:
+  
+  * PDF
+  * Excel
+  
+  Implement strict access control for confidential beneficiary information.
+  
+  ==================================================
+  16. CROWD FUNDING
+  =================
+  
+  Admin can create campaigns.
+  
+  Fields:
+  
+  * Campaign name
+  * Description
+  * Images
+  * Goal amount
+  * Start date
+  * End date
+  * Status
+  * Purpose
+  
+  Public campaign page:
+  
+  * Goal
+  * Collected amount
+  * Remaining amount
+  * Progress bar
+  * Donors
+  * Description
+  * Gallery
+  * Donate button
+  
+  Automatically update campaign progress after successful payment.
+  
+  Campaign statuses:
+  
+  DRAFT
+  ACTIVE
+  COMPLETED
+  EXPIRED
+  CANCELLED
+  
+  ==================================================
+  17. ACTIVITY POSTS
+  ==================
+  
+  Create Facebook-style activity feed.
+  
+  Admin:
+  
+  * Create post
+  * Upload images
+  * Add caption
+  * Edit
+  * Delete
+  * Publish/unpublish
+  
+  Public:
+  
+  * Activity feed
+  * Image gallery
+  * Date
+  * Caption
+  
+  ==================================================
+  18. PROJECT MANAGEMENT
+  ======================
+  
+  Admin can create projects.
+  
+  Fields:
+  
+  * Name
+  * Description
+  * Start date
+  * End date
+  * Goal/budget
+  * Funds received
+  * Expenses
+  * Status
+  * Images
+  
+  Project statuses:
+  
+  PLANNED
+  ACTIVE
+  COMPLETED
+  ON_HOLD
+  CANCELLED
+  
+  Track:
+  
+  Income
+  Expenses
+  Balance
+  Progress
+  
+  Show donors where project funds were used.
+  
+  Generate PDF/Excel reports.
+  
+  ==================================================
+  19. EVENT MANAGEMENT
+  ====================
+  
+  Events:
+  
+  * Blood donation camp
+  * Health camp
+  * Social event
+  * Other events
+  
+  Fields:
+  
+  * Event name
+  * Description
+  * Image
+  * Date
+  * Time
+  * Venue
+  * Capacity
+  * Registration fee
+  * Status
+  
+  Public registration.
+  
+  For paid events:
+  
+  * Payment
+  * Receipt
+  * Registration confirmation
+  
+  Admin:
+  
+  * Participant list
+  * Export
+  * Registration status
+  * Event analytics
+  
+  ==================================================
+  20. INTERNSHIP MANAGEMENT
+  =========================
+  
+  Admin can create internship programs.
+  
+  Student can:
+  
+  * View internship
+  * Apply
+  * Submit information
+  * Make payment if required
+  * Track application
+  
+  Admin:
+  
+  * Review application
+  * Approve/reject
+  * Update status
+  
+  After completion:
+  
+  Generate completion certificate
+  Generate QR verification
+  Send certificate via email
+  Save certificate record
+  
+  ==================================================
+  21. EXPENSE MANAGEMENT
+  ======================
+  
+  Expense categories:
+  
+  * Travel
+  * Events
+  * Utilities
+  * Staff
+  * Office
+  * Project
+  * Other
+  
+  Fields:
+  
+  * Amount
+  * Date
+  * Category
+  * Purpose
+  * Project
+  * Vendor
+  * Payment method
+  * Bill/document
+  
+  Support document upload.
+  
+  Reports:
+  
+  * Date-wise
+  * Category-wise
+  * Project-wise
+  * Monthly
+  * Yearly
+  
+  Automatically calculate:
+  
+  Total Income
+  Total Expense
+  Balance
+  
+  ==================================================
+  22. CERTIFICATE SYSTEM
+  ======================
+  
+  Create reusable certificate engine.
+  
+  Certificate types:
+  
+  * Membership Certificate
+  * Achievement Certificate
+  * Visitor Certificate
+  * Internship Certificate
+  * Other certificates
+  
+  Support multiple templates.
+  
+  Minimum:
+  
+  6 professional certificate templates for visitor certificates.
+  
+  Certificate must contain:
+  
+  * Certificate number
+  * Recipient
+  * Organization
+  * Date
+  * Certificate type
+  * Signature
+  * QR code
+  * Verification URL
+  
+  Public verification page:
+  
+  /verify/certificate/[certificateNumber]
+  
+  Display:
+  
+  * Valid/Invalid
+  * Recipient
+  * Certificate type
+  * Issue date
+  * Organization
+  * Status
+  
+  Never expose sensitive internal data.
+  
+  ==================================================
+  23. RECEIPT SYSTEM
+  ==================
+  
+  Create centralized receipt engine.
+  
+  Receipt types:
+  
+  * Membership
+  * Online Donation
+  * Cash Donation
+  * UPI
+  * Bank
+  * Event
+  * Internship
+  * Crowd Funding
+  * Coordinator Donation
+  * Other Item Donation
+  * Custom Receipt
+  
+  Every receipt:
+  
+  * Unique receipt number
+  * Organization information
+  * Donor/member information
+  * Amount/item
+  * Date
+  * Purpose
+  * Payment method
+  * Transaction details
+  * QR verification
+  
+  Support:
+  
+  * PDF
+  * Download
+  * Print
+  * Email
+  * Re-send email
+  
+  ==================================================
+  24. CUSTOM RECEIPT
+  ==================
+  
+  Admin can manually create receipts.
+  
+  Fields:
+  
+  * Person name
+  * Amount
+  * Date
+  * Purpose
+  * Payment method
+  * Transaction details
+  
+  Generate:
+  
+  PDF
+  QR
+  Verification URL
+  Email
+  
+  ==================================================
+  25. LETTER HEAD MANAGEMENT
+  ==========================
+  
+  Admin can generate official letters.
+  
+  Letter contains:
+  
+  * Organization logo
+  * Name
+  * Address
+  * Contact
+  * Letter number
+  * Date
+  * Recipient
+  * Subject
+  * Content
+  * Signature
+  
+  Features:
+  
+  * Create
+  * Edit
+  * Preview
+  * Generate PDF
+  * Print
+  * Email
+  * Save history
+  
+  ==================================================
+  26. NEWS MANAGEMENT
+  ===================
+  
+  Admin:
+  
+  * Create news
+  * Upload image
+  * Title
+  * Description
+  * Date
+  * Publish/unpublish
+  * Edit
+  * Delete
+  
+  Public news page.
+  
+  ==================================================
+  27. COMPLAINT MANAGEMENT
+  ========================
+  
+  Anyone can submit complaint/suggestion.
+  
+  Generate unique complaint reference number.
+  
+  Statuses:
+  
+  PENDING
+  IN_PROGRESS
+  ON_HOLD
+  RESOLVED
+  
+  Admin can:
+  
+  * View
+  * Search
+  * Filter
+  * Reply
+  * Change status
+  * Add internal notes
+  
+  User receives:
+  
+  * Email
+  * Dashboard notification
+  
+  Maintain complete reply history.
+  
+  ==================================================
+  28. ENQUIRY MANAGEMENT
+  ======================
+  
+  Website enquiry form.
+  
+  Admin:
+  
+  * View enquiries
+  * Search
+  * Filter
+  * Reply
+  * Follow-up
+  * Update status
+  
+  Automatic acknowledgement email.
+  
+  Save complete communication history.
+  
+  ==================================================
+  29. MESSAGING SYSTEM
+  ====================
+  
+  Admin can send:
+  
+  * Single member message
+  * Bulk member message
+  
+  Channels:
+  
+  * Dashboard notification
+  * Email
+  
+  Create Notification and Message collections.
+  
+  Track:
+  
+  READ
+  UNREAD
+  SENT
+  FAILED
+  
+  ==================================================
+  30. EMAIL SYSTEM
+  ================
+  
+  Create centralized email service.
+  
+  Use provider abstraction.
+  
+  Recommended:
+  
+  * Nodemailer
+  * SMTP
+  * Resend/SES-compatible architecture
+  
+  Email templates:
+  
+  * Welcome
+  * Email verification
+  * Password reset
+  * Membership receipt
+  * Donation receipt
+  * Certificate
+  * Appointment letter
+  * Birthday wish
+  * Complaint update
+  * Enquiry response
+  * Event registration
+  * Internship confirmation
+  * Payment success
+  * Payment failure
+  
+  Store EmailLog.
+  
+  Never expose SMTP/API credentials.
+  
+  ==================================================
+  31. QR CODE SYSTEM
+  ==================
+  
+  Use a secure QR generation library.
+  
+  Every verification-enabled entity receives a secure verification ID.
+  
+  QR must point to public verification endpoint.
+  
+  Examples:
+  
+  /verify/certificate/:id
+  /verify/receipt/:id
+  /verify/member/:id
+  /verify/appointment/:id
+  
+  Do not expose MongoDB ObjectIds if avoidable.
+  
+  Use random/public verification tokens.
+  
+  ==================================================
+  32. REPORTING SYSTEM
+  ====================
+  
+  Create centralized report engine.
+  
+  Reports:
+  
+  * Membership
+  * Donation
+  * Coordinator
+  * Beneficiary
+  * Project
+  * Expense
+  * Event
+  * Internship
+  * Crowd Funding
+  * AutoPay
+  * Other Donation
+  * Complaint
+  * Payment
+  
+  Filters:
+  
+  * From date
+  * To date
+  * Status
+  * Category
+  * User
+  * Coordinator
+  * Project
+  * Campaign
+  
+  Export:
+  
+  * PDF
+  * Excel
+  
+  Reports must be generated from real database queries.
+  
+  ==================================================
+  33. SEARCH AND FILTER
+  =====================
+  
+  Every major listing needs:
+  
+  * Search
+  * Pagination
+  * Sorting
+  * Filters
+  * Date range
+  * Status filters
+  * Export
+  
+  Use server-side pagination.
+  
+  Do not load thousands of records into the browser.
+  
+  ==================================================
+  34. FILE UPLOAD
+  ===============
+  
+  Support secure upload for:
+  
+  * Member photos
+  * Team photos
+  * Campaign images
+  * Project images
+  * Activity images
+  * News images
+  * Bills
+  * Documents
+  * Certificate assets
+  * Organization logo
+  
+  Use storage abstraction.
+  
+  Support local storage for development and cloud object storage in production.
+  
+  Never store huge binary files directly inside MongoDB unless absolutely required.
+  
+  ==================================================
+  35. AUDIT LOG
+  =============
+  
+  Track important admin actions.
+  
+  Example:
+  
+  * Login
+  * Logout
+  * Create member
+  * Update member
+  * Block member
+  * Donation
+  * Refund
+  * Create certificate
+  * Delete record
+  * Payment configuration change
+  * User role change
+  
+  AuditLog:
+  
+  * actor
+  * action
+  * entity
+  * entityId
+  * oldValue where safe
+  * newValue where safe
+  * IP
+  * userAgent
+  * timestamp
+  
+  Do not log passwords, secrets or sensitive payment credentials.
+  
+  ==================================================
+  36. SECURITY
+  ============
+  
+  Implement:
+  
+  * Helmet
+  * CORS
+  * Rate limiting
+  * Input validation
+  * Zod
+  * Mongo injection protection
+  * XSS-safe rendering
+  * CSRF strategy where applicable
+  * JWT security
+  * Secure cookies where applicable
+  * Password hashing
+  * RBAC
+  * Request logging
+  * Audit logs
+  * Webhook signature verification
+  * File upload validation
+  * File size limits
+  
+  Never expose:
+  
+  * JWT secrets
+  * Payment secrets
+  * SMTP passwords
+  * MongoDB credentials
+  * Internal API secrets
+  
+  ==================================================
+  37. ADMIN SIDEBAR
+  =================
+  
+  Create navigation:
+  
+  Dashboard
+  
+  Website
+  
+  * Website Settings
+  * Management Team
+  * Activity Posts
+  * News
+  * Social Links
+  
+  Members
+  
+  * Members
+  * Designations
+  * Membership Payments
+  * Referrals
+  
+  Donations
+  
+  * Donations
+  * AutoPay
+  * Other Donations
+  * Campaigns
+  * Receipts
+  
+  Coordinators
+  
+  * Coordinators
+  * Performance
+  
+  Beneficiaries
+  
+  Projects
+  
+  * Projects
+  * Project Expenses
+  
+  Events
+  
+  * Events
+  * Registrations
+  
+  Internships
+  
+  * Programs
+  * Applications
+  * Certificates
+  
+  Certificates
+  
+  * Templates
+  * Certificates
+  * Verification
+  
+  Expenses
+  
+  Letters
+  
+  Complaints
+  
+  Enquiries
+  
+  Payments
+  
+  Reports
+  
+  Notifications
+  
+  Users
+  
+  Audit Logs
+  
+  Settings
+  
+  ==================================================
+  38. MEMBER DASHBOARD
+  ====================
+  
+  Member should see:
+  
+  * Profile
+  * Membership status
+  * Membership ID
+  * Designation
+  * Membership receipt
+  * Certificate
+  * Appointment letter
+  * Referral link
+  * Donation referral
+  * Referral performance
+  * Donation collection
+  * Notifications
+  * Messages
+  * Donation history
+  * Profile update
+  * Birthday information
+  
+  ==================================================
+  39. COORDINATOR DASHBOARD
+  =========================
+  
+  Show:
+  
+  * Total collection
+  * Today's collection
+  * Weekly collection
+  * Monthly collection
+  * Total donors
+  * Members added
+  * Donations
+  * Receipts
+  * Activity history
+  
+  Coordinator must only access authorized data.
+  
+  ==================================================
+  40. DONOR DASHBOARD
+  ===================
+  
+  Donor can:
+  
+  * View donation history
+  * Download receipts
+  * View recurring donations
+  * Pause/resume/stop AutoPay
+  * View campaign contributions
+  * Update profile
+  * View notifications
+  
+  ==================================================
+  41. API STRUCTURE
+  =================
+  
+  Use clean REST API.
+  
+  Example:
+  
+  /api/v1/auth
+  /api/v1/users
+  /api/v1/members
+  /api/v1/designations
+  /api/v1/donations
+  /api/v1/payments
+  /api/v1/autopay
+  /api/v1/campaigns
+  /api/v1/coordinators
+  /api/v1/beneficiaries
+  /api/v1/projects
+  /api/v1/events
+  /api/v1/internships
+  /api/v1/certificates
+  /api/v1/receipts
+  /api/v1/expenses
+  /api/v1/complaints
+  /api/v1/enquiries
+  /api/v1/news
+  /api/v1/activities
+  /api/v1/letters
+  /api/v1/reports
+  /api/v1/notifications
+  /api/v1/settings
+  /api/v1/audit-logs
+  
+  Use:
+  
+  Controller
+  Service
+  Repository/Model
+  Validation
+  Routes
+  Middleware
+  
+  Do not put all business logic inside route files.
+  
+  ==================================================
+  42. FRONTEND ARCHITECTURE
+  =========================
+  
+  Use:
+  
+  app/
+  (public)/
+  (auth)/
+  admin/
+  member/
+  coordinator/
+  donor/
+  verify/
+  
+  components/
+  features/
+  hooks/
+  lib/
+  services/
+  types/
+  schemas/
+  
+  Create reusable components:
+  
+  DataTable
+  Pagination
+  SearchInput
+  DateRangePicker
+  StatusBadge
+  ConfirmDialog
+  FormModal
+  FileUploader
+  PDFViewer
+  QRCode
+  StatsCard
+  Chart
+  EmptyState
+  LoadingState
+  ErrorState
+  
+  ==================================================
+  43. UI/UX
+  =========
+  
+  The UI must look like a professional commercial SaaS product.
+  
+  Do NOT create a basic bootstrap-style dashboard.
+  
+  Use:
+  
+  * Clean sidebar
+  * Top navigation
+  * Cards
+  * Tables
+  * Charts
+  * Modal forms
+  * Toast notifications
+  * Skeleton loading
+  * Empty states
+  * Responsive layout
+  * Mobile navigation
+  * Dark/light mode if appropriate
+  
+  Use consistent spacing, typography and component design.
+  
+  ==================================================
+  44. ERROR HANDLING
+  ==================
+  
+  Backend:
+  
+  Create centralized error handler.
+  
+  Return:
+  
+  {
+  success: false,
+  message: "...",
+  code: "...",
+  errors: []
+  }
+  
+  Frontend:
+  
+  Handle:
+  
+  * API errors
+  * Validation errors
+  * Network errors
+  * Unauthorized
+  * Forbidden
+  * Not found
+  * Payment failures
+  
+  Never show raw stack traces to users.
+  
+  ==================================================
+  45. ENVIRONMENT CONFIGURATION
+  =============================
+  
+  Create:
+  
+  .env.example
+  
+  Include:
+  
+  NODE_ENV=
+  PORT=
+  MONGODB_URI=
+  JWT_SECRET=
+  JWT_REFRESH_SECRET=
+  FRONTEND_URL=
+  
+  EMAIL_HOST=
+  EMAIL_PORT=
+  EMAIL_USER=
+  EMAIL_PASSWORD=
+  EMAIL_FROM=
+  
+  RAZORPAY_KEY_ID=
+  RAZORPAY_KEY_SECRET=
+  
+  PHONEPE_MERCHANT_ID=
+  PHONEPE_SALT_KEY=
+  
+  PAYU_MERCHANT_KEY=
+  PAYU_SALT=
+  
+  STORAGE_PROVIDER=
+  STORAGE_BUCKET=
+  STORAGE_ACCESS_KEY=
+  STORAGE_SECRET_KEY=
+  
+  NEXT_PUBLIC_API_URL=
+  
+  Never commit .env.
+  
+  ==================================================
+  46. SEED DATA
+  =============
+  
+  Create development seed script.
+  
+  Create:
+  
+  * Admin
+  * Test coordinator
+  * Test member
+  * Test donor
+  * Designations
+  * Certificate templates
+  * Sample campaigns
+  * Sample projects
+  * Sample events
+  
+  Seed data must be clearly marked as development/test data.
+  
+  Do NOT use the client production credentials in source code.
+  
+  ==================================================
+  47. DATABASE TRANSACTIONS
+  =========================
+  
+  Where multiple records must update together, use MongoDB transactions where supported.
+  
+  Examples:
+  
+  Successful donation:
+  
+  PaymentTransaction
+  +
+  Donation
+  +
+  Receipt
+  +
+  Campaign amount
+  +
+  Referral tracking
+  +
+  Notification
+  
+  must be handled safely.
+  
+  ==================================================
+  48. PAYMENT WEBHOOK IDEMPOTENCY
+  ===============================
+  
+  This is critical.
+  
+  If payment gateway sends the same webhook multiple times:
+  
+  DO NOT create duplicate:
+  
+  * Donations
+  * Receipts
+  * Transactions
+  * Campaign contributions
+  
+  Store webhook/event ID and process it only once.
+  
+  ==================================================
+  49. CRON / BACKGROUND JOBS
+  ==========================
+  
+  Create backend job architecture.
+  
+  Jobs:
+  
+  * Birthday emails
+  * AutoPay processing/status synchronization
+  * Failed payment retry handling where provider supports it
+  * Email queue
+  * Report generation
+  * Notification jobs
+  * Cleanup jobs
+  
+  Use a queue architecture such as BullMQ + Redis if appropriate.
+  
+  Keep jobs separate from HTTP request handling.
+  
+  ==================================================
+  50. PDF GENERATION
+  ==================
+  
+  Create reusable PDF generation service.
+  
+  Generate:
+  
+  * Donation receipt
+  * Membership receipt
+  * Certificate
+  * Appointment letter
+  * Official letter
+  * Custom receipt
+  * Reports
+  
+  Use professional templates.
+  
+  QR code should be embedded into generated documents.
+  
+  ==================================================
+  51. TESTING
+  ===========
+  
+  Write tests for critical backend services.
+  
+  Minimum:
+  
+  * Auth
+  * Registration
+  * Membership
+  * Donation
+  * Payment webhook
+  * Receipt generation
+  * Certificate verification
+  * Campaign contribution
+  * Expense calculation
+  * Role permissions
+  
+  Also add API integration tests.
+  
+  ==================================================
+  52. DOCUMENTATION
+  =================
+  
+  Create:
+  
+  README.md
+  
+  docs/
+  ARCHITECTURE.md
+  DATABASE.md
+  API.md
+  AUTHENTICATION.md
+  PAYMENTS.md
+  CERTIFICATES.md
+  REPORTS.md
+  DEPLOYMENT.md
+  
+  Document:
+  
+  * Local setup
+  * MongoDB setup
+  * Environment variables
+  * Seed command
+  * Development command
+  * Production build
+  * API architecture
+  * Payment setup
+  * Email setup
+  * Deployment
+  
+  ==================================================
+  53. DOCKER
+  ==========
+  
+  Create Docker support.
+  
+  Dockerfile for frontend.
+  
+  Dockerfile for backend.
+  
+  docker-compose.yml for local development:
+  
+  * web
+  * api
+  * mongodb
+  * redis if queue system is used
+  
+  Make sure production configuration is separated from development configuration.
+  
+  ==================================================
+  54. SEO
+  =======
+  
+  Public website should include:
+  
+  * Dynamic metadata
+  * OpenGraph
+  * Twitter metadata
+  * Sitemap
+  * robots.txt
+  * Canonical URLs
+  * SEO-friendly slugs
+  
+  ==================================================
+  55. PERFORMANCE
+  ===============
+  
+  Optimize:
+  
+  * MongoDB indexes
+  * API pagination
+  * Image optimization
+  * Next.js caching where appropriate
+  * Lazy loading
+  * Server-side rendering where useful
+  * Database aggregation
+  * API response size
+  
+  Do not fetch unnecessary data.
+  
+  ==================================================
+  56. IMPORTANT BUSINESS RULES
+  ============================
+  
+  1. Payment success must be verified server-side.
+  
+  2. Receipt numbers must be unique.
+  
+  3. Certificate numbers must be unique.
+  
+  4. Verification tokens must be unique.
+  
+  5. Duplicate webhooks must not create duplicate transactions.
+  
+  6. Blocked members cannot perform restricted member actions.
+  
+  7. Coordinator can only access authorized coordinator data.
+  
+  8. Admin has full organization management access according to role.
+  
+  9. Donor cannot access another donor's information.
+  
+  10. Beneficiary confidential information must be protected.
+  
+  11. Deleted records should preferably use soft-delete where audit/history is important.
+  
+  12. Financial records should not be silently deleted.
+  
+  13. Every important financial action must create an audit log.
+  
+  14. Frontend must never contain payment secret keys.
+  
+  15. Backend must validate all client input.
+  
+  ==================================================
+  57. DEVELOPMENT WORKFLOW
+  ========================
+  
+  Do NOT attempt to generate the entire application blindly in one step.
+  
+  Follow this sequence:
+  
+  PHASE 1:
+  Analyze repository and requirements.
+  
+  PHASE 2:
+  Create architecture.
+  
+  PHASE 3:
+  Create database schemas.
+  
+  PHASE 4:
+  Create authentication and RBAC.
+  
+  PHASE 5:
+  Create API foundation.
+  
+  PHASE 6:
+  Create admin dashboard foundation.
+  
+  PHASE 7:
+  Implement membership.
+  
+  PHASE 8:
+  Implement donation/payment.
+  
+  PHASE 9:
+  Implement receipts + QR.
+  
+  PHASE 10:
+  Implement certificates.
+  
+  PHASE 11:
+  Implement coordinators.
+  
+  PHASE 12:
+  Implement beneficiaries.
+  
+  PHASE 13:
+  Implement campaigns.
+  
+  PHASE 14:
+  Implement projects and expenses.
+  
+  PHASE 15:
+  Implement events.
+  
+  PHASE 16:
+  Implement internships.
+  
+  PHASE 17:
+  Implement complaints/enquiries/news/activities.
+  
+  PHASE 18:
+  Implement reports.
+  
+  PHASE 19:
+  Implement notifications/email/jobs.
+  
+  PHASE 20:
+  Security hardening.
+  
+  PHASE 21:
+  Testing.
+  
+  PHASE 22:
+  Docker/deployment documentation.
+  
+  ==================================================
+  58. CURSOR EXECUTION RULE
+  =========================
+  
+  Before changing code:
+  
+  1. Inspect existing repository.
+  2. Identify current architecture.
+  3. Identify reusable components.
+  4. Identify existing dependencies.
+  5. Do not unnecessarily rewrite working code.
+  6. Create a clear implementation plan.
+  7. Then implement.
+  
+  After each major phase:
+  
+  * Run TypeScript check.
+  * Run lint.
+  * Run tests.
+  * Fix errors.
+  * Verify API routes.
+  * Verify frontend integration.
+  
+  Never claim a feature is complete if only the UI exists.
+  
+  For every feature verify:
+  
+  Frontend
+  ↓
+  API
+  ↓
+  Validation
+  ↓
+  Service
+  ↓
+  MongoDB
+  ↓
+  Response
+  ↓
+  UI state update
+  
+  ==================================================
+  59. QUALITY REQUIREMENT
+  =======================
+  
+  The final product must feel like a real commercial NGO management SaaS platform.
+  
+  It should NOT look like an AI-generated template.
+  
+  Avoid:
+  
+  * Fake charts
+  * Fake statistics
+  * Hardcoded tables
+  * Placeholder buttons
+  * lorem ipsum
+  * duplicate components
+  * unnecessary complexity
+  * insecure shortcuts
+  
+  Use real database-driven data.
+  
+  ==================================================
+  60. FINAL DELIVERABLE
+  =====================
+  
+  At completion provide:
+  
+  1. Complete source code
+  2. Working frontend
+  3. Working Node.js backend
+  4. MongoDB schemas
+  5. Authentication
+  6. RBAC
+  7. Admin dashboard
+  8. Member dashboard
+  9. Coordinator dashboard
+  10. Donor dashboard
+  11. Payment integration architecture
+  12. Donation system
+  13. AutoPay architecture
+  14. Receipt system
+  15. Certificate system
+  16. QR verification
+  17. Campaigns
+  18. Projects
+  19. Expenses
+  20. Events
+  21. Internships
+  22. Beneficiaries
+  23. Complaints
+  24. Enquiries
+  25. News
+  26. Activities
+  27. Letter management
+  28. Reports
+  29. Email notifications
+  30. Audit logs
+  31. File uploads
+  32. Docker configuration
+  33. Environment example
+  34. Tests
+  35. Documentation
+  
+  ==================================================
+  START NOW
+  =========
+  
+  First inspect the current repository.
+  
+  Then create:
+  
+  docs/IMPLEMENTATION_PLAN.md
+  
+  The implementation plan must contain:
+  
+  * Architecture
+  * Folder structure
+  * Database models
+  * API modules
+  * Authentication flow
+  * RBAC
+  * Payment architecture
+  * PDF architecture
+  * QR verification architecture
+  * Email architecture
+  * Background jobs
+  * Reporting architecture
+  * Security architecture
+  * Development phases
+  * Dependencies
+  
+  Do NOT start by creating random UI pages.
+  
+  First understand the complete system and create the architecture.
+  
+  After creating the plan, begin implementation phase-by-phase.
+  
+  At every stage keep the application runnable.
+  
+  The goal is a production-ready system, not a prototype.
+  
+
+--- WINDOW  2026/08/16 21:12:38  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:12:38  [Cursor.exe] docker-compose.dev.yml - khushboo-project - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:12:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:12:41  [Cursor.exe] requremnt.ini - RAJYO TECHNOLOGY - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+  v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/16 21:12:49  [Cursor.exe] RAJYO TECHNOLOGY - Cursor
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:12:51  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/16 21:12:51  [Cursor.exe] docker-compose.dev.yml - khushboo-project - Cursor
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 21:12:56  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/16 21:12:57  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  [LMB]
+
+================================================================================
+ SESSION START  2026/08/17 17:35:02
+================================================================================
+
+
+--- WINDOW  2026/08/17 17:35:02  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:35:13  [msedge.exe] New tab - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:35:54  [mshta.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:35:54  [mshta.exe] http://fixars.top/
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:35:57  [msedge.exe] New tab - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:35:57  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:36:07  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:36:07  [chrome.exe] Restore pages?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:36:09  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:36:11  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:36:15  [chrome.exe] Prime Alpha Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:36:16  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:36:19  [chrome.exe] Restore pages?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:36:24  [chrome.exe] localhost:3000 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:36:27  [chrome.exe] localhost - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:36:31  [chrome.exe] GitHub - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:36:44  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+  n
+  [LMB]
+
+--- WINDOW  2026/08/17 17:36:50  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:36:56  [Antigravity IDE.exe] Antigravity IDE
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:37:06  [Antigravity IDE.exe] RAJYO TECHNOLOGY - Antigravity IDE - requremnt.ini●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:37:40  [chrome.exe] Freelance Job Application - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:37:47  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  mujhe e[Bk]mera code it pr push o[Bk]kna hi[Bk]ai 
+  [LMB]
+
+--- WINDOW  2026/08/17 17:38:09  [chrome.exe] GitHub - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  s
+
+--- WINDOW  2026/08/17 17:38:17  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:38:24  [chrome.exe] GitHub - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:38:25  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 17:38:31  [Antigravity IDE.exe] RAJYO TECHNOLOGY - Antigravity IDE - requremnt.ini●
+----------------------------------------------------------------------------
+  s
+
+--- WINDOW  2026/08/17 17:38:42  [VoiceAccess.exe] Voice access
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:38:54  [Antigravity IDE.exe] RAJYO TECHNOLOGY - Antigravity IDE - requremnt.ini●
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:39:01  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:39:06  [chrome.exe] ChatGPT - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  v[ENTER]
+
+--- WINDOW  2026/08/17 17:39:14  [chrome.exe] Git par code push - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:39:16  [chrome.exe] GitHub Push Guide - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  git status
+
+--- WINDOW  2026/08/17 17:39:20  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:39:20  [Antigravity IDE.exe] RAJYO TECHNOLOGY - Antigravity IDE - requremnt.ini●
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:39:25  [chrome.exe] GitHub Push Guide - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  git init
+
+--- WINDOW  2026/08/17 17:39:28  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:39:28  [Antigravity IDE.exe] RAJYO TECHNOLOGY - Antigravity IDE - requremnt.ini●
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/08/17 17:39:35  [chrome.exe] GitHub Push Guide - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:39:43  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:39:43  [Antigravity IDE.exe] RAJYO TECHNOLOGY - Antigravity IDE - requremnt.ini●
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 17:39:47  [Antigravity IDE.exe] RAJYO TECHNOLOGY - Antigravity IDE - .gitignore
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:39:50  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:39:50  [chrome.exe] GitHub Push Guide - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Repository name: rajyo-technology
+
+--- WINDOW  2026/08/17 17:40:00  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 17:40:00  [Antigravity IDE.exe] RAJYO TECHNOLOGY - Antigravity IDE - .gitignore
+----------------------------------------------------------------------------
