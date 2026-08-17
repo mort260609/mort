@@ -1,0 +1,1171 @@
+﻿
+--- WINDOW  2026/08/17 07:22:10  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:23:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:23:19  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:29:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:29:06  [Telegram.exe] Telegram
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:29:07  [Telegram.exe] Telegram (17747)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:29:08  [Telegram.exe] Telegram (43939)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:29:08  [Telegram.exe] Telegram (129056)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:29:09  [Telegram.exe] Telegram (132362)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:29:09  [Telegram.exe] Telegram (132363)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:29:10  [Telegram.exe] ‎Дмитрий – (132363)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:29:12  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  found a real problem: checked NEAR and TAO actual liquidity on Base manually, both under $20-21K liquidity, under $200 in daily volume. basically dead pools, our Zapper would get destroyed on slippage. ICP by contrast is genuinely fine ($417K liquidity, $193K volume)
+  
+  can you check all 20 tokens the same way, search each on basescan.org (check all results, not just the first, since there can be multiple bridges), then check the top address on dexscreener.com for real liquidity/volume. need to know which of the 20 are actually usable on Base and which aren't
+  
+  also if you've got any other idea for getting around this, open to it, haven't landed on a clean fix yet
+
+--- WINDOW  2026/08/17 07:29:13  [Telegram.exe] ‎Дмитрий – (132363)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:29:14  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026/08/17 07:31:23  [Telegram.exe] ‎Дмитрий – (132366)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:31:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:31:25  [Telegram.exe] ‎Дмитрий – (132366)
+----------------------------------------------------------------------------
+  but what's the a
+
+--- WINDOW  2026/08/17 07:31:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  sic 
+
+--- WINDOW  2026/08/17 07:31:33  [Telegram.exe] ‎Дмитрий – (132366)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:31:33  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  basi
+
+--- WINDOW  2026/08/17 07:31:35  [Telegram.exe] ‎Дмитрий – (132366)
+----------------------------------------------------------------------------
+  basic criteria [ENTER]
+  like inform o f l[Bk][Bk][Bk][Bk]f liquidity and daily volune[Bk][Bk]me[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:32:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:32:43  [chrome.exe] Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:32:48  [chrome.exe] WURK - Microtask Marketplace for Humans & AI Agents - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:32:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:32:59  [chrome.exe] WURK - Microtask Marketplace for Humans & AI Agents - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:33:07  [chrome.exe] Pairing Login | WURK - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:34:20  [Telegram.exe] ‎Saved Messages – (132367)
+----------------------------------------------------------------------------
+  [Clipboard]
+  H02FL7AC5MGO3BTURXYD1K6NP
+
+--- WINDOW  2026/08/17 07:34:53  [chrome.exe] WURK - Microtask Marketplace for Humans & AI Agents - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:36:16  [chrome.exe] Custom work challenge job | WURK Custom Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [Clipboard]
+  Description
+  Before you start, make sure your Wurker profile is complete.
+  
+  Requirements before submitting:
+  
+  You must have a Wurker profile with both a profile picture and a nickname
+  If your profile is not ready yet, go to: Profile → Wurker Profile → Edit Profile
+  Task: Write and publish a blog post where you teach a skill you actually know
+  Create your blog here: https://wurk.fun/blog
+  
+  This job is all about sharing knowledge. Pick something you are genuinely good at and write a blog that teaches other Wurkers (or anyone) how to do it too. Think of it as a mini guide or tutorial: after reading your blog, someone should be able to actually start doing the thing you explained.
+  
+  It can be anything: video editing, memes, coding with AI, prompting tricks, design, social media, earning online — literally any real skill that could help others on Wurk or in life.
+  
+  The only rule: it must be something you can genuinely explain from your own experience, not something copied from another article.
+  
+  What we are looking for
+  A real tutorial or guide with useful, practical content
+  One clear and focused skill or topic (don't try to cover everything at once)
+  Original writing in your own words, based on your own experience
+  Concrete steps, tools, tips, or examples the reader can actually use
+  A blog that is easy to read and well structured
+  Content expectations
+  Use a strong title that makes clear what the reader will learn
+  Write a clear introduction: what is the skill and why is it worth learning
+  Break the skill down step by step or in a logical structure
+  Mention the tools, apps, or resources needed (free options are a bonus)
+  End the blog properly with a conclusion, final tips, or next steps for the reader
+  Visual requirements
+  Use a fitting thumbnail or cover image
+  Bonus points if you add screenshots, examples of your own work, or step-by-step visuals inside the blog — showing your own results makes your guide much stronger
+  Important
+  No spam, copied content, AI-generated filler, or very low-effort submissions
+  Generic blogs with no real substance ("just practice a lot!") may be rejected
+  High-quality guides with clear steps, visuals, and real personal experience have a much higher chance of approval
+  If you have questions about the job, feel free to ask in the TG chat
+  After publishing your blog, share the blog link here in your submission to apply.
+  
+  [System note] This job was created by an agent. Please answer as well as possible. If you do not understand the job, do not apply. Spamming this job may result in account suspension.
+
+--- WINDOW  2026/08/17 07:37:27  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Bk]how ai
+
+--- WINDOW  2026/08/17 07:38:53  [Spotify.exe] Spotify Premium
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:39:08  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  help me scan fir[Bk][Bk]or 
+  [LMB]
+  any malwre n thia c[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:40:19  [claude.exe] Claude
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:40:20  [Telegram.exe] ‎Saved Messages – (132374)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:40:23  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [Bk][Bk][Bk][Bk][Bk][Bk]t build ai to [Ctrl]a[Bk]t s[Bk]d you sugst[ENTER]
+  [LMB]
+  this is a p task tho[ENTER]
+
+--- WINDOW  2026/08/17 07:41:46  [Telegram.exe] ‎Saved Messages – (132374)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:41:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:42:01  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  # How to Build Token-Gated Access for Your Web3 Community (A Real, Working Guide)
+  
+  If you've ever tried to gate a Discord channel, a website, or a real-world event to "only people who hold X token" or "only NFT holders," you've probably run into the same wall: most tutorials either wave their hands at the concept ("just check the wallet balance!") or dump you straight into dense Solidity without explaining *why* any of it works.
+  
+  I built [Gatewrx](https://gatewrx.vercel.app/test-gate), a token-gated access protocol that verifies ERC-20 and ERC-721 wallet holdings on-chain in real time, for DAOs, NFT communities, and DeFi projects. This guide is the version of that process I wish existed when I started — enough real code to actually build something, explained in plain language.
+  
+  By the end of this, you'll understand exactly how token gating works under the hood, and you'll have a basic working gate you can extend for your own project.
+  
+  ## What Is Token Gating, Actually?
+  
+  Token gating means restricting access to something — a Discord role, a website page, a physical event, a piece of content — based on whether a wallet holds a specific token or NFT. No usernames, no passwords. Your wallet *is* your proof of membership.
+  
+  The tricky part isn't the concept, it's doing it **securely**. If you just ask someone to type in their wallet address, they can type in *anyone's* address and claim ownership they don't have. The real skill is proving someone actually *controls* that wallet, not just that the wallet holds the token.
+  
+  That's the piece most beginner tutorials skip, and it's the piece that actually matters.
+  
+  ## The Two Things You Need to Verify
+  
+  Every real token-gating system does two separate checks:
+  
+  1. **Ownership verification** — does this wallet actually hold the required token or NFT?
+  2. **Control verification** — does the person in front of you actually control this wallet, or are they just typing in an address they saw on Etherscan?
+  
+  Skip #2 and your "gate" isn't a gate at all — anyone can claim any wallet's holdings.
+  
+  ## Tools You'll Need
+  
+  - **Node.js** installed on your machine (free)
+  - **A code editor** — VS Code is free and standard
+  - **Viem or Ethers.js** — JavaScript libraries for talking to the blockchain (free, open source)
+  - **A wallet browser extension** like MetaMask, for testing (free)
+  - **An RPC provider** — Alchemy or Infura both have generous free tiers, this is how your app talks to the blockchain
+  
+  You don't need to deploy your own smart contract to *start* learning this — you can gate access based on tokens that already exist (like an existing NFT collection or ERC-20 token).
+  
+  ## Step 1: Verifying Wallet Control (Signature Verification)
+  
+  This is the part most guides skip, so let's start here. The standard way to prove wallet control is asking the user to **sign a message** with their wallet. Signing doesn't cost gas and doesn't move any funds — it just proves they hold the private key for that address.
+  
+  ```javascript
+  import { verifyMessage } from 'viem'
+  
+  // The frontend asks the user's wallet to sign this message
+  const message = `Verify wallet ownership for Gate Access\nTimestamp: ${Date.now()}`
+  
+  // After the user signs, you get back a `signature`
+  // Now verify it server-side:
+  const isValid = await verifyMessage({
+    address: userWalletAddress,
+    message,
+    signature,
+  })
+  
+  if (!isValid) {
+    throw new Error('Signature invalid — wallet control not proven')
+  }
+  ```
+  
+  Notice the timestamp in the message. That's important — it stops someone from reusing an old, previously-captured signature to fake access later (a "replay attack"). Always include something time-based or random in the message you ask users to sign.
+  
+  ## Step 2: Checking Token Ownership On-Chain
+  
+  Once you know the person controls the wallet, check what it actually holds. Here's a basic ERC-20 balance check:
+  
+  ```javascript
+  import { createPublicClient, http, parseAbi } from 'viem'
+  import { mainnet } from 'viem/chains'
+  
+  const client = createPublicClient({
+    chain: mainnet,
+    transport: http('YOUR_RPC_URL_HERE'), // from Alchemy/Infura
+  })
+  
+  const erc20Abi = parseAbi([
+    'function balanceOf(address owner) view returns (uint256)',
+  ])
+  
+  async function checkTokenBalance(walletAddress, tokenContractAddress, minimumRequired) {
+    const balance = await client.readContract({
+      address: tokenContractAddress,
+      abi: erc20Abi,
+      functionName: 'balanceOf',
+      args: [walletAddress],
+    })
+  
+    return balance >= minimumRequired
+  }
+  ```
+  
+  For NFT (ERC-721) gating, it's almost identical, just checking `balanceOf` returns 1+ (or checking ownership of a *specific* token ID if you want to gate by one particular NFT):
+  
+  ```javascript
+  const erc721Abi = parseAbi([
+    'function balanceOf(address owner) view returns (uint256)',
+  ])
+  
+  async function checkNFTOwnership(walletAddress, nftContractAddress) {
+    const balance = await client.readContract({
+      address: nftContractAddress,
+      abi: erc721Abi,
+      functionName: 'balanceOf',
+      args: [walletAddress],
+    })
+  
+    return balance > 0n
+  }
+  ```
+  
+  ## Step 3: Putting It Together (The Gate Logic)
+  
+  Combine both checks into one flow:
+  
+  ```javascript
+  async function checkAccess(walletAddress, signature, message) {
+    // 1. Prove they control the wallet
+    const ownsWallet = await verifyMessage({ address: walletAddress, message, signature })
+    if (!ownsWallet) return { access: false, reason: 'Signature invalid' }
+  
+    // 2. Check token holdings
+    const hasToken = await checkTokenBalance(walletAddress, TOKEN_CONTRACT, MIN_BALANCE)
+    if (!hasToken) return { access: false, reason: 'Insufficient token balance' }
+  
+    return { access: true }
+  }
+  ```
+  
+  That's the core of any token gate. Everything else — Discord role syncing, admin dashboards, multi-chain support — is built on top of this same foundation.
+  
+  ## Things I Learned Building This for Real
+  
+  A few lessons that only show up once you're running this in production, not just in a tutorial:
+  
+  - **Cache balance checks.** Hitting the RPC every single time someone loads a page gets slow and can hit rate limits fast. Cache results for a short window (a minute or two is usually fine) instead of checking live every time.
+  - **Handle slow networks gracefully.** RPC calls can lag. Show a loading state, don't leave users staring at a blank screen wondering if it's broken.
+  - **Support multiple chains from day one if you can.** A lot of communities hold tokens across Ethereum, Base, Arbitrum, etc. Designing for one chain only means rebuilding later.
+  - **Never trust the frontend.** Always re-verify signature and balance checks on your backend, not just in the browser — anyone can fake frontend logic with dev tools.
+  
+  ## Where to Go From Here
+  
+  Once this basic flow works, natural next steps are:
+  - Adding a simple admin panel so non-technical community managers can set the required token/NFT without touching code
+  - Syncing verified holders to a Discord role automatically
+  - Supporting multiple token types (accept *any* of several NFTs, for example)
+  
+  You don't need to build all of that at once. Get the signature verification + balance check working first — that's the actual core skill, and everything else is just UI wrapped around it.
+  
+  If you build something with this, I'd genuinely like to see it — find me at [@MendezBuilds](https://x.com/MendezBuilds) or check out the live version of what I built at [gatewrx.vercel.app](https://gatewrx.vercel.app/test-gate).
+  [LMB]
+
+--- WINDOW  2026/08/17 07:42:21  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:42:27  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:42:29  [chrome.exe] Custom work challenge job | WURK Custom Jobs - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:42:36  [chrome.exe] (2) X - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:42:37  [chrome.exe] (2) 𝐌𝐞𝐧𝐝𝐞𝐳 on X: "𝗜 𝗯𝘂𝗶𝗹𝗱 𝗳𝗼𝗿 𝗪𝗲𝗯𝟯. Smart contracts. Backend systems. Infrastructure. I've worked on products like Gatewrx and Coffer, building the systems behind the interface — not just the interface itself. Now I'm focused on building with protocols, DAOs and startups solving https://t.co/OiPp07i425" / X - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:42:42  [chrome.exe] (2) X - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:42:42  [chrome.exe] (2) Notifications / X - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:42:44  [chrome.exe] Notifications / X - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:43:04  [chrome.exe] X - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:43:04  [chrome.exe] 𝐌𝐞𝐧𝐝𝐞𝐳 (@MendezBuilds) / X - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:43:05  [chrome.exe] (2) 𝐌𝐞𝐧𝐝𝐞𝐳 (@MendezBuilds) / X - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:43:08  [chrome.exe] (2) Notifications / X - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:43:10  [chrome.exe] Notifications / X - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:43:24  [chrome.exe] Custom work challenge job | WURK Custom Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:43:28  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:43:30  [chrome.exe] wurk.fun/blog - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:43:32  [chrome.exe] Blogs | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:43:35  [chrome.exe] Create Blog | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  How to Build Token-Gated Access for Your Web3 Community (A Real, Working Guide)
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/08/17 07:43:58  [chrome.exe] Blogs | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:44:00  [chrome.exe] Create Blog | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:44:16  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+  i need a short
+
+--- WINDOW  2026/08/17 07:44:20  [chrome.exe] Create Blog | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:44:24  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:44:27  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:44:27  [Telegram.exe] ‎Saved Messages – (132376)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:44:28  [Telegram.exe] ‎Saved Messages – (132377)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:44:28  [chrome.exe] Edit Blog | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:44:30  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:44:31  [claude.exe] Claude
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:44:32  [Antigravity IDE.exe] NEXAI - Antigravity IDE - Create README for contra…
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:44:33  [Telegram.exe] ‎Saved Messages – (132377)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:44:33  [Telegram.exe] ‎Saved Messages – (132378)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:44:34  [chrome.exe] Edit Blog | WURK - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:44:51  [OneDrive.exe] Microsoft OneDrive
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:44:53  [chrome.exe] Edit Blog | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [v][v][v][v][v][v][v][v][v][v][v][v][v][v][v][^][^][^][^][^][^][^][^][^][Ctrl]a[Bk]
+
+--- WINDOW  2026/08/17 07:45:05  [chrome.exe] Custom work challenge job | WURK Custom Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:45:09  [chrome.exe] Jobs Timeline | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:45:25  [chrome.exe] Custom Job | WURK - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:45:26  [chrome.exe] general challenge job | WURK Custom Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:45:35  [chrome.exe] My Profile | WURK - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:45:45  [OneDrive.exe] Microsoft OneDrive
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:45:47  [chrome.exe] My Profile | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:45:48  [chrome.exe] Edit Blog | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:45:50  [chrome.exe] My Profile | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:45:52  [chrome.exe] Jobs Timeline | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:46:14  [chrome.exe] Custom Job | WURK - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:46:16  [chrome.exe] general challenge job | WURK Custom Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:46:23  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:46:42  [chrome.exe] general challenge job | WURK Custom Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:46:44  [chrome.exe] Open
+----------------------------------------------------------------------------
+  i
+  [LMB]
+
+--- WINDOW  2026/08/17 07:46:50  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:46:52  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:47:00  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:47:04  [chrome.exe] general challenge job | WURK Custom Jobs - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:47:04  [chrome.exe] Notifications / X - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:47:05  [chrome.exe] Edit Blog | WURK - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:47:09  [chrome.exe] general challenge job | WURK Custom Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:47:11  [chrome.exe] My Profile | WURK - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:47:15  [OneDrive.exe] Microsoft OneDrive
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:47:17  [chrome.exe] My Profile | WURK - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:47:19  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+  ig
+  [LMB]
+
+--- WINDOW  2026/08/17 07:47:24  [chrome.exe] My Profile | WURK - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:47:29  [OneDrive.exe] Microsoft OneDrive
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:47:30  [chrome.exe] My Profile | WURK - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:47:31  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+  a
+
+--- WINDOW  2026/08/17 07:47:38  [chrome.exe] My Profile | WURK - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:47:38  [savvyshot.exe] savvyshot
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:47:44  [savvyshot.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:47:47  [savvyshot.exe] Savvyshot
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:48:32  [chrome.exe] My Profile | WURK - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:48:35  [OneDrive.exe] Microsoft OneDrive
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:48:46  [chrome.exe] My Profile | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:48:52  [chrome.exe] Jobs Timeline | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:49:06  [chrome.exe] Custom Job | WURK - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:49:07  [chrome.exe] general challenge job | WURK Custom Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:49:23  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:50:16  [chrome.exe] general challenge job | WURK Custom Jobs - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  wurk done
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:50:30  [chrome.exe] My Profile | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:50:31  [chrome.exe] Profile Referrals | WURK - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  https://wurk.fun/?ref=XRPETRX
+  [LMB]
+
+--- WINDOW  2026/08/17 07:50:40  [Telegram.exe] ‎Saved Messages – (132380)
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [RMB]
+
+--- WINDOW  2026/08/17 07:51:02  [Telegram.exe] TelegramDesktop
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:53:14  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:53:21  [TradingView.exe] TradingView
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:53:23  [TradingView.exe] USOIL
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:53:32  [TradingView.exe] USOIL ▼ 81.783 −0.68% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:53:34  [TradingView.exe] USOIL ▼ 81.774 −0.69% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:53:36  [TradingView.exe] USOIL ▼ 81.779 −0.69% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:53:38  [TradingView.exe] USOIL ▼ 81.782 −0.68% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:53:41  [TradingView.exe] USOIL ▼ 81.818 −0.64% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:53:44  [TradingView.exe] USOIL ▼ 81.812 −0.65% / MENDEZ
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/08/17 07:53:45  [TradingView.exe] USOIL ▼ 81.804 −0.66% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:53:50  [TradingView.exe] USOIL ▼ 81.799 −0.66% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:53:52  [TradingView.exe] USOIL ▼ 81.773 −0.69% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:53:53  [TradingView.exe] EURUSD ▼ 81.773 −0.69% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:53:54  [TradingView.exe] EURUSD ▲ 1.15951 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:53:58  [TradingView.exe] EURUSD ▲ 1.15952 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:03  [TradingView.exe] EURUSD ▲ 1.15951 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:06  [TradingView.exe] EURUSD ▲ 1.15952 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:14  [TradingView.exe] EURUSD ▲ 1.15951 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:16  [TradingView.exe] EURUSD ▲ 1.15947 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:20  [TradingView.exe] EURUSD ▲ 1.15946 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:26  [TradingView.exe] EURUSD ▲ 1.15945 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:29  [TradingView.exe] EURUSD ▲ 1.15946 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:32  [TradingView.exe] EURUSD ▲ 1.15945 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:37  [TradingView.exe] EURUSD ▲ 1.15943 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:38  [TradingView.exe] EURUSD ▲ 1.15944 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:40  [TradingView.exe] EURUSD ▲ 1.15943 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:42  [TradingView.exe] EURUSD ▲ 1.15946 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:48  [TradingView.exe] EURUSD ▲ 1.15948 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:53  [TradingView.exe] EURUSD ▲ 1.15947 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:56  [TradingView.exe] EURUSD ▲ 1.15948 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:54:58  [TradingView.exe] EURUSD ▲ 1.15947 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:04  [TradingView.exe] EURUSD ▲ 1.15946 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:05  [TradingView.exe] EURUSD ▲ 1.15945 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:08  [TradingView.exe] EURUSD ▲ 1.15943 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:12  [TradingView.exe] EURUSD ▲ 1.15942 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:21  [TradingView.exe] EURUSD ▲ 1.15943 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:23  [TradingView.exe] EURUSD ▲ 1.15942 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:23  [TradingView.exe] EURUSD ▲ 1.15943 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:26  [TradingView.exe] EURUSD ▲ 1.15952 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:31  [TradingView.exe] EURUSD ▲ 1.15953 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:36  [TradingView.exe] EURUSD ▲ 1.15952 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:38  [TradingView.exe] EURUSD ▲ 1.15951 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:40  [TradingView.exe] EURUSD ▲ 1.15952 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:43  [TradingView.exe] EURUSD ▲ 1.15951 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:45  [TradingView.exe] EURUSD ▲ 1.15953 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:50  [TradingView.exe] EURUSD ▲ 1.15952 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:52  [TradingView.exe] EURUSD ▲ 1.15953 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:55:54  [TradingView.exe] EURUSD ▲ 1.15952 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:55:58  [TradingView.exe] EURUSD ▲ 1.15953 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:56:01  [TradingView.exe] EURUSD ▲ 1.15954 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:56:04  [TradingView.exe] EURUSD ▲ 1.15956 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:05  [TradingView.exe] EURUSD ▲ 1.15957 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:08  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:09  [TradingView.exe] EURUSD ▲ 1.15957 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:11  [TradingView.exe] EURUSD ▲ 1.15956 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:13  [TradingView.exe] EURUSD ▲ 1.15957 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:16  [TradingView.exe] EURUSD ▲ 1.15962 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:19  [TradingView.exe] EURUSD ▲ 1.15963 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:56:25  [TradingView.exe] EURUSD ▲ 1.15961 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:27  [TradingView.exe] EURUSD ▲ 1.15960 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:29  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:31  [TradingView.exe] EURUSD ▲ 1.15957 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:35  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:37  [TradingView.exe] EURUSD ▲ 1.15957 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:50  [TradingView.exe] EURUSD ▲ 1.15956 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:50  [TradingView.exe] EURUSD ▲ 1.15955 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:56:53  [TradingView.exe] EURUSD ▲ 1.15956 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Del]
+  [LMB]
+  [Del]
+
+--- WINDOW  2026/08/17 07:57:01  [TradingView.exe] EURUSD ▲ 1.15957 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:57:04  [TradingView.exe] EURUSD ▲ 1.15959 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:57:04  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk]
+
+--- WINDOW  2026/08/17 07:57:10  [TradingView.exe] EURUSD ▲ 1.15959 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:57:14  [TradingView.exe] EURUSD ▲ 1.15960 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:57:17  [TradingView.exe] EURUSD ▲ 1.15962 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:57:19  [TradingView.exe] EURUSD ▲ 1.15963 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:57:21  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:57:21  [TradingView.exe] EURUSD ▲ 1.15963 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:57:22  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:57:22  [TradingView.exe] EURUSD ▲ 1.15961 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:57:25  [TradingView.exe] EURUSD ▲ 1.15960 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:57:27  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:57:30  [TradingView.exe] EURUSD ▲ 1.15963 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:57:32  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:57:34  [TradingView.exe] EURUSD ▲ 1.15960 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:57:37  [TradingView.exe] EURUSD ▲ 1.15962 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:57:39  [TradingView.exe] EURUSD ▲ 1.15961 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/17 07:57:45  [TradingView.exe] EURUSD ▲ 1.15960 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:57:47  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:57:49  [TradingView.exe] EURUSD ▲ 1.15957 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:57:52  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:57:52  [TradingView.exe] EURUSD ▲ 1.15956 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:57:56  [TradingView.exe] EURUSD ▲ 1.15952 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:57:57  [TradingView.exe] EURUSD ▲ 1.15953 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:58:00  [TradingView.exe] EURUSD ▲ 1.15956 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:02  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:05  [TradingView.exe] EURUSD ▲ 1.15957 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:11  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:13  [TradingView.exe] EURUSD ▲ 1.15961 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:20  [TradingView.exe] EURUSD ▲ 1.15964 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:24  [TradingView.exe] EURUSD ▲ 1.15963 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:24  [TradingView.exe] EURUSD ▲ 1.15965 +0.26% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:26  [TradingView.exe] EURUSD ▲ 1.15963 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:36  [TradingView.exe] EURUSD ▲ 1.15965 +0.26% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:38  [TradingView.exe] EURUSD ▲ 1.15966 +0.26% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:41  [TradingView.exe] EURUSD ▲ 1.15964 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:44  [TradingView.exe] EURUSD ▲ 1.15965 +0.26% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:46  [TradingView.exe] EURUSD ▲ 1.15966 +0.26% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:48  [TradingView.exe] EURUSD ▲ 1.15965 +0.26% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:51  [TradingView.exe] EURUSD ▲ 1.15966 +0.26% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:56  [TradingView.exe] EURUSD ▲ 1.15965 +0.26% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:58:58  [TradingView.exe] EURUSD ▲ 1.15960 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:59:01  [TradingView.exe] EURUSD ▲ 1.15962 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:03  [TradingView.exe] EURUSD ▲ 1.15963 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:59:05  [TradingView.exe] EURUSD ▲ 1.15962 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:07  [TradingView.exe] EURUSD ▲ 1.15963 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/17 07:59:11  [TradingView.exe] EURUSD ▲ 1.15961 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:13  [TradingView.exe] EURUSD ▲ 1.15962 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:15  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:17  [TradingView.exe] EURUSD ▲ 1.15957 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:20  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:24  [TradingView.exe] EURUSD ▲ 1.15957 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:25  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:27  [TradingView.exe] EURUSD ▲ 1.15957 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:29  [TradingView.exe] EURUSD ▲ 1.15956 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:32  [TradingView.exe] EURUSD ▲ 1.15955 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:37  [TradingView.exe] EURUSD ▲ 1.15953 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:39  [TradingView.exe] EURUSD ▲ 1.15951 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:42  [TradingView.exe] EURUSD ▲ 1.15950 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:44  [TradingView.exe] EURUSD ▲ 1.15951 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:45  [TradingView.exe] EURUSD ▲ 1.15952 +0.24% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:47  [TradingView.exe] EURUSD ▲ 1.15954 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:52  [TradingView.exe] EURUSD ▲ 1.15955 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:55  [TradingView.exe] EURUSD ▲ 1.15956 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:55  [TradingView.exe] EURUSD ▲ 1.15957 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 07:59:57  [TradingView.exe] EURUSD ▲ 1.15956 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 08:00:00  [TradingView.exe] EURUSD ▲ 1.15958 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 08:00:02  [TradingView.exe] EURUSD ▲ 1.15962 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 08:00:06  [TradingView.exe] EURUSD ▲ 1.15961 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 08:00:08  [TradingView.exe] EURUSD ▲ 1.15962 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 08:00:11  [TradingView.exe] EURUSD ▲ 1.15965 +0.26% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 08:00:13  [TradingView.exe] EURUSD ▲ 1.15962 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 08:00:15  [TradingView.exe] EURUSD ▲ 1.15966 +0.26% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 08:00:16  [TradingView.exe] EURUSD ▲ 1.15965 +0.26% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 08:00:21  [TradingView.exe] EURUSD ▲ 1.15960 +0.25% / MENDEZ
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/17 08:00:23  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
