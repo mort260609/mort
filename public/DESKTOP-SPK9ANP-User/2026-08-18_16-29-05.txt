@@ -1,0 +1,4077 @@
+﻿  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 15:29:14  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:29:14  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  2
+
+--- WINDOW  2026/08/18 15:29:17  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:29:17  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 15:29:20  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:29:20  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 15:29:21  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  2
+
+--- WINDOW  2026/08/18 15:29:21  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  d
+
+--- WINDOW  2026/08/18 15:29:23  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li 
+
+--- WINDOW  2026/08/18 15:29:24  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 15:29:32  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:29:32  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  3
+
+--- WINDOW  2026/08/18 15:29:34  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:29:34  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  e
+
+--- WINDOW  2026/08/18 15:29:35  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:29:35  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   s
+
+--- WINDOW  2026/08/18 15:29:37  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:29:37  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  f
+
+--- WINDOW  2026/08/18 15:29:47  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:29:47  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [Esc][Ctrl]zzt
+
+--- WINDOW  2026/08/18 15:29:52  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  r 
+
+--- WINDOW  2026/08/18 15:29:52  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]e 
+
+--- WINDOW  2026/08/18 15:29:54  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:29:54  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   f
+
+--- WINDOW  2026/08/18 15:29:56  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:29:56  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  o
+
+--- WINDOW  2026/08/18 15:30:07  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:30:07  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  2
+
+--- WINDOW  2026/08/18 15:30:07  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:30:07  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 15:30:13  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  m
+
+--- WINDOW  2026/08/18 15:30:13  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]t
+
+--- WINDOW  2026/08/18 15:30:19  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  r
+
+--- WINDOW  2026/08/18 15:30:19  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+    
+  [LMB]
+  [Esc]m
+
+--- WINDOW  2026/08/18 15:30:21  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  a
+
+--- WINDOW  2026/08/18 15:30:21  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc][Esc]f
+
+--- WINDOW  2026/08/18 15:30:23  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:30:24  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  [Esc]
+
+--- WINDOW  2026/08/18 15:30:35  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 15:30:35  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  2
+
+--- WINDOW  2026/08/18 15:30:35  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:30:36  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 15:30:41  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  x
+
+--- WINDOW  2026/08/18 15:30:41  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 15:30:45  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  x
+
+--- WINDOW  2026/08/18 15:30:45  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   
+  [LMB]
+  [Esc]m
+
+--- WINDOW  2026/08/18 15:30:49  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  a
+
+--- WINDOW  2026/08/18 15:30:50  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc][Esc]
+
+--- WINDOW  2026/08/18 15:30:53  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  f
+
+--- WINDOW  2026/08/18 15:30:53  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  [Esc][Esc]t
+
+--- WINDOW  2026/08/18 15:31:00  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  r 
+
+--- WINDOW  2026/08/18 15:31:00  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]
+
+--- WINDOW  2026/08/18 15:31:32  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o
+
+--- WINDOW  2026/08/18 15:31:32  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   2
+
+--- WINDOW  2026/08/18 15:31:32  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:31:32  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc][Esc]f
+
+--- WINDOW  2026/08/18 15:31:36  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:31:36  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  e
+
+--- WINDOW  2026/08/18 15:31:42  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  x
+
+--- WINDOW  2026/08/18 15:31:43  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+    
+  [LMB]
+  [Esc]
+
+--- WINDOW  2026/08/18 15:31:46  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  ma 
+
+--- WINDOW  2026/08/18 15:31:47  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]f
+
+--- WINDOW  2026/08/18 15:31:51  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:31:52  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  o
+
+--- WINDOW  2026/08/18 15:32:51  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:32:51  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  2
+
+--- WINDOW  2026/08/18 15:32:51  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:32:51  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc][Esc]l
+
+--- WINDOW  2026/08/18 15:32:55  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:32:55  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]o
+
+--- WINDOW  2026/08/18 15:32:58  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:32:58  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  0
+
+--- WINDOW  2026/08/18 15:32:58  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:32:58  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   [Esc][Esc]o
+
+--- WINDOW  2026/08/18 15:32:59  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:33:00  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  2
+
+--- WINDOW  2026/08/18 15:33:00  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:33:00  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 15:33:01  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:33:02  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   [Esc]e
+
+--- WINDOW  2026/08/18 15:33:04  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  x
+
+--- WINDOW  2026/08/18 15:33:05  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   
+  [LMB]
+  [Esc][Esc]m
+
+--- WINDOW  2026/08/18 15:33:09  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  a 
+
+--- WINDOW  2026/08/18 15:33:09  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]o
+
+--- WINDOW  2026/08/18 15:33:13  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:33:13  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   2
+
+--- WINDOW  2026/08/18 15:33:13  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:33:13  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc]f
+
+--- WINDOW  2026/08/18 15:33:17  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:33:17  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]m
+
+--- WINDOW  2026/08/18 15:33:20  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  a
+
+--- WINDOW  2026/08/18 15:33:21  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]o
+
+--- WINDOW  2026/08/18 15:33:34  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:33:35  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   2
+
+--- WINDOW  2026/08/18 15:33:35  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:33:35  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc][Esc]
+
+--- WINDOW  2026/08/18 15:33:38  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  ma
+
+--- WINDOW  2026/08/18 15:33:38  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]f
+
+--- WINDOW  2026/08/18 15:33:40  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:33:41  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 15:33:45  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:33:45  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   [Esc][Ctrl]sd
+
+--- WINDOW  2026/08/18 15:34:43  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li
+
+--- WINDOW  2026/08/18 15:34:44  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc][Ctrl]s
+
+--- WINDOW  2026/08/18 15:34:57  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:34:57  [WhatsApp.Root.exe] WhatsApp
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  ab btaye kya krna ha/
+  [LMB]
+  [LMB]
+   is lye ma ne socha agli meeting se pahly ap se discuss kr lo.[ENTER]
+
+--- WINDOW  2026/08/18 15:37:04  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:37:04  [chrome.exe] (1084) Bihar Falgu River Horror Incident Of A Family | Hindi Horror Story | Vikal Kashyap - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:37:29  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:37:29  [WhatsApp.Root.exe] WhatsApp
+----------------------------------------------------------------------------
+  [LMB]
+  yahi bat [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  ue na bolye ga k ma ne kaha ha. pta chaly[<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][Bk]n e[->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][<-][<-][<-][<-][<-][<-][<-][<-][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]hein na btaye[->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->][->] k bad me me[Bk][Bk]apk busu[Bk]iness relation bhi kharab ho [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+
+--- WINDOW  2026/08/18 15:39:40  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:39:40  [chrome.exe] (1084) Bihar Falgu River Horror Incident Of A Family | Hindi Horror Story | Vikal Kashyap - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 15:39:41  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:39:41  [WhatsApp.Root.exe] WhatsApp
+----------------------------------------------------------------------------
+  ma apko detail me btata ho k kya bat hui thi.[<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-][<-]voice note me 
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 15:43:11  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:43:11  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 15:43:12  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [Ctrl]s
+
+--- WINDOW  2026/08/18 15:44:51  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:45:16  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:49:02  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:49:02  [chrome.exe] (1084) Bihar Falgu River Horror Incident Of A Family | Hindi Horror Story | Vikal Kashyap - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:49:11  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:49:11  [WhatsApp.Root.exe] WhatsApp
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:49:14  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:49:14  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:49:14  [chrome.exe] (1084) Bihar Falgu River Horror Incident Of A Family | Hindi Horror Story | Vikal Kashyap - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 15:49:16  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:49:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 15:49:17  [acad.exe] Working.dwg
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:49:17  [acad.exe] Autodesk AutoCAD 2014 - [Working.dwg]
+----------------------------------------------------------------------------
+  [Esc]
+
+--- WINDOW  2026/08/18 15:49:41  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:49:41  [chrome.exe] (1084) Bihar Falgu River Horror Incident Of A Family | Hindi Horror Story | Vikal Kashyap - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 15:49:43  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  imtiaz paracha anyal textile[ENTER]
+
+--- WINDOW  2026/08/18 15:49:58  [chrome.exe] imtiaz paracha ranyal textile - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 15:50:35  [chrome.exe] Just a moment... - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 15:50:37  [chrome.exe] (1084) Bihar Falgu River Horror Incident Of A Family | Hindi Horror Story | Vikal Kashyap - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 15:50:38  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  meh stu
+  [LMB]
+
+--- WINDOW  2026/08/18 15:50:43  [chrome.exe] mehr studio - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 15:50:51  [chrome.exe] Buy Luxury Lawn Stitched & Pret Dresses Online | Studio Mehr - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 15:50:54  [chrome.exe] mehr studio - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 15:50:57  [chrome.exe] studio mehr location - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  office interior[ENTER]
+
+--- WINDOW  2026/08/18 15:51:21  [chrome.exe] studio mehr office interior - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 15:52:00  [chrome.exe] Master plan site suggestions - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:52:02  [chrome.exe] (1084) Bihar Falgu River Horror Incident Of A Family | Hindi Horror Story | Vikal Kashyap - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 15:52:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:52:09  [acad.exe] Ranyal Lab Elevation Working for Interior 03.dwg
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:52:10  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:52:19  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:52:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 15:52:20  [acad.exe] Working.dwg
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:52:20  [acad.exe] Autodesk AutoCAD 2014 - [Working.dwg]
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:52:30  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:52:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 15:52:31  [acad.exe] Ranyal Lab Elevation Working for Interior 03.dwg
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:52:31  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 15:52:56  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o
+
+--- WINDOW  2026/08/18 15:52:56  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]s
+
+--- WINDOW  2026/08/18 15:53:03  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  c
+
+--- WINDOW  2026/08/18 15:53:04  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   
+  [LMB]
+
+--- WINDOW  2026/08/18 15:53:06  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:53:07  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 15:53:12  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  i 
+
+--- WINDOW  2026/08/18 15:53:12  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  y
+
+--- WINDOW  2026/08/18 15:53:15  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:53:15  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 15:53:18  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  i 
+
+--- WINDOW  2026/08/18 15:53:19  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  n
+
+--- WINDOW  2026/08/18 15:53:20  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:53:20  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   [Esc][Esc]s
+
+--- WINDOW  2026/08/18 15:53:34  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:53:34  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 15:53:48  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:53:48  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+    
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [Esc]f 
+  [LMB]
+  [LMB]
+  [Esc]f
+
+--- WINDOW  2026/08/18 15:53:59  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:53:59  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 15:54:33  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:54:33  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc][Esc][Esc][Esc]e
+
+--- WINDOW  2026/08/18 15:54:42  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:54:42  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [Esc][Esc]o
+
+--- WINDOW  2026/08/18 15:54:45  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:54:45  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  2
+
+--- WINDOW  2026/08/18 15:54:46  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  4
+
+--- WINDOW  2026/08/18 15:54:46  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc][Esc]t
+
+--- WINDOW  2026/08/18 15:54:51  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:54:51  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc][Esc]e
+
+--- WINDOW  2026/08/18 15:54:55  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  [LMB]
+   
+
+--- WINDOW  2026/08/18 15:54:55  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+    
+  [LMB]
+   o
+
+--- WINDOW  2026/08/18 15:54:58  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:54:58  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   4
+
+--- WINDOW  2026/08/18 15:54:59  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  8
+
+--- WINDOW  2026/08/18 15:54:59  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc]d
+
+--- WINDOW  2026/08/18 15:55:02  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li 
+
+--- WINDOW  2026/08/18 15:55:03  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 15:55:07  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:55:07  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [Esc]e
+
+--- WINDOW  2026/08/18 15:55:07  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:55:07  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   o
+
+--- WINDOW  2026/08/18 15:55:09  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:55:09  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   4
+
+--- WINDOW  2026/08/18 15:55:10  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  8 
+
+--- WINDOW  2026/08/18 15:55:10  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [Esc][Esc]e
+
+--- WINDOW  2026/08/18 15:55:13  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  x
+
+--- WINDOW  2026/08/18 15:55:13  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+    
+  [LMB]
+  [Esc]l
+
+--- WINDOW  2026/08/18 15:55:17  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:55:17  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]m
+
+--- WINDOW  2026/08/18 15:55:20  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  a
+
+--- WINDOW  2026/08/18 15:55:21  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]t
+
+--- WINDOW  2026/08/18 15:55:24  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  r 
+
+--- WINDOW  2026/08/18 15:55:24  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 15:55:26  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:55:26  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   [Esc]e
+
+--- WINDOW  2026/08/18 15:55:50  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:55:50  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+    
+  [LMB]
+  [LMB]
+  [Esc][Esc]e
+
+--- WINDOW  2026/08/18 15:55:54  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:55:54  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+   m
+
+--- WINDOW  2026/08/18 15:55:57  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  a 
+
+--- WINDOW  2026/08/18 15:55:57  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc][Esc]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 15:56:08  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 15:56:08  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [Esc]
+  [LMB]
+
+--- WINDOW  2026/08/18 15:56:13  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  co 
+
+--- WINDOW  2026/08/18 15:56:13  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+
+--- WINDOW  2026/08/18 15:56:17  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o
+
+--- WINDOW  2026/08/18 15:56:18  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  d
+
+--- WINDOW  2026/08/18 15:56:21  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li 
+
+--- WINDOW  2026/08/18 15:56:22  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 15:56:25  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:56:25  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   s
+
+--- WINDOW  2026/08/18 15:56:29  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  c 
+
+--- WINDOW  2026/08/18 15:56:29  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   
+  [LMB]
+  r
+
+--- WINDOW  2026/08/18 15:56:31  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:56:31  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  3
+
+--- WINDOW  2026/08/18 15:56:34  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  6
+
+--- WINDOW  2026/08/18 15:56:34  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  [Esc]e
+
+--- WINDOW  2026/08/18 15:56:39  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:56:39  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   s
+
+--- WINDOW  2026/08/18 15:56:40  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:56:40  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+   6
+
+--- WINDOW  2026/08/18 15:56:44  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:56:44  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 15:56:49  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:56:49  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 15:56:53  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  i 
+
+--- WINDOW  2026/08/18 15:56:54  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  n
+
+--- WINDOW  2026/08/18 15:56:55  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:56:55  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 15:56:58  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:56:58  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  6
+
+--- WINDOW  2026/08/18 15:57:00  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:57:00  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 15:57:04  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:57:04  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc][Esc][Esc]o
+
+--- WINDOW  2026/08/18 15:57:19  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:57:19  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  2
+
+--- WINDOW  2026/08/18 15:57:19  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  4 
+
+--- WINDOW  2026/08/18 15:57:19  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [Esc][Esc]e
+
+--- WINDOW  2026/08/18 15:57:22  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  x
+
+--- WINDOW  2026/08/18 15:57:22  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+    
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc][Esc]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 15:57:29  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:57:29  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   o
+
+--- WINDOW  2026/08/18 15:57:32  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:57:32  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  4
+
+--- WINDOW  2026/08/18 15:57:33  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  8 
+
+--- WINDOW  2026/08/18 15:57:33  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]f
+
+--- WINDOW  2026/08/18 15:57:41  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:57:41  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc][Esc]t
+
+--- WINDOW  2026/08/18 15:57:44  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  r
+
+--- WINDOW  2026/08/18 15:57:44  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   
+  [LMB]
+  [Esc]m
+
+--- WINDOW  2026/08/18 15:57:47  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  a 
+
+--- WINDOW  2026/08/18 15:57:48  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]f
+
+--- WINDOW  2026/08/18 15:57:51  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:57:51  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  o
+
+--- WINDOW  2026/08/18 15:57:57  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:57:57  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  4
+
+--- WINDOW  2026/08/18 15:57:58  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  8 
+
+--- WINDOW  2026/08/18 15:57:58  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc][Esc]t
+
+--- WINDOW  2026/08/18 15:58:03  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  r
+
+--- WINDOW  2026/08/18 15:58:03  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  [Esc]m
+
+--- WINDOW  2026/08/18 15:58:05  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  a
+
+--- WINDOW  2026/08/18 15:58:06  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc][Ctrl]s
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 15:58:13  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 15:58:14  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  r
+
+--- WINDOW  2026/08/18 15:58:18  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 15:58:19  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  s
+
+--- WINDOW  2026/08/18 15:58:21  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:58:22  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  1
+
+--- WINDOW  2026/08/18 15:58:26  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  2
+
+--- WINDOW  2026/08/18 15:58:26  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  d
+
+--- WINDOW  2026/08/18 15:58:39  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li 
+
+--- WINDOW  2026/08/18 15:58:40  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]o
+
+--- WINDOW  2026/08/18 15:58:45  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:58:45  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   6
+
+--- WINDOW  2026/08/18 15:58:45  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:58:46  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc]l
+
+--- WINDOW  2026/08/18 15:58:51  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:58:51  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]o
+
+--- WINDOW  2026/08/18 15:58:53  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:58:53  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   6
+
+--- WINDOW  2026/08/18 15:58:53  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:58:53  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 15:58:55  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 15:58:55  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   m
+
+--- WINDOW  2026/08/18 15:58:57  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  a
+
+--- WINDOW  2026/08/18 15:58:57  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc][Esc]
+
+--- WINDOW  2026/08/18 15:58:59  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  tr
+
+--- WINDOW  2026/08/18 15:59:00  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+    
+  [LMB]
+  [Esc]d
+
+--- WINDOW  2026/08/18 15:59:08  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li
+
+--- WINDOW  2026/08/18 15:59:08  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]
+
+--- WINDOW  2026/08/18 15:59:11  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  dli 
+
+--- WINDOW  2026/08/18 15:59:12  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+
+--- WINDOW  2026/08/18 15:59:15  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:59:15  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   
+  [LMB]
+   
+  [LMB]
+
+--- WINDOW  2026/08/18 15:59:17  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  8
+
+--- WINDOW  2026/08/18 15:59:18  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  d
+
+--- WINDOW  2026/08/18 15:59:19  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li 
+
+--- WINDOW  2026/08/18 15:59:19  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 15:59:29  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 15:59:30  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 15:59:36  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  i
+
+--- WINDOW  2026/08/18 15:59:36  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  y
+
+--- WINDOW  2026/08/18 15:59:39  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 15:59:39  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 15:59:59  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  m
+
+--- WINDOW  2026/08/18 16:00:00  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  1
+
+--- WINDOW  2026/08/18 16:00:02  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  2
+
+--- WINDOW  2026/08/18 16:00:03  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:00:10  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o
+
+--- WINDOW  2026/08/18 16:00:11  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:00:16  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:00:17  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   1
+
+--- WINDOW  2026/08/18 16:00:19  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  2
+
+--- WINDOW  2026/08/18 16:00:19  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  d
+
+--- WINDOW  2026/08/18 16:00:35  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li
+
+--- WINDOW  2026/08/18 16:00:36  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]s
+
+--- WINDOW  2026/08/18 16:00:39  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:00:39  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  2
+
+--- WINDOW  2026/08/18 16:00:42  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:00:42  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  d
+
+--- WINDOW  2026/08/18 16:00:47  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li 
+
+--- WINDOW  2026/08/18 16:00:47  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:01:05  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o
+
+--- WINDOW  2026/08/18 16:01:06  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  r
+
+--- WINDOW  2026/08/18 16:01:10  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:01:11  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:01:13  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  mi 
+
+--- WINDOW  2026/08/18 16:01:13  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  y
+
+--- WINDOW  2026/08/18 16:01:15  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:01:15  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   s
+
+--- WINDOW  2026/08/18 16:01:30  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:01:30  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  1
+
+--- WINDOW  2026/08/18 16:01:34  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  2
+
+--- WINDOW  2026/08/18 16:01:35  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  o
+
+--- WINDOW  2026/08/18 16:01:37  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:01:38  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  6
+
+--- WINDOW  2026/08/18 16:01:38  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:01:38  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc][Esc]
+
+--- WINDOW  2026/08/18 16:01:43  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  ex
+
+--- WINDOW  2026/08/18 16:01:44  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+    
+  [LMB]
+  [Esc][Esc]
+
+--- WINDOW  2026/08/18 16:01:46  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  t
+
+--- WINDOW  2026/08/18 16:01:46  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+    
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:01:54  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:01:55  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  r
+
+--- WINDOW  2026/08/18 16:01:59  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:01:59  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]s
+
+--- WINDOW  2026/08/18 16:02:13  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:02:13  [chrome.exe] (1084) Bihar Falgu River Horror Incident Of A Family | Hindi Horror Story | Vikal Kashyap - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:02:15  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:02:15  [WhatsApp.Root.exe] WhatsApp
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:02:27  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:02:27  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 16:02:28  [acad.exe] Ranyal Lab Elevation Working for Interior 03.dwg
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:02:28  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 16:02:53  [acad.exe] Autodesk AutoCAD 2014 - [Working.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/08/18 16:03:00  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+  [LMB]
+  [Esc]
+
+--- WINDOW  2026/08/18 16:03:23  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  l
+
+--- WINDOW  2026/08/18 16:03:23  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:03:28  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:03:28  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:03:34  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:03:34  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:03:40  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:03:40  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 16:03:47  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:03:47  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+    
+  [LMB]
+    
+  [LMB]
+   
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:03:53  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  i 
+
+--- WINDOW  2026/08/18 16:03:53  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  n
+
+--- WINDOW  2026/08/18 16:03:55  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:03:55  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:03:57  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  i
+
+--- WINDOW  2026/08/18 16:03:57  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  n
+
+--- WINDOW  2026/08/18 16:04:00  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:04:00  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:04:02  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  i
+
+--- WINDOW  2026/08/18 16:04:02  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  n
+
+--- WINDOW  2026/08/18 16:04:04  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:04:04  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:04:06  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:04:07  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:04:12  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:04:13  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:04:22  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 16:04:22  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc]
+
+--- WINDOW  2026/08/18 16:04:28  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  e
+
+--- WINDOW  2026/08/18 16:04:28  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   [Ctrl]j
+
+--- WINDOW  2026/08/18 16:05:19  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:05:19  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+   [Ctrl]s[Esc][Esc]s
+
+--- WINDOW  2026/08/18 16:05:48  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:05:48  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  4
+
+--- WINDOW  2026/08/18 16:05:58  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:05:59  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  [Esc][Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:06:05  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:06:05  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 16:06:09  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:06:09  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:06:11  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:06:11  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:06:15  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:06:15  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:06:28  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:06:28  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  4
+
+--- WINDOW  2026/08/18 16:06:29  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:06:30  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:06:32  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:06:32  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  2
+
+--- WINDOW  2026/08/18 16:06:33  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:06:34  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  [Esc]f
+
+--- WINDOW  2026/08/18 16:06:35  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:06:35  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  [Esc]l
+
+--- WINDOW  2026/08/18 16:07:21  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:07:21  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]o
+
+--- WINDOW  2026/08/18 16:07:24  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:07:25  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   0
+
+--- WINDOW  2026/08/18 16:07:25  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  .5 
+
+--- WINDOW  2026/08/18 16:07:26  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 16:07:29  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:07:29  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:07:33  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o
+
+--- WINDOW  2026/08/18 16:07:33  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 16:07:40  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  x 
+
+--- WINDOW  2026/08/18 16:07:40  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  [Esc]l
+
+--- WINDOW  2026/08/18 16:07:46  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:07:46  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]o
+
+--- WINDOW  2026/08/18 16:07:48  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:07:48  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:07:48  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  0.5
+
+--- WINDOW  2026/08/18 16:07:49  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 16:07:52  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:07:52  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:07:54  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:07:55  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 16:08:00  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  x
+
+--- WINDOW  2026/08/18 16:08:01  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:08:06  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o
+
+--- WINDOW  2026/08/18 16:08:07  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 16:08:13  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  x 
+
+--- WINDOW  2026/08/18 16:08:13  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   
+  [LMB]
+  [Esc]l
+
+--- WINDOW  2026/08/18 16:08:22  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:08:22  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]
+
+--- WINDOW  2026/08/18 16:08:25  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:08:25  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  0
+
+--- WINDOW  2026/08/18 16:08:25  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  .5
+
+--- WINDOW  2026/08/18 16:08:25  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 16:08:28  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:08:28  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   l
+
+--- WINDOW  2026/08/18 16:08:31  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:08:31  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]o
+
+--- WINDOW  2026/08/18 16:08:34  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:08:34  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:08:34  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  0.5
+
+--- WINDOW  2026/08/18 16:08:35  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 16:08:38  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:08:38  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   
+
+--- WINDOW  2026/08/18 16:08:40  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  ma 
+
+--- WINDOW  2026/08/18 16:08:41  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]o
+
+--- WINDOW  2026/08/18 16:09:00  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:09:00  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  0
+
+--- WINDOW  2026/08/18 16:09:00  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  .
+
+--- WINDOW  2026/08/18 16:09:02  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [Esc]o
+
+--- WINDOW  2026/08/18 16:09:03  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:09:03  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  0
+
+--- WINDOW  2026/08/18 16:09:03  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  .75
+
+--- WINDOW  2026/08/18 16:09:04  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc]
+
+--- WINDOW  2026/08/18 16:09:07  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  e
+
+--- WINDOW  2026/08/18 16:09:07  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   o
+
+--- WINDOW  2026/08/18 16:09:10  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:09:10  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  1
+
+--- WINDOW  2026/08/18 16:09:11  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  .75
+
+--- WINDOW  2026/08/18 16:09:12  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc][Esc][Esc]
+
+--- WINDOW  2026/08/18 16:09:17  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  e
+
+--- WINDOW  2026/08/18 16:09:17  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+   o
+
+--- WINDOW  2026/08/18 16:09:21  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:09:21  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  1
+
+--- WINDOW  2026/08/18 16:09:21  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  .5
+
+--- WINDOW  2026/08/18 16:09:22  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+
+--- WINDOW  2026/08/18 16:09:30  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  f 
+
+--- WINDOW  2026/08/18 16:09:30  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  o
+
+--- WINDOW  2026/08/18 16:09:40  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:09:40  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+    
+  [LMB]
+  [LMB]
+  [Esc]f
+
+--- WINDOW  2026/08/18 16:09:43  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:09:44  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  [Esc]m
+
+--- WINDOW  2026/08/18 16:09:49  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  a 
+
+--- WINDOW  2026/08/18 16:09:49  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]m
+
+--- WINDOW  2026/08/18 16:10:07  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  a 
+
+--- WINDOW  2026/08/18 16:10:07  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]m
+
+--- WINDOW  2026/08/18 16:10:29  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  a 
+
+--- WINDOW  2026/08/18 16:10:30  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+
+--- WINDOW  2026/08/18 16:10:44  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  ma
+
+--- WINDOW  2026/08/18 16:10:44  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc][Ctrl]s
+  [LMB]
+
+--- WINDOW  2026/08/18 16:11:24  [acad.exe] Text Formatting
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:11:24  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  meeting room
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:11:36  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:11:36  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:11:43  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:11:43  [chrome.exe] (1084) Assam Unmarried Girl Turned Into A Creepy Dayan | Haunted House #hindihorrorstories - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 16:11:46  [chrome.exe] (1084) 😱 SHE STOLE THE GOLD… BUT WHAT SHE TOLD HER FAMILY WAS TERRIFYING | Horror Tape 280 - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:11:52  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:11:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 16:11:52  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 16:11:56  [acad.exe] Text Formatting
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:11:56  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  12
+  [LMB]
+  20
+  [LMB]
+  0
+  [LMB]
+  [Esc]d
+
+--- WINDOW  2026/08/18 16:12:06  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li 
+
+--- WINDOW  2026/08/18 16:12:07  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc][Esc][Esc]e
+
+--- WINDOW  2026/08/18 16:12:32  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:12:32  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+   
+
+--- WINDOW  2026/08/18 16:12:34  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  j
+
+--- WINDOW  2026/08/18 16:12:34  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+    
+  [LMB]
+  [LMB]
+   d
+
+--- WINDOW  2026/08/18 16:13:14  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li
+
+--- WINDOW  2026/08/18 16:13:15  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc] 
+  [LMB]
+  [Esc] 
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:13:31  [acad.exe] Text Formatting
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:13:31  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  17
+  [LMB]
+  0
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:13:37  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:13:38  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:13:47  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:13:47  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:13:49  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:13:49  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:13:53  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o
+
+--- WINDOW  2026/08/18 16:13:53  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]d
+
+--- WINDOW  2026/08/18 16:13:58  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li 
+
+--- WINDOW  2026/08/18 16:13:59  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc] 
+  [LMB]
+  [LMB]
+  [Esc] 
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:14:23  [acad.exe] Text Formatting
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:14:23  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  6
+  [LMB]
+  4
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:14:39  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:14:39  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:14:42  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  co
+
+--- WINDOW  2026/08/18 16:14:43  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:14:50  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:14:50  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:14:51  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  dli [Esc][Esc]
+
+--- WINDOW  2026/08/18 16:14:53  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  d
+
+--- WINDOW  2026/08/18 16:14:54  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li
+
+--- WINDOW  2026/08/18 16:14:55  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc] 
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:15:06  [acad.exe] Text Formatting
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:15:06  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk]1
+  [LMB]
+  0
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:15:19  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:15:19  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Ctrl]o
+
+--- WINDOW  2026/08/18 16:15:32  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:15:33  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   2
+
+--- WINDOW  2026/08/18 16:15:33  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  4
+
+--- WINDOW  2026/08/18 16:15:33  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:15:41  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:15:42  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  r
+
+--- WINDOW  2026/08/18 16:15:47  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:15:48  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 16:15:50  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:15:50  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:15:54  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o
+
+--- WINDOW  2026/08/18 16:15:54  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:16:06  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  mi
+
+--- WINDOW  2026/08/18 16:16:07  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  n
+
+--- WINDOW  2026/08/18 16:16:09  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:16:09  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 16:16:17  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  m 
+
+--- WINDOW  2026/08/18 16:16:18  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]d
+
+--- WINDOW  2026/08/18 16:16:27  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li
+
+--- WINDOW  2026/08/18 16:16:27  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc] 
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:16:49  [acad.exe] Text Formatting
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:16:49  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk]3
+  [LMB]
+  1171
+  [LMB]
+  [LMB]
+  2
+  [LMB]
+  6
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Esc]
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:17:10  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:17:10  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:17:17  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:17:17  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]s
+  [LMB]
+  [Esc]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:17:29  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:17:29  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc][Ctrl]sd
+
+--- WINDOW  2026/08/18 16:17:42  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li 
+
+--- WINDOW  2026/08/18 16:17:42  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc] 
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:17:54  [acad.exe] Text Formatting
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:17:54  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  8
+  [LMB]
+  3
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:18:00  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:18:00  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:18:08  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o
+
+--- WINDOW  2026/08/18 16:18:09  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:18:15  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:18:15  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:18:22  [acad.exe] Text Formatting
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:18:22  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]d
+
+--- WINDOW  2026/08/18 16:18:26  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li 
+
+--- WINDOW  2026/08/18 16:18:27  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc] 
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:18:36  [acad.exe] Text Formatting
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:18:36  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  16
+  [LMB]
+  0
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:18:42  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:18:42  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:18:46  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:18:46  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:18:51  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:18:51  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Ctrl]s
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:19:25  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o
+
+--- WINDOW  2026/08/18 16:19:26  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   [Esc][Esc]e
+
+--- WINDOW  2026/08/18 16:19:27  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:19:27  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+    
+  [LMB]
+  [LMB]
+    
+  [LMB]
+  [LMB]
+    [Esc]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:19:34  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:19:34  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:19:41  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:19:41  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:19:45  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:19:46  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  d
+
+--- WINDOW  2026/08/18 16:19:53  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li 
+
+--- WINDOW  2026/08/18 16:19:54  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc] 
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:20:12  [acad.exe] Text Formatting
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:20:12  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  2
+  [LMB]
+  7171
+  [LMB]
+  38
+  [LMB]
+  1171
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:20:27  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:20:27  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:20:31  [acad.exe] Text Formatting
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:20:31  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  display
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:20:40  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:20:40  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]s
+  [LMB]
+
+--- WINDOW  2026/08/18 16:20:56  [acad.exe] Autodesk AutoCAD 2014 - [Working.dwg]
+----------------------------------------------------------------------------
+  [Esc]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl]c
+  [LMB]
+
+--- WINDOW  2026/08/18 16:21:01  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:21:09  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:21:09  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:21:12  [acad.exe] Text Formatting
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:21:12  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:21:18  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:21:19  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  d
+
+--- WINDOW  2026/08/18 16:21:23  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li 
+
+--- WINDOW  2026/08/18 16:21:23  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc] 
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:21:34  [acad.exe] Text Formatting
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:21:34  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  4
+  [LMB]
+  9
+  [LMB]
+  0
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:21:47  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:21:47  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:21:52  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:21:52  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]s
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:22:37  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:22:38  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:22:46  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:22:46  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  d
+
+--- WINDOW  2026/08/18 16:22:49  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  li 
+
+--- WINDOW  2026/08/18 16:22:50  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc] 
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:23:02  [acad.exe] Text Formatting
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:23:02  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [Bk]5
+  [LMB]
+  6
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:23:11  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:23:11  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]s[Esc]e
+
+--- WINDOW  2026/08/18 16:23:22  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:23:22  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   [Esc][Esc]e
+
+--- WINDOW  2026/08/18 16:23:32  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:23:33  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+   j
+
+--- WINDOW  2026/08/18 16:23:35  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:23:35  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+    
+  [LMB]
+  [LMB]
+   [Esc]e
+
+--- WINDOW  2026/08/18 16:23:38  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:23:38  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+   [Esc]e
+
+--- WINDOW  2026/08/18 16:23:40  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:23:40  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   [Esc]s
+
+--- WINDOW  2026/08/18 16:23:45  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:23:46  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [Esc]s
+
+--- WINDOW  2026/08/18 16:23:48  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:23:48  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  4
+
+--- WINDOW  2026/08/18 16:23:52  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  .5
+
+--- WINDOW  2026/08/18 16:23:53  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [ENTER]
+  j
+
+--- WINDOW  2026/08/18 16:23:54  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:23:54  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+    
+  [LMB]
+  [LMB]
+   s
+
+--- WINDOW  2026/08/18 16:23:58  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:23:58  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   [Esc][Esc]l
+
+--- WINDOW  2026/08/18 16:24:02  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:24:02  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]
+
+--- WINDOW  2026/08/18 16:24:05  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  xl 
+
+--- WINDOW  2026/08/18 16:24:05  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]s
+
+--- WINDOW  2026/08/18 16:24:08  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:24:08  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 16:24:16  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:24:16  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+    
+  [LMB]
+   
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:24:19  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 16:24:19  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:24:36  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  i
+
+--- WINDOW  2026/08/18 16:24:36  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  y
+
+--- WINDOW  2026/08/18 16:24:38  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:24:38  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:24:42  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:24:42  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:24:49  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:24:50  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc][Esc]t
+
+--- WINDOW  2026/08/18 16:24:58  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  r
+
+--- WINDOW  2026/08/18 16:24:58  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [Esc]l
+
+--- WINDOW  2026/08/18 16:25:04  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:25:04  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc] 
+  [LMB]
+  [LMB]
+  [Esc][Esc]m
+
+--- WINDOW  2026/08/18 16:25:12  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  a 
+
+--- WINDOW  2026/08/18 16:25:12  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc][Ctrl]s
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:25:21  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:25:21  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]x
+
+--- WINDOW  2026/08/18 16:25:26  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  l 
+
+--- WINDOW  2026/08/18 16:25:26  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [Esc]s
+
+--- WINDOW  2026/08/18 16:25:28  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:25:28  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  [Esc]e
+
+--- WINDOW  2026/08/18 16:25:34  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:25:34  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+   [Ctrl]sl
+
+--- WINDOW  2026/08/18 16:25:52  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:25:52  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]o
+
+--- WINDOW  2026/08/18 16:25:57  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:25:57  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   9
+
+--- WINDOW  2026/08/18 16:25:57  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:25:57  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc]j
+
+--- WINDOW  2026/08/18 16:26:01  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:26:01  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [Esc][Esc]e
+
+--- WINDOW  2026/08/18 16:26:05  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:26:05  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   
+
+--- WINDOW  2026/08/18 16:26:09  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  ex 
+
+--- WINDOW  2026/08/18 16:26:09  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   
+  [LMB]
+  [Esc][Esc]t
+
+--- WINDOW  2026/08/18 16:26:14  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  r
+
+--- WINDOW  2026/08/18 16:26:14  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+    
+  [LMB]
+  [Esc][Esc][Esc]e
+
+--- WINDOW  2026/08/18 16:26:17  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:26:17  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   
+  [LMB]
+   [Esc][Esc]e
+
+--- WINDOW  2026/08/18 16:26:22  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:26:22  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+   
+  [LMB]
+   e
+
+--- WINDOW  2026/08/18 16:26:23  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:26:23  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+   j
+
+--- WINDOW  2026/08/18 16:26:26  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:26:26  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+    
+  [LMB]
+  [LMB]
+   f
+
+--- WINDOW  2026/08/18 16:26:35  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:26:35  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]m
+
+--- WINDOW  2026/08/18 16:26:37  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  a 
+
+--- WINDOW  2026/08/18 16:26:38  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]x
+
+--- WINDOW  2026/08/18 16:26:47  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  l
+
+--- WINDOW  2026/08/18 16:26:48  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  c
+
+--- WINDOW  2026/08/18 16:26:54  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o 
+
+--- WINDOW  2026/08/18 16:26:54  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  [LMB]
+  r
+
+--- WINDOW  2026/08/18 16:27:01  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  o
+
+--- WINDOW  2026/08/18 16:27:01  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  [Esc]e 
+  [LMB]
+   t
+
+--- WINDOW  2026/08/18 16:27:05  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:27:05  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:27:12  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:27:12  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:27:22  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026/08/18 16:27:22  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  m
+
+--- WINDOW  2026/08/18 16:27:27  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:27:27  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+   
+  [LMB]
+  [LMB]
+  s
+
+--- WINDOW  2026/08/18 16:27:33  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:27:33  [chrome.exe] (1084) 😱 SHE STOLE THE GOLD… BUT WHAT SHE TOLD HER FAMILY WAS TERRIFYING | Horror Tape 280 - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:27:35  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:27:35  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 16:27:36  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:27:39  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:27:39  [chrome.exe] (1084) 😱 SHE STOLE THE GOLD… BUT WHAT SHE TOLD HER FAMILY WAS TERRIFYING | Horror Tape 280 - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:27:41  [chrome.exe] resorts near Miracle Hill Rd, Desert Hot Springs, CA, USA - Google Maps - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:28:25  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:28:25  [WhatsApp.Root.exe] WhatsApp
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:28:28  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:28:28  [chrome.exe] resorts near Miracle Hill Rd, Desert Hot Springs, CA, USA - Google Maps - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:28:29  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:28:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:28:31  [chrome.exe] resorts near Miracle Hill Rd, Desert Hot Springs, CA, USA - Google Maps - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:28:31  [chrome.exe] (1084) Assam Unmarried Girl Turned Into A Creepy Dayan | Haunted House #hindihorrorstories - YouTube - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:28:33  [chrome.exe] (1084) 😱 SHE STOLE THE GOLD… BUT WHAT SHE TOLD HER FAMILY WAS TERRIFYING | Horror Tape 280 - YouTube - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:28:35  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/18 16:28:35  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/18 16:28:37  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/18 16:28:50  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  co 
+
+--- WINDOW  2026/08/18 16:28:50  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Esc]
+
+--- WINDOW  2026/08/18 16:28:57  [acad.exe] CAcDynInputWndControl
+----------------------------------------------------------------------------
+  tr 
+
+--- WINDOW  2026/08/18 16:28:57  [acad.exe] Autodesk AutoCAD 2014 - [Ranyal Lab Elevation Working for Interior 03.dwg]
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+   
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Esc]
+  [LMB]
