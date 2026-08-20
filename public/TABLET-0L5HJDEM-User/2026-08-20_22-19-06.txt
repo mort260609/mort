@@ -1,0 +1,221 @@
+﻿  [LMB]
+
+--- WINDOW  2026/08/20 21:32:26  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 21:32:27  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 21:32:29  [msedge.exe] Projects | Handshake AI and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 21:32:39  [msedge.exe] Handshake and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 21:32:40  [msedge.exe] Inbox | Handshake and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 21:32:54  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 21:32:58  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 21:33:02  [msedge.exe] Connections | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  Pls add these symbols as their LP changed symbols
+  [Clipboard]
+  Dads in a meeting with broker
+  He asked why comment is not Comming on trade if user write comment here
+  There is no comment shown
+  Anything disturbed ?
+  [LMB]
+
+--- WINDOW  2026/08/20 21:43:10  [msedge.exe] Zebra scanner project | Trello and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 21:43:16  [msedge.exe] Trello and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 21:43:17  [msedge.exe] Zebra scanner project | Trello and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  Hi,
+  
+  Thanks for taking a look at this. Attached is the full technical specification for a stock-take and restock system we're building for a multi-site retail client running on Epos Now.
+  
+  WHAT IT IS
+  
+  Staff walk the floor with rugged Android handhelds (zebra - I will share specific model number) scan a location and then products, enter counts, and a hosted service reconciles those counts back into Epos Now — while the stores are still trading. It also produces per-store restock lists from par levels.
+  
+  The interesting part, and the reason this isn't a CRUD app, is section 6. Epos Now offers no compare-and-swap and no locking, so writing a count back naively destroys any sale that landed mid-count. The spec sets out the reconciliation algorithm that avoids that, and section 11 lists the concurrency hazards it has to survive. I'd ask you to read 6 and 11 properly before accepting — that's where the real work is.
+  
+  WHAT WE'RE ASKING FOR
+  
+  $3000 USD build and test, delivered to us. To be explicit about the boundary:
+  
+  - IN: the handheld app, the device portal, the cloud service, the test suite, and proving it works against a test tenant and real hardware. Support through the pilot and acceptance.
+  - NOT IN: infrastructure. We provide and run the servers, hosting, deployment and monitoring, and we provide the staging box.
+  - NOT IN: ongoing maintenance or support after acceptance. That's ours. There's no on-call and no SLA attached to this.
+  
+  Section 14 sets that out in full.
+  
+  THE STACK IS FIXED
+  
+  Go, PostgreSQL, React, Capacitor, deployed by Docker Compose on Ubuntu. Section 2.2 explains it, and 2.3 gives the reasoning for Capacitor over React Native. If you think one of those is wrong for a stated reason, tell me before you accept rather than during the build.
+  
+  Task tracking is ClickUp. Secrets are SOPS with age — section 2.8.
+  
+  WHAT I NEED FROM YOU
+  
+  1. Confirmation you can deliver this for the $3,000, and a dated plan against the six milestones in 14.5. Go-live is targeted for end of September, November at the outside. That's a short runway, and I'd rather have an evidenced "this needs until November" now than an optimistic September that slips in week eight.
+  
+  2. Section 16 lists twenty open questions that can't be answered from outside the client's tenant. Several of them gate design decisions. Tell me which of those you'd want answered before you commit.
+  
+  3. If either of these two sits outside the $3,000, tell me now rather than later:
+     - Android phone support with camera scanning (section 8.1, class B). The rugged handheld path is the primary one.
+     - The configurability requirements in section 2.7.
+  
+  4. Anything you'd be assuming that the document doesn't state. If a requirement could be read two ways, say so now rather than later.
+  
+  One thing worth calling out: section 1.6 is a standing invitation to challenge two specific things - the read path in 12.3 and the reconciliation approach in section 6 - before you start, in writing, with the arithmetic. We'd genuinely rather be told we're wrong now than during the build. Build to the specified architecture unless we agree a change in writing first.
+  
+  On scope: we reserve the right to revise the spec during the project as technical validation and the pilot surface things we can't know today — section 1.4 covers how that's handled. Most of the twenty open questions will change some detail once answered. That's expected, not a surprise.
+  
+  Happy to get on a call and walk through the architecture if that's useful.
+  
+  Cheers,
+
+--- WINDOW  2026/08/20 21:44:28  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+  [Clipboard]
+  I DIDN'T ADD
+  [Clipboard]
+  Dads in a meeting with broker
+  He asked why comment is not Comming on trade if user write comment here
+  There is no comment shown
+  Anything disturbed ?
+
+--- WINDOW  2026/08/20 21:50:49  [msedge.exe] Zebra scanner project | Trello and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 21:50:53  [msedge.exe] Connections | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 21:50:55  [msedge.exe] Inbox | Handshake and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 21:51:43  [msedge.exe] Notifications | Handshake and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 22:06:00  [msedge.exe] Connections | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 22:07:08  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 22:07:09  [msedge.exe] Floyd Goode | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  Hi, How is it going well? I’m a Senior Software Engineer / Full-Stack Developer with 9+ years of experience building scalable, high-performance systems across a wide range of industries.
+  
+  My core expertise lies in backend engineering, where I specialize in C++, PHP, Go, Rust, Python (Flask/Django), Java, and C# .NET. I’ve designed and deployed distributed systems using PostgreSQL, NoSQL, AWS, Docker, and CI/CD pipelines leveraging Kubernetes and Kafka.
+  
+  On the frontend, I bring strong experience with React.js, Next.js, Angular, Vue.js, as well as cross-platform mobile development using Kotlin, Swift, Flutter and React Native.
+  
+  Over the years, I’ve delivered impactful solutions including:
+  • AI platforms (LLM-based chatbots, voice bots, document analysis, video generation, weather forecasting)
+  • Forex & crypto trading systems (including DeFi, DApps, and DEX platforms) 
+  • AI trading platform with indicator engine, risk engine and strategy generation according to symbol
+  • Specific Video Generation engine development without any AI api using.
+  • E-commerce and digital asset management systems
+  • Booking and restaurant management platforms
+  • Healthcare applications
+  • IPTV systems across Web, Android, iOS, LG TV, and Samsung TV
+  • Shipping platforms with integrated payment systems (Payabli, PayFabric)
+  • Social and sports platforms (mobile & web)
+  • Question-Why type systems not like social media
+  • SkyDiving video production with opencv, FFmpeg, yolo, and more.
+  • Social and sports platforms (mobile & web)
+  
+  I enjoy solving complex technical challenges, optimizing system performance, and building reliable, scalable products that deliver real business value.
+  
+  I’m currently open to full-time remote opportunities or collaboration with startups, founders, and engineering teams—particularly in backend-heavy or system design-focused roles.
+  I can comfortably work across US and UK time zones.
+  Let’s connect if you’re building something ambitious or need a strong technical partner.
+  📩 Contact:
+  WhatsApp: +84 0707039301
+  Telegram: @soft_exper
+  Email: giaan9032001@gmail.com
+  LinkedIn: https://www.linkedin.com/in/tran-gia-an-050032218/
+  Thank you.
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/20 22:08:46  [msedge.exe] (3) LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 22:08:46  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 22:08:48  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  steph@yuzicare.com
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 22:11:45  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://www.zebra.com/gb/en/support-downloads/software/scanner-software/scanner-sdk-for-android.html
+
+--- WINDOW  2026/08/20 22:17:37  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 22:17:37  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 22:17:37  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 22:17:38  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 22:17:43  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 22:17:43  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 22:17:43  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 22:17:44  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 22:19:05  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 22:19:05  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 22:19:05  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
