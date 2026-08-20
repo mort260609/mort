@@ -1,0 +1,399 @@
+﻿
+--- WINDOW  2026/08/20 13:45:48  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:46:14  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:15:48  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:16:14  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/08/20 14:22:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:22:26  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+  not
+
+--- WINDOW  2026/08/20 14:22:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:22:30  [notepad++.exe] Selected Tab
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:22:31  [notepad++.exe] new 1 - Notepad++
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:22:31  [notepad++.exe] *D:\backup code\Bilal hasan\7 accounts.txt - Notepad++
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:22:31  [notepad++.exe] new 1 - Notepad++
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:22:31  [notepad++.exe] D:\orgnization code\upload Offroad Jeep Driving 4x4 game\Offroad Land Cruiser Jeep v1.3 (AppsZoo)\Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml - Notepad++
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 14:22:34  [notepad++.exe] *D:\orgnization code\Wild lion family simulator V1.8 (1)\Wild lion family simulator V1.8\Wild lion family simulator V1.8\Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml - Notepad++
+----------------------------------------------------------------------------
+  [Ctrl]
+  [Clipboard]
+  <?xml version="1.0" encoding="utf-8"?>
+  <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.unity.ads" android:versionName="1.0" android:versionCode="1">
+    <application>
+      <uses-library android:required="false" android:name="org.apache.http.legacy" />
+      <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-5306961612178059~6848471969" />
+      <meta-data android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT" android:value="true" />
+    </application>
+  </manifest>
+  cc
+
+--- WINDOW  2026/08/20 14:22:41  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:22:41  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 14:22:57  [Unity.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:22:57  [Unity.exe] Mobile Ads - v.1.10.12
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:23:01  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 14:23:20  [explorer.exe] File Explorer
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:23:20  [explorer.exe] Plugins
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [ENTER]
+
+--- WINDOW  2026/08/20 14:23:23  [explorer.exe] Android
+----------------------------------------------------------------------------
+  [v][ENTER]
+  [^][ENTER]
+
+--- WINDOW  2026/08/20 14:23:28  [explorer.exe] GoogleMobileAdsPlugin.androidlib
+----------------------------------------------------------------------------
+  [v][^]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 14:23:32  [notepad++.exe] *D:\orgnization code\Wild lion family simulator V1.8 (1)\Wild lion family simulator V1.8\Wild lion family simulator V1.8\Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml - Notepad++
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:23:32  [notepad++.exe] D:\orgnization code\upload Offroad Jeep Driving 4x4 game\Offroad Land Cruiser Jeep v1.3 (AppsZoo)\Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml - Notepad++
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]a[Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]v
+
+--- WINDOW  2026/08/20 14:23:37  [notepad++.exe] *D:\orgnization code\upload Offroad Jeep Driving 4x4 game\Offroad Land Cruiser Jeep v1.3 (AppsZoo)\Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml - Notepad++
+----------------------------------------------------------------------------
+  [Ctrl]s
+
+--- WINDOW  2026/08/20 14:23:39  [notepad++.exe] D:\orgnization code\upload Offroad Jeep Driving 4x4 game\Offroad Land Cruiser Jeep v1.3 (AppsZoo)\Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml - Notepad++
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:23:42  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:23:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 14:23:45  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:23:51  [Unity.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:23:51  [Unity.exe] Easy IAP - v.1.6.8
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:23:54  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 14:24:02  [Unity.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:24:02  [Unity.exe] Mobile Ads - v.1.10.12
+----------------------------------------------------------------------------
+  [Ctrl]
+  [Clipboard]
+  ca-app-pub-5306961612178059~4871887108
+  ccc
+
+--- WINDOW  2026/08/20 14:24:11  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:24:12  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:24:12  [notepad++.exe] D:\orgnization code\upload Offroad Jeep Driving 4x4 game\Offroad Land Cruiser Jeep v1.3 (AppsZoo)\Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml - Notepad++
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+
+--- WINDOW  2026/08/20 14:24:22  [notepad++.exe] *D:\orgnization code\upload Offroad Jeep Driving 4x4 game\Offroad Land Cruiser Jeep v1.3 (AppsZoo)\Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml - Notepad++
+----------------------------------------------------------------------------
+  [Ctrl]v[Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]s
+
+--- WINDOW  2026/08/20 14:24:23  [notepad++.exe] D:\orgnization code\upload Offroad Jeep Driving 4x4 game\Offroad Land Cruiser Jeep v1.3 (AppsZoo)\Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml - Notepad++
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 14:24:25  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:24:36  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:24:36  [SearchApp.exe] Search
+----------------------------------------------------------------------------
+  go
+
+--- WINDOW  2026/08/20 14:24:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:24:43  [Gologin.exe] Gologin v4.4.0 Saturn
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:24:50  [Gologin.exe] Browser Profiles - Gologin 4.4.0 Saturn
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 14:25:40  [chrome.exe] unreal - Unity 2022.3.62f3
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:25:47  [chrome.exe] unreal - Production | Wild Lion family simulator
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 14:25:48  [chrome.exe] unreal - Play Console
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:25:55  [chrome.exe] unreal - Create release | Wild Lion family simulator
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:26:14  [chrome.exe] unreal - Prepare release | Wild Lion family simulator
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:26:50  [chrome.exe] unreal - Home
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 14:28:50  [chrome.exe] unreal - Dashboard | Offroad Jeep Driving 4x4 game
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:31:58  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:31:58  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 14:32:03  [Unity.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:32:03  [Unity.exe] Build Settings
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:32:08  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:32:08  [opera.exe] (167) All the BEST Scenes from the BEST Transformers MOVIES ⚡ 4K - YouTube - Opera
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:32:10  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:32:11  [chrome.exe] unreal - Dashboard | Offroad Jeep Driving 4x4 game
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 14:32:21  [chrome.exe] unreal - Test and release | Offroad Jeep Driving 4x4 game
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:32:37  [chrome.exe] unreal - Production | Offroad Jeep Driving 4x4 game
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 14:32:57  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:32:57  [Unity.exe] Build Settings
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 14:33:05  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+  12345[Bk][Bk][Bk][Bk][Bk][Bk]123456[Ctrl]123456
+  [LMB]
+  5
+
+--- WINDOW  2026/08/20 14:34:32  [Unity.exe] Build Settings
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:34:33  [Unity.exe] Build Android
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk]33
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 14:35:01  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:01  [Unity.exe] Android SDK is missing required platform API
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:03  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:03  [notepad++.exe] D:\orgnization code\upload Offroad Jeep Driving 4x4 game\Offroad Land Cruiser Jeep v1.3 (AppsZoo)\Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml - Notepad++
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:03  [notepad++.exe] Reload
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 14:35:08  [notepad++.exe] D:\orgnization code\upload Offroad Jeep Driving 4x4 game\Offroad Land Cruiser Jeep v1.3 (AppsZoo)\Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml - Notepad++
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]a[Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl][Ctrl]
+  [Clipboard]
+  <?xml version="1.0" encoding="utf-8"?>
+  <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.unity.ads" android:versionName="1.0" android:versionCode="1">
+    <application>
+      <uses-library android:required="false" android:name="org.apache.http.legacy" />
+      <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-5306961612178059~4871887108" />
+      <meta-data android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT" android:value="true" />
+    </application>
+  </manifest>
+  [Ctrl]c
+
+--- WINDOW  2026/08/20 14:35:18  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 14:35:19  [explorer.exe] GoogleMobileAdsPlugin.androidlib
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 14:35:22  [notepad++.exe] D:\orgnization code\upload Offroad Jeep Driving 4x4 game\Offroad Land Cruiser Jeep v1.3 (AppsZoo)\Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml - Notepad++
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 14:35:25  [explorer.exe] GoogleMobileAdsPlugin.androidlib
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:26  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:26  [Unity.exe] Android SDK is missing required platform API
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 14:35:29  [Unity.exe] Build Settings
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:31  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 14:35:40  [Unity.exe] Build Settings
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:40  [Unity.exe] Build Android
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 14:35:43  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:44  [Unity.exe] Android SDK is missing required platform API
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 14:35:45  [Unity.exe] Build Settings
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:46  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:47  [Unity.exe] Build Settings
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:47  [powershell.exe] C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:47  [powershell.exe] Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:47  [powershell.exe] Administrator: Windows PowerShell
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:49  [Unity.exe] Build Settings
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:35:50  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/20 14:35:57  [Unity.exe] Build Settings
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 14:35:57  [Unity.exe] Build Android
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 14:35:58  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+  [RMB]
+
+--- WINDOW  2026/08/20 14:41:21  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - MainMenu - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:42:06  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - GamePlay - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 14:42:17  [Unity.exe] Offroad Land Cruiser Jeep v1.3 (AppsZoo) - Untitled - Android - Unity 2022.3.62f2 <DX11>
+----------------------------------------------------------------------------
