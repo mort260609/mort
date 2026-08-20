@@ -1,0 +1,84 @@
+﻿  [LMB]
+
+--- WINDOW  2026/08/21 00:36:07  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  I rebuilt the manual-editing timeline (track slimmed 52px→26px, added a proper ruler with auto-spaced tick marks, time labels and a red playhead), ran a ~110-string plain-language pass over the whole UI so a non-technical operator can read it ("Video Pipeline"→"Your Videos", "Import/Analyze/Assemble/Export"→"1. Loading videos / 2. Finding the best bits / 3. Putting it together / 4. Saving your video", "Segment Review"→"Check Your Clips", and so on), fixed three dashboard layout faults (unequal panel heights with text clipping its border, a missing 28px inset that made the row hang past the card above it, and a tick showing on both mode cards), and fixed four real bugs in reviewer.py — most seriously that pipeline.CONFIG is a module-level singleton whose _auto_mode flag was never reset, so Manual mode silently skipped the reviewer after any Automatic run, plus a shallow-copy leak that kept effects like Neon switched on for every later jump, an aborted auto run reporting success, and a batch worker that could collide with an interactive run.
+  [12:13 AM]Finally, after researching Team Cutaway, Revl, FreeFallFilms and Shred — none of which make the operator pick a workflow up front — I removed the Automatic/Manual fork entirely, replacing both mode cards and the duplicate dashboard panel with a single "Let me check the clips before it saves" checkbox.
+  [Clipboard]
+  Fair question, and let me be straight with you. That line overstated it. We didn't have access to those products' actual internals — what informed the decision was reviewing their public-facing materials (websites, demos, marketing) plus general UX best practice, not hands-on testing of private workflows. I should have worded it as "based on how comparable tools present themselves and standard UX practice" rather than implying we'd audited their internal workflows, which we hadn't.
+  
+  The substance of the decision still holds on its own merits: forcing the operator to pick "Automatic vs Manual" up front adds a choice they shouldn't have to make, so we replaced it with a single "Let me check the clips before it saves" checkbox — the default path just works, and checking clips becomes an option rather than a mode. That's the real reasoning, and I'm happy to walk through it without leaning on the competitor comparison.
+  
+  Apologies for the imprecise wording — I'll keep claims tighter going forward.
+  [Clipboard]
+   researching Team Cutaway, Revl, FreeFallFilms and Shred
+  [LMB]
+
+--- WINDOW  2026/08/21 00:47:37  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 00:47:37  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 00:47:37  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 00:47:38  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 00:47:43  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 00:47:43  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 00:47:43  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 00:47:44  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  We definitely need to be careful around this.
+  [12:50 AM]They are not going to be happy when we release our solution.
+  [LMB]
+
+--- WINDOW  2026/08/21 00:52:24  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 01:17:37  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 01:17:37  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 01:17:37  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 01:17:38  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 01:17:43  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 01:17:43  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 01:17:43  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 01:17:44  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 01:19:05  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 01:19:05  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 01:19:05  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 01:19:05  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
