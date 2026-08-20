@@ -1,0 +1,356 @@
+﻿
+--- WINDOW  2026/08/20 12:33:07  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:33:08  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:33:08  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:33:11  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:33:11  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:33:12  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:33:12  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 12:54:48  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+  not[ENTER]
+
+--- WINDOW  2026/08/20 12:54:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:54:53  [Notepad.exe] Notepad
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:54:53  [Notepad.exe] *hargan.txt - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 12:54:56  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+  cmd[ENTER]
+
+--- WINDOW  2026/08/20 12:54:57  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:54:58  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:54:58  [WindowsTerminal.exe] Command Prompt
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 12:55:01  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:55:02  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:55:02  [Notepad.exe] *hargan.txt - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  ssh root@147.93.28.231
+  
+
+--- WINDOW  2026/08/20 12:55:09  [WindowsTerminal.exe] Command Prompt
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/08/20 12:55:09  [WindowsTerminal.exe] Command Prompt - ssh  root@147.93.28.231
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:55:10  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:55:10  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:55:11  [Notepad.exe] *hargan.txt - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Lalit@31219713332997
+  c
+
+--- WINDOW  2026/08/20 12:55:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:55:16  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:55:16  [WindowsTerminal.exe] Command Prompt - ssh  root@147.93.28.231
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/08/20 12:55:18  [WindowsTerminal.exe] root@srv1158034: ~
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:55:19  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:55:19  [Notepad.exe] *hargan.txt - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  cd /opt/alpha-research
+  c
+
+--- WINDOW  2026/08/20 12:55:25  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:55:25  [WindowsTerminal.exe] root@srv1158034: ~
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/08/20 12:55:26  [WindowsTerminal.exe] root@srv1158034: /opt/alpha-research
+----------------------------------------------------------------------------
+  git pull origin[ENTER]
+  [Ctrl][Ctrl][Ctrl]o[ENTER]
+  [Ctrl]x
+
+--- WINDOW  2026/08/20 12:55:44  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:55:44  [Notepad.exe] *hargan.txt - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  cd /opt/alpha-research/backend
+  npm install
+  npm run build
+  c
+
+--- WINDOW  2026/08/20 12:55:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:55:48  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:55:48  [WindowsTerminal.exe] root@srv1158034: /opt/alpha-research
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/08/20 12:56:21  [WindowsTerminal.exe] root@srv1158034: /opt/alpha-research/backend
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:57:44  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:57:44  [Notepad.exe] *hargan.txt - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  cd /opt/alpha-research/web-frontend
+  npm install
+  npm run build
+  c
+
+--- WINDOW  2026/08/20 12:57:48  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:57:49  [WindowsTerminal.exe] root@srv1158034: /opt/alpha-research/backend
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+
+--- WINDOW  2026/08/20 12:58:42  [WindowsTerminal.exe] root@srv1158034: /opt/alpha-research/web-frontend
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:59:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:59:59  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 12:59:59  [Notepad.exe] *hargan.txt - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  pm2 restart prime-alpha-backend --update-env
+  pm2 restart prime-alpha-frontend --update-env
+  
+  pm2 status
+  c
+
+--- WINDOW  2026/08/20 13:00:03  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:00:03  [WindowsTerminal.exe] root@srv1158034: /opt/alpha-research/web-frontend
+----------------------------------------------------------------------------
+  [RMB]
+  [ENTER]
+  pm2 savw [Bk][Bk]e[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/20 13:00:14  [chrome.exe] Wallet and Portfolio Fix - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 13:00:16  [chrome.exe] New Tab - Google Chrome
+----------------------------------------------------------------------------
+  pri[ENTER]
+
+--- WINDOW  2026/08/20 13:00:18  [chrome.exe] Alpha Prime Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+
+--- WINDOW  2026/08/20 13:00:27  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:00:28  [WindowsTerminal.exe] root@srv1158034: /opt/alpha-research/web-frontend
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:00:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:00:29  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:00:29  [chrome.exe] Alpha Prime Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 13:00:32  [chrome.exe] (27) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:00:34  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:00:34  [chrome.exe] Alpha Prime Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  s
+
+--- WINDOW  2026/08/20 13:01:08  [SnippingTool.exe] Snipping Tool Overlay
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 13:01:13  [chrome.exe] Alpha Prime Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 13:01:15  [chrome.exe] (27) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:01:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:01:16  [chrome.exe] Alpha Prime Research | Trading Platform - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 13:01:17  [chrome.exe] Wallet and Portfolio Fix - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026/08/20 13:01:22  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/08/20 13:01:24  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:01:25  [chrome.exe] Wallet and Portfolio Fix - Google Chrome
+----------------------------------------------------------------------------
+  ye jo useer [Bk][Bk][Bk]r dey[Bk]tai [Bk]o[Bk]l me name jo ui bigada hua hai use f[Bk]shi kro or mujhe ek [rp[Bk][Bk][Bk]profectionl[Bk]al ui side chahiye [ENTER]
+  [ENTER]
+  [ENTER]
+  convert this in engsli[Bk][Bk][Bk]lish [ENTER]
+
+--- WINDOW  2026/08/20 13:03:07  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:03:07  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:03:07  [chrome.exe] Wallet and Portfolio Fix - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:03:11  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:03:11  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:03:11  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:03:11  [chrome.exe] Wallet and Portfolio Fix - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  In the **User Details** section, the user's name is currently breaking into individual letters and the UI looks distorted, as shown in the screenshot.
+  
+  Please fix the name display so that the user's **full name appears properly on a single line or wraps naturally across lines without breaking individual letters**.
+  
+  Also, improve the overall **User Details page UI** and make it look more professional, clean, modern, and well-structured. Please ensure that:
+  
+  * User names and other text are displayed correctly without awkward line breaks.
+  * The layout is properly aligned and responsive.
+  * Buttons such as **Refresh, Suspend, Convert to Real Client, and Delete User** are positioned neatly.
+  * User information is presented in a clear and professional card/layout structure.
+  * Spacing, typography, and alignment are consistent throughout the page.
+  * The UI should look polished and professional on different screen sizes.
+  
+  Please make these UI improvements **without affecting the existing functionality**.
+  
+
+--- WINDOW  2026/08/20 13:04:27  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:04:27  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  np[Bk][Bk][Bk]
+  [LMB]
+
+--- WINDOW  2026/08/20 13:11:41  [SearchHost.exe] Search
+----------------------------------------------------------------------------
+  docker[ENTER]
+
+--- WINDOW  2026/08/20 13:11:44  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/20 13:11:53  [Docker Desktop.exe] Dashboard - Docker Desktop
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/20 13:11:58  [Antigravity IDE.exe] khushboo-project - Antigravity IDE - Implementation Plan
+----------------------------------------------------------------------------
+  cd[Tab][Tab][Tab][ENTER]
+  n0p
+  [LMB]
+  [LMB]
+  cd [Tab][Tab][Tab][Tab][Tab][Tab][Tab][ENTER]
+  npm run dev[ENTER]
