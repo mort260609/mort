@@ -1,0 +1,505 @@
+﻿  [LMB]
+
+--- WINDOW  2026/08/21 07:25:34  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:25:35  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Clipboard]
+  Who funds each asset's float, and what happens to a user request when the float is empty?
+  Which provider (SendGrid, SES, Twilio…), which sender identity, and are there transactional emails beyond codes — receipts, withdrawal alerts, margin calls?
+  Should TOTP be required at login when enabled? Which actions need step-up (withdrawal above X, new withdrawal address, transfer to a new recipient, card details reveal)?
+  Which KYC provider (Sumsub, Onfido, Persona…), what each tier requires, and whether tier 2 needs proof of address.
+  For physical cards, who manufactures and ships, and what the states are between "applied" and "usable".
+  For earn feature, where the yield comes from, and what backs the payout obligation.
+  For bank payout in send and transfer feature, about the payout partner, or the manual operating procedure and the SLA/message the customer sees while they wait.
+   
+  These are the questions of current project structure.
+  For buying car promotion service, plz give me the answer of these questions.
+   
+  Fixed marked-up price, or an APR that accrues?
+  Who holds title until the last instalment — the platform or the customer?
+  Which market first? Whose money funds it?
+  Arrears policy — grace period, late fee, repossession trigger.
+  The down payment — refundable if the purchase falls through, held in custody or recognised immediately?
+  Dealer network in scope, or does the customer bring their own quote?
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  hi, how are you[ENTER]
+  [Ctrl]how is it going well there now/[ENTER]
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  hi, how are you/[ENTER]
+  [Ctrl]can we discuss in whatsapp for quick discussion/[ENTER]
+  [Ctrl]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [Clipboard]
+  WhatsApp: +84 0707039301
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [Clipboard]
+  These are sharp questions — the kind that separate a demo from a real product. But I need to be careful about what I can honestly answer for you, so let me split this clearly.
+  
+  The hard truth first
+  
+  The two sets of questions are fundamentally different, and I can only truly answer one.
+  
+  Your first list (float funding, email provider, TOTP, KYC vendor, card manufacturer, earn yield source, payout partner) — these are questions about your own system that only your customer can answer, because they're business decisions: which vendor did they contract, whose money funds the float, what's their operating procedure. I can tell you the sensible default for each and what most platforms do, but I cannot invent the customer's actual answer — if I make one up and you build to it, you've built the wrong thing and wasted two more weeks. The value I can add is giving you a recommended answer per question that you implement now, clearly labelled as "assumption pending confirmation," so you stop being blocked.
+  
+  The car-loan questions are the same: they're the customer's business and legal decisions, not facts I can look up. But I can give you the right default answer for each, flag which ones are legally load-bearing, and — this is the important part — tell you the thing the customer may not realise.
+  
+  The thing the customer may not realise (say this to them)
+  
+  What they've described — "user pays 10–20% advance, we buy the car, they repay monthly with markup" — is not a credit card feature. It's asset-based instalment financing (the platform buys the asset and resells it to the user at a marked-up price paid over time). In Islamic finance this is called Murabaha; in the West it's hire-purchase / conditional sale. That distinction matters enormously because:
+  
+  It's a regulated lending/financing activity almost everywhere — often needing a consumer-credit or financing licence, separate from the e-money/card licence, and separate again from crypto licensing. In their target markets (India, Pakistan, UAE, Egypt) this is heavily regulated and, for a cross-border offshore entity, likely very hard to license.
+  "Markup vs APR" isn't a design choice — it's a legal one. Many jurisdictions require disclosure as an APR regardless of how you frame it, and several cap it. Calling profit "markup" doesn't exempt it from usury/consumer-credit law.
+  It needs real capital. Someone has to actually pay the dealer the full car price upfront. That's not float — it's lending capital, and it's exposed to default risk.
+  
+  So before answering the six design questions, the honest message to the customer is: this is a lending business bolted onto a card app, and it needs its own licence, its own capital, and its own risk framework. If they don't have those, the feature can be built in software but can't legally launch.
+  
+  Let me now give you defensible default answers for both lists so you're unblocked. Let me quickly verify current terminology and regulatory framing rather than rely on memory.
+  
+  Searched the web
+  
+  That confirms the framing. Now let me give you defensible answers for both lists. I'll build you a document you can send the customer and use to unblock development — but let me give you the substance here first.
+  
+  Part A — Your 7 existing questions (recommended defaults so you can build now)
+  
+  These are the customer's calls, but here's the sensible default for each. Build to these, label them "assumed unless you tell us otherwise," and keep moving:
+  
+  Float funding / empty float → Assume the company (customer) funds each asset's float from its own treasury, and when a float is empty the user request is queued, not silently failed — user sees "temporarily unavailable, retry shortly," and the operations team gets alerted. Never let it fail into a bad ledger state. This is the standard finance-company model: someone must have the cash before the transaction completes. 
+  Wikipedia
+  Email/SMS provider → Assume SES (email) + Twilio (SMS) behind an abstraction, so it's swappable. Yes, there should be transactional messages beyond codes: receipts, deposit confirmations, withdrawal-submitted / -paid alerts, and — critically for the new loan feature — payment-due reminders and late/arrears notices. Sender identity = the customer's own verified domain.
+  TOTP / step-up → Assume TOTP required at login when enabled, plus step-up re-authentication for: withdrawals above a threshold, adding a new withdrawal address, first transfer to a new recipient, revealing card details, and (new) accepting a loan contract or changing repayment method.
+  KYC provider → Your APK analysis of RedotPay showed Sumsub (the sns_* liveness screens). Assume Sumsub, tiered: Tier 1 = ID + liveness; Tier 2 = proof of address required (needed anyway for lending). Loans will need Tier 2 minimum.
+  Physical cards → Assume a card bureau via the BIN sponsor manufactures and ships; states between applied→usable: requested → approved → manufacturing → shipped → delivered → activated.
+  Earn yield source → This one is a red flag if unanswered: you must know where yield comes from and what backs the payout. Do not assume — an unbacked yield promise is how platforms become insolvent or fraudulent. Mark this BLOCKED pending customer answer and don't ship it until they specify a real source.
+  Bank payout partner (send/transfer) → Assume a payout provider behind the same abstraction you built for card payouts, or a manual operating procedure with a stated SLA ("1–2 business days") shown to the user while pending.
+  Part B — The car-loan / "buy for me" feature — answers to your 6 questions
+  
+  Here's my recommended answer for each, with the ones that are legally load-bearing flagged:
+  
+  1. Fixed marked-up price, or accruing APR?
+  → Fixed marked-up total, disclosed upfront (Murabaha / cost-plus model). The user agrees to a fixed total (e.g. car costs $20,000 → they repay $23,000 over 24 months), not a floating rate. Transparency is fundamental: the seller discloses the cost price and markup to the buyer upfront. BUT — legally load-bearing: most jurisdictions require the effective interest rate to be disclosed and regulate the rates and charges even in installment/hire-purchase transactions. So "fixed markup" is the product design, but you'll likely still have to show an equivalent APR for disclosure. This is a legal requirement, not optional. 
+  Asaan Ghar Finance
+  Wikipedia
+  
+  2. Who holds title until the last installment?
+  → The platform holds title until the final payment, then it transfers to the customer. This is what makes the financing secured — if the buyer defaults, the owner may repossess the goods, a protection not available with unsecured credit. Without holding title, the platform has no security and takes pure default risk. Recommended: platform holds title (or a lien) until paid in full. 
+  Wikipedia
+  
+  3. Which market first, whose money funds it?
+  → Customer's decision — but my strong recommendation: start in ONE market with a clear legal framework, not the hardest ones. Of their targets, the UAE has the most developed Islamic-finance/hire-purchase infrastructure; Pakistan has explicit legal recognition too — SBP's Islamic Banking Regulations 2022 recognize murabaha structures as valid, with enforceability depending on proper cost-plus disclosure, asset-ownership clauses, and fatwa certification. Whose money: this needs real lending capital — someone pays the dealer the full price upfront. That's not the crypto float; it's a dedicated financing book. Mark as: customer must confirm capital source — this is the single biggest dependency. 
+  Alibaba
+  
+  4. Arrears policy?
+  → Recommended default, staged (this is the common pattern): (1) grace period, (2) late fee, (3) credit-bureau reporting after 30+ days, (4) contact after 60 days, (5) repossession/legal notice after 90 days. Exact numbers and whether you can report to a bureau are jurisdiction-specific — customer + local counsel must set them. Build the state machine to be configurable. 
+  Alibaba
+  
+  5. The down payment — refundable? held in custody or recognized immediately?
+  → Held in custody (segregated), NOT recognized as revenue, until the purchase completes. If the purchase falls through (dealer issue, financing declined), it should be refundable. Recognizing a down payment as your own money before the car is delivered is both an accounting error and a consumer-protection violation. Recommended: down payment sits in a client-money/escrow state → released into the purchase on completion → refundable if the deal collapses.
+  
+  6. Dealer network, or customer brings their own quote?
+  → Start with "customer brings their own quote / dealer invoice" — it's far simpler and avoids you having to build and vet a dealer network on day one. The platform verifies the invoice, pays the dealer directly (never the user — that breaks the asset-purchase model), takes title, and finances it. A curated dealer network is a phase 2 enhancement.
+  
+  The one thing you must put to the customer plainly
+  
+  Even with all six answered, this feature changes what the business legally is. A debit-card wallet is one regulated thing; originating car loans / installment financing is a different regulated activity that typically needs its own consumer-credit or financing licence — on top of the card and crypto licences, in each market. Murabaha car finance is offered in their target regions, but by FCA-regulated firms and licensed Islamic banks (Meezan, Bank Islami, Al Rayan, UAE Islamic banks) — i.e. licensed lenders, not app developers. You can build the software; they cannot legally launch it without that licence and real lending capital. 
+  Islamicfinancecalculator
+  
+  Given all this, let me build you a single document you can send the customer that (a) lists your 7 open questions with the assumed default you're proceeding on, and (b) presents the car-loan feature with the 6 answers and the licensing/capital flags. That converts your two-week wait into "here's what we're assuming — correct us where we're wrong," which is far more likely to get a fast reply.
+  
+  Want me to generate that as a PDF (polished, to send) or a Word doc (so you can edit first)?
+  [Clipboard]
+  https://claude.ai/chat/59f0761a-3b03-4d4d-b815-050a20435b73
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 07:39:24  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:39:25  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 07:39:28  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:39:29  [msedge.exe] Connections | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:46:25  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+  [Clipboard]
+  https://claude.ai/chat/5f9d0f3f-7c50-4186-999a-0cb6c832ccfb
+
+--- WINDOW  2026/08/21 07:46:30  [msedge.exe] Connections | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 07:46:30  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:46:33  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:47:39  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:47:43  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:47:44  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:47:44  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:47:51  [remoting_desktop.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:48:06  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:48:06  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 07:50:39  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:50:40  [msedge.exe] Alex Claudovich | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 07:51:06  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:51:07  [msedge.exe] Post | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  i didn't repeate [Bk][Bk] fault like your previous post when i am applying into upwork project but it is rejected. what is reason/ and then i am using claude fabel 5.0. and without ai assit[Bk]stant, i can cod[Bk][Bk][Bk]write code for c==, golang , rust without debugging as well. but nothing to work. what is fair thing for me/
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 07:52:31  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:52:32  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 07:52:39  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:52:40  [msedge.exe] Connections | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 07:52:42  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:52:43  [msedge.exe] David Rosen | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Hi, How is it going well? I’m a Senior Software Engineer / Full-Stack Developer with 9+ years of experience building scalable, high-performance systems across a wide range of industries.
+  
+  My core expertise lies in backend engineering, where I specialize in C++, PHP, Go, Rust, Python (Flask/Django), Java, and C# .NET. I’ve designed and deployed distributed systems using PostgreSQL, NoSQL, AWS, Docker, and CI/CD pipelines leveraging Kubernetes and Kafka.
+  
+  On the frontend, I bring strong experience with React.js, Next.js, Angular, Vue.js, as well as cross-platform mobile development using Kotlin, Swift, Flutter and React Native.
+  
+  Over the years, I’ve delivered impactful solutions including:
+  • AI platforms (LLM-based chatbots, voice bots, document analysis, video generation, weather forecasting)
+  • Forex & crypto trading systems (including DeFi, DApps, and DEX platforms) 
+  • AI trading platform with indicator engine, risk engine and strategy generation according to symbol
+  • Specific Video Generation engine development without any AI api using.
+  • E-commerce and digital asset management systems
+  • Booking and restaurant management platforms
+  • Healthcare applications
+  • IPTV systems across Web, Android, iOS, LG TV, and Samsung TV
+  • Shipping platforms with integrated payment systems (Payabli, PayFabric)
+  • Social and sports platforms (mobile & web)
+  • Question-Why type systems not like social media
+  • SkyDiving video production with opencv, FFmpeg, yolo, and more.
+  • Social and sports platforms (mobile & web)
+  
+  I enjoy solving complex technical challenges, optimizing system performance, and building reliable, scalable products that deliver real business value.
+  
+  I’m currently open to full-time remote opportunities or collaboration with startups, founders, and engineering teams—particularly in backend-heavy or system design-focused roles.
+  I can comfortably work across US and UK time zones.
+  Let’s connect if you’re building something ambitious or need a strong technical partner.
+  📩 Contact:
+  WhatsApp: +84 0707039301
+  Telegram: @soft_exper
+  Email: giaan9032001@gmail.com
+  LinkedIn: https://www.linkedin.com/in/tran-gia-an-050032218/
+  Thank you.
+  cccc
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 07:53:33  [msedge.exe] Feed | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  friction
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  any interesting,si[Ctrl]
+  [LMB]
+
+--- WINDOW  2026/08/21 07:58:03  [msedge.exe] New tab and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  drive[ENTER]
+
+--- WINDOW  2026/08/21 07:58:07  [msedge.exe] Google Drive and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:58:09  [msedge.exe] Home - Google Drive and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 07:58:26  [msedge.exe] Feed | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:58:30  [wpscloudsvr.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 07:58:30  [msedge.exe] Feed | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 07:58:33  [msedge.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 07:58:36  [msedge.exe] Feed | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 07:58:59  [msedge.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 07:59:02  [msedge.exe] Feed | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 07:59:53  [msedge.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 07:59:57  [msedge.exe] Feed | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 08:00:26  [msedge.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 08:00:30  [msedge.exe] Feed | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 08:00:43  [msedge.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 08:00:46  [msedge.exe] Feed | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 08:01:58  [msedge.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 08:02:01  [msedge.exe] Feed | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 08:03:42  [msedge.exe] (1) LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:03:42  [msedge.exe] Notifications | LinkedIn and 5 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 08:03:44  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 08:05:36  [msedge.exe] Grow | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 08:05:39  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:05:40  [msedge.exe] Connections | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 08:05:45  [msedge.exe] • Discord | @Фук and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:05:51  [msedge.exe] (1) Discord | @Phuc and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 08:05:59  [msedge.exe] (1) Discord | @VCapital_CEO and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:05:59  [msedge.exe] • Discord | @VCapital_CEO and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 08:06:04  [msedge.exe] • Discord and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:06:04  [msedge.exe] • Discord | Message Requests and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 08:06:07  [msedge.exe] • Discord | @Duy Bùi and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  where are you fro mbtw/[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/21 08:06:45  [msedge.exe] • Discord | @VCapital_CEO and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  hi 2[ENTER]
+  [ENTER]
+  i've worked full forex trading platform from scratch. and then made also ai trding platform wit[Bk][Bk][Bk]integrated with mt5 using api. and then it provide risk engine, indicator engine, and then own strategy. can't share strategy details. sorry.[ENTER]
+  i was working as art[Bk][Bk][Bk]solo for architecture design, user interface design and all work implemnt[Bk]e[Bk][Bk]entation.[ENTER]
+  i can share something but i al[Bk]lready dealt with client's cu[Bk]ompany underst [Bk][Bk][Bk] nda. [ENTER]
+  0 backtesters provided backtesting data and then i backtested and then optimized for strategy. [ENTER]
+  worked with forex and crypto, all asets [Bk][Bk][Bk][Bk]e[Bk]sets which broker support. [ENTER]
+  yes. avaialb[Bk][Bk][Bk]lable.[ENTER]
+  [LMB]
+  i am from vietnam. where are you from/[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/21 08:12:02  [msedge.exe] Connections | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 08:12:06  [msedge.exe] Notifications | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 08:12:11  [msedge.exe] Connections | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:12:11  [msedge.exe] Mohammad Abdulhaleem | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 08:17:37  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:17:38  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:17:38  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:17:38  [msedge.exe] Mohammad Abdulhaleem | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:17:43  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:17:43  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:17:44  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:17:44  [msedge.exe] Mohammad Abdulhaleem | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:19:05  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:19:05  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:19:05  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 08:19:06  [msedge.exe] Mohammad Abdulhaleem | LinkedIn and 4 more pages - Profile 1 - Microsoft​ Edge
+----------------------------------------------------------------------------
