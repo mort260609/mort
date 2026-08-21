@@ -1,0 +1,1192 @@
+﻿
+--- WINDOW  2026/08/21 18:39:48  [chrome.exe] Untitled query | SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:08:54  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:09:16  [chrome.exe] Untitled query | SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  mira aca como yo elimino la tabla anterior y pongo esta nueva que me das[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:11:15  [chrome.exe] Asistente IT para Informático Colaborativo - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:11:21  [chrome.exe] Untitled query | SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:11:30  [chrome.exe] ¿Quieres volver a cargar el sitio web?
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:11:31  [chrome.exe] Untitled query | SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:11:32  [chrome.exe] Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:11:32  [chrome.exe] SQL Editor | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:11:33  [chrome.exe] Untitled query | SQL Editor | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:11:35  [chrome.exe] Untitled query | SQL Editor | aseretaxis.surinam@gmail.com's Project | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:11:35  [chrome.exe] Untitled query | SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:11:36  [chrome.exe] SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  asda
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:11:47  [chrome.exe] viajes | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:12:03  [chrome.exe] Prototipo de taxi Asere | Encantador - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:12:04  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:12:05  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:12:05  [chrome.exe] Nueva pestaña - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:12:07  [chrome.exe] Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:12:07  [chrome.exe] Table Editor | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:12:08  [chrome.exe] viajes | Table Editor | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:12:09  [chrome.exe] viajes | Table Editor | aseretaxis.surinam@gmail.com's Project | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:12:09  [chrome.exe] viajes | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  quiero eliminar todod esto peimeo[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:12:43  [chrome.exe] SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  -- 1. Borrar las tablas anteriores si ya existen (para empezar desde cero limpio)
+  DROP TABLE IF EXISTS public.trips CASCADE;
+  DROP TABLE IF EXISTS public.profiles CASCADE;
+  
+  -- 2. Crear la tabla de perfiles (Clientes y Conductores)
+  CREATE TABLE public.profiles (
+      id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
+      nombre TEXT NOT NULL,
+      correo TEXT NOT NULL,
+      rol TEXT NOT NULL CHECK (rol IN ('cliente', 'conductor')),
+      
+      -- Campos exclusivos para clientes
+      bio TEXT,
+      
+      -- Campos exclusivos para conductores
+      telefono TEXT,
+      licencia TEXT,
+      marca_vehiculo TEXT,
+      modelo_vehiculo TEXT,
+      color_vehiculo TEXT,
+      foto_vehiculo TEXT,
+      
+      created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+  );
+  
+  -- 3. Crear la tabla de viajes (Trips)
+  CREATE TABLE public.trips (
+      id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+      origen TEXT NOT NULL,
+      destino TEXT NOT NULL,
+      fecha_hora TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL,
+      estado TEXT DEFAULT 'pendiente' CHECK (estado IN ('pendiente', 'en_camino', 'finalizado', 'cancelado')),
+      
+      -- Si es un cliente registrado
+      cliente_id UUID REFERENCES public.profiles(id) ON DELETE SET NULL,
+      
+      -- Si el viaje fue solicitado como invitado
+      es_invitado BOOLEAN DEFAULT FALSE NOT NULL,
+      nombre_invitado TEXT,
+      telefono_invitado TEXT,
+      
+      -- Conductor que aceptó el viaje
+      conductor_id UUID REFERENCES public.profiles(id) ON DELETE SET NULL,
+      
+      created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+  );
+  
+  -- 4. Crear índices de velocidad
+  CREATE INDEX idx_trips_fecha_hora ON public.trips (fecha_hora DESC);
+  CREATE INDEX idx_trips_estado ON public.trips (estado);
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/08/21 19:13:00  [chrome.exe] Untitled query | SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:13:11  [chrome.exe] Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:13:15  [chrome.exe] conductores | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:13:28  [chrome.exe] profiles | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:13:43  [chrome.exe] trips | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:13:46  [chrome.exe] usuarios | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:13:59  [chrome.exe] vehiculos | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:14:10  [chrome.exe] viajes | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  mira y[Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  mira y dime si esta bien asi[ENTER]
+  [LMB]
+  [Clipboard]
+  -- Forzar el borrado de todo de manera limpia
+  DROP TABLE IF EXISTS public.viajes CASCADE;
+  DROP TABLE IF EXISTS public.vehiculos CASCADE;
+  DROP TABLE IF EXISTS public.usuarios CASCADE;
+  DROP TABLE IF EXISTS public.trips CASCADE;
+  DROP TABLE IF EXISTS public.conductores CASCADE;
+  DROP TABLE IF EXISTS public.profiles CASCADE;
+  
+  -- Crear perfil unificado
+  CREATE TABLE public.profiles (
+      id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
+      nombre TEXT NOT NULL,
+      correo TEXT NOT NULL,
+      rol TEXT NOT NULL CHECK (rol IN ('cliente', 'conductor')),
+      bio TEXT,
+      telefono TEXT,
+      licencia TEXT,
+      marca_vehiculo TEXT,
+      modelo_vehiculo TEXT,
+      color_vehiculo TEXT,
+      foto_vehiculo TEXT,
+      created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+  );
+  
+  -- Crear tabla trips limpia
+  CREATE TABLE public.trips (
+      id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+      origen TEXT NOT NULL,
+      destino TEXT NOT NULL,
+      fecha_hora TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL,
+      estado TEXT DEFAULT 'pendiente' CHECK (estado IN ('pendiente', 'en_camino', 'finalizado', 'cancelado')),
+      cliente_id UUID REFERENCES public.profiles(id) ON DELETE SET NULL,
+      es_invitado BOOLEAN DEFAULT FALSE NOT NULL,
+      nombre_invitado TEXT,
+      telefono_invitado TEXT,
+      conductor_id UUID REFERENCES public.profiles(id) ON DELETE SET NULL,
+      created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+  );
+  
+  -- Índices
+  CREATE INDEX idx_trips_fecha_hora ON public.trips (fecha_hora DESC);
+  CREATE INDEX idx_trips_estado ON public.trips (estado);
+  [LMB]
+
+--- WINDOW  2026/08/21 19:14:51  [chrome.exe] SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:14:52  [chrome.exe] Untitled query | SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:15:09  [chrome.exe] SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/08/21 19:15:21  [chrome.exe] Untitled query | SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:15:33  [chrome.exe] Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:15:33  [chrome.exe] viajes | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:15:34  [chrome.exe] Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:15:37  [chrome.exe] profiles | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:15:39  [chrome.exe] trips | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:15:42  [chrome.exe] Schema Visualizer | Database | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:15:50  [chrome.exe] Tables | Database | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:15:56  [chrome.exe] trips | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  ahora solo tengo 2 porque[ENTER]
+  [LMB]
+  si pero yo te pedi muchas a[Bk]mas cosas te pedi conductores y clientes he invitados todos separados que es esta mierda que creas[ENTER]
+  [LMB]
+  claro que las quiero separadas y una para los viajes tambien [ENTER]
+  [LMB]
+  [Clipboard]
+  -- 1. Limpiar tablas anteriores si existen
+  DROP TABLE IF EXISTS public.trips CASCADE;
+  DROP TABLE IF EXISTS public.conductores CASCADE;
+  DROP TABLE IF EXISTS public.clientes CASCADE;
+  DROP TABLE IF EXISTS public.profiles CASCADE;
+  
+  -- 2. Tabla exclusiva de Clientes
+  CREATE TABLE public.clientes (
+      id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
+      nombre TEXT NOT NULL,
+      correo TEXT NOT NULL,
+      bio TEXT,
+      created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+  );
+  
+  -- 3. Tabla exclusiva de Conductores
+  CREATE TABLE public.conductores (
+      id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
+      nombre TEXT NOT NULL,
+      correo TEXT NOT NULL,
+      telefono TEXT NOT NULL,
+      licencia TEXT NOT NULL,
+      marca_vehiculo TEXT NOT NULL,
+      modelo_vehiculo TEXT NOT NULL,
+      color_vehiculo TEXT NOT NULL,
+      foto_vehiculo TEXT,
+      created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+  );
+  
+  -- 4. Tabla de Viajes (Trips) separada
+  CREATE TABLE public.trips (
+      id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+      origen TEXT NOT NULL,
+      destino TEXT NOT NULL,
+      fecha_hora TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL,
+      estado TEXT DEFAULT 'pendiente' CHECK (estado IN ('pendiente', 'en_camino', 'finalizado', 'cancelado')),
+      
+      -- Si el viaje lo pidió un cliente registrado (relación con la tabla clientes)
+      cliente_id UUID REFERENCES public.clientes(id) ON DELETE SET NULL,
+      
+      -- Datos si es invitado (si no tiene cuenta de cliente)
+      es_invitado BOOLEAN DEFAULT FALSE NOT NULL,
+      nombre_invitado TEXT,
+      telefono_invitado TEXT,
+      
+      -- Conductor que tomó el viaje (relación con la tabla conductores)
+      conductor_id UUID REFERENCES public.conductores(id) ON DELETE SET NULL,
+      
+      created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+  );
+  
+  -- 5. Índices de rendimiento
+  CREATE INDEX idx_trips_fecha_hora ON public.trips (fecha_hora DESC);
+  CREATE INDEX idx_trips_estado ON public.trips (estado);
+  [LMB]
+
+--- WINDOW  2026/08/21 19:17:22  [chrome.exe] SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:17:22  [chrome.exe] Untitled query | SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:17:36  [chrome.exe] Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:17:37  [chrome.exe] trips | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:17:37  [chrome.exe] Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:17:41  [chrome.exe] clientes | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:17:43  [chrome.exe] Asistente IT para Informático Colaborativo - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  ahora ayudame ha hacer un trabajo delicado en la base de datos , me parece que debemos de actualizar las tablas de la siguiente anera cuando los clintes se registren en ese caso los datos que lleva son Nombre completo , correo Electronico y contraseña ok , pero en el perfil de ellos se puede registrar otros datos como Bio una pequeno texto que podran poner los clientes supongo que eso va en la base de datos ,cuadno el conductor se registra esto son los datos : Nombre , correo , telefono , numero de licencia, marca , modelo ,color , contraseña y fotto del vehiculo . ademas si se solicitan taxis como invitados debe de registrarse en la base de datos el viaje o sea el destino , el origen , la hora y el dia en que se solicita el viaje , para la parte de los viajes necesito otra tabla en la que se registrara cada viaje que solicite cada cliente ya sea como invitado o como cliente los viajes deben de organizarce por fecha y hora ademas debe de incluir destino y origen , quien solicita el viaje , si es un cliente el nombre si es invitado solo que diga invitado y el numero de unvitado correspodniente y el chofer que tomo el viaje ............. se puede hacer todo esto 
+  [LMB]
+  a ver te vuelvo a dar el pront neecesito todo esto dameel script todoooo en tablas separadas o sea 1 clientes , 2 invitados .3 condcutores , 4 viajes [ENTER]
+  [Ctrl]v[ENTER]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  a ver te vuelvo a dar el pront neecesito todo esto dameel script todoooo en tablas separadas o sea 1 clientes , 2 invitados .3 condcutores , 4 viajes 
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v [ENTER]
+  [LMB]
+  [Clipboard]
+  -- 1. Limpiar tablas anteriores para garantizar una estructura limpia
+  DROP TABLE IF EXISTS public.viajes CASCADE;
+  DROP TABLE IF EXISTS public.invitados CASCADE;
+  DROP TABLE IF EXISTS public.conductores CASCADE;
+  DROP TABLE IF EXISTS public.clientes CASCADE;
+  
+  -- 2. Tabla: CLIENTES
+  -- Los datos de autenticación (correo/contraseña) los maneja Supabase Auth automáticamente.
+  CREATE TABLE public.clientes (
+      id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
+      nombre_completo TEXT NOT NULL,
+      correo TEXT NOT NULL,
+      bio TEXT,
+      created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+  );
+  
+  -- 3. Tabla: CONDUCTORES
+  CREATE TABLE public.conductores (
+      id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
+      nombre TEXT NOT NULL,
+      correo TEXT NOT NULL,
+      telefono TEXT NOT NULL,
+      numero_licencia TEXT NOT NULL,
+      marca_vehiculo TEXT NOT NULL,
+      modelo_vehiculo TEXT NOT NULL,
+      color_vehiculo TEXT NOT NULL,
+      foto_vehiculo TEXT, -- URL de la imagen
+      created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+  );
+  
+  -- 4. Tabla: INVITADOS
+  -- Esta tabla guarda a los que piden sin registrarse.
+  CREATE TABLE public.invitados (
+      id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+      nombre TEXT DEFAULT 'Invitado',
+      telefono TEXT NOT NULL,
+      created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+  );
+  
+  -- 5. Tabla: VIAJES
+  -- Centraliza todo. El campo 'es_invitado' ayuda a decidir si buscar en 'clientes' o 'invitados'.
+  CREATE TABLE public.viajes (
+      id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+      origen TEXT NOT NULL,
+      destino TEXT NOT NULL,
+      fecha_solicitud TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL,
+      estado TEXT DEFAULT 'pendiente' CHECK (estado IN ('pendiente', 'en_camino', 'finalizado', 'cancelado')),
+      
+      -- Relación: Si es NULL, se revisa la columna de invitados o es invitado
+      cliente_id UUID REFERENCES public.clientes(id) ON DELETE SET NULL,
+      invitado_id UUID REFERENCES public.invitados(id) ON DELETE SET NULL,
+      
+      -- Quién tomó el viaje
+      conductor_id UUID REFERENCES public.conductores(id) ON DELETE SET NULL,
+      
+      created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+  );
+  
+  -- Índices para que la app no se ponga lenta al cargar muchos viajes
+  CREATE INDEX idx_viajes_fecha ON public.viajes (fecha_solicitud DESC);
+  CREATE INDEX idx_viajes_estado ON public.viajes (estado);
+  [LMB]
+
+--- WINDOW  2026/08/21 19:18:56  [chrome.exe] clientes | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:19:02  [chrome.exe] SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:19:02  [chrome.exe] Untitled query | SQL Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Bk][Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:19:15  [chrome.exe] Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:19:16  [chrome.exe] clientes | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:19:17  [chrome.exe] Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:19:20  [chrome.exe] clientes | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:19:29  [chrome.exe] conductores | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:19:41  [chrome.exe] invitados | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:19:46  [chrome.exe] trips | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:19:48  [chrome.exe] viajes | Table Editor | aseretaxis.surinam@gmail.com's Project | AcereTaxis | Supabase - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:19:53  [chrome.exe] Asistente IT para Informático Colaborativo - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  ahora como conecto etoa[Bk] afluterflow[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:20:13  [chrome.exe] FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:20:16  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:20:43  [chrome.exe] Projects - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:21:07  [chrome.exe] Asere Taxis - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:21:15  [chrome.exe] Projects - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 19:21:20  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:22:10  [chrome.exe] Projects - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  ahora com hago que cuadno el cliente se registre aqui se guarden sus datos en la base de datos par que pueda acceder a la app el cliente [ENTER]
+  [LMB]
+  [LMB]
+  no espera antes de eso necsito un boton de term[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]a pantalal c[Bk]par cuadno de ingresar le sar[Bk]lgan los terminos y condiciones y que le de la pcion de marcalros luego[Bk][Bk][Bk][Bk][Bk][ENTER]
+  [LMB]
+  m[Bk]no lo que quiero es lo l[Bk]so[Bk]iguiente cuando den ingresare[Bk] el 
+  [LMB]
+  [LMB]
+  [Bk][Bk]crar cuenta si vees mi pantalla que les salga entonces un cartel con los terminos y condiciones [ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:26:06  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  modalterminos.[ENTER]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  terminos y c[Bk]condiciones 
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]6
+  [LMB]
+  5[Bk]10
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  10
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  parraf[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]tes[Bk]xt
+  [LMB]
+
+--- WINDOW  2026/08/21 19:28:32  [SearchHost.exe] Buscar
+----------------------------------------------------------------------------
+  w
+  [LMB]
+
+--- WINDOW  2026/08/21 19:28:36  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:28:37  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:28:37  [chrome.exe] WhatsApp Web - WhatsApp Web
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:28:39  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:29:41  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  a ver son muy largos com los puedo poner dame n[Bk]una odea[Bk][Bk][Bk][Bk]idea[ENTER]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  te
+  [LMB]
+
+--- WINDOW  2026/08/21 19:30:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:30:51  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  # TÉRMINOS Y CONDICIONES DE USO
+  
+  ## ASERE TAXIS
+  
+  **Última actualización:** __________________
+  
+  Estos Términos y Condiciones regulan el acceso y uso de la plataforma tecnológica **Asere Taxis** y de sus servicios relacionados.
+  
+  Al registrarse, acceder o utilizar la aplicación, el usuario declara que ha leído, comprendido y aceptado estos Términos y Condiciones.
+  
+  Si el usuario no está de acuerdo con alguna de sus disposiciones, deberá abstenerse de utilizar la aplicación.
+  
+  ---
+  
+  # 1. IDENTIFICACIÓN DE LA PLATAFORMA
+  
+  **Asere Taxis** es una plataforma tecnológica destinada a facilitar la conexión entre personas que solicitan servicios de transporte privado y conductores afiliados que ofrecen dichos servicios mediante sus propios vehículos.
+  
+  La plataforma puede incluir aplicaciones móviles, sitios web, sistemas administrativos y otros medios tecnológicos relacionados con la operación de Asere Taxis.
+  
+  ---
+  
+  # 2. ACEPTACIÓN DE LOS TÉRMINOS
+  
+  El registro y uso de la plataforma implica la aceptación expresa de estos Términos y Condiciones.
+  
+  El usuario deberá proporcionar información verdadera, completa y actualizada durante el proceso de registro.
+  
+  Asere Taxis podrá solicitar información adicional cuando resulte necesaria para verificar la identidad, seguridad o elegibilidad del usuario.
+  
+  ---
+  
+  # 3. CUENTAS DE USUARIO
+  
+  Cada persona deberá utilizar una cuenta individual.
+  
+  El usuario es responsable de:
+  
+  * Mantener la confidencialidad de sus credenciales.
+  * No compartir su cuenta.
+  * Proporcionar información correcta.
+  * Informar inmediatamente cualquier acceso no autorizado.
+  * Utilizar la plataforma únicamente para fines legítimos.
+  
+  Asere Taxis podrá suspender o cancelar cuentas cuando existan indicios de fraude, abuso, información falsa, conducta inapropiada o incumplimiento de estos Términos.
+  
+  ---
+  
+  # 4. SERVICIO DE TRANSPORTE
+  
+  Asere Taxis facilita la conexión entre pasajeros y conductores afiliados.
+  
+  La disponibilidad de un viaje dependerá de los conductores disponibles en el momento de la solicitud.
+  
+  Las características del servicio, incluyendo disponibilidad, tarifa estimada, ubicación y tiempo aproximado de llegada, podrán variar según las condiciones operativas.
+  
+  ---
+  
+  # 5. CONDUCTORES INDEPENDIENTES
+  
+  Los conductores que utilizan Asere Taxis prestan sus servicios de manera independiente.
+  
+  Cada conductor es responsable de cumplir con los requisitos legales aplicables para conducir y transportar pasajeros, así como de mantener en condiciones adecuadas el vehículo utilizado.
+  
+  La afiliación a Asere Taxis no convierte al conductor en empleado, socio, accionista o representante legal de la empresa.
+  
+  Los conductores deberán aceptar y cumplir adicionalmente el **Contrato de Prestación de Servicios para Conductores Afiliados** y las normas operativas establecidas por Asere Taxis.
+  
+  ---
+  
+  # 6. REQUISITOS DE LOS CONDUCTORES
+  
+  Antes de ser autorizado para prestar servicios mediante la plataforma, el conductor podrá estar sujeto a procesos de verificación establecidos por Asere Taxis.
+  
+  Estos procesos podrán incluir la revisión de:
+  
+  * Identidad.
+  * Licencia de conducir.
+  * Documentación del vehículo.
+  * Seguro correspondiente.
+  * Condiciones del vehículo.
+  * Información personal requerida para la operación.
+  
+  Asere Taxis podrá rechazar, suspender o retirar la autorización de un conductor cuando no cumpla los requisitos establecidos.
+  
+  ---
+  
+  # 7. SOLICITUD Y ACEPTACIÓN DE VIAJES
+  
+  Los pasajeros podrán solicitar viajes mediante la aplicación.
+  
+  El conductor podrá aceptar o rechazar solicitudes de acuerdo con las funciones disponibles en la plataforma.
+  
+  Una vez aceptado un viaje, ambas partes deberán actuar de manera responsable y respetuosa.
+  
+  ---
+  
+  # 8. CANCELACIONES
+  
+  Un viaje podrá ser cancelado por el pasajero o por el conductor bajo las condiciones establecidas por Asere Taxis.
+  
+  Cuando corresponda, Asere Taxis podrá establecer cargos o consecuencias por cancelaciones injustificadas, reiteradas o abusivas.
+  
+  Las condiciones específicas podrán ser modificadas y comunicadas mediante la aplicación.
+  
+  ---
+  
+  # 9. TARIFAS Y PAGOS
+  
+  Las tarifas serán determinadas de acuerdo con el modelo comercial vigente de Asere Taxis.
+  
+  Antes o durante la solicitud del servicio, la aplicación podrá mostrar al usuario información relacionada con el precio estimado o aplicable.
+  
+  El usuario acepta pagar el importe correspondiente al servicio contratado mediante los métodos de pago disponibles.
+  
+  Asere Taxis podrá modificar tarifas, métodos de pago, promociones o condiciones comerciales cuando resulte necesario para la operación del servicio.
+  
+  ---
+  
+  # 10. PROMOCIONES Y DESCUENTOS
+  
+  Asere Taxis podrá ofrecer promociones, descuentos, créditos u otros beneficios.
+  
+  Cada promoción podrá estar sujeta a condiciones específicas.
+  
+  Las promociones no podrán utilizarse mediante fraude, manipulación o creación de cuentas destinadas exclusivamente a obtener beneficios indebidos.
+  
+  ---
+  
+  # 11. CONDUCTA DE LOS USUARIOS
+  
+  Todos los usuarios deberán mantener una conducta respetuosa.
+  
+  Está prohibido utilizar la plataforma para:
+  
+  * Amenazar, acosar o agredir a otras personas.
+  * Cometer actividades ilegales.
+  * Dañar intencionalmente un vehículo.
+  * Utilizar información falsa.
+  * Realizar actividades fraudulentas.
+  * Intentar manipular la plataforma.
+  * Utilizar la cuenta de otra persona.
+  * Realizar cualquier actividad que pueda poner en peligro a otros usuarios o conductores.
+  
+  Asere Taxis podrá suspender o cancelar cuentas que incumplan estas normas.
+  
+  ---
+  
+  # 12. SEGURIDAD
+  
+  La seguridad de pasajeros y conductores constituye una prioridad de Asere Taxis.
+  
+  Los usuarios deberán utilizar los mecanismos de seguridad disponibles dentro de la aplicación y reportar inmediatamente cualquier situación que represente un riesgo.
+  
+  En situaciones de emergencia, el usuario deberá contactar a los servicios de emergencia correspondientes.
+  
+  Asere Taxis podrá colaborar con las autoridades competentes cuando sea legalmente requerido.
+  
+  ---
+  
+  # 13. OBJETOS PERDIDOS
+  
+  Asere Taxis podrá facilitar la comunicación entre pasajero y conductor cuando se reporte un objeto perdido.
+  
+  La empresa no garantiza la recuperación de objetos olvidados dentro de los vehículos.
+  
+  Los usuarios deberán informar cualquier objeto perdido lo antes posible mediante los canales oficiales disponibles.
+  
+  ---
+  
+  # 14. DAÑOS AL VEHÍCULO
+  
+  El pasajero será responsable por daños que cause intencionalmente o por conducta negligente al vehículo del conductor.
+  
+  Cuando corresponda, Asere Taxis podrá facilitar la comunicación entre las partes para gestionar el incidente.
+  
+  ---
+  
+  # 15. INFORMACIÓN Y DATOS PERSONALES
+  
+  Para proporcionar sus servicios, Asere Taxis podrá recopilar y procesar información proporcionada por los usuarios, incluyendo información de identificación, contacto, ubicación y datos relacionados con el uso de la plataforma.
+  
+  La información será utilizada para fines relacionados con:
+  
+  * Creación y administración de cuentas.
+  * Prestación del servicio.
+  * Seguridad.
+  * Comunicación.
+  * Procesamiento de pagos.
+  * Atención al cliente.
+  * Prevención de fraude.
+  * Mejora de la plataforma.
+  * Cumplimiento de obligaciones legales.
+  
+  El tratamiento de datos personales estará sujeto a la legislación aplicable en la República de Surinam y a la Política de Privacidad de Asere Taxis.
+  
+  ---
+  
+  # 16. UBICACIÓN
+  
+  Para proporcionar determinadas funciones, la aplicación podrá solicitar acceso a la ubicación del dispositivo del usuario.
+  
+  La información de ubicación podrá utilizarse para:
+  
+  * Solicitar y asignar viajes.
+  * Mostrar la ubicación del conductor.
+  * Facilitar la navegación.
+  * Calcular distancias y tiempos.
+  * Mejorar la seguridad y operación del servicio.
+  
+  El usuario podrá administrar los permisos de ubicación desde la configuración de su dispositivo, aunque determinadas funciones podrían dejar de estar disponibles.
+  
+  ---
+  
+  # 17. PROPIEDAD INTELECTUAL
+  
+  La aplicación, marca, logotipos, diseños, interfaces, contenidos, software, bases de datos y demás elementos tecnológicos de Asere Taxis son propiedad de la empresa o se utilizan bajo las autorizaciones correspondientes.
+  
+  El uso de la aplicación no concede al usuario ningún derecho de propiedad sobre dichos elementos.
+  
+  Queda prohibida la copia, modificación, distribución, ingeniería inversa, reproducción o explotación no autorizada de cualquier parte de la plataforma.
+  
+  ---
+  
+  # 18. DISPONIBILIDAD DE LA PLATAFORMA
+  
+  Asere Taxis procurará mantener la plataforma disponible y funcionando correctamente.
+  
+  Sin embargo, podrán producirse interrupciones por:
+  
+  * Mantenimiento.
+  * Actualizaciones.
+  * Fallos técnicos.
+  * Problemas de conectividad.
+  * Servicios de terceros.
+  * Situaciones de fuerza mayor.
+  * Circunstancias fuera del control razonable de Asere Taxis.
+  
+  La empresa no garantiza que la plataforma estará disponible de manera ininterrumpida en todo momento.
+  
+  ---
+  
+  # 19. SERVICIOS DE TERCEROS
+  
+  La plataforma podrá utilizar servicios tecnológicos proporcionados por terceros, incluyendo servicios de mapas, geolocalización, procesamiento de pagos, almacenamiento, comunicaciones y otros servicios necesarios para su funcionamiento.
+  
+  La disponibilidad de determinadas funciones podrá depender de dichos proveedores.
+  
+  ---
+  
+  # 20. RESPONSABILIDAD
+  
+  Asere Taxis actúa como plataforma tecnológica de intermediación.
+  
+  Los conductores son responsables de cumplir las obligaciones legales y operativas correspondientes a la prestación del servicio de transporte.
+  
+  Nada de lo establecido en estos Términos pretende excluir o limitar responsabilidades que legalmente no puedan ser excluidas o limitadas.
+  
+  Los usuarios deberán actuar de manera responsable y cumplir las leyes aplicables.
+  
+  ---
+  
+  # 21. MODIFICACIONES
+  
+  Asere Taxis podrá modificar estos Términos y Condiciones cuando resulte necesario debido a cambios en el servicio, legislación, tecnología o modelo de negocio.
+  
+  Cuando corresponda, los usuarios serán informados de modificaciones relevantes mediante la aplicación u otros canales disponibles.
+  
+  El uso continuado de la plataforma después de la entrada en vigor de los cambios podrá constituir aceptación de los nuevos términos, en la medida permitida por la legislación aplicable.
+  
+  ---
+  
+  # 22. SUSPENSIÓN Y TERMINACIÓN DE CUENTAS
+  
+  Asere Taxis podrá suspender o cancelar una cuenta cuando exista incumplimiento de estos Términos, fraude, conducta abusiva, información falsa, riesgo para la seguridad o cualquier otra circunstancia que justifique razonablemente la medida.
+  
+  El usuario también podrá solicitar la cancelación de su cuenta mediante los mecanismos disponibles.
+  
+  La terminación de una cuenta no elimina las obligaciones que, por su naturaleza, deban permanecer vigentes después de la terminación.
+  
+  ---
+  
+  # 23. COMUNICACIONES
+  
+  El usuario acepta recibir comunicaciones relacionadas con el funcionamiento de la cuenta y del servicio.
+  
+  Estas podrán incluir:
+  
+  * Confirmaciones de viajes.
+  * Cambios de servicio.
+  * Avisos de seguridad.
+  * Actualizaciones de cuenta.
+  * Información administrativa.
+  * Comunicaciones relacionadas con pagos.
+  
+  Las comunicaciones promocionales estarán sujetas a las opciones de consentimiento y a la legislación aplicable.
+  
+  ---
+  
+  # 24. LEGISLACIÓN APLICABLE
+  
+  Estos Términos y Condiciones se regirán por las leyes aplicables de la **República de Surinam**.
+  
+  Cualquier controversia relacionada con el uso de la plataforma será tratada inicialmente mediante comunicación directa entre las partes, sin perjuicio del derecho de cualquiera de ellas de acudir a las autoridades o tribunales competentes cuando corresponda.
+  
+  ---
+  
+  # 25. ACEPTACIÓN ELECTRÓNICA
+  
+  Al marcar la casilla:
+  
+  **"He leído y acepto los Términos y Condiciones de Asere Taxis"**
+  
+  y completar el proceso de registro, el usuario declara que acepta estos Términos y Condiciones.
+  
+  La aceptación electrónica podrá registrarse junto con la información de la cuenta, fecha, hora y demás datos técnicos necesarios para acreditar la aceptación, conforme a la legislación aplicable.
+  
+  ---
+  
+  # 26. CONTACTO
+  
+  Para consultas, reclamaciones o comunicaciones relacionadas con estos Términos y Condiciones, los usuarios podrán utilizar los canales oficiales de atención de Asere Taxis disponibles en la aplicación o en el sitio web oficial.
+  
+  ---
+  
+  ## ACEPTACIÓN
+  
+  ☐ **He leído y acepto los Términos y Condiciones de Asere Taxis.**
+  
+  ☐ **He leído y acepto la Política de Privacidad de Asere Taxis.**
+  
+  ---
+  
+  **ASERE TAXIS**
+  
+  **Versión:** 1.0
+  
+  **Fecha de entrada en vigor:** __________________
+  
+  **Última actualización:** __________________
+  
+  **Fin de los Términos y Condiciones**
+  [LMB]
+
+--- WINDOW  2026/08/21 19:31:00  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  na mira 
+  [LMB]
+  [LMB]
+  no se esconde [ENTER]
+  [LMB]
+  [LMB]
+  250
+  [LMB]
+  50
+  [LMB]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  no hay otra o[Bk]forma[ENTER]
+  [LMB]
+  [LMB]
+  a ver pero es que no[Bk][Bk]necesito que este dentro de la aplicacion como lo hago [ENTER]
+  [LMB]
+  [LMB]
+  [Bk]8
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  280
+  [LMB]
+  80
+  [LMB]
+  100
+  [LMB]
+  50
+  [LMB]
+  50
+  [LMB]
+  50
+  [LMB]
+  50
+  [LMB]
+  10
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  text
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:36:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:36:19  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:36:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:36:24  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  ok pero porque me quedo asi afuera dek[Bk]l container[ENTER]
+  [LMB]
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk]2
+  [LMB]
+  10
+  [LMB]
+  10
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  10
+  [LMB]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:38:54  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:38:56  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Ctrl]z[Ctrl]z
+
+--- WINDOW  2026/08/21 19:39:46  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
