@@ -1,0 +1,1417 @@
+﻿  okay now present few of those points to the sir [Bk][Bk][Bk][Bk]client [ENTER]
+  give me the response to sendit to the client on the basis of the complexity that wil be take and the k[Bk]limitations which in the appds to l[Bk]will in clucded while embedded[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [<-][Bk][Bk]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  I’ve now gone through the course-app options and the requirements in more detail, and I want to clarify the scope before we move forward.
+  
+  The Shopify part itself is straightforward we can build the storefront, course landing pages, checkout and connect each course product with the selected course/LMS app.
+  
+  The more involved part is the academy/course implementation inside the app. Since you have multiple courses and want quizzes, automatic scoring, progress tracking and certificates, we need to configure and test the complete learning flow rather than simply install the app.
+  
+  The implementation would include:
+  
+  Shopify webshop and course product setup
+  Integration between Shopify purchases and the course platform
+  Structuring your course content into courses, modules and lessons
+  Setting up quizzes with correct answers and automatic scoring
+  Defining passing/completion rules
+  Student access and dashboard
+  Progress tracking
+  Automatic certificate generation, where supported by the selected app
+  Dutch course/student-facing content and interface configuration
+  Mobile/responsive checking
+  End-to-end testing from purchase → course access → lessons → quiz → score → progress → completion → certificate
+  
+  There are also some limitations that depend on the specific LMS app and plan. For example, lesson limits, quiz functionality, certificate functionality, progress tracking, customization options and how deeply the course pages can be embedded into the Shopify theme can vary between apps and subscription plans.
+  ccc
+
+--- WINDOW  2026-08-21 14:22:09  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:22:09  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  these were the research we have hads and [Bk][Bk][Bk][Bk][Bk][Bk][Bk]d the basis of the w[Bk]app and [Bk][Bk][Bk]nd i want to [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]and the shopify store woek[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]wor[Bk][Bk]ork that will be needed to be done in these basis as well[ENTER]
+
+--- WINDOW  2026-08-21 14:23:37  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:23:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:23:37  [chrome.exe] Client proposal pricing with support tiers - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:23:38  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:23:39  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:23:39  [msedge.exe] Shopify Course Store Plan and 20 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:23:45  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [ENTER]
+  [RMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:24:20  [Taskmgr.exe] Task Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:24:20  [msedge.exe] Shopify Course Store Plan and 20 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:24:30  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:24:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:24:30  [Taskmgr.exe] Task Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:24:33  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:24:33  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:24:35  [msedge.exe] Shopify Course Store Plan and 20 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl]c
+  [Clipboard]
+  I also want to be transparent with you regarding the budget. Initially, I thought we could try to put together a simplified version around the $600 range, but after going through the actual course structure, LMS requirements, quizzes, automatic scoring, certificates, progress tracking, Dutch localization, content migration and the testing involved, I can see that there is considerably more work involved than a standard Shopify setup.
+  
+  I don't want to cut important parts of the project just to stay within a $600 budget and then give you something that doesn't provide the experience you're actually looking for.
+  
+  Would you be flexible with the budget if needed? If so, I can work out the most cost-effective approach, define exactly what should be included in the first version, and prepare a proper proposal with the actual fixed quote based on the complete scope.
+  
+  My priority is to make sure that what we build is genuinely valuable and worth the investment, rather than simply trying to fit everything into an unrealistic budget. Once I know how flexible you are, I can proceed with the proposal right away.
+  cccc
+
+--- WINDOW  2026-08-21 14:24:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:24:40  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:24:40  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:24:46  [msedge.exe] Shopify Course Store Plan and 20 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:24:48  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:24:51  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:24:51  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:24:52  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  garage_31
+  c
+
+--- WINDOW  2026-08-21 14:25:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:25:16  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026-08-21 14:25:27  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:25:27  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:25:28  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:25:32  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  mai clients ko only follow up bhej n[Bk]rahi hu okay yo can repond to t eh client [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:26:03  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:26:06  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  are m[Bk]we moving ahead with he further discussion do let me know you availabilty we can discuu[Bk]s further and h[Bk]move ahead .[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:26:56  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:26:57  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:26:59  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  rezuanulhaque
+  c
+
+--- WINDOW  2026-08-21 14:27:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:27:16  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:27:17  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [Bk][Ctrl]v
+  [LMB]
+  [LMB]
+  checking in if you have reviewed the proposlal a[Bk][Bk][Bk][Bk][Bk]all [Bk] and are ready to move ahead with this.[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:28:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:28:25  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  jacobjpinkney
+  
+  c
+
+--- WINDOW  2026-08-21 14:28:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:28:32  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:28:33  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:30:28  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]cc
+
+--- WINDOW  2026-08-21 14:30:36  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:30:36  [msedge.exe] Shopify Course Store Plan and 20 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:30:38  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:30:38  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:30:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:30:39  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  checking in 
+  [LMB]
+  [LMB]
+  [LMB]
+  if you had the chance to view through the propo
+  [LMB]
+
+--- WINDOW  2026-08-21 14:31:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:31:32  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:31:34  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:31:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:31:41  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:31:41  [chrome.exe] Client proposal pricing with support tiers - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:31:41  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:31:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:31:42  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  gh the proposal do let me know if you have any doubts or any further thoughts to be shared.[ENTER]
+
+--- WINDOW  2026-08-21 14:32:20  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:32:20  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:32:20  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:32:22  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  adrian490
+  c[Tab]
+
+--- WINDOW  2026-08-21 14:32:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:32:29  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:32:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:32:30  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:32:46  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:32:46  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:32:46  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:32:52  [msedge.exe] Shopify Course Store Plan and 20 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:32:54  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:32:56  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:32:56  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Me
+  
+  Aug 21, 1:52 PM
+  And on the basis of the monthly support  I can get started now right off
+  
+  J
+  Profile Image
+  jim_whitelaw
+  
+  Aug 21, 2:07 PM
+  Sounds good — please go ahead with the colour/typography/copy update now, and send over the two pricing options when ready
+  c
+  [LMB]
+
+--- WINDOW  2026-08-21 14:34:08  [msedge.exe] Shopify Course Store Plan and 20 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:34:09  [msedge.exe] WordPress Quote Summary and 20 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:34:14  [msedge.exe] Write Shopify Scope Message and 20 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Also, I wanted to check one thing from the reference you shared from Voy.
+  
+  Would you like us to include **similar dynamic/interactive elements** on your landing page as well — for example, the **Kg/St toggle, interactive sliders, or other simple dynamic sections** that allow the visitor to interact with the content?
+  
+  We can definitely incorporate this type of functionality if it adds value to your page, while still keeping everything **clean, premium and not overcomplicated** as you requested.
+  
+  [LMB]
+
+--- WINDOW  2026-08-21 14:34:19  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]--
+
+--- WINDOW  2026-08-21 14:35:28  [PSExpressCore.exe] ScreenshotWindow
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:35:34  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:36:52  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:36:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:36:53  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:36:53  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:37:12  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:37:12  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:37:24  [PSExpressCore.exe] ScreenshotWindow
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:37:26  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:37:27  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]vyeh deko[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:37:38  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:37:54  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:37:54  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:37:55  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:37:55  [chrome.exe] 10 am to 5pm Ghana gmt timing to ist - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:38:02  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:38:02  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  p[Bk]okay[ENTER]
+  [ENTER]
+  v
+  [LMB]
+  [Ctrl]yehh theek se dekpo[ENTER]
+  accha kaasa client haii[ENTER]
+  images v[Bk]brief mein hai already bried[Bk]f se hai th[Bk][Bk][ENTER]
+  toh obciopusly lagta ki you have nit [Bk][Bk][Bk]ot made reaearch and you are spw[Bk]a[Bk]eaking[ENTER]
+  bring him backk[ENTER]
+  b
+
+--- WINDOW  2026-08-21 14:39:35  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:39:35  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+  l
+
+--- WINDOW  2026-08-21 14:39:35  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:39:35  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [Bk]bolo i
+
+--- WINDOW  2026-08-21 14:39:38  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:39:38  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:39:38  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+   
+
+--- WINDOW  2026-08-21 14:39:38  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  have had goern through i thought ere m[Bk]were many more to go aise kuch r[Bk]re  [Bk]ke bolo the communcations[Bk] stayed itact i woul like to be o[Bk]more conscu[Bk]iopus on my wording wiht yo  in th[Bk][Bk][Bk][Bk][Bk][Bk]u aise krke[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:40:36  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  max339
+  cc
+  [LMB]
+
+--- WINDOW  2026-08-21 14:40:46  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Meeting scheduled for Today (client postponed to tomorrow)
+  Fiverr Shreyansh 
+  Client : nataliejlester
+  Timing: 9:30 PM (IST) 
+  country: US
+  Project: Shopify 
+  Host : Vaishnavi
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [Bk][Bk]6;
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]v
+  [LMB]
+  [Clipboard]
+  max339
+  [Ctrl]
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:41:23  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:41:24  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  us
+  [LMB]
+  ==[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]custom 
+  [LMB]
+  [Bk][ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:41:58  [ApplicationFrameHost.exe] Calculator
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:41:59  [Notepad.exe] *clientchatgpthistory!.txt - Notepad
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:42:00  [ApplicationFrameHost.exe] Calculator
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:42:02  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:42:03  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:42:03  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:42:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:42:44  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:42:45  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 14:43:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:43:24  [msedge.exe] New tab - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  ji[Bk][Bk]ch[ENTER]
+
+--- WINDOW  2026-08-21 14:43:32  [msedge.exe] ChatGPT: Chat, Work, Create & Code with AI - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:43:35  [msedge.exe] ChatGPT - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:43:41  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:43:42  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 14:43:43  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  l
+
+--- WINDOW  2026-08-21 14:43:45  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 14:43:46  [LockApp.exe] Windows Default Lock Screen
+----------------------------------------------------------------------------
+  [ENTER]
+
+--- WINDOW  2026-08-21 15:15:19  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:15:20  [explorer.exe] Program Manager
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:15:28  [chrome.exe] Remote Access - Chrome Remote Desktop - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:15:30  [chrome.exe] Chrome Remote Desktop - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:15:31  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:15:48  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:15:48  [msedge.exe] ChatGPT - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  jim [Bk]-white
+  [LMB]
+
+--- WINDOW  2026-08-21 15:16:02  [msedge.exe] Redesign Client Message - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:16:03  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:16:10  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:16:12  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:16:17  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  alawi98
+  cc
+
+--- WINDOW  2026-08-21 15:16:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:16:28  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:18:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:18:41  [msedge.exe] Redesign Client Message - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:18:43  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:19:05  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:19:07  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:19:13  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  aapko ki
+
+--- WINDOW  2026-08-21 15:19:27  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  nderjoys gift ksrungi[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:19:39  [chrome.exe] Open
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:19:46  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [ENTER]
+  h[Bk]yehh woh saas[Bk]s h[Bk]la[Bk][Bk]ka html file hai[ENTER]
+
+--- WINDOW  2026-08-21 15:20:05  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:20:05  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:20:05  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Hello ! I'm looking for a fixed-price quote to build a dental clinic management system for private clinics in Baghdad.
+  
+  I have a complete, working interactive prototype (a single HTML file) that shows every screen and workflow in detail. It is a front-end prototype only  no backend, no database, no accounts. I want that turned into a real multi-tenant SaaS product.
+  
+  Key requirements: Arabic and English with full right-to-left support, offline tolerance (the internet drops often here), IQD and USD, role-based access for receptionists, dentists and clinic owners, and an Instagram + WhatsApp inbox using the official Meta APIs.
+  
+  If this is the kind of project you take on, tell me and I'll send the prototype plus a full written brief. I'm looking for a total price broken down by module, a realistic timeline, and your monthly running-cost estimate.
+  
+  Have you built anything with Arabic RTL or the WhatsApp Business API before?
+  cc
+  [LMB]
+
+--- WINDOW  2026-08-21 15:20:15  [msedge.exe] Redesign Client Message - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:20:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:20:16  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:20:20  [chrome.exe] 10 am to 5pm Ghana gmt timing to ist - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:20:25  [chrome.exe] Google - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:20:27  [chrome.exe] 10 am to 5pm Ghana gmt timing to ist - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:20:33  [chrome.exe] what is erp?? - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [ENTER]
+  ht[Bk][Bk]thsi si what he wants what is ri[Bk][Bk]rtl // and [ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:21:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:21:24  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:21:38  [chrome.exe] what is erp?? - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:21:39  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:21:43  [chrome.exe] what is erp?? - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:21:47  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]a[Ctrl]x
+  [Clipboard]
+  https://drive.google.com/file/d/1HUpENC-IaqnGZCMZF_76zxwJ-3QSpcSH/view
+  [LMB]
+
+--- WINDOW  2026-08-21 15:24:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:24:25  [chrome.exe] what is erp?? - Google Search - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:24:27  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  proposal[Bk][Bk]sal hai isme [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:24:52  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:24:53  [chrome.exe] Digital Heroes Portal - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:25:57  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:26:12  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:26:21  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:26:21  [chrome.exe] Meet - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:26:24  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:26:37  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:26:57  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:27:06  [chrome.exe] Client proposal pricing with support tiers - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:27:07  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:27:27  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:27:30  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:27:39  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:27:39  [chrome.exe] Client proposal pricing with support tiers - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:27:41  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:27:42  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:27:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:27:42  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  max
+  [LMB]
+
+--- WINDOW  2026-08-21 15:28:14  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:28:14  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:28:29  [chrome.exe] Client proposal pricing with support tiers - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:28:30  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:28:31  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:28:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:28:31  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Max
+  
+  PROMOTED
+  
+  May 08, 8:20 PM
+  Hi I need a pretty big project, or maybe 3 related projects. It would be great if you can help with all 3 so they can all work together and be plugged into eachother. Project 1: Professional Website using provided renders, animations, and text Project 2: A front end user portal that clients can log into from the website to sign forms and a backend that organizes and stores the forms to a server, and also tells my employees which forms to upload, possibly API pluggable and 3. An AI WhatsApp chatbot to talk to clients... Which project can you do? Thank you
+  cc
+  [LMB]
+
+--- WINDOW  2026-08-21 15:28:48  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:28:49  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:29:02  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:29:29  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:29:39  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:29:40  [chrome.exe] (77) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:29:45  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:30:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:30:31  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:30:38  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:30:38  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:30:39  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:30:41  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:31:09  [chrome.exe] meet.google.com is sharing your screen.
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:31:10  [chrome.exe] Meet – pmx-sqma-bpd
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:31:11  [chrome.exe] meet.google.com is sharing your screen.
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:31:11  [chrome.exe] Meet – pmx-sqma-bpd
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:31:15  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:31:15  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:31:17  [chrome.exe] Meet – pmx-sqma-bpd
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:31:17  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:32:06  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:32:08  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:32:10  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:34:58  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:35:03  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  littlesproutsca
+  cc
+
+--- WINDOW  2026-08-21 15:35:42  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:35:42  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:39:29  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:39:30  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:39:35  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:39:35  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:39:35  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:39:36  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:39:36  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:39:38  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:39:38  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:39:38  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:39:39  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:43:24  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:43:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:43:24  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:43:27  [chrome.exe] Client proposal pricing with support tiers - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:43:29  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:43:35  [chrome.exe] Client proposal pricing with support tiers - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:43:35  [chrome.exe] Client Success 6 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:43:44  [chrome.exe] PRODUCTS - Tarpon Dreams, Explore our Exclusive Products by Category: Checkout our Premium 2026 Lineup - Fishing Apparel; Shirts, Hats, Shorts, Buffs, Flip Flops, Shoes. Specialties; Glasses, Coasters, Tumblers. Travel Gear; Dry Packs, Backpacks, Travel, Fishing Journals. Sun Glasses and More! - TarponDreams™ - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:43:49  [chrome.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:43:53  [chrome.exe] PRODUCTS - Tarpon Dreams, Explore our Exclusive Products by Category: Checkout our Premium 2026 Lineup - Fishing Apparel; Shirts, Hats, Shorts, Buffs, Flip Flops, Shoes. Specialties; Glasses, Coasters, Tumblers. Travel Gear; Dry Packs, Backpacks, Travel, Fishing Journals. Sun Glasses and More! - TarponDreams™ - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:44:44  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:44:46  [chrome.exe] Tarpon Dreams – Opening Soon - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:44:46  [chrome.exe] PRODUCTS - Tarpon Dreams, Explore our Exclusive Products by Category: Checkout our Premium 2026 Lineup - Fishing Apparel; Shirts, Hats, Shorts, Buffs, Flip Flops, Shoes. Specialties; Glasses, Coasters, Tumblers. Travel Gear; Dry Packs, Backpacks, Travel, Fishing Journals. Sun Glasses and More! - TarponDreams™ - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:44:47  [chrome.exe] Tarpon Dreams – Opening Soon - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:44:52  [chrome.exe] PRODUCTS - Tarpon Dreams, Explore our Exclusive Products by Category: Checkout our Premium 2026 Lineup - Fishing Apparel; Shirts, Hats, Shorts, Buffs, Flip Flops, Shoes. Specialties; Glasses, Coasters, Tumblers. Travel Gear; Dry Packs, Backpacks, Travel, Fishing Journals. Sun Glasses and More! - TarponDreams™ - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:44:55  [chrome.exe] Tarpon Dreams – Opening Soon - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:45:04  [chrome.exe] PRODUCTS - Tarpon Dreams, Explore our Exclusive Products by Category: Checkout our Premium 2026 Lineup - Fishing Apparel; Shirts, Hats, Shorts, Buffs, Flip Flops, Shoes. Specialties; Glasses, Coasters, Tumblers. Travel Gear; Dry Packs, Backpacks, Travel, Fishing Journals. Sun Glasses and More! - TarponDreams™ - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:45:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:45:26  [chrome.exe] DH Client success & Project Mgmt - Google Sheets - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:45:28  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:45:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-21 15:45:33  [chrome.exe] Client proposal pricing with support tiers - Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-21 15:45:35  [chrome.exe] Design reference audit for ORIN store redesign - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-21 15:46:28  [chrome.exe] Meet – pmx-sqma-bpd - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
