@@ -1,0 +1,4135 @@
+﻿
+--- WINDOW  2026-08-22 00:13:21  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:13:22  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]--
+  [LMB]
+  [LMB]
+  [Ctrl]cc
+  [Clipboard]
+  WE HAVE YOUR BACK
+  
+  For added safety and your protection, keep payments and communications within Fiverr. Learn more
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 16:31
+  hamidjarouche has requested to order this service. Learn more
+  Reply soon with a custom offer. A quick response is more likely to lead to an order.
+  
+  Order Request
+  
+  I will be full stack web developer for saas, app, frontend, custom website development
+  Basic package
+  Hi can you build me an offer calculator that I can send via email?
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 16:31
+  Hi! hamidjarouche  
+  You’ve officially reached the 🏅 #1 Expert on Fiverr!
+  
+  You haven’t just messaged a developer; you’ve contacted the ✅ #1 Ranked Top Rated Seller in Website Development on this platform which is why premium brands choose us over thousands of other agencies.
+  
+  🎬 https://www.youtube.com/@DigitalMarketingHeroes
+  We are the team behind✅ 2.5 MILLION Subscribers on our YouTube channel, where we teach the world how to build and scale million-dollar brands. When you work with us, you get the same expertise trusted by global industry leaders like Hostinger, Loox, Minea and 2000+ More.
+  
+  Why you can stop your search here:
+  -Unmatched Authority
+  -Your Vision, Perfected: We want you to point out every single inch of detail you desire. We build for your brand, and we offer unlimited revisions until it is 100% perfect.
+  -Zero Risk: We provide full support until you are 100% happy and satisfied.
+  
+  Take a look at what we deliver: 
+  👉 Our Brand Deck & Portfolio: https://portfolio.digitalheroes.co.in
+  
+  Now, you can officially 😴 SIT BACK and RELAX. You are in the best hands in the industry. Please share your project details or check out our portfolio above this will help us clarify your requirements and move forward quickly to exceed your expectations!
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 16:37
+  hi how are you ?
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 16:40
+  Whenever you get a chance, could you please send here the same details you've shared via email? It'll help me review everything in one place and respond faster. Thank you!
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 17:43
+  Aug 21 at 8:09 AM
+  Yes, firstly the largest scope appears to pull the CRM something that is very secure no dependent on any type of SAAS, first I would like you to build an offer calculator. Basically this business is small business financing attendant offer calculator to the sales. Reps in the sales reps can edit that calculator to the offer that they would like to send to their client.
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 17:47
+  Can you share an example of the offer calculation? What inputs (funding amount, term, factor rate, fees, etc.) and outputs should the calculator generate?
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 17:53
+  No worries if there's no example. What fields will the sales reps enter, and what results should the calculator generate?
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:06
+  Thank you for being so responsive
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 18:07
+  No worries at all. I'm happy to help and looking forward to learning more about your requirements.
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:10
+  Factor rate, origination fees, estimated term hold back percentage
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:10
+  That’s the input. The output that the sales rep should be able to change is dollar amount, term and factor rate
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:12
+  But the rep should only slide down not up. They should not be able to increase dollar amount, term,
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 18:13
+  Should there be a minimum limit for how far the rep can slide each value down, and what details should the final offer display?
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 18:13
+  Replied
+  
+  hamidjarouche
+  
+  21 Aug, 18:10
+  
+  That’s the input. The output that the sales rep should be able to change is dollar amount, term and factor rate
+  
+  So the calculator will set the initial approved values, and the sales rep can only decrease the dollar amount, term, or factor rate from those values, never increase them. Correct?
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:13
+  They not be able to slide down past 5 months or 100 days or 20’weeks
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:14
+  Correct to previous message. Use this as guide
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:14
+  1 File
+  
+  
+  IMG_3563.jpeg
+  
+  (43.13 kB)
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 18:14
+  Should we set similar minimum limits for the dollar amount and factor rate as well?
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 18:16
+  Perfect. Just 3 quick things to confirm: What’s the exact calculation formula, what are the minimum limits for the dollar amount and factor rate, and what details should the final offer display?
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 18:26
+  are you there ?
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:31
+  Sorry yes
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 18:32
+  no issues , can you please answer the above quick things ?
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 18:33
+  so i can understand your complete requirements
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 18:33
+  and after that I can send you the features what we are providing
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:34
+  I’ll give you an example
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:35
+  Let’s say the offer is the following
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 18:35
+  Replied
+  
+  hamidjarouche
+  
+  21 Aug, 18:34
+  
+  I’ll give you an example
+  
+  sure , i am here to listen
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:36
+  $20,000 funding $25,000 payback
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:36
+  $500 per week for 50 weeks
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:36
+  The sell factor rate there is 1.25
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:37
+  The buy rate is set at 1.18
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:37
+  The buy rate is another input on my end. This helps set a baseline to how much commission is paid
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:38
+  There should also be an input for true average revenue and specified percentage. Essentially that calculation is as follows. Monthly/true average revenue
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:38
+  For example if this business is going $100k true average revenue per month. Then the specified percentage is 2.5%
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:39
+  Sorry it’s 2%
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:39
+  $500*4 weeks in a month = $2,000
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:39
+  $2,000/$100,000 =0.02  or 2%
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:40
+  Now the sales rep should be able to slide the sell factor rate up and down to change their commission. Let’s make it a simple 1 to 1 calculation for now to make it easy.
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:41
+  If buy rate is 1.18 and they choose sell rate of 1.25 then they will get paid 7%. If they slide down to 1.23 then they will get 5%
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:41
+  Conversely they can slide up to 1.33 and get paid 15 points
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:42
+  If they lower the fees, they would get less commission too. But we can focus more on the calculation later. Right now I want the actual tool
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 18:43
+  I understand everything now. Thank you so much for the detailed examples and explanations. I’ll put together the features based on everything we discussed and share them with you.
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:45
+  Amazing! I’m very excited
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:47
+  Also please keep in mind that eventually I want this linked to my submissions inbox. That way I can respond in the calculator that you built and the link will be emailed as a reply to all the recipients
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:47
+  And we can continue to build on it for example a contract generator and integrate it with Docusign
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:48
+  I need this to be very secure. Meaning once you build this you won’t have access to any of it and you can’t see what I’m doing. Do you think that’s possible?
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 18:48
+  It’s very sensitive business information
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:01
+  Here's what we will be going to provide you:
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:02
+  ◉ CUSTOM-BUILT PLATFORM · NO SAAS DEPENDENCY
+  
+  Fully custom application built from scratch, not a template, plugin or third-party tool
+  No SaaS subscription sitting behind your calculator or your CRM
+  Runs on your own server, your own domain and your own database
+  All data stays yours and can be exported at any time
+  Built modular so new tools can be added later without a rebuild
+  Fully responsive for desktop, tablet and mobile so reps can quote from anywhere
+  
+  ◉ OFFER CALCULATOR · CORE ENGINE
+  
+  Admin inputs: funding amount, factor rate, buy rate, origination fees, estimated term and holdback percentage
+  True average revenue input with automatic specified percentage calculation
+  Specified percentage worked out as monthly payment divided by true average revenue
+  Automatic payback calculated from funding amount and sell factor rate
+  Payment shown per day, per week and per month
+  Term displayed in days, weeks and months at the same time
+  Live recalculation, every figure updates the moment one value changes
+  Built exactly on your example: $20,000 funding, 1.25 sell rate, $25,000 payback, $500 weekly for 50 weeks
+  
+  ◉ REP SLIDER CONTROLS WITH HARD LIMITS
+  
+  Calculator sets the approved baseline offer and reps work only inside it
+  Dollar amount slider that moves down only, never above the approved amount
+  Term slider that moves down only, never above the approved term
+  Hard floor built in so term cannot go below 5 months, 100 days or 20 weeks
+  Sell factor rate slider that moves both up and down
+  Minimum and maximum limits that you control for every single slider
+  Locked fields reps cannot touch, including the buy rate
+  Clear on-screen warning when a rep hits a limit so no invalid offer can be sent
+  
+  ◉ COMMISSION ENGINE
+  
+  Buy rate stays admin-only and sets the commission baseline
+  Live commission points update as the rep moves the sell factor rate
+  Simple 1 to 1 logic as discussed: 1.18 buy with 1.25 sell pays 7 points, 1.23 pays 5 points, 1.33 pays 15 points
+  Commission automatically drops when the rep lowers the fees
+  Rep sees their own payout in real time before sending anything
+  Formula stored in admin settings so you can adjust it later without new development
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:02
+  ◉ OFFER OUTPUT & EMAIL DELIVERY
+  
+  Clean branded offer summary with funding amount, payback, payment, term, factor rate and fees
+  Side-by-side view of the approved offer against the rep's adjusted version
+  One-click PDF of the final offer
+  Send the offer by email directly from the calculator
+  Unique offer link with view tracking so you know when the client opened it
+  Every version of every offer saved, nothing overwritten
+  
+  ◉ SUBMISSIONS INBOX INTEGRATION
+  
+  Your submissions inbox connected to the platform
+  Open a submission and build the offer against it without leaving the system
+  Reply straight from the calculator and the offer link goes out as a reply on the original email thread
+  The reply reaches all recipients on that thread automatically
+  Full email history stored against the merchant record
+  Attachments from submissions pulled in and saved with the deal
+  
+  ◉ SECURE CRM CORE
+  
+  Merchant and lead records with full contact and business details
+  Deal pipeline with custom stages and drag-and-drop movement
+  Every offer, note, email and document attached to the correct merchant
+  Document uploads for statements, applications and signed agreements
+  Task and follow-up reminders assigned to reps
+  Advanced search and filters across merchants, deals and offers
+  Duplicate detection so the same merchant is not worked twice
+  Bulk import of your existing merchants and leads
+  
+  ◉ SECURITY & FULL OWNERSHIP
+  
+  Yes, this is completely possible: after handover you hold every credential and we hold none
+  All developer and access accounts removed at delivery, verified with you on a call
+  Deployed on your own hosting account, created and owned by you
+  Encrypted database, SSL in transit and encrypted sensitive fields at rest
+  Two-factor authentication and secure session handling
+  Role-based permissions so reps see only their own merchants and commission
+  Full audit log of every login, edit and offer sent
+  Automated daily backups on your own storage
+  NDA signed before we begin, on request
+  
+  ◉ ADMIN DASHBOARD & REPORTING
+  
+  Live view of offers created, sent, opened and funded
+  Rep performance and commission reporting
+  Average factor rate, average term and average deal size
+  Pipeline value and conversion rate by stage
+  Date filters and CSV export on every report
+  
+  ◉ BUILT FOR WHAT COMES NEXT
+  
+  Architecture prepared for the contract generator
+  DocSign integration ready to be added as the next phase
+  API-ready so banking, ACH or underwriting tools can connect later
+  Clean documented code so any future work is straightforward
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:02
+  ◉ DELIVERY & POST-LAUNCH SUPPORT
+  
+  Phase 1 delivers the working offer calculator, then the CRM is built around it
+  Private preview link during the build so you review as we go
+  Unlimited revisions until it works exactly as you want
+  Full deployment, secure handover and admin training
+  Priority bug fixes and technical support after launch
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:03
+  please have a look at the features  , if everything looks aligned we can move forward with the proposal
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 19:05
+  Yes looks good!
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:06
+  great, I will be sending you the proposal shortly
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 19:16
+  Thank you
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:42
+  sorry for the delay , sending you within 5 minutes
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:49
+  here is the attached proposal
+  
+  
+  DH-OfferCalculator-CRM-Proposal.pdf
+  
+  (964.09 kB)
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:50
+  Here’s the proposal for you to review. Please take a look, and if you have any questions or concerns, feel free to let me know. Otherwise, we can go ahead and move forward with the project.
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 20:01
+  Yes good
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 20:02
+  Can you start asap? I am in talks with a couple others but you have been most responsive
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 20:03
+  Thank you, I really appreciate that! Yes, we can definitely start ASAP. Which plan would you like to proceed with so I can get everything ready and we can get started?
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 20:04
+  Offer output and email delivery
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 20:04
+  Once you confirm, I’ll take it from there and get everything moving.
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 20:05
+  Excited to see what you can do
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 20:05
+  Do you mind speaking with me first I want to know we
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 20:06
+  I want to know who I’m working with
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 20:06
+  Yes, offer output and email delivery will be included as discussed.
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 20:08
+  Absolutely, I’d be happy to speak with you first. I completely understand wanting to know who you’ll be working with. We can have a quick call and discuss the project before getting started.
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 20:08
+  I’d be happy to help. Would you be open to a quick call so we can go through everything faster and properly understand your vision for the project?
+  
+  Our available time is 8:00 AM–1:00 AM IST, which roughly translates to:
+  USA / Canada (ET – New York/Toronto): 9:30 PM–2:30 PM
+  USA / Canada (PT – LA/Vancouver): 6:30 PM–11:30 AM
+  UK (London): 2:30 AM–7:30 PM
+  Germany (CET – Berlin): 3:30 AM–8:30 PM
+  Australia (Sydney/Melbourne): 12:30 PM–5:30 AM
+  Japan (Tokyo): 11:30 AM–4:30 AM
+  Singapore: 10:30 AM–3:30 AM
+  
+  Please just share your time zone and 2–3 time slots that work for you, and we’ll lock one in and send invite.
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 20:10
+  Just let me know a time that’s comfortable for you, and we’ll arrange the meeting accordingly.
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 20:10
+  EST
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 20:11
+  Sure, what time in EST works best for you?
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 20:12
+  1pm
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 20:14
+  Sure, we can definitely do that time. Looking forward to speaking with you!
+  
+  H
+  hamidjarouche
+  
+  21 Aug, 23:13
+  We can skip the call. What is estimated cost
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 23:20
+  Replied
+  
+  Me
+  
+  21 Aug, 19:49
+  
+  here is the attached proposal
+  
+  
+  Please look through the proposal by clicking on the downwards arrow of the attached proposal
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 23:29
+  Also if unable to download and look through the proposal please click on the link to look through them https://drive.google.com/file/d/17QSv0dmr_VATUsH-z4hT8sMWXOI8rHs8/view?usp=sharing
+  
+  H
+  hamidjarouche
+  
+  22 Aug, 0:03
+  I was quoted $5,000 for the entire project from another company
+  
+  H
+  hamidjarouche
+  
+  22 Aug, 0:03
+  Can you please work with me and lower your cost?
+  
+  S
+  Profile Image
+  Me
+  
+  22 Aug, 0:06
+  which of the three plans are you considering?
+  
+  H
+  hamidjarouche
+  
+  22 Aug, 0:07
+  The first one I want to see your work before I invest more
+  
+  S
+  Profile Image
+  Me
+  
+  22 Aug, 0:11
+  Absolutely. Based on the plan you’re considering, I can map out the core functionalities and we can structure the project in phases.
+  
+  We can include the essential core features in Phase 1 and then bring in the additional functionality in Phase 2 as you’re comfortable investing further. This way, we stay aligned and you can also see the quality of our work before moving ahead.
+  
+  S
+  Profile Image
+  Me
+  
+  22 Aug, 0:11
+  If you’re open to it, we can also have a quick 5–10 minute call to go over the scope and align everything properly. Let me know when you’re available and we can schedule it.
+  
+  
+  cccccccccc
+  [LMB]
+  [Ctrl]==
+  [LMB]
+
+--- WINDOW  2026-08-22 00:14:35  [msedge.exe] Shopify Project Questions and 15 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:14:36  [msedge.exe] ChatGPT and 15 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026-08-22 00:14:42  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]a[Ctrl]cc
+  [Clipboard]
+  PRE-ORDER PROPOSAL  ·  DOCUMENT 00 / 07
+  REF DH-00-OFFERCALC-2026
+  PREPARED FOR HAMIDJAROUCHE  ·  SMALL BUSINESS FINANCING
+  The
+  Proposal.
+  CLIENT
+  hamidjarouche
+  Financing Company
+  EXECUTIVE SUMMARY
+  PROJECT
+  Offer Calculator & Secure CRM
+  Custom Build · No SaaS
+  DATE
+  21 August 2026
+  Valid 30 days
+  You are not buying a calculator. You are buying a controlled pricing process: the
+  rate your desk approves, the boundaries a rep cannot cross, and the record of
+  every offer that left the building — all of it inside software that belongs only to
+  you.
+  This proposal specifies the calculator exactly as you described it, the CRM it sits
+  inside, and the security model that answers your question directly. Every module
+  is written with its requirement and its acceptance gate. Three plans inside, with
+  our recommendation.
+  Prepared for: hamidjarouche · Small Business Financing
+  Offer Calculator · Secure CRM · Module-Based Delivery
+  Issued 21 August 2026
+  Ref DH-00-OFFERCALC-2026
+  CONTENTS
+  Table of contents.
+  Sixteen sections. Every line below is clickable and jumps straight to that page.
+  NO.
+  01
+  SECTION
+  Executive Summary
+  WHAT IT COVERS
+  The project at a glance and why it matters
+  PAGE
+  03
+  02
+  Project Understanding
+  What we heard, and how we read the brief
+  03
+  03
+  Your Requirements Mapped
+  Every point you raised, and where it is built
+  04
+  04
+  The Calculator Explained
+  Your own example, worked end to end
+  05
+  05
+  Sliders & Commission
+  What a rep can move, and what it pays
+  06
+  06
+  Security & Ownership
+  The direct answer to your question
+  07
+  07
+  Roles & Permissions
+  Who sees what, enforced server-side
+  08
+  08
+  Development Roadmap
+  The full build sequence and milestones
+  09
+  09
+  Technology Stack
+  The stack, and why each piece is here
+  10
+  10
+  Plan 1 · Secure Core
+  Overview plus all three scope groups
+  11
+  11
+  Plan 2 · Connected Platform
+  Overview plus both scope groups
+  15
+  12
+  Plan 3 · Complete Platform
+  Overview plus both scope groups
+  18
+  13
+  Plan Comparison
+  All three plans, side by side
+  21
+  14
+  Assumptions & Exclusions
+  What is in, what is out, and the risks
+  22
+  15
+  Next Steps & Terms
+  How onboarding works after approval
+  23
+  16
+  Signature
+  Acceptance and mutual NDA
+  24
+  Sections 01 to 09 describe the product itself and carry no pricing, so you can read the specification on its own terms first. Pricing
+  begins at Section 10. Section 14 matters as much as the scope: it states the exclusions, the assumptions and the open questions that
+  still affect the build.
+  DIGITALHEROESCO.COM
+  SECTION 01-02
+  Executive summary.
+  In small business financing, the offer is the product. A rep who can quietly stretch a term, raise an amount or discount a
+  rate without a boundary is not selling — they are repricing your risk. The tool you described solves that: your desk sets
+  the approved offer, the rep negotiates only inside it, and the commission moves with the rate so the incentive and the
+  guardrail are the same mechanism.
+  This engagement builds that in the right order. The calculator comes first, because it is the piece your reps use every day
+  and the piece that proves the maths. The CRM is then built around it rather than bolted beside it, so an offer is never a
+  loose spreadsheet — it is a record attached to a merchant, a rep and a moment in time. The later phases connect your
+  submissions inbox and the contract side, which is exactly the sequence you described.
+  Project understanding.
+  Here is what we heard, and how we are reading the brief:
+  WHERE YOU ARE
+  A financing business with a sales
+  team quoting offers by hand. Buy
+  rates, sell rates and fee structures live
+  in your head and in spreadsheets. No
+  tool enforces what a rep may and
+  may not do to an approved offer.
+  THE MUST-DOS
+  An offer calculator reps can adjust
+  inside hard limits, commission that
+  moves with the sell rate, offers sent
+  by email, and a CRM that is genuinely
+  secure and does not sit on somebody
+  else's SaaS account.
+  One thing worth naming early, because it affects sequencing
+  THE REAL PRODUCT
+  Control. The calculator is visible; the
+  value is the boundary underneath it.
+  Combined with a full audit trail, you
+  get pricing discipline across the whole
+  desk instead of trust in individual
+  judgement.
+  The commission formula will change once reps use it. You told us to keep it a simple one-to-one for now and refine the calculation
+  later, and that is the right call. So we build the formula as configuration inside your admin — rates, spreads, fee effects and floors are
+  values you edit yourself — rather than as fixed code that needs a developer every time your comp plan moves. That decision costs
+  nothing now and saves the entire cost of a rebuild later.
+  DIGITALHEROESCO.COM
+  SECTION 03 · SCOPE
+  Your requirements, mapped.
+  Everything you raised in our conversation appears here, with the module that delivers it and the plan it lands in.
+  Nothing has been quietly dropped, and nothing has been quietly added.
+  WHAT YOU ASKED FOR HOW IT IS DELIVERED PLAN
+  An offer calculator you
+  can send by email
+  Full calculator with your inputs, generated offer summary, PDF, branded email
+  delivery and a tracked offer link.
+  All plans
+  Reps can edit the offer
+  they send
+  Rep workspace with sliders on dollar amount, term and sell factor rate, working from
+  the approved baseline.
+  All plans
+  Reps slide down only on
+  amount and term
+  Direction locks enforced server-side, so the limit holds even if the browser is
+  tampered with.
+  All plans
+  No shorter than 5
+  months, 100 days or 20
+  weeks
+  Hard term floor evaluated in all three units at once, with the block explained on
+  screen.
+  All plans
+  Inputs: factor rate,
+  origination fees,
+  estimated term,
+  holdback percentage
+  Admin input panel holding every pricing variable, editable per deal and defaulted per
+  product.
+  All plans
+  Buy rate as your own
+  input, setting the
+  commission baseline
+  Admin-only field, never rendered in the rep interface or in any offer sent to a
+  merchant.
+  All plans
+  True average revenue
+  and specified percentage
+  Revenue input with the percentage calculated automatically from the monthly
+  payment.
+  All plans
+  Sell rate slides both ways
+  and changes commission
+  Live commission engine, one-to-one as agreed, with the whole formula editable in
+  admin settings.
+  All plans
+  Lower fees pay less
+  commission
+  Fee reductions feed the same commission engine, so discounting is always visible to
+  the rep.
+  All plans
+  A very secure CRM, not
+  dependent on any SaaS
+  Custom application on infrastructure you own, with merchants, deals, offers and
+  documents in one database.
+  All plans
+  No developer access
+  after the build
+  Zero-access handover: every credential yours, every account of ours removed and
+  verified with you.
+  All plans
+  Linked to your
+  submissions inbox
+  Two-way email integration: build the offer against a submission and reply on the
+  original thread.
+  Plans 2 &
+  3
+  The offer link emailed as
+  a reply to all recipients
+  Reply-all threading that preserves the message ID, so it lands as a reply and not a
+  new email.
+  Plans 2 &
+  3
+  A contract generator Template engine that merges the accepted offer into your contract wording,
+  versioned per deal.
+  Plan 3
+  DocuSign integration Send for signature from the deal, with envelope status written back and the executed
+  copy stored.
+  Plan 3
+  SECTION 04 · THE CALCULATOR
+  Your example, worked.
+  This is the offer you described, run through the tool exactly as it will behave. If any number below is wrong,
+  correcting it now costs a sentence rather than a change request.
+  STEP 01 · WHAT YOU ENTER
+  ADMIN INPUT VALUE
+  Funding amount $20,000
+  Sell factor rate 1.25
+  Buy rate · admin only 1.18
+  Estimated term 50 weeks
+  True average revenue
+  $100,000 / month
+  Origination fees Your value
+  Holdback percentage Your value
+  STEP 02 · WHAT THE TOOL RETURNS
+  CALCULATED OUTPUT VALUE
+  Payback  20,000 × 1.25 $25,000
+  Weekly payment 25,000 ÷
+  50 $500
+  Monthly payment  500 × 4 $2,000
+  Specified
+  percentage  
+  2,000 ÷
+  100,000 2%
+  Term shown as 50 weeks · 350 days
+  Gross spread  1.25 − 1.18 7 points
+  Rep commission 7%
+  Why the specified percentage sits in the calculator and not in a spreadsheet
+  It is the sanity check on the whole offer. A payment that consumes 2% of true monthly revenue is serviceable; the same payment
+  against a merchant doing a fraction of that revenue is a default waiting to happen. Because the tool recalculates it live, a rep sliding
+  the term down watches that percentage climb in real time — and so does the underwriter reviewing the deal afterwards. You can
+  set a threshold above which the offer requires approval before it can be sent.
+  STEP 03 · WHAT THE MERCHANT RECEIVES
+  The generated offer shows the funding amount, the payback, the payment and its frequency, the term, the fee structure and your terms
+  and conditions. It never shows the buy rate, the spread, the rep's commission or any internal note. Same document, three formats: a clean
+  web page on a tracked link, a PDF attachment, and a branded email body — all produced from one record so they can never disagree.
+  DIGITALHEROESCO.COM
+  SECTION 05 · CONTROLS
+  Sliders and commission.
+  The approved offer is the ceiling. Everything a rep does happens underneath it, and every limit is checked on the
+  server rather than in the browser.
+  WHAT THE REP
+  MOVES
+  Dollar amount
+  DIRECTION
+  Down only
+  LIMIT
+  WHAT HAPPENS ON SCREEN
+  Your minimum
+  funding
+  Payback, payment and commission all recalculate
+  immediately. The slider stops dead at the approved amount.
+  Term
+  Down only
+  5 months · 100
+  days · 20 weeks
+  Payment rises as the term shortens and the specified
+  percentage climbs with it. The floor is checked in all three
+  units.
+  Sell factor rate
+  Up and down
+  Your floor and
+  ceiling
+  Payback and commission move together, so the rep sees the
+  cost of every discount as they make it.
+  Origination fees
+  Down only
+  Your minimum
+  fee
+  Reducing the fee reduces the commission through the same
+  engine. Discounting is never invisible.
+  Buy rate
+  Not visible to reps
+  Admin-only. It sets the commission baseline and never
+  appears in the rep view or in anything sent out.
+  THE COMMISSION ENGINE · YOUR ONE-TO-ONE EXAMPLE
+  BUY RATE
+  1.18
+  REP SELECTS A SELL RATE OF
+  1.23  discounted to win the deal
+  SPREAD
+  REP IS PAID
+  PAYBACK ON $20,000
+  0.05
+  5 points
+  $24,600
+  1.18
+  1.25  the approved offer
+  0.07
+  7 points
+  $25,000
+  1.18
+  1.33  priced up
+  0.15
+  15 points
+  $26,600
+  The formula is a setting, not code
+  One-to-one today, because you asked for simple. Tomorrow it
+  can be tiered, capped, split between reps or weighted by fee
+  — all edited in your admin, none of it requiring us. Every
+  change is versioned, so an offer written last quarter still
+  shows the commission rule that applied when it was written.
+  Why server-side matters here
+  A limit enforced only in the interface can be bypassed by
+  anyone who opens the browser console. Every boundary in
+  this build is re-checked on the server when the offer is saved
+  and again when it is sent, so a rep cannot construct an offer
+  your rules do not allow, however they try.
+  DIGITALHEROESCO.COM
+  SECTION 06 · SECURITY
+  Security and ownership.
+  You asked whether we can build this and then have no access to it, and no visibility into what you are doing. The
+  answer is yes, and here is exactly how that is achieved rather than promised.
+  YOUR CONCERN
+  We must not hold access
+  after delivery
+  HOW IT IS HANDLED
+  The production server, domain and database are created under your accounts from day one — we
+  never own the environment. At handover every account of ours is deleted, every key we ever used
+  is rotated by you, and we walk through the access list together on a call until you confirm it is
+  empty.
+  We must not see your
+  live data
+  The entire build and every test run on a separate staging environment using synthetic merchant
+  records. No real submission, statement or merchant detail is ever loaded into an environment we
+  can reach.
+  The data is highly
+  sensitive
+  Encrypted in transit with SSL and encrypted at rest at the database level, with sensitive fields
+  encrypted individually. Uploaded documents sit on access-controlled storage that is never publicly
+  listable, with an access log on every view.
+  Only the right people
+  should see the right
+  things
+  Role-based permissions enforced server-side on every screen and every action. A rep sees their own
+  merchants, their own offers and their own commission — never the buy rate, never another rep's
+  pipeline, never your margin.
+  You need to know what
+  happened
+  A full audit trail: every login, every field changed, every slider moved, every offer sent, with the user
+  and timestamp. Nothing is edited silently and nothing is overwritten — prior versions are retained.
+  Accounts must be hard
+  to compromise
+  Two-factor authentication, secure session handling with timeout, brute-force and login-attempt
+  protection, and password policy set by you.
+  You must not lose
+  anything
+  Automated daily encrypted backups on storage you own, with a restore rehearsed before launch
+  rather than assumed.
+  The code must belong to
+  you
+  On final payment all source code, database, documentation and configuration transfer to you
+  outright, with no licence, no dependency and no ongoing relationship required.
+  A mutual NDA is signed before anything begins
+  It is on the signature page of this document. It covers your rates, your comp structure, your merchant data and your commercial
+  logic, and it binds us permanently rather than for the term of the build. If your counsel prefers your own paper, we will sign yours
+  instead.
+  DIGITALHEROESCO.COM
+  SECTION 07 · ROLES
+  Roles and permissions.
+  Four account types, one database, strict boundaries. This table is the specification we build against, and it is
+  worth reading closely — changing a role model after the build starts is a schema change rather than a settings
+  change.
+  ROLE
+  Sales Rep
+  WHO THEY ARE
+  The daily user of the calculator.
+  Sells inside the boundary you
+  set and is paid on the spread.
+  WHAT THEY CAN DO
+  Build offers from approved baselines, move permitted sliders, see
+  their own live commission, send offers, manage their own
+  merchants and pipeline, log notes and tasks
+  Manager
+  Runs a team. Needs visibility
+  across reps without holding full
+  pricing control.
+  Everything a rep can do, plus the whole team's pipeline and offers,
+  team commission reporting, approval of offers that fall outside
+  normal limits, reassignment of merchants between reps
+  Administrator
+  You. The pricing authority and
+  the only role that sees the true
+  cost of money.
+  Buy rates, all slider floors and ceilings, the commission formula, fee
+  rules, user and role management, every merchant and every offer,
+  full audit log, all reports and exports
+  Processor
+  optional
+  Back-office support. Handles
+  paperwork without touching
+  pricing.
+  View and upload documents, update deal stages, manage
+  submissions and merchant records, no access to rates, commission
+  or any pricing control
+  On the boundary between rep and admin
+  This is the single decision that most affects how the build
+  feels day to day: which fields a rep may touch at all, and
+  which merely display. We come to Discovery with a proposed
+  matrix based on this conversation, you mark it up in one
+  sitting, and it is signed off in writing before any interface is
+  built.
+  On approval flows
+  Rather than making every unusual offer impossible, the
+  system can route it. A rep who needs to go beyond a limit
+  submits it for approval, a manager or admin sees the request
+  with the full calculation attached, and the decision — with its
+  reason — is recorded against the deal.
+  DIGITALHEROESCO.COM
+  SECTION 08 · ROADMAP
+  Development roadmap.
+  Eight stages. The calculator is delivered and usable at Stage 03 rather than at the end, because it is the piece you
+  said you want first and the piece that proves the maths before anything is built on top of it.
+  STAGE
+  00
+  WHAT
+  Discovery & Pricing
+  Rules
+  TIME
+  WORK INCLUDED
+  MILESTONE
+  YOU CAN SEE
+  1 week Every rate, fee, floor and ceiling captured in
+  writing; commission formula confirmed;
+  permission matrix signed off; database
+  schema designed.
+  Signed rules
+  document
+  01
+  Design & Interface
+  1–2
+  weeks
+  Calculator screen design, rep workspace,
+  admin panel and offer document layout, all
+  on your branding, mobile included.
+  Approved
+  designs
+  02
+  Foundation & Roles
+  1–2
+  weeks
+  Secure authentication, four roles with
+  server-side permissions, database
+  implementation, staging environment,
+  automated backups.
+  All roles log in
+  correctly
+  03
+  Calculator &
+  Commission
+  2–3
+  weeks
+  The full calculation engine, sliders with
+  direction locks and floors, live commission,
+  admin-configurable formula, approval
+  routing.
+  A real offer
+  calculates
+  04
+  Offer Output & Email
+  1–2
+  weeks
+  Offer document, PDF generation, branded
+  email delivery, tracked offer link with open
+  tracking, full version history.
+  An offer lands in
+  an inbox
+  05
+  CRM & Pipeline
+  2–3
+  weeks
+  Merchant and deal records, pipeline stages,
+  documents, notes, tasks, search and filters,
+  duplicate detection, bulk import.
+  A deal runs end
+  to end
+  06
+  Integrations &
+  Automation
+  2–3
+  weeks
+  Submissions inbox connection and reply-all
+  threading on Plans 2 and 3; contract
+  generator and DocuSign on Plan 3.
+  Reply sends from
+  the tool
+  07
+  Hardening, QA &
+  Launch
+  1–2
+  weeks
+  Security review, permission testing role by
+  role, calculation testing against your own
+  historical offers, deployment, zero-access
+  handover, training.
+  Production
+  launch
+  How we work through it. A weekly progress call, a private staging link updated continuously from Stage 02 so you are never waiting to see
+  progress, and written sign-off at the end of each stage before the next begins. Durations above reflect the full scope; Plan 1 covers Stages 00
+  to 05 and 07 and is correspondingly shorter.
+  DIGITALHEROESCO.COM
+  SECTION 09 · STACK
+  Technology stack.
+  Chosen for one reason above all: you own every layer of it. Nothing here bills you per contact, per seat or per
+  offer, and nothing here can change its terms on you next year.
+  Next.js + React
+  FRONT-END
+  Fast, modern interface for the calculator and CRM. Sliders
+  that recalculate instantly, and a rep workspace that works
+  properly on a phone in a merchant's office.
+  PostgreSQL
+  DATABASE
+  Relational and transactional, which is what financial records
+  require. Encrypted at rest, on your own server, with
+  immutable offer history rather than overwritten rows.
+  Your Own Mail Domain
+  EMAIL
+  Offers send from your address with proper authentication so
+  they reach the inbox rather than spam. Inbox connection on
+  Plans 2 and 3 uses your existing provider directly.
+  On the one dependency that remains
+  Node.js API
+  BACKEND
+  One API holding every pricing rule and every permission
+  check. The same business logic serves the web app today and
+  any mobile app or integration later.
+  Your Own Server
+  HOSTING
+  A private cloud instance in your name and under your billing
+  — AWS, DigitalOcean or your existing provider. Hardened,
+  firewalled and accessible only to accounts you control.
+  Self-Hosted Documents
+  STORAGE
+  Statements, applications and executed contracts on access
+  controlled storage that is never publicly listable, with an audit
+  entry on every download.
+  DocuSign on Plan 3 is a third-party service by definition — it is what makes a signature legally defensible, and that is the point of
+  using it. It runs on your own DocuSign account with your own credentials, so the relationship is between you and them and we hold
+  nothing. If you would rather not use DocuSign at all, the contract generator still produces the document and we can quote a self
+  hosted signature alternative instead.
+  DIGITALHEROESCO.COM
+  SECTION 10 · PLAN 1
+  PLAN 1 OF 3 · SECURE CORE
+  Secure Core
+  Every requirement you gave us, built and delivered: the full calculator, the
+  slider limits, the commission engine, offers by email, the secure CRM
+  around them, and a zero-access handover.
+  DELIVERY
+  60 days
+  $9,500
+  USD · MILESTONE BASED
+  SCOPE
+  SUPPORT
+  9 modules
+  1 month
+  Secure Core is a finished product, not a trial version. A rep can log in, open a merchant, build an offer inside the limits you set, watch their
+  commission move as they negotiate, and send it by email — while you see every offer that left the desk. The next three pages specify all
+  nine modules.
+  Calculator & Controls
+  The engine and its guardrails.
+  ✓
+  ✓
+  ✓
+  ✓
+  Full calculation engine on your inputs
+  Sliders with direction locks and floors
+  Live commission, configurable formula
+  Approval routing past limits
+  Secure CRM & Launch
+  Owned, controlled, live.
+  ✓
+  ✓
+  ✓
+  ✓
+  Merchants, deals, pipeline, documents
+  Four roles, permissions server-side
+  Encryption, 2FA and full audit trail
+  Zero-access handover and training
+  Offers & Delivery
+  From screen to merchant inbox.
+  ✓
+  ✓
+  ✓
+  ✓
+  Branded offer document and PDF
+  Email delivery from your domain
+  Tracked link with open tracking
+  Full version history per offer
+  Not included in this plan
+  Added by the higher plans.
+  ✓
+  ✓
+  ✓
+  ✓
+  No submissions inbox connection
+  No reply-all threading on offers
+  No contract generator or DocuSign
+  No automation or advanced analytics
+  Best for: getting the tool your reps use every day into their hands first, with the inbox and contract layers funded once the calculator
+  is proving itself in the field.
+  DIGITALHEROESCO.COM
+  SECTION 10 · SECURE CORE
+  SECURE CORE · SCOPE 1 OF 3
+  Foundation, Roles & Calculator
+  MODULES
+  01 to 03
+  MODULE 01
+  BUILD TIME
+  24 days
+  Platform Foundation, Roles & Security Base
+  ✓
+  SIGN-OFF GATE
+  A real offer calculates
+  Requirement. Every later module reads from these decisions, so the schema and the permission model are designed and signed off in
+  writing before any interface is built.
+  Database schema and object relationships
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Merchant, Deal, Offer, User objects defined
+  Secure authentication and session handling
+  Two-factor authentication
+  Rep, manager, admin and processor roles
+  MODULE 02
+  Pricing Inputs & Admin Rate Control
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Permissions enforced server-side
+  Staging and production environments
+  Automated encrypted daily backups
+  Error logging and monitoring
+  Audit trail infrastructure
+  Requirement. Every rate, fee and boundary lives in your admin as an editable value. Nothing about your pricing should ever require a
+  developer to change.
+  Funding amount, factor rate, term inputs
+  ✓
+  ✓
+  ✓
+  ✓
+  Origination fees and holdback percentage
+  Buy rate field, admin visibility only
+  True average revenue input
+  Product presets with default values
+  MODULE 03
+  The Offer Calculator & Commission Engine
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Payment per day, per week and per month
+  Term shown in three units at once
+  Specified percentage calculated live
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Slider floors and ceilings per field
+  Term floor in months, days and weeks
+  Commission formula as configuration
+  Versioning on every rule change
+  Validation with clear error messaging
+  Requirement. The piece you asked for first. It has to be fast enough to use live on a call and strict enough that a rep cannot build an
+  offer your rules do not permit.
+  Automatic payback from amount and sell rate
+  ✓
+  ✓
+  ✓
+  ✓
+  Rep sliders on amount, term and rate
+  Direction locks re-checked server-side
+  ✓
+  ✓
+  Hard floor blocking with on-screen reason
+  Live commission points as the rate moves
+  Fee reductions feeding the same engine
+  Approved baseline against adjusted view
+  Threshold-based approval routing
+  Every calculation stored, never overwritten
+  Sign-off gate. A rep logs in, opens an approved $20,000 offer at 1.25, slides the rate to 1.23 and watches commission fall to 5 points,
+  tries to push the term below 20 weeks and is blocked with a reason — and an administrator sees the buy rate while the rep never
+  does.
+  DIGITALHEROESCO.COM
+  SECTION 10 · SECURE CORE
+  SECURE CORE · SCOPE 2 OF 3
+  Offer Output, Email & CRM
+  MODULES
+  04 to 06
+  BUILD TIME
+  22 days
+  BUILDS DIRECTLY ON THE FOUNDATION MODULES. NOTHING HERE CAN START BEFORE THEM.
+  MODULE 04
+  Offer Document & Email Delivery
+  SIGN-OFF GATE
+  A deal runs end to end
+  Requirement. This is what the merchant actually sees, so it has to look like your business and it must never leak an internal number.
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Branded offer summary on your identity
+  Amount, payback, payment, term and fees
+  Your terms and disclosure wording
+  Buy rate and commission never rendered
+  One-click PDF generation
+  MODULE 05
+  Merchant Records, Deals & Pipeline
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Email delivery from your own domain
+  Unique tracked offer link per send
+  Open and view tracking on that link
+  Offer expiry dates you control
+  Requirement. An offer that is not attached to a merchant is a lost record. The CRM exists so that every quote has a home, a history
+  and an owner.
+  Merchant records with business details
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Contacts, phones and email addresses
+  Deal pipeline with your own stages
+  Drag-and-drop stage movement
+  Every offer attached to its deal
+  Notes, call logs and activity feed
+  MODULE 06
+  Dashboard, Reporting & Commission Tracking
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Offers opened and accepted tracking
+  Rep performance comparison
+  Resend and revise with full history
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Document upload for statements
+  Tasks and follow-up reminders
+  Advanced search and filtering
+  Duplicate merchant detection
+  Bulk import of existing records
+  CSV export on every list
+  Requirement. You need to answer two questions in seconds: what did this desk quote this week, and what does it owe in
+  commission.
+  Live dashboard of offers created and sent
+  ✓
+  ✓
+  ✓
+  Commission owed per rep and period
+  Average factor rate and average term
+  ✓
+  ✓
+  Average deal size and funded volume
+  Pipeline value by stage
+  Discount analysis against baseline
+  Date range filters throughout
+  CSV export on every report
+  Sign-off gate. A rep creates a merchant, builds an offer, sends it by email from your domain, sees that the merchant opened it,
+  moves the deal forward — and you open a dashboard showing that offer, its discount against baseline and the commission it carries.
+  DIGITALHEROESCO.COM
+  SECTION 10 · SECURE CORE
+  SECURE CORE · SCOPE 3 OF 3
+  Hardening, Handover & Launch
+  MODULES
+  07 to 09
+  MODULE 07
+  Security Hardening & Audit
+  ✓
+  BUILD TIME
+  14 days
+  SIGN-OFF GATE
+  Zero-access confirmed
+  Requirement. A platform holding your rates, your comp structure and your merchants' financial data is a target. Hardening is cheap
+  now and expensive after an incident.
+  Formal security review and remediation
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Encryption at rest on sensitive fields
+  SSL and secure headers throughout
+  Server hardening and firewall rules
+  Permission testing role by role
+  MODULE 08
+  Calculation QA Against Your Own Deals
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Document storage access audit
+  Brute-force and rate-limit protection
+  Backup and restore rehearsal
+  Monitoring, alerting and runbook
+  Requirement. The maths cannot be tested against invented numbers. We run your historical offers through the tool and reconcile
+  every figure before it goes near a live merchant.
+  Historical offers replayed through the engine
+  ✓
+  ✓
+  ✓
+  Payback and payment reconciliation
+  Commission verified against what was paid
+  Floor and ceiling boundary testing
+  MODULE 09
+  Zero-Access Handover, Training & Launch
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Every credential transferred to you
+  All developer accounts deleted
+  Full audit log verified end to end
+  ✓
+  ✓
+  ✓
+  ✓
+  Rounding rules confirmed with you
+  Edge cases documented and handled
+  Cross-browser and mobile testing
+  Load testing at your team size
+  Requirement. The specific answer to the question you asked. Handover is a procedure we run together on a call, not a promise in a
+  document.
+  Deployment to your own server and domain
+  ✓
+  ✓
+  ✓
+  Every key and secret rotated by you
+  Access list reviewed with you live
+  ✓
+  ✓
+  Source code and database handed over
+  Full technical documentation
+  Admin training session
+  Sales rep training session
+  1 month priority support after launch
+  Sign-off gate. The platform runs on infrastructure in your name, you hold every credential, our access list is empty and confirmed by
+  you on the call, and your team has been trained on the tool they will use every day.
+  DIGITALHEROESCO.COM
+  SECTION 11 · PLAN 2
+  PLAN 2 OF 3 · CONNECTED PLATFORM  ·  RECOMMENDED
+  Connected Platform 
+  RECOMMENDED
+  Everything in Secure Core, plus the submissions inbox wired directly into
+  the tool — so you answer a submission by building the offer and replying
+  on the same thread, to every recipient, without leaving the platform.
+  DELIVERY
+  70 days
+  SCOPE
+  $11,000
+  USD · MILESTONE BASED
+  SUPPORT
+  9 modules, deepened
+  2 months
+  This is the plan we recommend, because the inbox is where your deals actually start. In Secure Core a rep reads a submission in one
+  window and builds the offer in another. Here the submission is the deal: it arrives, it becomes a merchant record, the offer is built against it,
+  and the reply goes back on the original thread with the offer link attached. That single connection removes the copy-paste step from every
+  deal you write.
+  EVERYTHING IN SECURE CORE, PLUS THE FOLLOWING
+  Submissions Inbox
+  Where the deal begins.
+  ✓
+  ✓
+  ✓
+  ✓
+  Two-way connection to your inbox
+  Submissions become merchant records
+  Reply on the original email thread
+  Offer link to all thread recipients
+  Team Analytics
+  Managing by numbers.
+  ✓
+  ✓
+  ✓
+  ✓
+  Submission to offer conversion rates
+  Response time tracking per rep
+  Source performance reporting
+  Manager approval queue and history
+  Deeper CRM
+  The desk running itself.
+  ✓
+  ✓
+  ✓
+  ✓
+  Automated lead routing to reps
+  Stale deal and follow-up alerts
+  Full email history per merchant
+  Attachments captured automatically
+  What this plan still leaves out
+  Added by Plan 3.
+  ✓
+  ✓
+  ✓
+  ✓
+  No contract generator
+  No DocuSign integration
+  No API layer or webhooks
+  No advanced analytics suite
+  Best for: a desk that lives in its inbox. If most of your deals arrive as submissions by email, this is the plan that changes how the day
+  actually runs. Our recommended plan.
+  DIGITALHEROESCO.COM
+  SECTION 11 · CONNECTED PLATFORM
+  CONNECTED PLATFORM · SCOPE 1 OF 2
+  Submissions Inbox & Threading
+  MODULES
+  01+ to 02+
+  BUILD TIME
+  18 days
+  EVERYTHING IN SECURE CORE AT THIS STAGE, PLUS THE FOLLOWING.
+  MODULE 01+
+  Inbox Connection & Submission Capture
+  ✓
+  SIGN-OFF GATE
+  Reply sends from the tool
+  Requirement. Deals arrive as email. Until the platform can read that email, every deal starts with somebody retyping it, and retyping
+  is where records go missing.
+  Secure connection to your mail provider
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Submissions pulled into a working queue
+  Sender matched to existing merchants
+  New merchant created from a submission
+  Attachments saved against the deal
+  MODULE 02+
+  Reply-All Threading & Offer Delivery
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Original message ID preserved on reply
+  Lands in the existing thread, not a new one
+  All original recipients included
+  Recipients editable before sending
+  ✓
+  ✓
+  ✓
+  ✓
+  Statements filed automatically
+  Full email history per merchant record
+  Read, claimed and worked states
+  Search across submission content
+  Nothing deleted from your real inbox
+  Requirement. The exact behaviour you described: respond inside the calculator and have the offer link go out as a reply to everyone
+  on the original message, not as a fresh email nobody connects to it.
+  Reply composed inside the offer screen
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Offer link and PDF attached automatically
+  ✓
+  Your signature and branding applied
+  Reusable reply templates
+  Sent copy stored against the deal
+  Delivery and open tracking on the reply
+  Incoming replies routed back to the deal
+  Rep notified when the merchant responds
+  Sign-off gate. A submission arrives from a broker with three people copied, a rep opens it inside the platform, builds the offer
+  against it, hits reply — and the offer link reaches all three recipients as a genuine reply on the original thread, with the whole
+  exchange stored against the merchant.
+  DIGITALHEROESCO.COM
+  SECTION 11 · CONNECTED PLATFORM
+  CONNECTED PLATFORM · SCOPE 2 OF 2
+  Automation, Analytics & Launch
+  MODULES
+  03+ to 04+
+  MODULE 03+
+  Workflow Automation & Routing
+  ✓
+  BUILD TIME
+  16 days
+  SIGN-OFF GATE
+  The desk runs itself
+  Requirement. A deal that nobody picks up is a deal you paid for and lost. The platform should chase the desk rather than waiting for
+  the desk to remember.
+  Automatic lead routing rules to reps
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Round-robin or rule-based assignment
+  Unclaimed submission escalation
+  Stale deal alerts by stage and age
+  Offer sent with no response reminders
+  MODULE 04+
+  Team Analytics & Manager Tools
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Offer to funded conversion rate
+  Response time per rep and per source
+  Source and broker performance reporting
+  Discount behaviour by rep
+  ✓
+  ✓
+  ✓
+  ✓
+  Follow-up task auto-creation
+  Approval requests routed to managers
+  Notification preferences per user
+  In-platform notification centre
+  Daily digest email per rep
+  Requirement. With submissions flowing in, the useful question stops being how many offers went out and becomes which source,
+  which rep and which price actually convert.
+  Submission to offer conversion rate
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Approval request history and outcomes
+  ✓
+  Team leaderboard and targets
+  Manager pipeline oversight view
+  Scheduled reports by email
+  Exportable data for your accountant
+  Security review across new surfaces
+  2 months priority support after launch
+  Sign-off gate. A submission arrives, routes automatically to the right rep, escalates if it is not claimed, and a manager opens one
+  screen showing conversion, response time and discounting across the whole team for the month.
+  DIGITALHEROESCO.COM
+  SECTION 12 · PLAN 3
+  PLAN 3 OF 3 · COMPLETE PLATFORM
+  Complete Platform
+  Everything in Connected Platform, plus the contract generator and
+  DocuSign integration you described as the next build — so a deal goes from
+  submission to signed contract without ever leaving your own system.
+  DELIVERY
+  75 days
+  $12,500
+  USD · MILESTONE BASED
+  SCOPE
+  SUPPORT
+  9 modules, full depth
+  3 months
+  You said you want to keep building on this — a contract generator, then DocuSign. This plan builds both now, while the data model is fresh
+  and while we are already inside the code. Adding them later is not impossible, but it is a second engagement with a second discovery, a
+  second QA cycle and a second handover. Built together, the accepted offer flows straight into the contract wording without anyone retyping
+  a figure.
+  EVERYTHING IN CONNECTED PLATFORM, PLUS THE FOLLOWING
+  Contract Generator
+  The offer becomes paper.
+  ✓
+  ✓
+  ✓
+  ✓
+  Your contract templates in the system
+  Accepted offer merged automatically
+  Multiple templates per product
+  Versioned and stored per deal
+  DocuSign & Signature
+  Signed without leaving the deal.
+  ✓
+  ✓
+  ✓
+  ✓
+  Send for signature from the deal screen
+  Envelope status written back live
+  Executed copy stored automatically
+  Reminders and expiry handling
+  Advanced Analytics
+  The full funnel.
+  ✓
+  ✓
+  ✓
+  ✓
+  Submission to funded, stage by stage
+  Portfolio and concentration view
+  Custom report builder
+  Commission reconciliation reporting
+  Built for what comes next
+  No rebuild required later.
+  ✓
+  ✓
+  ✓
+  ✓
+  Documented API layer and webhooks
+  Ready for ACH and banking tools
+  Ready for underwriting integration
+  3 months priority support
+  Best for: building the whole pipeline once — submission, offer, contract, signature — rather than in three separate engagements
+  over the next year.
+  DIGITALHEROESCO.COM
+  SECTION 12 · COMPLETE PLATFORM
+  COMPLETE PLATFORM · SCOPE 1 OF 2
+  Contracts & Electronic Signature
+  MODULES
+  01++ to 02++
+  BUILD TIME
+  20 days
+  EVERYTHING IN CONNECTED PLATFORM AT THIS STAGE, PLUS THE FOLLOWING.
+  MODULE 01++
+  Contract Generator & Template Engine
+  ✓
+  SIGN-OFF GATE
+  A contract is signed
+  Requirement. The contract restates the offer. If a human retypes those figures, sooner or later a contract goes out that does not
+  match what was agreed — and that is the expensive kind of mistake.
+  Your contract wording held as templates
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Multiple templates by product and state
+  Merge fields from the accepted offer
+  Amount, payback, payment, term, fees merged
+  Merchant and guarantor details merged
+  Generate in one click from the deal
+  MODULE 02++
+  DocuSign Integration & Signature Tracking
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Send for signature from the deal screen
+  Signer roles and signing order
+  Signature fields mapped on the template
+  Envelope status written back live
+  ✓
+  ✓
+  ✓
+  ✓
+  Preview before anything is sent
+  Template editing without a developer
+  Version control on every template
+  Generated contract stored on the deal
+  Locked once sent for signature
+  ✓
+  Regeneration if the offer is revised
+  Requirement. Signature status has to live where the deal lives. Chasing signatures inside a separate tool is how deals stall without
+  anyone noticing.
+  Connected to your own DocuSign account
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Sent, viewed, signed and declined states
+  ✓
+  Automatic reminders to signers
+  Expiry and void handling
+  Executed copy stored on the deal
+  Certificate of completion retained
+  Notification to the rep on signature
+  Deal advances automatically when signed
+  Sign-off gate. An accepted offer generates a contract carrying exactly the agreed figures, goes out for signature from the deal screen,
+  and the executed copy files itself back against the merchant with the deal moved forward automatically.
+  DIGITALHEROESCO.COM
+  SECTION 12 · COMPLETE PLATFORM
+  COMPLETE PLATFORM · SCOPE 2 OF 2
+  Analytics, API & Hardened Launch
+  MODULES
+  03++ to 04++
+  MODULE 03++
+  BUILD TIME
+  15 days
+  Advanced Analytics & Portfolio View
+  ✓
+  SIGN-OFF GATE
+  Production launch
+  Requirement. Once submission, offer and contract all live in one database, the platform can answer questions a spreadsheet cannot
+  — about pricing, about sources and about concentration.
+  Full funnel from submission to funded
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Drop-off analysis by stage
+  Pricing analysis by rate band
+  Win rate against sell rate offered
+  Portfolio and concentration overview
+  MODULE 04++
+  API Layer, Hardening & Launch
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  API keys with scoped permissions
+  Webhooks on offers, contracts and signature
+  Readiness layer for ACH and banking
+  Readiness layer for underwriting tools
+  ✓
+  ✓
+  ✓
+  ✓
+  Broker and source profitability
+  Commission reconciliation reporting
+  Custom report builder
+  Saved and scheduled reports
+  Executive summary dashboard
+  Requirement. You told us you want to keep building on this. An undocumented system is a system that has to be reverse-engineered
+  before it can be extended, and that cost lands on you.
+  Documented REST API on every object
+  ✓
+  ✓
+  ✓
+  ✓
+  ✓
+  Extended security review across integrations
+  ✓
+  Third-party credential storage encrypted
+  Full permission testing across all roles
+  Load testing and performance tuning
+  Complete technical documentation set
+  Zero-access handover as in Plan 1
+  3 months priority support after launch
+  Sign-off gate. The full pipeline runs end to end, the API is documented and testable, the platform has passed a security review across
+  every integration, and every credential sits with you and nobody else.
+  DIGITALHEROESCO.COM
+  SECTION 13 · COMPARISON
+  Plan comparison.
+  All three plans deliver the complete calculator, the slider limits, the commission engine and a secure CRM you own
+  outright. What changes is how much of the pipeline around it is built.
+  VARIABLE
+  SECURE
+  CORE
+  $9,500
+  CONNECTED
+  $11,000
+  COMPLETE
+  $12,500
+  THE CALCULATOR · IN EVERY PLAN
+  Full calculation engine on your inputs ✓ ✓ ✓
+  Sliders with down-only locks on amount and term ✓ ✓ ✓
+  Term floor at 5 months · 100 days · 20 weeks ✓ ✓ ✓
+  Buy rate admin-only, commission live on sell rate ✓ ✓ ✓
+  True average revenue and specified percentage ✓ ✓ ✓
+  Commission formula editable in admin ✓ ✓ ✓
+  Offer PDF, branded email and tracked link ✓ ✓ ✓
+  CRM, SECURITY & OWNERSHIP
+  Merchants, deals, pipeline and documents ✓ ✓ ✓
+  Four roles with server-side permissions ✓ ✓ ✓
+  Encryption, 2FA and full audit trail ✓ ✓ ✓
+  Zero-access handover, all credentials yours ✓ ✓ ✓
+  Source code and database ownership ✓ ✓ ✓
+  INBOX, AUTOMATION & CONTRACTS
+  Submissions inbox connected to the platform — ✓ ✓
+  Reply-all threading with the offer link — ✓ ✓
+  Lead routing, escalation and stale deal alerts — ✓ ✓
+  Team analytics and manager oversight — ✓ ✓
+  Contract generator with merge fields — — ✓
+  DocuSign integration and status tracking — — ✓
+  Advanced analytics and portfolio view — — ✓
+  Documented API layer and webhooks — — ✓
+  DELIVERY & SUPPORT
+  Timeline 60 days 70 days 75 days
+  Post-launch support 1 month 2 months 3 months
+  Training sessions Admin + rep Admin + rep Admin + rep
+  + manager
+  DIGITALHEROESCO.COM
+  SECTION 14
+  Assumptions & exclusions.
+  On a build of this kind, what is excluded and what remains unresolved matter as much as the scope itself.
+  NOT INCLUDED DETAIL
+  Hosting and
+  infrastructure
+  The server, domain, mail service and storage are billed by those providers directly to your accounts.
+  That is deliberate — it is what makes the zero-access handover real. We set everything up with you and
+  hand it over.
+  Third-party accounts DocuSign on Plan 3 runs on your own subscription. Any future banking, ACH, credit bureau or
+  underwriting service is contracted by you directly.
+  Native mobile
+  applications
+  Not included in any plan. The platform is fully responsive and works properly on a phone browser; a
+  native app is quoted separately once the web product is live and proven.
+  Legal and compliance
+  content
+  Your contract wording, disclosures, offer terms and any state licensing requirements are yours. We
+  build to the rules and the wording you confirm.
+  Data migration
+  beyond import
+  Bulk import of merchants and leads from clean CSV is included. Extracting and cleaning data out of an
+  existing system is quoted separately once we see it.
+  Ongoing
+  maintenance
+  After the support window, maintenance is optional and typically 15 to 20 per cent of build cost
+  annually. There is no obligation and no lock-in — the code is yours to maintain however you choose.
+  Risk register
+  RISK LEVEL HOW WE MANAGE IT
+  Commission formula
+  changes
+  High You told us to keep it simple now and refine it later, which means it will change. Managed
+  by building the formula as admin configuration rather than fixed code, so your future
+  changes cost nothing.
+  Pricing rules
+  undefined
+  High Minimum funding amount, rate floors and ceilings and fee minimums are not yet set.
+  Managed by resolving every one in Stage 00 and recording them in writing before any
+  build begins.
+  Inbox provider access Medium Reply-all threading depends on what your mail provider permits. Managed by confirming
+  your provider and its access model in Stage 00, before Plan 2 work is scheduled.
+  Contract wording not
+  final
+  Medium Templates cannot be built against wording that is still with counsel. Managed by building
+  the merge engine first and loading final wording at the end of Stage 06.
+  Scope expansion Medium A tool like this invites additions once the team sees it. Managed by written stage sign-off
+  and a change process: anything new is quoted before it is built, never absorbed and never
+  invoiced as a surprise.
+  On sequencing, honestly. If the budget has to start smaller, Secure Core is the right entry point rather than a cut-down version of
+  everything. The inbox layer and the contract layer are additive by design: the data model is identical in all three plans, so nothing built in
+  Secure Core has to be undone to add them later. What a later engagement costs you is a second discovery, a second QA cycle and a second
+  handover — not rework.
+  DIGITALHEROESCO.COM
+  SECTION 15
+  Next steps.
+  Two answers unlock the remaining scope. Everything else is resolved during Stage 00.
+  01
+  Confirm your pricing boundaries
+  Minimum funding amount, the floor and ceiling on the sell factor
+  rate, and your minimum fee. The term floor we already have.
+  These are the only numbers that cannot be decided during the
+  build.
+  02
+  Choose the plan
+  Tell us Secure Core, Connected or Complete in the Fiverr chat. If
+  the inbox connection matters most, Connected is the one we
+  recommend.
+  03
+  Accept the Custom Offer
+  We send a Fiverr Custom Offer matching this proposal exactly,
+  with milestones aligned to the scope groups. Payment releases as
+  each group is signed off, so you never pay ahead of delivered
+  work.
+  04
+  Stage 00 within one week
+  We capture every rate and rule in writing, confirm the
+  commission formula, sign off the permission matrix and design
+  the schema. Nothing is built before that document is agreed.
+  05
+  Preview, then launch
+  A private staging link is live from Stage 02 and updated
+  continuously, so you watch the calculator take shape rather than
+  waiting for a reveal at the end.
+  Terms & conditions.
+  01
+  Validity. This proposal and its pricing are valid for 30 days from 21 August 2026.
+  02
+  Payment structure. Milestone based, released against signed-off scope groups rather than in advance.
+  Everything stays inside Fiverr for your protection, exactly as Fiverr recommends.
+  03
+  Scope. Work is limited to the modules specified for the plan selected. Exclusions are listed in Section 14.
+  Additions are quoted in writing before any work begins.
+  04
+  Change requests. Any change after a stage is signed off is estimated and approved before
+  implementation, never absorbed silently or invoiced as a surprise.
+  05
+  Pricing rules. All rates, fees, floors, ceilings and the commission formula are supplied and confirmed by
+  you. We build the engine, the controls and the audit trail; the numbers and the policy are yours.
+  06
+  Access and security. Production infrastructure is created under your accounts. On handover every
+  credential is yours, all our accounts are removed and every key is rotated by you, confirmed together on
+  a call.
+  07
+  Third-party services. Hosting, storage, email, DocuSign and any future integration are billed by those
+  providers directly and depend on your own accounts with them.
+  08
+  Ownership and IP. On final payment all source code, database, documentation and configuration
+  transfer to you, with full ownership and no ongoing dependency on us.
+  09
+  Confidentiality. Both parties keep shared materials confidential, per the mutual NDA on the signature
+  page. Full terms: digitalheroesco.com/terms.
+  SECTION 16 · EXECUTION
+  Signed & agreed.
+  By signing below, each Party agrees to be bound by this Agreement and the accompanying Mutual Non
+  Disclosure Agreement as of the Effective Date. The Agreement may be executed electronically and in
+  counterparts, and acceptance may be confirmed in the Fiverr order thread.
+  FOR · DIGITAL HEROES (SERVICE PROVIDER)
+  Shreyansh Singh
+  MANAGING DIRECTOR · DIGITAL HEROES
+  NAME & TITLE
+  Shreyansh Singh, Managing Director
+  DATE
+  21 August 2026
+  PROJECT
+  FOR · THE CLIENT
+  AUTHORISED SIGNATURE
+  NAME & TITLE
+  DATE
+  Offer Calculator & Secure CRM · Custom Build
+  PROPOSAL REF
+  DH-00-OFFERCALC-2026
+  Digital Heroes — #1 Top Rated Website Development · 2,000+ brands across 55+ countries
+  digitalheroesco.com  ·  portfolio.digitalheroes.co.in  ·  contact@digitalheroesco.com  ·  Fiverr: shreyanshsin261
+  PROPOSAL DH-00-OFFERCALC-2026  ·  PAGE 24 OF 24 · SIGNATURE
+  ccccccccc
+
+--- WINDOW  2026-08-22 00:14:58  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:14:58  [msedge.exe] ChatGPT and 15 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl]v
+  [LMB]
+
+--- WINDOW  2026-08-22 00:15:02  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:15:02  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:15:03  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  yes[ENTER]
+  yes continue krdo [Bk][Bk]o baat krna[ENTER]
+
+--- WINDOW  2026-08-22 00:15:26  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:15:26  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:15:36  [chrome.exe] Client proposal pricing with support tiers - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:15:37  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:15:41  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:15:41  [msedge.exe] ChatGPT and 15 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026-08-22 00:16:50  [msedge.exe] Divide Client Proposal Budget and 15 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:16:56  [msedge.exe] Proposal Phase Breakdown and 15 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:17:09  [PSExpressCore.exe] ScreenshotWindow
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:17:12  [msedge.exe] Proposal Phase Breakdown and 15 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:17:13  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:17:14  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]cv
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026-08-22 00:17:22  [ShellExperienceHost.exe] New notification
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:17:23  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]vv
+  [LMB]
+  [LMB]
+  [Ctrl][ENTER]
+
+--- WINDOW  2026-08-22 00:18:53  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:18:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:18:53  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:19:04  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:19:04  [msedge.exe] Proposal Phase Breakdown and 15 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  Yes — I understand. We should make **Plan 1 into exactly two phases**, with **Phase 1 at $5,000** and **Phase 2 at $4,500**, keeping the **full Plan 1 scope of $9,500** but arranging the work so the client gets the most important working core first.
+  
+  I would structure it like this:
+  
+  # Phase 1 — Core Platform & Calculator
+  
+  ### **$5,000 USD**
+  
+  This should contain the **foundation + the most important business functionality**, so the client can actually log in and test the main system.
+  
+  ### 1. Platform Foundation
+  
+  * Database schema and complete object relationships
+  * Merchant, Deal, Offer and User structures
+  * Secure authentication and session handling
+  * Two-factor authentication
+  * Rep, Manager, Admin and Processor roles
+  * Server-side permission enforcement
+  * Staging and production environments
+  * Encrypted daily backups
+  * Error logging and monitoring
+  * Core audit-trail infrastructure
+  
+  These are all part of the existing Plan 1 foundation/security scope. 
+  
+  ### 2. Pricing & Admin Controls
+  
+  * Funding amount
+  * Factor rate
+  * Term inputs
+  * Origination fees
+  * Holdback percentage
+  * Buy-rate field with admin-only visibility
+  * True average revenue
+  * Product presets
+  * Editable pricing/rate controls from the admin
+  
+  
+  
+  ### 3. Core Offer Calculator
+  
+  This is the **main functionality the client wants to see working first**:
+  
+  * Full calculation engine
+  * Automatic payback calculation
+  * Daily / weekly / monthly payment calculations
+  * Term displayed in days, weeks and months
+  * Live specified-percentage calculation
+  * Amount, term and rate sliders
+  * Slider floors and ceilings
+  * Term floor restrictions
+  * Server-side direction-lock validation
+  * Hard floor blocking with explanation
+  * Live commission calculation
+  * Configurable commission formula
+  * Fee reductions feeding the same calculation engine
+  * Approved baseline vs. adjusted offer
+  * Threshold-based approval routing
+  * Versioning of calculation rules
+  * Validation and error messaging
+  * Every calculation stored without overwriting previous calculations
+  
+  
+  
+  ### 4. Initial Offer Creation
+  
+  Phase 1 should also allow the rep to:
+  
+  * Log in
+  * Open/create a merchant
+  * Create a deal
+  * Build an offer using the calculator
+  * Have the system enforce the approved limits
+  * Save the calculated offer
+  * Keep the internal buy rate hidden from the rep
+  
+  That gives the client something **real and usable to review**, rather than simply delivering database/backend work.
+  
+  ---
+  
+  # Phase 2 — Offers, CRM, Tracking & Launch
+  
+  ### **$4,500 USD**
+  
+  Once the core calculator is approved, Phase 2 completes the remaining Plan 1 functionality.
+  
+  ### 1. Offer Documents & Delivery
+  
+  * Branded offer summary
+  * Amount, payback, payment, term and fees
+  * Client terms/disclosure wording
+  * Buy rate and commission hidden from merchant-facing output
+  * One-click PDF generation
+  * Email delivery from client's own domain
+  * Unique tracked offer links
+  * Open/view tracking
+  * **Offer expiry dates**
+  * Offer history/versioning
+  
+  
+  
+  ### 2. Merchant CRM & Deal Pipeline
+  
+  * Merchant business records
+  * Contacts, phone numbers and emails
+  * Deal pipeline
+  * Custom pipeline stages
+  * Drag-and-drop stage movement
+  * Offers attached to deals
+  * Notes
+  * Call logs
+  * Activity feed
+  * Document uploads
+  * Tasks and follow-up reminders
+  * Advanced search and filtering
+  * Duplicate merchant detection
+  * Bulk import
+  * CSV export
+  
+  
+  
+  ### 3. Dashboard & Reporting
+  
+  * Live offer dashboard
+  * Offers created/sent tracking
+  * Offers opened/accepted tracking
+  * Rep performance comparison
+  * Commission owed per rep/period
+  * Average factor rate
+  * Average term
+  * Average deal size
+  * Funded volume
+  * Pipeline value by stage
+  * Discount analysis against baseline
+  * Date-range filtering
+  * CSV reporting/export
+  
+  
+  
+  ### 4. Final Security, QA & Launch
+  
+  This is where we finish the remaining hardening and launch requirements:
+  
+  * Formal security review
+  * Security remediation
+  * Encryption at rest for sensitive fields
+  * SSL/security headers
+  * Server hardening/firewall rules
+  * Role-by-role permission testing
+  * Document-storage access audit
+  * Brute-force/rate-limit protection
+  * Backup and restore rehearsal
+  * Monitoring and alerting
+  * Historical offer replay/testing
+  * Payback/payment reconciliation
+  * Commission verification
+  * Floor/ceiling boundary testing
+  * Rounding and edge-case testing
+  * Cross-browser/mobile testing
+  * Load testing
+  * Deployment to client's infrastructure/domain
+  * Credential/key transfer
+  * Developer-access removal
+  * Source-code and database handover
+  * Technical documentation
+  * Admin training
+  * Sales-rep training
+  * 1 month priority support
+  
+  
+  
+  ---
+  
+  ## The final commercial structure
+  
+  | Phase       |      Price | Main Focus                                                                                                                   |
+  | ----------- | ---------: | ---------------------------------------------------------------------------------------------------------------------------- |
+  | **Phase 1** | **$5,000** | Foundation + database + roles/security base + admin pricing + complete calculator/commission engine + initial offer creation |
+  | **Phase 2** | **$4,500** | Offer delivery + PDF/email + tracking + expiry + CRM + pipeline + dashboards/reporting + final security/QA + launch          |
+  | **TOTAL**   | **$9,500** | Complete Plan 1                                                                                                              |
+  
+  ### Why I think this is the better split
+  
+  **Phase 1 is the "prove the core system" phase.** The client gets the actual calculator and business logic — not just a technical foundation.
+  
+  **Phase 2 is everything that turns it into the complete operational platform**: tracking, offer expiry, CRM depth, reporting, final hardening, QA and handover.
+  
+  And importantly, we're **not adding anything from Plan 2 or Plan 3**. The inbox integration, reply-all threading, automated routing, DocuSign, contract generator, API/webhooks, etc. stay outside this $9,500 Plan 1, exactly as the original proposal defines. 
+  
+  This is the version I would present to the client because it lets you say: **“You don't need to commit the entire amount before seeing the core product working — we'll build and validate the core in Phase 1, then complete the remaining functionality in Phase 2.”**
+  
+  [LMB]
+
+--- WINDOW  2026-08-22 00:20:22  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:20:23  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  yehhh[ENTER]
+  okayy[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:20:37  [msedge.exe] Proposal Phase Breakdown and 15 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [ENTER]
+  [ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:21:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:21:29  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:21:29  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:21:38  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:21:39  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:21:40  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:21:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:21:40  [msedge.exe] Proposal Phase Breakdown and 15 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  Yes, **this split is actually better**. Since the client wants to see the work before investing further, I'd make **Phase 1 the largest and most substantial phase at $4,600**, then keep Phase 2 around **$3,000**, with the remaining **$1,900** for the final completion/launch.
+  
+  The total remains exactly **$9,500**.
+  
+  # 3-Phase Structure — $9,500 Total
+  
+  | Phase                                      |      Price | Purpose                                                    |
+  | ------------------------------------------ | ---------: | ---------------------------------------------------------- |
+  | **Phase 1 — Core Platform & Offer Engine** | **$4,600** | Build most of the core product and make it usable/testable |
+  | **Phase 2 — CRM, Tracking & Reporting**    | **$3,000** | Complete the operational/business management layer         |
+  | **Phase 3 — Security, QA & Launch**        | **$1,900** | Final hardening, testing, handover and launch              |
+  | **Total**                                  | **$9,500** | Complete Secure Core Plan                                  |
+  
+  ---
+  
+  # PHASE 1 — CORE PLATFORM & OFFER ENGINE
+  
+  ### **$4,600 USD**
+  
+  This should be the **biggest phase** because we want the client to see substantial working functionality before committing to the remaining phases.
+  
+  ### Platform Foundation
+  
+  * Complete database schema and object relationships
+  * Merchant, Deal, Offer and User structures
+  * Secure authentication and session handling
+  * Two-factor authentication
+  * Rep, Manager, Admin and Processor roles
+  * Server-side permission enforcement
+  * Staging and production environments
+  * Encrypted daily backups
+  * Error logging and monitoring
+  * Core audit-trail infrastructure
+  
+  ### Pricing & Admin Controls
+  
+  * Funding amount
+  * Factor rate
+  * Term inputs
+  * Origination fees
+  * Holdback percentage
+  * Buy-rate field with admin-only visibility
+  * True average revenue
+  * Product presets
+  * Editable pricing/rate controls
+  
+  ### Full Offer Calculator & Commission Engine
+  
+  * Automatic payback calculation
+  * Daily, weekly and monthly payment calculations
+  * Term displayed in days/weeks/months
+  * Live percentage calculation
+  * Amount, term and rate sliders
+  * Slider floors and ceilings
+  * Term restrictions
+  * Server-side direction-lock validation
+  * Hard floor blocking
+  * Live commission calculation
+  * Configurable commission formula
+  * Fee reductions feeding the calculation engine
+  * Approved baseline vs. adjusted offer
+  * Threshold-based approval routing
+  * Calculation/version history
+  * Validation and error messaging
+  * Every calculation stored without overwriting previous calculations
+  
+  ### Initial Offer Creation
+  
+  * Create/manage merchants
+  * Create deals
+  * Build offers through the calculator
+  * Save offers
+  * Enforce pricing boundaries
+  * Keep internal buy rate hidden from reps
+  
+  This essentially brings the client to the point where **he can actually log into the platform, create a merchant/deal and build a real offer using his rules**. The database, roles and security foundation are also established from the beginning. These elements are all within the original Secure Core scope. 
+  
+  ---
+  
+  # PHASE 2 — CRM, OFFER DELIVERY & REPORTING
+  
+  ### **$3,000 USD**
+  
+  Once Phase 1 is approved, we complete the business-facing functionality.
+  
+  ### Offer Documents & Delivery
+  
+  * Branded offer document
+  * PDF generation
+  * Client-facing terms/disclosures
+  * Email delivery from the client's domain
+  * Unique tracked offer links
+  * Open/view tracking
+  * Offer expiry dates
+  * Offer version/history
+  
+  
+  
+  ### Merchant CRM & Pipeline
+  
+  * Merchant business records
+  * Contacts, phone numbers and email addresses
+  * Deal pipeline
+  * Custom pipeline stages
+  * Drag-and-drop stage management
+  * Offers linked to deals
+  * Notes and call logs
+  * Activity history
+  * Document uploads
+  * Tasks and follow-up reminders
+  * Advanced search/filtering
+  * Duplicate merchant detection
+  * Bulk record import
+  * CSV exports
+  
+  
+  
+  ### Dashboard & Reporting
+  
+  * Offers created/sent dashboard
+  * Opened/accepted offer tracking
+  * Rep performance comparison
+  * Commission owed per rep and period
+  * Average factor rate
+  * Average term
+  * Average deal size
+  * Funded volume
+  * Pipeline value by stage
+  * Discount analysis
+  * Date-range filters
+  * CSV reporting
+  
+  
+  
+  So after **Phase 2**, the client has essentially the **complete day-to-day business platform** rather than just the calculator.
+  
+  ---
+  
+  # PHASE 3 — SECURITY, QA, HANDOVER & LAUNCH
+  
+  ### **$1,900 USD**
+  
+  This is the final completion phase.
+  
+  ### Security & Hardening
+  
+  * Formal security review
+  * Encryption at rest for sensitive information
+  * SSL/security headers
+  * Server hardening
+  * Firewall rules
+  * Role-by-role permission testing
+  * Document-storage access audit
+  * Brute-force/rate-limit protection
+  * Backup/restore rehearsal
+  * Monitoring and alerting
+  
+  ### Calculation & Functional QA
+  
+  * Historical offer testing
+  * Payback/payment reconciliation
+  * Commission verification
+  * Floor/ceiling boundary testing
+  * Rounding validation
+  * Edge-case testing
+  * Cross-browser testing
+  * Mobile testing
+  * Load testing
+  
+  ### Final Handover & Launch
+  
+  * Deployment to client's server/domain
+  * Credential transfer
+  * Developer-access removal
+  * Access review
+  * Source code handover
+  * Database handover
+  * Technical documentation
+  * Admin training
+  * Sales-rep training
+  * 1 month priority support
+  
+  These correspond to the original Plan 1 Modules 7–9 and keep the final phase focused on **making the already-built system secure, verified and fully owned by the client**. 
+  
+  ---
+  
+  ## 💰 Final Pricing
+  
+  **Phase 1 — $4,600**
+  Core Platform + Database + Roles + Pricing Controls + Complete Calculator + Commission Engine
+  
+  **Phase 2 — $3,000**
+  Offer Delivery + Tracking + Expiry + CRM + Pipeline + Dashboard + Reporting
+  
+  **Phase 3 — $1,900**
+  Security Hardening + QA + Testing + Deployment + Handover + Training
+  
+  ### **TOTAL = $9,500 USD**
+  
+  I think **$4,600 / $3,000 / $1,900** is the strongest split. It makes Phase 1 substantial enough that the client can genuinely evaluate your work, while Phase 2 delivers the operational features and Phase 3 cleanly closes out the project.
+  
+  And importantly, we're still staying **strictly within the original Plan 1 / Secure Core scope**—we're not sneaking Plan 2 inbox integration or Plan 3 contract/DocuSign functionality into the $9,500. 
+  
+  [LMB]
+
+--- WINDOW  2026-08-22 00:21:52  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:21:54  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:21:54  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:22:01  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:22:16  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:24:02  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]cc
+  [Clipboard]
+  
+  hamidjarouche
+  
+  22 Aug, 0:22
+  614-549-2096
+  [LMB]
+
+--- WINDOW  2026-08-22 00:24:19  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:24:20  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:24:20  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:25:09  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  looking w[Bk]forward to work with you as well[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  WE HAVE YOUR BACK
+  
+  For added safety and your protection, keep payments and communications within Fiverr. Learn more
+  
+  C
+  clamille
+  
+  21 Aug, 23:26
+  💻 Hey Shreyansh Singh, I'm looking for website development work for wordpress
+  
+  This message relates to:
+  
+  Related item image
+  I will create wordpress website design, redesign, ecommerce website development
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 23:26
+  Hi! clamille  
+  You’ve officially reached the 🏅 #1 Expert on Fiverr!
+  
+  You haven’t just messaged a developer; you’ve contacted the ✅ #1 Ranked Top Rated Seller in Website Development on this platform which is why premium brands choose us over thousands of other agencies.
+  
+  🎬 https://www.youtube.com/@DigitalMarketingHeroes
+  We are the team behind✅ 2.5 MILLION Subscribers on our YouTube channel, where we teach the world how to build and scale million-dollar brands. When you work with us, you get the same expertise trusted by global industry leaders like Hostinger, Loox, Minea and 2000+ More.
+  
+  Why you can stop your search here:
+  -Unmatched Authority
+  -Your Vision, Perfected: We want you to point out every single inch of detail you desire. We build for your brand, and we offer unlimited revisions until it is 100% perfect.
+  -Zero Risk: We provide full support until you are 100% happy and satisfied.
+  
+  Take a look at what we deliver: 
+  👉 Our Brand Deck & Portfolio: https://portfolio.digitalheroes.co.in
+  
+  Now, you can officially 😴 SIT BACK and RELAX. You are in the best hands in the industry. Please share your project details or check out our portfolio above this will help us clarify your requirements and move forward quickly to exceed your expectations!
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 23:26
+  Hi, How are you?
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 23:26
+  Sure can help you ,Could you share me a reference website that aligns with your vision?
+  
+  C
+  clamille
+  
+  21 Aug, 23:27
+  do you have wordpress and woocommerce
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 23:29
+  Wordpress sites
+   https://tandoore.de/
+  https://clearedgehauling.com/
+  https://nbssupportinc.org/
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 23:29
+  Please have a look through these there are many wordpress related websites the work is gong on so these are the few examples built on the basis of the client's vision.
+  
+  Edited
+  
+  C
+  clamille
+  
+  22 Aug, 0:12
+  is woocommerce comes with it as well?
+  
+  S
+  Profile Image
+  Me
+  
+  22 Aug, 0:15
+  yes :)
+  
+  S
+  Profile Image
+  Me
+  
+  22 Aug, 0:17
+  would you like us to handle the design as well?
+  
+  C
+  clamille
+  
+  22 Aug, 0:19
+  how much?
+  
+  C
+  clamille
+  
+  22 Aug, 0:19
+  wjat is the best ecommerce paltform?
+  cc
+  [LMB]
+
+--- WINDOW  2026-08-22 00:29:10  [msedge.exe] Proposal Phase Breakdown and 15 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:29:12  [msedge.exe] New tab and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  ch[ENTER]
+
+--- WINDOW  2026-08-22 00:29:14  [msedge.exe] ChatGPT: Chat, Work, Create & Code with AI and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [Ctrl]v
+
+--- WINDOW  2026-08-22 00:29:15  [msedge.exe] ChatGPT and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [ENTER]
+  [ENTER]
+  say shopify and 
+  [LMB]
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026-08-22 00:29:54  [msedge.exe] Compare Ecommerce Platforms and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:29:54  [msedge.exe] Shopify E-commerce Recommendation and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  ==[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  Shopify is built specifically for e-commerce, so it’s generally the platform I’d recommend for an online store. WooCommerce is also a strong e-commerce option, but I personally lean more toward Shopify because of its SEO, CRO, performance, security, and overall e-commerce ecosystem.
+  c
+
+--- WINDOW  2026-08-22 00:30:04  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:30:04  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026-08-22 00:30:05  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:30:13  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:30:13  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:30:14  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  yes[ENTER]
+
+--- WINDOW  2026-08-22 00:30:23  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:30:23  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:30:23  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  hi, checking in as i found that you haven't accepted the offer is there any reason/[Bk][Bk]n or o[Bk]concern/[ENTER]
+
+--- WINDOW  2026-08-22 00:31:28  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:31:28  [msedge.exe] Shopify E-commerce Recommendation and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:31:30  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:31:30  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:31:33  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:31:33  [chrome.exe] (80) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:31:33  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:31:36  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  yes the meet link is sharedcould you please join themeet link 
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:31:52  [chrome.exe] Untitled - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:31:53  [chrome.exe] Meet - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:31:55  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  https://meet.google.com/twd-hjtu-bat
+  c
+  [LMB]
+
+--- WINDOW  2026-08-22 00:31:58  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:31:58  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]
+
+--- WINDOW  2026-08-22 00:32:03  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  v[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:32:05  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:32:07  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:32:10  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  okay let me in[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:32:19  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:32:20  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:32:21  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:32:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:32:48  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:32:51  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 23:41
+  Also, I noticed that WebFX has a dedicated case studies/results section showcasing their previous client work. Would you like your website to have a similar case studies/results section where you can showcase your past projects, client results, and success stories?
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 23:55
+  Are you still with me?
+  
+  S
+  shelby_eads
+  
+  22 Aug, 0:25
+  I’d like it to be the four pages 
+  Home page 
+  About 
+  Services 
+  Contact us
+  
+  
+  ccc
+  [LMB]
+
+--- WINDOW  2026-08-22 00:34:08  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:34:08  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:34:08  [msedge.exe] Shopify E-commerce Recommendation and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:34:10  [msedge.exe] Website Pricing Reply and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [ENTER]
+  [ENTER]
+  okay got it [ENTER]
+  cv
+
+--- WINDOW  2026-08-22 00:34:23  [explorer.exe] CopilotkeyFocusWindow
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:34:23  [msedge.exe] Website Pricing Reply and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:34:24  [mscopilot.exe] Copilot
+----------------------------------------------------------------------------
+  v
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:34:27  [msedge.exe] Website Pricing Reply and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:34:32  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:34:32  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:34:32  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:34:32  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  ok[Bk][Bk][Bk]
+
+--- WINDOW  2026-08-22 00:34:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:34:37  [msedge.exe] Website Pricing Reply and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  v
+  [LMB]
+  [Clipboard]
+  Wordpress, WooCommerce features reference
+  
+  Here's what we will be going to provide you:
+  
+  ◉ PREMIUM FRONT-END TRANSFORMATION
+  • Transform the current flat, static experience into a premium, interactive website
+  • Framer-inspired motion design and micro-interactions
+  • Clean GSAP, Custom CSS, and JavaScript implementation
+  • Premium, subtle animations that feel luxurious rather than distracting
+  • Consistent animation language across all pages
+  • Fully responsive experience across desktop, tablet, and mobile
+  
+  ◉ HOMEPAGE PREMIUM EXPERIENCE
+  • Cinematic hero section animations
+  • Scroll-triggered content reveals
+  • Staggered text and image animations
+  • Smooth section transitions
+  • Animated trust indicators and guarantee sections
+  • Marquee/ticker trust bar animations
+  • Dynamic CTA interactions
+  • Premium hover effects and micro-interactions
+  • Scroll progress indicators (optional)
+  • Advanced section entrance animations
+  
+  ◉ PRODUCT DETAIL PAGE (HIGHEST PRIORITY)
+  • Premium image carousel transitions
+  • Sticky Add-to-Cart interactions
+  • Product gallery animations
+  • Scroll-triggered content reveals
+  • Smooth tab switching animations
+  • Animated specification sections
+  • Premium comparison tables
+  • Trust badge pulse animations
+  • Subscription plan interaction effects
+  • Bundle selection animations
+  • Dynamic pricing transitions
+  • Quantity selector interactions
+  • Cross-sell recommendation animations
+  • Recently viewed products section
+  • Smooth Add-to-Cart feedback animations
+  
+  ◉ ADVANCED PRODUCT STORYTELLING
+  • Section-by-section product storytelling reveals
+  • Animated ingredients and benefits presentation
+  • Science-backed feature sections
+  • Progressive content loading
+  • Before-and-after visual sections
+  • Interactive comparison experiences
+  • Benefit highlight animations
+  
+  ◉ SHOP ALL & COLLECTION EXPERIENCE
+  • Premium product grid animations
+  • Product card hover-lift effects
+  • Smooth shadow transitions
+  • Category navigation animations
+  • Collection filtering transitions
+  • Search experience enhancements
+  • Quick-view interactions (if required)
+  • Infinite scroll or load-more animations (optional)
+  
+  
+  ◉ MEMBERSHIP EXPERIENCE
+  • 3D Vanilla Tilt effects
+  • Interactive membership cards
+  • Premium pricing section animations
+  • Membership comparison interactions
+  • Dynamic plan highlighting
+  • Subscription CTA enhancements
+  
+  ◉ FAQ & INFORMATION PAGES
+  • Smooth accordion animations
+  • Scroll reveal effects
+  • Interactive content blocks
+  • Premium transitions between sections
+  • Enhanced readability and information hierarchy
+  
+  ◉ ADVANCED CRO (CONVERSION RATE OPTIMIZATION)
+  • Strategic CTA placements
+  • Purchase psychology implementation
+  • Visual attention guidance
+  • Reduced conversion friction
+  • Enhanced trust positioning
+  • Optimized customer journey flows
+  • Premium conversion-focused interactions
+  • Exit-intent readiness
+  • Sticky conversion elements
+  • Mobile-first conversion optimization
+  • Enhanced subscription conversion flow
+  • Conversion-focused PDP architecture
+  
+  ◉ PREMIUM MICRO-INTERACTIONS
+  • Cyan glow hover effects
+  • Button pulse animations
+  • Cursor interactions (optional)
+  • Image zoom effects
+  • Card lifting and floating effects
+  • Icon interactions
+  • Loading state animations
+  • Form interaction animations
+  • Navigation transitions
+  • Hover feedback throughout the website
+  
+  ◉ PERFORMANCE & TECHNICAL ARCHITECTURE
+  • Lightweight code implementation
+  • Clean GSAP architecture
+  • Minimal dependency approach
+  • Core Web Vitals optimization
+  • Browser compatibility testing
+  • Animation performance optimization
+  • Lazy loading implementation
+  • Optimized script execution
+  
+  ◉ WORDPRESS & WOOCOMMERCE ENHANCEMENTS
+  • Existing WooCommerce functionality preserved
+  • Plugin conflict prevention
+  • Future scalability planning
+  • Theme compatibility assurance
+  • WooCommerce performance optimization
+  • Checkout experience optimization
+  
+  ◉ E-MAIL & RETENTION SYSTEM
+  • Newsletter integrations
+  • Klaviyo or Mailchimp integration support
+  • Abandoned cart recovery integrations
+  • Subscription email flow readiness
+  • Lead capture optimization
+  • Email popup interaction design
+  
+  ◉ SEO & TECHNICAL FOUNDATION
+  • SEO-friendly implementation
+  • Heading structure optimization
+  • Image optimization
+  • Speed optimization
+  • Mobile SEO optimization
+  • Search engine-friendly architecture
+  
+  ◉ ANALYTICS & TRACKING
+  • Google Analytics integration support
+  • Google Tag Manager readiness
+  • Conversion tracking preparation
+  • Heatmap integration readiness
+  • Customer behavior tracking preparation
+  • Funnel tracking support
+  
+  ◉ POST-LAUNCH SUPPORT
+  • Full deployment assistance
+  • Priority bug fixes
+  • Up to 6 months of post-launch support
+  
+  
+  please use this as reference format and provide features for this client
+   in 3000 characters[ENTER]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  ◉ PREMIUM WEBSITE DESIGN & DEVELOPMENT
+  • Build a professional, modern WordPress website tailored specifically to your marketing business
+  • Clean, premium design inspired by the reference websites you shared (WebFX & Logical Position)
+  • Custom visual direction aligned with your brand and target audience
+  • Fully responsive experience across desktop, tablet, and mobile
+  • User-friendly navigation and clear information hierarchy
+  • Conversion-focused layouts with strategically placed CTAs
+  
+  ◉ HOMEPAGE EXPERIENCE
+  • Premium hero section introducing your marketing business
+  • Clear overview of your core marketing services
+  • Strong “Get Started” / “Get in Touch” call-to-action sections
+  • Trust-building sections highlighting your expertise and value
+  • Service highlights with clear navigation to individual offerings
+  • Engaging scroll animations and subtle micro-interactions
+  • Mobile-optimized homepage experience
+  
+  ◉ ABOUT PAGE
+  • Professional company/brand introduction
+  • Business story, mission, vision, and values
+  • Founder/team introduction if required
+  • Expertise and differentiators section
+  • Trust-building content and visual presentation
+  • Strategic CTA encouraging visitors to get in touch
+  
+  ◉ SERVICES PAGE
+  • Organized presentation of all marketing services offered
+  • Clear service categories and descriptions
+  • Dedicated sections for each service
+  • Service-selection experience allowing visitors to identify the service they need
+  • Strategic CTAs for requesting information or starting a conversation
+  • Conversion-focused service presentation
+  • Expandable/interactive service sections where appropriate
+  
+  ◉ CONTACT PAGE
+  • Professional contact/enquiry form
+  • Service selection field so visitors can specify what they need
+  • Name, email, phone, message and relevant project details
+  • Clear contact information and business details
+  • Strong CTA and conversion-focused layout
+  • Spam-protection implementation
+  • Mobile-friendly form experience
+  cc
+
+--- WINDOW  2026-08-22 00:35:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:35:07  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:35:08  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:35:10  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  did you get the meet link /[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:35:27  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]bv[ENTER]
+  [ENTER]
+  [ENTER]
+
+--- WINDOW  2026-08-22 00:35:40  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:35:42  [msedge.exe] Website Pricing Reply and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  ◉ BRANDING & CONTENT SUPPORT
+  • Assistance with establishing the website’s visual direction
+  • Guidance on typography, colors, imagery, and overall brand presentation
+  • Content structure and copy organization for all four pages
+  • Professional presentation of existing business information
+  • Recommendations where additional content is needed
+  
+  ◉ PREMIUM UI & MICRO-INTERACTIONS
+  • Smooth hover effects and button interactions
+  • Scroll-triggered content reveals
+  • Subtle section transitions
+  • Animated service cards and visual elements
+  • Modern navigation and menu interactions
+  • Consistent animation language throughout the website
+  
+  ◉ SEO & PERFORMANCE FOUNDATION
+  • SEO-friendly page structure and heading hierarchy
+  • Optimized images and media
+  • Mobile SEO optimization
+  • Clean WordPress implementation
+  • Performance and loading-speed optimization
+  • Google Analytics integration support
+  • Search-engine-friendly technical foundation
+  
+  ◉ WORDPRESS STABILITY & MAINTENANCE
+  • Properly configured WordPress environment
+  • Theme and plugin compatibility checks
+  • Backup and update management recommendations
+  • Security and performance best practices
+  • Ongoing maintenance available after launch to help prevent updates from affecting the website layout
+  • Priority assistance for website-related issues
+  
+  ◉ LAUNCH & POST-LAUNCH SUPPORT
+  • Complete WordPress deployment assistance
+  • Cross-browser and responsive testing
+  • Final quality assurance across all four pages
+  • Bug fixes and implementation support
+  • Post-launch support to ensure a smooth website handover
+  cc
+
+--- WINDOW  2026-08-22 00:35:50  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:35:50  [explorer.exe] Task Switching
+----------------------------------------------------------------------------
+  [Tab]
+
+--- WINDOW  2026-08-22 00:35:51  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  plea
+
+--- WINDOW  2026-08-22 00:35:54  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  se join thrpugh[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:36:01  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:38:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:38:18  [msedge.exe] Website Pricing Reply and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:38:22  [msedge.exe] Shopify E-commerce Recommendation and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:38:26  [msedge.exe] Proposal Phase Breakdown and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  https://chatgpt.com/c/6a889d17-21fc-83ee-92c7-82b7881ba2b3
+  c
+  [LMB]
+
+--- WINDOW  2026-08-22 00:38:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:38:35  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:38:35  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026-08-22 00:38:53  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:38:53  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:39:25  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:39:26  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:39:27  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:39:35  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:39:35  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:39:36  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:39:36  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:39:38  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:39:38  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:39:39  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:39:39  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:39:41  [chrome.exe] meet.google.com wants to
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:39:44  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:40:50  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  meet record kro[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:41:01  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+  g
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:43:02  [chrome.exe] (80) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:43:02  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:43:08  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [Clipboard]
+  https://meet.google.com/twd-hjtu-bat
+  [LMB]
+  [Ctrl]v[ENTER]
+  [LMB]
+  l[Bk]allow sir in[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:43:33  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:44:28  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:44:28  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  he will[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:44:39  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 00:47:41  [chrome.exe] (80) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:47:41  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:47:44  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  mai handlekr rahi [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:47:57  [chrome.exe] Meet – twd-hjtu-bat - Google Chrome
+----------------------------------------------------------------------------
+  g
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:58:22  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:58:23  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  woooohhhh[ENTER]
+  36000[ENTER]
+  3600 , 3000 , 2500[ENTER]
+  outside fic[Bk]verr[ENTER]
+  pp[Bk][Bk]3 phase[ENTER]
+  what do we say [ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:59:16  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:59:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 00:59:26  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  okieeeee[ENTER]
+  no okieeeeee[ENTER]
+  ookaaaaa[ENTER]
+
+--- WINDOW  2026-08-22 00:59:47  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:59:47  (no active window)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 00:59:47  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]cc
+  [Clipboard]
+  WE HAVE YOUR BACK
+  
+  For added safety and your protection, keep payments and communications within Fiverr. Learn more
+  
+  S
+  shelby_eads
+  
+  21 Aug, 19:03
+  Custom Order Request
+  
+  Specification
+  
+  Budget US$300
+  
+  7 days delivery (28 Aug 2026)
+  
+  Criteria
+  
+  Hi Sir, I am a marketing freelancer who is looking to build a website for my marketing business. I was curious on how much it would cost to create a website for me and keep up with maintance of the website on going (if you offer that) I've created website on WordPress before and had troubles keeping up with the updates on WordPress so it would end up messing up the layout etc.. trying to avoid that. Thank you!
+  
+  Also was curious to see if you do organic posting on Facebook / Instagram? If so, costs on that as well...
+  
+  
+  Thank you sir!
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:04
+  Hi! shelby_eads  
+  You’ve officially reached the 🏅 #1 Expert on Fiverr!
+  
+  You haven’t just messaged a developer; you’ve contacted the ✅ #1 Ranked Top Rated Seller in Website Development on this platform which is why premium brands choose us over thousands of other agencies.
+  
+  🎬 https://www.youtube.com/@DigitalMarketingHeroes
+  We are the team behind✅ 2.5 MILLION Subscribers on our YouTube channel, where we teach the world how to build and scale million-dollar brands. When you work with us, you get the same expertise trusted by global industry leaders like Hostinger, Loox, Minea and 2000+ More.
+  
+  Why you can stop your search here:
+  -Unmatched Authority
+  -Your Vision, Perfected: We want you to point out every single inch of detail you desire. We build for your brand, and we offer unlimited revisions until it is 100% perfect.
+  -Zero Risk: We provide full support until you are 100% happy and satisfied.
+  
+  Take a look at what we deliver: 
+  👉 Our Brand Deck & Portfolio: https://portfolio.digitalheroes.co.in
+  
+  Now, you can officially 😴 SIT BACK and RELAX. You are in the best hands in the industry. Please share your project details or check out our portfolio above this will help us clarify your requirements and move forward quickly to exceed your expectations!
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:04
+  hi how are you ?
+  
+  S
+  shelby_eads
+  
+  21 Aug, 19:05
+  hi sir, I am well and yourself?
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:07
+  great , let me review your brief and get back to you shortly
+  
+  S
+  shelby_eads
+  
+  21 Aug, 19:08
+  Awesome to hear. Okay sounds good, thanks so much!
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:12
+  For the website, do you already have the content and branding ready, or would you like us to help with those as well?
+  
+  S
+  shelby_eads
+  
+  21 Aug, 19:21
+  I'd like help with that as well
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:30
+  Unfortunately, we don’t offer organic Facebook/Instagram posting services. Our focus is primarily on website development and e-commerce solutions.
+  
+  S
+  shelby_eads
+  
+  21 Aug, 19:41
+  Ok no problem, I'd still be interested in website development and e commerce's pricing
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:45
+  would you like the website to be a standard marketing/business website, or do you also need e-commerce features like products, cart, and checkout?
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 19:47
+  could you also let me know approximately how many pages you’d like on the website
+  
+  S
+  shelby_eads
+  
+  21 Aug, 21:57
+  Standard website - allowing people to choose what service they’d like to choose from. Thinking 4 pages
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 22:02
+  Okay and also can you share me your old website to get an idea of the design and if you have a reference website please share them as well
+  
+  S
+  shelby_eads
+  
+  21 Aug, 23:23
+  No prior website created yet would be first time, open to your suggestions. Webfx website and Logicial position is two website I really like
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 23:26
+  Sure will be looking through them can you tell me the number of pages you will be going with and also what will those pages be ?
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 23:28
+  Are you looking for all these pages/sections as well  Services, Pricing, Results, Resources, Blog, Company (About, Team, Newsroom, Community, Careers), and Contact/Get in Touch  or would you prefer to keep the website limited to the 4 core pages we discussed as logicalposition.com?
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 23:41
+  Also, I noticed that WebFX has a dedicated case studies/results section showcasing their previous client work. Would you like your website to have a similar case studies/results section where you can showcase your past projects, client results, and success stories?
+  
+  S
+  Profile Image
+  Me
+  
+  21 Aug, 23:55
+  Are you still with me?
+  
+  S
+  shelby_eads
+  
+  22 Aug, 0:25
+  I’d like it to be the four pages 
+  Home page 
+  About 
+  Services 
+  Contact us
+  
+  S
+  Profile Image
+  Me
+  
+  22 Aug, 0:35
+  ◉ PREMIUM WEBSITE DESIGN & DEVELOPMENT
+  • Build a professional, modern WordPress website tailored specifically to your marketing business
+  • Clean, premium design inspired by the reference websites you shared (WebFX & Logical Position)
+  • Custom visual direction aligned with your brand and target audience
+  • Fully responsive experience across desktop, tablet, and mobile
+  • User-friendly navigation and clear information hierarchy
+  • Conversion-focused layouts with strategically placed CTAs
+  
+  ◉ HOMEPAGE EXPERIENCE
+  • Premium hero section introducing your marketing business
+  • Clear overview of your core marketing services
+  • Strong “Get Started” / “Get in Touch” call-to-action sections
+  • Trust-building sections highlighting your expertise and value
+  • Service highlights with clear navigation to individual offerings
+  • Engaging scroll animations and subtle micro-interactions
+  • Mobile-optimized homepage experience
+  
+  ◉ ABOUT PAGE
+  • Professional company/brand introduction
+  • Business story, mission, vision, and values
+  • Founder/team introduction if required
+  • Expertise and differentiators section
+  • Trust-building content and visual presentation
+  • Strategic CTA encouraging visitors to get in touch
+  
+  ◉ SERVICES PAGE
+  • Organized presentation of all marketing services offered
+  • Clear service categories and descriptions
+  • Dedicated sections for each service
+  • Service-selection experience allowing visitors to identify the service they need
+  • Strategic CTAs for requesting information or starting a conversation
+  • Conversion-focused service presentation
+  • Expandable/interactive service sections where appropriate
+  
+  ◉ CONTACT PAGE
+  • Professional contact/enquiry form
+  • Service selection field so visitors can specify what they need
+  • Name, email, phone, message and relevant project details
+  • Clear contact information and business details
+  • Strong CTA and conversion-focused layout
+  • Spam-protection implementation
+  • Mobile-friendly form experience
+  
+  S
+  shelby_eads
+  
+  22 Aug, 0:36
+  100% yrs that’s what I’m looking for
+  
+  S
+  Profile Image
+  Me
+  
+  22 Aug, 0:39
+  I’m glad we’re aligned!
+  
+  
+  ccc
+
+--- WINDOW  2026-08-22 01:00:24  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:00:25  [chrome.exe] Client proposal pricing with support tiers - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 01:00:26  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 01:00:29  [chrome.exe] Client proposal pricing with support tiers - Claude - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:00:34  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:00:34  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 01:00:37  [chrome.exe] Client proposal pricing with support tiers - Claude - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]vproposal for 1200 , 1800 , 2400
+
+--- WINDOW  2026-08-22 01:00:59  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:00:59  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 01:01:04  [chrome.exe] Client proposal pricing with support tiers - Claude - Google Chrome
+----------------------------------------------------------------------------
+   for 20 , 25 , 30 words 1 mon , 2 mons , 3 mons[ENTER]
+  [LMB]
+
+--- WINDOW  2026-08-22 01:01:23  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  ask
+  [LMB]
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk][ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  hi, how are you/[ENTER]
+  [LMB]
+  could ou [Bk][Bk][Bk]you share me a reference tre[Bk][Bk][Bk]sr[Bk]tore that align wth your vision/[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  ask
+  [LMB]
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk][ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 01:04:34  [msedge.exe] Proposal Phase Breakdown and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 01:04:37  [msedge.exe] Shopify Quote Response and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 01:04:39  [msedge.exe] Client Requirements Brief and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:04:40  [msedge.exe] ChatGPT and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:04:46  [msedge.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:04:50  [msedge.exe] ChatGPT and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 01:04:50  [msedge.exe] Shopify Quote Response and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 01:04:52  [msedge.exe] Website Pricing Reply and 16 more pages - Personal - Microsoft​ Edge
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]c
+  [Clipboard]
+  ◉ BRANDING & CONTENT SUPPORT
+  • Assistance with establishing the website’s visual direction
+  • Guidance on typography, colors, imagery, and overall brand presentation
+  • Content structure and copy organization for all four pages
+  • Professional presentation of existing business information
+  • Recommendations where additional content is needed
+  
+  ◉ PREMIUM UI & MICRO-INTERACTIONS
+  • Smooth hover effects and button interactions
+  • Scroll-triggered content reveals
+  • Subtle section transitions
+  • Animated service cards and visual elements
+  • Modern navigation and menu interactions
+  • Consistent animation language throughout the website
+  
+  ◉ SEO & PERFORMANCE FOUNDATION
+  • SEO-friendly page structure and heading hierarchy
+  • Optimized images and media
+  • Mobile SEO optimization
+  • Clean WordPress implementation
+  • Performance and loading-speed optimization
+  • Google Analytics integration support
+  • Search-engine-friendly technical foundation
+  
+  ◉ WORDPRESS STABILITY & MAINTENANCE
+  • Properly configured WordPress environment
+  • Theme and plugin compatibility checks
+  • Backup and update management recommendations
+  • Security and performance best practices
+  • Ongoing maintenance available after launch to help prevent updates from affecting the website layout
+  • Priority assistance for website-related issues
+  
+  ◉ LAUNCH & POST-LAUNCH SUPPORT
+  • Complete WordPress deployment assistance
+  • Cross-browser and responsive testing
+  • Final quality assurance across all four pages
+  • Bug fixes and implementation support
+  • Post-launch support to ensure a smooth website handover
+  cc
+  [LMB]
+
+--- WINDOW  2026-08-22 01:05:08  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  9upto 2[Bk]3 months0[ENTER]
+  please look through these features nd let me know if we are aligned or if there is anything else ot be [Bk][Bk][Bk][Bk][Bk][Bk]to be added as well
+  [LMB]
+  [<-]a
+  [LMB]
+  [Ctrl]a[Bk]
+  [LMB]
+
+--- WINDOW  2026-08-22 01:07:11  [PSExpressCore.exe] ScreenshotWindow
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 01:07:16  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:07:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 01:07:18  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v[ENTER]
+
+--- WINDOW  2026-08-22 01:07:31  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:07:31  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 01:08:18  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 01:08:19  [chrome.exe] (79) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:08:20  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026-08-22 01:09:36  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:09:36  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:09:38  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:09:38  [WindowsTerminal.exe] Windows Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:09:38  [WindowsTerminal.exe] Terminal
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:09:39  [WindowsTerminal.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:09:39  [chrome.exe] (78) WhatsApp - Google Chrome
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:11:06  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:11:06  [chrome.exe] Client Success 5 - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026-08-22 01:11:17  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026-08-22 01:11:17  [chrome.exe] Client proposal pricing with support tiers - Claude - Google Chrome
+----------------------------------------------------------------------------
