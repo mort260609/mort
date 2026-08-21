@@ -1,0 +1,1000 @@
+﻿  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  10
+  [LMB]
+  10
+  [LMB]
+  10
+  [LMB]
+  10
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk]10
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  10
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  80
+  [LMB]
+  [LMB]
+  80
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 19:41:36  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:41:36  [chrome.exe] WhatsApp Web
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Clipboard]
+  # POLÍTICA DE PRIVACIDAD
+  
+  ## ASERE TAXIS
+  
+  **Versión:** 1.0
+  **Fecha de entrada en vigor:** __________________
+  **Última actualización:** __________________
+  
+  ---
+  
+  # 1. INTRODUCCIÓN
+  
+  En **Asere Taxis** respetamos la privacidad de nuestros usuarios y nos comprometemos a manejar su información de manera responsable, transparente y segura.
+  
+  Esta Política de Privacidad explica qué información podemos recopilar, para qué la utilizamos, cómo podemos compartirla, cómo la protegemos y qué opciones tiene el usuario respecto de su información.
+  
+  Esta Política se aplica a los usuarios pasajeros, conductores afiliados y demás personas que utilicen la aplicación, el sitio web o los servicios digitales de Asere Taxis.
+  
+  Al registrarse o utilizar nuestros servicios, el usuario reconoce haber leído esta Política de Privacidad.
+  
+  ---
+  
+  # 2. INFORMACIÓN QUE RECOPILAMOS
+  
+  Dependiendo de cómo utilice la plataforma, Asere Taxis podrá recopilar diferentes categorías de información.
+  
+  ## 2.1 Información de pasajeros
+  
+  Podemos recopilar:
+  
+  * Nombre y apellidos.
+  * Número de teléfono.
+  * Dirección de correo electrónico.
+  * Información de la cuenta.
+  * Ubicación.
+  * Historial de viajes.
+  * Información relacionada con solicitudes de servicio.
+  * Información necesaria para procesar pagos.
+  * Comunicaciones realizadas con soporte.
+  * Información que el usuario decida proporcionar voluntariamente.
+  
+  ---
+  
+  # 2.2 Información de conductores
+  
+  Los conductores podrán proporcionar información adicional necesaria para su verificación y operación dentro de la plataforma, incluyendo:
+  
+  * Nombre completo.
+  * Documento de identidad.
+  * Número de teléfono.
+  * Correo electrónico.
+  * Dirección.
+  * Licencia de conducir.
+  * Información del vehículo.
+  * Matrícula.
+  * Documentación requerida para operar.
+  * Fotografías del conductor.
+  * Fotografías del vehículo.
+  * Información relacionada con pagos.
+  * Historial de servicios.
+  * Información relacionada con incidencias o reclamaciones.
+  
+  La información de los conductores podrá ser verificada antes de autorizar su acceso a la plataforma.
+  
+  ---
+  
+  # 3. INFORMACIÓN DE UBICACIÓN
+  
+  La ubicación es una parte esencial del funcionamiento de una plataforma de transporte.
+  
+  Cuando el usuario autorice el acceso a la ubicación, Asere Taxis podrá utilizar información de ubicación para:
+  
+  * Permitir solicitar un viaje.
+  * Determinar la ubicación del pasajero.
+  * Mostrar la ubicación del conductor.
+  * Facilitar la asignación de viajes.
+  * Calcular distancias y tiempos aproximados.
+  * Facilitar la navegación.
+  * Mejorar la seguridad.
+  * Investigar incidencias relacionadas con un viaje.
+  * Mejorar el funcionamiento de la plataforma.
+  
+  El usuario puede administrar los permisos de ubicación desde la configuración de su dispositivo.
+  
+  Si el usuario desactiva determinados permisos, algunas funciones de la aplicación podrían dejar de estar disponibles.
+  
+  ---
+  
+  # 4. INFORMACIÓN DEL DISPOSITIVO Y USO DE LA APLICACIÓN
+  
+  La aplicación podrá recopilar determinada información técnica necesaria para su funcionamiento, incluyendo, cuando corresponda:
+  
+  * Tipo de dispositivo.
+  * Sistema operativo.
+  * Versión de la aplicación.
+  * Identificadores técnicos.
+  * Dirección IP.
+  * Información sobre errores o fallos.
+  * Información relacionada con el uso de determinadas funciones.
+  
+  Esta información podrá utilizarse para mantener, proteger, diagnosticar y mejorar la aplicación.
+  
+  ---
+  
+  # 5. INFORMACIÓN DE VIAJES
+  
+  Asere Taxis podrá almacenar información relacionada con los servicios solicitados o realizados mediante la plataforma, incluyendo:
+  
+  * Fecha y hora.
+  * Lugar de recogida.
+  * Destino.
+  * Ruta.
+  * Conductor asignado.
+  * Pasajero asociado al servicio.
+  * Estado del viaje.
+  * Importe correspondiente al servicio.
+  * Cancelaciones.
+  * Incidencias y reclamaciones.
+  
+  Esta información se utiliza para proporcionar el servicio, mantener registros operativos, resolver problemas, mejorar la plataforma y cumplir obligaciones legales cuando corresponda.
+  
+  ---
+  
+  # 6. INFORMACIÓN DE PAGOS
+  
+  Cuando el usuario realice pagos mediante la plataforma, determinados datos podrán ser procesados por proveedores externos especializados en procesamiento de pagos.
+  
+  Asere Taxis procurará limitar el almacenamiento directo de información financiera sensible cuando el procesamiento pueda realizarse mediante proveedores especializados.
+  
+  Los datos de pago podrán utilizarse para:
+  
+  * Procesar transacciones.
+  * Confirmar pagos.
+  * Gestionar reembolsos cuando correspondan.
+  * Detectar operaciones fraudulentas.
+  * Mantener registros contables.
+  
+  Los proveedores externos podrán estar sujetos a sus propias políticas de privacidad.
+  
+  ---
+  
+  # 7. PARA QUÉ UTILIZAMOS LA INFORMACIÓN
+  
+  Asere Taxis podrá utilizar la información recopilada para:
+  
+  1. Crear y administrar cuentas.
+  2. Verificar la identidad de conductores.
+  3. Facilitar viajes.
+  4. Conectar pasajeros con conductores.
+  5. Procesar pagos.
+  6. Proporcionar atención al cliente.
+  7. Resolver reclamaciones.
+  8. Detectar y prevenir fraude.
+  9. Mantener la seguridad de usuarios y conductores.
+  10. Mejorar la aplicación.
+  11. Analizar el funcionamiento de la plataforma.
+  12. Enviar comunicaciones relacionadas con el servicio.
+  13. Enviar comunicaciones promocionales cuando corresponda.
+  14. Cumplir obligaciones legales o responder a solicitudes válidas de autoridades competentes.
+  
+  ---
+  
+  # 8. COMPARTICIÓN DE INFORMACIÓN
+  
+  Asere Taxis podrá compartir información únicamente cuando sea necesario para proporcionar o proteger el servicio, administrar la plataforma o cumplir obligaciones legales.
+  
+  Dependiendo de la situación, la información podrá ser compartida con:
+  
+  * El pasajero o conductor involucrado en un servicio.
+  * Proveedores tecnológicos.
+  * Proveedores de procesamiento de pagos.
+  * Proveedores de almacenamiento y servicios en la nube.
+  * Proveedores de mapas y geolocalización.
+  * Proveedores de comunicaciones.
+  * Personal autorizado de Asere Taxis.
+  * Autoridades competentes cuando exista una obligación legal o solicitud válida.
+  
+  Asere Taxis no venderá los datos personales de los usuarios como una actividad comercial ordinaria.
+  
+  ---
+  
+  # 9. INFORMACIÓN VISIBLE PARA OTROS USUARIOS
+  
+  Para facilitar el funcionamiento del servicio, determinados datos podrán ser mostrados al pasajero o conductor correspondiente.
+  
+  Por ejemplo, un pasajero podrá recibir información del conductor asignado, como:
+  
+  * Nombre.
+  * Fotografía.
+  * Información básica del vehículo.
+  * Matrícula.
+  * Información necesaria para identificar el vehículo.
+  
+  De igual manera, el conductor podrá recibir información necesaria para localizar y prestar el servicio al pasajero.
+  
+  La información compartida estará limitada a lo necesario para el funcionamiento del servicio y la seguridad de las partes.
+  
+  ---
+  
+  # 10. SERVICIOS TECNOLÓGICOS DE TERCEROS
+  
+  Asere Taxis podrá utilizar servicios tecnológicos de terceros para operar la plataforma.
+  
+  Estos servicios pueden incluir:
+  
+  * Servicios de mapas.
+  * Geolocalización.
+  * Infraestructura en la nube.
+  * Bases de datos.
+  * Autenticación.
+  * Notificaciones.
+  * Procesamiento de pagos.
+  * Análisis técnico.
+  * Comunicaciones.
+  
+  Estos proveedores podrán procesar determinada información en nombre de Asere Taxis conforme a las funciones que proporcionen y a sus propias condiciones y políticas aplicables.
+  
+  ---
+  
+  # 11. SEGURIDAD DE LA INFORMACIÓN
+  
+  Asere Taxis implementará medidas técnicas y organizativas razonables destinadas a proteger la información contra:
+  
+  * Acceso no autorizado.
+  * Pérdida.
+  * Alteración.
+  * Divulgación indebida.
+  * Destrucción accidental o ilícita.
+  
+  Sin embargo, ningún sistema conectado a Internet puede garantizar una seguridad absoluta.
+  
+  Por esta razón, los usuarios también deben proteger sus credenciales y evitar compartir contraseñas o códigos de acceso.
+  
+  ---
+  
+  # 12. RETENCIÓN DE INFORMACIÓN
+  
+  Asere Taxis conservará la información durante el tiempo razonablemente necesario para:
+  
+  * Proporcionar los servicios.
+  * Mantener registros operativos.
+  * Resolver reclamaciones.
+  * Prevenir fraude.
+  * Cumplir obligaciones legales.
+  * Resolver disputas.
+  * Proteger los derechos de la empresa y de los usuarios.
+  
+  Cuando la información ya no sea necesaria para estos fines, podrá ser eliminada, anonimizada o almacenada únicamente cuando exista una razón legítima para conservarla.
+  
+  ---
+  
+  # 13. DERECHOS Y SOLICITUDES DEL USUARIO
+  
+  Los usuarios podrán contactar a Asere Taxis para solicitar información sobre los datos personales que la empresa mantiene sobre ellos y, cuando corresponda, solicitar:
+  
+  * Corrección de información incorrecta.
+  * Actualización de información.
+  * Eliminación de información cuando sea posible.
+  * Información sobre el uso de sus datos.
+  * Información sobre determinados terceros que procesen sus datos.
+  
+  Las solicitudes serán evaluadas de acuerdo con la legislación aplicable y con las obligaciones legítimas de Asere Taxis de conservar determinada información.
+  
+  ---
+  
+  # 14. CUENTAS DE MENORES
+  
+  La plataforma no está destinada a personas que no tengan capacidad legal para contratar o utilizar el servicio por sí mismas.
+  
+  Cuando corresponda, los servicios utilizados por menores deberán realizarse bajo la responsabilidad y autorización de sus padres, representantes o tutores legales.
+  
+  Asere Taxis podrá establecer requisitos adicionales relacionados con el transporte de menores por razones de seguridad.
+  
+  ---
+  
+  # 15. COMUNICACIONES
+  
+  Asere Taxis podrá utilizar los datos de contacto del usuario para enviar comunicaciones relacionadas con:
+  
+  * Cuenta.
+  * Viajes.
+  * Pagos.
+  * Seguridad.
+  * Soporte.
+  * Cambios importantes del servicio.
+  * Mantenimiento de la plataforma.
+  
+  Las comunicaciones promocionales estarán sujetas a las opciones disponibles para el usuario y a la legislación aplicable.
+  
+  ---
+  
+  # 16. MARKETING Y PROMOCIONES
+  
+  Cuando corresponda, Asere Taxis podrá utilizar información limitada de los usuarios para realizar comunicaciones comerciales y promocionales.
+  
+  El usuario podrá solicitar dejar de recibir comunicaciones promocionales cuando exista un mecanismo disponible para hacerlo.
+  
+  La solicitud de dejar de recibir publicidad no impedirá necesariamente el envío de comunicaciones esenciales relacionadas con la cuenta o los servicios contratados.
+  
+  ---
+  
+  # 17. TRANSFERENCIAS Y PROCESAMIENTO INTERNACIONAL
+  
+  Algunos proveedores tecnológicos utilizados por Asere Taxis podrían almacenar o procesar información fuera de Surinam.
+  
+  Cuando esto ocurra, Asere Taxis procurará utilizar proveedores confiables y aplicar medidas razonables para proteger la información.
+  
+  El uso de servicios tecnológicos internacionales podrá ser necesario para proporcionar determinadas funciones de la plataforma.
+  
+  ---
+  
+  # 18. COOKIES Y TECNOLOGÍAS SIMILARES
+  
+  El sitio web de Asere Taxis podrá utilizar cookies u otras tecnologías similares para:
+  
+  * Mantener determinadas funciones.
+  * Recordar preferencias.
+  * Analizar el funcionamiento del sitio.
+  * Mejorar la experiencia del usuario.
+  * Medir campañas publicitarias cuando corresponda.
+  
+  Las opciones disponibles dependerán de la tecnología utilizada en cada momento.
+  
+  ---
+  
+  # 19. ENLACES Y SERVICIOS EXTERNOS
+  
+  La plataforma podrá contener enlaces o integraciones con servicios externos.
+  
+  Asere Taxis no controla las políticas de privacidad de terceros.
+  
+  Los usuarios deberán revisar las políticas correspondientes cuando interactúen directamente con servicios externos.
+  
+  ---
+  
+  # 20. CAMBIOS EN ESTA POLÍTICA
+  
+  Asere Taxis podrá actualizar esta Política de Privacidad cuando sea necesario debido a cambios en:
+  
+  * La plataforma.
+  * Los servicios.
+  * La tecnología.
+  * Las prácticas comerciales.
+  * Las obligaciones legales.
+  
+  Cuando los cambios sean relevantes, Asere Taxis podrá comunicarlos mediante la aplicación, el sitio web u otros medios apropiados.
+  
+  La versión vigente estará disponible dentro de la aplicación y/o en el sitio web oficial.
+  
+  ---
+  
+  # 21. CONTACTO
+  
+  Para consultas, solicitudes relacionadas con datos personales o asuntos relacionados con esta Política de Privacidad, el usuario podrá comunicarse con Asere Taxis mediante los canales oficiales publicados en la aplicación y en el sitio web.
+  
+  **Empresa:** Asere Taxi
+  **Representante:** Daniel García Cruz
+  **Correo electrónico:** ______________________________
+  **Teléfono:** _______________________________________
+  **Dirección:** _______________________________________
+  
+  ---
+  
+  # 22. ACEPTACIÓN
+  
+  Al crear una cuenta y utilizar los servicios de Asere Taxis, el usuario declara haber tenido acceso a esta Política de Privacidad y comprender cómo puede ser recopilada y utilizada su información.
+  
+  La aceptación de esta Política de Privacidad no sustituye la aceptación de los **Términos y Condiciones de Asere Taxis**, los cuales constituyen un documento independiente.
+  
+  ---
+  
+  ## CONFIRMACIÓN EN LA APLICACIÓN
+  
+  ☐ **He leído y acepto la Política de Privacidad de Asere Taxis.**
+  
+  ☐ **He leído y acepto los Términos y Condiciones de Asere Taxis.**
+  
+  ---
+  
+  **ASERE TAXIS**
+  
+  **Versión:** 1.0
+  
+  **Fecha de entrada en vigor:** __________________
+  
+  **Última actualización:** __________________
+  
+  **Fin de la Política de Privacidad**
+  [LMB]
+
+--- WINDOW  2026/08/21 19:41:48  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Ctrl]v
+  [LMB]
+  [LMB]
+  [Bk][Bk]
+  [LMB]
+  [Bk][Bk][Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [Bk]
+  [LMB]
+  [LMB]
+  10
+  [LMB]
+  [LMB]
+  10
+  [LMB]
+  10
+  [LMB]
+  10
+  [LMB]
+  [Bk]0
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  ok ahora el boton de aceptar[ENTER]
+  [LMB]
+  [LMB]
+  check
+  [LMB]
+  [Bk]
+  [RMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  chec
+  [LMB]
+  [LMB]
+  +++[Bk][Bk][Bk]10
+  [LMB]
+  [Bk]4[Bk][Bk]14
+  [LMB]
+  [Bk]2
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  150[Bk][Bk][Bk]200[Bk][Bk]50
+  [LMB]
+  50
+  [LMB]
+  [LMB]
+  [LMB]
+  50
+  [LMB]
+  50
+  [LMB]
+  50
+  [LMB]
+  05[Bk][Bk][Bk]50
+  [LMB]
+  20
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [RMB]
+  [LMB]
+  chec
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk]aceptar y continuar
+  [LMB]
+  [Bk][Bk]189[Bk][Bk]18[Bk][Bk][Bk]18
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  condit[Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  a ver condition no esa aqui [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  condi
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  condi
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  cond
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  contr
+  [LMB]
+  aqui[ENTER]
+  [LMB]
+  [Ctrl]
+  [Clipboard]
+  Condition
+  c
+  [LMB]
+  [Ctrl]v
+
+--- WINDOW  2026/08/21 19:52:37  [ShellExperienceHost.exe] Nueva notificación
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:52:37  [explorer.exe] (untitled)
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:52:37  [ApplicationFrameHost.exe] Configuración
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 19:52:40  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  eso no esta[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  aqui[ENTER]
+  [LMB]
+  wig
+  [LMB]
+  [LMB]
+  [LMB]
+  oye espera puedo usar esta misma pantalla pra los conductores tambien o tegno que crear otra pra lo conductores[ENTER]
+  [LMB]
+  lo duplicare mas delante ahora dime coomo configurar esye par alos clienets estoy en la accion true[ENTER]
+  [LMB]
+  espera que eso no fue lo que e[Bk]me dijsite ahoraia estamos en el + de la accion true[ENTER]
+  [LMB]
+  [LMB]
+  mira hora que pongo [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  wig
+  [LMB]
+  mira no aparece[ENTER]
+  [LMB]
+  [LMB]
+  como que rear la cuenta eos no era [ENTER]
+  [LMB]
+  [Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  a ver quecampos aqui no hay nada m[Bk]s q llen[Bk]nar
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 20:01:19  [chrome.exe] Asistente IT para Informático Colaborativo - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 20:01:23  [chrome.exe] ‎Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 20:01:25  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  aqui[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  y para el no,bre[ENTER]
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 20:03:55  [ShellExperienceHost.exe] Nueva notificación
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 20:03:56  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  mar solo me sale check[ENTER]
+
+--- WINDOW  2026/08/21 20:04:55  [ShellExperienceHost.exe] Nueva notificación
+----------------------------------------------------------------------------
+
+--- WINDOW  2026/08/21 20:04:55  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  pero l id lo asigana automaticamente verdad[ENTER]
+  [LMB]
+  y entpnces el correo que esta en l pantalla anterior que paco es 
+  [LMB]
+  pero el correo tambien lo va a escribir en la pantalla ecuerda que se esa cranso la cuenta ahor a[ENTER]
+  y porque si sale el correo y el nombre tengo que hacer mil mierda pa que salga [ENTER]
+  perel correo tamben esa en el textfield de la apntalla anterior [ENTER]
+  pero yo no he eccho ninguna 
+
+--- WINDOW  2026/08/21 20:08:54  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  on
+
+--- WINDOW  2026/08/21 20:08:57  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  connfiguracion par que cando escriban el nombre y el correo vaya a supabase como va a ir [ENTER]
+  [LMB]
+  el nmbre y el correo estan en la pantalla antero[Bk]ior juntos ncojoneeeee[ENTER]
+  de dodnde pinga saco los campos de la pantalla amnterior cojomee eso no lo epxlicas pedazo de anormal [ENTER]
+  [LMB]
+  [LMB]
+  te dije orito[Bk]a que ahi solo sale el check box porque estoy trabajando en el modal que no es la pgina del registro es otra traba bien pingaaaaaa[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  aja si so comoe pinga y eñ re[Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  aa ver que hago aqui[ENTER]
+  [LMB]
+  si pero recuerda qeu el boton tiene que ir prm[Bk][Bk]rimero al modal par que acepten los terminos y condiciones[ENTER]
+  [LMB]
+  ve papi y la contraseñano tiene que graa [ENTER]
+  pero al sigao campo de la contraseña yo o[Bk]no tengo que ponerle nada por arte de magi ala va a guardar[ENTER]
+  [LMB]
+  a vr pingagaaaaaaa cojoneee explñica [Bk][Bk][Bk][Bk][Bk][Bk]lica bien primero que haho[Bk][Bk]go la contraseña el modal supabase que cojone va ñprimero [ENTER]
+  [LMB]
+  pai pero dime que sigao boro[Bk][Bk][Bk]oton tengo que ponerla[Bk][Bk]e ada cosa yo no osy ingor,atico fana aa explciame paso apaso cada boton cada axccionncada singa palabra[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  maaa ahi mo j[Bk]hay autentiifcation[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  aqui[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  mira[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  ccc
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  en el de password no me sale ninguno par aseleccionar esun texfield pero no sale [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  pass[Bk][Bk][Bk][Bk][Bk][Bk]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  asi[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  a  aqui no hay ningun +[ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+  si pero los terminos  condiciones tamien acuerdate pinga[ENTER]
+  [LMB]
+  pero no me estas exlp[Bk][Bk]plicando nada dime que pinga que hacer cerrar esto abriri lo otro o que cojones[ENTER]
+  [LMB]
+  pero si no te he dicho nada del modal ers tu hablanod eso no lo emos configurado solo estamos hacerdo la part e del boton de crear cuenta [ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/21 20:30:46  [chrome.exe] Asistente IT para Informático Colaborativo - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [Clipboard]
+  pero si no te he dicho nada del modal eres tu hablanod eso no lo emos configurado solo estamos hacerdo la part e del boton de crear cuenta 
+  [LMB]
+
+--- WINDOW  2026/08/21 20:30:59  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [Ctrl]v4[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/21 20:31:12  [chrome.exe] Projects - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+
+--- WINDOW  2026/08/21 20:31:24  [chrome.exe] Asistente IT para Informático Colaborativo - Google Gemini - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  y el modaaaaaaalllllllllllllllllllllllllllllllllllllllllllllllllllll[ENTER]
+  [LMB]
+  pero si no quiero pasar los datos en paramar[Bk]etros por eso hicimos esto [ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/21 20:33:45  [chrome.exe] Projects - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+
+--- WINDOW  2026/08/21 20:33:47  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  a ver estoy aqui [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  asereeeeee trabaja ien ya tengo gaas de llorar no puede salir el camb[Bk]po de email rqe eso esta e otra pantalla bro que pasa cntigo[ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  compo
+  [LMB]
+  eso no esta[ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [ENTER]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  [LMB]
+  que pinga es el fluj comol
+
+--- WINDOW  2026/08/21 20:38:55  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
+  e 
+
+--- WINDOW  2026/08/21 20:38:56  [chrome.exe] AsereTaxi - FlutterFlow - Google Chrome
+----------------------------------------------------------------------------
+  [LMB]
+   le pongo la condicio esa [ENTER]
+  [LMB]
+  [LMB]
+  que +[ENTER]
+  [LMB]
+
+--- WINDOW  2026/08/21 20:39:46  [powershell.exe] C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+----------------------------------------------------------------------------
